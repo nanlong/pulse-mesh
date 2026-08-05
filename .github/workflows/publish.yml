@@ -1,9 +1,8 @@
 name: Generate and publish
 
 on:
-  schedule:
-    # 每 15 分钟运行一次，避开整点高峰（UTC）。
-    - cron: '*/15 * * * *'
+  repository_dispatch:
+    types: [pulse-mesh-schedule]
   workflow_dispatch:
     inputs:
       mode:
