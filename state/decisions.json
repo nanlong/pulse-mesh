@@ -9,6 +9,49 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T13:31:46.436Z",
       "bCommitSha": "2dae2413ad5fae2dcba68e5cceec534c005f094a"
+    },
+    "59d35094351dc6a4db61a6add5cc1703f2f8f52ad156b604cbb99a22ee015a58": {
+      "decisionKey": "59d35094351dc6a4db61a6add5cc1703f2f8f52ad156b604cbb99a22ee015a58",
+      "status": "published",
+      "reason": "Real news from Cointelegraph citing CryptoQuant data on whale accumulation during market weakness. Provides specific entities (Bitcoin, Ethereum, XRP), event (whale accumulation), and data source (CryptoQuant). Relevant to crypto market structure and investor sentiment, offering informative value beyond price speculation.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T14:39:40.162Z",
+      "bCommitSha": "09f9af80c9ae07779b6fc3db1eb9ceb218d2eeb2"
+    },
+    "f6a824816a288983156fb2385cfffbdafcb700621eba7d731fd04f71fcf96533": {
+      "decisionKey": "f6a824816a288983156fb2385cfffbdafcb700621eba7d731fd04f71fcf96533",
+      "status": "published",
+      "reason": "This is a real, accessible Cointelegraph article about a concrete Coldcard entropy flaw and its implications for major hardware wallets, which matters directly to crypto users' asset security and provides actionable information.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T14:39:40.162Z",
+      "bCommitSha": "09f9af80c9ae07779b6fc3db1eb9ceb218d2eeb2"
+    },
+    "521e5d0284bde908a6c960bb6602b72df2f4b5a7115bd13e9197b43a1619e0cd": {
+      "decisionKey": "521e5d0284bde908a6c960bb6602b72df2f4b5a7115bd13e9197b43a1619e0cd",
+      "status": "rejected",
+      "reason": "The candidate is a very brief funding announcement with minimal information. The investment amount is vague ('single-digit millions') and described as 'understood', indicating speculation. There are no details on ZIGChain, the deal's terms, or its impact on the crypto industry. Lacks substantive information and clear significance for the audience.",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T14:39:40.162Z"
+    },
+    "54ea594f4f970e00ebb37640476b7a9b7fb205508fbec2b5812ec655ab96313e": {
+      "decisionKey": "54ea594f4f970e00ebb37640476b7a9b7fb205508fbec2b5812ec655ab96313e",
+      "status": "published",
+      "reason": "This is a verifiable news report from Cointelegraph about Galaxy Digital's Q2 2026 financial results, including specific figures ($85M net loss, $8.7B revenue). It reflects market conditions and provides actionable insight for crypto industry participants tracking institutional performance and market health.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T14:39:40.162Z",
+      "bCommitSha": "09f9af80c9ae07779b6fc3db1eb9ceb218d2eeb2"
+    },
+    "84d9b452ca514c71bdffcc66cec7dcb49f4791dd0bf135ff7e7bd38ccc8363b7": {
+      "decisionKey": "84d9b452ca514c71bdffcc66cec7dcb49f4791dd0bf135ff7e7bd38ccc8363b7",
+      "status": "rejected",
+      "reason": "候选仅为Cointelegraph的每日综述通用页面，无具体主体、事件、时间或数据，属于低价值聚合内容，缺乏对加密行业受众的明确信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T14:39:40.162Z"
     }
   }
 }
