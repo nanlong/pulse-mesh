@@ -3,6 +3,7 @@ import { loadConfig } from '../src/config'
 import { runPipeline } from '../src/main'
 import type { AiClient } from '../src/ai'
 import type { FetchLike } from '../src/sources'
+import { loadState, saveState } from '../src/state'
 
 const fetchFixture: FetchLike = async (input) => {
   const url = String(input)
@@ -109,5 +110,95 @@ describe('pipeline idempotence', () => {
     expect(second.published).toBe(0)
     expect(second.skipped).toBe(0)
     expect(calls.count).toBe(4)
+  })
+
+  it('uses an independent checkpoint when a source is added', async () => {
+    const root = `/tmp/pulse-mesh-new-source-${Date.now()}-${Math.random()}`
+    const oldSource = 'https://example.test/old.xml'
+    const newSource = 'https://example.test/new.xml'
+    const config = loadConfig({
+      AI_PROVIDER: 'deepseek',
+      AI_API_KEY: 'key',
+      TARGET_REPOSITORY: 'owner/site',
+      TARGET_REPO_TOKEN: 'token',
+      AI_ALLOWED_MODELS: 'deepseek-v4-flash',
+      SOURCE_URLS: `${oldSource}\n${newSource}`,
+      MAX_ITEM_AGE_HOURS: '24',
+    }, { rootDir: root })
+    await saveState(config.statePath, {
+      version: 1,
+      decisions: {},
+      lastRunAt: '2026-08-05T11:30:00.000Z',
+      sourceCheckpoints: { [oldSource]: '2026-08-05T11:30:00.000Z' },
+    })
+    const fetchFn: FetchLike = async (input) => {
+      const source = String(input)
+      const id = source === oldSource ? 'old' : 'new'
+      return new Response(`<?xml version="1.0"?><rss version="2.0"><channel><item><guid>${id}</guid><title>${id} signal</title><link>https://example.test/${id}</link><pubDate>Wed, 05 Aug 2026 11:00:00 GMT</pubDate><description>${id} signal with enough context for publication.</description></item></channel></rss>`, { headers: { 'content-type': 'application/rss+xml' } })
+    }
+    const calls = { count: 0 }
+    const result = await runPipeline({
+      config,
+      fetchFn,
+      aiClient: fakeAi(calls),
+      allowFixtureSources: true,
+      now: new Date('2026-08-05T12:00:00.000Z'),
+      publishedKeys: new Set(),
+      publish: async () => 'commit-1',
+    })
+
+    expect(result.collected).toBe(2)
+    expect(result.deduplicated).toBe(2)
+    expect(result.beforeCheckpoint).toBe(1)
+    expect(result.selected).toBe(1)
+    expect(result.gateEvaluated).toBe(1)
+    expect(result.published).toBe(1)
+    expect(calls.count).toBe(2)
+    const state = await loadState(config.statePath)
+    expect(state.sourceCheckpoints).toEqual({
+      [oldSource]: '2026-08-05T12:00:00.000Z',
+      [newSource]: '2026-08-05T12:00:00.000Z',
+    })
+  })
+
+  it('does not advance a failed source checkpoint', async () => {
+    const root = `/tmp/pulse-mesh-source-failure-${Date.now()}-${Math.random()}`
+    const goodSource = 'https://example.test/good.xml'
+    const failedSource = 'https://example.test/failed.xml'
+    const config = loadConfig({
+      AI_PROVIDER: 'deepseek',
+      AI_API_KEY: 'key',
+      TARGET_REPOSITORY: 'owner/site',
+      TARGET_REPO_TOKEN: 'token',
+      AI_ALLOWED_MODELS: 'deepseek-v4-flash',
+      SOURCE_URLS: `${goodSource}\n${failedSource}`,
+    }, { rootDir: root })
+    const previousCheckpoint = '2026-08-05T10:00:00.000Z'
+    await saveState(config.statePath, {
+      version: 1,
+      decisions: {},
+      sourceCheckpoints: {
+        [goodSource]: previousCheckpoint,
+        [failedSource]: previousCheckpoint,
+      },
+    })
+    const fetchFn: FetchLike = async (input) => {
+      if (String(input) === failedSource) throw new Error('source unavailable')
+      return new Response('<?xml version="1.0"?><rss version="2.0"><channel><item><guid>good</guid><title>Good signal</title><link>https://example.test/good</link><pubDate>Wed, 05 Aug 2026 11:00:00 GMT</pubDate><description>Good signal with enough context for publication.</description></item></channel></rss>', { headers: { 'content-type': 'application/rss+xml' } })
+    }
+    const result = await runPipeline({
+      config,
+      fetchFn,
+      aiClient: fakeAi({ count: 0 }),
+      allowFixtureSources: true,
+      now: new Date('2026-08-05T12:00:00.000Z'),
+      publishedKeys: new Set(),
+      publish: async () => 'commit-1',
+    })
+
+    expect(result.sourceErrors).toBe(1)
+    const state = await loadState(config.statePath)
+    expect(state.sourceCheckpoints[goodSource]).toBe('2026-08-05T12:00:00.000Z')
+    expect(state.sourceCheckpoints[failedSource]).toBe(previousCheckpoint)
   })
 })

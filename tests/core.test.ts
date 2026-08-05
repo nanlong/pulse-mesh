@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'bun:test'
+import { writeFile } from 'node:fs/promises'
 import { loadConfig } from '../src/config'
 import { collectSources, canonicalUrl, type FetchLike } from '../src/sources'
 import { hashValue, loadState, makeDecisionKey, pruneDecisionState, saveState } from '../src/state'
@@ -50,10 +51,19 @@ describe('minimal configuration and source boundary', () => {
     expect((await loadState(file)).decisions.example?.status).toBe('rejected')
   })
 
+  it('loads legacy state without source checkpoints', async () => {
+    const file = `/tmp/pulse-mesh-legacy-state-${Date.now()}-${Math.random()}.json`
+    await writeFile(file, JSON.stringify({ version: 1, decisions: {}, lastRunAt: '2026-08-05T12:00:00.000Z' }))
+    const state = await loadState(file)
+    expect(state.sourceCheckpoints).toEqual({})
+    expect(state.lastRunAt).toBe('2026-08-05T12:00:00.000Z')
+  })
+
   it('prunes old decision records while preserving the run checkpoint', () => {
     const state = {
       version: 1 as const,
       lastRunAt: '2026-08-05T12:00:00.000Z',
+      sourceCheckpoints: { 'https://example.test/feed.xml': '2026-08-05T12:00:00.000Z' },
       decisions: {
         old: { decisionKey: 'old', status: 'rejected' as const, configHash: 'config', updatedAt: '2026-08-05T10:00:00.000Z' },
         recent: { decisionKey: 'recent', status: 'published' as const, configHash: 'config', updatedAt: '2026-08-05T11:00:00.000Z' },
@@ -62,5 +72,6 @@ describe('minimal configuration and source boundary', () => {
     pruneDecisionState(state, 1)
     expect(Object.keys(state.decisions)).toEqual(['recent'])
     expect(state.lastRunAt).toBe('2026-08-05T12:00:00.000Z')
+    expect(state.sourceCheckpoints).toEqual({ 'https://example.test/feed.xml': '2026-08-05T12:00:00.000Z' })
   })
 })

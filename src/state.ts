@@ -17,6 +17,7 @@ export type DecisionRecord = {
 export type DecisionState = {
   version: 1
   decisions: Record<string, DecisionRecord>
+  sourceCheckpoints: Record<string, string>
   lastRunAt?: string
 }
 
@@ -41,14 +42,21 @@ export function makeDecisionKey(sourceId: string, externalId: string, contentHas
   return hashValue([sourceId, externalId, contentHash, configHash].join('\n'))
 }
 
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null && !Array.isArray(value)
+}
+
 export async function loadState(filePath: string): Promise<DecisionState> {
   try {
-    const parsed = JSON.parse(await readFile(filePath, 'utf8')) as Partial<DecisionState>
-    if (parsed.version !== 1 || !parsed.decisions || typeof parsed.decisions !== 'object') throw new Error('invalid decisions state')
+    const parsed: unknown = JSON.parse(await readFile(filePath, 'utf8'))
+    if (!isRecord(parsed) || parsed.version !== 1 || !isRecord(parsed.decisions)) throw new Error('invalid decisions state')
     if (parsed.lastRunAt !== undefined && (typeof parsed.lastRunAt !== 'string' || !Number.isFinite(Date.parse(parsed.lastRunAt)))) throw new Error('invalid decisions state')
-    return { version: 1, decisions: parsed.decisions as Record<string, DecisionRecord>, ...(parsed.lastRunAt ? { lastRunAt: parsed.lastRunAt } : {}) }
+    if (parsed.sourceCheckpoints !== undefined && !isRecord(parsed.sourceCheckpoints)) throw new Error('invalid decisions state')
+    const sourceCheckpoints = parsed.sourceCheckpoints ?? {}
+    if (Object.entries(sourceCheckpoints).some(([sourceUrl, checkpoint]) => !sourceUrl || typeof checkpoint !== 'string' || !Number.isFinite(Date.parse(checkpoint)))) throw new Error('invalid decisions state')
+    return { version: 1, decisions: parsed.decisions as Record<string, DecisionRecord>, sourceCheckpoints: sourceCheckpoints as Record<string, string>, ...(parsed.lastRunAt ? { lastRunAt: parsed.lastRunAt } : {}) }
   } catch (error) {
-    if ((error as NodeJS.ErrnoException).code === 'ENOENT') return { version: 1, decisions: {} }
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') return { version: 1, decisions: {}, sourceCheckpoints: {} }
     throw error
   }
 }

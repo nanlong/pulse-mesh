@@ -129,7 +129,7 @@ TARGET_REPO_TOKEN=***
 
 | Variable | 用途 |
 | --- | --- |
-| `SOURCE_URLS` | 每行一个自定义公开来源 URL；为空时使用默认币圈来源包 |
+| `SOURCE_URLS` | 每行一个自定义公开来源 URL；示例配置提供经过实时解析验证的币圈来源包 |
 | `CONTENT_INSTRUCTIONS` | 关注主题、受众、排除内容、语气和篇幅 |
 | `GATE_PROMPT` | 完整的候选筛选与发布判断 Prompt |
 | `ARTICLE_PROMPT` | 完整的文章生成 Prompt；一次返回所有目标语言 |
@@ -139,7 +139,7 @@ TARGET_REPO_TOKEN=***
 | `PUBLISH_THRESHOLD` | AI Gate 最低综合分，范围 `[0, 1]` |
 | `TARGET_BRANCH` | B 发布分支，默认 `main` |
 | `MAX_ITEM_AGE_HOURS` | 候选最大年龄，默认 `24` 小时 |
-| `MAX_CANDIDATES_PER_RUN` | 单次运行最多进入 Gate 的候选数，默认 `5`；按发布时间从新到旧选择，超出上限的候选为保持新鲜度而跳过，不进入下一轮 backlog |
+| `MAX_CANDIDATES_PER_RUN` | 单次运行最多进入 Gate 的候选数，默认 `5`；当前 12 源配置建议设为 `20`，按发布时间从新到旧选择，超出上限的候选为保持新鲜度而跳过，不进入下一轮 backlog |
 | `MAX_DECISION_RECORDS` | `state/decisions.json` 最多保留的最新决策数，默认 `1000` |
 | `MINIMUM_CONTENT_LENGTH` | 正文最小长度，默认 `40` |
 | `STATE_PATH` | A 决策状态路径，默认 `state/decisions.json` |
@@ -229,7 +229,18 @@ A workflow 只有一个业务 job，并只运行一个入口：
 
 ### 6.1 采集与归一化
 
-`SOURCE_URLS` 每行一个 URL。采集器根据响应 `Content-Type` 和响应体特征自动识别。采集后的候选先按 `MAX_ITEM_AGE_HOURS` 排除过期内容，再按上次成功运行时间筛选新内容，按发布时间从新到旧排序，并只将前 `MAX_CANDIDATES_PER_RUN` 条交给 Gate。超出上限的候选会被本轮跳过，不会形成 backlog；下一轮只看新的内容。
+`SOURCE_URLS` 每行一个 URL。采集器根据响应 `Content-Type` 和响应体特征自动识别。采集后的候选先按 `MAX_ITEM_AGE_HOURS` 排除过期内容，再按该来源自己的成功检查点筛选新内容，按发布时间从新到旧排序，并只将前 `MAX_CANDIDATES_PER_RUN` 条交给 Gate。新加入的来源没有检查点，因此首次允许处理年龄窗口内的内容。超出上限的候选会被本轮跳过，不会形成 backlog；下一轮只看新的内容。
+
+当前推荐来源包保持为环境配置，不进入业务代码：
+
+| 类型 | 来源 |
+| --- | --- |
+| 行业媒体 | CoinDesk、Cointelegraph、Decrypt、The Block |
+| 监管公告 | SEC Press Releases、CFTC General Press Releases、CFTC Enforcement Press Releases |
+| 协议与研发 | Ethereum Foundation Blog、Bitcoin Optech、Solana |
+| 安全与链上研究 | Chainalysis、SlowMist |
+
+加入前必须使用当前采集器验证 HTTP 可用性、RSS/XML 解析、有效发布时间和最新条目。失效、无发布时间或明显以营销促销为主的来源不得进入推荐包；单个来源失败只记录来源错误，不得伪造候选。
 
 - XML：RSS / Atom；
 - JSON：常见 `items`、`data`、`results`、`articles` 列表；
@@ -342,7 +353,11 @@ decisionKey = sourceId + externalId + contentHash + configHash
 - 首次和最近处理时间；
 - B commit SHA（发布成功后）。
 
-状态还记录最近一次无来源错误且完成保存的 `lastRunAt` 检查点。下一轮只处理发布时间晚于该检查点的候选；没有发布时间的来源只在尚无检查点时处理。每次保存前按 `MAX_DECISION_RECORDS` 删除最旧决策，保证 `decisions.json` 有固定上限。已发布文章的 decision key 由 B 的 front matter 保留，状态记录被裁剪后仍能防止重复发布。
+状态为每个来源 URL 记录独立的 `sourceCheckpoints`。来源成功采集且其候选没有生成失败时，才将该来源检查点推进到本次运行时间；采集或生成失败只冻结对应来源，不影响其他来源。旧状态缺少 `sourceCheckpoints` 时按空映射读取，使新配置中的来源首次处理 `MAX_ITEM_AGE_HOURS` 窗口内的内容。`lastRunAt` 继续写入只用于旧版本回滚兼容，不参与新流程筛选。
+
+运行摘要分别记录原始采集数 `collected`、去重后数量 `deduplicated`、过期数量 `tooOld`、检查点前数量 `beforeCheckpoint`、本轮选中数量 `selected`、超过上限数量 `skipped`、已有决策数量 `alreadyDecided`、硬过滤数量 `filtered`、实际 Gate 调用数 `gateEvaluated`，以及拒绝、生成、发布和来源错误数量。不得再用 `collected` 推断 AI 判断数量。
+
+每次保存前按 `MAX_DECISION_RECORDS` 删除最旧决策，保证 `decisions.json` 有固定上限。已发布文章的 decision key 由 B 的 front matter 保留，状态记录被裁剪后仍能防止重复发布。
 
 B 文章 front matter 同时保存 `decisionKey`。每次运行先读取 B 已有文章的 decision key；即使 B 推送成功后 A 状态提交失败，也不会重新调用 AI 或重复发布。
 
