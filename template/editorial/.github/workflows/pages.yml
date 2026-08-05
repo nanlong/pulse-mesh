@@ -13,6 +13,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
+      SITE_BASE_PATH: ${{ vars.SITE_BASE_PATH }}
     steps:
       - uses: actions/checkout@v4
       - uses: withastro/action@v6
