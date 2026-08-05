@@ -201,4 +201,47 @@ describe('pipeline idempotence', () => {
     expect(state.sourceCheckpoints[goodSource]).toBe('2026-08-05T12:00:00.000Z')
     expect(state.sourceCheckpoints[failedSource]).toBe(previousCheckpoint)
   })
+
+  it('continues other sources when one Gate request fails', async () => {
+    const root = `/tmp/pulse-mesh-gate-failure-${Date.now()}-${Math.random()}`
+    const failedSource = 'https://example.test/gate-failed.xml'
+    const goodSource = 'https://example.test/gate-good.xml'
+    const config = loadConfig({
+      AI_PROVIDER: 'deepseek',
+      AI_API_KEY: 'key',
+      TARGET_REPOSITORY: 'owner/site',
+      TARGET_REPO_TOKEN: 'token',
+      AI_ALLOWED_MODELS: 'deepseek-v4-flash',
+      SOURCE_URLS: `${failedSource}\n${goodSource}`,
+    }, { rootDir: root })
+    const fetchFn: FetchLike = async (input) => {
+      const failed = String(input) === failedSource
+      const id = failed ? 'gate-failed' : 'gate-good'
+      return new Response(`<?xml version="1.0"?><rss version="2.0"><channel><item><guid>${id}</guid><title>${id}</title><link>https://example.test/${id}</link><pubDate>Wed, 05 Aug 2026 11:00:00 GMT</pubDate><description>${id} signal with enough context for publication.</description></item></channel></rss>`, { headers: { 'content-type': 'application/rss+xml' } })
+    }
+    const successfulAi = fakeAi({ count: 0 })
+    const aiClient: AiClient = {
+      async complete(request) {
+        if (request.user.includes('gate-failed')) throw new DOMException('The operation timed out.', 'TimeoutError')
+        return successfulAi.complete(request)
+      },
+    }
+    const result = await runPipeline({
+      config,
+      fetchFn,
+      aiClient,
+      allowFixtureSources: true,
+      now: new Date('2026-08-05T12:00:00.000Z'),
+      publishedKeys: new Set(),
+      publish: async () => 'commit-1',
+    })
+
+    expect(result.gateEvaluated).toBe(2)
+    expect(result.failed).toBe(1)
+    expect(result.published).toBe(1)
+    const state = await loadState(config.statePath)
+    expect(state.sourceCheckpoints[failedSource]).toBeUndefined()
+    expect(state.sourceCheckpoints[goodSource]).toBe('2026-08-05T12:00:00.000Z')
+    expect(Object.values(state.decisions).some((decision) => decision.status === 'failed' && decision.reason === 'The operation timed out.')).toBe(true)
+  })
 })

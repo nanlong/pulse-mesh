@@ -355,7 +355,7 @@ decisionKey = sourceId + externalId + contentHash + configHash
 
 状态为每个来源 URL 记录独立的 `sourceCheckpoints`。来源成功采集且其候选没有生成失败时，才将该来源检查点推进到本次运行时间；采集或生成失败只冻结对应来源，不影响其他来源。旧状态缺少 `sourceCheckpoints` 时按空映射读取，使新配置中的来源首次处理 `MAX_ITEM_AGE_HOURS` 窗口内的内容。`lastRunAt` 继续写入只用于旧版本回滚兼容，不参与新流程筛选。
 
-运行摘要分别记录原始采集数 `collected`、去重后数量 `deduplicated`、过期数量 `tooOld`、检查点前数量 `beforeCheckpoint`、本轮选中数量 `selected`、超过上限数量 `skipped`、已有决策数量 `alreadyDecided`、硬过滤数量 `filtered`、实际 Gate 调用数 `gateEvaluated`，以及拒绝、生成、发布和来源错误数量。不得再用 `collected` 推断 AI 判断数量。
+运行摘要分别记录原始采集数 `collected`、去重后数量 `deduplicated`、过期数量 `tooOld`、检查点前数量 `beforeCheckpoint`、本轮选中数量 `selected`、超过上限数量 `skipped`、已有决策数量 `alreadyDecided`、硬过滤数量 `filtered`、实际 Gate 调用数 `gateEvaluated`，以及拒绝、失败、生成、发布和来源错误数量。单个 Gate 或生成请求失败记入 `failed`，冻结对应来源检查点并继续其他来源。不得再用 `collected` 推断 AI 判断数量。
 
 每次保存前按 `MAX_DECISION_RECORDS` 删除最旧决策，保证 `decisions.json` 有固定上限。已发布文章的 decision key 由 B 的 front matter 保留，状态记录被裁剪后仍能防止重复发布。
 

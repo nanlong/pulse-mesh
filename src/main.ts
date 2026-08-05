@@ -17,6 +17,7 @@ export type PipelineSummary = {
   filtered: number
   gateEvaluated: number
   rejected: number
+  failed: number
   generated: number
   published: number
   sourceErrors: number
@@ -95,7 +96,7 @@ export async function runPipeline(options: RunOptions): Promise<PipelineSummary>
   const publishedKeys = options.publishedKeys ?? await loadTargetPublishedKeys(config)
   if (options.mode === 'bootstrap') {
     const commit = await (options.publish ?? publishArticles)(config, [], { bootstrapOnly: true })
-    return { collected: 0, deduplicated: 0, tooOld: 0, beforeCheckpoint: 0, selected: 0, skipped: 0, alreadyDecided: 0, filtered: 0, gateEvaluated: 0, rejected: 0, generated: 0, published: 0, sourceErrors: 0, bCommitSha: commit }
+    return { collected: 0, deduplicated: 0, tooOld: 0, beforeCheckpoint: 0, selected: 0, skipped: 0, alreadyDecided: 0, filtered: 0, gateEvaluated: 0, rejected: 0, failed: 0, generated: 0, published: 0, sourceErrors: 0, bCommitSha: commit }
   }
   const aiClient = options.aiClient ?? createAiClient(config)
   const collection = await collectSources(config.sourceUrls, options.fetchFn)
@@ -125,6 +126,7 @@ export async function runPipeline(options: RunOptions): Promise<PipelineSummary>
   let filtered = 0
   let gateEvaluated = 0
   let rejected = 0
+  let failed = 0
   let generated = 0
   const articles: ArticleFile[] = []
   const seenKeys = new Set<string>()
@@ -147,18 +149,19 @@ export async function runPipeline(options: RunOptions): Promise<PipelineSummary>
       continue
     }
     gateEvaluated += 1
-    const decision = await evaluateCandidate(config, aiClient, candidate, promptSet.gate)
-    if (!decision.publish) {
-      rejected += 1
-      state.decisions[decisionKey] = { decisionKey, status: 'rejected', reason: decision.reason, score: decision.score, configHash: currentConfigHash, updatedAt: now.toISOString() }
-      continue
-    }
     try {
+      const decision = await evaluateCandidate(config, aiClient, candidate, promptSet.gate)
+      if (!decision.publish) {
+        rejected += 1
+        state.decisions[decisionKey] = { decisionKey, status: 'rejected', reason: decision.reason, score: decision.score, configHash: currentConfigHash, updatedAt: now.toISOString() }
+        continue
+      }
       const generatedArticles = await generateArticles(config, aiClient, candidate, decision, promptSet.article)
       for (const article of generatedArticles) articles.push({ ...article, decisionKey, publishedAt: now.toISOString(), score: decision.score, topics: decision.topics })
       generated += generatedArticles.length
       state.decisions[decisionKey] = { decisionKey, status: 'generated', reason: decision.reason, score: decision.score, configHash: currentConfigHash, updatedAt: now.toISOString() }
     } catch (error) {
+      failed += 1
       failedSourceIds.add(candidate.sourceId)
       state.decisions[decisionKey] = { decisionKey, status: 'failed', reason: error instanceof Error ? error.message : String(error), configHash: currentConfigHash, updatedAt: now.toISOString() }
     }
@@ -195,6 +198,7 @@ export async function runPipeline(options: RunOptions): Promise<PipelineSummary>
     filtered,
     gateEvaluated,
     rejected,
+    failed,
     generated,
     published: commit ? articles.length : 0,
     sourceErrors: collection.errors.length,
