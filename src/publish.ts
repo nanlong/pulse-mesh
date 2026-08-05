@@ -30,10 +30,11 @@ function remoteUrl(repository: string): string {
 
 function gitAuthEnv(config: AppConfig): Record<string, string> {
   if (!config.targetToken || !remoteUrl(config.targetRepository).startsWith('https://github.com/')) return {}
+  const authorization = Buffer.from(`x-access-token:${config.targetToken}`).toString('base64')
   return {
     GIT_CONFIG_COUNT: '1',
     GIT_CONFIG_KEY_0: 'http.https://github.com/.extraHeader',
-    GIT_CONFIG_VALUE_0: `AUTHORIZATION: bearer ${config.targetToken}`,
+    GIT_CONFIG_VALUE_0: `AUTHORIZATION: basic ${authorization}`,
   }
 }
 
