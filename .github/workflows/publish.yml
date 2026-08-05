@@ -3,7 +3,7 @@ name: Generate and publish
 on:
   schedule:
     # 每 15 分钟运行一次，避开整点高峰（UTC）。
-    - cron: '1,16,31,46 * * * *'
+    - cron: '4,19,34,49 * * * *'
   workflow_dispatch:
     inputs:
       mode:
