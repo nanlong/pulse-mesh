@@ -1,0 +1,25 @@
+---
+interface Props {
+  entry: CollectionEntry<'articles'>
+  compact?: boolean
+}
+
+import type { CollectionEntry } from 'astro:content'
+import { siteConfig } from '../data/site-config'
+import { uiFor } from '../data/ui'
+import { articleHref, topicHref } from '../lib/content'
+
+const { entry, compact = false } = Astro.props
+const base = import.meta.env.BASE_URL
+const ui = uiFor(entry.data.language)
+---
+<article class:list={['card', { compact }]}>
+  <div class="card-topline">
+    <p class="meta"><time datetime={entry.data.publishedAt.toISOString()}>{entry.data.publishedAt.toLocaleDateString(siteConfig.locale)}</time></p>
+    {siteConfig.showScore && entry.data.score !== undefined && <span class="score">{Math.round(entry.data.score * 100)} / 100</span>}
+  </div>
+  <h2><a href={articleHref(entry.id, base)}>{entry.data.title}</a></h2>
+  <p>{entry.data.summary}</p>
+  {siteConfig.showTopics && entry.data.topics.length > 0 && <div class="topic-list">{entry.data.topics.map((topic) => <a href={topicHref(topic, base)}>{topic}</a>)}</div>}
+  <a class="read-more" href={articleHref(entry.id, base)}>{ui.readMore} →</a>
+</article>

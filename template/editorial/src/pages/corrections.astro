@@ -1,0 +1,19 @@
+---
+import InfoPage from '../components/InfoPage.astro'
+import { siteConfig } from '../data/site-config'
+
+const chinese = siteConfig.locale.toLowerCase().startsWith('zh')
+const title = chinese ? '纠错政策' : 'Corrections policy'
+const summary = chinese ? '如何报告事实错误，以及我们如何处理更正。' : 'How to report factual errors and how corrections are handled.'
+const contact = siteConfig.contactUrl || (chinese ? '当前尚未配置公开联系入口。' : 'A public contact channel has not been configured.')
+const sections = chinese
+  ? [
+      { heading: '提交纠错', paragraphs: [`请提供文章 URL、需要更正的具体表述和可核验依据。联系入口：${contact}`] },
+      { heading: '处理方式', paragraphs: ['确认错误后，我们会更正文稿；对影响结论的重要修改，应在文章中保留更正说明和更新时间。'] },
+    ]
+  : [
+      { heading: 'Submit a correction', paragraphs: [`Include the article URL, the exact statement in question, and verifiable evidence. Contact: ${contact}`] },
+      { heading: 'How corrections are handled', paragraphs: ['Confirmed errors are corrected. Material changes that affect the conclusion should retain a visible correction note and modification time.'] },
+    ]
+---
+<InfoPage title={title} summary={summary} sections={sections} />

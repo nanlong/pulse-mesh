@@ -1,0 +1,20 @@
+---
+import InfoPage from '../components/InfoPage.astro'
+import { siteConfig } from '../data/site-config'
+
+const chinese = siteConfig.locale.toLowerCase().startsWith('zh')
+const title = chinese ? 'AI 与利益披露' : 'AI and commercial disclosures'
+const summary = siteConfig.aiDisclosure || (chinese ? '自动化工具和商业关系必须对读者透明。' : 'Automation and commercial relationships must be transparent to readers.')
+const sections = chinese
+  ? [
+      { heading: 'AI 辅助', paragraphs: [siteConfig.aiDisclosure || '本站可能使用自动化工具辅助采集、筛选、翻译和整理内容，并通过来源链接保留核验路径。'] },
+      { heading: '商业内容', paragraphs: ['赞助、联盟或其他付费关系必须明确标识，不能伪装成独立编辑判断。付费链接使用适当的 sponsored 标记。'] },
+      { heading: '风险边界', paragraphs: ['本站内容用于信息交流，不构成投资、法律、税务或其他专业建议。读者应核对原始来源并独立判断。'] },
+    ]
+  : [
+      { heading: 'AI assistance', paragraphs: [siteConfig.aiDisclosure || 'Automation may assist collection, selection, translation, and editing while source links preserve a verification path.'] },
+      { heading: 'Commercial content', paragraphs: ['Sponsorships, affiliate relationships, and other paid arrangements must be clearly labeled and may not be presented as independent editorial judgment. Paid links use appropriate sponsored attributes.'] },
+      { heading: 'Scope and risk', paragraphs: ['Published content is informational and is not investment, legal, tax, or other professional advice. Readers should review primary sources and make independent decisions.'] },
+    ]
+---
+<InfoPage title={title} summary={summary} sections={sections} />

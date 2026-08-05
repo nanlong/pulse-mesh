@@ -21,10 +21,54 @@ describe('minimal configuration and source boundary', () => {
     expect(config.sourceUrls.length).toBeGreaterThan(0)
     expect(config.maxCandidatesPerRun).toBe(5)
     expect(config.maxDecisionRecords).toBe(1000)
+    expect(config.site.locale).toBe('zh-CN')
+    expect(config.site.publisherName).toBe('PulseMesh')
+    expect(config.site.newsletterUrl).toBe('')
+  })
+
+  it('loads generic site identity and optional commercial links from configuration', () => {
+    const config = loadConfig({
+      AI_PROVIDER: 'deepseek',
+      AI_API_KEY: 'key',
+      TARGET_REPOSITORY: 'owner/site',
+      TARGET_REPO_TOKEN: 'token',
+      AI_ALLOWED_MODELS: 'deepseek-v4-flash',
+      SITE_NAME: 'Example Brief',
+      SITE_LOCALE: 'en-US',
+      SITE_PUBLISHER_NAME: 'Example Media',
+      SITE_AUTHOR_NAME: 'Editorial Desk',
+      SITE_CONTACT_URL: 'mailto:editor@example.test',
+      SITE_AI_DISCLOSURE: 'AI-assisted and source-linked.',
+      SITE_SOCIAL_IMAGE_URL: 'https://cdn.example.test/social.png',
+      SITE_NEWSLETTER_URL: 'https://example.test/newsletter',
+      SITE_SPONSOR_URL: 'https://example.test/sponsor',
+    })
+
+    expect(config.site).toMatchObject({
+      name: 'Example Brief',
+      locale: 'en-US',
+      publisherName: 'Example Media',
+      authorName: 'Editorial Desk',
+      contactUrl: 'mailto:editor@example.test',
+      aiDisclosure: 'AI-assisted and source-linked.',
+      socialImageUrl: 'https://cdn.example.test/social.png',
+      newsletterUrl: 'https://example.test/newsletter',
+      sponsorUrl: 'https://example.test/sponsor',
+    })
   })
 
   it('fails closed for a model outside the allowlist', () => {
     expect(() => loadConfig({ AI_PROVIDER: 'deepseek', AI_API_KEY: 'key', TARGET_REPOSITORY: 'owner/site', TARGET_REPO_TOKEN: 'token', AI_MODEL: 'not-allowed', AI_ALLOWED_MODELS: 'deepseek-v4-flash' })).toThrow('not in AI_ALLOWED_MODELS')
+  })
+
+  it('rejects unsafe protocols in public site links', () => {
+    expect(() => loadConfig({
+      AI_PROVIDER: 'deepseek',
+      AI_API_KEY: 'key',
+      TARGET_REPOSITORY: 'owner/site',
+      TARGET_REPO_TOKEN: 'token',
+      SITE_CONTACT_URL: 'javascript:alert(1)',
+    })).toThrow('SITE_CONTACT_URL uses an unsupported protocol')
   })
 
   it('normalizes RSS, JSON and HTML without type-specific caller configuration', async () => {

@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content'
+import ArticleCard from '../components/ArticleCard.astro'
+import { siteConfig } from '../data/site-config'
+import { uiFor } from '../data/ui'
+import Article from '../layouts/Article.astro'
+
+const entries = (await getCollection('articles')).sort((left, right) => right.data.publishedAt.valueOf() - left.data.publishedAt.valueOf())
+const ui = uiFor(siteConfig.locale)
+---
+<Article title={ui.archive} summary={`${siteConfig.name} ${ui.allArticles}`} language={siteConfig.locale} kind="page">
+  <section class="listing-page">
+    <p class="eyebrow">{siteConfig.name}</p>
+    <h1>{ui.archive}</h1>
+    <p class="summary">{entries.length} {ui.selectedItems}</p>
+    <div class="article-grid">{entries.map((entry) => <ArticleCard entry={entry} />)}</div>
+  </section>
+</Article>

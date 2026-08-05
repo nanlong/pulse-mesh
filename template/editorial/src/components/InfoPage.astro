@@ -1,0 +1,30 @@
+---
+interface Section {
+  heading: string
+  paragraphs: string[]
+}
+
+interface Props {
+  title: string
+  summary: string
+  sections: Section[]
+}
+
+import Article from '../layouts/Article.astro'
+import { siteConfig } from '../data/site-config'
+
+const { title, summary, sections } = Astro.props
+---
+<Article title={title} summary={summary} language={siteConfig.locale} kind="page">
+  <article class="info-page">
+    <p class="eyebrow">{siteConfig.publisherName}</p>
+    <h1>{title}</h1>
+    <p class="summary">{summary}</p>
+    {sections.map((section) => (
+      <section>
+        <h2>{section.heading}</h2>
+        {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+      </section>
+    ))}
+  </article>
+</Article>

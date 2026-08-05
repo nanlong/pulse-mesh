@@ -32,6 +32,7 @@ async function main(): Promise<void> {
   const values = parseEnv(lines)
   const apiKey = values.get('AI_API_KEY') || values.get('DEEPSEEK_API_KEY') || ''
   if (!apiKey) throw new Error('AI_API_KEY or DEEPSEEK_API_KEY is required in .env')
+  const siteName = values.get('SITE_NAME') || 'PulseMesh'
   const gatePrompt = values.get('GATE_PROMPT') || '你是生产内容发布审核器，只判断是否值得公开发布，不写文章。必须确认来源真实可核验、内容有具体事实和行业信息增量，并拒绝测试、演示、fixture、placeholder、烟雾测试、管道验证、内部日志、营销、价格喊单、传闻、重复转载和证据不足内容。example.test、example.com、localhost、127.0.0.1 等保留测试地址不得作为生产来源。只能依据候选及来源判断，返回严格 JSON。'
   const articlePrompt = values.get('ARTICLE_PROMPT') || '你是生产级加密行业编辑。只使用 Gate 已通过的候选和来源 URL，生成事实准确、信息密度足够、可公开发布的 Markdown 文章。标题和摘要不得夸大，正文区分事实与推断，不补充候选之外的事实、引语、数字或来源，不提供投资建议，不输出测试、演示、fixture、placeholder 或管道验证内容。返回严格 JSON。'
 
@@ -57,9 +58,17 @@ async function main(): Promise<void> {
     ['MINIMUM_CONTENT_LENGTH', values.get('MINIMUM_CONTENT_LENGTH') || '40'],
     ['STATE_PATH', values.get('STATE_PATH') || 'state/decisions.json'],
     ['TEMPLATE_DIR', values.get('TEMPLATE_DIR') || 'template/editorial'],
-    ['SITE_NAME', values.get('SITE_NAME') || 'PulseMesh'],
+    ['SITE_NAME', siteName],
     ['SITE_DESCRIPTION', values.get('SITE_DESCRIPTION') || '经过筛选、核验和语言生成的加密行业资讯。'],
     ['SITE_TAGLINE', values.get('SITE_TAGLINE') || '先看事实，再看叙事。'],
+    ['SITE_LOCALE', values.get('SITE_LOCALE') || 'zh-CN'],
+    ['SITE_PUBLISHER_NAME', values.get('SITE_PUBLISHER_NAME') || siteName],
+    ['SITE_AUTHOR_NAME', values.get('SITE_AUTHOR_NAME') || siteName],
+    ['SITE_CONTACT_URL', values.get('SITE_CONTACT_URL') || ''],
+    ['SITE_AI_DISCLOSURE', values.get('SITE_AI_DISCLOSURE') || '内容由自动化流程辅助整理，保留可核验来源；事实、来源观点与推断应明确区分。'],
+    ['SITE_SOCIAL_IMAGE_URL', values.get('SITE_SOCIAL_IMAGE_URL') || ''],
+    ['SITE_NEWSLETTER_URL', values.get('SITE_NEWSLETTER_URL') || ''],
+    ['SITE_SPONSOR_URL', values.get('SITE_SPONSOR_URL') || ''],
     ['SITE_THEME', values.get('SITE_THEME') || 'midnight'],
     ['SITE_PRIMARY_COLOR', values.get('SITE_PRIMARY_COLOR') || '#8b5cf6'],
     ['SITE_ACCENT_COLOR', values.get('SITE_ACCENT_COLOR') || '#22d3ee'],

@@ -1,0 +1,20 @@
+---
+import InfoPage from '../components/InfoPage.astro'
+import { siteConfig } from '../data/site-config'
+
+const chinese = siteConfig.locale.toLowerCase().startsWith('zh')
+const title = chinese ? '编辑准则' : 'Editorial policy'
+const summary = chinese ? '我们如何筛选、核验和更新公开内容。' : 'How we select, verify, and update published content.'
+const sections = chinese
+  ? [
+      { heading: '来源与筛选', paragraphs: ['内容来自公开可访问的来源。候选信息必须具有明确事实、信息增量和公开价值；营销、传闻、重复转载和证据不足的内容不应发布。'] },
+      { heading: '事实与推断', paragraphs: ['正文应区分已确认事实、来源观点和编辑推断。没有来源支持的数字、引语和结论不得补写。'] },
+      { heading: '更新与纠错', paragraphs: ['重大更正应保留说明，不通过改写时间制造虚假新鲜度。读者可以通过联系入口提交证据和纠错请求。'] },
+    ]
+  : [
+      { heading: 'Sources and selection', paragraphs: ['Content comes from publicly accessible sources. Candidates must contain verifiable facts, meaningful new information, and public value. Marketing, rumors, duplicate rewrites, and weakly sourced claims should not be published.'] },
+      { heading: 'Facts and inference', paragraphs: ['Articles distinguish confirmed facts, attributed views, and editorial inference. Unsupported numbers, quotations, and conclusions must not be invented.'] },
+      { heading: 'Updates and corrections', paragraphs: ['Material corrections should be disclosed, and publication dates must not be changed merely to simulate freshness. Readers may submit evidence through the configured contact channel.'] },
+    ]
+---
+<InfoPage title={title} summary={summary} sections={sections} />

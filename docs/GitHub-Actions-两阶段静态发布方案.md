@@ -150,6 +150,12 @@ TARGET_REPO_TOKEN=***
 | Variable | 用途 |
 | --- | --- |
 | `SITE_NAME` / `SITE_DESCRIPTION` / `SITE_TAGLINE` | 站点品牌、描述和首页导语 |
+| `SITE_LOCALE` | 站点主语言；默认使用 `OUTPUT_LANGUAGES` 的第一个值 |
+| `SITE_PUBLISHER_NAME` / `SITE_AUTHOR_NAME` | 结构化数据、署名和透明度页面中的发布者与作者主体 |
+| `SITE_CONTACT_URL` | 可选联系入口，支持 HTTP(S) 或 `mailto:`；为空时隐藏 |
+| `SITE_AI_DISCLOSURE` | 可选的 AI 辅助与核验边界说明；为空时文章不展示披露条 |
+| `SITE_SOCIAL_IMAGE_URL` | 可选的绝对社交分享图 URL；为空时不输出图片元数据 |
+| `SITE_NEWSLETTER_URL` / `SITE_SPONSOR_URL` | 可选订阅和商务合作入口；为空时导航与页脚不展示 |
 | `SITE_THEME` | `midnight`、`editorial` 或 `light` |
 | `SITE_PRIMARY_COLOR` / `SITE_ACCENT_COLOR` | 主色和强调色，使用六位十六进制颜色 |
 | `SITE_BACKGROUND_COLOR` / `SITE_SURFACE_COLOR` | 页面背景和卡片表面颜色 |
@@ -180,7 +186,7 @@ GitHub Actions 手动触发的非敏感输入
 
 Secret 只能来自 GitHub Secrets 或本地环境，不得进入默认配置、日志、artifact、A 的状态文件或 B。
 
-GitHub Actions 的 `schedule.cron` 不能直接使用 Repository Variable 插值。首版 workflow 提供固定的保守周期和手动触发；修改真实触发周期时直接编辑 workflow。
+定时入口由最小 Cloudflare Worker 负责，Cron 固定在 `scheduler/wrangler.toml`，当前为每 2 小时一次。GitHub Actions 只接受对应的 `repository_dispatch` 和手动触发，避免两套定时器重复执行。目标仓库、事件类型和令牌仍由 Cloudflare 运行时绑定提供，不写入 Worker 代码。
 
 ## 5. Prompt 与多语言
 
@@ -379,8 +385,11 @@ A 内只维护一个受信任的 `editorial` Astro 模板。用户创建空 B �
 - 响应式布局；
 - 深浅色模式；
 - 多语言文章导航；
-- 主题标签、发布时间、重要性和来源展示；
-- 基础 SEO 和 Open Graph。
+- 可索引的主题页、归档页、发布时间、重要性和来源展示；
+- canonical、Open Graph、Twitter Card 和 `NewsArticle` 结构化数据；
+- 普通 Sitemap、近两日新闻 Sitemap、RSS 和动态 `robots.txt`；
+- 关于、编辑准则、纠错、AI/商业披露和隐私页面；
+- 由配置启用或隐藏的订阅、联系与赞助入口。
 
 初始化后，B 拥有所有样式和页面。用户直接修改 B 即可美化站点，A 不负责同步或升级主题。模板选择、多模板和自动升级延后。
 
@@ -390,7 +399,7 @@ A 内只维护一个受信任的 `editorial` Astro 模板。用户创建空 B �
 
 支持：
 
-- `schedule`；
+- Cloudflare Cron 触发的 `repository_dispatch`；
 - `workflow_dispatch`；
 - concurrency group，保证同一目标仓库只有一个运行；
 - 一个业务 job；

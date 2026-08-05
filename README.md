@@ -18,7 +18,7 @@ AI_API_KEY=***
 TARGET_REPO_TOKEN=***
 ```
 
-默认使用内置币圈来源包、简体中文、Markdown 和 `editorial` Astro 模板。常用覆盖项包括 `SOURCE_URLS`、`CONTENT_INSTRUCTIONS`、`GATE_PROMPT`、`ARTICLE_PROMPT`、`OUTPUT_LANGUAGES`、`AI_MODEL`、`AI_ALLOWED_MODELS`、`PUBLISH_THRESHOLD`、候选时间窗口与每次运行上限、模板路径和 `SITE_*` 视觉配置。换内容方向或站点风格时只需替换这些 Variables，不需要修改业务代码。
+默认使用内置币圈来源包、简体中文、Markdown 和 `editorial` Astro 模板。常用覆盖项包括 `SOURCE_URLS`、`CONTENT_INSTRUCTIONS`、`GATE_PROMPT`、`ARTICLE_PROMPT`、`OUTPUT_LANGUAGES`、`AI_MODEL`、`AI_ALLOWED_MODELS`、`PUBLISH_THRESHOLD`、候选时间窗口与每次运行上限、模板路径，以及 `SITE_*` 品牌、SEO、视觉和可选商业入口配置。换内容方向或站点风格时只需替换这些 Variables，不需要修改业务代码。
 
 ## 本地运行
 
@@ -58,7 +58,7 @@ bun run action:local -- --mode=run --preview
 
 触发不等于发布。候选被拒绝、重复或校验失败时，运行可以成功结束，但不会创建 B 内容 commit。
 
-B 由 A 从 `template/editorial` 初始化。初始化后，B 自己拥有页面、布局和样式；A 日常只写 `src/content/articles/**` 和 `public/generated/**`。B 的 `.github/workflows/pages.yml` 使用 Astro 官方 Action 构建并部署 GitHub Pages。
+B 由 A 从 `template/editorial` 初始化，默认带 canonical、Sitemap、新闻 Sitemap、RSS、结构化数据、专题、归档和透明度页面。初始化后，B 自己拥有页面、布局和样式；A 日常只写 `src/content/articles/**`、站点生成配置和 `public/generated/**`。B 的 `.github/workflows/pages.yml` 使用 Astro 官方 Action 构建并部署 GitHub Pages。
 
 ## 设计与边界
 

@@ -61,7 +61,20 @@ await command(['git', 'clone', bareRepository, checkout], root)
 const articleFiles = await command(['git', 'ls-tree', '-r', '--name-only', 'HEAD'], checkout)
 const articleCount = articleFiles.split('\n').filter((file) => file.startsWith('src/content/articles/') && file.endsWith('.md')).length
 if (articleCount !== 6) throw new Error(`expected 6 article files, found ${articleCount}`)
-for (const requiredFile of ['.gitignore', 'tsconfig.json', '.github/workflows/pages.yml', 'src/content.config.ts', 'src/layouts/Article.astro', 'src/styles/global.css']) {
+for (const requiredFile of [
+  '.gitignore',
+  'tsconfig.json',
+  '.github/workflows/pages.yml',
+  'src/content.config.ts',
+  'src/layouts/Article.astro',
+  'src/components/ArticleCard.astro',
+  'src/pages/archive.astro',
+  'src/pages/topics/[topic].astro',
+  'src/pages/robots.txt.ts',
+  'src/pages/rss.xml.ts',
+  'src/pages/news-sitemap.xml.ts',
+  'src/styles/global.css',
+]) {
   if (!articleFiles.split('\n').includes(requiredFile)) throw new Error(`bootstrap missing ${requiredFile}`)
 }
 const marker = JSON.parse(await readFile(path.join(checkout, '.pulse-mesh-site.json'), 'utf8')) as { template?: string }

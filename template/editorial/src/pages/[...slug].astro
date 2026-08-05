@@ -1,7 +1,10 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content'
-import Article from '../layouts/Article.astro'
+import ArticleCard from '../components/ArticleCard.astro'
 import { siteConfig } from '../data/site-config'
+import { uiFor } from '../data/ui'
+import { relatedArticles, topicHref } from '../lib/content'
+import Article from '../layouts/Article.astro'
 
 export async function getStaticPaths() {
   const entries = await getCollection('articles')
@@ -11,24 +14,42 @@ export async function getStaticPaths() {
 type Props = { entry: CollectionEntry<'articles'> }
 const { entry } = Astro.props as Props
 const { Content } = await render(entry)
+const entries = await getCollection('articles')
 const base = import.meta.env.BASE_URL
-const translations = (await getCollection('articles'))
+const ui = uiFor(entry.data.language)
+const translations = entries
   .filter((candidate) => candidate.data.decisionKey === entry.data.decisionKey)
   .map((candidate) => ({ language: candidate.data.language, href: `${base}${candidate.id}/` }))
+const related = relatedArticles(entry, entries)
 ---
-<Article title={entry.data.title} summary={entry.data.summary} language={entry.data.language} translations={translations}>
+<Article
+  title={entry.data.title}
+  summary={entry.data.summary}
+  language={entry.data.language}
+  kind="article"
+  publishedAt={entry.data.publishedAt}
+  topics={entry.data.topics}
+  translations={translations}
+>
   <article class="article-page">
     <div class="article-topline">
-      <p class="meta">{entry.data.language} · {entry.data.publishedAt.toLocaleDateString()}</p>
+      <p class="meta">{siteConfig.authorName} · <time datetime={entry.data.publishedAt.toISOString()}>{entry.data.publishedAt.toLocaleString(entry.data.language)}</time></p>
       {siteConfig.showScore && entry.data.score !== undefined && <span class="score">Gate {Math.round(entry.data.score * 100)} / 100</span>}
     </div>
     <h1>{entry.data.title}</h1>
     <p class="summary">{entry.data.summary}</p>
-    {siteConfig.showTopics && entry.data.topics.length > 0 && <div class="topic-list article-topics">{entry.data.topics.map((topic) => <span>{topic}</span>)}</div>}
+    {siteConfig.showTopics && entry.data.topics.length > 0 && <div class="topic-list article-topics">{entry.data.topics.map((topic) => <a href={topicHref(topic, base)}>{topic}</a>)}</div>}
+    {siteConfig.aiDisclosure && <p class="disclosure-note">{siteConfig.aiDisclosure}</p>}
     <div class="article-body"><Content /></div>
     {siteConfig.showSources && <aside>
-      <div class="source-heading"><span class="source-icon">↗</span><strong>来源</strong></div>
+      <div class="source-heading"><span class="source-icon">↗</span><strong>{ui.source}</strong></div>
       <ul>{entry.data.sourceUrls.map((url) => <li><a href={url} rel="noreferrer">{url}</a></li>)}</ul>
     </aside>}
   </article>
+  {related.length > 0 && (
+    <section class="related-section" aria-labelledby="related-heading">
+      <div class="section-heading"><h2 id="related-heading">{ui.relatedArticles}</h2></div>
+      <div class="article-grid compact-grid">{related.map((candidate) => <ArticleCard entry={candidate} compact />)}</div>
+    </section>
+  )}
 </Article>

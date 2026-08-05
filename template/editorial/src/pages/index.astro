@@ -1,30 +1,39 @@
 ---
 import { getCollection } from 'astro:content'
-import Article from '../layouts/Article.astro'
+import ArticleCard from '../components/ArticleCard.astro'
 import { siteConfig } from '../data/site-config'
+import { uiFor } from '../data/ui'
+import { topicHref } from '../lib/content'
+import Article from '../layouts/Article.astro'
 
-const entries = (await getCollection('articles')).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+const entries = (await getCollection('articles')).sort((left, right) => right.data.publishedAt.valueOf() - left.data.publishedAt.valueOf())
+const latestEntries = entries.slice(0, 12)
 const base = import.meta.env.BASE_URL
+const ui = uiFor(siteConfig.locale)
+const topicCounts = new Map<string, number>()
+for (const entry of entries) {
+  for (const topic of entry.data.topics) topicCounts.set(topic, (topicCounts.get(topic) ?? 0) + 1)
+}
+const topTopics = [...topicCounts].sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0])).slice(0, 12)
 ---
-<Article title={siteConfig.name} summary={siteConfig.description} language="zh-CN">
+<Article title={siteConfig.name} summary={siteConfig.description} language={siteConfig.locale} kind="website">
   <section class="hero">
     <div class="hero-kicker"><span class="pulse-dot"></span><span>{siteConfig.tagline}</span></div>
     <h1>{siteConfig.name}</h1>
     <p class="hero-description">{siteConfig.description}</p>
-    <div class="hero-meta"><span>{entries.length} 条精选内容</span><span>·</span><span>Evidence-first publishing</span></div>
+    <div class="hero-meta"><span>{entries.length} {ui.selectedItems}</span><span>·</span><span>{siteConfig.publisherName}</span></div>
+    {siteConfig.newsletterUrl && <a class="primary-action" href={siteConfig.newsletterUrl} rel="noreferrer">{ui.newsletter} →</a>}
   </section>
-  <section class="article-grid">
-    {entries.map((entry) => (
-      <article class="card">
-        <div class="card-topline">
-          <p class="meta">{entry.data.language} · {entry.data.publishedAt.toLocaleDateString()}</p>
-          {siteConfig.showScore && entry.data.score !== undefined && <span class="score">{Math.round(entry.data.score * 100)} / 100</span>}
-        </div>
-        <h2><a href={`${base}${entry.id}/`}>{entry.data.title}</a></h2>
-        <p>{entry.data.summary}</p>
-        {siteConfig.showTopics && entry.data.topics.length > 0 && <div class="topic-list">{entry.data.topics.map((topic) => <span>{topic}</span>)}</div>}
-        <a class="read-more" href={`${base}${entry.id}/`}>阅读全文 →</a>
-      </article>
-    ))}
+  {topTopics.length > 0 && (
+    <section class="topic-cloud" aria-labelledby="topics-heading">
+      <div class="section-heading"><h2 id="topics-heading">{ui.topics}</h2></div>
+      <div class="topic-list">{topTopics.map(([topic, count]) => <a href={topicHref(topic, base)}>{topic} <span>{count}</span></a>)}</div>
+    </section>
+  )}
+  <section class="content-section" aria-labelledby="latest-heading">
+    <div class="section-heading"><h2 id="latest-heading">{ui.latest}</h2><a href={`${base}archive/`}>{ui.viewArchive} →</a></div>
+    <div class="article-grid">
+      {latestEntries.length > 0 ? latestEntries.map((entry) => <ArticleCard entry={entry} />) : <p>{ui.noArticles}</p>}
+    </div>
   </section>
 </Article>

@@ -14,6 +14,14 @@ export type SiteConfig = {
   name: string
   description: string
   tagline: string
+  locale: string
+  publisherName: string
+  authorName: string
+  contactUrl: string
+  aiDisclosure: string
+  socialImageUrl: string
+  newsletterUrl: string
+  sponsorUrl: string
   theme: 'editorial' | 'light' | 'midnight'
   primaryColor: string
   accentColor: string
@@ -100,6 +108,19 @@ function tokenValue(value: string | undefined, fallback: string, name: string, p
   return resolved
 }
 
+function optionalUrlValue(value: string | undefined, name: string, protocols: string[]): string {
+  const resolved = value?.trim() || ''
+  if (!resolved) return ''
+  let url: URL
+  try {
+    url = new URL(resolved)
+  } catch {
+    throw new Error(`${name} must be an absolute URL`)
+  }
+  if (!protocols.includes(url.protocol)) throw new Error(`${name} uses an unsupported protocol`)
+  return url.href
+}
+
 export function loadConfig(
   env: Record<string, string | undefined> = process.env,
   options: { allowMissingCredentials?: boolean; rootDir?: string } = {},
@@ -135,10 +156,19 @@ export function loadConfig(
   const threshold = numberValue(env.PUBLISH_THRESHOLD, 0.75, 'PUBLISH_THRESHOLD', 0, 1)
   const responseFormat = env.AI_RESPONSE_FORMAT?.trim() || 'json_object'
   if (!['json_object', 'json_schema'].includes(responseFormat)) throw new Error(`Unsupported AI_RESPONSE_FORMAT: ${responseFormat}`)
+  const siteName = env.SITE_NAME?.trim() || 'PulseMesh'
   const site: SiteConfig = {
-    name: env.SITE_NAME?.trim() || 'PulseMesh',
+    name: siteName,
     description: env.SITE_DESCRIPTION?.trim() || '经过筛选、核验和语言生成的行业资讯。',
     tagline: env.SITE_TAGLINE?.trim() || '先看事实，再看叙事。',
+    locale: tokenValue(env.SITE_LOCALE, outputLanguages[0], 'SITE_LOCALE', /^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$/),
+    publisherName: env.SITE_PUBLISHER_NAME?.trim() || siteName,
+    authorName: env.SITE_AUTHOR_NAME?.trim() || siteName,
+    contactUrl: optionalUrlValue(env.SITE_CONTACT_URL, 'SITE_CONTACT_URL', ['https:', 'http:', 'mailto:']),
+    aiDisclosure: env.SITE_AI_DISCLOSURE?.trim() || '',
+    socialImageUrl: optionalUrlValue(env.SITE_SOCIAL_IMAGE_URL, 'SITE_SOCIAL_IMAGE_URL', ['https:', 'http:']),
+    newsletterUrl: optionalUrlValue(env.SITE_NEWSLETTER_URL, 'SITE_NEWSLETTER_URL', ['https:', 'http:']),
+    sponsorUrl: optionalUrlValue(env.SITE_SPONSOR_URL, 'SITE_SPONSOR_URL', ['https:', 'http:']),
     theme: (env.SITE_THEME?.trim() || 'midnight') as SiteConfig['theme'],
     primaryColor: tokenValue(env.SITE_PRIMARY_COLOR, '#8b5cf6', 'SITE_PRIMARY_COLOR', /^#[0-9a-fA-F]{6}$/),
     accentColor: tokenValue(env.SITE_ACCENT_COLOR, '#22d3ee', 'SITE_ACCENT_COLOR', /^#[0-9a-fA-F]{6}$/),

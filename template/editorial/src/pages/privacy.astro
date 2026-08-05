@@ -1,0 +1,18 @@
+---
+import InfoPage from '../components/InfoPage.astro'
+import { siteConfig } from '../data/site-config'
+
+const chinese = siteConfig.locale.toLowerCase().startsWith('zh')
+const title = chinese ? '隐私说明' : 'Privacy notice'
+const summary = chinese ? '本模板默认采用静态发布，不要求用户账户。' : 'This template is static by default and does not require user accounts.'
+const sections = chinese
+  ? [
+      { heading: '默认行为', paragraphs: ['站点模板本身不创建用户账户，也不默认设置跟踪 Cookie。托管平台可能记录基础访问和安全日志。'] },
+      { heading: '外部服务', paragraphs: ['如果站点配置了订阅、赞助或外部链接，相关服务会适用其自己的隐私条款。站点所有者接入分析或广告服务后，应同步更新本说明。'] },
+    ]
+  : [
+      { heading: 'Default behavior', paragraphs: ['The site template does not create user accounts or set tracking cookies by default. The hosting platform may retain basic access and security logs.'] },
+      { heading: 'External services', paragraphs: ['Configured newsletter, sponsorship, or external links are governed by their respective privacy terms. Site owners must update this notice when analytics or advertising services are enabled.'] },
+    ]
+---
+<InfoPage title={title} summary={summary} sections={sections} />

@@ -1,0 +1,36 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content'
+import ArticleCard from '../../components/ArticleCard.astro'
+import { siteConfig } from '../../data/site-config'
+import { uiFor } from '../../data/ui'
+import { topicSlug } from '../../lib/content'
+import Article from '../../layouts/Article.astro'
+
+type Props = { topic: string; entries: CollectionEntry<'articles'>[] }
+
+export async function getStaticPaths() {
+  const entries = await getCollection('articles')
+  const groups = new Map<string, Props>()
+  for (const entry of entries) {
+    for (const topic of entry.data.topics) {
+      const slug = topicSlug(topic)
+      const group = groups.get(slug) ?? { topic, entries: [] }
+      group.entries.push(entry)
+      groups.set(slug, group)
+    }
+  }
+  return [...groups].map(([topic, props]) => ({ params: { topic }, props }))
+}
+
+const { topic, entries } = Astro.props as Props
+entries.sort((left, right) => right.data.publishedAt.valueOf() - left.data.publishedAt.valueOf())
+const ui = uiFor(siteConfig.locale)
+---
+<Article title={topic} summary={`${siteConfig.name} ${ui.topics}：${topic}`} language={siteConfig.locale} kind="page">
+  <section class="listing-page">
+    <p class="eyebrow">{ui.topics}</p>
+    <h1>{topic}</h1>
+    <p class="summary">{entries.length} {ui.selectedItems}</p>
+    <div class="article-grid">{entries.map((entry) => <ArticleCard entry={entry} />)}</div>
+  </section>
+</Article>
