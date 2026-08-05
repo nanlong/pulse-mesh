@@ -1,6 +1,110 @@
 {
   "version": 1,
   "decisions": {
+    "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
+      "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z"
+    },
+    "c19914a66bbff576c57e2dbf70ca97767adc796fe84d1aab113e5e848ec630d5": {
+      "decisionKey": "c19914a66bbff576c57e2dbf70ca97767adc796fe84d1aab113e5e848ec630d5",
+      "status": "published",
+      "reason": "美国参议员Lummis推动CLARITY法案在国会休会前投票，涉及加密市场结构监管，对行业有重大政策影响，来源Cointelegraph为可信媒体，信息具体且可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z",
+      "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
+    },
+    "91013c2dd2542bffdef22a078d685c74a480408f5fafc408dd72709c9167c68f": {
+      "decisionKey": "91013c2dd2542bffdef22a078d685c74a480408f5fafc408dd72709c9167c68f",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z"
+    },
+    "889bd7b83202c477d8843388f1aa8d55ff0c051fbb8956017c1d2253b1cfe630": {
+      "decisionKey": "889bd7b83202c477d8843388f1aa8d55ff0c051fbb8956017c1d2253b1cfe630",
+      "status": "rejected",
+      "reason": "The article focuses on AI models and legal issues, with no direct relevance to the crypto industry. It does not address crypto policy, protocol upgrades, security events affecting crypto, or market structure changes.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z"
+    },
+    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
+      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z"
+    },
+    "8410ea267e0fd264d873bc3440b5d2f9be80b82ef57da476f5eda04e221d6e8e": {
+      "decisionKey": "8410ea267e0fd264d873bc3440b5d2f9be80b82ef57da476f5eda04e221d6e8e",
+      "status": "published",
+      "reason": "Visa expanding stablecoin payouts via Zerohash is a significant payment infrastructure development with clear impact on crypto adoption and stablecoin usage.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z",
+      "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
+    },
+    "607392cee7b497c49071be9995edaf3a21e64e360ecd3c447a3684122e3475c3": {
+      "decisionKey": "607392cee7b497c49071be9995edaf3a21e64e360ecd3c447a3684122e3475c3",
+      "status": "published",
+      "reason": "The article reports concrete, verifiable election outcomes involving a major crypto industry PAC, providing timely and relevant information about political influence and potential regulatory impacts for the crypto audience.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z",
+      "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
+    },
+    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
+      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z"
+    },
+    "5d14106267f08c71f7ee18bf377864e370530bb44282fb824b6228fd3393d5d1": {
+      "decisionKey": "5d14106267f08c71f7ee18bf377864e370530bb44282fb824b6228fd3393d5d1",
+      "status": "published",
+      "reason": "Decrypt报道美国检方指控NFT项目Few and Far创始人涉嫌挪用1000万美元资金用于个人挥霍，涉及加密行业欺诈与执法行动，对受众有明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z",
+      "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
+    },
+    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
+      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z"
+    },
+    "386c466d7d8044ba54f2ec9c3e143fcafe492cf2e5c5e013aa0570c4b608eb3d": {
+      "decisionKey": "386c466d7d8044ba54f2ec9c3e143fcafe492cf2e5c5e013aa0570c4b608eb3d",
+      "status": "rejected",
+      "reason": "该候选为比特币和Zcash的价格走势分析与预测，属于价格喊单和技术分析类内容，不包含具体政策、协议升级、安全事件或市场结构变化等对加密行业有明确影响的信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z"
+    },
+    "1dfabdd1cba2b0b7e8a71426f4af92c180a8b66557a362b7d0eedcc690f752ce": {
+      "decisionKey": "1dfabdd1cba2b0b7e8a71426f4af92c180a8b66557a362b7d0eedcc690f752ce",
+      "status": "rejected",
+      "reason": "Marex invests in Digital Prime to expand institutional crypto lending, a concrete move by a traditional financial firm into crypto infrastructure. Relevant to institutional adoption and lending market.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z"
+    },
+    "18f77c58e75bd258a889575d3ee90399d4718c6462ac24ead43501734e4fd7c7": {
+      "decisionKey": "18f77c58e75bd258a889575d3ee90399d4718c6462ac24ead43501734e4fd7c7",
+      "status": "published",
+      "reason": "SEC宣布在执法部门设立新的财务报告和会计部门，针对会计和财务报告欺诈。这属于重要监管结构变化，对需遵守证券法的加密企业有潜在影响，提供明确信息增量。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T20:00:58.866Z",
+      "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
+    },
     "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915": {
       "decisionKey": "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915",
       "status": "failed",
@@ -13,13 +117,6 @@
       "status": "rejected",
       "reason": "该候选主要报道比特币价格和ETF资金流入，属于市场行情和价格预测类内容，缺乏对加密行业受众具有明确影响的具体政策、协议升级或安全事件信息，信息增量有限，按审核标准应忽略价格喊单类内容。",
       "score": 0.3,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
-      "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T18:00:52.340Z"
     },
@@ -75,32 +172,11 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T18:00:52.340Z"
     },
-    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
-      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
-      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
-      "status": "failed",
-      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"risks\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
     "4bb9ff6f60724bddc42e71ee649c7a004f79c0b9e15fd2ea02e016e8d9269194": {
       "decisionKey": "4bb9ff6f60724bddc42e71ee649c7a004f79c0b9e15fd2ea02e016e8d9269194",
       "status": "rejected",
       "reason": "Visa expanding stablecoin capabilities through Visa Direct is a notable development for crypto payments, and the source is a reputable crypto news outlet. However, the content is very brief and lacks specific details about the collaboration, reducing its information value.",
       "score": 0.6,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
-      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T18:00:52.340Z"
     },
@@ -321,17 +397,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-05T18:00:52.340Z",
-    "https://cointelegraph.com/rss": "2026-08-05T18:00:52.340Z",
-    "https://decrypt.co/feed": "2026-08-05T18:00:52.340Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-05T18:00:52.340Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-05T18:00:52.340Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-05T18:00:52.340Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-05T18:00:52.340Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-05T18:00:52.340Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-05T18:00:52.340Z",
-    "https://solana.com/rss.xml": "2026-08-05T18:00:52.340Z",
-    "https://slowmist.medium.com/feed": "2026-08-05T18:00:52.340Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-05T20:00:58.866Z",
+    "https://cointelegraph.com/rss": "2026-08-05T20:00:58.866Z",
+    "https://decrypt.co/feed": "2026-08-05T20:00:58.866Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-05T20:00:58.866Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-05T20:00:58.866Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-05T20:00:58.866Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-05T20:00:58.866Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-05T20:00:58.866Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-05T20:00:58.866Z",
+    "https://solana.com/rss.xml": "2026-08-05T20:00:58.866Z",
+    "https://slowmist.medium.com/feed": "2026-08-05T20:00:58.866Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
