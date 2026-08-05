@@ -1,6 +1,22 @@
 {
   "version": 1,
   "decisions": {
+    "e3298432a29a66d06bdd61331cf8ca876c5a9661a23025de86d7dc44609883e4": {
+      "decisionKey": "e3298432a29a66d06bdd61331cf8ca876c5a9661a23025de86d7dc44609883e4",
+      "status": "rejected",
+      "reason": "候选为市场行情报道，主要关注黄金和美股，对比特币仅提及价格未突破，属于价格行情类低价值内容，对加密行业受众缺乏明确影响和信息增量，不符合重要政策、协议升级、安全事件或市场结构变化标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T15:45:02.718Z"
+    },
+    "cfa145c80b20582ffb218b56a804fe1dc95a218ea6585b0b3929d7ef562ffa85": {
+      "decisionKey": "cfa145c80b20582ffb218b56a804fe1dc95a218ea6585b0b3929d7ef562ffa85",
+      "status": "rejected",
+      "reason": "该候选为投资策略分析文章，讨论比特币在投资组合中的配置，不涉及重要政策、协议升级、安全事件或市场结构变化，对加密行业受众的信息增量有限，属于常见市场观点内容。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T15:45:02.718Z"
+    },
     "9fcb0a9eed9914757685e18fd86cae7ac99c06f865b140990ad8af1c42b48697": {
       "decisionKey": "9fcb0a9eed9914757685e18fd86cae7ac99c06f865b140990ad8af1c42b48697",
       "status": "rejected",
@@ -62,5 +78,5 @@
       "bCommitSha": "2dae2413ad5fae2dcba68e5cceec534c005f094a"
     }
   },
-  "lastRunAt": "2026-08-05T14:46:22.462Z"
+  "lastRunAt": "2026-08-05T15:45:02.718Z"
 }
