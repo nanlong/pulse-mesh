@@ -61,4 +61,41 @@ describe('pipeline idempotence', () => {
     expect(result.published).toBe(0)
     expect(calls).toBe(0)
   })
+
+  it('processes newest candidates first and defers the rest when the run cap is reached', async () => {
+    const root = `/tmp/pulse-mesh-pipeline-cap-${Date.now()}-${Math.random()}`
+    const config = loadConfig({
+      AI_PROVIDER: 'deepseek',
+      AI_API_KEY: 'key',
+      TARGET_REPOSITORY: 'owner/site',
+      TARGET_REPO_TOKEN: 'token',
+      AI_ALLOWED_MODELS: 'deepseek-v4-flash',
+      SOURCE_URLS: 'https://example.test/multiple.xml',
+      MAX_ITEM_AGE_HOURS: '24',
+      MAX_CANDIDATES_PER_RUN: '2',
+    }, { rootDir: root })
+    const fetchFn: FetchLike = async () => new Response(`<?xml version="1.0"?><rss version="2.0"><channel>
+      <item><guid>old</guid><title>Old signal</title><link>https://example.test/old</link><pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate><description>Old signal with enough context for publication.</description></item>
+      <item><guid>recent-1</guid><title>Recent one</title><link>https://example.test/recent-1</link><pubDate>Wed, 05 Aug 2026 11:00:00 GMT</pubDate><description>Recent signal one with enough context for publication.</description></item>
+      <item><guid>recent-2</guid><title>Recent two</title><link>https://example.test/recent-2</link><pubDate>Wed, 05 Aug 2026 10:00:00 GMT</pubDate><description>Recent signal two with enough context for publication.</description></item>
+      <item><guid>recent-3</guid><title>Recent three</title><link>https://example.test/recent-3</link><pubDate>Wed, 05 Aug 2026 09:00:00 GMT</pubDate><description>Recent signal three with enough context for publication.</description></item>
+    </channel></rss>`, { headers: { 'content-type': 'application/rss+xml' } })
+    const calls = { count: 0 }
+    const result = await runPipeline({
+      config,
+      fetchFn,
+      aiClient: fakeAi(calls),
+      allowFixtureSources: true,
+      now: new Date('2026-08-05T12:00:00Z'),
+      publishedKeys: new Set(),
+      publish: async (_config, articles) => {
+        expect(articles).toHaveLength(2)
+        return 'commit-1'
+      },
+    })
+    expect(result.collected).toBe(4)
+    expect(result.deferred).toBe(1)
+    expect(result.published).toBe(2)
+    expect(calls.count).toBe(4)
+  })
 })

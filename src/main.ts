@@ -37,6 +37,18 @@ function isHardFiltered(candidate: Candidate, config: AppConfig, now: Date): str
   return undefined
 }
 
+function isWithinProcessingWindow(candidate: Candidate, config: AppConfig, now: Date): boolean {
+  if (!candidate.publishedAt) return true
+  const publishedAt = Date.parse(candidate.publishedAt)
+  return Number.isFinite(publishedAt) && now.getTime() - publishedAt <= config.maxItemAgeHours * 3_600_000
+}
+
+function publishedTimestamp(candidate: Candidate): number {
+  if (!candidate.publishedAt) return Number.NEGATIVE_INFINITY
+  const publishedAt = Date.parse(candidate.publishedAt)
+  return Number.isFinite(publishedAt) ? publishedAt : Number.NEGATIVE_INFINITY
+}
+
 function isReservedFixtureSource(candidate: Candidate): boolean {
   try {
     const hostname = new URL(candidate.canonicalUrl).hostname.toLowerCase().replace(/^\[|\]$/g, '')
@@ -60,7 +72,7 @@ function configHash(config: AppConfig, promptSet: PromptSet): string {
   return hashValue(JSON.stringify({ provider: config.provider, model: config.model, threshold: config.publishThreshold, languages: config.outputLanguages, instructions: config.contentInstructions, prompts: promptSet }))
 }
 
-export async function runPipeline(options: RunOptions): Promise<{ collected: number; filtered: number; rejected: number; generated: number; published: number; sourceErrors: number; bCommitSha?: string }> {
+export async function runPipeline(options: RunOptions): Promise<{ collected: number; deferred: number; filtered: number; rejected: number; generated: number; published: number; sourceErrors: number; bCommitSha?: string }> {
   const { config } = options
   const now = options.now ?? new Date()
   const promptSet = prompts(config)
@@ -69,7 +81,7 @@ export async function runPipeline(options: RunOptions): Promise<{ collected: num
   const publishedKeys = options.publishedKeys ?? await loadTargetPublishedKeys(config)
   if (options.mode === 'bootstrap') {
     const commit = await (options.publish ?? publishArticles)(config, [], { bootstrapOnly: true })
-    return { collected: 0, filtered: 0, rejected: 0, generated: 0, published: 0, sourceErrors: 0, bCommitSha: commit }
+    return { collected: 0, deferred: 0, filtered: 0, rejected: 0, generated: 0, published: 0, sourceErrors: 0, bCommitSha: commit }
   }
   const aiClient = options.aiClient ?? createAiClient(config)
   const collection = await collectSources(config.sourceUrls, options.fetchFn)
@@ -78,12 +90,21 @@ export async function runPipeline(options: RunOptions): Promise<{ collected: num
     const key = `${candidate.sourceId}:${candidate.externalId}:${hashValue(normalizedContent(candidate))}`
     if (!candidates.has(key)) candidates.set(key, candidate)
   }
+  const orderedCandidates = [...candidates.values()]
+    .filter((candidate) => isWithinProcessingWindow(candidate, config, now))
+    .sort((left, right) => {
+      const timestampDifference = publishedTimestamp(right) - publishedTimestamp(left)
+      if (timestampDifference !== 0) return timestampDifference
+      return `${left.sourceId}:${left.externalId}`.localeCompare(`${right.sourceId}:${right.externalId}`)
+    })
+  const candidatesForRun = orderedCandidates.slice(0, config.maxCandidatesPerRun)
+  const deferred = Math.max(0, orderedCandidates.length - candidatesForRun.length)
   let filtered = 0
   let rejected = 0
   let generated = 0
   const articles: ArticleFile[] = []
   const seenKeys = new Set<string>()
-  for (const candidate of candidates.values()) {
+  for (const candidate of candidatesForRun) {
     const contentHash = hashValue(normalizedContent(candidate))
     const decisionKey = makeDecisionKey(candidate.sourceId, candidate.externalId, contentHash, currentConfigHash)
     const existingDecision = state.decisions[decisionKey]
@@ -127,7 +148,7 @@ export async function runPipeline(options: RunOptions): Promise<{ collected: num
     }
   }
   await saveState(config.statePath, state)
-  return { collected: collection.candidates.length, filtered, rejected, generated, published: commit ? articles.length : 0, sourceErrors: collection.errors.length, bCommitSha: commit }
+  return { collected: collection.candidates.length, deferred, filtered, rejected, generated, published: commit ? articles.length : 0, sourceErrors: collection.errors.length, bCommitSha: commit }
 }
 
 async function main(): Promise<void> {

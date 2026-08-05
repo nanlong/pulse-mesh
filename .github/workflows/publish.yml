@@ -81,6 +81,11 @@ on:
         required: false
         default: ''
         type: string
+      max_candidates_per_run:
+        description: 'Optional maximum candidates per run'
+        required: false
+        default: ''
+        type: string
       minimum_content_length:
         description: 'Optional minimum content length'
         required: false
@@ -134,6 +139,7 @@ jobs:
           PUBLISH_THRESHOLD: ${{ inputs.publish_threshold || vars.PUBLISH_THRESHOLD }}
           TARGET_BRANCH: ${{ inputs.target_branch || vars.TARGET_BRANCH }}
           MAX_ITEM_AGE_HOURS: ${{ inputs.max_item_age_hours || vars.MAX_ITEM_AGE_HOURS }}
+          MAX_CANDIDATES_PER_RUN: ${{ inputs.max_candidates_per_run || vars.MAX_CANDIDATES_PER_RUN }}
           MINIMUM_CONTENT_LENGTH: ${{ inputs.minimum_content_length || vars.MINIMUM_CONTENT_LENGTH }}
           STATE_PATH: ${{ inputs.state_path || vars.STATE_PATH }}
           TEMPLATE_DIR: ${{ inputs.template_dir || vars.TEMPLATE_DIR }}

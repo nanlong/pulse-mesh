@@ -18,7 +18,7 @@ AI_API_KEY=***
 TARGET_REPO_TOKEN=***
 ```
 
-默认使用内置币圈来源包、简体中文、Markdown 和 `editorial` Astro 模板。常用覆盖项包括 `SOURCE_URLS`、`CONTENT_INSTRUCTIONS`、`GATE_PROMPT`、`ARTICLE_PROMPT`、`OUTPUT_LANGUAGES`、`AI_MODEL`、`AI_ALLOWED_MODELS`、`PUBLISH_THRESHOLD`、过滤阈值、模板路径和 `SITE_*` 视觉配置。换内容方向或站点风格时只需替换这些 Variables，不需要修改业务代码。
+默认使用内置币圈来源包、简体中文、Markdown 和 `editorial` Astro 模板。常用覆盖项包括 `SOURCE_URLS`、`CONTENT_INSTRUCTIONS`、`GATE_PROMPT`、`ARTICLE_PROMPT`、`OUTPUT_LANGUAGES`、`AI_MODEL`、`AI_ALLOWED_MODELS`、`PUBLISH_THRESHOLD`、候选时间窗口与每次运行上限、模板路径和 `SITE_*` 视觉配置。换内容方向或站点风格时只需替换这些 Variables，不需要修改业务代码。
 
 ## 本地运行
 
@@ -53,7 +53,7 @@ bun run action:local -- --mode=run --preview
 `.github/workflows/publish.yml` 是 A 的唯一业务 workflow，支持定时和手动触发。空 B 初始化可使用 `workflow_dispatch` 的 `bootstrap` 模式；普通运行按以下顺序工作：
 
 ```text
-采集 → 归一化 → 确定性去重 → 硬过滤 → AI Gate → 多语言生成 → 校验 → 推送 B
+采集 → 归一化 → 确定性去重 → 最近优先与运行上限 → 硬过滤 → AI Gate → 多语言生成 → 校验 → 推送 B
 ```
 
 触发不等于发布。候选被拒绝、重复或校验失败时，运行可以成功结束，但不会创建 B 内容 commit。

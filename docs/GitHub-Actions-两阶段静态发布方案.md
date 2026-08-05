@@ -138,7 +138,8 @@ TARGET_REPO_TOKEN=***
 | `AI_ALLOWED_MODELS` | 允许使用的模型列表；默认只允许最终生效模型 |
 | `PUBLISH_THRESHOLD` | AI Gate 最低综合分，范围 `[0, 1]` |
 | `TARGET_BRANCH` | B 发布分支，默认 `main` |
-| `MAX_ITEM_AGE_HOURS` | 候选最大年龄，默认 `72` 小时 |
+| `MAX_ITEM_AGE_HOURS` | 候选最大年龄，默认 `24` 小时 |
+| `MAX_CANDIDATES_PER_RUN` | 单次运行最多进入 Gate 的候选数，默认 `5`；按发布时间从新到旧选择，剩余候选留到下一次运行 |
 | `MINIMUM_CONTENT_LENGTH` | 正文最小长度，默认 `40` |
 | `STATE_PATH` | A 决策状态路径，默认 `state/decisions.json` |
 | `TEMPLATE_DIR` | A 使用的 Astro 模板目录，默认 `template/editorial` |
@@ -227,7 +228,7 @@ A workflow 只有一个业务 job，并只运行一个入口：
 
 ### 6.1 采集与归一化
 
-`SOURCE_URLS` 每行一个 URL。采集器根据响应 `Content-Type` 和响应体特征自动识别：
+`SOURCE_URLS` 每行一个 URL。采集器根据响应 `Content-Type` 和响应体特征自动识别。采集后的候选先按 `MAX_ITEM_AGE_HOURS` 排除过期内容，再按发布时间从新到旧排序，并只将前 `MAX_CANDIDATES_PER_RUN` 条交给 Gate；没有被选中的候选不会丢失，会在后续运行中重新采集和处理：
 
 - XML：RSS / Atom；
 - JSON：常见 `items`、`data`、`results`、`articles` 列表；
