@@ -139,7 +139,8 @@ TARGET_REPO_TOKEN=***
 | `PUBLISH_THRESHOLD` | AI Gate 最低综合分，范围 `[0, 1]` |
 | `TARGET_BRANCH` | B 发布分支，默认 `main` |
 | `MAX_ITEM_AGE_HOURS` | 候选最大年龄，默认 `24` 小时 |
-| `MAX_CANDIDATES_PER_RUN` | 单次运行最多进入 Gate 的候选数，默认 `5`；按发布时间从新到旧选择，剩余候选留到下一次运行 |
+| `MAX_CANDIDATES_PER_RUN` | 单次运行最多进入 Gate 的候选数，默认 `5`；按发布时间从新到旧选择，超出上限的候选为保持新鲜度而跳过，不进入下一轮 backlog |
+| `MAX_DECISION_RECORDS` | `state/decisions.json` 最多保留的最新决策数，默认 `1000` |
 | `MINIMUM_CONTENT_LENGTH` | 正文最小长度，默认 `40` |
 | `STATE_PATH` | A 决策状态路径，默认 `state/decisions.json` |
 | `TEMPLATE_DIR` | A 使用的 Astro 模板目录，默认 `template/editorial` |
@@ -228,7 +229,7 @@ A workflow 只有一个业务 job，并只运行一个入口：
 
 ### 6.1 采集与归一化
 
-`SOURCE_URLS` 每行一个 URL。采集器根据响应 `Content-Type` 和响应体特征自动识别。采集后的候选先按 `MAX_ITEM_AGE_HOURS` 排除过期内容，再按发布时间从新到旧排序，并只将前 `MAX_CANDIDATES_PER_RUN` 条交给 Gate；没有被选中的候选不会丢失，会在后续运行中重新采集和处理：
+`SOURCE_URLS` 每行一个 URL。采集器根据响应 `Content-Type` 和响应体特征自动识别。采集后的候选先按 `MAX_ITEM_AGE_HOURS` 排除过期内容，再按上次成功运行时间筛选新内容，按发布时间从新到旧排序，并只将前 `MAX_CANDIDATES_PER_RUN` 条交给 Gate。超出上限的候选会被本轮跳过，不会形成 backlog；下一轮只看新的内容。
 
 - XML：RSS / Atom；
 - JSON：常见 `items`、`data`、`results`、`articles` 列表；
@@ -340,6 +341,8 @@ decisionKey = sourceId + externalId + contentHash + configHash
 - Prompt/config hash；
 - 首次和最近处理时间；
 - B commit SHA（发布成功后）。
+
+状态还记录最近一次无来源错误且完成保存的 `lastRunAt` 检查点。下一轮只处理发布时间晚于该检查点的候选；没有发布时间的来源只在尚无检查点时处理。每次保存前按 `MAX_DECISION_RECORDS` 删除最旧决策，保证 `decisions.json` 有固定上限。已发布文章的 decision key 由 B 的 front matter 保留，状态记录被裁剪后仍能防止重复发布。
 
 B 文章 front matter 同时保存 `decisionKey`。每次运行先读取 B 已有文章的 decision key；即使 B 推送成功后 A 状态提交失败，也不会重新调用 AI 或重复发布。
 

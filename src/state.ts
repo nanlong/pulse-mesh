@@ -17,6 +17,20 @@ export type DecisionRecord = {
 export type DecisionState = {
   version: 1
   decisions: Record<string, DecisionRecord>
+  lastRunAt?: string
+}
+
+export function pruneDecisionState(state: DecisionState, maxRecords: number): void {
+  if (!Number.isInteger(maxRecords) || maxRecords < 1) throw new Error('maxRecords must be a positive integer')
+  const timestamp = (record: DecisionRecord): number => {
+    const parsed = Date.parse(record.updatedAt)
+    return Number.isFinite(parsed) ? parsed : Number.NEGATIVE_INFINITY
+  }
+  const entries = Object.entries(state.decisions).sort(([leftKey, left], [rightKey, right]) => {
+    const difference = timestamp(right) - timestamp(left)
+    return difference !== 0 ? difference : rightKey.localeCompare(leftKey)
+  })
+  state.decisions = Object.fromEntries(entries.slice(0, maxRecords))
 }
 
 export function hashValue(value: string): string {
@@ -31,7 +45,8 @@ export async function loadState(filePath: string): Promise<DecisionState> {
   try {
     const parsed = JSON.parse(await readFile(filePath, 'utf8')) as Partial<DecisionState>
     if (parsed.version !== 1 || !parsed.decisions || typeof parsed.decisions !== 'object') throw new Error('invalid decisions state')
-    return { version: 1, decisions: parsed.decisions as Record<string, DecisionRecord> }
+    if (parsed.lastRunAt !== undefined && (typeof parsed.lastRunAt !== 'string' || !Number.isFinite(Date.parse(parsed.lastRunAt)))) throw new Error('invalid decisions state')
+    return { version: 1, decisions: parsed.decisions as Record<string, DecisionRecord>, ...(parsed.lastRunAt ? { lastRunAt: parsed.lastRunAt } : {}) }
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === 'ENOENT') return { version: 1, decisions: {} }
     throw error

@@ -1,7 +1,7 @@
 import { createAiClient, evaluateCandidate, generateArticles, type AiClient } from './ai'
 import { loadConfig, type AppConfig } from './config'
 import { collectSources, type Candidate, type FetchLike } from './sources'
-import { hashValue, loadState, makeDecisionKey, saveState } from './state'
+import { hashValue, loadState, makeDecisionKey, pruneDecisionState, saveState, type DecisionState } from './state'
 import { loadTargetPublishedKeys, publishArticles, type ArticleFile } from './publish'
 
 type PromptSet = { gate: string; article: string }
@@ -43,10 +43,25 @@ function isWithinProcessingWindow(candidate: Candidate, config: AppConfig, now: 
   return Number.isFinite(publishedAt) && now.getTime() - publishedAt <= config.maxItemAgeHours * 3_600_000
 }
 
+function isFreshCandidate(candidate: Candidate, config: AppConfig, now: Date, lastRunAt?: string): boolean {
+  if (!isWithinProcessingWindow(candidate, config, now)) return false
+  if (!lastRunAt) return true
+  if (!candidate.publishedAt) return false
+  const publishedAt = Date.parse(candidate.publishedAt)
+  const checkpoint = Date.parse(lastRunAt)
+  return Number.isFinite(publishedAt) && Number.isFinite(checkpoint) && publishedAt > checkpoint
+}
+
 function publishedTimestamp(candidate: Candidate): number {
   if (!candidate.publishedAt) return Number.NEGATIVE_INFINITY
   const publishedAt = Date.parse(candidate.publishedAt)
   return Number.isFinite(publishedAt) ? publishedAt : Number.NEGATIVE_INFINITY
+}
+
+function latestDecisionAt(state: DecisionState): string | undefined {
+  const timestamps = Object.values(state.decisions).map((decision) => Date.parse(decision.updatedAt)).filter(Number.isFinite)
+  if (timestamps.length === 0) return undefined
+  return new Date(Math.max(...timestamps)).toISOString()
 }
 
 function isReservedFixtureSource(candidate: Candidate): boolean {
@@ -72,7 +87,7 @@ function configHash(config: AppConfig, promptSet: PromptSet): string {
   return hashValue(JSON.stringify({ provider: config.provider, model: config.model, threshold: config.publishThreshold, languages: config.outputLanguages, instructions: config.contentInstructions, prompts: promptSet }))
 }
 
-export async function runPipeline(options: RunOptions): Promise<{ collected: number; deferred: number; filtered: number; rejected: number; generated: number; published: number; sourceErrors: number; bCommitSha?: string }> {
+export async function runPipeline(options: RunOptions): Promise<{ collected: number; skipped: number; filtered: number; rejected: number; generated: number; published: number; sourceErrors: number; bCommitSha?: string }> {
   const { config } = options
   const now = options.now ?? new Date()
   const promptSet = prompts(config)
@@ -81,7 +96,7 @@ export async function runPipeline(options: RunOptions): Promise<{ collected: num
   const publishedKeys = options.publishedKeys ?? await loadTargetPublishedKeys(config)
   if (options.mode === 'bootstrap') {
     const commit = await (options.publish ?? publishArticles)(config, [], { bootstrapOnly: true })
-    return { collected: 0, deferred: 0, filtered: 0, rejected: 0, generated: 0, published: 0, sourceErrors: 0, bCommitSha: commit }
+    return { collected: 0, skipped: 0, filtered: 0, rejected: 0, generated: 0, published: 0, sourceErrors: 0, bCommitSha: commit }
   }
   const aiClient = options.aiClient ?? createAiClient(config)
   const collection = await collectSources(config.sourceUrls, options.fetchFn)
@@ -90,18 +105,20 @@ export async function runPipeline(options: RunOptions): Promise<{ collected: num
     const key = `${candidate.sourceId}:${candidate.externalId}:${hashValue(normalizedContent(candidate))}`
     if (!candidates.has(key)) candidates.set(key, candidate)
   }
+  const lastRunAt = state.lastRunAt ?? latestDecisionAt(state)
   const orderedCandidates = [...candidates.values()]
-    .filter((candidate) => isWithinProcessingWindow(candidate, config, now))
+    .filter((candidate) => isFreshCandidate(candidate, config, now, lastRunAt))
     .sort((left, right) => {
       const timestampDifference = publishedTimestamp(right) - publishedTimestamp(left)
       if (timestampDifference !== 0) return timestampDifference
       return `${left.sourceId}:${left.externalId}`.localeCompare(`${right.sourceId}:${right.externalId}`)
     })
   const candidatesForRun = orderedCandidates.slice(0, config.maxCandidatesPerRun)
-  const deferred = Math.max(0, orderedCandidates.length - candidatesForRun.length)
+  const skipped = Math.max(0, orderedCandidates.length - candidatesForRun.length)
   let filtered = 0
   let rejected = 0
   let generated = 0
+  let hasFailures = false
   const articles: ArticleFile[] = []
   const seenKeys = new Set<string>()
   for (const candidate of candidatesForRun) {
@@ -130,6 +147,7 @@ export async function runPipeline(options: RunOptions): Promise<{ collected: num
       generated += generatedArticles.length
       state.decisions[decisionKey] = { decisionKey, status: 'generated', reason: decision.reason, score: decision.score, configHash: currentConfigHash, updatedAt: now.toISOString() }
     } catch (error) {
+      hasFailures = true
       state.decisions[decisionKey] = { decisionKey, status: 'failed', reason: error instanceof Error ? error.message : String(error), configHash: currentConfigHash, updatedAt: now.toISOString() }
     }
   }
@@ -143,12 +161,15 @@ export async function runPipeline(options: RunOptions): Promise<{ collected: num
       }
     } catch (error) {
       for (const article of articles) state.decisions[article.decisionKey] = { ...state.decisions[article.decisionKey], decisionKey: article.decisionKey, status: 'failed', reason: error instanceof Error ? error.message : String(error), configHash: currentConfigHash, updatedAt: now.toISOString() }
+      pruneDecisionState(state, config.maxDecisionRecords)
       await saveState(config.statePath, state)
       throw error
     }
   }
+  if (!hasFailures && collection.errors.length === 0) state.lastRunAt = now.toISOString()
+  pruneDecisionState(state, config.maxDecisionRecords)
   await saveState(config.statePath, state)
-  return { collected: collection.candidates.length, deferred, filtered, rejected, generated, published: commit ? articles.length : 0, sourceErrors: collection.errors.length, bCommitSha: commit }
+  return { collected: collection.candidates.length, skipped, filtered, rejected, generated, published: commit ? articles.length : 0, sourceErrors: collection.errors.length, bCommitSha: commit }
 }
 
 async function main(): Promise<void> {

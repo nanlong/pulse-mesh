@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test'
 import { loadConfig } from '../src/config'
 import { collectSources, canonicalUrl, type FetchLike } from '../src/sources'
-import { hashValue, loadState, makeDecisionKey, saveState } from '../src/state'
+import { hashValue, loadState, makeDecisionKey, pruneDecisionState, saveState } from '../src/state'
 
 const response = (body: string, contentType: string) => new Response(body, { headers: { 'content-type': contentType } })
 
@@ -18,6 +18,8 @@ describe('minimal configuration and source boundary', () => {
     expect(config.model).toBe('deepseek-v4-flash')
     expect(config.outputLanguages).toEqual(['zh-CN'])
     expect(config.sourceUrls.length).toBeGreaterThan(0)
+    expect(config.maxCandidatesPerRun).toBe(5)
+    expect(config.maxDecisionRecords).toBe(1000)
   })
 
   it('fails closed for a model outside the allowlist', () => {
@@ -46,5 +48,19 @@ describe('minimal configuration and source boundary', () => {
     state.decisions.example = { decisionKey: 'example', status: 'rejected', configHash: 'config', updatedAt: new Date().toISOString() }
     await saveState(file, state)
     expect((await loadState(file)).decisions.example?.status).toBe('rejected')
+  })
+
+  it('prunes old decision records while preserving the run checkpoint', () => {
+    const state = {
+      version: 1 as const,
+      lastRunAt: '2026-08-05T12:00:00.000Z',
+      decisions: {
+        old: { decisionKey: 'old', status: 'rejected' as const, configHash: 'config', updatedAt: '2026-08-05T10:00:00.000Z' },
+        recent: { decisionKey: 'recent', status: 'published' as const, configHash: 'config', updatedAt: '2026-08-05T11:00:00.000Z' },
+      },
+    }
+    pruneDecisionState(state, 1)
+    expect(Object.keys(state.decisions)).toEqual(['recent'])
+    expect(state.lastRunAt).toBe('2026-08-05T12:00:00.000Z')
   })
 })

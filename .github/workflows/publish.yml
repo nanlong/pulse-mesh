@@ -86,6 +86,11 @@ on:
         required: false
         default: ''
         type: string
+      max_decision_records:
+        description: 'Optional maximum persisted decision records'
+        required: false
+        default: ''
+        type: string
       minimum_content_length:
         description: 'Optional minimum content length'
         required: false
@@ -140,6 +145,7 @@ jobs:
           TARGET_BRANCH: ${{ inputs.target_branch || vars.TARGET_BRANCH }}
           MAX_ITEM_AGE_HOURS: ${{ inputs.max_item_age_hours || vars.MAX_ITEM_AGE_HOURS }}
           MAX_CANDIDATES_PER_RUN: ${{ inputs.max_candidates_per_run || vars.MAX_CANDIDATES_PER_RUN }}
+          MAX_DECISION_RECORDS: ${{ inputs.max_decision_records || vars.MAX_DECISION_RECORDS }}
           MINIMUM_CONTENT_LENGTH: ${{ inputs.minimum_content_length || vars.MINIMUM_CONTENT_LENGTH }}
           STATE_PATH: ${{ inputs.state_path || vars.STATE_PATH }}
           TEMPLATE_DIR: ${{ inputs.template_dir || vars.TEMPLATE_DIR }}

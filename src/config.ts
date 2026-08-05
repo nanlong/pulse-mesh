@@ -48,6 +48,7 @@ export type AppConfig = {
   publishThreshold: number
   maxItemAgeHours: number
   maxCandidatesPerRun: number
+  maxDecisionRecords: number
   minimumContentLength: number
   statePath: string
   templateDir: string
@@ -172,6 +173,7 @@ export function loadConfig(
     publishThreshold: threshold,
     maxItemAgeHours: numberValue(env.MAX_ITEM_AGE_HOURS, 24, 'MAX_ITEM_AGE_HOURS', 1, 24 * 365),
     maxCandidatesPerRun: numberValue(env.MAX_CANDIDATES_PER_RUN, 5, 'MAX_CANDIDATES_PER_RUN', 1, 100),
+    maxDecisionRecords: numberValue(env.MAX_DECISION_RECORDS, 1000, 'MAX_DECISION_RECORDS', 1, 100_000),
     minimumContentLength: numberValue(env.MINIMUM_CONTENT_LENGTH, 40, 'MINIMUM_CONTENT_LENGTH', 1, 100_000),
     statePath: path.resolve(rootDir, env.STATE_PATH?.trim() || 'state/decisions.json'),
     templateDir: path.resolve(rootDir, env.TEMPLATE_DIR?.trim() || 'template/editorial'),

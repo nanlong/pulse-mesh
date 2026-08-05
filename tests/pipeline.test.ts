@@ -62,7 +62,7 @@ describe('pipeline idempotence', () => {
     expect(calls).toBe(0)
   })
 
-  it('processes newest candidates first and defers the rest when the run cap is reached', async () => {
+  it('processes newest candidates first and skips the rest when the run cap is reached', async () => {
     const root = `/tmp/pulse-mesh-pipeline-cap-${Date.now()}-${Math.random()}`
     const config = loadConfig({
       AI_PROVIDER: 'deepseek',
@@ -94,8 +94,20 @@ describe('pipeline idempotence', () => {
       },
     })
     expect(result.collected).toBe(4)
-    expect(result.deferred).toBe(1)
+    expect(result.skipped).toBe(1)
     expect(result.published).toBe(2)
+    expect(calls.count).toBe(4)
+    const second = await runPipeline({
+      config,
+      fetchFn,
+      aiClient: fakeAi(calls),
+      allowFixtureSources: true,
+      now: new Date('2026-08-05T12:15:00Z'),
+      publishedKeys: new Set(),
+      publish: async () => 'unused',
+    })
+    expect(second.published).toBe(0)
+    expect(second.skipped).toBe(0)
     expect(calls.count).toBe(4)
   })
 })

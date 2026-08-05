@@ -53,6 +53,7 @@ async function main(): Promise<void> {
     ['TARGET_BRANCH', values.get('TARGET_BRANCH') || 'main'],
     ['MAX_ITEM_AGE_HOURS', values.get('MAX_ITEM_AGE_HOURS') || '24'],
     ['MAX_CANDIDATES_PER_RUN', values.get('MAX_CANDIDATES_PER_RUN') || '5'],
+    ['MAX_DECISION_RECORDS', values.get('MAX_DECISION_RECORDS') || '1000'],
     ['MINIMUM_CONTENT_LENGTH', values.get('MINIMUM_CONTENT_LENGTH') || '40'],
     ['STATE_PATH', values.get('STATE_PATH') || 'state/decisions.json'],
     ['TEMPLATE_DIR', values.get('TEMPLATE_DIR') || 'template/editorial'],
