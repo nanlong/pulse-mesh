@@ -1,12 +1,110 @@
 {
   "version": 1,
   "decisions": {
+    "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915": {
+      "decisionKey": "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
     "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
       "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T20:00:58.866Z"
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
+    "c03e0aa8277e41bb0cefad8106cc5cca0a1e48a9bb298e630cb7e1d630b2135f": {
+      "decisionKey": "c03e0aa8277e41bb0cefad8106cc5cca0a1e48a9bb298e630cb7e1d630b2135f",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
+    "b061cec9708ad2769e192680c50145bcfcb206ed4073d7e5b76fcb88f392d66d": {
+      "decisionKey": "b061cec9708ad2769e192680c50145bcfcb206ed4073d7e5b76fcb88f392d66d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
+    "ac50e6b79efc6ca4ea374cd0a3245322f8f6972cea407bc62a3eba21d625aa56": {
+      "decisionKey": "ac50e6b79efc6ca4ea374cd0a3245322f8f6972cea407bc62a3eba21d625aa56",
+      "status": "published",
+      "reason": "Binance's $470M lawsuit against RedotPay is a concrete legal dispute involving a major exchange and a crypto payment firm, with clear implications for industry competition and regulatory attention.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z",
+      "bCommitSha": "9e7dba861a5e37f6143de267ff824cc3af773679"
+    },
+    "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936": {
+      "decisionKey": "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
+    "91013c2dd2542bffdef22a078d685c74a480408f5fafc408dd72709c9167c68f": {
+      "decisionKey": "91013c2dd2542bffdef22a078d685c74a480408f5fafc408dd72709c9167c68f",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
+    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
+      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
+    "74b5ffbdb19d9105b66644498ad80e1a8305570ab99fafd4a5afcb88deb8747e": {
+      "decisionKey": "74b5ffbdb19d9105b66644498ad80e1a8305570ab99fafd4a5afcb88deb8747e",
+      "status": "rejected",
+      "reason": "这是美国上诉法院首次就AI代理能否合法代表用户在线行动作出裁决，为加密行业的自动化代理和DeFi交互提供了重要法律先例，来源为知名加密媒体Decrypt，具有明确信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
+    "6f6cc81fd11460996e90c19c0b44696bb4aca6d6d2d707d2f2c06a4210c1d1c6": {
+      "decisionKey": "6f6cc81fd11460996e90c19c0b44696bb4aca6d6d2d707d2f2c06a4210c1d1c6",
+      "status": "rejected",
+      "reason": "候选内容仅为单句概述，缺乏具体主体、事件细节、数据或对加密行业受众的明确影响；Cloudflare AI代理平台属于通用技术新闻，与加密行业无直接关联，信息增量不足。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
+    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
+      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
+    "50defe5dac1bc582158ba7892027daa5af557fc6527c737831af1e2eb547135e": {
+      "decisionKey": "50defe5dac1bc582158ba7892027daa5af557fc6527c737831af1e2eb547135e",
+      "status": "published",
+      "reason": "Real news report from a reputable crypto media outlet covering a U.S. senator's official inquiry into AI chip policy related to a Trump family crypto investment. Involves specific actors, an event (letter), and timely policy relevance for the crypto industry.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z",
+      "bCommitSha": "9e7dba861a5e37f6143de267ff824cc3af773679"
+    },
+    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
+      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
+    },
+    "4a85f7788b4d845a5a9732808df36163c1f9b4966523d030991cc2f9c1ae7d2f": {
+      "decisionKey": "4a85f7788b4d845a5a9732808df36163c1f9b4966523d030991cc2f9c1ae7d2f",
+      "status": "rejected",
+      "reason": "文章主题为Meta推出的AI编码代理Muse，属于通用人工智能领域的技术新闻，未涉及加密行业的核心政策、协议升级、安全事件或市场结构变化。对加密行业受众无明确影响或信息增量，不符合发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T22:01:06.729Z"
     },
     "c19914a66bbff576c57e2dbf70ca97767adc796fe84d1aab113e5e848ec630d5": {
       "decisionKey": "c19914a66bbff576c57e2dbf70ca97767adc796fe84d1aab113e5e848ec630d5",
@@ -17,25 +115,11 @@
       "updatedAt": "2026-08-05T20:00:58.866Z",
       "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
     },
-    "91013c2dd2542bffdef22a078d685c74a480408f5fafc408dd72709c9167c68f": {
-      "decisionKey": "91013c2dd2542bffdef22a078d685c74a480408f5fafc408dd72709c9167c68f",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T20:00:58.866Z"
-    },
     "889bd7b83202c477d8843388f1aa8d55ff0c051fbb8956017c1d2253b1cfe630": {
       "decisionKey": "889bd7b83202c477d8843388f1aa8d55ff0c051fbb8956017c1d2253b1cfe630",
       "status": "rejected",
       "reason": "The article focuses on AI models and legal issues, with no direct relevance to the crypto industry. It does not address crypto policy, protocol upgrades, security events affecting crypto, or market structure changes.",
       "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T20:00:58.866Z"
-    },
-    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
-      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T20:00:58.866Z"
     },
@@ -57,13 +141,6 @@
       "updatedAt": "2026-08-05T20:00:58.866Z",
       "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
     },
-    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
-      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T20:00:58.866Z"
-    },
     "5d14106267f08c71f7ee18bf377864e370530bb44282fb824b6228fd3393d5d1": {
       "decisionKey": "5d14106267f08c71f7ee18bf377864e370530bb44282fb824b6228fd3393d5d1",
       "status": "published",
@@ -72,13 +149,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T20:00:58.866Z",
       "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
-    },
-    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
-      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T20:00:58.866Z"
     },
     "386c466d7d8044ba54f2ec9c3e143fcafe492cf2e5c5e013aa0570c4b608eb3d": {
       "decisionKey": "386c466d7d8044ba54f2ec9c3e143fcafe492cf2e5c5e013aa0570c4b608eb3d",
@@ -105,13 +175,6 @@
       "updatedAt": "2026-08-05T20:00:58.866Z",
       "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
     },
-    "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915": {
-      "decisionKey": "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
     "f28984f9a16c0d360814493d9e0fbdd5be42295f8bde00238aa6b11b84560e6b": {
       "decisionKey": "f28984f9a16c0d360814493d9e0fbdd5be42295f8bde00238aa6b11b84560e6b",
       "status": "rejected",
@@ -132,13 +195,6 @@
       "status": "rejected",
       "reason": "Real news report from The Block about a former LAPD officer sentenced for a bitcoin robbery, providing concrete details and highlighting security risks relevant to crypto users.",
       "score": 0.6,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "c03e0aa8277e41bb0cefad8106cc5cca0a1e48a9bb298e630cb7e1d630b2135f": {
-      "decisionKey": "c03e0aa8277e41bb0cefad8106cc5cca0a1e48a9bb298e630cb7e1d630b2135f",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T18:00:52.340Z"
     },
@@ -397,17 +453,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-05T20:00:58.866Z",
-    "https://cointelegraph.com/rss": "2026-08-05T20:00:58.866Z",
-    "https://decrypt.co/feed": "2026-08-05T20:00:58.866Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-05T20:00:58.866Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-05T20:00:58.866Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-05T20:00:58.866Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-05T20:00:58.866Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-05T20:00:58.866Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-05T20:00:58.866Z",
-    "https://solana.com/rss.xml": "2026-08-05T20:00:58.866Z",
-    "https://slowmist.medium.com/feed": "2026-08-05T20:00:58.866Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-05T22:01:06.729Z",
+    "https://cointelegraph.com/rss": "2026-08-05T22:01:06.729Z",
+    "https://decrypt.co/feed": "2026-08-05T22:01:06.729Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-05T22:01:06.729Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-05T22:01:06.729Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-05T22:01:06.729Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-05T22:01:06.729Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-05T22:01:06.729Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-05T22:01:06.729Z",
+    "https://solana.com/rss.xml": "2026-08-05T22:01:06.729Z",
+    "https://slowmist.medium.com/feed": "2026-08-05T22:01:06.729Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
