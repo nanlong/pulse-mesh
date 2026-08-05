@@ -6,31 +6,115 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
+      "updatedAt": "2026-08-05T18:00:52.340Z"
     },
-    "ed85d9b845cba47da43f898b6294f5133941555b492c2c623e16ac91707d8136": {
-      "decisionKey": "ed85d9b845cba47da43f898b6294f5133941555b492c2c623e16ac91707d8136",
+    "f28984f9a16c0d360814493d9e0fbdd5be42295f8bde00238aa6b11b84560e6b": {
+      "decisionKey": "f28984f9a16c0d360814493d9e0fbdd5be42295f8bde00238aa6b11b84560e6b",
+      "status": "rejected",
+      "reason": "该候选主要报道比特币价格和ETF资金流入，属于市场行情和价格预测类内容，缺乏对加密行业受众具有明确影响的具体政策、协议升级或安全事件信息，信息增量有限，按审核标准应忽略价格喊单类内容。",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z"
+    },
+    "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
+      "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
+      "updatedAt": "2026-08-05T18:00:52.340Z"
     },
     "d06fbf27a20110c709ac696c36c04968a88fc5ced92280bf3eb9c1961dd39236": {
       "decisionKey": "d06fbf27a20110c709ac696c36c04968a88fc5ced92280bf3eb9c1961dd39236",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
+      "updatedAt": "2026-08-05T18:00:52.340Z"
     },
     "d03cf90df373b7b361cb5302196181367d18cae9906a67b546705b813643f104": {
       "decisionKey": "d03cf90df373b7b361cb5302196181367d18cae9906a67b546705b813643f104",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
+      "status": "rejected",
+      "reason": "Real news report from The Block about a former LAPD officer sentenced for a bitcoin robbery, providing concrete details and highlighting security risks relevant to crypto users.",
+      "score": 0.6,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
+      "updatedAt": "2026-08-05T18:00:52.340Z"
     },
     "c03e0aa8277e41bb0cefad8106cc5cca0a1e48a9bb298e630cb7e1d630b2135f": {
       "decisionKey": "c03e0aa8277e41bb0cefad8106cc5cca0a1e48a9bb298e630cb7e1d630b2135f",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z"
+    },
+    "9e747670dd4b45429efa5ce9f7d7c980c7ef046c7037f29338231e83371023f2": {
+      "decisionKey": "9e747670dd4b45429efa5ce9f7d7c980c7ef046c7037f29338231e83371023f2",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z"
+    },
+    "96ae9f03cc671f3a6a11a6c4f270db31423c646592bc74657c1eb0a41143f6a3": {
+      "decisionKey": "96ae9f03cc671f3a6a11a6c4f270db31423c646592bc74657c1eb0a41143f6a3",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z"
+    },
+    "87de9e199ee5698107ffa2a677274c1881720ee8a6d1dea971cb71e65aec70b9": {
+      "decisionKey": "87de9e199ee5698107ffa2a677274c1881720ee8a6d1dea971cb71e65aec70b9",
+      "status": "rejected",
+      "reason": "The candidate reports a single Michigan primary loss of a crypto-backed incumbent. While it touches on crypto PAC influence, it lacks direct policy, protocol, or security impact, and the provided content is too thin to justify publication for the crypto industry audience.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z"
+    },
+    "86512fe861f1fcf70e9e7788d3261d26dd3997508c0e849833f6d2c3b9e904ea": {
+      "decisionKey": "86512fe861f1fcf70e9e7788d3261d26dd3997508c0e849833f6d2c3b9e904ea",
+      "status": "rejected",
+      "reason": "The article reports specific financial data from TeraWulf, a publicly listed Bitcoin mining company, showing that high-performance computing (HPC) leasing now accounts for a majority of its revenue. This signals a structural shift in the mining industry's business model, which is relevant to crypto market participants monitoring miner diversification and its potential impact on Bitcoin network dynamics. The source is a reputable crypto news outlet.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z"
+    },
+    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
+      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z"
+    },
+    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
+      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
+      "status": "failed",
+      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"risks\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z"
+    },
+    "4bb9ff6f60724bddc42e71ee649c7a004f79c0b9e15fd2ea02e016e8d9269194": {
+      "decisionKey": "4bb9ff6f60724bddc42e71ee649c7a004f79c0b9e15fd2ea02e016e8d9269194",
+      "status": "rejected",
+      "reason": "Visa expanding stablecoin capabilities through Visa Direct is a notable development for crypto payments, and the source is a reputable crypto news outlet. However, the content is very brief and lacks specific details about the collaboration, reducing its information value.",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z"
+    },
+    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
+      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z"
+    },
+    "4858286259011c84b0fb3e038715375beec787d7ae2e5c9d16dbdbacb156df22": {
+      "decisionKey": "4858286259011c84b0fb3e038715375beec787d7ae2e5c9d16dbdbacb156df22",
+      "status": "published",
+      "reason": "该候选来自权威新闻媒体The Block，报道了美国参议员与部落博彩监管机构联合推动在Clarity Act中加入预测市场条款，涉及具体政策行动，对加密行业（尤其是预测市场）有明确的监管影响和信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T18:00:52.340Z",
+      "bCommitSha": "c5ee0e421a012bd859a6d224ee16ffc4c33cb224"
+    },
+    "ed85d9b845cba47da43f898b6294f5133941555b492c2c623e16ac91707d8136": {
+      "decisionKey": "ed85d9b845cba47da43f898b6294f5133941555b492c2c623e16ac91707d8136",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
@@ -44,36 +128,8 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T16:31:12.675Z"
     },
-    "9e747670dd4b45429efa5ce9f7d7c980c7ef046c7037f29338231e83371023f2": {
-      "decisionKey": "9e747670dd4b45429efa5ce9f7d7c980c7ef046c7037f29338231e83371023f2",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
-    "96ae9f03cc671f3a6a11a6c4f270db31423c646592bc74657c1eb0a41143f6a3": {
-      "decisionKey": "96ae9f03cc671f3a6a11a6c4f270db31423c646592bc74657c1eb0a41143f6a3",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
     "93fbf262b8917d2965cbaa0eb68a687b1346161bc354c4e9e46ab8159bb86d08": {
       "decisionKey": "93fbf262b8917d2965cbaa0eb68a687b1346161bc354c4e9e46ab8159bb86d08",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
-    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
-      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
-    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
-      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
@@ -87,27 +143,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T16:31:12.675Z",
       "bCommitSha": "c95834815d6e6e43c2d04452630ed31e8807d12e"
-    },
-    "4bb9ff6f60724bddc42e71ee649c7a004f79c0b9e15fd2ea02e016e8d9269194": {
-      "decisionKey": "4bb9ff6f60724bddc42e71ee649c7a004f79c0b9e15fd2ea02e016e8d9269194",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
-    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
-      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
-    "4858286259011c84b0fb3e038715375beec787d7ae2e5c9d16dbdbacb156df22": {
-      "decisionKey": "4858286259011c84b0fb3e038715375beec787d7ae2e5c9d16dbdbacb156df22",
-      "status": "failed",
-      "reason": "AI response is not valid JSON",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
     },
     "4551d1621d31dde6a8cfb0ee41c3f596786b53d0568617c3a5b7555141a5fcee": {
       "decisionKey": "4551d1621d31dde6a8cfb0ee41c3f596786b53d0568617c3a5b7555141a5fcee",
@@ -286,17 +321,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-05T16:31:12.675Z",
-    "https://cointelegraph.com/rss": "2026-08-05T16:31:12.675Z",
-    "https://decrypt.co/feed": "2026-08-05T16:31:12.675Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-05T16:31:12.675Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-05T16:31:12.675Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-05T16:31:12.675Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-05T16:31:12.675Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-05T16:31:12.675Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-05T16:31:12.675Z",
-    "https://solana.com/rss.xml": "2026-08-05T16:31:12.675Z",
-    "https://slowmist.medium.com/feed": "2026-08-05T16:31:12.675Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-05T18:00:52.340Z",
+    "https://cointelegraph.com/rss": "2026-08-05T18:00:52.340Z",
+    "https://decrypt.co/feed": "2026-08-05T18:00:52.340Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-05T18:00:52.340Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-05T18:00:52.340Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-05T18:00:52.340Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-05T18:00:52.340Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-05T18:00:52.340Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-05T18:00:52.340Z",
+    "https://solana.com/rss.xml": "2026-08-05T18:00:52.340Z",
+    "https://slowmist.medium.com/feed": "2026-08-05T18:00:52.340Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
