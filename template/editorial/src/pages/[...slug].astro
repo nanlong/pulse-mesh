@@ -1,0 +1,34 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content'
+import Article from '../layouts/Article.astro'
+import { siteConfig } from '../data/site-config'
+
+export async function getStaticPaths() {
+  const entries = await getCollection('articles')
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }))
+}
+
+type Props = { entry: CollectionEntry<'articles'> }
+const { entry } = Astro.props as Props
+const { Content } = await render(entry)
+const base = import.meta.env.BASE_URL
+const translations = (await getCollection('articles'))
+  .filter((candidate) => candidate.data.decisionKey === entry.data.decisionKey)
+  .map((candidate) => ({ language: candidate.data.language, href: `${base}${candidate.id}/` }))
+---
+<Article title={entry.data.title} summary={entry.data.summary} language={entry.data.language} translations={translations}>
+  <article class="article-page">
+    <div class="article-topline">
+      <p class="meta">{entry.data.language} · {entry.data.publishedAt.toLocaleDateString()}</p>
+      {siteConfig.showScore && entry.data.score !== undefined && <span class="score">Gate {Math.round(entry.data.score * 100)} / 100</span>}
+    </div>
+    <h1>{entry.data.title}</h1>
+    <p class="summary">{entry.data.summary}</p>
+    {siteConfig.showTopics && entry.data.topics.length > 0 && <div class="topic-list article-topics">{entry.data.topics.map((topic) => <span>{topic}</span>)}</div>}
+    <div class="article-body"><Content /></div>
+    {siteConfig.showSources && <aside>
+      <div class="source-heading"><span class="source-icon">↗</span><strong>来源</strong></div>
+      <ul>{entry.data.sourceUrls.map((url) => <li><a href={url} rel="noreferrer">{url}</a></li>)}</ul>
+    </aside>}
+  </article>
+</Article>

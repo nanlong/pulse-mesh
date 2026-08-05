@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content'
+import Article from '../layouts/Article.astro'
+import { siteConfig } from '../data/site-config'
+
+const entries = (await getCollection('articles')).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf())
+const base = import.meta.env.BASE_URL
+---
+<Article title={siteConfig.name} summary={siteConfig.description} language="zh-CN">
+  <section class="hero">
+    <div class="hero-kicker"><span class="pulse-dot"></span><span>{siteConfig.tagline}</span></div>
+    <h1>{siteConfig.name}</h1>
+    <p class="hero-description">{siteConfig.description}</p>
+    <div class="hero-meta"><span>{entries.length} 条精选内容</span><span>·</span><span>Evidence-first publishing</span></div>
+  </section>
+  <section class="article-grid">
+    {entries.map((entry) => (
+      <article class="card">
+        <div class="card-topline">
+          <p class="meta">{entry.data.language} · {entry.data.publishedAt.toLocaleDateString()}</p>
+          {siteConfig.showScore && entry.data.score !== undefined && <span class="score">{Math.round(entry.data.score * 100)} / 100</span>}
+        </div>
+        <h2><a href={`${base}${entry.id}/`}>{entry.data.title}</a></h2>
+        <p>{entry.data.summary}</p>
+        {siteConfig.showTopics && entry.data.topics.length > 0 && <div class="topic-list">{entry.data.topics.map((topic) => <span>{topic}</span>)}</div>}
+        <a class="read-more" href={`${base}${entry.id}/`}>阅读全文 →</a>
+      </article>
+    ))}
+  </section>
+</Article>

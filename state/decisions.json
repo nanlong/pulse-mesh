@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "decisions": {
+    "375ceaa9410979b614cc82b31301ca056e6c72149c1b5f43b67bc424899ba479": {
+      "decisionKey": "375ceaa9410979b614cc82b31301ca056e6c72149c1b5f43b67bc424899ba479",
+      "status": "published",
+      "reason": "Reported by CoinDesk, a credible crypto news outlet, on a real security incident involving Coldcard hardware wallets. The article details a five-year-old firmware flaw and its impact on the industry, specifically accelerating adoption of collaborative multisig security. This is a concrete security event with actionable implications for self-custody users and the broader crypto ecosystem.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T13:31:46.436Z",
+      "bCommitSha": "2dae2413ad5fae2dcba68e5cceec534c005f094a"
+    }
+  }
+}

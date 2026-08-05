@@ -1,0 +1,52 @@
+---
+interface Props {
+  title: string
+  summary: string
+  language: string
+  translations?: Array<{ language: string; href: string }>
+}
+
+import '../styles/global.css'
+import { siteConfig } from '../data/site-config'
+
+const { title, summary, language, translations = [] } = Astro.props
+const base = import.meta.env.BASE_URL
+const themeStyle = [
+  `--site-primary:${siteConfig.primaryColor}`,
+  `--site-accent:${siteConfig.accentColor}`,
+  `--site-background:${siteConfig.backgroundColor}`,
+  `--site-surface:${siteConfig.surfaceColor}`,
+  `--site-text:${siteConfig.textColor}`,
+  `--site-muted:${siteConfig.mutedColor}`,
+  `--site-max-width:${siteConfig.maxWidth}`,
+  `--site-card-radius:${siteConfig.cardRadius}`,
+  `--site-article-title-max-size:${siteConfig.articleTitleMaxSize}`,
+].join(';')
+---
+<!doctype html>
+<html lang={language} data-theme={siteConfig.theme} style={themeStyle}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={summary || siteConfig.description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={summary || siteConfig.description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href={base}>
+          <span class="brand-mark">P</span>
+          <span>{siteConfig.name}</span>
+        </a>
+        <nav aria-label="Language">
+          <a class="nav-home" href={base}>首页</a>
+          {translations.length > 1 && translations.map((translation) => <a href={translation.href} aria-current={translation.language === language ? 'page' : undefined}>{translation.language}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main><slot /></main>
+    <footer><span>{siteConfig.footerText}</span><span class="footer-rule">/</span><span>Curated intelligence</span></footer>
+  </body>
+</html>

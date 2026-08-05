@@ -1,0 +1,181 @@
+name: Generate and publish
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: false
+        default: 'run'
+        type: choice
+        options: [run, bootstrap]
+      ai_provider:
+        description: 'Optional AI provider override'
+        required: false
+        default: ''
+        type: string
+      target_repository:
+        description: 'Optional B repository override'
+        required: false
+        default: ''
+        type: string
+      source_urls:
+        description: 'Optional newline-separated source URLs'
+        required: false
+        default: ''
+        type: string
+      content_instructions:
+        description: 'Optional content instructions override'
+        required: false
+        default: ''
+        type: string
+      gate_prompt:
+        description: 'Optional Gate prompt override'
+        required: false
+        default: ''
+        type: string
+      article_prompt:
+        description: 'Optional article prompt override'
+        required: false
+        default: ''
+        type: string
+      output_languages:
+        description: 'Optional comma-separated output languages'
+        required: false
+        default: ''
+        type: string
+      ai_model:
+        description: 'Optional model override'
+        required: false
+        default: ''
+        type: string
+      ai_allowed_models:
+        description: 'Optional comma-separated model allowlist'
+        required: false
+        default: ''
+        type: string
+      publish_threshold:
+        description: 'Optional publish threshold override'
+        required: false
+        default: ''
+        type: string
+      ai_base_url:
+        description: 'Optional compatible API base URL'
+        required: false
+        default: ''
+        type: string
+      ai_response_format:
+        description: 'Optional response format override'
+        required: false
+        default: ''
+        type: string
+      target_branch:
+        description: 'Optional B branch override'
+        required: false
+        default: ''
+        type: string
+      max_item_age_hours:
+        description: 'Optional candidate age limit'
+        required: false
+        default: ''
+        type: string
+      minimum_content_length:
+        description: 'Optional minimum content length'
+        required: false
+        default: ''
+        type: string
+      state_path:
+        description: 'Optional decisions state path'
+        required: false
+        default: ''
+        type: string
+      template_dir:
+        description: 'Optional Astro template path'
+        required: false
+        default: ''
+        type: string
+
+concurrency:
+  group: pulse-mesh-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PULSE_MESH_LOCAL: ${{ vars.PULSE_MESH_LOCAL || '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.3.0'
+      - run: bun install --frozen-lockfile
+      - name: Run PulseMesh
+        env:
+          AI_PROVIDER: ${{ inputs.ai_provider || vars.AI_PROVIDER }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ inputs.ai_base_url || vars.AI_BASE_URL }}
+          AI_MODEL: ${{ inputs.ai_model || vars.AI_MODEL }}
+          AI_ALLOWED_MODELS: ${{ inputs.ai_allowed_models || vars.AI_ALLOWED_MODELS }}
+          AI_RESPONSE_FORMAT: ${{ inputs.ai_response_format || vars.AI_RESPONSE_FORMAT }}
+          TARGET_REPOSITORY: ${{ inputs.target_repository || vars.TARGET_REPOSITORY }}
+          TARGET_REPO_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
+          SOURCE_URLS: ${{ inputs.source_urls || vars.SOURCE_URLS }}
+          CONTENT_INSTRUCTIONS: ${{ inputs.content_instructions || vars.CONTENT_INSTRUCTIONS }}
+          GATE_PROMPT: ${{ inputs.gate_prompt || vars.GATE_PROMPT }}
+          ARTICLE_PROMPT: ${{ inputs.article_prompt || vars.ARTICLE_PROMPT }}
+          OUTPUT_LANGUAGES: ${{ inputs.output_languages || vars.OUTPUT_LANGUAGES }}
+          PUBLISH_THRESHOLD: ${{ inputs.publish_threshold || vars.PUBLISH_THRESHOLD }}
+          TARGET_BRANCH: ${{ inputs.target_branch || vars.TARGET_BRANCH }}
+          MAX_ITEM_AGE_HOURS: ${{ inputs.max_item_age_hours || vars.MAX_ITEM_AGE_HOURS }}
+          MINIMUM_CONTENT_LENGTH: ${{ inputs.minimum_content_length || vars.MINIMUM_CONTENT_LENGTH }}
+          STATE_PATH: ${{ inputs.state_path || vars.STATE_PATH }}
+          TEMPLATE_DIR: ${{ inputs.template_dir || vars.TEMPLATE_DIR }}
+          SITE_NAME: ${{ vars.SITE_NAME }}
+          SITE_DESCRIPTION: ${{ vars.SITE_DESCRIPTION }}
+          SITE_TAGLINE: ${{ vars.SITE_TAGLINE }}
+          SITE_THEME: ${{ vars.SITE_THEME }}
+          SITE_PRIMARY_COLOR: ${{ vars.SITE_PRIMARY_COLOR }}
+          SITE_ACCENT_COLOR: ${{ vars.SITE_ACCENT_COLOR }}
+          SITE_BACKGROUND_COLOR: ${{ vars.SITE_BACKGROUND_COLOR }}
+          SITE_SURFACE_COLOR: ${{ vars.SITE_SURFACE_COLOR }}
+          SITE_TEXT_COLOR: ${{ vars.SITE_TEXT_COLOR }}
+          SITE_MUTED_COLOR: ${{ vars.SITE_MUTED_COLOR }}
+          SITE_MAX_WIDTH: ${{ vars.SITE_MAX_WIDTH }}
+          SITE_CARD_RADIUS: ${{ vars.SITE_CARD_RADIUS }}
+          SITE_ARTICLE_TITLE_MAX_SIZE: ${{ vars.SITE_ARTICLE_TITLE_MAX_SIZE }}
+          SITE_SHOW_TOPICS: ${{ vars.SITE_SHOW_TOPICS }}
+          SITE_SHOW_SCORE: ${{ vars.SITE_SHOW_SCORE }}
+          SITE_SHOW_SOURCES: ${{ vars.SITE_SHOW_SOURCES }}
+          SITE_FOOTER_TEXT: ${{ vars.SITE_FOOTER_TEXT }}
+          PULSE_MESH_MODE: ${{ inputs.mode || 'run' }}
+        run: |
+          summary="$(bun src/main.ts $([ "$PULSE_MESH_MODE" = bootstrap ] && echo --bootstrap))"
+          echo "$summary"
+          {
+            echo '## PulseMesh run'
+            echo '```json'
+            echo "$summary"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Persist decisions state
+        run: |
+          git config user.name 'pulse-mesh[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state/decisions.json
+          if git diff --cached --quiet; then
+            echo 'No decision state changes.'
+          else
+            git commit -m 'chore: persist publishing decisions'
+            if [ "$PULSE_MESH_LOCAL" = true ]; then
+              echo 'Local simulation: state commit kept locally; remote push skipped.'
+            else
+              git push
+            fi
+          fi

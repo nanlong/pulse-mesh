@@ -1,0 +1,19 @@
+{
+  "name": "PulseMesh",
+  "description": "经过筛选、核验和语言生成的行业资讯。",
+  "tagline": "先看事实，再看叙事。",
+  "theme": "midnight",
+  "primaryColor": "#8b5cf6",
+  "accentColor": "#22d3ee",
+  "backgroundColor": "#080d18",
+  "surfaceColor": "#111827",
+  "textColor": "#e5eefb",
+  "mutedColor": "#94a3b8",
+  "maxWidth": "1180px",
+  "cardRadius": "20px",
+  "articleTitleMaxSize": "2.8rem",
+  "showTopics": true,
+  "showScore": false,
+  "showSources": true,
+  "footerText": "PulseMesh · Signal over noise."
+}
