@@ -1,14 +1,30 @@
 {
   "version": 1,
   "decisions": {
-    "375ceaa9410979b614cc82b31301ca056e6c72149c1b5f43b67bc424899ba479": {
-      "decisionKey": "375ceaa9410979b614cc82b31301ca056e6c72149c1b5f43b67bc424899ba479",
-      "status": "published",
-      "reason": "Reported by CoinDesk, a credible crypto news outlet, on a real security incident involving Coldcard hardware wallets. The article details a five-year-old firmware flaw and its impact on the industry, specifically accelerating adoption of collaborative multisig security. This is a concrete security event with actionable implications for self-custody users and the broader crypto ecosystem.",
-      "score": 0.85,
+    "9fcb0a9eed9914757685e18fd86cae7ac99c06f865b140990ad8af1c42b48697": {
+      "decisionKey": "9fcb0a9eed9914757685e18fd86cae7ac99c06f865b140990ad8af1c42b48697",
+      "status": "rejected",
+      "reason": "该候选来自可信的CoinDesk新闻源，报道了Strategy公司STRC股票反弹30%的新闻，并包含具体数据：40亿美元现金储备和9.75亿美元回购计划。这些财务动态与比特币市场相关，对加密行业受众有信息增量，属于市场结构变化范畴，值得发布。",
+      "score": 0.7,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T13:31:46.436Z",
-      "bCommitSha": "2dae2413ad5fae2dcba68e5cceec534c005f094a"
+      "updatedAt": "2026-08-05T14:46:22.462Z"
+    },
+    "f6a824816a288983156fb2385cfffbdafcb700621eba7d731fd04f71fcf96533": {
+      "decisionKey": "f6a824816a288983156fb2385cfffbdafcb700621eba7d731fd04f71fcf96533",
+      "status": "published",
+      "reason": "This is a real, accessible Cointelegraph article about a concrete Coldcard entropy flaw and its implications for major hardware wallets, which matters directly to crypto users' asset security and provides actionable information.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T14:39:40.162Z",
+      "bCommitSha": "09f9af80c9ae07779b6fc3db1eb9ceb218d2eeb2"
+    },
+    "84d9b452ca514c71bdffcc66cec7dcb49f4791dd0bf135ff7e7bd38ccc8363b7": {
+      "decisionKey": "84d9b452ca514c71bdffcc66cec7dcb49f4791dd0bf135ff7e7bd38ccc8363b7",
+      "status": "rejected",
+      "reason": "候选仅为Cointelegraph的每日综述通用页面，无具体主体、事件、时间或数据，属于低价值聚合内容，缺乏对加密行业受众的明确信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-05T14:39:40.162Z"
     },
     "59d35094351dc6a4db61a6add5cc1703f2f8f52ad156b604cbb99a22ee015a58": {
       "decisionKey": "59d35094351dc6a4db61a6add5cc1703f2f8f52ad156b604cbb99a22ee015a58",
@@ -19,11 +35,11 @@
       "updatedAt": "2026-08-05T14:39:40.162Z",
       "bCommitSha": "09f9af80c9ae07779b6fc3db1eb9ceb218d2eeb2"
     },
-    "f6a824816a288983156fb2385cfffbdafcb700621eba7d731fd04f71fcf96533": {
-      "decisionKey": "f6a824816a288983156fb2385cfffbdafcb700621eba7d731fd04f71fcf96533",
+    "54ea594f4f970e00ebb37640476b7a9b7fb205508fbec2b5812ec655ab96313e": {
+      "decisionKey": "54ea594f4f970e00ebb37640476b7a9b7fb205508fbec2b5812ec655ab96313e",
       "status": "published",
-      "reason": "This is a real, accessible Cointelegraph article about a concrete Coldcard entropy flaw and its implications for major hardware wallets, which matters directly to crypto users' asset security and provides actionable information.",
-      "score": 0.9,
+      "reason": "This is a verifiable news report from Cointelegraph about Galaxy Digital's Q2 2026 financial results, including specific figures ($85M net loss, $8.7B revenue). It reflects market conditions and provides actionable insight for crypto industry participants tracking institutional performance and market health.",
+      "score": 0.85,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T14:39:40.162Z",
       "bCommitSha": "09f9af80c9ae07779b6fc3db1eb9ceb218d2eeb2"
@@ -36,22 +52,15 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T14:39:40.162Z"
     },
-    "54ea594f4f970e00ebb37640476b7a9b7fb205508fbec2b5812ec655ab96313e": {
-      "decisionKey": "54ea594f4f970e00ebb37640476b7a9b7fb205508fbec2b5812ec655ab96313e",
+    "375ceaa9410979b614cc82b31301ca056e6c72149c1b5f43b67bc424899ba479": {
+      "decisionKey": "375ceaa9410979b614cc82b31301ca056e6c72149c1b5f43b67bc424899ba479",
       "status": "published",
-      "reason": "This is a verifiable news report from Cointelegraph about Galaxy Digital's Q2 2026 financial results, including specific figures ($85M net loss, $8.7B revenue). It reflects market conditions and provides actionable insight for crypto industry participants tracking institutional performance and market health.",
+      "reason": "Reported by CoinDesk, a credible crypto news outlet, on a real security incident involving Coldcard hardware wallets. The article details a five-year-old firmware flaw and its impact on the industry, specifically accelerating adoption of collaborative multisig security. This is a concrete security event with actionable implications for self-custody users and the broader crypto ecosystem.",
       "score": 0.85,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T14:39:40.162Z",
-      "bCommitSha": "09f9af80c9ae07779b6fc3db1eb9ceb218d2eeb2"
-    },
-    "84d9b452ca514c71bdffcc66cec7dcb49f4791dd0bf135ff7e7bd38ccc8363b7": {
-      "decisionKey": "84d9b452ca514c71bdffcc66cec7dcb49f4791dd0bf135ff7e7bd38ccc8363b7",
-      "status": "rejected",
-      "reason": "候选仅为Cointelegraph的每日综述通用页面，无具体主体、事件、时间或数据，属于低价值聚合内容，缺乏对加密行业受众的明确信息增量。",
-      "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T14:39:40.162Z"
+      "updatedAt": "2026-08-05T13:31:46.436Z",
+      "bCommitSha": "2dae2413ad5fae2dcba68e5cceec534c005f094a"
     }
-  }
+  },
+  "lastRunAt": "2026-08-05T14:46:22.462Z"
 }
