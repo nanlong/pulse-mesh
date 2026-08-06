@@ -6,7 +6,108 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z"
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "ed53471e3dff619e746d95d726723cc81c7f1e6039dcd5dd476ffca176aead7a": {
+      "decisionKey": "ed53471e3dff619e746d95d726723cc81c7f1e6039dcd5dd476ffca176aead7a",
+      "status": "rejected",
+      "reason": "内容为对冲基金投资传闻，且投资对象未公开，属于未证实信息；与加密行业无明确关联，对加密受众缺乏信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "ebfc6f358f31f017f80211323ade2ad3523d0e4dba54171f304f96ead3dc9b8a": {
+      "decisionKey": "ebfc6f358f31f017f80211323ade2ad3523d0e4dba54171f304f96ead3dc9b8a",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "e593e5bdcc48e3940c3b539ae3edefcf4a83f0ab86dcd5d5e157d43ca0fd163d": {
+      "decisionKey": "e593e5bdcc48e3940c3b539ae3edefcf4a83f0ab86dcd5d5e157d43ca0fd163d",
+      "status": "rejected",
+      "reason": "发布日期为未来时间（2026-08-06），且内容仅提及融资总额，缺乏具体数据、事件细节或对加密行业的明确影响，证据不足，可能为测试或演示内容。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "e2b5ad7f55825c8fc76c2e9e2a993fa5fd2bb6ea8d6979a10549f5a459dbc9af": {
+      "decisionKey": "e2b5ad7f55825c8fc76c2e9e2a993fa5fd2bb6ea8d6979a10549f5a459dbc9af",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "a3dca545f6b2f89ac3095faf0de4fe72eab9d40cdd6755daea838a2ea7759238": {
+      "decisionKey": "a3dca545f6b2f89ac3095faf0de4fe72eab9d40cdd6755daea838a2ea7759238",
+      "status": "published",
+      "reason": "Cointelegraph, a credible crypto news source, reports that analyst doubts are emerging over the Bitcoin corporate treasury model and that institutional BTC investment vehicles have cut holdings by 10%. This signals a potential shift in institutional sentiment and market structure, providing clear relevance and information value for crypto industry followers.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z",
+      "bCommitSha": "83d9e1dfed1b9e4407342acd2ed367f56c0eaa3f"
+    },
+    "a1d2bba068d17bed54408862659793ada2ba8a2677e66151129da02b3bbfb850": {
+      "decisionKey": "a1d2bba068d17bed54408862659793ada2ba8a2677e66151129da02b3bbfb850",
+      "status": "rejected",
+      "reason": "The candidate is a genuine news report from CoinDesk, a reputable and verifiable source. It identifies specific subjects (bitcoin, ether, altcoins), an event (market movement toward largest tokens as safe haven), and a publication date. This signals a market structure change relevant to crypto industry audiences, offering actionable information about investor sentiment and asset performance. Although brief, it is not a price pump, rumor, or low-value marketing, and it provides a clear, factual observation.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "89e118d151c294f18c4de2ededaf99dcf9141d0bf8a86433242ffba7db791ea4": {
+      "decisionKey": "89e118d151c294f18c4de2ededaf99dcf9141d0bf8a86433242ffba7db791ea4",
+      "status": "rejected",
+      "reason": "涉及加密行业重要政策（Clarity法案）的评论文章，由区块链协会代表撰写，对行业有明确影响和讨论价值，但属观点性质，信息增量有限。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "80ddb901929fa270fe008a7dfb78c79e1c8464ed87c5e978622d4b7f5b9c3b1a": {
+      "decisionKey": "80ddb901929fa270fe008a7dfb78c79e1c8464ed87c5e978622d4b7f5b9c3b1a",
+      "status": "rejected",
+      "reason": "内容基于Sandisk和Western Digital股价下跌10%，仅推测资本可能从AI轮动至加密货币，缺乏具体数据或明确影响；属于市场评论和推测，证据不足，对加密行业无实质性信息增量。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d": {
+      "decisionKey": "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "672c570d9e3385238f58313a7a9237b078d6665c5798c386bc4c20319d7766e0": {
+      "decisionKey": "672c570d9e3385238f58313a7a9237b078d6665c5798c386bc4c20319d7766e0",
+      "status": "published",
+      "reason": "报道了Coldcard硬件钱包漏洞相关黑客转移大额资金至混币器的安全事件，包含具体主体、金额和影响，对加密行业用户具有明确的安全警示价值。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z",
+      "bCommitSha": "83d9e1dfed1b9e4407342acd2ed367f56c0eaa3f"
+    },
+    "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675": {
+      "decisionKey": "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79": {
+      "decisionKey": "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79",
+      "status": "rejected",
+      "reason": "The Block is a reputable crypto news outlet, and the report provides a concrete funding event for stablecoin issuer JPYC, which is relevant to the crypto industry's stablecoin landscape and ecosystem development.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
+    },
+    "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b": {
+      "decisionKey": "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T12:01:12.464Z"
     },
     "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
       "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
@@ -41,13 +142,6 @@
       "updatedAt": "2026-08-06T10:01:13.315Z",
       "bCommitSha": "accbb3da37157b04e02347be7f5361714c3fbad9"
     },
-    "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d": {
-      "decisionKey": "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z"
-    },
     "54c785be298b60e50d27b47985856bf82f8f68f6c66d19cd2d57f7a79d64abe0": {
       "decisionKey": "54c785be298b60e50d27b47985856bf82f8f68f6c66d19cd2d57f7a79d64abe0",
       "status": "published",
@@ -73,20 +167,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T10:01:13.315Z",
       "bCommitSha": "accbb3da37157b04e02347be7f5361714c3fbad9"
-    },
-    "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79": {
-      "decisionKey": "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z"
-    },
-    "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b": {
-      "decisionKey": "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z"
     },
     "e988ab23228b55e1547c027e8571df5b5352fcd12ada00e9a89c80a2ff69b264": {
       "decisionKey": "e988ab23228b55e1547c027e8571df5b5352fcd12ada00e9a89c80a2ff69b264",
@@ -669,17 +749,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T10:01:13.315Z",
-    "https://cointelegraph.com/rss": "2026-08-06T10:01:13.315Z",
-    "https://decrypt.co/feed": "2026-08-06T10:01:13.315Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T10:01:13.315Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T10:01:13.315Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T10:01:13.315Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-06T10:01:13.315Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-06T10:01:13.315Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-06T10:01:13.315Z",
-    "https://solana.com/rss.xml": "2026-08-06T10:01:13.315Z",
-    "https://slowmist.medium.com/feed": "2026-08-06T10:01:13.315Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T12:01:12.464Z",
+    "https://cointelegraph.com/rss": "2026-08-06T12:01:12.464Z",
+    "https://decrypt.co/feed": "2026-08-06T12:01:12.464Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T12:01:12.464Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T12:01:12.464Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T12:01:12.464Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-06T12:01:12.464Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-06T12:01:12.464Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-06T12:01:12.464Z",
+    "https://solana.com/rss.xml": "2026-08-06T12:01:12.464Z",
+    "https://slowmist.medium.com/feed": "2026-08-06T12:01:12.464Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
