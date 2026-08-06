@@ -6,28 +6,87 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T22:01:06.729Z"
+      "updatedAt": "2026-08-06T00:01:22.626Z"
     },
     "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
       "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T22:01:06.729Z"
+      "updatedAt": "2026-08-06T00:01:22.626Z"
+    },
+    "d06fbf27a20110c709ac696c36c04968a88fc5ced92280bf3eb9c1961dd39236": {
+      "decisionKey": "d06fbf27a20110c709ac696c36c04968a88fc5ced92280bf3eb9c1961dd39236",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T00:01:22.626Z"
     },
     "c03e0aa8277e41bb0cefad8106cc5cca0a1e48a9bb298e630cb7e1d630b2135f": {
       "decisionKey": "c03e0aa8277e41bb0cefad8106cc5cca0a1e48a9bb298e630cb7e1d630b2135f",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T22:01:06.729Z"
+      "updatedAt": "2026-08-06T00:01:22.626Z"
     },
     "b061cec9708ad2769e192680c50145bcfcb206ed4073d7e5b76fcb88f392d66d": {
       "decisionKey": "b061cec9708ad2769e192680c50145bcfcb206ed4073d7e5b76fcb88f392d66d",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T22:01:06.729Z"
+      "updatedAt": "2026-08-06T00:01:22.626Z"
+    },
+    "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936": {
+      "decisionKey": "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T00:01:22.626Z"
+    },
+    "9e747670dd4b45429efa5ce9f7d7c980c7ef046c7037f29338231e83371023f2": {
+      "decisionKey": "9e747670dd4b45429efa5ce9f7d7c980c7ef046c7037f29338231e83371023f2",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T00:01:22.626Z"
+    },
+    "96ae9f03cc671f3a6a11a6c4f270db31423c646592bc74657c1eb0a41143f6a3": {
+      "decisionKey": "96ae9f03cc671f3a6a11a6c4f270db31423c646592bc74657c1eb0a41143f6a3",
+      "status": "published",
+      "reason": "Fairshake, a major crypto-focused PAC, winning primary elections in key states is a significant policy and market-structure event for the crypto industry, with clear implications for future regulation and legislative support. The source is a credible news outlet, and the content includes specific candidates and outcomes, providing actionable information for industry observers.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T00:01:22.626Z",
+      "bCommitSha": "57641bc705f7f432d86a9c07ec359382833cf703"
+    },
+    "91013c2dd2542bffdef22a078d685c74a480408f5fafc408dd72709c9167c68f": {
+      "decisionKey": "91013c2dd2542bffdef22a078d685c74a480408f5fafc408dd72709c9167c68f",
+      "status": "rejected",
+      "reason": "This is a market commentary piece based on an opinion from CryptoQuant, lacking concrete verified data or a specific, verifiable event. It effectively serves as a price signal (whale accumulation interpreted as late-stage bear market), which falls under 'price calls' and low-value speculation. There is no direct impact on policy, protocol, security, or market structure that meets the bar for publication.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T00:01:22.626Z"
+    },
+    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
+      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T00:01:22.626Z"
+    },
+    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
+      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T00:01:22.626Z"
+    },
+    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
+      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T00:01:22.626Z"
     },
     "ac50e6b79efc6ca4ea374cd0a3245322f8f6972cea407bc62a3eba21d625aa56": {
       "decisionKey": "ac50e6b79efc6ca4ea374cd0a3245322f8f6972cea407bc62a3eba21d625aa56",
@@ -37,27 +96,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T22:01:06.729Z",
       "bCommitSha": "9e7dba861a5e37f6143de267ff824cc3af773679"
-    },
-    "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936": {
-      "decisionKey": "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T22:01:06.729Z"
-    },
-    "91013c2dd2542bffdef22a078d685c74a480408f5fafc408dd72709c9167c68f": {
-      "decisionKey": "91013c2dd2542bffdef22a078d685c74a480408f5fafc408dd72709c9167c68f",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T22:01:06.729Z"
-    },
-    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
-      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T22:01:06.729Z"
     },
     "74b5ffbdb19d9105b66644498ad80e1a8305570ab99fafd4a5afcb88deb8747e": {
       "decisionKey": "74b5ffbdb19d9105b66644498ad80e1a8305570ab99fafd4a5afcb88deb8747e",
@@ -75,13 +113,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T22:01:06.729Z"
     },
-    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
-      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T22:01:06.729Z"
-    },
     "50defe5dac1bc582158ba7892027daa5af557fc6527c737831af1e2eb547135e": {
       "decisionKey": "50defe5dac1bc582158ba7892027daa5af557fc6527c737831af1e2eb547135e",
       "status": "published",
@@ -90,13 +121,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T22:01:06.729Z",
       "bCommitSha": "9e7dba861a5e37f6143de267ff824cc3af773679"
-    },
-    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
-      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T22:01:06.729Z"
     },
     "4a85f7788b4d845a5a9732808df36163c1f9b4966523d030991cc2f9c1ae7d2f": {
       "decisionKey": "4a85f7788b4d845a5a9732808df36163c1f9b4966523d030991cc2f9c1ae7d2f",
@@ -183,32 +207,11 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T18:00:52.340Z"
     },
-    "d06fbf27a20110c709ac696c36c04968a88fc5ced92280bf3eb9c1961dd39236": {
-      "decisionKey": "d06fbf27a20110c709ac696c36c04968a88fc5ced92280bf3eb9c1961dd39236",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
     "d03cf90df373b7b361cb5302196181367d18cae9906a67b546705b813643f104": {
       "decisionKey": "d03cf90df373b7b361cb5302196181367d18cae9906a67b546705b813643f104",
       "status": "rejected",
       "reason": "Real news report from The Block about a former LAPD officer sentenced for a bitcoin robbery, providing concrete details and highlighting security risks relevant to crypto users.",
       "score": 0.6,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "9e747670dd4b45429efa5ce9f7d7c980c7ef046c7037f29338231e83371023f2": {
-      "decisionKey": "9e747670dd4b45429efa5ce9f7d7c980c7ef046c7037f29338231e83371023f2",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "96ae9f03cc671f3a6a11a6c4f270db31423c646592bc74657c1eb0a41143f6a3": {
-      "decisionKey": "96ae9f03cc671f3a6a11a6c4f270db31423c646592bc74657c1eb0a41143f6a3",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T18:00:52.340Z"
     },
@@ -453,17 +456,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-05T22:01:06.729Z",
-    "https://cointelegraph.com/rss": "2026-08-05T22:01:06.729Z",
-    "https://decrypt.co/feed": "2026-08-05T22:01:06.729Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-05T22:01:06.729Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-05T22:01:06.729Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-05T22:01:06.729Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-05T22:01:06.729Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-05T22:01:06.729Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-05T22:01:06.729Z",
-    "https://solana.com/rss.xml": "2026-08-05T22:01:06.729Z",
-    "https://slowmist.medium.com/feed": "2026-08-05T22:01:06.729Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T00:01:22.626Z",
+    "https://cointelegraph.com/rss": "2026-08-06T00:01:22.626Z",
+    "https://decrypt.co/feed": "2026-08-06T00:01:22.626Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T00:01:22.626Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T00:01:22.626Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T00:01:22.626Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-06T00:01:22.626Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-06T00:01:22.626Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-06T00:01:22.626Z",
+    "https://solana.com/rss.xml": "2026-08-06T00:01:22.626Z",
+    "https://slowmist.medium.com/feed": "2026-08-06T00:01:22.626Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
