@@ -1,22 +1,93 @@
 {
   "version": 1,
   "decisions": {
-    "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915": {
-      "decisionKey": "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T04:01:12.768Z"
-    },
     "f01af295cb9a36d734ad9988fb4148f3ddde6c2c604f142341fb59549bdd8967": {
       "decisionKey": "f01af295cb9a36d734ad9988fb4148f3ddde6c2c604f142341fb59549bdd8967",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T04:01:12.768Z"
+      "updatedAt": "2026-08-06T06:01:21.006Z"
     },
     "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
       "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T06:01:21.006Z"
+    },
+    "d964f1d2355d0719255297909738358d2fc607667cf56e250a94affcf86ab167": {
+      "decisionKey": "d964f1d2355d0719255297909738358d2fc607667cf56e250a94affcf86ab167",
+      "status": "published",
+      "reason": "Cointelegraph报道了ElizaOS代币创历史新低、创始人宣布代币‘死亡’并因诉讼转移财库的事件，涉及具体项目、价格数据和法律后果，对加密行业投资者有明确的信息增量与风险提示。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T06:01:21.006Z",
+      "bCommitSha": "8d07cb6828e271fbf2ba08576201808c1257ffd5"
+    },
+    "be9ff2869797ea00fe5f165016d6cbd7a52a226fdd24f5e0aec841e5bab6caea": {
+      "decisionKey": "be9ff2869797ea00fe5f165016d6cbd7a52a226fdd24f5e0aec841e5bab6caea",
+      "status": "rejected",
+      "reason": "内容为Meta AI模型测试事故，不涉及加密行业政策、协议、安全或市场结构，对加密受众无明确影响或信息增量。",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T06:01:21.006Z"
+    },
+    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
+      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T06:01:21.006Z"
+    },
+    "761741bb5f38f211947c3f99410db281ca47f8be6111bd35611b8547d7ce9c1f": {
+      "decisionKey": "761741bb5f38f211947c3f99410db281ca47f8be6111bd35611b8547d7ce9c1f",
+      "status": "rejected",
+      "reason": "来自Coindesk的可靠新闻，报道Robinhood Chain TVL达到7.74亿美元及memecoin CASHCAT的涨幅，提供链上数据和市场表现，对加密行业受众有信息增量。",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T06:01:21.006Z"
+    },
+    "64f0dcfdfe709ee02ccbffaeecd9e872da19fd3a0eab71244bc2415e28935e78": {
+      "decisionKey": "64f0dcfdfe709ee02ccbffaeecd9e872da19fd3a0eab71244bc2415e28935e78",
+      "status": "published",
+      "reason": "该候选来自真实可访问的加密新闻媒体Cointelegraph，报道美联储理事Lisa Cook关于通胀持续可能加息的表态，属于影响加密市场的宏观政策信号，具有明确主体、事件和时效性，对加密行业用户有信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T06:01:21.006Z",
+      "bCommitSha": "8d07cb6828e271fbf2ba08576201808c1257ffd5"
+    },
+    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
+      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T06:01:21.006Z"
+    },
+    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
+      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T06:01:21.006Z"
+    },
+    "4876305efb6a8370bc20eb1d315b4519de6da8cf5bbd608aaa702b604df78d33": {
+      "decisionKey": "4876305efb6a8370bc20eb1d315b4519de6da8cf5bbd608aaa702b604df78d33",
+      "status": "rejected",
+      "reason": "The candidate is a CoinDesk market analysis piece citing CryptoQuant data on XRP whale accumulation and ether's price below realized value, offering specific data points and valuation comparisons. It provides actionable insight into market structure and investor behavior, which is relevant to crypto industry stakeholders despite not being a major policy or protocol event.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T06:01:21.006Z"
+    },
+    "3c5bb2b38a348cf786f5febc7a566dcabd8f9144af5de94ee5ece1159bcbf4f9": {
+      "decisionKey": "3c5bb2b38a348cf786f5febc7a566dcabd8f9144af5de94ee5ece1159bcbf4f9",
+      "status": "rejected",
+      "reason": "This is a brief market update centered on Bitcoin's price and a traditional-market SpaceX unlock. It lacks substantive crypto-specific policy, protocol, security, or market-structure developments, and provides minimal information increment beyond price commentary.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T06:01:21.006Z"
+    },
+    "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915": {
+      "decisionKey": "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
@@ -45,27 +116,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T04:01:12.768Z",
       "bCommitSha": "763a07aaa965077e843cecb1a370ff2a79eadc8c"
-    },
-    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
-      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T04:01:12.768Z"
-    },
-    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
-      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T04:01:12.768Z"
-    },
-    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
-      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T04:01:12.768Z"
     },
     "2353950c98850bff5b6d5b9dcc1b4a7ba749ad4651fc4b3b0cafed32c171e3dc": {
       "decisionKey": "2353950c98850bff5b6d5b9dcc1b4a7ba749ad4651fc4b3b0cafed32c171e3dc",
@@ -510,17 +560,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T04:01:12.768Z",
-    "https://cointelegraph.com/rss": "2026-08-06T04:01:12.768Z",
-    "https://decrypt.co/feed": "2026-08-06T04:01:12.768Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T04:01:12.768Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T04:01:12.768Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T04:01:12.768Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-06T04:01:12.768Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-06T04:01:12.768Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-06T04:01:12.768Z",
-    "https://solana.com/rss.xml": "2026-08-06T04:01:12.768Z",
-    "https://slowmist.medium.com/feed": "2026-08-06T04:01:12.768Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T06:01:21.006Z",
+    "https://cointelegraph.com/rss": "2026-08-06T06:01:21.006Z",
+    "https://decrypt.co/feed": "2026-08-06T06:01:21.006Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T06:01:21.006Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T06:01:21.006Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T06:01:21.006Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-06T06:01:21.006Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-06T06:01:21.006Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-06T06:01:21.006Z",
+    "https://solana.com/rss.xml": "2026-08-06T06:01:21.006Z",
+    "https://slowmist.medium.com/feed": "2026-08-06T06:01:21.006Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
