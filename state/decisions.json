@@ -6,14 +6,56 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z"
+      "updatedAt": "2026-08-06T16:07:04.104Z"
     },
     "eaccbf074b79c7224e694532d1b1e2d489fbfe8cb0bfcd3c8ae1704846288f97": {
       "decisionKey": "eaccbf074b79c7224e694532d1b1e2d489fbfe8cb0bfcd3c8ae1704846288f97",
-      "status": "failed",
-      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"articles\",\n      0,\n      \"sourceUrls\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
+      "status": "rejected",
+      "reason": "Candidate lacks verifiable specifics: no concrete data, named parties beyond Uniswap, or dated events. The content is a vague promotional-style summary with no accessible source details, making it insufficient for publication.",
+      "score": 0.2,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z"
+      "updatedAt": "2026-08-06T16:07:04.104Z"
+    },
+    "76fdb1eda85b23ef0484b1c8e52efa8a45841eca1ee281bf6bb6e0b63b913532": {
+      "decisionKey": "76fdb1eda85b23ef0484b1c8e52efa8a45841eca1ee281bf6bb6e0b63b913532",
+      "status": "rejected",
+      "reason": "This is a promotional newsletter blurb, not substantive news. It lacks specific entities, events, data, or analysis, and offers no distinct information for the crypto industry audience beyond a subscription call to action.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T16:07:04.104Z"
+    },
+    "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d": {
+      "decisionKey": "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d",
+      "status": "published",
+      "reason": "Coinbase, a major crypto exchange, launches 24/5 US stock trading for UK users, advancing its 'Everything Exchange' strategy. This is a concrete market structure development bridging traditional and onchain finance, with clear relevance to crypto industry stakeholders.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T16:07:04.104Z",
+      "bCommitSha": "79cada64d2c077b719204b6a0990f6db2f399c6c"
+    },
+    "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675": {
+      "decisionKey": "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675",
+      "status": "published",
+      "reason": "The candidate is a specific, verifiable report from The Block citing Chainalysis data on violent crypto thefts exceeding $30 million in 2026, with France identified as a major hotspot. It provides concrete figures, a named source, and a clear timeframe, offering meaningful information for crypto industry professionals about physical security risks and geographic trends.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T16:07:04.104Z",
+      "bCommitSha": "79cada64d2c077b719204b6a0990f6db2f399c6c"
+    },
+    "37ac8d2a455a94f02dc28d4463601c09bc940b79d9d74dcb5c4fc275624f5667": {
+      "decisionKey": "37ac8d2a455a94f02dc28d4463601c09bc940b79d9d74dcb5c4fc275624f5667",
+      "status": "rejected",
+      "reason": "The candidate is a brief, self-promotional partnership announcement from Chainalysis with no substantive details on the integration's impact or scope. It lacks concrete data, specific use cases, or significance for crypto industry, and reads as a marketing teaser. Insufficient evidence to determine clear value or information increment.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T16:07:04.104Z"
+    },
+    "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d": {
+      "decisionKey": "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T16:07:04.104Z"
     },
     "e2b5ad7f55825c8fc76c2e9e2a993fa5fd2bb6ea8d6979a10549f5a459dbc9af": {
       "decisionKey": "e2b5ad7f55825c8fc76c2e9e2a993fa5fd2bb6ea8d6979a10549f5a459dbc9af",
@@ -48,13 +90,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T14:01:10.479Z"
     },
-    "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d": {
-      "decisionKey": "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z"
-    },
     "441a21ae4f20ebcf718d6329d82e9555e1a19597715e635bb6db985448f10b98": {
       "decisionKey": "441a21ae4f20ebcf718d6329d82e9555e1a19597715e635bb6db985448f10b98",
       "status": "published",
@@ -64,13 +99,6 @@
       "updatedAt": "2026-08-06T14:01:10.479Z",
       "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
     },
-    "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675": {
-      "decisionKey": "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z"
-    },
     "31550618ffab8e920bba02708e04a56642ea748f4ee3b38800635760baf678fb": {
       "decisionKey": "31550618ffab8e920bba02708e04a56642ea748f4ee3b38800635760baf678fb",
       "status": "published",
@@ -79,13 +107,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T14:01:10.479Z",
       "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
-    },
-    "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d": {
-      "decisionKey": "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z"
     },
     "211ca61ea234600ab78647d225372b36aa1569cf09486770bda1357f7abf43fc": {
       "decisionKey": "211ca61ea234600ab78647d225372b36aa1569cf09486770bda1357f7abf43fc",
@@ -826,17 +847,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T14:01:10.479Z",
-    "https://cointelegraph.com/rss": "2026-08-06T14:01:10.479Z",
-    "https://decrypt.co/feed": "2026-08-06T12:01:12.464Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T14:01:10.479Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T14:01:10.479Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T14:01:10.479Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-06T14:01:10.479Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-06T14:01:10.479Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-06T14:01:10.479Z",
-    "https://solana.com/rss.xml": "2026-08-06T14:01:10.479Z",
-    "https://slowmist.medium.com/feed": "2026-08-06T14:01:10.479Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T16:07:04.104Z",
+    "https://cointelegraph.com/rss": "2026-08-06T16:07:04.104Z",
+    "https://decrypt.co/feed": "2026-08-06T16:07:04.104Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T16:07:04.104Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T16:07:04.104Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T16:07:04.104Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-06T16:07:04.104Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-06T16:07:04.104Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-06T16:07:04.104Z",
+    "https://solana.com/rss.xml": "2026-08-06T16:07:04.104Z",
+    "https://slowmist.medium.com/feed": "2026-08-06T16:07:04.104Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
