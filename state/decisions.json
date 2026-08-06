@@ -6,7 +6,112 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
+      "updatedAt": "2026-08-06T14:01:10.479Z"
+    },
+    "eaccbf074b79c7224e694532d1b1e2d489fbfe8cb0bfcd3c8ae1704846288f97": {
+      "decisionKey": "eaccbf074b79c7224e694532d1b1e2d489fbfe8cb0bfcd3c8ae1704846288f97",
+      "status": "failed",
+      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"articles\",\n      0,\n      \"sourceUrls\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z"
+    },
+    "e2b5ad7f55825c8fc76c2e9e2a993fa5fd2bb6ea8d6979a10549f5a459dbc9af": {
+      "decisionKey": "e2b5ad7f55825c8fc76c2e9e2a993fa5fd2bb6ea8d6979a10549f5a459dbc9af",
+      "status": "rejected",
+      "reason": "Bernstein's reaffirmation of TeraWulf's Outperform rating, with Q2 HPC revenue reaching $32M (71% of total), signals a notable shift in Bitcoin mining revenue diversification into high-performance computing. This is a concrete, data-backed development relevant to crypto industry market structure.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z"
+    },
+    "a6ae0a9f87a04ad8b935cf205f63c910eb8e11d30508b9b95ab9661899bfa191": {
+      "decisionKey": "a6ae0a9f87a04ad8b935cf205f63c910eb8e11d30508b9b95ab9661899bfa191",
+      "status": "rejected",
+      "reason": "This is a light-hearted listicle about quirky tokenized items. It lacks substantive impact on crypto markets, policy, or infrastructure, and provides minimal actionable information for industry professionals.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z"
+    },
+    "a31f0ff57291933b99eb7ad70c1b887838ff2b3ae05dd2c00d50c3af6f1dda57": {
+      "decisionKey": "a31f0ff57291933b99eb7ad70c1b887838ff2b3ae05dd2c00d50c3af6f1dda57",
+      "status": "published",
+      "reason": "该候选来自真实可访问的新闻媒体Decrypt，具体报道了法国监管机构警告诈骗者冒充欧盟监管人员、利用MiCA截止期诱骗用户转移资产的骗局。内容包含具体主体（法国监管机构、诈骗者）、事件（冒充诈骗）和时间（2026年8月），对加密行业用户具有明确的安全警示价值，属于重要政策落地后的市场结构变化与安全事件，非价格喊单或营销。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z",
+      "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
+    },
+    "7e88438f1e8bcb813951ceb7208015506d5ddcfb3aa9c48012f6916423b66631": {
+      "decisionKey": "7e88438f1e8bcb813951ceb7208015506d5ddcfb3aa9c48012f6916423b66631",
+      "status": "rejected",
+      "reason": "Zeus Wallet, a Bitcoin Lightning Network self-custodial wallet, was taken offline due to a cyberattack. The founder confirms no customer funds at risk and no Lightning vulnerability found. This is a concrete security incident affecting a crypto wallet, providing timely information for users.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z"
+    },
+    "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d": {
+      "decisionKey": "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z"
+    },
+    "441a21ae4f20ebcf718d6329d82e9555e1a19597715e635bb6db985448f10b98": {
+      "decisionKey": "441a21ae4f20ebcf718d6329d82e9555e1a19597715e635bb6db985448f10b98",
+      "status": "published",
+      "reason": "Blockchain.com获得开曼群岛托管牌照，属于具体合规监管动态，对加密交易所的合规布局和行业影响有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z",
+      "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
+    },
+    "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675": {
+      "decisionKey": "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z"
+    },
+    "31550618ffab8e920bba02708e04a56642ea748f4ee3b38800635760baf678fb": {
+      "decisionKey": "31550618ffab8e920bba02708e04a56642ea748f4ee3b38800635760baf678fb",
+      "status": "published",
+      "reason": "Circle 推出稳定币专用 L1 区块链 Arc，属于重要基础设施动向，对加密行业有明确影响。来源为 Decrypt 的正式文章，信息真实可核验。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z",
+      "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
+    },
+    "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d": {
+      "decisionKey": "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z"
+    },
+    "211ca61ea234600ab78647d225372b36aa1569cf09486770bda1357f7abf43fc": {
+      "decisionKey": "211ca61ea234600ab78647d225372b36aa1569cf09486770bda1357f7abf43fc",
+      "status": "published",
+      "reason": "该候选来自权威媒体Coindesk，报道了JPMorgan对Hyperliquid ETF资金流入停滞的分析，包含具体主体、时间窗口及竞争背景，对加密行业关注ETF市场动态的受众具有信息增量，且非营销、价格喊单或重复内容。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z",
+      "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
+    },
+    "1b95716fc11ff3d2159159357bdb1d8e503ddc1267ebd5a1e6f21cdf9dbe5425": {
+      "decisionKey": "1b95716fc11ff3d2159159357bdb1d8e503ddc1267ebd5a1e6f21cdf9dbe5425",
+      "status": "published",
+      "reason": "来源为Cointelegraph新闻，信息真实可核验；包含具体主体Hyperliquid、事件RWA合约占比增长、时间Q2及具体数据，对加密行业受众有明确影响和市场结构变化参考价值。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z",
+      "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
+    },
+    "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b": {
+      "decisionKey": "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b",
+      "status": "rejected",
+      "reason": "候选内容仅提供一句话摘要，缺乏具体主体、事件细节和可核验信息，且为FT报道的转载，属于证据不足和重复转载内容。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T14:01:10.479Z"
     },
     "ed53471e3dff619e746d95d726723cc81c7f1e6039dcd5dd476ffca176aead7a": {
       "decisionKey": "ed53471e3dff619e746d95d726723cc81c7f1e6039dcd5dd476ffca176aead7a",
@@ -28,13 +133,6 @@
       "status": "rejected",
       "reason": "发布日期为未来时间（2026-08-06），且内容仅提及融资总额，缺乏具体数据、事件细节或对加密行业的明确影响，证据不足，可能为测试或演示内容。",
       "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
-    "e2b5ad7f55825c8fc76c2e9e2a993fa5fd2bb6ea8d6979a10549f5a459dbc9af": {
-      "decisionKey": "e2b5ad7f55825c8fc76c2e9e2a993fa5fd2bb6ea8d6979a10549f5a459dbc9af",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T12:01:12.464Z"
     },
@@ -71,13 +169,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T12:01:12.464Z"
     },
-    "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d": {
-      "decisionKey": "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
     "672c570d9e3385238f58313a7a9237b078d6665c5798c386bc4c20319d7766e0": {
       "decisionKey": "672c570d9e3385238f58313a7a9237b078d6665c5798c386bc4c20319d7766e0",
       "status": "published",
@@ -87,25 +178,11 @@
       "updatedAt": "2026-08-06T12:01:12.464Z",
       "bCommitSha": "83d9e1dfed1b9e4407342acd2ed367f56c0eaa3f"
     },
-    "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675": {
-      "decisionKey": "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
     "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79": {
       "decisionKey": "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79",
       "status": "rejected",
       "reason": "The Block is a reputable crypto news outlet, and the report provides a concrete funding event for stablecoin issuer JPYC, which is relevant to the crypto industry's stablecoin landscape and ecosystem development.",
       "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
-    "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b": {
-      "decisionKey": "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T12:01:12.464Z"
     },
@@ -749,17 +826,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T12:01:12.464Z",
-    "https://cointelegraph.com/rss": "2026-08-06T12:01:12.464Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T14:01:10.479Z",
+    "https://cointelegraph.com/rss": "2026-08-06T14:01:10.479Z",
     "https://decrypt.co/feed": "2026-08-06T12:01:12.464Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T12:01:12.464Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T12:01:12.464Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T12:01:12.464Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-06T12:01:12.464Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-06T12:01:12.464Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-06T12:01:12.464Z",
-    "https://solana.com/rss.xml": "2026-08-06T12:01:12.464Z",
-    "https://slowmist.medium.com/feed": "2026-08-06T12:01:12.464Z"
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T14:01:10.479Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T14:01:10.479Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T14:01:10.479Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-06T14:01:10.479Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-06T14:01:10.479Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-06T14:01:10.479Z",
+    "https://solana.com/rss.xml": "2026-08-06T14:01:10.479Z",
+    "https://slowmist.medium.com/feed": "2026-08-06T14:01:10.479Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
