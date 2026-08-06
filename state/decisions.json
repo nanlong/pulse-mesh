@@ -6,14 +6,85 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z"
+      "updatedAt": "2026-08-06T08:01:18.536Z"
+    },
+    "e988ab23228b55e1547c027e8571df5b5352fcd12ada00e9a89c80a2ff69b264": {
+      "decisionKey": "e988ab23228b55e1547c027e8571df5b5352fcd12ada00e9a89c80a2ff69b264",
+      "status": "published",
+      "reason": "该候选来自可靠媒体CoinDesk，报告比特币开发者发现85个关键漏洞，内容包含具体主体、事件和时间，对加密行业有重大安全影响，属于重要技术安全新闻，具有明确信息增量。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T08:01:18.536Z",
+      "bCommitSha": "e7be6c11aae2cab421dc265d4dc20d8b9e30e961"
     },
     "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
       "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z"
+      "updatedAt": "2026-08-06T08:01:18.536Z"
+    },
+    "cf53e226769592e3d8655ec2938633d14ff820d63890ef63835a8d2099c2e337": {
+      "decisionKey": "cf53e226769592e3d8655ec2938633d14ff820d63890ef63835a8d2099c2e337",
+      "status": "published",
+      "reason": "欧盟监管机构针对MiCA牌照调整期间出现的冒充诈骗发出警告，涉及具体监管背景和安全风险，对加密行业用户有直接警示价值。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T08:01:18.536Z",
+      "bCommitSha": "e7be6c11aae2cab421dc265d4dc20d8b9e30e961"
+    },
+    "bfc082482286b77d15c3c0f190b545069c40f3aa46520100edc4e1509decfecc": {
+      "decisionKey": "bfc082482286b77d15c3c0f190b545069c40f3aa46520100edc4e1509decfecc",
+      "status": "published",
+      "reason": "比特币ETF连续三日净流入6.26亿美元，反映机构资金动向和市场需求，对加密行业投资者具有明确信息价值。来源为Cointelegraph，内容真实可核验。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T08:01:18.536Z",
+      "bCommitSha": "e7be6c11aae2cab421dc265d4dc20d8b9e30e961"
+    },
+    "9db0d1dcf860ac5c5bd19ea7613c488eb71794c0e68c6aa843aed94a744897e4": {
+      "decisionKey": "9db0d1dcf860ac5c5bd19ea7613c488eb71794c0e68c6aa843aed94a744897e4",
+      "status": "rejected",
+      "reason": "内容仅为模糊的引言，未提供具体数据、事件或可核实的分析，缺乏对加密行业受众的明确信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T08:01:18.536Z"
+    },
+    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
+      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T08:01:18.536Z"
+    },
+    "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d": {
+      "decisionKey": "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T08:01:18.536Z"
+    },
+    "5882a3ddcb1928cd02fb756e5340a11be1339ffc5752d0e3fb4909a70417a1fc": {
+      "decisionKey": "5882a3ddcb1928cd02fb756e5340a11be1339ffc5752d0e3fb4909a70417a1fc",
+      "status": "rejected",
+      "reason": "Macro price commentary with speculative geopolitical remarks and no concrete policy, protocol, security, or market structure event. Lacks actionable information for crypto industry decision-making.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T08:01:18.536Z"
+    },
+    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
+      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T08:01:18.536Z"
+    },
+    "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79": {
+      "decisionKey": "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T08:01:18.536Z"
     },
     "d964f1d2355d0719255297909738358d2fc607667cf56e250a94affcf86ab167": {
       "decisionKey": "d964f1d2355d0719255297909738358d2fc607667cf56e250a94affcf86ab167",
@@ -29,13 +100,6 @@
       "status": "rejected",
       "reason": "内容为Meta AI模型测试事故，不涉及加密行业政策、协议、安全或市场结构，对加密受众无明确影响或信息增量。",
       "score": 0.05,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z"
-    },
-    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
-      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T06:01:21.006Z"
     },
@@ -58,13 +122,6 @@
     },
     "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
       "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z"
-    },
-    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
-      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
@@ -560,17 +617,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T06:01:21.006Z",
-    "https://cointelegraph.com/rss": "2026-08-06T06:01:21.006Z",
-    "https://decrypt.co/feed": "2026-08-06T06:01:21.006Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T06:01:21.006Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T06:01:21.006Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T06:01:21.006Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-06T06:01:21.006Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-06T06:01:21.006Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-06T06:01:21.006Z",
-    "https://solana.com/rss.xml": "2026-08-06T06:01:21.006Z",
-    "https://slowmist.medium.com/feed": "2026-08-06T06:01:21.006Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T08:01:18.536Z",
+    "https://cointelegraph.com/rss": "2026-08-06T08:01:18.536Z",
+    "https://decrypt.co/feed": "2026-08-06T08:01:18.536Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T08:01:18.536Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T08:01:18.536Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T08:01:18.536Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-06T08:01:18.536Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-06T08:01:18.536Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-06T08:01:18.536Z",
+    "https://solana.com/rss.xml": "2026-08-06T08:01:18.536Z",
+    "https://slowmist.medium.com/feed": "2026-08-06T08:01:18.536Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
