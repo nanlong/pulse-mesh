@@ -6,21 +6,75 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z"
+      "updatedAt": "2026-08-06T04:01:12.768Z"
+    },
+    "f01af295cb9a36d734ad9988fb4148f3ddde6c2c604f142341fb59549bdd8967": {
+      "decisionKey": "f01af295cb9a36d734ad9988fb4148f3ddde6c2c604f142341fb59549bdd8967",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T04:01:12.768Z"
     },
     "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
       "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z"
+      "updatedAt": "2026-08-06T04:01:12.768Z"
     },
     "d06fbf27a20110c709ac696c36c04968a88fc5ced92280bf3eb9c1961dd39236": {
       "decisionKey": "d06fbf27a20110c709ac696c36c04968a88fc5ced92280bf3eb9c1961dd39236",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z"
+      "updatedAt": "2026-08-06T04:01:12.768Z"
+    },
+    "cd2f0c1853fb6e1b46d1148e9a37a647417a19aff41db2ebd1005edff6d131a8": {
+      "decisionKey": "cd2f0c1853fb6e1b46d1148e9a37a647417a19aff41db2ebd1005edff6d131a8",
+      "status": "rejected",
+      "reason": "This is a credible, specific news report from The Block about Ark Invest purchasing $17 million in Circle shares, a major stablecoin issuer. The event provides actionable insight into institutional interest in the crypto sector and is directly relevant to crypto industry stakeholders. The article includes concrete figures and is verifiable.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T04:01:12.768Z"
+    },
+    "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936": {
+      "decisionKey": "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936",
+      "status": "published",
+      "reason": "The Block is a credible crypto news source; the article covers a specific legislative effort (Clarity Act) in the U.S. Senate with a clear timeline and direct impact on the crypto industry.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T04:01:12.768Z",
+      "bCommitSha": "763a07aaa965077e843cecb1a370ff2a79eadc8c"
+    },
+    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
+      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T04:01:12.768Z"
+    },
+    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
+      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T04:01:12.768Z"
+    },
+    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
+      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T04:01:12.768Z"
+    },
+    "2353950c98850bff5b6d5b9dcc1b4a7ba749ad4651fc4b3b0cafed32c171e3dc": {
+      "decisionKey": "2353950c98850bff5b6d5b9dcc1b4a7ba749ad4651fc4b3b0cafed32c171e3dc",
+      "status": "published",
+      "reason": "CoinDesk报道的关于Digital Asset Market Clarity Act在参议院推进情况的最新分析，涉及具体法案、时间节点和可能结果，对加密行业政策走向有明确影响和信息增量，来源真实可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T04:01:12.768Z",
+      "bCommitSha": "763a07aaa965077e843cecb1a370ff2a79eadc8c"
     },
     "c369333b9a2db70688917e5b9ae8eaf4f82fc525f409b27bf7be2dcf8f400d0a": {
       "decisionKey": "c369333b9a2db70688917e5b9ae8eaf4f82fc525f409b27bf7be2dcf8f400d0a",
@@ -47,39 +101,11 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T02:01:10.249Z"
     },
-    "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936": {
-      "decisionKey": "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z"
-    },
-    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
-      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z"
-    },
     "858f25205831708d982ded7c3a5ddacebb5b66543b5ee07af86c757612680117": {
       "decisionKey": "858f25205831708d982ded7c3a5ddacebb5b66543b5ee07af86c757612680117",
       "status": "rejected",
       "reason": "This is a corporate earnings and AI adoption story about Block, with no direct mention of Bitcoin, crypto policy, protocol upgrades, security events, or market structure changes relevant to the crypto industry. It does not meet the bar for important, non-redundant crypto news for the audience.",
       "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z"
-    },
-    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
-      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z"
-    },
-    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
-      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
-      "status": "failed",
-      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"articles\",\n      0,\n      \"sourceUrls\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T02:01:10.249Z"
     },
@@ -484,17 +510,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T02:01:10.249Z",
-    "https://cointelegraph.com/rss": "2026-08-06T02:01:10.249Z",
-    "https://decrypt.co/feed": "2026-08-06T02:01:10.249Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T02:01:10.249Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T02:01:10.249Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T02:01:10.249Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-06T02:01:10.249Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-06T02:01:10.249Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-06T02:01:10.249Z",
-    "https://solana.com/rss.xml": "2026-08-06T02:01:10.249Z",
-    "https://slowmist.medium.com/feed": "2026-08-06T02:01:10.249Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T04:01:12.768Z",
+    "https://cointelegraph.com/rss": "2026-08-06T04:01:12.768Z",
+    "https://decrypt.co/feed": "2026-08-06T04:01:12.768Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T04:01:12.768Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T04:01:12.768Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T04:01:12.768Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-06T04:01:12.768Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-06T04:01:12.768Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-06T04:01:12.768Z",
+    "https://solana.com/rss.xml": "2026-08-06T04:01:12.768Z",
+    "https://slowmist.medium.com/feed": "2026-08-06T04:01:12.768Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
