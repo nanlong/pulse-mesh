@@ -6,7 +6,87 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z"
+      "updatedAt": "2026-08-06T10:01:13.315Z"
+    },
+    "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
+      "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
+      "status": "rejected",
+      "reason": "This article reports on concrete fraud charges against an NFT founder, which is a security and legal event relevant to the crypto industry. The source is reputable and the content is specific, dated, and actionable for industry sentiment and risk awareness.",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T10:01:13.315Z"
+    },
+    "9eccac800166ef4db304927db21cfcd5b87385690dd7050ee846c753f67668e8": {
+      "decisionKey": "9eccac800166ef4db304927db21cfcd5b87385690dd7050ee846c753f67668e8",
+      "status": "published",
+      "reason": "该候选来自公开可验证的新闻媒体Decrypt，内容涉及比特币生态的AI安全审计，具体数据（4,962项发现、720项高危/严重）对加密行业有明确影响和信息增量，属于重要的安全事件报道。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T10:01:13.315Z",
+      "bCommitSha": "accbb3da37157b04e02347be7f5361714c3fbad9"
+    },
+    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
+      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T10:01:13.315Z"
+    },
+    "84de1209cc8f2c1e4ca77a3306f1dd76be69bd32ef31f1d0db4c7087f924378a": {
+      "decisionKey": "84de1209cc8f2c1e4ca77a3306f1dd76be69bd32ef31f1d0db4c7087f924378a",
+      "status": "published",
+      "reason": "Russian President Vladimir Putin signed a crypto law establishing market rules for exchanges, custodians and investors, with core provisions effective September 2026. This is a concrete regulatory development from a credible news source, directly affecting crypto market structure and compliance requirements for industry participants.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T10:01:13.315Z",
+      "bCommitSha": "accbb3da37157b04e02347be7f5361714c3fbad9"
+    },
+    "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d": {
+      "decisionKey": "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T10:01:13.315Z"
+    },
+    "54c785be298b60e50d27b47985856bf82f8f68f6c66d19cd2d57f7a79d64abe0": {
+      "decisionKey": "54c785be298b60e50d27b47985856bf82f8f68f6c66d19cd2d57f7a79d64abe0",
+      "status": "published",
+      "reason": "JPYC作为日元稳定币发行方，其B轮融资达3800万美元，属于加密行业稳定币领域的重大资本事件，对行业有明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T10:01:13.315Z",
+      "bCommitSha": "accbb3da37157b04e02347be7f5361714c3fbad9"
+    },
+    "4a01978aa59ef21e591a668816c5264b4b068d36970d72de2fa890dd2bb1259d": {
+      "decisionKey": "4a01978aa59ef21e591a668816c5264b4b068d36970d72de2fa890dd2bb1259d",
+      "status": "rejected",
+      "reason": "真实新闻来源，涉及NFT初创公司创始人因滥用1000万美元融资资金被起诉，属于加密行业安全与合规事件，对行业有明确信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T10:01:13.315Z"
+    },
+    "2db2258267da41f564b7550a41a627ca67e0aa0c39b7ef1205b047187c075196": {
+      "decisionKey": "2db2258267da41f564b7550a41a627ca67e0aa0c39b7ef1205b047187c075196",
+      "status": "published",
+      "reason": "候选来自Cointelegraph，引用CoinShares研究，提供具体数据（RWA存款达74亿美元）和趋势分析，对加密行业有明确信息增量，涉及资产代币化和DeFi市场结构变化，内容可核验且非营销或噪音。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T10:01:13.315Z",
+      "bCommitSha": "accbb3da37157b04e02347be7f5361714c3fbad9"
+    },
+    "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79": {
+      "decisionKey": "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T10:01:13.315Z"
+    },
+    "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b": {
+      "decisionKey": "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-06T10:01:13.315Z"
     },
     "e988ab23228b55e1547c027e8571df5b5352fcd12ada00e9a89c80a2ff69b264": {
       "decisionKey": "e988ab23228b55e1547c027e8571df5b5352fcd12ada00e9a89c80a2ff69b264",
@@ -16,13 +96,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T08:01:18.536Z",
       "bCommitSha": "e7be6c11aae2cab421dc265d4dc20d8b9e30e961"
-    },
-    "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
-      "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z"
     },
     "cf53e226769592e3d8655ec2938633d14ff820d63890ef63835a8d2099c2e337": {
       "decisionKey": "cf53e226769592e3d8655ec2938633d14ff820d63890ef63835a8d2099c2e337",
@@ -50,20 +123,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T08:01:18.536Z"
     },
-    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
-      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z"
-    },
-    "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d": {
-      "decisionKey": "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z"
-    },
     "5882a3ddcb1928cd02fb756e5340a11be1339ffc5752d0e3fb4909a70417a1fc": {
       "decisionKey": "5882a3ddcb1928cd02fb756e5340a11be1339ffc5752d0e3fb4909a70417a1fc",
       "status": "rejected",
@@ -74,13 +133,6 @@
     },
     "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
       "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z"
-    },
-    "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79": {
-      "decisionKey": "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
@@ -617,17 +669,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T08:01:18.536Z",
-    "https://cointelegraph.com/rss": "2026-08-06T08:01:18.536Z",
-    "https://decrypt.co/feed": "2026-08-06T08:01:18.536Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T08:01:18.536Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T08:01:18.536Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T08:01:18.536Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-06T08:01:18.536Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-06T08:01:18.536Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-06T08:01:18.536Z",
-    "https://solana.com/rss.xml": "2026-08-06T08:01:18.536Z",
-    "https://slowmist.medium.com/feed": "2026-08-06T08:01:18.536Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T10:01:13.315Z",
+    "https://cointelegraph.com/rss": "2026-08-06T10:01:13.315Z",
+    "https://decrypt.co/feed": "2026-08-06T10:01:13.315Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T10:01:13.315Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T10:01:13.315Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T10:01:13.315Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-06T10:01:13.315Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-06T10:01:13.315Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-06T10:01:13.315Z",
+    "https://solana.com/rss.xml": "2026-08-06T10:01:13.315Z",
+    "https://slowmist.medium.com/feed": "2026-08-06T10:01:13.315Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
