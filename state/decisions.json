@@ -1,6 +1,78 @@
 {
   "version": 1,
   "decisions": {
+    "da8bfe5bfca90b573e42630420275ed581c4562889de8c601e45d7a349a85ff1": {
+      "decisionKey": "da8bfe5bfca90b573e42630420275ed581c4562889de8c601e45d7a349a85ff1",
+      "status": "published",
+      "reason": "CoinDesk reports a concrete corporate retreat from crypto: Trump Media is scrapping its CRO token treasury deal with Crypto.com and refocusing on media/fusion energy. This is a verifiable news event involving specific companies and a clear shift in digital-asset treasury strategy, with meaningful signal for crypto industry observers.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T22:00:24.781Z",
+      "bCommitSha": "69a3aece590f179bc37a67db62a8497eeba563df"
+    },
+    "c626ee7f7b94873d01f0520770e3eab8cd190f09cb0dc65966e470a0243b5ee7": {
+      "decisionKey": "c626ee7f7b94873d01f0520770e3eab8cd190f09cb0dc65966e470a0243b5ee7",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T22:00:24.781Z"
+    },
+    "a37aa7e3223a139414f5880d5b719bae53112513d0ea33192e3a8aa1b2825397": {
+      "decisionKey": "a37aa7e3223a139414f5880d5b719bae53112513d0ea33192e3a8aa1b2825397",
+      "status": "published",
+      "reason": "OFAC sanctions on Iran-linked crypto exchanges are a significant regulatory enforcement action affecting the crypto industry, with clear impact on compliance, sanctions risk, and market trust.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T22:00:24.781Z",
+      "bCommitSha": "69a3aece590f179bc37a67db62a8497eeba563df"
+    },
+    "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8": {
+      "decisionKey": "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T22:00:24.781Z"
+    },
+    "823a0cd9f9d53c5b6c7e6e1da94a4da29d2a35e03365afffa10eba53166b3554": {
+      "decisionKey": "823a0cd9f9d53c5b6c7e6e1da94a4da29d2a35e03365afffa10eba53166b3554",
+      "status": "rejected",
+      "reason": "该候选为美国比特币公司董事的内部股票购买新闻，属于个股层面的内部交易动态，未涉及加密行业的重要政策、协议升级、安全事件或市场结构变化，对加密行业受众缺乏明确影响和信息增量。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T22:00:24.781Z"
+    },
+    "4edee0d635f33f9bf77694eee5a379ba96efbbcd6bbef8a883ad33cadce7aa32": {
+      "decisionKey": "4edee0d635f33f9bf77694eee5a379ba96efbbcd6bbef8a883ad33cadce7aa32",
+      "status": "rejected",
+      "reason": "Trump Media 与 Crypto.com 终止合作并改变 Yorkville 转型计划，属于加密行业公司合作的重要动态，影响相关市场预期。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T22:00:24.781Z"
+    },
+    "462f33ea5dfef8976ffd6d5543b5a2a114806d6b1884a08e43bd385bf5c231eb": {
+      "decisionKey": "462f33ea5dfef8976ffd6d5543b5a2a114806d6b1884a08e43bd385bf5c231eb",
+      "status": "published",
+      "reason": "真实新闻来源，涉及特朗普媒体公司与Crypto.com终止协议，直接影响CRO及预测市场相关预期，对加密行业有明确信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T22:00:24.781Z",
+      "bCommitSha": "69a3aece590f179bc37a67db62a8497eeba563df"
+    },
+    "43de3b90c66c6fd641a6b6ccdd4b46a24573634ea77458bde73d3049dc4ce583": {
+      "decisionKey": "43de3b90c66c6fd641a6b6ccdd4b46a24573634ea77458bde73d3049dc4ce583",
+      "status": "rejected",
+      "reason": "候选内容仅为标题，缺少具体事件、时间或数据，无法核验实质信息，对加密行业无明确影响，证据不足。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T22:00:24.781Z"
+    },
+    "22d87b53e23a1cbca8cf109b00b84c9f8edbda7ca679b0a09f5747c07b675acc": {
+      "decisionKey": "22d87b53e23a1cbca8cf109b00b84c9f8edbda7ca679b0a09f5747c07b675acc",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T22:00:24.781Z"
+    },
     "e3dd1582c3241abe240a2fda11133718400607f4eec12358cbc50e910b9b798a": {
       "decisionKey": "e3dd1582c3241abe240a2fda11133718400607f4eec12358cbc50e910b9b798a",
       "status": "rejected",
@@ -17,13 +89,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T20:00:34.199Z",
       "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
-    },
-    "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8": {
-      "decisionKey": "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T20:00:34.199Z"
     },
     "6e1c0558371198911f686bfb4d5ac58a0ef119d284699897f584155afd37994e": {
       "decisionKey": "6e1c0558371198911f686bfb4d5ac58a0ef119d284699897f584155afd37994e",
@@ -1560,17 +1625,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T20:00:34.199Z",
-    "https://cointelegraph.com/rss": "2026-08-07T20:00:34.199Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T22:00:24.781Z",
+    "https://cointelegraph.com/rss": "2026-08-07T22:00:24.781Z",
     "https://decrypt.co/feed": "2026-08-07T20:00:34.199Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T20:00:34.199Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T20:00:34.199Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T20:00:34.199Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-07T20:00:34.199Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-07T20:00:34.199Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-07T20:00:34.199Z",
-    "https://solana.com/rss.xml": "2026-08-07T20:00:34.199Z",
-    "https://slowmist.medium.com/feed": "2026-08-07T20:00:34.199Z"
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T22:00:24.781Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T22:00:24.781Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T22:00:24.781Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-07T22:00:24.781Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-07T22:00:24.781Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-07T22:00:24.781Z",
+    "https://solana.com/rss.xml": "2026-08-07T22:00:24.781Z",
+    "https://slowmist.medium.com/feed": "2026-08-07T22:00:24.781Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
