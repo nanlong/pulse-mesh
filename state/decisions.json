@@ -1,6 +1,74 @@
 {
   "version": 1,
   "decisions": {
+    "e3dd1582c3241abe240a2fda11133718400607f4eec12358cbc50e910b9b798a": {
+      "decisionKey": "e3dd1582c3241abe240a2fda11133718400607f4eec12358cbc50e910b9b798a",
+      "status": "rejected",
+      "reason": "CFTC对预测市场使用美式投注赔率发出警告，属于监管动态，对加密预测市场平台有直接影响，来源可信，但内容简短缺乏细节，信息增量有限。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T20:00:34.199Z"
+    },
+    "db83d004b1c1dd2bef13e8f07b5e813a94ca5af04debb61cc1143d6a543df8c3": {
+      "decisionKey": "db83d004b1c1dd2bef13e8f07b5e813a94ca5af04debb61cc1143d6a543df8c3",
+      "status": "published",
+      "reason": "报道了EIP-8363提案对以太坊质押机制的潜在影响，涉及以太坊货币政策与竞争格局，对加密行业具有明确信息增量和讨论价值。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T20:00:34.199Z",
+      "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
+    },
+    "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8": {
+      "decisionKey": "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T20:00:34.199Z"
+    },
+    "6e1c0558371198911f686bfb4d5ac58a0ef119d284699897f584155afd37994e": {
+      "decisionKey": "6e1c0558371198911f686bfb4d5ac58a0ef119d284699897f584155afd37994e",
+      "status": "published",
+      "reason": "This is a credible report from The Block on major Bitcoin miners MARA and CleanSpark posting significant revenue declines and net losses, while pivoting to AI infrastructure. It reflects market structure changes among key crypto industry participants, providing specific financial data and strategic shifts relevant to the crypto audience.",
+      "score": 0.88,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T20:00:34.199Z",
+      "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
+    },
+    "5271341a120450c9eb0fd01e2718b0d8dedde6f97ca4ff2a6d19ed5a4bc95935": {
+      "decisionKey": "5271341a120450c9eb0fd01e2718b0d8dedde6f97ca4ff2a6d19ed5a4bc95935",
+      "status": "published",
+      "reason": "The candidate reports a concrete U.S. Treasury action sanctioning two Iranian crypto exchanges, with a specific amount traced to IRGC-linked wallets. This is a real, publicly accessible news item from The Block that provides actionable information about regulatory enforcement affecting crypto exchanges, which is relevant to the crypto industry audience.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T20:00:34.199Z",
+      "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
+    },
+    "46fb984b82817d918320f49a7156d613deacd5a665632beecce871d462991f4e": {
+      "decisionKey": "46fb984b82817d918320f49a7156d613deacd5a665632beecce871d462991f4e",
+      "status": "rejected",
+      "reason": "Candidate covers a leaked Flock surveillance pitch involving Uber drivers' license-plate data. It has no direct connection to cryptocurrency policy, protocol upgrades, security events, or market structure, and offers no clear information增量 for a crypto-industry audience.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T20:00:34.199Z"
+    },
+    "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5": {
+      "decisionKey": "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5",
+      "status": "published",
+      "reason": "A federal judge denied Coinbase's bid to block Michigan's enforcement of sports event contracts, a notable regulatory issue affecting prediction markets and crypto exchange operations.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T20:00:34.199Z",
+      "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
+    },
+    "2da1e7cdfe3e66368da6013e7a91c707dc302369fdb33637864890e6af8450bc": {
+      "decisionKey": "2da1e7cdfe3e66368da6013e7a91c707dc302369fdb33637864890e6af8450bc",
+      "status": "published",
+      "reason": "美国财政部OFAC对两家伊朗加密交易所实施制裁，属于重要政策行动，直接影响加密行业合规环境，信息来源可靠且具有时效性。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T20:00:34.199Z",
+      "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
+    },
     "fc1d123441b43b5067ecad5812890bf49e260c2050977397ef54ffaf1ab31729": {
       "decisionKey": "fc1d123441b43b5067ecad5812890bf49e260c2050977397ef54ffaf1ab31729",
       "status": "published",
@@ -67,13 +135,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T18:00:33.750Z",
       "bCommitSha": "4b4b2e6514bbfff83130bc6f4ffd847f9ea5af80"
-    },
-    "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8": {
-      "decisionKey": "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T18:00:33.750Z"
     },
     "76652e5fa6d42a0f73507e690a9588281ec9392ef9df1dd32a5114a396458cbc": {
       "decisionKey": "76652e5fa6d42a0f73507e690a9588281ec9392ef9df1dd32a5114a396458cbc",
@@ -162,13 +223,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T16:00:34.265Z",
       "bCommitSha": "8a0cfc997f33c59e1db88504c72ca5db61438599"
-    },
-    "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5": {
-      "decisionKey": "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T16:00:34.265Z"
     },
     "ea140e9465cdf36fa6083a98c9883e1e1edba3a2eeb7eeb8baad826ba024be16": {
       "decisionKey": "ea140e9465cdf36fa6083a98c9883e1e1edba3a2eeb7eeb8baad826ba024be16",
@@ -1506,17 +1560,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T18:00:33.750Z",
-    "https://cointelegraph.com/rss": "2026-08-07T18:00:33.750Z",
-    "https://decrypt.co/feed": "2026-08-07T18:00:33.750Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T18:00:33.750Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T18:00:33.750Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T18:00:33.750Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-07T18:00:33.750Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-07T18:00:33.750Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-07T18:00:33.750Z",
-    "https://solana.com/rss.xml": "2026-08-07T18:00:33.750Z",
-    "https://slowmist.medium.com/feed": "2026-08-07T18:00:33.750Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T20:00:34.199Z",
+    "https://cointelegraph.com/rss": "2026-08-07T20:00:34.199Z",
+    "https://decrypt.co/feed": "2026-08-07T20:00:34.199Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T20:00:34.199Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T20:00:34.199Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T20:00:34.199Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-07T20:00:34.199Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-07T20:00:34.199Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-07T20:00:34.199Z",
+    "https://solana.com/rss.xml": "2026-08-07T20:00:34.199Z",
+    "https://slowmist.medium.com/feed": "2026-08-07T20:00:34.199Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
