@@ -1,6 +1,154 @@
 {
   "version": 1,
   "decisions": {
+    "fece27bd0903d8f4a2c146d4ba935be326faf431bf665bd3b826ece03023f2cd": {
+      "decisionKey": "fece27bd0903d8f4a2c146d4ba935be326faf431bf665bd3b826ece03023f2cd",
+      "status": "rejected",
+      "reason": "The candidate is about SEC surveillance of airline records and does not mention crypto assets, crypto markets, or any direct impact on the crypto industry. It lacks information increment relevant to the configured audience.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "f289c98bffd56cbe040bc7bb26a0e59d07a37b41b48fd50e5da9e1f3cb170b5e": {
+      "decisionKey": "f289c98bffd56cbe040bc7bb26a0e59d07a37b41b48fd50e5da9e1f3cb170b5e",
+      "status": "published",
+      "reason": "真实新闻源报道加密政治行动委员会在三个州投入150万美元影响选举，涉及具体金额、时间和州份，对加密行业政策环境有直接影响，信息增量明确。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z",
+      "bCommitSha": "c4eb9ba7d595020d7cfb3253b3a3a42a0153a361"
+    },
+    "e6beee0014d67034a6d88a735fdddea8bca4dfeb8f447f2136586d6aa7a4454b": {
+      "decisionKey": "e6beee0014d67034a6d88a735fdddea8bca4dfeb8f447f2136586d6aa7a4454b",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "de3fb11966d2ade83102605b6be009e95ceb6465ad29bf0a3eea5f7dc040da65": {
+      "decisionKey": "de3fb11966d2ade83102605b6be009e95ceb6465ad29bf0a3eea5f7dc040da65",
+      "status": "rejected",
+      "reason": "The Block 报道的 Ondo Finance 创始人去世后的公司控制权争议，涉及 CEO 更迭和治理结构变化，对关注加密资产和 RWA 项目的受众具有明确信息增量。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "d8831b983193a7d595c4df6b59330604344682862153a5488d1cabec708572dd": {
+      "decisionKey": "d8831b983193a7d595c4df6b59330604344682862153a5488d1cabec708572dd",
+      "status": "published",
+      "reason": "Credible news from The Block about a major L2 network (Base) undergoing a strategic shift, with explicit statements from a key figure (Jesse Pollak) and relevance to tokenization and payments trends in the crypto industry.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z",
+      "bCommitSha": "c4eb9ba7d595020d7cfb3253b3a3a42a0153a361"
+    },
+    "d19b9752ef6305c958747e2c2190087cb2ed32f77e9574c17c07fd29638ed2e4": {
+      "decisionKey": "d19b9752ef6305c958747e2c2190087cb2ed32f77e9574c17c07fd29638ed2e4",
+      "status": "rejected",
+      "reason": "该候选为投资公司持仓变动新闻，虽涉及Circle等加密相关主体，但属于常规投资动态，缺乏对加密行业具有明确影响的重要政策、协议升级、安全事件或市场结构变化，信息增量有限，不符合发布标准。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "c343a4e4a71ba05f1ccc7f6c3e1a5d5fe8d370f391a4708c7d5a05b8fecdc96c": {
+      "decisionKey": "c343a4e4a71ba05f1ccc7f6c3e1a5d5fe8d370f391a4708c7d5a05b8fecdc96c",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "abdd85c7a9e7756780a86656cdae3b1b6fa3623fdd39506d67a19b97345fc667": {
+      "decisionKey": "abdd85c7a9e7756780a86656cdae3b1b6fa3623fdd39506d67a19b97345fc667",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5": {
+      "decisionKey": "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "9ec3f709abaf77d1176a6be204598239e5322ace0922e02299d30e6c4af70fc6": {
+      "decisionKey": "9ec3f709abaf77d1176a6be204598239e5322ace0922e02299d30e6c4af70fc6",
+      "status": "published",
+      "reason": "Solana官方发布Changelog，涵盖Agave、Firedancer等客户端及SDK、测试工具的版本发布，并明确350ms slot time在Devnet和Testnet达到里程碑，属于协议性能与基础设施的重要更新，对加密行业受众有明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z",
+      "bCommitSha": "c4eb9ba7d595020d7cfb3253b3a3a42a0153a361"
+    },
+    "9bd31352a3cd3c72a97754995259415bc34433a84ea46c5abf0fd547bf51b731": {
+      "decisionKey": "9bd31352a3cd3c72a97754995259415bc34433a84ea46c5abf0fd547bf51b731",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "915e91e6041b8256eedeb9061a022c440f46953a2c63b56ed9d6b6e0b46fe2b1": {
+      "decisionKey": "915e91e6041b8256eedeb9061a022c440f46953a2c63b56ed9d6b6e0b46fe2b1",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "6b7d0f55ce543bcfd4c99b2e0c4f1722711c45844bd632cfa18a42b360f8ef60": {
+      "decisionKey": "6b7d0f55ce543bcfd4c99b2e0c4f1722711c45844bd632cfa18a42b360f8ef60",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "4e3c250c679ab7f115b8957db2b50dbdd132fc0c04b118d3b01f701a0353f261": {
+      "decisionKey": "4e3c250c679ab7f115b8957db2b50dbdd132fc0c04b118d3b01f701a0353f261",
+      "status": "published",
+      "reason": "候选来自Cointelegraph真实新闻源，明确涉及比特币ETF资金流入与Coldcard钱包安全事件，为加密行业提供市场与安全双重信息增量，值得发布。",
+      "score": 1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z",
+      "bCommitSha": "c4eb9ba7d595020d7cfb3253b3a3a42a0153a361"
+    },
+    "4c58cb116451b62964f344176d43d8570db3251c4c9a9db8f05ac4ce26a1a827": {
+      "decisionKey": "4c58cb116451b62964f344176d43d8570db3251c4c9a9db8f05ac4ce26a1a827",
+      "status": "rejected",
+      "reason": "该候选内容涉及日本与美国之间关于动漫形象 meme 使用的知识产权摩擦，与加密行业无关，不包含对加密市场、协议或政策有明确影响的信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "2e676065fc4f58e87603db7db77672ac3941f813a67492830cf46dde40b0b6ed": {
+      "decisionKey": "2e676065fc4f58e87603db7db77672ac3941f813a67492830cf46dde40b0b6ed",
+      "status": "rejected",
+      "reason": "该内容为AI模型安全事件，与加密行业无明确关联，对加密受众缺乏直接信息增量，不符合发布标准。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "2a9d50be0b99e9c42cfe4de558091f8a34e2acb0b52366c03d68a7be8e22a9a9": {
+      "decisionKey": "2a9d50be0b99e9c42cfe4de558091f8a34e2acb0b52366c03d68a7be8e22a9a9",
+      "status": "rejected",
+      "reason": "该候选为XRP与比特币的价格预测和鲸鱼持仓分析，属于市场情绪类内容，缺乏对加密行业受众的明确信息增量，且可能引导价格赌博。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "26034beb97917125a77d2bb83ab81275dd36974274818799951c0773d4ededd2": {
+      "decisionKey": "26034beb97917125a77d2bb83ab81275dd36974274818799951c0773d4ededd2",
+      "status": "rejected",
+      "reason": "该内容涉及OpenAI AI代理与Hugging Face安全事件，属于AI安全领域，但未提供对加密行业受众的明确影响或信息增量，且与加密政策、协议、市场结构等核心关注点无关。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
+    "0730895cf5de9bd90488f4bec483ba2e2f874aad57a2ec6136d9c3c5c6274468": {
+      "decisionKey": "0730895cf5de9bd90488f4bec483ba2e2f874aad57a2ec6136d9c3c5c6274468",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T00:00:22.003Z"
+    },
     "f01af295cb9a36d734ad9988fb4148f3ddde6c2c604f142341fb59549bdd8967": {
       "decisionKey": "f01af295cb9a36d734ad9988fb4148f3ddde6c2c604f142341fb59549bdd8967",
       "status": "failed",
@@ -848,16 +996,16 @@
   },
   "sourceCheckpoints": {
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T16:07:04.104Z",
-    "https://cointelegraph.com/rss": "2026-08-06T16:07:04.104Z",
+    "https://cointelegraph.com/rss": "2026-08-07T00:00:22.003Z",
     "https://decrypt.co/feed": "2026-08-06T16:07:04.104Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-06T16:07:04.104Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-06T16:07:04.104Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-06T16:07:04.104Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-06T16:07:04.104Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-06T16:07:04.104Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-06T16:07:04.104Z",
-    "https://solana.com/rss.xml": "2026-08-06T16:07:04.104Z",
-    "https://slowmist.medium.com/feed": "2026-08-06T16:07:04.104Z"
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T00:00:22.003Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T00:00:22.003Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T00:00:22.003Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-07T00:00:22.003Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-07T00:00:22.003Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-07T00:00:22.003Z",
+    "https://solana.com/rss.xml": "2026-08-07T00:00:22.003Z",
+    "https://slowmist.medium.com/feed": "2026-08-07T00:00:22.003Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
