@@ -1,6 +1,91 @@
 {
   "version": 1,
   "decisions": {
+    "ea140e9465cdf36fa6083a98c9883e1e1edba3a2eeb7eeb8baad826ba024be16": {
+      "decisionKey": "ea140e9465cdf36fa6083a98c9883e1e1edba3a2eeb7eeb8baad826ba024be16",
+      "status": "rejected",
+      "reason": "The candidate is about an AI model (China's Kimi K3) breaking out of its sandbox, which is not directly related to the crypto industry's key policy, protocol upgrades, security events, or market structure changes. The content is also very brief and lacks specific data or clear impact on crypto stakeholders.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T14:00:25.331Z"
+    },
+    "df8be9d3d923c6cc4c8415e32daba9599d95d5f756769848a0433ec6f1a54010": {
+      "decisionKey": "df8be9d3d923c6cc4c8415e32daba9599d95d5f756769848a0433ec6f1a54010",
+      "status": "published",
+      "reason": "This article covers a significant security concern for Coldcard hardware wallets and the emerging use of dice entropy for self-custody, directly relevant to crypto industry security practices and user preparedness.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T14:00:25.331Z",
+      "bCommitSha": "967bec0c2e69b9d6d2db7f629181c3171597f9a0"
+    },
+    "b3a7a31db1fb08b83c1565c901f7aaf589c2ad6b9824b836f7022b9a34e636bd": {
+      "decisionKey": "b3a7a31db1fb08b83c1565c901f7aaf589c2ad6b9824b836f7022b9a34e636bd",
+      "status": "published",
+      "reason": "The candidate is a real, verifiable news report from Cointelegraph presenting specific data on a significant decline in perpetual futures volume to a multi-year low, which is informative and relevant for crypto industry participants.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T14:00:25.331Z",
+      "bCommitSha": "967bec0c2e69b9d6d2db7f629181c3171597f9a0"
+    },
+    "a5c8cd37708e23761b73a1776d7507fb0163cf3d79b571193128cc5383fdf4e8": {
+      "decisionKey": "a5c8cd37708e23761b73a1776d7507fb0163cf3d79b571193128cc5383fdf4e8",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T14:00:25.331Z"
+    },
+    "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5": {
+      "decisionKey": "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5",
+      "status": "published",
+      "reason": "真实来源The Block报道了DePIN项目Vangrid完成900万美元代币融资，用于构建物理AI空间数据网络，属于具体、可核验的行业融资事件，对加密与AI交叉领域有信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T14:00:25.331Z",
+      "bCommitSha": "967bec0c2e69b9d6d2db7f629181c3171597f9a0"
+    },
+    "9f3d6d98b96673b72b77a09eef3d9a721ed4d5f62052a59784b346f65903f0e2": {
+      "decisionKey": "9f3d6d98b96673b72b77a09eef3d9a721ed4d5f62052a59784b346f65903f0e2",
+      "status": "published",
+      "reason": "美国7月非农就业数据大幅不及预期，直接影响美联储利率决策路径，对加密市场风险偏好和流动性预期有重要影响，为加密行业受众提供关键宏观变量变化。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T14:00:25.331Z",
+      "bCommitSha": "967bec0c2e69b9d6d2db7f629181c3171597f9a0"
+    },
+    "90ce65b5edd1c599345387d3adb2319e2c8ea2fac6d6a41ed44ed3b97c14b041": {
+      "decisionKey": "90ce65b5edd1c599345387d3adb2319e2c8ea2fac6d6a41ed44ed3b97c14b041",
+      "status": "published",
+      "reason": "俄罗斯监管部门关闭9家未注册加密交易所，涉及FSB指控与诈骗资金转移，属于直接影响加密行业的重要监管行动。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T14:00:25.331Z",
+      "bCommitSha": "967bec0c2e69b9d6d2db7f629181c3171597f9a0"
+    },
+    "739bb97b76ac2b5f2987cdfd9a0e56d24cfe803743e97372dea8efb07cf1f364": {
+      "decisionKey": "739bb97b76ac2b5f2987cdfd9a0e56d24cfe803743e97372dea8efb07cf1f364",
+      "status": "published",
+      "reason": "This is a legitimate Cointelegraph article reporting on a significant Ethereum staking proposal (EIP-8363) and the industry backlash, covering core crypto topics like DeFi, decentralization, and institutional adoption. It provides a specific event, clear subject, and relevant impact for the crypto audience.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T14:00:25.331Z",
+      "bCommitSha": "967bec0c2e69b9d6d2db7f629181c3171597f9a0"
+    },
+    "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5": {
+      "decisionKey": "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T14:00:25.331Z"
+    },
+    "247a0864813f535f43ad9e5833df6fdafac898036883de8765a956cf7b4c3616": {
+      "decisionKey": "247a0864813f535f43ad9e5833df6fdafac898036883de8765a956cf7b4c3616",
+      "status": "published",
+      "reason": "The article reports specific market data (tokenized asset deposits tripled to $7.4B, DeFi spot volumes fell ~70%) from a credible source (CoinShares via Decrypt), showing a significant structural shift in crypto markets. This is directly relevant to crypto industry participants and provides new information beyond routine price news.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T14:00:25.331Z",
+      "bCommitSha": "967bec0c2e69b9d6d2db7f629181c3171597f9a0"
+    },
     "b8099e11928b2272f43eb58bfddcd81b1d6a2fc1fdfae361ee7f64d48abf8345": {
       "decisionKey": "b8099e11928b2272f43eb58bfddcd81b1d6a2fc1fdfae361ee7f64d48abf8345",
       "status": "rejected",
@@ -24,20 +109,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T12:00:27.330Z",
       "bCommitSha": "19785744971c95acf63ae5ad78242be10252909b"
-    },
-    "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5": {
-      "decisionKey": "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T12:00:27.330Z"
-    },
-    "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5": {
-      "decisionKey": "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T12:00:27.330Z"
     },
     "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d": {
       "decisionKey": "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d",
@@ -1280,17 +1351,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T12:00:27.330Z",
-    "https://cointelegraph.com/rss": "2026-08-07T12:00:27.330Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T14:00:25.331Z",
+    "https://cointelegraph.com/rss": "2026-08-07T14:00:25.331Z",
     "https://decrypt.co/feed": "2026-08-07T12:00:27.330Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T12:00:27.330Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T12:00:27.330Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T12:00:27.330Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-07T12:00:27.330Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-07T12:00:27.330Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-07T12:00:27.330Z",
-    "https://solana.com/rss.xml": "2026-08-07T12:00:27.330Z",
-    "https://slowmist.medium.com/feed": "2026-08-07T12:00:27.330Z"
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T14:00:25.331Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T14:00:25.331Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T14:00:25.331Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-07T14:00:25.331Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-07T14:00:25.331Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-07T14:00:25.331Z",
+    "https://solana.com/rss.xml": "2026-08-07T14:00:25.331Z",
+    "https://slowmist.medium.com/feed": "2026-08-07T14:00:25.331Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
