@@ -1,6 +1,101 @@
 {
   "version": 1,
   "decisions": {
+    "f4a4230bf14805414c7d6572e5d6ae0ddcaa0650a93bca69e58e51145b9cb8b3": {
+      "decisionKey": "f4a4230bf14805414c7d6572e5d6ae0ddcaa0650a93bca69e58e51145b9cb8b3",
+      "status": "published",
+      "reason": "Wintermute作为知名加密做市商推出美国经纪自营商，涉及受监管市场准入和代币化证券趋势，对加密行业机构化发展有明确影响，来源为Cointelegraph，信息可核验。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z",
+      "bCommitSha": "a230b31a35cc988a211c1c4bc8f3516eee335f2c"
+    },
+    "e6beee0014d67034a6d88a735fdddea8bca4dfeb8f447f2136586d6aa7a4454b": {
+      "decisionKey": "e6beee0014d67034a6d88a735fdddea8bca4dfeb8f447f2136586d6aa7a4454b",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z"
+    },
+    "c343a4e4a71ba05f1ccc7f6c3e1a5d5fe8d370f391a4708c7d5a05b8fecdc96c": {
+      "decisionKey": "c343a4e4a71ba05f1ccc7f6c3e1a5d5fe8d370f391a4708c7d5a05b8fecdc96c",
+      "status": "published",
+      "reason": "Ondo Finance创始人去世后出现控制权争夺，属加密项目重大治理事件，来源为CoinDesk，信息真实可核验，对行业有明确影响。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z",
+      "bCommitSha": "a230b31a35cc988a211c1c4bc8f3516eee335f2c"
+    },
+    "accb0b6e72c02d3291d4eed85a2d50514cf19e99bb90c5b2271db18bb454a431": {
+      "decisionKey": "accb0b6e72c02d3291d4eed85a2d50514cf19e99bb90c5b2271db18bb454a431",
+      "status": "published",
+      "reason": "MetaMask, a major crypto wallet provider, has launched a self-custodial AI wallet for autonomous trading, representing a notable development in AI-powered crypto infrastructure with clear impact on industry users.",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z",
+      "bCommitSha": "a230b31a35cc988a211c1c4bc8f3516eee335f2c"
+    },
+    "abdd85c7a9e7756780a86656cdae3b1b6fa3623fdd39506d67a19b97345fc667": {
+      "decisionKey": "abdd85c7a9e7756780a86656cdae3b1b6fa3623fdd39506d67a19b97345fc667",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z"
+    },
+    "a9592e707bed9a643d97279e89f79b0f25ff6a23baa0067d1258d7b0e41fdaa0": {
+      "decisionKey": "a9592e707bed9a643d97279e89f79b0f25ff6a23baa0067d1258d7b0e41fdaa0",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z"
+    },
+    "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5": {
+      "decisionKey": "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z"
+    },
+    "9bd31352a3cd3c72a97754995259415bc34433a84ea46c5abf0fd547bf51b731": {
+      "decisionKey": "9bd31352a3cd3c72a97754995259415bc34433a84ea46c5abf0fd547bf51b731",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z"
+    },
+    "915e91e6041b8256eedeb9061a022c440f46953a2c63b56ed9d6b6e0b46fe2b1": {
+      "decisionKey": "915e91e6041b8256eedeb9061a022c440f46953a2c63b56ed9d6b6e0b46fe2b1",
+      "status": "published",
+      "reason": "该候选来自可信的公开新闻来源Decrypt，报道俄罗斯总统签署首部加密货币法律，明确创建持牌交易市场但禁止支付，属于对加密行业有直接影响的重大政策变化，具有信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z",
+      "bCommitSha": "a230b31a35cc988a211c1c4bc8f3516eee335f2c"
+    },
+    "6b7d0f55ce543bcfd4c99b2e0c4f1722711c45844bd632cfa18a42b360f8ef60": {
+      "decisionKey": "6b7d0f55ce543bcfd4c99b2e0c4f1722711c45844bd632cfa18a42b360f8ef60",
+      "status": "published",
+      "reason": "真实新闻报道，涉及美国参议员推动CFTC禁止野火事件合约，对预测市场和加密货币行业有明确监管影响，发布时间明确，来源可信。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z",
+      "bCommitSha": "a230b31a35cc988a211c1c4bc8f3516eee335f2c"
+    },
+    "379328a77a573317fb23861a7fb512f35851b336f9aa258c1d59298823ea89bc": {
+      "decisionKey": "379328a77a573317fb23861a7fb512f35851b336f9aa258c1d59298823ea89bc",
+      "status": "rejected",
+      "reason": "内容与加密行业无关，属于普通消费品新闻，对目标受众无影响或信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z"
+    },
+    "0730895cf5de9bd90488f4bec483ba2e2f874aad57a2ec6136d9c3c5c6274468": {
+      "decisionKey": "0730895cf5de9bd90488f4bec483ba2e2f874aad57a2ec6136d9c3c5c6274468",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T02:00:43.764Z"
+    },
     "fece27bd0903d8f4a2c146d4ba935be326faf431bf665bd3b826ece03023f2cd": {
       "decisionKey": "fece27bd0903d8f4a2c146d4ba935be326faf431bf665bd3b826ece03023f2cd",
       "status": "rejected",
@@ -17,13 +112,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T00:00:22.003Z",
       "bCommitSha": "c4eb9ba7d595020d7cfb3253b3a3a42a0153a361"
-    },
-    "e6beee0014d67034a6d88a735fdddea8bca4dfeb8f447f2136586d6aa7a4454b": {
-      "decisionKey": "e6beee0014d67034a6d88a735fdddea8bca4dfeb8f447f2136586d6aa7a4454b",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T00:00:22.003Z"
     },
     "de3fb11966d2ade83102605b6be009e95ceb6465ad29bf0a3eea5f7dc040da65": {
       "decisionKey": "de3fb11966d2ade83102605b6be009e95ceb6465ad29bf0a3eea5f7dc040da65",
@@ -50,27 +138,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T00:00:22.003Z"
     },
-    "c343a4e4a71ba05f1ccc7f6c3e1a5d5fe8d370f391a4708c7d5a05b8fecdc96c": {
-      "decisionKey": "c343a4e4a71ba05f1ccc7f6c3e1a5d5fe8d370f391a4708c7d5a05b8fecdc96c",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T00:00:22.003Z"
-    },
-    "abdd85c7a9e7756780a86656cdae3b1b6fa3623fdd39506d67a19b97345fc667": {
-      "decisionKey": "abdd85c7a9e7756780a86656cdae3b1b6fa3623fdd39506d67a19b97345fc667",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T00:00:22.003Z"
-    },
-    "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5": {
-      "decisionKey": "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T00:00:22.003Z"
-    },
     "9ec3f709abaf77d1176a6be204598239e5322ace0922e02299d30e6c4af70fc6": {
       "decisionKey": "9ec3f709abaf77d1176a6be204598239e5322ace0922e02299d30e6c4af70fc6",
       "status": "published",
@@ -79,27 +146,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T00:00:22.003Z",
       "bCommitSha": "c4eb9ba7d595020d7cfb3253b3a3a42a0153a361"
-    },
-    "9bd31352a3cd3c72a97754995259415bc34433a84ea46c5abf0fd547bf51b731": {
-      "decisionKey": "9bd31352a3cd3c72a97754995259415bc34433a84ea46c5abf0fd547bf51b731",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T00:00:22.003Z"
-    },
-    "915e91e6041b8256eedeb9061a022c440f46953a2c63b56ed9d6b6e0b46fe2b1": {
-      "decisionKey": "915e91e6041b8256eedeb9061a022c440f46953a2c63b56ed9d6b6e0b46fe2b1",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T00:00:22.003Z"
-    },
-    "6b7d0f55ce543bcfd4c99b2e0c4f1722711c45844bd632cfa18a42b360f8ef60": {
-      "decisionKey": "6b7d0f55ce543bcfd4c99b2e0c4f1722711c45844bd632cfa18a42b360f8ef60",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T00:00:22.003Z"
     },
     "4e3c250c679ab7f115b8957db2b50dbdd132fc0c04b118d3b01f701a0353f261": {
       "decisionKey": "4e3c250c679ab7f115b8957db2b50dbdd132fc0c04b118d3b01f701a0353f261",
@@ -139,13 +185,6 @@
       "status": "rejected",
       "reason": "该内容涉及OpenAI AI代理与Hugging Face安全事件，属于AI安全领域，但未提供对加密行业受众的明确影响或信息增量，且与加密政策、协议、市场结构等核心关注点无关。",
       "score": 0.15,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T00:00:22.003Z"
-    },
-    "0730895cf5de9bd90488f4bec483ba2e2f874aad57a2ec6136d9c3c5c6274468": {
-      "decisionKey": "0730895cf5de9bd90488f4bec483ba2e2f874aad57a2ec6136d9c3c5c6274468",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T00:00:22.003Z"
     },
@@ -995,17 +1034,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-06T16:07:04.104Z",
-    "https://cointelegraph.com/rss": "2026-08-07T00:00:22.003Z",
-    "https://decrypt.co/feed": "2026-08-06T16:07:04.104Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T00:00:22.003Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T00:00:22.003Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T00:00:22.003Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-07T00:00:22.003Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-07T00:00:22.003Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-07T00:00:22.003Z",
-    "https://solana.com/rss.xml": "2026-08-07T00:00:22.003Z",
-    "https://slowmist.medium.com/feed": "2026-08-07T00:00:22.003Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T02:00:43.764Z",
+    "https://cointelegraph.com/rss": "2026-08-07T02:00:43.764Z",
+    "https://decrypt.co/feed": "2026-08-07T02:00:43.764Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T02:00:43.764Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T02:00:43.764Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T02:00:43.764Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-07T02:00:43.764Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-07T02:00:43.764Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-07T02:00:43.764Z",
+    "https://solana.com/rss.xml": "2026-08-07T02:00:43.764Z",
+    "https://slowmist.medium.com/feed": "2026-08-07T02:00:43.764Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
