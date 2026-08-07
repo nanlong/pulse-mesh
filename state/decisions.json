@@ -1,6 +1,118 @@
 {
   "version": 1,
   "decisions": {
+    "e6beee0014d67034a6d88a735fdddea8bca4dfeb8f447f2136586d6aa7a4454b": {
+      "decisionKey": "e6beee0014d67034a6d88a735fdddea8bca4dfeb8f447f2136586d6aa7a4454b",
+      "status": "rejected",
+      "reason": "来源为加密货币行业权威媒体The Block，报道比特币矿商MARA和CleanSpark的具体财报数据（净亏损及每股亏损），涉及收入下滑和AI基础设施转型，属于加密行业市场结构变化的重要信息，对行业受众有明确影响和增量。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z"
+    },
+    "abdd85c7a9e7756780a86656cdae3b1b6fa3623fdd39506d67a19b97345fc667": {
+      "decisionKey": "abdd85c7a9e7756780a86656cdae3b1b6fa3623fdd39506d67a19b97345fc667",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z"
+    },
+    "a9592e707bed9a643d97279e89f79b0f25ff6a23baa0067d1258d7b0e41fdaa0": {
+      "decisionKey": "a9592e707bed9a643d97279e89f79b0f25ff6a23baa0067d1258d7b0e41fdaa0",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z"
+    },
+    "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5": {
+      "decisionKey": "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z"
+    },
+    "9db5dcfa9b8af72d0ddcf1f0c8bafd87337cf4e6a5f9fb9c89de7971d84e4473": {
+      "decisionKey": "9db5dcfa9b8af72d0ddcf1f0c8bafd87337cf4e6a5f9fb9c89de7971d84e4473",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z"
+    },
+    "9bd31352a3cd3c72a97754995259415bc34433a84ea46c5abf0fd547bf51b731": {
+      "decisionKey": "9bd31352a3cd3c72a97754995259415bc34433a84ea46c5abf0fd547bf51b731",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z"
+    },
+    "9a1ede2eb54e66ff727f262854b27a4469aff89acc96dec03a877d5591494330": {
+      "decisionKey": "9a1ede2eb54e66ff727f262854b27a4469aff89acc96dec03a877d5591494330",
+      "status": "published",
+      "reason": "Cointelegraph报道Bitget与不丹Gelephu Mindfulness City Authority签署协议，寻求受监管的加密业务，涉及具体主体、事件和地区，对加密行业具有合规与市场扩展信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z",
+      "bCommitSha": "58112ede603f97f8ddb0c82442d90a0a90363f17"
+    },
+    "8fb1dbecf7dfafeeafa350d06de981328f73de6324dd0a914fbf6f42baa3b6dd": {
+      "decisionKey": "8fb1dbecf7dfafeeafa350d06de981328f73de6324dd0a914fbf6f42baa3b6dd",
+      "status": "published",
+      "reason": "该新闻来自Cointelegraph，报道美国参议院将CLARITY Act投票推迟至9月，涉及具体立法进程和人物，对加密行业监管预期有明确影响，属于重要政策动态。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z",
+      "bCommitSha": "58112ede603f97f8ddb0c82442d90a0a90363f17"
+    },
+    "6902a4a84766d4a90679b79a29d6c0bc214e5d9940402b132e3a9dd279073882": {
+      "decisionKey": "6902a4a84766d4a90679b79a29d6c0bc214e5d9940402b132e3a9dd279073882",
+      "status": "published",
+      "reason": "美国参议院推迟对《加密清晰度法案》投票，直接影响加密行业监管预期，是关注政策走向的受众需要的重要信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z",
+      "bCommitSha": "58112ede603f97f8ddb0c82442d90a0a90363f17"
+    },
+    "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d": {
+      "decisionKey": "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z"
+    },
+    "10bd30c3a153fed309196957606bacc9efcedf6b8aa26bff1ab9b3376abde8a1": {
+      "decisionKey": "10bd30c3a153fed309196957606bacc9efcedf6b8aa26bff1ab9b3376abde8a1",
+      "status": "published",
+      "reason": "The Senate's delay of the Clarity Act vote, confirmed by Majority Leader Thune, is a concrete policy development affecting crypto regulatory clarity. It provides timely, specific information from a credible source (The Block) with direct implications for the crypto industry.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z",
+      "bCommitSha": "58112ede603f97f8ddb0c82442d90a0a90363f17"
+    },
+    "0bfc4686c5ff585737dfc9f49cf10eabb018184a5f5cf7fd888bb01611d3cc87": {
+      "decisionKey": "0bfc4686c5ff585737dfc9f49cf10eabb018184a5f5cf7fd888bb01611d3cc87",
+      "status": "rejected",
+      "reason": "文章为Block季度财报及分析师评论，未直接涉及加密行业政策、协议升级、安全事件或市场结构变化，且内容摘要中未提及加密相关细节，对加密行业受众缺乏明确影响和增量信息，不符合发布标准。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z"
+    },
+    "092548c7db5dc9a3e5aa2c18c76e2900256e04ae51807ee3b363693cb17d17ec": {
+      "decisionKey": "092548c7db5dc9a3e5aa2c18c76e2900256e04ae51807ee3b363693cb17d17ec",
+      "status": "published",
+      "reason": "该候选来自 Cointelegraph 真实新闻页面，内容涉及比特币矿企 MARA 的季度财报，包含具体公司、季度、亏损原因及产量数据，对加密行业投资者有明确信息增量，属于值得发布的市场结构变化。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z",
+      "bCommitSha": "58112ede603f97f8ddb0c82442d90a0a90363f17"
+    },
+    "0730895cf5de9bd90488f4bec483ba2e2f874aad57a2ec6136d9c3c5c6274468": {
+      "decisionKey": "0730895cf5de9bd90488f4bec483ba2e2f874aad57a2ec6136d9c3c5c6274468",
+      "status": "published",
+      "reason": "The candidate reports concrete, verifiable market data from CoinShares: tokenized RWA deposits tripled from $2.3 billion to $7.4 billion between Q2 2025 and Q2 2026, while broader DeFi contracted 15%. This is a significant structural shift for crypto/DeFi audiences and provides clear informational value beyond price speculation or repetition.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T04:00:24.377Z",
+      "bCommitSha": "58112ede603f97f8ddb0c82442d90a0a90363f17"
+    },
     "f4a4230bf14805414c7d6572e5d6ae0ddcaa0650a93bca69e58e51145b9cb8b3": {
       "decisionKey": "f4a4230bf14805414c7d6572e5d6ae0ddcaa0650a93bca69e58e51145b9cb8b3",
       "status": "published",
@@ -9,13 +121,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T02:00:43.764Z",
       "bCommitSha": "a230b31a35cc988a211c1c4bc8f3516eee335f2c"
-    },
-    "e6beee0014d67034a6d88a735fdddea8bca4dfeb8f447f2136586d6aa7a4454b": {
-      "decisionKey": "e6beee0014d67034a6d88a735fdddea8bca4dfeb8f447f2136586d6aa7a4454b",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T02:00:43.764Z"
     },
     "c343a4e4a71ba05f1ccc7f6c3e1a5d5fe8d370f391a4708c7d5a05b8fecdc96c": {
       "decisionKey": "c343a4e4a71ba05f1ccc7f6c3e1a5d5fe8d370f391a4708c7d5a05b8fecdc96c",
@@ -34,34 +139,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T02:00:43.764Z",
       "bCommitSha": "a230b31a35cc988a211c1c4bc8f3516eee335f2c"
-    },
-    "abdd85c7a9e7756780a86656cdae3b1b6fa3623fdd39506d67a19b97345fc667": {
-      "decisionKey": "abdd85c7a9e7756780a86656cdae3b1b6fa3623fdd39506d67a19b97345fc667",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T02:00:43.764Z"
-    },
-    "a9592e707bed9a643d97279e89f79b0f25ff6a23baa0067d1258d7b0e41fdaa0": {
-      "decisionKey": "a9592e707bed9a643d97279e89f79b0f25ff6a23baa0067d1258d7b0e41fdaa0",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T02:00:43.764Z"
-    },
-    "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5": {
-      "decisionKey": "a45c4e6ac5e825ef57611d5c76116db0e7d34e69ae9f34dfe2aa08b50b51b5d5",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T02:00:43.764Z"
-    },
-    "9bd31352a3cd3c72a97754995259415bc34433a84ea46c5abf0fd547bf51b731": {
-      "decisionKey": "9bd31352a3cd3c72a97754995259415bc34433a84ea46c5abf0fd547bf51b731",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T02:00:43.764Z"
     },
     "915e91e6041b8256eedeb9061a022c440f46953a2c63b56ed9d6b6e0b46fe2b1": {
       "decisionKey": "915e91e6041b8256eedeb9061a022c440f46953a2c63b56ed9d6b6e0b46fe2b1",
@@ -86,13 +163,6 @@
       "status": "rejected",
       "reason": "内容与加密行业无关，属于普通消费品新闻，对目标受众无影响或信息增量。",
       "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T02:00:43.764Z"
-    },
-    "0730895cf5de9bd90488f4bec483ba2e2f874aad57a2ec6136d9c3c5c6274468": {
-      "decisionKey": "0730895cf5de9bd90488f4bec483ba2e2f874aad57a2ec6136d9c3c5c6274468",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T02:00:43.764Z"
     },
@@ -234,13 +304,6 @@
       "status": "rejected",
       "reason": "The candidate is a brief, self-promotional partnership announcement from Chainalysis with no substantive details on the integration's impact or scope. It lacks concrete data, specific use cases, or significance for crypto industry, and reads as a marketing teaser. Insufficient evidence to determine clear value or information increment.",
       "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T16:07:04.104Z"
-    },
-    "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d": {
-      "decisionKey": "2f767ca39cacf8edc680ed1ee08e2ae75b787504e4300322706b832f935b980d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T16:07:04.104Z"
     },
@@ -1034,17 +1097,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T02:00:43.764Z",
-    "https://cointelegraph.com/rss": "2026-08-07T02:00:43.764Z",
-    "https://decrypt.co/feed": "2026-08-07T02:00:43.764Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T02:00:43.764Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T02:00:43.764Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T02:00:43.764Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-07T02:00:43.764Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-07T02:00:43.764Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-07T02:00:43.764Z",
-    "https://solana.com/rss.xml": "2026-08-07T02:00:43.764Z",
-    "https://slowmist.medium.com/feed": "2026-08-07T02:00:43.764Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T04:00:24.377Z",
+    "https://cointelegraph.com/rss": "2026-08-07T04:00:24.377Z",
+    "https://decrypt.co/feed": "2026-08-07T04:00:24.377Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T04:00:24.377Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T04:00:24.377Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T04:00:24.377Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-07T04:00:24.377Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-07T04:00:24.377Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-07T04:00:24.377Z",
+    "https://solana.com/rss.xml": "2026-08-07T04:00:24.377Z",
+    "https://slowmist.medium.com/feed": "2026-08-07T04:00:24.377Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
