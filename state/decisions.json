@@ -1,26 +1,140 @@
 {
   "version": 1,
   "decisions": {
+    "fc1d123441b43b5067ecad5812890bf49e260c2050977397ef54ffaf1ab31729": {
+      "decisionKey": "fc1d123441b43b5067ecad5812890bf49e260c2050977397ef54ffaf1ab31729",
+      "status": "published",
+      "reason": "来源Decrypt为真实公开媒体，文章涉及美国参议院对Clarity Act的推进情况，属于影响加密市场的关键政策动态，且聚焦XRP的具体反应，对加密行业受众有明确信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z",
+      "bCommitSha": "4b4b2e6514bbfff83130bc6f4ffd847f9ea5af80"
+    },
+    "ed9110e07eb5a47a9e39ffc48b8323e3925531cbf37631d0510884c051ff7ccd": {
+      "decisionKey": "ed9110e07eb5a47a9e39ffc48b8323e3925531cbf37631d0510884c051ff7ccd",
+      "status": "published",
+      "reason": "Coindesk报道BitMEX出售失败，涉及交易所所有权结构和业务萎缩，对加密行业市场结构有明确影响，信息增量真实可核验。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z",
+      "bCommitSha": "4b4b2e6514bbfff83130bc6f4ffd847f9ea5af80"
+    },
     "e9297513f5c23ef5c4c30bd52f4f351ea03faffddb4cd75ed7157d78513cd316": {
       "decisionKey": "e9297513f5c23ef5c4c30bd52f4f351ea03faffddb4cd75ed7157d78513cd316",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "rejected",
+      "reason": "该候选仅报道比特币价格因美国非农数据达到月内新高，缺乏对加密行业重要政策、协议升级、安全事件或市场结构变化的实质性信息，属于低价值价格新闻，且内容简短信息增量有限。",
+      "score": 0.1,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T16:00:34.265Z"
+      "updatedAt": "2026-08-07T18:00:33.750Z"
     },
     "e01d9a83261d1dcfa96da86424bf87f0204762895df25b01038c96846de022b4": {
       "decisionKey": "e01d9a83261d1dcfa96da86424bf87f0204762895df25b01038c96846de022b4",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "rejected",
+      "reason": "Credible CoinDesk report quoting OKX executive expressing doubts on Clarity Act passage and noting bitcoin market optimism is priced in. This is a relevant policy and market sentiment signal for the crypto industry, based on a named source.",
+      "score": 0.65,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T16:00:34.265Z"
+      "updatedAt": "2026-08-07T18:00:33.750Z"
     },
     "dd45701b42fd586c78983c9bee2dff2f9bdd406578f162d9ed0b04b1faaacb5e": {
       "decisionKey": "dd45701b42fd586c78983c9bee2dff2f9bdd406578f162d9ed0b04b1faaacb5e",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "rejected",
+      "reason": "Candidate lacks specific verifiable details such as wallet address, transaction ID, exact amount, or broader context. It is a vague statement about a dormant wallet moving funds, with no substantive data to confirm or assess impact for crypto industry stakeholders.",
+      "score": 0.2,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T16:00:34.265Z"
+      "updatedAt": "2026-08-07T18:00:33.750Z"
+    },
+    "cde8289f61fa59690c222d485be861a1680c343397fe7d973ba2f6b74fb401ac": {
+      "decisionKey": "cde8289f61fa59690c222d485be861a1680c343397fe7d973ba2f6b74fb401ac",
+      "status": "rejected",
+      "reason": "该候选来自Cointelegraph这一真实公开新闻源，涉及Reform UK主席呼吁调查与FTX/SBF相关的政治捐款，并提及该党领袖自身的加密相关争议，属于加密行业相关的重要政策与政治动态，对受众有明确信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z"
+    },
+    "ae7e587aa5d3696f9c97f2ab6478a29e3dbc09d491c0b318f1d6ee09ff83c528": {
+      "decisionKey": "ae7e587aa5d3696f9c97f2ab6478a29e3dbc09d491c0b318f1d6ee09ff83c528",
+      "status": "rejected",
+      "reason": "Candidate is a vague editorial overview without specific entities, events, data, or verifiable facts. It does not provide actionable information or clear impact for the crypto industry audience.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z"
+    },
+    "935cedccb265ac1ebbe24119e2a380e94c9a90e752c2bfbce9e95eda2e459d9c": {
+      "decisionKey": "935cedccb265ac1ebbe24119e2a380e94c9a90e752c2bfbce9e95eda2e459d9c",
+      "status": "published",
+      "reason": "CoinDesk reports a concrete market-manipulation vulnerability in Polymarket that allowed traders to drain millions, along with the platform's response to adopt time-weighted pricing. This is a verified security/market-structure event with clear impact on prediction markets and crypto trading infrastructure, offering new information beyond routine coverage.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z",
+      "bCommitSha": "4b4b2e6514bbfff83130bc6f4ffd847f9ea5af80"
+    },
+    "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8": {
+      "decisionKey": "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z"
+    },
+    "76652e5fa6d42a0f73507e690a9588281ec9392ef9df1dd32a5114a396458cbc": {
+      "decisionKey": "76652e5fa6d42a0f73507e690a9588281ec9392ef9df1dd32a5114a396458cbc",
+      "status": "published",
+      "reason": "BTCPay作为开源比特币支付处理器，其官方警告的活跃利用漏洞可能导致资金损失，属于影响加密行业资金安全的关键事件。来源为权威媒体The Block，信息具体（版本2.4.2），发布时间明确，对使用BTCPay的用户有直接且紧迫的指导意义，具备明确信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z",
+      "bCommitSha": "4b4b2e6514bbfff83130bc6f4ffd847f9ea5af80"
+    },
+    "6fe1ca1bfd71db5efc3157aecf22cfa7fde72ccf84724e41c890098f4177a3f5": {
+      "decisionKey": "6fe1ca1bfd71db5efc3157aecf22cfa7fde72ccf84724e41c890098f4177a3f5",
+      "status": "rejected",
+      "reason": "候选内容为OpenAI消费硬件传闻，与加密行业无直接关联，不涉及政策、协议、安全或市场结构，对加密受众缺乏明确影响和信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z"
+    },
+    "6e38afac4a354c1b7d070c8026ae98e181212526c48358e19d4882d0802cd6e2": {
+      "decisionKey": "6e38afac4a354c1b7d070c8026ae98e181212526c48358e19d4882d0802cd6e2",
+      "status": "published",
+      "reason": "真实公开的新闻来源，涉及 Bybit 对朝鲜黑客组织（Lazarus Group）就 15 亿美元被盗资产发起诉讼并获冻结令，属于加密行业重大安全事件的法律后续，对行业有明确影响和信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z",
+      "bCommitSha": "4b4b2e6514bbfff83130bc6f4ffd847f9ea5af80"
+    },
+    "5c80ce9d5354b4f3e637e6380102c0a99307dcabae2d5cf02885b7ae92a06620": {
+      "decisionKey": "5c80ce9d5354b4f3e637e6380102c0a99307dcabae2d5cf02885b7ae92a06620",
+      "status": "published",
+      "reason": "Circle 在 OKX 生态的 X Layer 上推出原生 USDC 及跨链转账，是稳定币基础设施扩展的实际进展，对加密行业用户有明确信息增量，来源为 Cointelegraph 的公开新闻。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z",
+      "bCommitSha": "4b4b2e6514bbfff83130bc6f4ffd847f9ea5af80"
+    },
+    "543a693684d282afeef2de431d48adcff85bda22326291b56c742fb4b7fd599d": {
+      "decisionKey": "543a693684d282afeef2de431d48adcff85bda22326291b56c742fb4b7fd599d",
+      "status": "published",
+      "reason": "真实加密新闻来源报道了BNB Chain被用于传播恶意软件的安全事件，对加密行业用户具有明确影响和信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z",
+      "bCommitSha": "4b4b2e6514bbfff83130bc6f4ffd847f9ea5af80"
+    },
+    "4a376aeb3c48bc8b001663a3209fa1cbc61545db8ccbb1ad1ae0f2689ce8a9e7": {
+      "decisionKey": "4a376aeb3c48bc8b001663a3209fa1cbc61545db8ccbb1ad1ae0f2689ce8a9e7",
+      "status": "published",
+      "reason": "The candidate is a real news report from a known crypto media outlet (Decrypt) with a specific, verifiable event: the U.S. July jobs report influencing September rate-hike odds, and its observed impact on Bitcoin's technical position (death cross). It provides actionable macro information relevant to crypto market participants and is not merely price shilling or duplication.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z",
+      "bCommitSha": "4b4b2e6514bbfff83130bc6f4ffd847f9ea5af80"
+    },
+    "1c12e638a25d72e716792e0e39667c163d421da1df699ac054a6179de7f8a191": {
+      "decisionKey": "1c12e638a25d72e716792e0e39667c163d421da1df699ac054a6179de7f8a191",
+      "status": "rejected",
+      "reason": "This is a price reaction to a US jobs report, which constitutes price chasing rather than a substantive policy, protocol upgrade, security event, or market structure change for crypto industry audiences.",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-07T18:00:33.750Z"
     },
     "d2c8d815771abedf69853c3290dd0989d0bcf355068be17ca2a800f215549ed6": {
       "decisionKey": "d2c8d815771abedf69853c3290dd0989d0bcf355068be17ca2a800f215549ed6",
@@ -31,13 +145,6 @@
       "updatedAt": "2026-08-07T16:00:34.265Z",
       "bCommitSha": "8a0cfc997f33c59e1db88504c72ca5db61438599"
     },
-    "ae7e587aa5d3696f9c97f2ab6478a29e3dbc09d491c0b318f1d6ee09ff83c528": {
-      "decisionKey": "ae7e587aa5d3696f9c97f2ab6478a29e3dbc09d491c0b318f1d6ee09ff83c528",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T16:00:34.265Z"
-    },
     "a5c8cd37708e23761b73a1776d7507fb0163cf3d79b571193128cc5383fdf4e8": {
       "decisionKey": "a5c8cd37708e23761b73a1776d7507fb0163cf3d79b571193128cc5383fdf4e8",
       "status": "published",
@@ -46,13 +153,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T16:00:34.265Z",
       "bCommitSha": "8a0cfc997f33c59e1db88504c72ca5db61438599"
-    },
-    "935cedccb265ac1ebbe24119e2a380e94c9a90e752c2bfbce9e95eda2e459d9c": {
-      "decisionKey": "935cedccb265ac1ebbe24119e2a380e94c9a90e752c2bfbce9e95eda2e459d9c",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T16:00:34.265Z"
     },
     "89fbfe268bc6c59dadedbf31ca489cdc48c753a0b182c68067bdfdfe6d14d38c": {
       "decisionKey": "89fbfe268bc6c59dadedbf31ca489cdc48c753a0b182c68067bdfdfe6d14d38c",
@@ -63,22 +163,8 @@
       "updatedAt": "2026-08-07T16:00:34.265Z",
       "bCommitSha": "8a0cfc997f33c59e1db88504c72ca5db61438599"
     },
-    "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8": {
-      "decisionKey": "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T16:00:34.265Z"
-    },
     "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5": {
       "decisionKey": "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T16:00:34.265Z"
-    },
-    "1c12e638a25d72e716792e0e39667c163d421da1df699ac054a6179de7f8a191": {
-      "decisionKey": "1c12e638a25d72e716792e0e39667c163d421da1df699ac054a6179de7f8a191",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
@@ -1420,17 +1506,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T14:00:25.331Z",
-    "https://cointelegraph.com/rss": "2026-08-07T14:00:25.331Z",
-    "https://decrypt.co/feed": "2026-08-07T12:00:27.330Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T16:00:34.265Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T16:00:34.265Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T16:00:34.265Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-07T16:00:34.265Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-07T16:00:34.265Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-07T16:00:34.265Z",
-    "https://solana.com/rss.xml": "2026-08-07T16:00:34.265Z",
-    "https://slowmist.medium.com/feed": "2026-08-07T16:00:34.265Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-07T18:00:33.750Z",
+    "https://cointelegraph.com/rss": "2026-08-07T18:00:33.750Z",
+    "https://decrypt.co/feed": "2026-08-07T18:00:33.750Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-07T18:00:33.750Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-07T18:00:33.750Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-07T18:00:33.750Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-07T18:00:33.750Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-07T18:00:33.750Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-07T18:00:33.750Z",
+    "https://solana.com/rss.xml": "2026-08-07T18:00:33.750Z",
+    "https://slowmist.medium.com/feed": "2026-08-07T18:00:33.750Z"
   },
   "lastRunAt": "2026-08-05T16:05:33.767Z"
 }
