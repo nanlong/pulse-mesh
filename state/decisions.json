@@ -1,6 +1,24 @@
 {
   "version": 1,
   "decisions": {
+    "fb2e7b19e2149788437085c51f43e5670eef7011a4d3b6975698aaadda76d9ca": {
+      "decisionKey": "fb2e7b19e2149788437085c51f43e5670eef7011a4d3b6975698aaadda76d9ca",
+      "status": "published",
+      "reason": "This is a credible Cointelegraph news piece citing IMF First Deputy Managing Director Dan Katz on how domestic stablecoins could increase demand for dollar-backed tokens, highlighting liquidity, network effects, and cross-border acceptance. It is a policy-relevant statement from a major international financial institution, giving the crypto audience clear industry impact and information value.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T08:00:21.132Z",
+      "bCommitSha": "34fb0331531b9e443befffe16646845a2a04657b"
+    },
+    "1a7cddc8c0da9803425b649bd85dfaa8713747de35a554279e7d4ff467a95529": {
+      "decisionKey": "1a7cddc8c0da9803425b649bd85dfaa8713747de35a554279e7d4ff467a95529",
+      "status": "published",
+      "reason": "This is a legitimate security news report from CoinDesk, a reputable crypto news outlet. It covers a concrete exploit targeting Bitcoin Lightning payment servers (LND) and includes a specific call to action from BTCPay for users to update or take servers offline. The event is timely, has clear impact on the crypto infrastructure sector, and provides actionable information for node operators.",
+      "score": 0.93,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T08:00:21.132Z",
+      "bCommitSha": "34fb0331531b9e443befffe16646845a2a04657b"
+    },
     "f517f299ee5f9039064b47ab44a35dafd9fe29e7567ee99a63577aee0edfa8a4": {
       "decisionKey": "f517f299ee5f9039064b47ab44a35dafd9fe29e7567ee99a63577aee0edfa8a4",
       "status": "published",
@@ -1667,18 +1685,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T06:00:18.864Z",
-    "https://cointelegraph.com/rss": "2026-08-08T06:00:18.864Z",
-    "https://decrypt.co/feed": "2026-08-08T06:00:18.864Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T06:00:18.864Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T06:00:18.864Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T06:00:18.864Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-08T06:00:18.864Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-08T06:00:18.864Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-08T06:00:18.864Z",
-    "https://solana.com/rss.xml": "2026-08-08T06:00:18.864Z",
-    "https://slowmist.medium.com/feed": "2026-08-08T06:00:18.864Z",
-    "https://www.theblock.co/rss.xml": "2026-08-08T06:00:18.864Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T08:00:21.132Z",
+    "https://cointelegraph.com/rss": "2026-08-08T08:00:21.132Z",
+    "https://decrypt.co/feed": "2026-08-08T08:00:21.132Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T08:00:21.132Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T08:00:21.132Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T08:00:21.132Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-08T08:00:21.132Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-08T08:00:21.132Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-08T08:00:21.132Z",
+    "https://solana.com/rss.xml": "2026-08-08T08:00:21.132Z",
+    "https://slowmist.medium.com/feed": "2026-08-08T08:00:21.132Z",
+    "https://www.theblock.co/rss.xml": "2026-08-08T08:00:21.132Z"
   },
-  "lastRunAt": "2026-08-08T06:00:18.864Z"
+  "lastRunAt": "2026-08-08T08:00:21.132Z"
 }
