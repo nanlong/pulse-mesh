@@ -1,6 +1,15 @@
 {
   "version": 1,
   "decisions": {
+    "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8": {
+      "decisionKey": "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8",
+      "status": "published",
+      "reason": "Reports a real security exploit involving Coldcard bitcoin hardware wallet and includes commentary from a Blockaid CEO, providing actionable security information for crypto users.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T02:00:14.813Z",
+      "bCommitSha": "da828e74f74fadcb6d280765f2cbf6986b25186e"
+    },
     "d5784e062e35c06e16bc285a4e6ecca5b32d015ea794b22211fdbbff47e75878": {
       "decisionKey": "d5784e062e35c06e16bc285a4e6ecca5b32d015ea794b22211fdbbff47e75878",
       "status": "published",
@@ -18,13 +27,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-08T00:00:19.322Z",
       "bCommitSha": "865e43f0649364be8d26173e4339657eaabc33c1"
-    },
-    "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8": {
-      "decisionKey": "88da785ca7add8e5cbb358f08e4a7c1c94b9fe3984423899fe79d28cb9a2d9a8",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T00:00:19.322Z"
     },
     "22d87b53e23a1cbca8cf109b00b84c9f8edbda7ca679b0a09f5747c07b675acc": {
       "decisionKey": "22d87b53e23a1cbca8cf109b00b84c9f8edbda7ca679b0a09f5747c07b675acc",
@@ -1638,17 +1640,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T00:00:19.322Z",
-    "https://cointelegraph.com/rss": "2026-08-08T00:00:19.322Z",
-    "https://decrypt.co/feed": "2026-08-08T00:00:19.322Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T00:00:19.322Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T00:00:19.322Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T00:00:19.322Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-08T00:00:19.322Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-08T00:00:19.322Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-08T00:00:19.322Z",
-    "https://solana.com/rss.xml": "2026-08-08T00:00:19.322Z",
-    "https://slowmist.medium.com/feed": "2026-08-08T00:00:19.322Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T02:00:14.813Z",
+    "https://cointelegraph.com/rss": "2026-08-08T02:00:14.813Z",
+    "https://decrypt.co/feed": "2026-08-08T02:00:14.813Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T02:00:14.813Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T02:00:14.813Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T02:00:14.813Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-08T02:00:14.813Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-08T02:00:14.813Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-08T02:00:14.813Z",
+    "https://solana.com/rss.xml": "2026-08-08T02:00:14.813Z",
+    "https://slowmist.medium.com/feed": "2026-08-08T02:00:14.813Z",
+    "https://www.theblock.co/rss.xml": "2026-08-08T02:00:14.813Z"
   },
-  "lastRunAt": "2026-08-05T16:05:33.767Z"
+  "lastRunAt": "2026-08-08T02:00:14.813Z"
 }
