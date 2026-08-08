@@ -1,6 +1,23 @@
 {
   "version": 1,
   "decisions": {
+    "2931a447bed3142ef9d233aa49d3f1697594b333efc893024fafacbef472b4d5": {
+      "decisionKey": "2931a447bed3142ef9d233aa49d3f1697594b333efc893024fafacbef472b4d5",
+      "status": "published",
+      "reason": "报道了万亿美元资产管理公司T. Rowe Price将memecoins纳入其加密ETF的具体策略，属于机构级市场结构变化，对加密行业有明确信息增量，来源为CoinDesk且内容可核验。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T14:00:18.155Z",
+      "bCommitSha": "ce682236cf4ce94d37013acb08ba11b12b7ed5b7"
+    },
+    "061436c47cdfde9c9571d07123934aae292cd9992e3e823dc2404e3dc4162ddf": {
+      "decisionKey": "061436c47cdfde9c9571d07123934aae292cd9992e3e823dc2404e3dc4162ddf",
+      "status": "rejected",
+      "reason": "该内容为Nansen创始人对比特币价格的个人预测，属于价格喊单和观点评论，缺乏具体事件、数据或可核验的新闻要素，且标题具有煽动性，不符合重要政策、协议升级或市场结构变化的发布标准。",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T14:00:18.155Z"
+    },
     "f3f8a1d1a73f74a4e8feb9f628021ecd3cb03ec9707d8d91d8f48a5ae0dd776f": {
       "decisionKey": "f3f8a1d1a73f74a4e8feb9f628021ecd3cb03ec9707d8d91d8f48a5ae0dd776f",
       "status": "published",
@@ -1694,18 +1711,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T12:00:23.763Z",
-    "https://cointelegraph.com/rss": "2026-08-08T12:00:23.763Z",
-    "https://decrypt.co/feed": "2026-08-08T12:00:23.763Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T12:00:23.763Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T12:00:23.763Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T12:00:23.763Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-08T12:00:23.763Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-08T12:00:23.763Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-08T12:00:23.763Z",
-    "https://solana.com/rss.xml": "2026-08-08T12:00:23.763Z",
-    "https://slowmist.medium.com/feed": "2026-08-08T12:00:23.763Z",
-    "https://www.theblock.co/rss.xml": "2026-08-08T12:00:23.763Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T14:00:18.155Z",
+    "https://cointelegraph.com/rss": "2026-08-08T14:00:18.155Z",
+    "https://decrypt.co/feed": "2026-08-08T14:00:18.155Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T14:00:18.155Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T14:00:18.155Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T14:00:18.155Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-08T14:00:18.155Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-08T14:00:18.155Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-08T14:00:18.155Z",
+    "https://solana.com/rss.xml": "2026-08-08T14:00:18.155Z",
+    "https://slowmist.medium.com/feed": "2026-08-08T14:00:18.155Z",
+    "https://www.theblock.co/rss.xml": "2026-08-08T14:00:18.155Z"
   },
-  "lastRunAt": "2026-08-08T12:00:23.763Z"
+  "lastRunAt": "2026-08-08T14:00:18.155Z"
 }
