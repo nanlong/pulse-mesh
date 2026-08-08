@@ -1,6 +1,23 @@
 {
   "version": 1,
   "decisions": {
+    "fb4e52b9aaf18012fef100caecfe425c3e0793ee529b40fe696763ca8995a117": {
+      "decisionKey": "fb4e52b9aaf18012fef100caecfe425c3e0793ee529b40fe696763ca8995a117",
+      "status": "rejected",
+      "reason": "The candidate has a future publication date (2026-08-08) relative to the current date, and the content is minimal with no verifiable details. This appears to be placeholder or test content, not a genuine, accessible news article. Insufficient evidence for a real event.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T22:00:22.275Z"
+    },
+    "be46025177ea4337274b21799258e662cff665ac675cd88e0943ed9fd6d9884a": {
+      "decisionKey": "be46025177ea4337274b21799258e662cff665ac675cd88e0943ed9fd6d9884a",
+      "status": "published",
+      "reason": "BIP-110 reaching mandatory signaling with miner support below 3% and a possible hard-fork fallback is a material Bitcoin protocol event, relevant to crypto industry governance and network stability.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T22:00:22.275Z",
+      "bCommitSha": "65f2d09a3e034440d86ac28684a217adb5ba0211"
+    },
     "f92e76a0d6b879b4dfdc836f121c96f96037099158f5988583ae7e04c8b1b67d": {
       "decisionKey": "f92e76a0d6b879b4dfdc836f121c96f96037099158f5988583ae7e04c8b1b67d",
       "status": "published",
@@ -1791,18 +1808,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T20:00:21.602Z",
-    "https://cointelegraph.com/rss": "2026-08-08T20:00:21.602Z",
-    "https://decrypt.co/feed": "2026-08-08T20:00:21.602Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T20:00:21.602Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T20:00:21.602Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T20:00:21.602Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-08T20:00:21.602Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-08T20:00:21.602Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-08T20:00:21.602Z",
-    "https://solana.com/rss.xml": "2026-08-08T20:00:21.602Z",
-    "https://slowmist.medium.com/feed": "2026-08-08T20:00:21.602Z",
-    "https://www.theblock.co/rss.xml": "2026-08-08T20:00:21.602Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T22:00:22.275Z",
+    "https://cointelegraph.com/rss": "2026-08-08T22:00:22.275Z",
+    "https://decrypt.co/feed": "2026-08-08T22:00:22.275Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T22:00:22.275Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T22:00:22.275Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T22:00:22.275Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-08T22:00:22.275Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-08T22:00:22.275Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-08T22:00:22.275Z",
+    "https://solana.com/rss.xml": "2026-08-08T22:00:22.275Z",
+    "https://slowmist.medium.com/feed": "2026-08-08T22:00:22.275Z",
+    "https://www.theblock.co/rss.xml": "2026-08-08T22:00:22.275Z"
   },
-  "lastRunAt": "2026-08-08T20:00:21.602Z"
+  "lastRunAt": "2026-08-08T22:00:22.275Z"
 }
