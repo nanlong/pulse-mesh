@@ -3,10 +3,12 @@
   "decisions": {
     "f92e76a0d6b879b4dfdc836f121c96f96037099158f5988583ae7e04c8b1b67d": {
       "decisionKey": "f92e76a0d6b879b4dfdc836f121c96f96037099158f5988583ae7e04c8b1b67d",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "published",
+      "reason": "该候选来自CoinDesk这一公开可核验的新闻源，报道了俄罗斯硬件钱包销量翻倍且新加密监管规则临近这一具体事件，包含明确主体（Wildberries、M.Video）、时间（2026-08-08）和数据（价格下降13%、均价7900卢布），对加密行业受众理解俄罗斯市场动态和监管趋势有信息增量，不属于测试、营销或价格喊单内容。",
+      "score": 0.8,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T18:00:20.578Z"
+      "updatedAt": "2026-08-08T20:00:21.602Z",
+      "bCommitSha": "dd7e290cf7adc074c3547d0a09b6afbdbd739e44"
     },
     "c08eabf2f09d8b963daedc71451ba0ef80be92fd3e5c11fa718533a5c27b762d": {
       "decisionKey": "c08eabf2f09d8b963daedc71451ba0ef80be92fd3e5c11fa718533a5c27b762d",
@@ -1789,18 +1791,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T14:00:18.155Z",
-    "https://cointelegraph.com/rss": "2026-08-08T18:00:20.578Z",
-    "https://decrypt.co/feed": "2026-08-08T18:00:20.578Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T18:00:20.578Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T18:00:20.578Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T18:00:20.578Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-08T18:00:20.578Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-08T18:00:20.578Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-08T18:00:20.578Z",
-    "https://solana.com/rss.xml": "2026-08-08T18:00:20.578Z",
-    "https://slowmist.medium.com/feed": "2026-08-08T18:00:20.578Z",
-    "https://www.theblock.co/rss.xml": "2026-08-08T18:00:20.578Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T20:00:21.602Z",
+    "https://cointelegraph.com/rss": "2026-08-08T20:00:21.602Z",
+    "https://decrypt.co/feed": "2026-08-08T20:00:21.602Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T20:00:21.602Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T20:00:21.602Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T20:00:21.602Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-08T20:00:21.602Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-08T20:00:21.602Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-08T20:00:21.602Z",
+    "https://solana.com/rss.xml": "2026-08-08T20:00:21.602Z",
+    "https://slowmist.medium.com/feed": "2026-08-08T20:00:21.602Z",
+    "https://www.theblock.co/rss.xml": "2026-08-08T20:00:21.602Z"
   },
-  "lastRunAt": "2026-08-08T14:00:18.155Z"
+  "lastRunAt": "2026-08-08T20:00:21.602Z"
 }
