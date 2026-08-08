@@ -1,6 +1,15 @@
 {
   "version": 1,
   "decisions": {
+    "f517f299ee5f9039064b47ab44a35dafd9fe29e7567ee99a63577aee0edfa8a4": {
+      "decisionKey": "f517f299ee5f9039064b47ab44a35dafd9fe29e7567ee99a63577aee0edfa8a4",
+      "status": "published",
+      "reason": "报道美国法院支持Bybit追踪1.5亿美元朝鲜黑客资金，涉及加密交易所、重大安全事件及法律监管行动，对加密行业受众具有明确影响和信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T06:00:18.864Z",
+      "bCommitSha": "b1dc7b6dae161f444a0dea3d37db1626a5fa9102"
+    },
     "1803391981865d22b1ead085c6deb6502a7263f6103e7904b1f33cbfa00e988d": {
       "decisionKey": "1803391981865d22b1ead085c6deb6502a7263f6103e7904b1f33cbfa00e988d",
       "status": "published",
@@ -1658,18 +1667,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T04:00:30.892Z",
-    "https://cointelegraph.com/rss": "2026-08-08T04:00:30.892Z",
-    "https://decrypt.co/feed": "2026-08-08T04:00:30.892Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T04:00:30.892Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T04:00:30.892Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T04:00:30.892Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-08T04:00:30.892Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-08T04:00:30.892Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-08T04:00:30.892Z",
-    "https://solana.com/rss.xml": "2026-08-08T04:00:30.892Z",
-    "https://slowmist.medium.com/feed": "2026-08-08T04:00:30.892Z",
-    "https://www.theblock.co/rss.xml": "2026-08-08T04:00:30.892Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T06:00:18.864Z",
+    "https://cointelegraph.com/rss": "2026-08-08T06:00:18.864Z",
+    "https://decrypt.co/feed": "2026-08-08T06:00:18.864Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T06:00:18.864Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T06:00:18.864Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T06:00:18.864Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-08T06:00:18.864Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-08T06:00:18.864Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-08T06:00:18.864Z",
+    "https://solana.com/rss.xml": "2026-08-08T06:00:18.864Z",
+    "https://slowmist.medium.com/feed": "2026-08-08T06:00:18.864Z",
+    "https://www.theblock.co/rss.xml": "2026-08-08T06:00:18.864Z"
   },
-  "lastRunAt": "2026-08-08T04:00:30.892Z"
+  "lastRunAt": "2026-08-08T06:00:18.864Z"
 }
