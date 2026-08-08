@@ -1,6 +1,15 @@
 {
   "version": 1,
   "decisions": {
+    "f3f8a1d1a73f74a4e8feb9f628021ecd3cb03ec9707d8d91d8f48a5ae0dd776f": {
+      "decisionKey": "f3f8a1d1a73f74a4e8feb9f628021ecd3cb03ec9707d8d91d8f48a5ae0dd776f",
+      "status": "published",
+      "reason": "The candidate reports a real, verifiable U.S. Senate procedural step on the Crypto Clarity Act, a specific policy event with clear impact on crypto regulation. The source is CoinDesk, a legitimate news outlet, and the content provides an actionable update for industry followers.",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T10:00:20.694Z",
+      "bCommitSha": "eb7478f31a080bf5adec0d80fb7e5a89f8d3bd41"
+    },
     "fb2e7b19e2149788437085c51f43e5670eef7011a4d3b6975698aaadda76d9ca": {
       "decisionKey": "fb2e7b19e2149788437085c51f43e5670eef7011a4d3b6975698aaadda76d9ca",
       "status": "published",
@@ -1685,18 +1694,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T08:00:21.132Z",
-    "https://cointelegraph.com/rss": "2026-08-08T08:00:21.132Z",
-    "https://decrypt.co/feed": "2026-08-08T08:00:21.132Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T08:00:21.132Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T08:00:21.132Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T08:00:21.132Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-08T08:00:21.132Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-08T08:00:21.132Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-08T08:00:21.132Z",
-    "https://solana.com/rss.xml": "2026-08-08T08:00:21.132Z",
-    "https://slowmist.medium.com/feed": "2026-08-08T08:00:21.132Z",
-    "https://www.theblock.co/rss.xml": "2026-08-08T08:00:21.132Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T10:00:20.694Z",
+    "https://cointelegraph.com/rss": "2026-08-08T10:00:20.694Z",
+    "https://decrypt.co/feed": "2026-08-08T10:00:20.694Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T10:00:20.694Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T10:00:20.694Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T10:00:20.694Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-08T10:00:20.694Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-08T10:00:20.694Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-08T10:00:20.694Z",
+    "https://solana.com/rss.xml": "2026-08-08T10:00:20.694Z",
+    "https://slowmist.medium.com/feed": "2026-08-08T10:00:20.694Z",
+    "https://www.theblock.co/rss.xml": "2026-08-08T10:00:20.694Z"
   },
-  "lastRunAt": "2026-08-08T08:00:21.132Z"
+  "lastRunAt": "2026-08-08T10:00:20.694Z"
 }
