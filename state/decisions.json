@@ -1,33 +1,83 @@
 {
   "version": 1,
   "decisions": {
-    "c08eabf2f09d8b963daedc71451ba0ef80be92fd3e5c11fa718533a5c27b762d": {
-      "decisionKey": "c08eabf2f09d8b963daedc71451ba0ef80be92fd3e5c11fa718533a5c27b762d",
+    "f92e76a0d6b879b4dfdc836f121c96f96037099158f5988583ae7e04c8b1b67d": {
+      "decisionKey": "f92e76a0d6b879b4dfdc836f121c96f96037099158f5988583ae7e04c8b1b67d",
       "status": "failed",
       "reason": "The operation timed out.",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T16:00:19.560Z"
+      "updatedAt": "2026-08-08T18:00:20.578Z"
+    },
+    "c08eabf2f09d8b963daedc71451ba0ef80be92fd3e5c11fa718533a5c27b762d": {
+      "decisionKey": "c08eabf2f09d8b963daedc71451ba0ef80be92fd3e5c11fa718533a5c27b762d",
+      "status": "published",
+      "reason": "This is a legitimate news report from Cointelegraph, a real and accessible crypto news outlet, covering a significant US Senate procedural move on the CLARITY Act, a key crypto market structure bill. The event is specific (cloture filed, September vote), timely, and directly relevant to the crypto industry's regulatory landscape. It provides new information on the bill's progress, which is important for stakeholders.",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T18:00:20.578Z",
+      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
+    },
+    "c01a1d1bd66d74f2fc2c83ab2625bf3b347fae05d322b07f5a1d0d61dbe3230b": {
+      "decisionKey": "c01a1d1bd66d74f2fc2c83ab2625bf3b347fae05d322b07f5a1d0d61dbe3230b",
+      "status": "published",
+      "reason": "该候选来自可信的加密媒体Decrypt，报道了比特币红队利用AI在核心项目中扫描出漏洞并计划开源自动化审计平台，属于与比特币协议及开源生态相关的具体安全事件，对关注加密基础设施安全的受众具有信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T18:00:20.578Z",
+      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
     },
     "80d4d8d115764f131c3714cfaed9a6be767cdad84daab3ba42cbeeb29bb506b5": {
       "decisionKey": "80d4d8d115764f131c3714cfaed9a6be767cdad84daab3ba42cbeeb29bb506b5",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "published",
+      "reason": "Real news from The Block reporting $1.1B combined Bitcoin and ether ETF inflows for the week, a concrete market-structure data point relevant to crypto investors; it also references a security incident (Coldcard wallet exploit) that adds informational weight.",
+      "score": 0.85,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T16:00:19.560Z"
+      "updatedAt": "2026-08-08T18:00:20.578Z",
+      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
+    },
+    "68001a28bccde309f01f97ecf94df8a477121f3090c981149096774b6d53b36b": {
+      "decisionKey": "68001a28bccde309f01f97ecf94df8a477121f3090c981149096774b6d53b36b",
+      "status": "published",
+      "reason": "美国参议院多数党领袖推进Clarity Act法案动议，并确定九月投票，属于直接影响加密行业的重要政策进展，具备明确主体、事件和时间，信息增量高。",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T18:00:20.578Z",
+      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
+    },
+    "295d72b8ffbcee623c2849392abd8c42ea8b5dff8e30a4766b7c99ae2dc7af0f": {
+      "decisionKey": "295d72b8ffbcee623c2849392abd8c42ea8b5dff8e30a4766b7c99ae2dc7af0f",
+      "status": "published",
+      "reason": "The Clarity Act is a major crypto regulatory bill, and Senate Majority Leader filing cloture sets a concrete floor vote date, providing a significant legislative update with clear impact on the crypto industry.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T18:00:20.578Z",
+      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
     },
     "2455e77c647ede01fb11fc5e8c0694afc570581da80c7269250814bd7d8702b4": {
       "decisionKey": "2455e77c647ede01fb11fc5e8c0694afc570581da80c7269250814bd7d8702b4",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "published",
+      "reason": "Brazil's central bank ordering exchanges to delay large crypto transfers abroad is a concrete regulatory policy change with a specific threshold ($10,000) and clear impact on crypto users and businesses, providing actionable information for the crypto industry.",
+      "score": 0.85,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T16:00:19.560Z"
+      "updatedAt": "2026-08-08T18:00:20.578Z",
+      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
     },
     "232da20733d2d7cbd6200e669387e627dda8906917ed0a9cbf8feccba57450e4": {
       "decisionKey": "232da20733d2d7cbd6200e669387e627dda8906917ed0a9cbf8feccba57450e4",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "rejected",
+      "reason": "Content is extremely thin, consisting of a single vague quote with no substantive information about the 'two wolves' concept, no specific data, event, or verifiable details. It lacks clear impact or information increment for the crypto audience.",
+      "score": 0.1,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T16:00:19.560Z"
+      "updatedAt": "2026-08-08T18:00:20.578Z"
+    },
+    "0c715621ebaf3024903dca63250e23e0226ce3a5f5f469900ec6e29f930de3e9": {
+      "decisionKey": "0c715621ebaf3024903dca63250e23e0226ce3a5f5f469900ec6e29f930de3e9",
+      "status": "published",
+      "reason": "美国现货比特币ETF周流入10亿美元，为4月以来最佳，反映机构需求回暖，对加密市场有明确信息增量。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-08T18:00:20.578Z",
+      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
     },
     "2931a447bed3142ef9d233aa49d3f1697594b333efc893024fafacbef472b4d5": {
       "decisionKey": "2931a447bed3142ef9d233aa49d3f1697594b333efc893024fafacbef472b4d5",
@@ -1740,17 +1790,17 @@
   },
   "sourceCheckpoints": {
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T14:00:18.155Z",
-    "https://cointelegraph.com/rss": "2026-08-08T14:00:18.155Z",
-    "https://decrypt.co/feed": "2026-08-08T14:00:18.155Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T16:00:19.560Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T16:00:19.560Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T16:00:19.560Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-08T16:00:19.560Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-08T16:00:19.560Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-08T16:00:19.560Z",
-    "https://solana.com/rss.xml": "2026-08-08T16:00:19.560Z",
-    "https://slowmist.medium.com/feed": "2026-08-08T16:00:19.560Z",
-    "https://www.theblock.co/rss.xml": "2026-08-08T14:00:18.155Z"
+    "https://cointelegraph.com/rss": "2026-08-08T18:00:20.578Z",
+    "https://decrypt.co/feed": "2026-08-08T18:00:20.578Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T18:00:20.578Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T18:00:20.578Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T18:00:20.578Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-08T18:00:20.578Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-08T18:00:20.578Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-08T18:00:20.578Z",
+    "https://solana.com/rss.xml": "2026-08-08T18:00:20.578Z",
+    "https://slowmist.medium.com/feed": "2026-08-08T18:00:20.578Z",
+    "https://www.theblock.co/rss.xml": "2026-08-08T18:00:20.578Z"
   },
   "lastRunAt": "2026-08-08T14:00:18.155Z"
 }
