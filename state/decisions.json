@@ -3,17 +3,30 @@
   "decisions": {
     "f7476eff9602f5df9f0764daac812d8c101be15fa7764fbaa2bb0c23645c1628": {
       "decisionKey": "f7476eff9602f5df9f0764daac812d8c101be15fa7764fbaa2bb0c23645c1628",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "published",
+      "reason": "CoinDesk reports concrete weekly net inflows of $853.54M into spot Bitcoin ETFs, the highest since mid-April, with BlackRock's IBIT dominating. This is a real, verifiable market-structure development with clear relevance to crypto investors and institutions.",
+      "score": 0.8,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T16:00:17.937Z"
+      "updatedAt": "2026-08-09T18:00:51.677Z",
+      "bCommitSha": "1816144ded6b4c6b7fb3363b997ba2e7f3a86d72"
     },
     "df58d1903fb1278cce7a2b40e9dfb63e9aa6387e9ea2362fe28bb0bffca2a963": {
       "decisionKey": "df58d1903fb1278cce7a2b40e9dfb63e9aa6387e9ea2362fe28bb0bffca2a963",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "published",
+      "reason": "CoinDesk的报道涉及Hyperliquid的RWA永续合约增长对其代币HYPE收入支撑的影响，包含具体数据（收入连续四季度下降、未平仓合约创历史新高）和机制（费用共享计划），对加密行业DeFi和代币经济有明确信息增量。",
+      "score": 0.85,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T16:00:17.937Z"
+      "updatedAt": "2026-08-09T18:00:51.677Z",
+      "bCommitSha": "1816144ded6b4c6b7fb3363b997ba2e7f3a86d72"
+    },
+    "17078b1aab4e46ed305a76ea9abdf9ac6cd12fa5f03971de59b88f4c16495e90": {
+      "decisionKey": "17078b1aab4e46ed305a76ea9abdf9ac6cd12fa5f03971de59b88f4c16495e90",
+      "status": "published",
+      "reason": "The Block reports a concrete regulatory change in Brazil: a 24-hour waiting period for transfers to self-custody wallets, effective Jan. 1, 2027, covering fiat-backed stablecoins. This is a specific, verifiable policy event with clear impact on crypto users and exchanges in Brazil, providing new information for the crypto audience.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-09T18:00:51.677Z",
+      "bCommitSha": "1816144ded6b4c6b7fb3363b997ba2e7f3a86d72"
     },
     "4d7e4897ac2bc69203621a83b521b50e188b9c9cf6782107f0e31073723dbcbe": {
       "decisionKey": "4d7e4897ac2bc69203621a83b521b50e188b9c9cf6782107f0e31073723dbcbe",
@@ -1875,18 +1888,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T14:00:17.440Z",
-    "https://cointelegraph.com/rss": "2026-08-09T16:00:17.937Z",
-    "https://decrypt.co/feed": "2026-08-09T16:00:17.937Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T16:00:17.937Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T16:00:17.937Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T16:00:17.937Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-09T16:00:17.937Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-09T16:00:17.937Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-09T16:00:17.937Z",
-    "https://solana.com/rss.xml": "2026-08-09T16:00:17.937Z",
-    "https://slowmist.medium.com/feed": "2026-08-09T16:00:17.937Z",
-    "https://www.theblock.co/rss.xml": "2026-08-09T16:00:17.937Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T18:00:51.677Z",
+    "https://cointelegraph.com/rss": "2026-08-09T18:00:51.677Z",
+    "https://decrypt.co/feed": "2026-08-09T18:00:51.677Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T18:00:51.677Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T18:00:51.677Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T18:00:51.677Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-09T18:00:51.677Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-09T18:00:51.677Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-09T18:00:51.677Z",
+    "https://solana.com/rss.xml": "2026-08-09T18:00:51.677Z",
+    "https://slowmist.medium.com/feed": "2026-08-09T18:00:51.677Z",
+    "https://www.theblock.co/rss.xml": "2026-08-09T18:00:51.677Z"
   },
-  "lastRunAt": "2026-08-09T14:00:17.440Z"
+  "lastRunAt": "2026-08-09T18:00:51.677Z"
 }
