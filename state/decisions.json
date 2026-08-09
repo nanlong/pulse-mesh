@@ -1,6 +1,13 @@
 {
   "version": 1,
   "decisions": {
+    "fa104faa2ef6851da359b034a7cb9ae5ad572985f31d704c8f2b56086801c4eb": {
+      "decisionKey": "fa104faa2ef6851da359b034a7cb9ae5ad572985f31d704c8f2b56086801c4eb",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-09T00:00:19.173Z"
+    },
     "fb4e52b9aaf18012fef100caecfe425c3e0793ee529b40fe696763ca8995a117": {
       "decisionKey": "fb4e52b9aaf18012fef100caecfe425c3e0793ee529b40fe696763ca8995a117",
       "status": "rejected",
@@ -1808,17 +1815,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-08T22:00:22.275Z",
-    "https://cointelegraph.com/rss": "2026-08-08T22:00:22.275Z",
-    "https://decrypt.co/feed": "2026-08-08T22:00:22.275Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-08T22:00:22.275Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-08T22:00:22.275Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-08T22:00:22.275Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-08T22:00:22.275Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-08T22:00:22.275Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-08T22:00:22.275Z",
-    "https://solana.com/rss.xml": "2026-08-08T22:00:22.275Z",
-    "https://slowmist.medium.com/feed": "2026-08-08T22:00:22.275Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T00:00:19.173Z",
+    "https://cointelegraph.com/rss": "2026-08-09T00:00:19.173Z",
+    "https://decrypt.co/feed": "2026-08-09T00:00:19.173Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T00:00:19.173Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T00:00:19.173Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T00:00:19.173Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-09T00:00:19.173Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-09T00:00:19.173Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-09T00:00:19.173Z",
+    "https://solana.com/rss.xml": "2026-08-09T00:00:19.173Z",
+    "https://slowmist.medium.com/feed": "2026-08-09T00:00:19.173Z",
     "https://www.theblock.co/rss.xml": "2026-08-08T22:00:22.275Z"
   },
   "lastRunAt": "2026-08-08T22:00:22.275Z"
