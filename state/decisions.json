@@ -1,6 +1,24 @@
 {
   "version": 1,
   "decisions": {
+    "d1c0c407701140b559e0771474706af3b99c42913dabf26053c3c24a82c82db6": {
+      "decisionKey": "d1c0c407701140b559e0771474706af3b99c42913dabf26053c3c24a82c82db6",
+      "status": "published",
+      "reason": "A real CoinDesk report about a Bitcoin fork (BIP-110) that mined two blocks then stopped, highlighting a technical event with implications for network consensus and user awareness.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-09T06:00:18.078Z",
+      "bCommitSha": "9a1ccdfe6abd95d2b9101c70a3a7988c4432ddf1"
+    },
+    "74ce31596d75ab7c14f627c24e8170a3ca7d90f657f2d3a52d235c74918ac0e1": {
+      "decisionKey": "74ce31596d75ab7c14f627c24e8170a3ca7d90f657f2d3a52d235c74918ac0e1",
+      "status": "published",
+      "reason": "The candidate reports a concrete security incident affecting BTCPay Server's Lightning integration, with confirmed reports from Foundation and Citadel21 of drained nodes. This is directly relevant to crypto infrastructure and users, providing actionable information about a vulnerability and response (restricting remote access). The source is a reputable crypto news outlet and the content is specific and verifiable.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-09T06:00:18.078Z",
+      "bCommitSha": "9a1ccdfe6abd95d2b9101c70a3a7988c4432ddf1"
+    },
     "fa104faa2ef6851da359b034a7cb9ae5ad572985f31d704c8f2b56086801c4eb": {
       "decisionKey": "fa104faa2ef6851da359b034a7cb9ae5ad572985f31d704c8f2b56086801c4eb",
       "status": "published",
@@ -1817,18 +1835,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T04:00:22.486Z",
-    "https://cointelegraph.com/rss": "2026-08-09T04:00:22.486Z",
-    "https://decrypt.co/feed": "2026-08-09T04:00:22.486Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T04:00:22.486Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T04:00:22.486Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T04:00:22.486Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-09T04:00:22.486Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-09T04:00:22.486Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-09T04:00:22.486Z",
-    "https://solana.com/rss.xml": "2026-08-09T04:00:22.486Z",
-    "https://slowmist.medium.com/feed": "2026-08-09T04:00:22.486Z",
-    "https://www.theblock.co/rss.xml": "2026-08-09T04:00:22.486Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T06:00:18.078Z",
+    "https://cointelegraph.com/rss": "2026-08-09T06:00:18.078Z",
+    "https://decrypt.co/feed": "2026-08-09T06:00:18.078Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T06:00:18.078Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T06:00:18.078Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T06:00:18.078Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-09T06:00:18.078Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-09T06:00:18.078Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-09T06:00:18.078Z",
+    "https://solana.com/rss.xml": "2026-08-09T06:00:18.078Z",
+    "https://slowmist.medium.com/feed": "2026-08-09T06:00:18.078Z",
+    "https://www.theblock.co/rss.xml": "2026-08-09T06:00:18.078Z"
   },
-  "lastRunAt": "2026-08-09T04:00:22.486Z"
+  "lastRunAt": "2026-08-09T06:00:18.078Z"
 }
