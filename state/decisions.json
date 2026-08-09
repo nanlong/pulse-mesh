@@ -1,6 +1,32 @@
 {
   "version": 1,
   "decisions": {
+    "61d66fcaebaac40830b21d794d378dc06d7e72f5c03bbd8bd6e802a864edb346": {
+      "decisionKey": "61d66fcaebaac40830b21d794d378dc06d7e72f5c03bbd8bd6e802a864edb346",
+      "status": "published",
+      "reason": "重大新闻，涉及加密项目World Liberty从涉嫌洗钱调查的商人处获得1亿美元投资，来源为The Block转载NYT，具体主体、事件和金额明确，对加密行业合规影响重大。",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-09T20:00:58.910Z",
+      "bCommitSha": "d2671dd1228229c55b0eb20cfcd75c36bc310e93"
+    },
+    "5d315c001c70de65703ec0195e7f0c4ee98fdc112c54ae8b7d85ab7baa260274": {
+      "decisionKey": "5d315c001c70de65703ec0195e7f0c4ee98fdc112c54ae8b7d85ab7baa260274",
+      "status": "rejected",
+      "reason": "This is a specific and verifiable news event about a Bitcoin fork that failed to gain mining support, with concrete metrics (2.53% support, two blocks, delayed difficulty adjustment). It impacts the Bitcoin ecosystem and market structure, offering clear informational value to crypto audiences.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-09T20:00:58.910Z"
+    },
+    "303a2605f95fe2f4d98377ca517de997102a944a74d6c741b60ac780d31de67b": {
+      "decisionKey": "303a2605f95fe2f4d98377ca517de997102a944a74d6c741b60ac780d31de67b",
+      "status": "published",
+      "reason": "The candidate reports on a concrete policy development: delay of a Senate procedural vote on the Clarity Act, which directly affects the crypto industry. The source is Coindesk, a reputable crypto news outlet, and the content provides an analytical perspective on a regulatory issue. This is relevant and provides informational value beyond price speculation or marketing.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-09T20:00:58.910Z",
+      "bCommitSha": "d2671dd1228229c55b0eb20cfcd75c36bc310e93"
+    },
     "f7476eff9602f5df9f0764daac812d8c101be15fa7764fbaa2bb0c23645c1628": {
       "decisionKey": "f7476eff9602f5df9f0764daac812d8c101be15fa7764fbaa2bb0c23645c1628",
       "status": "published",
@@ -1888,18 +1914,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T18:00:51.677Z",
-    "https://cointelegraph.com/rss": "2026-08-09T18:00:51.677Z",
-    "https://decrypt.co/feed": "2026-08-09T18:00:51.677Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T18:00:51.677Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T18:00:51.677Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T18:00:51.677Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-09T18:00:51.677Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-09T18:00:51.677Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-09T18:00:51.677Z",
-    "https://solana.com/rss.xml": "2026-08-09T18:00:51.677Z",
-    "https://slowmist.medium.com/feed": "2026-08-09T18:00:51.677Z",
-    "https://www.theblock.co/rss.xml": "2026-08-09T18:00:51.677Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T20:00:58.910Z",
+    "https://cointelegraph.com/rss": "2026-08-09T20:00:58.910Z",
+    "https://decrypt.co/feed": "2026-08-09T20:00:58.910Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T20:00:58.910Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T20:00:58.910Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T20:00:58.910Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-09T20:00:58.910Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-09T20:00:58.910Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-09T20:00:58.910Z",
+    "https://solana.com/rss.xml": "2026-08-09T20:00:58.910Z",
+    "https://slowmist.medium.com/feed": "2026-08-09T20:00:58.910Z",
+    "https://www.theblock.co/rss.xml": "2026-08-09T20:00:58.910Z"
   },
-  "lastRunAt": "2026-08-09T18:00:51.677Z"
+  "lastRunAt": "2026-08-09T20:00:58.910Z"
 }
