@@ -1,6 +1,15 @@
 {
   "version": 1,
   "decisions": {
+    "4d7e4897ac2bc69203621a83b521b50e188b9c9cf6782107f0e31073723dbcbe": {
+      "decisionKey": "4d7e4897ac2bc69203621a83b521b50e188b9c9cf6782107f0e31073723dbcbe",
+      "status": "published",
+      "reason": "The article is from a credible crypto news source (CoinDesk) and reports a specific industry development: over 100 crypto projects folding in 2026, framed as a dot-com style shakeout. This is relevant to crypto industry participants as it signals market structure changes and consolidation, with clear implications for project viability and investor attention.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-09T14:00:17.440Z",
+      "bCommitSha": "dc98342ba0ddc6176248ebf1763b992f1427fd6c"
+    },
     "122fd36d0328e1f835cfc933b548c401ad92b6c000274b2e066b48766299a8d2": {
       "decisionKey": "122fd36d0328e1f835cfc933b548c401ad92b6c000274b2e066b48766299a8d2",
       "status": "rejected",
@@ -1852,18 +1861,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T12:00:17.897Z",
-    "https://cointelegraph.com/rss": "2026-08-09T12:00:17.897Z",
-    "https://decrypt.co/feed": "2026-08-09T12:00:17.897Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T12:00:17.897Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T12:00:17.897Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T12:00:17.897Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-09T12:00:17.897Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-09T12:00:17.897Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-09T12:00:17.897Z",
-    "https://solana.com/rss.xml": "2026-08-09T12:00:17.897Z",
-    "https://slowmist.medium.com/feed": "2026-08-09T12:00:17.897Z",
-    "https://www.theblock.co/rss.xml": "2026-08-09T12:00:17.897Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T14:00:17.440Z",
+    "https://cointelegraph.com/rss": "2026-08-09T14:00:17.440Z",
+    "https://decrypt.co/feed": "2026-08-09T14:00:17.440Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T14:00:17.440Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T14:00:17.440Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T14:00:17.440Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-09T14:00:17.440Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-09T14:00:17.440Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-09T14:00:17.440Z",
+    "https://solana.com/rss.xml": "2026-08-09T14:00:17.440Z",
+    "https://slowmist.medium.com/feed": "2026-08-09T14:00:17.440Z",
+    "https://www.theblock.co/rss.xml": "2026-08-09T14:00:17.440Z"
   },
-  "lastRunAt": "2026-08-09T12:00:17.897Z"
+  "lastRunAt": "2026-08-09T14:00:17.440Z"
 }
