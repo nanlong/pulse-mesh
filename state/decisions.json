@@ -1,6 +1,15 @@
 {
   "version": 1,
   "decisions": {
+    "4910bcfd0df7f3b708b681c7651f202a12f90641df27243eaaea7bc48db7ff7c": {
+      "decisionKey": "4910bcfd0df7f3b708b681c7651f202a12f90641df27243eaaea7bc48db7ff7c",
+      "status": "published",
+      "reason": "Brazil's introduction of a 24-hour hold on crypto transfers above $10,000 to overseas providers or self-custody wallets, effective Jan 1, 2027, is a significant regulatory update affecting crypto users and businesses, with clear data and policy details.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-09T10:00:26.566Z",
+      "bCommitSha": "7d32644dfa8cff7b6fc4f4cfd8b0e3acc58cf9e3"
+    },
     "d1c0c407701140b559e0771474706af3b99c42913dabf26053c3c24a82c82db6": {
       "decisionKey": "d1c0c407701140b559e0771474706af3b99c42913dabf26053c3c24a82c82db6",
       "status": "published",
@@ -1835,18 +1844,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T08:00:22.763Z",
-    "https://cointelegraph.com/rss": "2026-08-09T08:00:22.763Z",
-    "https://decrypt.co/feed": "2026-08-09T08:00:22.763Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T08:00:22.763Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T08:00:22.763Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T08:00:22.763Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-09T08:00:22.763Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-09T08:00:22.763Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-09T08:00:22.763Z",
-    "https://solana.com/rss.xml": "2026-08-09T08:00:22.763Z",
-    "https://slowmist.medium.com/feed": "2026-08-09T08:00:22.763Z",
-    "https://www.theblock.co/rss.xml": "2026-08-09T08:00:22.763Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T10:00:26.566Z",
+    "https://cointelegraph.com/rss": "2026-08-09T10:00:26.566Z",
+    "https://decrypt.co/feed": "2026-08-09T10:00:26.566Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T10:00:26.566Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T10:00:26.566Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T10:00:26.566Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-09T10:00:26.566Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-09T10:00:26.566Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-09T10:00:26.566Z",
+    "https://solana.com/rss.xml": "2026-08-09T10:00:26.566Z",
+    "https://slowmist.medium.com/feed": "2026-08-09T10:00:26.566Z",
+    "https://www.theblock.co/rss.xml": "2026-08-09T10:00:26.566Z"
   },
-  "lastRunAt": "2026-08-09T08:00:22.763Z"
+  "lastRunAt": "2026-08-09T10:00:26.566Z"
 }
