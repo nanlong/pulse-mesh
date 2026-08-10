@@ -1,6 +1,57 @@
 {
   "version": 1,
   "decisions": {
+    "f5db6debc977b63d12ad56baa99b3f9da4826255261615fc327d8fa0f9a39edb": {
+      "decisionKey": "f5db6debc977b63d12ad56baa99b3f9da4826255261615fc327d8fa0f9a39edb",
+      "status": "rejected",
+      "reason": "This is a legitimate news item from CoinDesk about a specific Bitcoin mining company (Simple Mining) choosing to reject BIP-110, a concrete protocol development stance, despite operating through a pool that supports it. It provides insight into miner preferences and Bitcoin governance dynamics, which is relevant to crypto industry professionals.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T08:00:26.916Z"
+    },
+    "c933fd6af27e4c5ab7070452690ef458575b79d30ef79f8173967ed6226a92d1": {
+      "decisionKey": "c933fd6af27e4c5ab7070452690ef458575b79d30ef79f8173967ed6226a92d1",
+      "status": "published",
+      "reason": "英国FCA准备为代币化黄金制定监管框架，并考虑其在批发市场作为抵押资产，这对加密资产代币化及合规方向具有明确政策信号，属于影响加密行业的重要监管动态。来源为Cointelegraph，真实公开新闻。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T08:00:26.916Z",
+      "bCommitSha": "448f973162b28fb8c192c10d9be17d7ded333db8"
+    },
+    "b319fed10af86780e4ecfd052cbb88802f8695bdb683141ecd3988d66e514143": {
+      "decisionKey": "b319fed10af86780e4ecfd052cbb88802f8695bdb683141ecd3988d66e514143",
+      "status": "published",
+      "reason": "Reports a concrete regulatory development (Senate punting the CLARITY Act to fall) alongside market context (BTC above $65k, ETF inflows, dollar weakness), which is relevant for crypto industry policy and market structure. Despite being a live-update format, it provides specific and actionable information from a reputable source.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T08:00:26.916Z",
+      "bCommitSha": "448f973162b28fb8c192c10d9be17d7ded333db8"
+    },
+    "762dda1e1cb6ac5cac57935fd9628ba2d27d2d552808f08a74ea6cbddf597702": {
+      "decisionKey": "762dda1e1cb6ac5cac57935fd9628ba2d27d2d552808f08a74ea6cbddf597702",
+      "status": "published",
+      "reason": "Mastercard以18亿美元收购稳定币公司BVNK，是传统支付巨头深度切入稳定币基础设施的标志性并购，对加密支付生态和市场结构有重大影响，具有明确信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T08:00:26.916Z",
+      "bCommitSha": "448f973162b28fb8c192c10d9be17d7ded333db8"
+    },
+    "6bcb8aacf6d36dbc422cd080a1f110fddd8577f1162e713bdc53e85121374fb7": {
+      "decisionKey": "6bcb8aacf6d36dbc422cd080a1f110fddd8577f1162e713bdc53e85121374fb7",
+      "status": "published",
+      "reason": "Robinhood expanding crypto trading to the UK is a significant market-structure development for crypto users and industry watchers, and the AI-powered feature adds a distinctive product angle. The source is a reputable crypto publication and the information is specific and verifiable.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T08:00:26.916Z",
+      "bCommitSha": "448f973162b28fb8c192c10d9be17d7ded333db8"
+    },
+    "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41": {
+      "decisionKey": "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T08:00:26.916Z"
+    },
     "d759361ce5da965dc015906b865cb01308bc838ec8ac1a08f4df2564ae445c92": {
       "decisionKey": "d759361ce5da965dc015906b865cb01308bc838ec8ac1a08f4df2564ae445c92",
       "status": "published",
@@ -1973,17 +2024,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T06:01:00.491Z",
-    "https://cointelegraph.com/rss": "2026-08-10T06:01:00.491Z",
-    "https://decrypt.co/feed": "2026-08-10T06:01:00.491Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T06:01:00.491Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T06:01:00.491Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T06:01:00.491Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-10T06:01:00.491Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-10T06:01:00.491Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-10T06:01:00.491Z",
-    "https://solana.com/rss.xml": "2026-08-10T06:01:00.491Z",
-    "https://slowmist.medium.com/feed": "2026-08-10T06:01:00.491Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T08:00:26.916Z",
+    "https://cointelegraph.com/rss": "2026-08-10T08:00:26.916Z",
+    "https://decrypt.co/feed": "2026-08-10T08:00:26.916Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T08:00:26.916Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T08:00:26.916Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T08:00:26.916Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-10T08:00:26.916Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-10T08:00:26.916Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-10T08:00:26.916Z",
+    "https://solana.com/rss.xml": "2026-08-10T08:00:26.916Z",
+    "https://slowmist.medium.com/feed": "2026-08-10T08:00:26.916Z",
     "https://www.theblock.co/rss.xml": "2026-08-10T06:01:00.491Z"
   },
   "lastRunAt": "2026-08-10T06:01:00.491Z"
