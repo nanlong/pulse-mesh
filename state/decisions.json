@@ -3,17 +3,131 @@
   "decisions": {
     "f1b078c02dfc805405b155f1ceda53feb68842a809e7d3f7fccdc465316c29bc": {
       "decisionKey": "f1b078c02dfc805405b155f1ceda53feb68842a809e7d3f7fccdc465316c29bc",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "published",
+      "reason": "Grayscale's decision to drop ETF plans for Cardano, Polkadot and Hedera is a notable change in institutional crypto product availability, directly relevant to investors and market participants tracking ETF developments.",
+      "score": 0.75,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T16:00:28.779Z"
+      "updatedAt": "2026-08-10T18:00:29.308Z",
+      "bCommitSha": "f167002581647ee57d9b741e27f0a42dbec666c9"
+    },
+    "e5c1282b218ac141792d360f41cdc5ea4dd8815cbcd0c0603dda1cdaca59dd51": {
+      "decisionKey": "e5c1282b218ac141792d360f41cdc5ea4dd8815cbcd0c0603dda1cdaca59dd51",
+      "status": "rejected",
+      "reason": "该候选来自真实媒体 Decrypt，但内容仅为个人观点/评论，缺少具体事件、时间或数据，也未涉及加密行业的重要政策、协议升级、安全事件或市场结构变化，对目标受众的信息增量有限，不值得发布。",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z"
+    },
+    "b085b6fbd9acf2041551cfbde9e96b94194df41f054ad745c0f937ae4a49e39c": {
+      "decisionKey": "b085b6fbd9acf2041551cfbde9e96b94194df41f054ad745c0f937ae4a49e39c",
+      "status": "rejected",
+      "reason": "该候选是XRP价格行情报道，仅提及交易价位和死叉，缺少具体数据、事件细节或对加密行业的结构性影响，属于低价值价格内容，证据不足，不值得发布。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z"
     },
     "a93095b48e5db03c2ed703b87799f1cb9c32853257e8b5cfb5416144b352b374": {
       "decisionKey": "a93095b48e5db03c2ed703b87799f1cb9c32853257e8b5cfb5416144b352b374",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "rejected",
+      "reason": "Candidate is a brief, unverified headline about OpenAI pausing an AI model. It lacks specific data, dates (beyond a future publication timestamp), verifiable details, or direct relevance to the crypto industry. No clear impact on crypto policy, market structure, or security events.",
+      "score": 0.2,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T16:00:28.779Z"
+      "updatedAt": "2026-08-10T18:00:29.308Z"
+    },
+    "a8797e7cd386d51800412b9846aa6a5d7b47f36e8c988814236f4a2fdbc5a9be": {
+      "decisionKey": "a8797e7cd386d51800412b9846aa6a5d7b47f36e8c988814236f4a2fdbc5a9be",
+      "status": "rejected",
+      "reason": "内容仅为比特币价格短期波动描述和市场情绪评论，属于价格喊单类低价值信息，缺乏具体主体、事件或可核验的数据增量，对加密行业受众无明确实质性影响。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z"
+    },
+    "960d727fd3916125926762464438e93daff02b670ffc25f85da3a302b29e9731": {
+      "decisionKey": "960d727fd3916125926762464438e93daff02b670ffc25f85da3a302b29e9731",
+      "status": "rejected",
+      "reason": "该候选来自可信的加密新闻媒体 Cointelegraph，内容真实可核验。报道了比特币受地缘政治事件（霍尔木兹海峡局势）影响而下跌，并提及机构资金流入的积极信号，对加密投资者具有直接的市场影响和信息增量。虽非协议或政策级事件，但属于重要的宏观关联变动，值得发布。",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z"
+    },
+    "90b4900230f7381e1121a97065473e15686105f3080dde3233f1064393b97bef": {
+      "decisionKey": "90b4900230f7381e1121a97065473e15686105f3080dde3233f1064393b97bef",
+      "status": "published",
+      "reason": "Keel, a known bitcoin mining company, shuttering all US mining operations to pivot to AI is a concrete business event with clear impact on the crypto mining sector, reflecting an ongoing structural trend. The source is a reputable crypto news outlet (The Block) and provides verifiable specifics (company, action, date).",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z",
+      "bCommitSha": "f167002581647ee57d9b741e27f0a42dbec666c9"
+    },
+    "8b93127a0d799d4d39f8da5347fb1c81317887c59cb06fe7f3c368ae697b0af7": {
+      "decisionKey": "8b93127a0d799d4d39f8da5347fb1c81317887c59cb06fe7f3c368ae697b0af7",
+      "status": "published",
+      "reason": "Decrypt, a known crypto news outlet, reports an $8 million hack of crypto exchange Coinsbuy across Tron and Ethereum. This is a security incident with direct relevance and impact for crypto users, and not simply price speculation or marketing.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z",
+      "bCommitSha": "f167002581647ee57d9b741e27f0a42dbec666c9"
+    },
+    "781dd5872c9446b40921e014f01328be3c24867eba4343d9e8b108ff36ff93ef": {
+      "decisionKey": "781dd5872c9446b40921e014f01328be3c24867eba4343d9e8b108ff36ff93ef",
+      "status": "published",
+      "reason": "Decrypt 为可信行业媒体，报道巴西加密市场面临 10 月 30 日许可截止日期，涉及具体监管时间节点和市场规模，对加密行业参与者有明确政策影响与信息增量。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z",
+      "bCommitSha": "f167002581647ee57d9b741e27f0a42dbec666c9"
+    },
+    "5b00f853ce35befda02972438c7167cea7aa9af9d79fc26ad6db500ac60f07d3": {
+      "decisionKey": "5b00f853ce35befda02972438c7167cea7aa9af9d79fc26ad6db500ac60f07d3",
+      "status": "published",
+      "reason": "This is a credible news report from The Block covering Vitalik Buterin's latest Ethereum roadmap, which prioritizes privacy and quantum resistance. This represents a significant protocol-level policy update with clear implications for the crypto industry, not marketing or price speculation.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z",
+      "bCommitSha": "f167002581647ee57d9b741e27f0a42dbec666c9"
+    },
+    "5936b2600fa1f5a77ae201132e936c9959d981f2c6945145f73aaca0693da057": {
+      "decisionKey": "5936b2600fa1f5a77ae201132e936c9959d981f2c6945145f73aaca0693da057",
+      "status": "published",
+      "reason": "Real, verifiable news from The Block about a notable corporate bitcoin treasury move backed by Adam Back, with concrete numbers and clear market structure implications.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z",
+      "bCommitSha": "f167002581647ee57d9b741e27f0a42dbec666c9"
+    },
+    "5804d4a6fa322c600b43a7f8aa42f4ef938d763fd064284668f21e5a4c63a883": {
+      "decisionKey": "5804d4a6fa322c600b43a7f8aa42f4ef938d763fd064284668f21e5a4c63a883",
+      "status": "rejected",
+      "reason": "The article reports on Bitdeer, a major Bitcoin mining company, covering its revenue growth, stock decline, and strategic pivot to AI infrastructure. This is a significant market structure development for the crypto industry, with specific entity, event, and data from a reputable source.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z"
+    },
+    "57a45a17ff1b10be3a8e0f4d585b6191093ef7dbe8c2757f84bd17facac7b63d": {
+      "decisionKey": "57a45a17ff1b10be3a8e0f4d585b6191093ef7dbe8c2757f84bd17facac7b63d",
+      "status": "rejected",
+      "reason": "内容过短且带有营销色彩（'same dollar earn twice'），缺乏具体数据和实质性影响分析，对加密行业受众的信息增量不足，证据不充分。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z"
+    },
+    "4d6ca16fb52bf262b960ea42bc0c64f37763b2918280afc96fa7ddee12989d0a": {
+      "decisionKey": "4d6ca16fb52bf262b960ea42bc0c64f37763b2918280afc96fa7ddee12989d0a",
+      "status": "published",
+      "reason": "Chainalysis作为区块链分析公司，其博客内容基于FATF发布的DeFi专项报告，属于真实、公开、可核验的监管政策动态。该报告涉及全球AML/CFT标准制定者对DeFi的监管态度和功能方法，对加密行业参与者具有明确的信息增量和政策影响，不是重复转载或营销内容。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z",
+      "bCommitSha": "f167002581647ee57d9b741e27f0a42dbec666c9"
+    },
+    "48488203d26a6a327877fa76bde6e179d168f8a8a3c48d245088ed4670b4b1fb": {
+      "decisionKey": "48488203d26a6a327877fa76bde6e179d168f8a8a3c48d245088ed4670b4b1fb",
+      "status": "published",
+      "reason": "美国参议院对CLARITY法案的程序性延迟是明确的加密市场结构政策事件，直接影响行业预期，具有信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T18:00:29.308Z",
+      "bCommitSha": "f167002581647ee57d9b741e27f0a42dbec666c9"
     },
     "98235f1069848058bb42d83ba78d860b2dc22a461413361da07ee60bbc7cb1f4": {
       "decisionKey": "98235f1069848058bb42d83ba78d860b2dc22a461413361da07ee60bbc7cb1f4",
@@ -23,34 +137,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-10T16:00:28.779Z",
       "bCommitSha": "618b6e1560969d00d585f1af39ace5fa81413275"
-    },
-    "8b93127a0d799d4d39f8da5347fb1c81317887c59cb06fe7f3c368ae697b0af7": {
-      "decisionKey": "8b93127a0d799d4d39f8da5347fb1c81317887c59cb06fe7f3c368ae697b0af7",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T16:00:28.779Z"
-    },
-    "5936b2600fa1f5a77ae201132e936c9959d981f2c6945145f73aaca0693da057": {
-      "decisionKey": "5936b2600fa1f5a77ae201132e936c9959d981f2c6945145f73aaca0693da057",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T16:00:28.779Z"
-    },
-    "5804d4a6fa322c600b43a7f8aa42f4ef938d763fd064284668f21e5a4c63a883": {
-      "decisionKey": "5804d4a6fa322c600b43a7f8aa42f4ef938d763fd064284668f21e5a4c63a883",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T16:00:28.779Z"
-    },
-    "57a45a17ff1b10be3a8e0f4d585b6191093ef7dbe8c2757f84bd17facac7b63d": {
-      "decisionKey": "57a45a17ff1b10be3a8e0f4d585b6191093ef7dbe8c2757f84bd17facac7b63d",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T16:00:28.779Z"
     },
     "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41": {
       "decisionKey": "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41",
@@ -2290,18 +2376,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T14:00:29.163Z",
-    "https://cointelegraph.com/rss": "2026-08-10T16:00:28.779Z",
-    "https://decrypt.co/feed": "2026-08-10T14:00:29.163Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T16:00:28.779Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T16:00:28.779Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T16:00:28.779Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-10T16:00:28.779Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-10T16:00:28.779Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-10T16:00:28.779Z",
-    "https://solana.com/rss.xml": "2026-08-10T16:00:28.779Z",
-    "https://slowmist.medium.com/feed": "2026-08-10T16:00:28.779Z",
-    "https://www.theblock.co/rss.xml": "2026-08-10T06:01:00.491Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T18:00:29.308Z",
+    "https://cointelegraph.com/rss": "2026-08-10T18:00:29.308Z",
+    "https://decrypt.co/feed": "2026-08-10T18:00:29.308Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T18:00:29.308Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T18:00:29.308Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T18:00:29.308Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-10T18:00:29.308Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-10T18:00:29.308Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-10T18:00:29.308Z",
+    "https://solana.com/rss.xml": "2026-08-10T18:00:29.308Z",
+    "https://slowmist.medium.com/feed": "2026-08-10T18:00:29.308Z",
+    "https://www.theblock.co/rss.xml": "2026-08-10T18:00:29.308Z"
   },
-  "lastRunAt": "2026-08-10T06:01:00.491Z"
+  "lastRunAt": "2026-08-10T18:00:29.308Z"
 }
