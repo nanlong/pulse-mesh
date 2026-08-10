@@ -1,6 +1,59 @@
 {
   "version": 1,
   "decisions": {
+    "f2c1d98caf083c1aac7363a5fa06529c36bba42b06581243e1913a26d5b0f307": {
+      "decisionKey": "f2c1d98caf083c1aac7363a5fa06529c36bba42b06581243e1913a26d5b0f307",
+      "status": "published",
+      "reason": "来源为The Block，真实公开新闻页面；内容包含BlackRock对比特币情绪及与股市脱钩的具体观点，机构观点对市场结构有明确影响，对加密行业受众有信息增量。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T20:00:43.206Z",
+      "bCommitSha": "8966977a36413eb283c43512793ce226ce81229e"
+    },
+    "a2a8faebcbd70966a214d3e33133f3804daaa0930dfab124b16fc365991dd8cb": {
+      "decisionKey": "a2a8faebcbd70966a214d3e33133f3804daaa0930dfab124b16fc365991dd8cb",
+      "status": "published",
+      "reason": "该候选来自真实公开的媒体Decrypt，报道了华尔街银行将数据中心公众反对视为信用风险的趋势，涉及金融市场对AI基础设施态度变化，对依赖数据中心的加密行业具有潜在影响，且包含具体事件和时间。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T20:00:43.206Z",
+      "bCommitSha": "8966977a36413eb283c43512793ce226ce81229e"
+    },
+    "6f1ac270a3a5ac9324cd7cacad4755da108eec93bdfdd8f334bd6673dd22d108": {
+      "decisionKey": "6f1ac270a3a5ac9324cd7cacad4755da108eec93bdfdd8f334bd6673dd22d108",
+      "status": "published",
+      "reason": "该候选报道了一个具体的安全漏洞事件：Atlassian AI助手因PDF中的隐藏文本而存在数据泄露风险。来源为真实新闻网站Decrypt，内容包含明确的主体、事件和时间，属于安全事件类新闻。虽然不直接针对加密货币，但加密行业公司广泛使用Jira和Confluence等工具，因此对加密行业受众具有潜在影响和信息增量。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T20:00:43.206Z",
+      "bCommitSha": "8966977a36413eb283c43512793ce226ce81229e"
+    },
+    "5cfb3dbcff3c5c0a20a059121eb3d7587018c4ae8d204dc4d1ba1b3564840dec": {
+      "decisionKey": "5cfb3dbcff3c5c0a20a059121eb3d7587018c4ae8d204dc4d1ba1b3564840dec",
+      "status": "rejected",
+      "reason": "该内容仅为休眠比特币地址转移的小额链上事件，对加密行业没有明确政策、协议、安全或市场结构影响，属于低价值链上观察，不符合重要发布标准。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T20:00:43.206Z"
+    },
+    "535a9dfa128464875efea85ed6bc6362690d9caed6eed48aed445075a5416719": {
+      "decisionKey": "535a9dfa128464875efea85ed6bc6362690d9caed6eed48aed445075a5416719",
+      "status": "published",
+      "reason": "来自知名加密新闻网站Cointelegraph，报道了与特朗普关联的World Liberty Financial项目收到大额资金且涉及洗钱嫌疑人，具有明确的行业影响和信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T20:00:43.206Z",
+      "bCommitSha": "8966977a36413eb283c43512793ce226ce81229e"
+    },
+    "0d8914b7d5e58376acdc5d68410536629e86a099b472b3a79138a93e5b8d9eb0": {
+      "decisionKey": "0d8914b7d5e58376acdc5d68410536629e86a099b472b3a79138a93e5b8d9eb0",
+      "status": "published",
+      "reason": "Cointelegraph报道Coinsbuy确认安全漏洞，涉及约790万美元被盗，属重大加密安全事件，对用户资产安全有直接影响，信息增量明确。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T20:00:43.206Z",
+      "bCommitSha": "8966977a36413eb283c43512793ce226ce81229e"
+    },
     "f1b078c02dfc805405b155f1ceda53feb68842a809e7d3f7fccdc465316c29bc": {
       "decisionKey": "f1b078c02dfc805405b155f1ceda53feb68842a809e7d3f7fccdc465316c29bc",
       "status": "published",
@@ -2376,18 +2429,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T18:00:29.308Z",
-    "https://cointelegraph.com/rss": "2026-08-10T18:00:29.308Z",
-    "https://decrypt.co/feed": "2026-08-10T18:00:29.308Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T18:00:29.308Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T18:00:29.308Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T18:00:29.308Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-10T18:00:29.308Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-10T18:00:29.308Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-10T18:00:29.308Z",
-    "https://solana.com/rss.xml": "2026-08-10T18:00:29.308Z",
-    "https://slowmist.medium.com/feed": "2026-08-10T18:00:29.308Z",
-    "https://www.theblock.co/rss.xml": "2026-08-10T18:00:29.308Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T20:00:43.206Z",
+    "https://cointelegraph.com/rss": "2026-08-10T20:00:43.206Z",
+    "https://decrypt.co/feed": "2026-08-10T20:00:43.206Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T20:00:43.206Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T20:00:43.206Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T20:00:43.206Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-10T20:00:43.206Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-10T20:00:43.206Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-10T20:00:43.206Z",
+    "https://solana.com/rss.xml": "2026-08-10T20:00:43.206Z",
+    "https://slowmist.medium.com/feed": "2026-08-10T20:00:43.206Z",
+    "https://www.theblock.co/rss.xml": "2026-08-10T20:00:43.206Z"
   },
-  "lastRunAt": "2026-08-10T18:00:29.308Z"
+  "lastRunAt": "2026-08-10T20:00:43.206Z"
 }
