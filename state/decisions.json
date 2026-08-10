@@ -1,6 +1,87 @@
 {
   "version": 1,
   "decisions": {
+    "fc806bf4f61c4b9c0e20a5983d26b3e34150ba0274ed83f8f8e028c1be9e2324": {
+      "decisionKey": "fc806bf4f61c4b9c0e20a5983d26b3e34150ba0274ed83f8f8e028c1be9e2324",
+      "status": "published",
+      "reason": "CoinDesk报道Coinsbuy交易所遭跨链攻击损失800万美元，涉及TRON和Ethereum，是具体安全事件，对加密交易所用户和行业有重要影响，信息明确且来源可靠。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T12:00:26.864Z",
+      "bCommitSha": "cf0607ad9c3534f946e369e09f91b5cc8ecee66b"
+    },
+    "df98cad03e26859b04a97dce80297837922471f8e47a5990fbc6b56be5911556": {
+      "decisionKey": "df98cad03e26859b04a97dce80297837922471f8e47a5990fbc6b56be5911556",
+      "status": "rejected",
+      "reason": "内容过于简略，缺乏背景和细节，且发布时间为未来日期，可验证性和信息增量不足，对加密行业受众的明确影响不清晰。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T12:00:26.864Z"
+    },
+    "c13c3a11bc3118508a0b04c1f84ba130176d894c383f037b30f22cb7fade3cc0": {
+      "decisionKey": "c13c3a11bc3118508a0b04c1f84ba130176d894c383f037b30f22cb7fade3cc0",
+      "status": "rejected",
+      "reason": "The candidate is a thin teaser with no concrete details, data, or verified announcement. It only states that the FCA is expected to announce progress on tokenized asset rules, lacking specific policy content, timeline, or impact for the crypto audience.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T12:00:26.864Z"
+    },
+    "4a6e2f68d6ba7b497677567d7b1f27a76a86a05d3dfbf95f38a73127244f2142": {
+      "decisionKey": "4a6e2f68d6ba7b497677567d7b1f27a76a86a05d3dfbf95f38a73127244f2142",
+      "status": "published",
+      "reason": "该候选来自Cointelegraph这一真实可靠的加密新闻源，内容涉及美联储利率决策预期和CPI数据对比特币市场的影响，包含具体时间（2026年8月）和事件（比特币触及八月新高），对加密行业受众具有明确的信息增量和参考价值。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T12:00:26.864Z",
+      "bCommitSha": "cf0607ad9c3534f946e369e09f91b5cc8ecee66b"
+    },
+    "1f4d1c8f2467dd2f598881b86d19f981e90f4dce0f96a3fa725bdec9830960b8": {
+      "decisionKey": "1f4d1c8f2467dd2f598881b86d19f981e90f4dce0f96a3fa725bdec9830960b8",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T12:00:26.864Z"
+    },
+    "14cdc37278e4cda571d37fd1c7572de60eee7263b6e1d6d86908d350ad8e58fe": {
+      "decisionKey": "14cdc37278e4cda571d37fd1c7572de60eee7263b6e1d6d86908d350ad8e58fe",
+      "status": "published",
+      "reason": "真实新闻来源报道比特币波动率指数触及2025年以来最低水平，期权市场结构变化对交易者有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T12:00:26.864Z",
+      "bCommitSha": "cf0607ad9c3534f946e369e09f91b5cc8ecee66b"
+    },
+    "0e6f8eda6db5d2bf81d1f6c18c00784f5a89b731f11c383b6afde09222f1fd1b": {
+      "decisionKey": "0e6f8eda6db5d2bf81d1f6c18c00784f5a89b731f11c383b6afde09222f1fd1b",
+      "status": "rejected",
+      "reason": "内容为银行对代币化和DeFi增长的预测性价格目标（Chainlink到$200），属于前瞻性市场喊单和预测，缺乏可核验的实际事件、政策或协议更新，对加密行业重要性和信息增量不足。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T12:00:26.864Z"
+    },
+    "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41": {
+      "decisionKey": "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T12:00:26.864Z"
+    },
+    "0614354c8d077582345a0663ba33be930d8f51a1d22ba93d2f095a8cb6bcf35a": {
+      "decisionKey": "0614354c8d077582345a0663ba33be930d8f51a1d22ba93d2f095a8cb6bcf35a",
+      "status": "rejected",
+      "reason": "The candidate is a speculative price prediction from Standard Chartered about LINK reaching $200 by 2030, based on expected RWA growth. It does not involve a concrete policy, protocol upgrade, security event, or market structure change, and falls under price shilling which is explicitly excluded.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T12:00:26.864Z"
+    },
+    "004222775862f01f3d89e9e252ba520235297b322560313d01dfe4e89b9e4a21": {
+      "decisionKey": "004222775862f01f3d89e9e252ba520235297b322560313d01dfe4e89b9e4a21",
+      "status": "rejected",
+      "reason": "This is a routine market price update based on unconfirmed deal talk, lacking substantive new information for the crypto industry. It does not qualify as a significant policy, protocol, security, or market structure event.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T12:00:26.864Z"
+    },
     "fef7fd91cae938ca540873c4f90339f63647128941cd417b3a6cffa265cc559e": {
       "decisionKey": "fef7fd91cae938ca540873c4f90339f63647128941cd417b3a6cffa265cc559e",
       "status": "published",
@@ -27,13 +108,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-10T10:00:28.624Z",
       "bCommitSha": "d54c8a9b5af396cfe9311375a8b5101a3d8dd418"
-    },
-    "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41": {
-      "decisionKey": "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T10:00:28.624Z"
     },
     "045b223f5b5cd8685b6aa53ae1f136d1fc09438ffa04e9ce4d3a6c0238bf9b11": {
       "decisionKey": "045b223f5b5cd8685b6aa53ae1f136d1fc09438ffa04e9ce4d3a6c0238bf9b11",
@@ -2060,17 +2134,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T10:00:28.624Z",
-    "https://cointelegraph.com/rss": "2026-08-10T10:00:28.624Z",
-    "https://decrypt.co/feed": "2026-08-10T10:00:28.624Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T10:00:28.624Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T10:00:28.624Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T10:00:28.624Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-10T10:00:28.624Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-10T10:00:28.624Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-10T10:00:28.624Z",
-    "https://solana.com/rss.xml": "2026-08-10T10:00:28.624Z",
-    "https://slowmist.medium.com/feed": "2026-08-10T10:00:28.624Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T12:00:26.864Z",
+    "https://cointelegraph.com/rss": "2026-08-10T12:00:26.864Z",
+    "https://decrypt.co/feed": "2026-08-10T12:00:26.864Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T12:00:26.864Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T12:00:26.864Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T12:00:26.864Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-10T12:00:26.864Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-10T12:00:26.864Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-10T12:00:26.864Z",
+    "https://solana.com/rss.xml": "2026-08-10T12:00:26.864Z",
+    "https://slowmist.medium.com/feed": "2026-08-10T12:00:26.864Z",
     "https://www.theblock.co/rss.xml": "2026-08-10T06:01:00.491Z"
   },
   "lastRunAt": "2026-08-10T06:01:00.491Z"
