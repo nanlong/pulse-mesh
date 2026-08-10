@@ -1,6 +1,39 @@
 {
   "version": 1,
   "decisions": {
+    "d759361ce5da965dc015906b865cb01308bc838ec8ac1a08f4df2564ae445c92": {
+      "decisionKey": "d759361ce5da965dc015906b865cb01308bc838ec8ac1a08f4df2564ae445c92",
+      "status": "published",
+      "reason": "Real, verifiable regulatory enforcement news from a major crypto outlet: Australia's watchdog suspended Cryptolink's Bitcoin ATM registration for three months after prior fines, highlighting AML/reporting compliance pressure on crypto ATM operators. This gives the crypto audience concrete information about regulatory actions affecting Bitcoin ATM infrastructure.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T06:01:00.491Z",
+      "bCommitSha": "b1ea1d93a659532e73abcd2c8f3f8a0d1480ea65"
+    },
+    "86cfc81a8eec5fb681ad72e18feabf99e100d21c98efd3a7acfd19c17c21e063": {
+      "decisionKey": "86cfc81a8eec5fb681ad72e18feabf99e100d21c98efd3a7acfd19c17c21e063",
+      "status": "rejected",
+      "reason": "Content is a brief price movement summary without substantive information on policy, protocol upgrades, security events, or market structure changes. It focuses on short-term price action (BTC topping $65,000) and lacks impact or novelty for crypto industry professionals.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T06:01:00.491Z"
+    },
+    "58510d72d437b9fe0ef273a93646ae7753a153aed27204c06a3192607a713c7f": {
+      "decisionKey": "58510d72d437b9fe0ef273a93646ae7753a153aed27204c06a3192607a713c7f",
+      "status": "rejected",
+      "reason": "内容仅为XRP单周价格跌幅的简单陈述，缺乏具体事件、数据支撑或对加密行业的结构性影响，属于低价值市场价格评论，不满足重要信息发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T06:01:00.491Z"
+    },
+    "4db7c5347161dcc267b44e953b965a63bd575866ed2bcc5991ca930ab976bdbc": {
+      "decisionKey": "4db7c5347161dcc267b44e953b965a63bd575866ed2bcc5991ca930ab976bdbc",
+      "status": "rejected",
+      "reason": "The candidate lacks sufficient specific details about the claimed vulnerabilities or the relevance of Chinese AI to Bitcoin security. It reads as a teaser without verifiable data, event context, or clear impact for the audience. The content is too sparse to provide meaningful information increment.",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T06:01:00.491Z"
+    },
     "b9e387f2865b097c35896183e9ce950cb0cdc0a752f12777b499947f84d2c6aa": {
       "decisionKey": "b9e387f2865b097c35896183e9ce950cb0cdc0a752f12777b499947f84d2c6aa",
       "status": "rejected",
@@ -1940,18 +1973,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T04:00:52.130Z",
-    "https://cointelegraph.com/rss": "2026-08-10T04:00:52.130Z",
-    "https://decrypt.co/feed": "2026-08-10T04:00:52.130Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T04:00:52.130Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T04:00:52.130Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T04:00:52.130Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-10T04:00:52.130Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-10T04:00:52.130Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-10T04:00:52.130Z",
-    "https://solana.com/rss.xml": "2026-08-10T04:00:52.130Z",
-    "https://slowmist.medium.com/feed": "2026-08-10T04:00:52.130Z",
-    "https://www.theblock.co/rss.xml": "2026-08-10T04:00:52.130Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T06:01:00.491Z",
+    "https://cointelegraph.com/rss": "2026-08-10T06:01:00.491Z",
+    "https://decrypt.co/feed": "2026-08-10T06:01:00.491Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T06:01:00.491Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T06:01:00.491Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T06:01:00.491Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-10T06:01:00.491Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-10T06:01:00.491Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-10T06:01:00.491Z",
+    "https://solana.com/rss.xml": "2026-08-10T06:01:00.491Z",
+    "https://slowmist.medium.com/feed": "2026-08-10T06:01:00.491Z",
+    "https://www.theblock.co/rss.xml": "2026-08-10T06:01:00.491Z"
   },
-  "lastRunAt": "2026-08-10T04:00:52.130Z"
+  "lastRunAt": "2026-08-10T06:01:00.491Z"
 }
