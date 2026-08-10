@@ -1,6 +1,65 @@
 {
   "version": 1,
   "decisions": {
+    "eaa34aafbb816348214ffd586ea68d57b7d7f9b5a5a7e892984aac60d0dad2e3": {
+      "decisionKey": "eaa34aafbb816348214ffd586ea68d57b7d7f9b5a5a7e892984aac60d0dad2e3",
+      "status": "published",
+      "reason": "The candidate is a legitimate news report from CoinDesk, a reputable crypto-focused media outlet. It contains specific, verifiable data about Trump Media's Bitcoin and Cronos holdings, including a concrete loss figure ($361 million) and a specific time frame (end of June). This is material information about a publicly traded company's crypto exposure, which is relevant to crypto industry observers tracking corporate adoption and market structure.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T22:00:28.801Z",
+      "bCommitSha": "a3fb62b6d3adf297f174ba7962431395bdfa51db"
+    },
+    "d726e435efc3ad94ed2c64594e1cd408e824acff63ab84b02bc6fc8b5b79feea": {
+      "decisionKey": "d726e435efc3ad94ed2c64594e1cd408e824acff63ab84b02bc6fc8b5b79feea",
+      "status": "published",
+      "reason": "This is a real security incident involving BTCPay Server, a prominent Bitcoin payment processor. The news includes specific details: a critical exploit, a recovery bounty of up to 3 BTC, and credited reporters. This has clear implications for crypto industry users, especially those using BTCPay Server, and represents an important security event.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T22:00:28.801Z",
+      "bCommitSha": "a3fb62b6d3adf297f174ba7962431395bdfa51db"
+    },
+    "c1cc83ead7e2f3132344967ce9c8f2b7bb1465f82a3e6b9eee464125dc7b3ce8": {
+      "decisionKey": "c1cc83ead7e2f3132344967ce9c8f2b7bb1465f82a3e6b9eee464125dc7b3ce8",
+      "status": "published",
+      "reason": "该候选来自CoinDesk，是真实、公开、可核验的新闻来源。内容涉及Strategy（原MicroStrategy）在持有大量比特币的同时增持47.5亿美元现金的策略调整，反映了传统投资者对比特币储备的接受度问题。这一事件涉及加密行业重要公司的市场策略变化，对行业投资者有明确的信息增量，值得发布。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T22:00:28.801Z",
+      "bCommitSha": "a3fb62b6d3adf297f174ba7962431395bdfa51db"
+    },
+    "6e7fb9ed5494557dbf2d928afe7cae83caf09bb8ce8cd25f98f3ddbf79239a76": {
+      "decisionKey": "6e7fb9ed5494557dbf2d928afe7cae83caf09bb8ce8cd25f98f3ddbf79239a76",
+      "status": "published",
+      "reason": "Regulatory action by AUSTRAC against a Bitcoin ATM operator in Australia is a concrete policy/security event with specific details (96 ATMs, effective date) that affects crypto infrastructure and industry participants. It is newsworthy, sourced from a legitimate crypto news outlet, and not a placeholder or marketing content.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T22:00:28.801Z",
+      "bCommitSha": "a3fb62b6d3adf297f174ba7962431395bdfa51db"
+    },
+    "60d5f9e90c3a398a8ecd3346bb8e87b3a9885aaf141d2ed5c9ca1ad2c0f77fff": {
+      "decisionKey": "60d5f9e90c3a398a8ecd3346bb8e87b3a9885aaf141d2ed5c9ca1ad2c0f77fff",
+      "status": "rejected",
+      "reason": "候选仅为投资观点（声称Circle被低估），缺乏具体数据、事件或可核验的实质内容，属于价格喊单/市场评论，对加密行业受众无明确信息增量。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T22:00:28.801Z"
+    },
+    "5d76f7e6e4628ad97a130eff4ae1b222cd2c6b27ac5ccb71f5d2bfe1eac89b1e": {
+      "decisionKey": "5d76f7e6e4628ad97a130eff4ae1b222cd2c6b27ac5ccb71f5d2bfe1eac89b1e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T22:00:28.801Z"
+    },
+    "1548793020dc0e291530b2ae9547559a93f359ccb5720e695667f74ac4c4052e": {
+      "decisionKey": "1548793020dc0e291530b2ae9547559a93f359ccb5720e695667f74ac4c4052e",
+      "status": "rejected",
+      "reason": "Cointelegraph报道了美国法官暂停CFTC对一名美军士兵在Polymarket上预测市场交易的民事案件，涉及具体金额和司法程序。该事件反映监管机构对预测市场的执法动态，对加密行业（尤其是预测市场参与者）具有法律与监管影响，提供信息增量。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T22:00:28.801Z"
+    },
     "f2c1d98caf083c1aac7363a5fa06529c36bba42b06581243e1913a26d5b0f307": {
       "decisionKey": "f2c1d98caf083c1aac7363a5fa06529c36bba42b06581243e1913a26d5b0f307",
       "status": "published",
@@ -2429,18 +2488,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T20:00:43.206Z",
-    "https://cointelegraph.com/rss": "2026-08-10T20:00:43.206Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T22:00:28.801Z",
+    "https://cointelegraph.com/rss": "2026-08-10T22:00:28.801Z",
     "https://decrypt.co/feed": "2026-08-10T20:00:43.206Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T20:00:43.206Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T20:00:43.206Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T20:00:43.206Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-10T20:00:43.206Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-10T20:00:43.206Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-10T20:00:43.206Z",
-    "https://solana.com/rss.xml": "2026-08-10T20:00:43.206Z",
-    "https://slowmist.medium.com/feed": "2026-08-10T20:00:43.206Z",
-    "https://www.theblock.co/rss.xml": "2026-08-10T20:00:43.206Z"
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T22:00:28.801Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T22:00:28.801Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T22:00:28.801Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-10T22:00:28.801Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-10T22:00:28.801Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-10T22:00:28.801Z",
+    "https://solana.com/rss.xml": "2026-08-10T22:00:28.801Z",
+    "https://slowmist.medium.com/feed": "2026-08-10T22:00:28.801Z",
+    "https://www.theblock.co/rss.xml": "2026-08-10T22:00:28.801Z"
   },
   "lastRunAt": "2026-08-10T20:00:43.206Z"
 }
