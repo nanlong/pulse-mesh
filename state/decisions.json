@@ -1,6 +1,118 @@
 {
   "version": 1,
   "decisions": {
+    "deec411bd1c378e464323b6f5f4551237f491e58019d15c509faf212d44fc951": {
+      "decisionKey": "deec411bd1c378e464323b6f5f4551237f491e58019d15c509faf212d44fc951",
+      "status": "published",
+      "reason": "Strategy（原MicroStrategy）作为全球最大比特币企业持有者之一，其出售1,690 BTC并回购STRC股份的操作对加密货币市场持仓结构和投资者情绪有直接且可核验的影响，属于重要市场参与方动态。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z",
+      "bCommitSha": "d8e32859bd1be902ed46dbe6048d50980fc46f66"
+    },
+    "da2d58b636496a122e1e083d65054d7118f227769295b773ca693ecc6b3ee7a5": {
+      "decisionKey": "da2d58b636496a122e1e083d65054d7118f227769295b773ca693ecc6b3ee7a5",
+      "status": "rejected",
+      "reason": "候选内容仅为一句简短的摘要，缺少具体流入金额、时间范围、对比基准等可核验数据，未包含明确的主体细节和有效信息增量，属于低价值简报内容。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z"
+    },
+    "b08238b0413b14aa8db8f468748d60d0e076257b2606ba318baededb974ef474": {
+      "decisionKey": "b08238b0413b14aa8db8f468748d60d0e076257b2606ba318baededb974ef474",
+      "status": "published",
+      "reason": "Standard Chartered officially initiates coverage on Chainlink with a $200 target, citing its role in tokenized finance; this institutional endorsement is a meaningful market signal for crypto industry participants.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z",
+      "bCommitSha": "d8e32859bd1be902ed46dbe6048d50980fc46f66"
+    },
+    "ac984b2fee0dfe94f69eea64e85fb9c878997547ec86e19eaa7e99e8da4c9798": {
+      "decisionKey": "ac984b2fee0dfe94f69eea64e85fb9c878997547ec86e19eaa7e99e8da4c9798",
+      "status": "published",
+      "reason": "CoinDesk reports a real, specific product launch: Solstice Finance introduces a Strategy STRC-backed vault on Solana, splitting preferred stock income into senior and junior tokens. This is a distinct DeFi market structure development with clear on-chain relevance, sourced from a reputable outlet.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z",
+      "bCommitSha": "d8e32859bd1be902ed46dbe6048d50980fc46f66"
+    },
+    "aa9b9d56ab88ac1a225ae455272ea9be891682636aa5bc05b30f3a3eb3baea3f": {
+      "decisionKey": "aa9b9d56ab88ac1a225ae455272ea9be891682636aa5bc05b30f3a3eb3baea3f",
+      "status": "published",
+      "reason": "该候选报道了比特币ETF在五天内吸引8.54亿美元净流入，且与利率加息预期消退相关，属于加密市场结构性变化的重要指标，对行业受众具有明确信息增量和影响。来源Decrypt是真实公开的新闻媒体。",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z",
+      "bCommitSha": "d8e32859bd1be902ed46dbe6048d50980fc46f66"
+    },
+    "83fa5b3fbcc736179fcc2d805c09c41fcba707af877974a96c748ccebd4c8d27": {
+      "decisionKey": "83fa5b3fbcc736179fcc2d805c09c41fcba707af877974a96c748ccebd4c8d27",
+      "status": "published",
+      "reason": "Real news from The Block reporting an estimated $110 million in crypto hack losses during July, plus Immunefi bug bounty activity; relevant to crypto industry security awareness and risk monitoring.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z",
+      "bCommitSha": "d8e32859bd1be902ed46dbe6048d50980fc46f66"
+    },
+    "7267904de8a9f6f71b61dce9ba261ac6a8ba210da86bc52a147e7a14691b630d": {
+      "decisionKey": "7267904de8a9f6f71b61dce9ba261ac6a8ba210da86bc52a147e7a14691b630d",
+      "status": "published",
+      "reason": "Strategy 再次减持比特币并披露美元储备规模，涉及具体数量和金额，反映上市公司比特币策略变化，对加密市场有信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z",
+      "bCommitSha": "d8e32859bd1be902ed46dbe6048d50980fc46f66"
+    },
+    "643d50ae87009db8128e4dd2c4b511810ce82a6088800a24f9a2f88f355862b5": {
+      "decisionKey": "643d50ae87009db8128e4dd2c4b511810ce82a6088800a24f9a2f88f355862b5",
+      "status": "rejected",
+      "reason": "该新闻仅涉及一家矿业公司的资金动向和一项未获投票的法案，缺乏对加密行业整体的显著影响，属于低优先级消息。",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z"
+    },
+    "620d3b0c8e3bdf6d686e0c30b8e6d73e623dc39783cd6d0137b9c0af7f0fe6b4": {
+      "decisionKey": "620d3b0c8e3bdf6d686e0c30b8e6d73e623dc39783cd6d0137b9c0af7f0fe6b4",
+      "status": "published",
+      "reason": "Bitdeer's Q2 mining output and treasury liquidation are concrete, verifiable data from a major crypto news outlet, directly relevant to Bitcoin mining economics and market structure for crypto industry audiences.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z",
+      "bCommitSha": "d8e32859bd1be902ed46dbe6048d50980fc46f66"
+    },
+    "4b7dcbf18db242cc331eb4622ae933c8fdcd53bf0d8c9d0d4e4cfe602bfeb23a": {
+      "decisionKey": "4b7dcbf18db242cc331eb4622ae933c8fdcd53bf0d8c9d0d4e4cfe602bfeb23a",
+      "status": "published",
+      "reason": "报道了Strategy这一重要比特币持有者减持840,447 BTC中的1,690枚，并涉及6.53亿美元MSTR股票融资和4.65亿美元美元储备变化，属于可核验的机构持仓与融资动态，对加密市场参与者有明确信息增量。",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z",
+      "bCommitSha": "d8e32859bd1be902ed46dbe6048d50980fc46f66"
+    },
+    "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41": {
+      "decisionKey": "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z"
+    },
+    "05a5b72d1bbe2ae328abad1048c753dca05346b3c9d1b4fbd23950451423f9e7": {
+      "decisionKey": "05a5b72d1bbe2ae328abad1048c753dca05346b3c9d1b4fbd23950451423f9e7",
+      "status": "published",
+      "reason": "The candidate reports a concrete, verifiable action by a major crypto company: Bitmine added 7,391 ETH in a week and now holds 5.81 million ETH (~$11B). This is a substantial corporate treasury disclosure with clear market relevance for crypto industry participants, sourced from The Block, a reputable publication. It provides specific numbers and a timeframe, offering real information beyond mere price speculation.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z",
+      "bCommitSha": "d8e32859bd1be902ed46dbe6048d50980fc46f66"
+    },
+    "04329bc8e0c60c6cf08c804ce452933e7a2ba2fbfeb1256998855745733f40b2": {
+      "decisionKey": "04329bc8e0c60c6cf08c804ce452933e7a2ba2fbfeb1256998855745733f40b2",
+      "status": "rejected",
+      "reason": "Strategy, a major corporate Bitcoin holder, sold $109M in Bitcoin to fund a stock buyback while its dollar reserve surpassed $4.6B. This is a concrete, verifiable corporate treasury action with potential market impact, relevant to crypto industry observers tracking institutional Bitcoin custody and corporate treasury strategies.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T14:00:29.163Z"
+    },
     "fc806bf4f61c4b9c0e20a5983d26b3e34150ba0274ed83f8f8e028c1be9e2324": {
       "decisionKey": "fc806bf4f61c4b9c0e20a5983d26b3e34150ba0274ed83f8f8e028c1be9e2324",
       "status": "published",
@@ -56,13 +168,6 @@
       "status": "rejected",
       "reason": "内容为银行对代币化和DeFi增长的预测性价格目标（Chainlink到$200），属于前瞻性市场喊单和预测，缺乏可核验的实际事件、政策或协议更新，对加密行业重要性和信息增量不足。",
       "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T12:00:26.864Z"
-    },
-    "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41": {
-      "decisionKey": "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-10T12:00:26.864Z"
     },
@@ -2134,17 +2239,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T12:00:26.864Z",
-    "https://cointelegraph.com/rss": "2026-08-10T12:00:26.864Z",
-    "https://decrypt.co/feed": "2026-08-10T12:00:26.864Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T12:00:26.864Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T12:00:26.864Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T12:00:26.864Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-10T12:00:26.864Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-10T12:00:26.864Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-10T12:00:26.864Z",
-    "https://solana.com/rss.xml": "2026-08-10T12:00:26.864Z",
-    "https://slowmist.medium.com/feed": "2026-08-10T12:00:26.864Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T14:00:29.163Z",
+    "https://cointelegraph.com/rss": "2026-08-10T14:00:29.163Z",
+    "https://decrypt.co/feed": "2026-08-10T14:00:29.163Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T14:00:29.163Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T14:00:29.163Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T14:00:29.163Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-10T14:00:29.163Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-10T14:00:29.163Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-10T14:00:29.163Z",
+    "https://solana.com/rss.xml": "2026-08-10T14:00:29.163Z",
+    "https://slowmist.medium.com/feed": "2026-08-10T14:00:29.163Z",
     "https://www.theblock.co/rss.xml": "2026-08-10T06:01:00.491Z"
   },
   "lastRunAt": "2026-08-10T06:01:00.491Z"
