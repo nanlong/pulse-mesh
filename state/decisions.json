@@ -1,6 +1,64 @@
 {
   "version": 1,
   "decisions": {
+    "f1b078c02dfc805405b155f1ceda53feb68842a809e7d3f7fccdc465316c29bc": {
+      "decisionKey": "f1b078c02dfc805405b155f1ceda53feb68842a809e7d3f7fccdc465316c29bc",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T16:00:28.779Z"
+    },
+    "a93095b48e5db03c2ed703b87799f1cb9c32853257e8b5cfb5416144b352b374": {
+      "decisionKey": "a93095b48e5db03c2ed703b87799f1cb9c32853257e8b5cfb5416144b352b374",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T16:00:28.779Z"
+    },
+    "98235f1069848058bb42d83ba78d860b2dc22a461413361da07ee60bbc7cb1f4": {
+      "decisionKey": "98235f1069848058bb42d83ba78d860b2dc22a461413361da07ee60bbc7cb1f4",
+      "status": "published",
+      "reason": "来源为Decrypt真实新闻，内容涉及知名人物Tom Lee旗下Bitmine购买1400万美元以太坊的具体事件，并提及供应占比和持仓目标，对以太坊市场结构有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T16:00:28.779Z",
+      "bCommitSha": "618b6e1560969d00d585f1af39ace5fa81413275"
+    },
+    "8b93127a0d799d4d39f8da5347fb1c81317887c59cb06fe7f3c368ae697b0af7": {
+      "decisionKey": "8b93127a0d799d4d39f8da5347fb1c81317887c59cb06fe7f3c368ae697b0af7",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T16:00:28.779Z"
+    },
+    "5936b2600fa1f5a77ae201132e936c9959d981f2c6945145f73aaca0693da057": {
+      "decisionKey": "5936b2600fa1f5a77ae201132e936c9959d981f2c6945145f73aaca0693da057",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T16:00:28.779Z"
+    },
+    "5804d4a6fa322c600b43a7f8aa42f4ef938d763fd064284668f21e5a4c63a883": {
+      "decisionKey": "5804d4a6fa322c600b43a7f8aa42f4ef938d763fd064284668f21e5a4c63a883",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T16:00:28.779Z"
+    },
+    "57a45a17ff1b10be3a8e0f4d585b6191093ef7dbe8c2757f84bd17facac7b63d": {
+      "decisionKey": "57a45a17ff1b10be3a8e0f4d585b6191093ef7dbe8c2757f84bd17facac7b63d",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T16:00:28.779Z"
+    },
+    "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41": {
+      "decisionKey": "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-10T16:00:28.779Z"
+    },
     "deec411bd1c378e464323b6f5f4551237f491e58019d15c509faf212d44fc951": {
       "decisionKey": "deec411bd1c378e464323b6f5f4551237f491e58019d15c509faf212d44fc951",
       "status": "published",
@@ -88,13 +146,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-10T14:00:29.163Z",
       "bCommitSha": "d8e32859bd1be902ed46dbe6048d50980fc46f66"
-    },
-    "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41": {
-      "decisionKey": "0c56376c10f9302e73776b9e9cfcae3827fc8524a283d173068a26260b7f1f41",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T14:00:29.163Z"
     },
     "05a5b72d1bbe2ae328abad1048c753dca05346b3c9d1b4fbd23950451423f9e7": {
       "decisionKey": "05a5b72d1bbe2ae328abad1048c753dca05346b3c9d1b4fbd23950451423f9e7",
@@ -2240,16 +2291,16 @@
   },
   "sourceCheckpoints": {
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T14:00:29.163Z",
-    "https://cointelegraph.com/rss": "2026-08-10T14:00:29.163Z",
+    "https://cointelegraph.com/rss": "2026-08-10T16:00:28.779Z",
     "https://decrypt.co/feed": "2026-08-10T14:00:29.163Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T14:00:29.163Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T14:00:29.163Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T14:00:29.163Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-10T14:00:29.163Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-10T14:00:29.163Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-10T14:00:29.163Z",
-    "https://solana.com/rss.xml": "2026-08-10T14:00:29.163Z",
-    "https://slowmist.medium.com/feed": "2026-08-10T14:00:29.163Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T16:00:28.779Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T16:00:28.779Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T16:00:28.779Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-10T16:00:28.779Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-10T16:00:28.779Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-10T16:00:28.779Z",
+    "https://solana.com/rss.xml": "2026-08-10T16:00:28.779Z",
+    "https://slowmist.medium.com/feed": "2026-08-10T16:00:28.779Z",
     "https://www.theblock.co/rss.xml": "2026-08-10T06:01:00.491Z"
   },
   "lastRunAt": "2026-08-10T06:01:00.491Z"
