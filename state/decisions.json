@@ -1914,18 +1914,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-09T22:00:53.969Z",
-    "https://cointelegraph.com/rss": "2026-08-09T22:00:53.969Z",
-    "https://decrypt.co/feed": "2026-08-09T22:00:53.969Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-09T22:00:53.969Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-09T22:00:53.969Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-09T22:00:53.969Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-09T22:00:53.969Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-09T22:00:53.969Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-09T22:00:53.969Z",
-    "https://solana.com/rss.xml": "2026-08-09T22:00:53.969Z",
-    "https://slowmist.medium.com/feed": "2026-08-09T22:00:53.969Z",
-    "https://www.theblock.co/rss.xml": "2026-08-09T22:00:53.969Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T00:00:56.438Z",
+    "https://cointelegraph.com/rss": "2026-08-10T00:00:56.438Z",
+    "https://decrypt.co/feed": "2026-08-10T00:00:56.438Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T00:00:56.438Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T00:00:56.438Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T00:00:56.438Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-10T00:00:56.438Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-10T00:00:56.438Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-10T00:00:56.438Z",
+    "https://solana.com/rss.xml": "2026-08-10T00:00:56.438Z",
+    "https://slowmist.medium.com/feed": "2026-08-10T00:00:56.438Z",
+    "https://www.theblock.co/rss.xml": "2026-08-10T00:00:56.438Z"
   },
-  "lastRunAt": "2026-08-09T22:00:53.969Z"
+  "lastRunAt": "2026-08-10T00:00:56.438Z"
 }
