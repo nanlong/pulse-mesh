@@ -1,6 +1,71 @@
 {
   "version": 1,
   "decisions": {
+    "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688": {
+      "decisionKey": "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T08:00:35.544Z"
+    },
+    "b3d49bd802670f95e8f6080cdb81b6385551183354888b330928cfe1ee97d2d6": {
+      "decisionKey": "b3d49bd802670f95e8f6080cdb81b6385551183354888b330928cfe1ee97d2d6",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T08:00:35.544Z"
+    },
+    "acdfba82ee7f15cc8f729ab79e7bf005dccc00f525e19d8dc5aa643c1c534d1f": {
+      "decisionKey": "acdfba82ee7f15cc8f729ab79e7bf005dccc00f525e19d8dc5aa643c1c534d1f",
+      "status": "rejected",
+      "reason": "Zama's ZAMA token listing on Revolut for EEA users is a concrete market-structure event: a privacy-focused protocol gaining distribution to a 70-million-user fintech platform, which has clear relevance and information value for crypto industry watchers. Source is The Block, a reputable crypto news outlet, with a specific date and verifiable details.",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T08:00:35.544Z"
+    },
+    "80551a38c4886799cdd43c49e766a8dbbf934ca3be9fb14a11648c242ea756e6": {
+      "decisionKey": "80551a38c4886799cdd43c49e766a8dbbf934ca3be9fb14a11648c242ea756e6",
+      "status": "published",
+      "reason": "CoinDesk 报道 ADI Chain 与 Shipfinex 合作将商业船舶代币化，涉及 6800 亿美元船舶金融市场，属于 RWA 代币化的重要进展，对加密行业有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T08:00:35.544Z",
+      "bCommitSha": "9df9f34c9bc72aad3006bbaa1fbc06d8bf94380b"
+    },
+    "6e1cf3f542ad30c582c7a36e6a688c1669e670d23210143aafb62133a930ddda": {
+      "decisionKey": "6e1cf3f542ad30c582c7a36e6a688c1669e670d23210143aafb62133a930ddda",
+      "status": "published",
+      "reason": "Coinbase, a major crypto exchange, expanding derivatives offerings to UK professional investors after obtaining a MiFID license is a significant regulatory and market structure development for the crypto industry, providing clear information value.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T08:00:35.544Z",
+      "bCommitSha": "9df9f34c9bc72aad3006bbaa1fbc06d8bf94380b"
+    },
+    "6372a8e943235c3253c5baa9dc89c51da486a4ae7656806573fdcd04ac1984c2": {
+      "decisionKey": "6372a8e943235c3253c5baa9dc89c51da486a4ae7656806573fdcd04ac1984c2",
+      "status": "published",
+      "reason": "韩国取消加密货币转账的旅行规则门槛，要求所有注册服务商之间的转账共享信息，属于重要政策变化，对加密行业有明确影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T08:00:35.544Z",
+      "bCommitSha": "9df9f34c9bc72aad3006bbaa1fbc06d8bf94380b"
+    },
+    "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d": {
+      "decisionKey": "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T08:00:35.544Z"
+    },
+    "30a9b9e7ad32e587b42251c4aed4129cf1bd866fa4b608d96b50fd092dcd43e1": {
+      "decisionKey": "30a9b9e7ad32e587b42251c4aed4129cf1bd866fa4b608d96b50fd092dcd43e1",
+      "status": "published",
+      "reason": "该候选来自CoinDesk，是真实公开的加密新闻，报道了BTCPay服务器因LND凭证被盗导致闪电网络钱包资金被抽干的具体安全事件，并提及项目方提供高达3 BTC（约19万美元）的赏金。该事件涉及比特币支付基础设施的安全漏洞，对加密行业用户、商户和节点运营者有明确影响，具有信息增量和警示意义。",
+      "score": 1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T08:00:35.544Z",
+      "bCommitSha": "9df9f34c9bc72aad3006bbaa1fbc06d8bf94380b"
+    },
     "c1d0f53696156d3d3388da3d38cfef4fe494b2bc78f305e32933f288eb570235": {
       "decisionKey": "c1d0f53696156d3d3388da3d38cfef4fe494b2bc78f305e32933f288eb570235",
       "status": "rejected",
@@ -26,13 +91,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T06:00:28.342Z",
       "bCommitSha": "bc4b32a127c83e9c525175e7d6090c12765b935b"
-    },
-    "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d": {
-      "decisionKey": "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T06:00:28.342Z"
     },
     "40bcf5981264bbfa5dc966d561e073d9f4a40e7fa3bc745034523f34d0b68765": {
       "decisionKey": "40bcf5981264bbfa5dc966d561e073d9f4a40e7fa3bc745034523f34d0b68765",
@@ -2566,17 +2624,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T06:00:28.342Z",
-    "https://cointelegraph.com/rss": "2026-08-11T06:00:28.342Z",
-    "https://decrypt.co/feed": "2026-08-11T06:00:28.342Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T06:00:28.342Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T06:00:28.342Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T06:00:28.342Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-11T06:00:28.342Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-11T06:00:28.342Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-11T06:00:28.342Z",
-    "https://solana.com/rss.xml": "2026-08-11T06:00:28.342Z",
-    "https://slowmist.medium.com/feed": "2026-08-11T06:00:28.342Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T08:00:35.544Z",
+    "https://cointelegraph.com/rss": "2026-08-11T08:00:35.544Z",
+    "https://decrypt.co/feed": "2026-08-11T08:00:35.544Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T08:00:35.544Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T08:00:35.544Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T08:00:35.544Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-11T08:00:35.544Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-11T08:00:35.544Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-11T08:00:35.544Z",
+    "https://solana.com/rss.xml": "2026-08-11T08:00:35.544Z",
+    "https://slowmist.medium.com/feed": "2026-08-11T08:00:35.544Z",
     "https://www.theblock.co/rss.xml": "2026-08-11T02:00:28.636Z"
   },
   "lastRunAt": "2026-08-11T02:00:28.636Z"
