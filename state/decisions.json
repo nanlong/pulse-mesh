@@ -1,6 +1,158 @@
 {
   "version": 1,
   "decisions": {
+    "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688": {
+      "decisionKey": "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z"
+    },
+    "de8b346095c0234ddc970ec884b79885ed223fc5a528dd7ccae918387f084cb7": {
+      "decisionKey": "de8b346095c0234ddc970ec884b79885ed223fc5a528dd7ccae918387f084cb7",
+      "status": "published",
+      "reason": "The candidate is a genuine news report from The Block, a credible crypto media outlet, covering UK lawmakers pressing banks on crypto access ahead of the new FCA regime. It includes a specific subject, event, and timing, directly addressing a significant regulatory and banking access barrier for crypto firms. This provides clear informational value for crypto industry audiences.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
+    "d4bab5da04b602c1e44a2a2e65c3140f1b537aee2a96a9af5d3f3530b2f17a6b": {
+      "decisionKey": "d4bab5da04b602c1e44a2a2e65c3140f1b537aee2a96a9af5d3f3530b2f17a6b",
+      "status": "rejected",
+      "reason": "The candidate is a brief market commentary from a live blog, focusing on bitcoin's price movement and an analyst's opinion about corporate interest shifting to AI. It lacks concrete events, data, or clear impact on the crypto industry, and is effectively price-related speculation.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z"
+    },
+    "bd02b46653824cd7930c80e20f8fc00cb3e73a803026d866663cfcac125a2421": {
+      "decisionKey": "bd02b46653824cd7930c80e20f8fc00cb3e73a803026d866663cfcac125a2421",
+      "status": "published",
+      "reason": "Nvidia's $500 billion AI infrastructure push and MOUs with major Wall Street firms to treat AI compute as a bankable asset class is a significant market structure development. It directly affects crypto compute competition, GPU costs, and decentralized compute networks, providing actionable insight for crypto industry participants.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
+    "a97082c44598bcb0a85d28a98da160429038441ac00605c585f36e45d186ffcf": {
+      "decisionKey": "a97082c44598bcb0a85d28a98da160429038441ac00605c585f36e45d186ffcf",
+      "status": "published",
+      "reason": "比特币核心协议维护者变动及BIP-110分叉争议，对加密行业治理与协议演进有直接影响，来源为CoinDesk真实新闻。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
+    "a41fec43de79c84f54fc11fbd54caf8c37f5761a3f4a016b536a1ec6efc09a6e": {
+      "decisionKey": "a41fec43de79c84f54fc11fbd54caf8c37f5761a3f4a016b536a1ec6efc09a6e",
+      "status": "published",
+      "reason": "该候选报道了Ravencoin因关键区块缺陷可能回滚四天交易，涉及具体主体、事件和时间，属于加密网络的安全与共识异常事件，对持有和使用Ravencoin的用户有直接影响，具有信息增量，来源为CoinDesk，真实可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
+    "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be": {
+      "decisionKey": "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z"
+    },
+    "97658a3386fa54741eb2251ff1e8866dcaaa03479e4c32bc9a1d18e3ca9a03be": {
+      "decisionKey": "97658a3386fa54741eb2251ff1e8866dcaaa03479e4c32bc9a1d18e3ca9a03be",
+      "status": "rejected",
+      "reason": "该候选来自Coindesk，是真实公开来源，但内容仅为泛泛的描述，缺乏具体数据、事件细节和对加密行业受众的实际信息增量，属于低价值的市场评论，不符合发布标准。",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z"
+    },
+    "86ba58ef47aecf2aada1d99cc4ed6a8dfcd47cfd571b88c1f62c015d3264a8c0": {
+      "decisionKey": "86ba58ef47aecf2aada1d99cc4ed6a8dfcd47cfd571b88c1f62c015d3264a8c0",
+      "status": "published",
+      "reason": "英国议会小组正式质询银行对加密企业的服务政策，是影响加密行业银行渠道的监管进展。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
+    "6d5a93c355163bb4ee6926d2928963c34d9958abf885ef68d1a0735f4bc500ea": {
+      "decisionKey": "6d5a93c355163bb4ee6926d2928963c34d9958abf885ef68d1a0735f4bc500ea",
+      "status": "published",
+      "reason": "Coinbase 正式面向英国专业投资者开放最高 50 倍杠杆的衍生品交易，涵盖加密、商品、股票和外汇，属于主要交易平台合规扩张的重要市场结构变化，对加密衍生品行业有明确影响。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
+    "67305087729ef96ae6ec7ef0f72661dd2309e7cd2a82562635c4acae563a66b5": {
+      "decisionKey": "67305087729ef96ae6ec7ef0f72661dd2309e7cd2a82562635c4acae563a66b5",
+      "status": "published",
+      "reason": "真实新闻，来源可靠，涉及澳大利亚监管机构对加密ATM运营商的执法行动，具有明确主体、事件和数据（96台ATM下线），对加密行业有监管影响和信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
+    "41c66747c6fe2cd50b6c79db567ea9cdc7e7cc43afd470b6ad41cec788efb188": {
+      "decisionKey": "41c66747c6fe2cd50b6c79db567ea9cdc7e7cc43afd470b6ad41cec788efb188",
+      "status": "published",
+      "reason": "来源为Cointelegraph（真实公开新闻媒体），内容涉及Coldcard硬件钱包黑客事件及调查中的链上追踪，属于加密行业安全事件，对受众有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
+    "40f70719b7dd4a1554eee973bf6515801a572adfd8f927388cc9f303064088b1": {
+      "decisionKey": "40f70719b7dd4a1554eee973bf6515801a572adfd8f927388cc9f303064088b1",
+      "status": "published",
+      "reason": "The candidate reports a concrete market development—public companies using bitcoin as collateral for loans—which indicates institutional adoption and a shift in crypto market structure. The source is Coindesk, a credible and verifiable outlet, and the event is specific and timely.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
+    "374bb417f689a53d6642eb9a119eba85fa82c06347c4d0673f267d9364aa8516": {
+      "decisionKey": "374bb417f689a53d6642eb9a119eba85fa82c06347c4d0673f267d9364aa8516",
+      "status": "rejected",
+      "reason": "Coindesk is a credible, verifiable crypto news source. The item contains concrete market data (Bitcoin below $65,000, XRP near $1, oil at $89) and a specific macro/geopolitical catalyst (Strait of Hormuz, CPI report). It is likely useful to a crypto-industry audience, though it is price/market-focused rather than a policy, protocol, or security development.",
+      "score": 0.55,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z"
+    },
+    "3270f683918e9ed5d5f622c3332f47b3f4dd2995aa11f2246e55c01b785521b2": {
+      "decisionKey": "3270f683918e9ed5d5f622c3332f47b3f4dd2995aa11f2246e55c01b785521b2",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z"
+    },
+    "2dd8c8ab7d291292b8ecc361183b3f1ee93ca96ac43d27cf987999bbc01ca12d": {
+      "decisionKey": "2dd8c8ab7d291292b8ecc361183b3f1ee93ca96ac43d27cf987999bbc01ca12d",
+      "status": "published",
+      "reason": "Coinbase获得阿布扎比监管批准提供代币化证券，是主要交易所进入中东代币化市场的重大举措，对加密资产合规化和机构采用具有明确影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
+    "251d3f3236dfc471fafb2269af264d25d2f0e08ad0f60d9d0cc9d886194ce49b": {
+      "decisionKey": "251d3f3236dfc471fafb2269af264d25d2f0e08ad0f60d9d0cc9d886194ce49b",
+      "status": "rejected",
+      "reason": "来源为Cointelegraph这一真实公开的加密新闻媒体，文章引用CryptoQuant数据，包含具体主体（Bitcoin、USDT）、事件（4B美元市值下降）和时间周期（60天），对加密市场结构有明确分析价值，有助于理解BTC卖压与稳定币流动性的关系，非单纯价格喊单或重复转载。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z"
+    },
+    "165a7114e8fde684b612754d06e34c4c6395682263bbe5578ebb1f14b0f8c70f": {
+      "decisionKey": "165a7114e8fde684b612754d06e34c4c6395682263bbe5578ebb1f14b0f8c70f",
+      "status": "published",
+      "reason": "FlightAware对Kalshi提起的诉讼涉及预测市场的数据使用和商标权，直接影响加密/预测市场行业的法律与监管环境，对Kalshi的运营及同类平台的合规风险具有明确信息增量。来源为CoinDesk，真实可核验。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T12:01:09.419Z",
+      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
+    },
     "f0b85c3a565edfa26fcb3bf28aaed33b7d1b679df9e660c60e72d8778aed1d6c": {
       "decisionKey": "f0b85c3a565edfa26fcb3bf28aaed33b7d1b679df9e660c60e72d8778aed1d6c",
       "status": "published",
@@ -10,13 +162,6 @@
       "updatedAt": "2026-08-11T10:01:05.938Z",
       "bCommitSha": "4c9841c527061afbd34601336ee50394336ed2fb"
     },
-    "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688": {
-      "decisionKey": "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T10:01:05.938Z"
-    },
     "b3d49bd802670f95e8f6080cdb81b6385551183354888b330928cfe1ee97d2d6": {
       "decisionKey": "b3d49bd802670f95e8f6080cdb81b6385551183354888b330928cfe1ee97d2d6",
       "status": "published",
@@ -25,13 +170,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T10:01:05.938Z",
       "bCommitSha": "4c9841c527061afbd34601336ee50394336ed2fb"
-    },
-    "6d5a93c355163bb4ee6926d2928963c34d9958abf885ef68d1a0735f4bc500ea": {
-      "decisionKey": "6d5a93c355163bb4ee6926d2928963c34d9958abf885ef68d1a0735f4bc500ea",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T10:01:05.938Z"
     },
     "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d": {
       "decisionKey": "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d",
@@ -2659,17 +2797,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T10:01:05.938Z",
-    "https://cointelegraph.com/rss": "2026-08-11T10:01:05.938Z",
-    "https://decrypt.co/feed": "2026-08-11T08:00:35.544Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T10:01:05.938Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T10:01:05.938Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T10:01:05.938Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-11T10:01:05.938Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-11T10:01:05.938Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-11T10:01:05.938Z",
-    "https://solana.com/rss.xml": "2026-08-11T10:01:05.938Z",
-    "https://slowmist.medium.com/feed": "2026-08-11T10:01:05.938Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T12:01:09.419Z",
+    "https://cointelegraph.com/rss": "2026-08-11T12:01:09.419Z",
+    "https://decrypt.co/feed": "2026-08-11T12:01:09.419Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T12:01:09.419Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T12:01:09.419Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T12:01:09.419Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-11T12:01:09.419Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-11T12:01:09.419Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-11T12:01:09.419Z",
+    "https://solana.com/rss.xml": "2026-08-11T12:01:09.419Z",
+    "https://slowmist.medium.com/feed": "2026-08-11T12:01:09.419Z",
     "https://www.theblock.co/rss.xml": "2026-08-11T02:00:28.636Z"
   },
   "lastRunAt": "2026-08-11T02:00:28.636Z"
