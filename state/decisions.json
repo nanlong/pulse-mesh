@@ -1,12 +1,103 @@
 {
   "version": 1,
   "decisions": {
+    "e0571895dfdaf14efa03e29d3b62e37d8d985d3e9783d7397d30d5780a29ae04": {
+      "decisionKey": "e0571895dfdaf14efa03e29d3b62e37d8d985d3e9783d7397d30d5780a29ae04",
+      "status": "failed",
+      "reason": "AI response is not valid JSON",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z"
+    },
     "e03a15f7a4ee26bc1a8290cb8bcc973cd113c678f53be10398ca804f04a430a0": {
       "decisionKey": "e03a15f7a4ee26bc1a8290cb8bcc973cd113c678f53be10398ca804f04a430a0",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T20:01:04.683Z"
+      "updatedAt": "2026-08-11T22:00:56.366Z"
+    },
+    "dcfbddf409d43b3b364af7980268d49fcba5ab3dae6c6b3ad2038fc71e3afabb": {
+      "decisionKey": "dcfbddf409d43b3b364af7980268d49fcba5ab3dae6c6b3ad2038fc71e3afabb",
+      "status": "published",
+      "reason": "CFTC对Kalshi预测市场的监管指令涉及美国政策与市场结构变化，对加密及预测市场行业有明确影响，来源为CoinDesk真实公开新闻，信息具体可核验。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z",
+      "bCommitSha": "7b5f70f3523cb3c7bd88ff1f89e7b99f976f99ed"
+    },
+    "c862f3ac37969129ef30880f284719c4291c1b7f05d82e6c299dc30c43ac88a3": {
+      "decisionKey": "c862f3ac37969129ef30880f284719c4291c1b7f05d82e6c299dc30c43ac88a3",
+      "status": "published",
+      "reason": "The candidate reports a concrete SEC policy development (Regulation Crypto proposal) with a specific action (open meeting) and date, directly affecting crypto projects and regulatory landscape. It is from a legitimate news source (Decrypt) and provides clear information relevant to the crypto industry.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z",
+      "bCommitSha": "7b5f70f3523cb3c7bd88ff1f89e7b99f976f99ed"
+    },
+    "9fcef9c0ead935365ca157b4607f826ac5fbaa5a074352b8c3701b4309ebda32": {
+      "decisionKey": "9fcef9c0ead935365ca157b4607f826ac5fbaa5a074352b8c3701b4309ebda32",
+      "status": "published",
+      "reason": "Real security incident involving BTCPay Server and LND wallet exploitation, with a bounty offered for recovery. Directly impacts crypto users and infrastructure, providing actionable information about a critical vulnerability and response.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z",
+      "bCommitSha": "7b5f70f3523cb3c7bd88ff1f89e7b99f976f99ed"
+    },
+    "9bdebb1e930c68152ac8ce1bb938602e53c6e3d2466073b855f21882dd49b4f8": {
+      "decisionKey": "9bdebb1e930c68152ac8ce1bb938602e53c6e3d2466073b855f21882dd49b4f8",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z"
+    },
+    "915ce889318f34bec6e6f7bd762502d4e30556e1b925db1f745d39b0d4a8620d": {
+      "decisionKey": "915ce889318f34bec6e6f7bd762502d4e30556e1b925db1f745d39b0d4a8620d",
+      "status": "published",
+      "reason": "This is a real, verifiable news report from a reputable crypto outlet. It covers a concrete development: Itaú, a major Brazilian bank, joining a tokenization pilot led by ANBIMA. This represents meaningful institutional adoption and market structure evolution, providing clear informational value for crypto industry audiences.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z",
+      "bCommitSha": "7b5f70f3523cb3c7bd88ff1f89e7b99f976f99ed"
+    },
+    "8bccdd721a513cb774dd651c41f666afd859a4ef904ea2c185a011fa64dc9840": {
+      "decisionKey": "8bccdd721a513cb774dd651c41f666afd859a4ef904ea2c185a011fa64dc9840",
+      "status": "published",
+      "reason": "美国SEC计划在国会未通过CLARITY法案的情况下讨论数字资产政策，涉及具体监管动态，对加密行业有直接影响，来源权威且信息可核验。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z",
+      "bCommitSha": "7b5f70f3523cb3c7bd88ff1f89e7b99f976f99ed"
+    },
+    "5d3f499f3da56729ec96a7f6b73bea7d400f2fe5349249af04ecdbdc2dfab63d": {
+      "decisionKey": "5d3f499f3da56729ec96a7f6b73bea7d400f2fe5349249af04ecdbdc2dfab63d",
+      "status": "published",
+      "reason": "CFTC enforcement action against a Florida man for a $397 million crypto Ponzi scheme is significant for the crypto industry, highlighting regulatory scrutiny and fraud risks.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z",
+      "bCommitSha": "7b5f70f3523cb3c7bd88ff1f89e7b99f976f99ed"
+    },
+    "5405f5a3263da51c64b7da415f56ad19142035b447e3a81ed71f290608a27433": {
+      "decisionKey": "5405f5a3263da51c64b7da415f56ad19142035b447e3a81ed71f290608a27433",
+      "status": "rejected",
+      "reason": "内容为常规市场分析评论，缺乏具体数据、事件或明确影响，信息增量有限。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z"
+    },
+    "4a857ce245fc32c98af221b38ea6f84cb2f77db17a3f55fdf43f5f0403d279d2": {
+      "decisionKey": "4a857ce245fc32c98af221b38ea6f84cb2f77db17a3f55fdf43f5f0403d279d2",
+      "status": "rejected",
+      "reason": "内容仅有标题，无正文细节，缺乏具体事件、时间或数据，无法核验，属于证据不足。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z"
+    },
+    "056ba0cce3a081ff793f9d8360a3779344d67e817d100bd2fd7ecc490b935181": {
+      "decisionKey": "056ba0cce3a081ff793f9d8360a3779344d67e817d100bd2fd7ecc490b935181",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T22:00:56.366Z"
     },
     "d200cdc7928ec53adf915a4b60fc206550014e6a54786075e1827986e39ca9e6": {
       "decisionKey": "d200cdc7928ec53adf915a4b60fc206550014e6a54786075e1827986e39ca9e6",
@@ -91,13 +182,6 @@
       "status": "rejected",
       "reason": "来源可信，但候选内容未指明与加密行业相关，无法确认对加密行业受众有明确影响。",
       "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T20:01:04.683Z"
-    },
-    "056ba0cce3a081ff793f9d8360a3779344d67e817d100bd2fd7ecc490b935181": {
-      "decisionKey": "056ba0cce3a081ff793f9d8360a3779344d67e817d100bd2fd7ecc490b935181",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T20:01:04.683Z"
     },
@@ -3121,17 +3205,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T20:01:04.683Z",
-    "https://cointelegraph.com/rss": "2026-08-11T20:01:04.683Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T22:00:56.366Z",
+    "https://cointelegraph.com/rss": "2026-08-11T22:00:56.366Z",
     "https://decrypt.co/feed": "2026-08-11T20:01:04.683Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T20:01:04.683Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T20:01:04.683Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T20:01:04.683Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-11T20:01:04.683Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-11T20:01:04.683Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-11T20:01:04.683Z",
-    "https://solana.com/rss.xml": "2026-08-11T20:01:04.683Z",
-    "https://slowmist.medium.com/feed": "2026-08-11T20:01:04.683Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T22:00:56.366Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T22:00:56.366Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T22:00:56.366Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-11T22:00:56.366Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-11T22:00:56.366Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-11T22:00:56.366Z",
+    "https://solana.com/rss.xml": "2026-08-11T22:00:56.366Z",
+    "https://slowmist.medium.com/feed": "2026-08-11T22:00:56.366Z",
     "https://www.theblock.co/rss.xml": "2026-08-11T02:00:28.636Z"
   },
   "lastRunAt": "2026-08-11T02:00:28.636Z"
