@@ -1,6 +1,106 @@
 {
   "version": 1,
   "decisions": {
+    "e03a15f7a4ee26bc1a8290cb8bcc973cd113c678f53be10398ca804f04a430a0": {
+      "decisionKey": "e03a15f7a4ee26bc1a8290cb8bcc973cd113c678f53be10398ca804f04a430a0",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z"
+    },
+    "d200cdc7928ec53adf915a4b60fc206550014e6a54786075e1827986e39ca9e6": {
+      "decisionKey": "d200cdc7928ec53adf915a4b60fc206550014e6a54786075e1827986e39ca9e6",
+      "status": "published",
+      "reason": "MoneyGram将加密现金通道扩展至Solana，是主流支付网络与公链生态的重要集成，为加密用户提供法币出入金便利，对行业具有明确影响和信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z",
+      "bCommitSha": "7e89b0fc05a2d47a8b45675470116d06841b37bc"
+    },
+    "b687c6790eece14b3b05b8881a5726ce60e6aa94a6d943f0fd2f5fd385e05296": {
+      "decisionKey": "b687c6790eece14b3b05b8881a5726ce60e6aa94a6d943f0fd2f5fd385e05296",
+      "status": "published",
+      "reason": "The candidate is a legitimate news report from Decrypt, a well-known crypto media outlet, covering Trump Media's significant crypto-related losses with specific figures ($238M quarterly loss, $361M crypto-related losses). This is relevant to the crypto industry as it involves a high-profile public company's exposure to digital assets, indicating potential market implications and institutional risk. The source is real, accessible, and the content is specific, factual, and not promotional.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z",
+      "bCommitSha": "7e89b0fc05a2d47a8b45675470116d06841b37bc"
+    },
+    "ae5363e21b676fc48bdf4dbe31696fb3c129f14f64167a6dc08ae5143538f170": {
+      "decisionKey": "ae5363e21b676fc48bdf4dbe31696fb3c129f14f64167a6dc08ae5143538f170",
+      "status": "published",
+      "reason": "Cointelegraph 是真实可核验的加密新闻来源；内容包含具体主体（Strategy 公司及 CEO）、事件（恢复比特币积累）、时间（今年）和关键数据（买入约为卖出的 25 倍），对比特币市场供需结构有直接影响，属于重要的机构动态，非价格喊单或营销。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z",
+      "bCommitSha": "7e89b0fc05a2d47a8b45675470116d06841b37bc"
+    },
+    "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be": {
+      "decisionKey": "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be",
+      "status": "published",
+      "reason": "Trump Media's $360.6M unrealized loss on BTC and CRO in H1 is a significant financial event involving a public company's crypto holdings, providing concrete data and market insight for crypto industry participants.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z",
+      "bCommitSha": "7e89b0fc05a2d47a8b45675470116d06841b37bc"
+    },
+    "8ad30c8cfe81715581ef55036058a275b75d3018e367c67dce45bd51e8f259ec": {
+      "decisionKey": "8ad30c8cfe81715581ef55036058a275b75d3018e367c67dce45bd51e8f259ec",
+      "status": "published",
+      "reason": "该候选来自可信的加密新闻源，聚焦美国参议院日程与CLARITY法案通过窗口，包含具体法案、时间节点和立法进程，对加密行业监管环境有明确影响和信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z",
+      "bCommitSha": "7e89b0fc05a2d47a8b45675470116d06841b37bc"
+    },
+    "6b12e8e9870af6ba5214b5795c57959b1c76cfde2936dd8407ff4912205e0d98": {
+      "decisionKey": "6b12e8e9870af6ba5214b5795c57959b1c76cfde2936dd8407ff4912205e0d98",
+      "status": "rejected",
+      "reason": "The candidate provides only a brief, vague summary without concrete details, data, or verifiable event specifics. It references a past quote from May 2025 but lacks substantive information about the alleged shift to AI, making it insufficiently informative for publication.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z"
+    },
+    "6a2f773a86f8d6c56a9cfd4393c1b46e5aac938df0c11dcd026dd84cac55f440": {
+      "decisionKey": "6a2f773a86f8d6c56a9cfd4393c1b46e5aac938df0c11dcd026dd84cac55f440",
+      "status": "rejected",
+      "reason": "This article from The Block reports a Coldcard hardware wallet exploit driving users to move funds, a significant security event for crypto holders. The increase in new Bitcoin addresses (260k to 330k) provides market structure data. Despite limited detail, the topic is relevant and timely for the crypto audience.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z"
+    },
+    "536f0bf98dde7741a1c487799a516067ebd666d300d683e388be8fe2c73c86fb": {
+      "decisionKey": "536f0bf98dde7741a1c487799a516067ebd666d300d683e388be8fe2c73c86fb",
+      "status": "published",
+      "reason": "Itaú Unibanco, Brazil's largest lender, is partnering with OpenAssets to pilot tokenized bonds and funds under a program run by financial watchdog ANBIMA. This is a concrete, verifiable development in institutional tokenization, with clear implications for crypto adoption and market structure.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z",
+      "bCommitSha": "7e89b0fc05a2d47a8b45675470116d06841b37bc"
+    },
+    "3b0fa8de4452208d3619a8614cff90beb156b3f41798001eac89eb87b2e1cc10": {
+      "decisionKey": "3b0fa8de4452208d3619a8614cff90beb156b3f41798001eac89eb87b2e1cc10",
+      "status": "rejected",
+      "reason": "内容过于笼统，未提供具体事件、主体、时间或数据，无法核验；且未提及加密行业，对目标受众无明确影响和信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z"
+    },
+    "1a7f4a3e5aea48a338cf945dd3e98e1f9f30a260b06b78d2d42f8b8caf26bef5": {
+      "decisionKey": "1a7f4a3e5aea48a338cf945dd3e98e1f9f30a260b06b78d2d42f8b8caf26bef5",
+      "status": "rejected",
+      "reason": "来源可信，但候选内容未指明与加密行业相关，无法确认对加密行业受众有明确影响。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z"
+    },
+    "056ba0cce3a081ff793f9d8360a3779344d67e817d100bd2fd7ecc490b935181": {
+      "decisionKey": "056ba0cce3a081ff793f9d8360a3779344d67e817d100bd2fd7ecc490b935181",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T20:01:04.683Z"
+    },
     "d9a8f5dede24fbce1c2210c13fdfc9e2a08718f3fa6d887375107307b98697cd": {
       "decisionKey": "d9a8f5dede24fbce1c2210c13fdfc9e2a08718f3fa6d887375107307b98697cd",
       "status": "rejected",
@@ -79,20 +179,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T18:01:08.798Z"
     },
-    "6b12e8e9870af6ba5214b5795c57959b1c76cfde2936dd8407ff4912205e0d98": {
-      "decisionKey": "6b12e8e9870af6ba5214b5795c57959b1c76cfde2936dd8407ff4912205e0d98",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T18:01:08.798Z"
-    },
-    "6a2f773a86f8d6c56a9cfd4393c1b46e5aac938df0c11dcd026dd84cac55f440": {
-      "decisionKey": "6a2f773a86f8d6c56a9cfd4393c1b46e5aac938df0c11dcd026dd84cac55f440",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T18:01:08.798Z"
-    },
     "5bf5a6b1c33ee2e0b056c717704e7f2567e2f15d07e71485b848283744f79ccb": {
       "decisionKey": "5bf5a6b1c33ee2e0b056c717704e7f2567e2f15d07e71485b848283744f79ccb",
       "status": "rejected",
@@ -148,13 +234,6 @@
       "status": "rejected",
       "reason": "该候选内容为 Benchmark 对 Bitdeer 股票的价格目标预测，属于价格喊单范畴，且信息增量有限，对加密行业受众影响不明确，不符合发布标准。",
       "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T16:01:02.783Z"
-    },
-    "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be": {
-      "decisionKey": "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T16:01:02.783Z"
     },
@@ -3042,17 +3121,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T18:01:08.798Z",
-    "https://cointelegraph.com/rss": "2026-08-11T18:01:08.798Z",
-    "https://decrypt.co/feed": "2026-08-11T18:01:08.798Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T18:01:08.798Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T18:01:08.798Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T18:01:08.798Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-11T18:01:08.798Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-11T18:01:08.798Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-11T18:01:08.798Z",
-    "https://solana.com/rss.xml": "2026-08-11T18:01:08.798Z",
-    "https://slowmist.medium.com/feed": "2026-08-11T18:01:08.798Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T20:01:04.683Z",
+    "https://cointelegraph.com/rss": "2026-08-11T20:01:04.683Z",
+    "https://decrypt.co/feed": "2026-08-11T20:01:04.683Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T20:01:04.683Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T20:01:04.683Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T20:01:04.683Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-11T20:01:04.683Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-11T20:01:04.683Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-11T20:01:04.683Z",
+    "https://solana.com/rss.xml": "2026-08-11T20:01:04.683Z",
+    "https://slowmist.medium.com/feed": "2026-08-11T20:01:04.683Z",
     "https://www.theblock.co/rss.xml": "2026-08-11T02:00:28.636Z"
   },
   "lastRunAt": "2026-08-11T02:00:28.636Z"
