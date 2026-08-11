@@ -1,6 +1,96 @@
 {
   "version": 1,
   "decisions": {
+    "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688": {
+      "decisionKey": "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688",
+      "status": "rejected",
+      "reason": "This is a legitimate news report from The Block about a specific legal dispute: FlightAware is suing Kalshi and seeking a temporary restraining order over alleged unauthorized data use for flight cancellation markets. The story names concrete parties, a legal remedy, and a publication date. It is relevant to prediction-market platforms and market-structure developments that crypto industry audiences track.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
+    "d9a8f5dede24fbce1c2210c13fdfc9e2a08718f3fa6d887375107307b98697cd": {
+      "decisionKey": "d9a8f5dede24fbce1c2210c13fdfc9e2a08718f3fa6d887375107307b98697cd",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
+    "cadec4cbf33b74731f6a1914e6627143c67fa254365d798b9affeef16cfe98a8": {
+      "decisionKey": "cadec4cbf33b74731f6a1914e6627143c67fa254365d798b9affeef16cfe98a8",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
+    "a694258eb98b7eaf1d585abba74dcb2e8febd12445afddb4d7c382c1c9192fde": {
+      "decisionKey": "a694258eb98b7eaf1d585abba74dcb2e8febd12445afddb4d7c382c1c9192fde",
+      "status": "rejected",
+      "reason": "该候选内容为 Benchmark 对 Bitdeer 股票的价格目标预测，属于价格喊单范畴，且信息增量有限，对加密行业受众影响不明确，不符合发布标准。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
+    "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be": {
+      "decisionKey": "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
+    "9365015a3c76269578dc2fa460a72d3af39b36aee40671740d6124cc4b77df1b": {
+      "decisionKey": "9365015a3c76269578dc2fa460a72d3af39b36aee40671740d6124cc4b77df1b",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
+    "7f6319cfd9a33cf7ba7e672e79ea1672cd8405638361c408c8bb39aa5ffc097c": {
+      "decisionKey": "7f6319cfd9a33cf7ba7e672e79ea1672cd8405638361c408c8bb39aa5ffc097c",
+      "status": "rejected",
+      "reason": "Routine price update lacking substantive analysis or new information; no direct policy, protocol, security, or market structure significance.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
+    "6b12e8e9870af6ba5214b5795c57959b1c76cfde2936dd8407ff4912205e0d98": {
+      "decisionKey": "6b12e8e9870af6ba5214b5795c57959b1c76cfde2936dd8407ff4912205e0d98",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
+    "5bf5a6b1c33ee2e0b056c717704e7f2567e2f15d07e71485b848283744f79ccb": {
+      "decisionKey": "5bf5a6b1c33ee2e0b056c717704e7f2567e2f15d07e71485b848283744f79ccb",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
+    "425ac078925dec491ec32721b68684a4e30b17f61ea05537096aed6f9d0b9539": {
+      "decisionKey": "425ac078925dec491ec32721b68684a4e30b17f61ea05537096aed6f9d0b9539",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
+    "2441ba4b20d64776aeb79389dca8594010cd5437ace89dd82651e319dd2584b5": {
+      "decisionKey": "2441ba4b20d64776aeb79389dca8594010cd5437ace89dd82651e319dd2584b5",
+      "status": "published",
+      "reason": "The candidate reports on a RUSI analysis of North Korea using criminal networks to launder stolen crypto, a concrete security and policy issue with direct relevance to crypto exchanges and AML compliance. The source is a legitimate crypto news outlet and the content provides a specific, verifiable claim rather than speculation or price talk.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z",
+      "bCommitSha": "79004eade743272381996b4c82fe3b1529b48b83"
+    },
+    "14895e9365982fed6ef890412bf2dc8f8f56c079dc7ae66fc4ccdb543bbb2068": {
+      "decisionKey": "14895e9365982fed6ef890412bf2dc8f8f56c079dc7ae66fc4ccdb543bbb2068",
+      "status": "rejected",
+      "reason": "The news is about eToro acquiring TradeZero, an equities-focused trading platform, with Q2 growth driven by equities. It lacks direct relevance or impact on the crypto industry's policy, protocols, security, or market structure. The content is brief and does not provide clear information increment for crypto stakeholders.",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T16:01:02.783Z"
+    },
     "e8e3e401b93a186c105177a208d374a5641608a5c367fafd9c45889ab831b62f": {
       "decisionKey": "e8e3e401b93a186c105177a208d374a5641608a5c367fafd9c45889ab831b62f",
       "status": "published",
@@ -10,25 +100,11 @@
       "updatedAt": "2026-08-11T14:00:59.772Z",
       "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
     },
-    "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688": {
-      "decisionKey": "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z"
-    },
     "da0725728ea1453310ed2cd386d21091c1c6cb4be7cbd1785344a5b7c45ef1b0": {
       "decisionKey": "da0725728ea1453310ed2cd386d21091c1c6cb4be7cbd1785344a5b7c45ef1b0",
       "status": "rejected",
       "reason": "候选仅为泛泛的趋势报道，缺少具体主体、事件或数据，未提及任何具体政策、协议升级或安全事件，对加密行业受众无明显信息增量。",
       "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z"
-    },
-    "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be": {
-      "decisionKey": "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T14:00:59.772Z"
     },
@@ -89,13 +165,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T14:00:59.772Z",
       "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
-    },
-    "2441ba4b20d64776aeb79389dca8594010cd5437ace89dd82651e319dd2584b5": {
-      "decisionKey": "2441ba4b20d64776aeb79389dca8594010cd5437ace89dd82651e319dd2584b5",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z"
     },
     "0a2433964f4887f42ec6d7c4e634b96ef2496c8f65fc13f1bb532511b8509dd3": {
       "decisionKey": "0a2433964f4887f42ec6d7c4e634b96ef2496c8f65fc13f1bb532511b8509dd3",
@@ -2882,16 +2951,16 @@
   },
   "sourceCheckpoints": {
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T14:00:59.772Z",
-    "https://cointelegraph.com/rss": "2026-08-11T14:00:59.772Z",
+    "https://cointelegraph.com/rss": "2026-08-11T16:01:02.783Z",
     "https://decrypt.co/feed": "2026-08-11T12:01:09.419Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T14:00:59.772Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T14:00:59.772Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T14:00:59.772Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-11T14:00:59.772Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-11T14:00:59.772Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-11T14:00:59.772Z",
-    "https://solana.com/rss.xml": "2026-08-11T14:00:59.772Z",
-    "https://slowmist.medium.com/feed": "2026-08-11T14:00:59.772Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T16:01:02.783Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T16:01:02.783Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T16:01:02.783Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-11T16:01:02.783Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-11T16:01:02.783Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-11T16:01:02.783Z",
+    "https://solana.com/rss.xml": "2026-08-11T16:01:02.783Z",
+    "https://slowmist.medium.com/feed": "2026-08-11T16:01:02.783Z",
     "https://www.theblock.co/rss.xml": "2026-08-11T02:00:28.636Z"
   },
   "lastRunAt": "2026-08-11T02:00:28.636Z"
