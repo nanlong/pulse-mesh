@@ -1,6 +1,15 @@
 {
   "version": 1,
   "decisions": {
+    "5d76f7e6e4628ad97a130eff4ae1b222cd2c6b27ac5ccb71f5d2bfe1eac89b1e": {
+      "decisionKey": "5d76f7e6e4628ad97a130eff4ae1b222cd2c6b27ac5ccb71f5d2bfe1eac89b1e",
+      "status": "published",
+      "reason": "Ethereum's updated roadmap, as reported by a credible crypto outlet, covers quantum resistance, privacy, and AI verification—key technical directions with significant implications for the ecosystem. The candidate cites a specific principal, event, and timeframe, and offers clear information value for crypto industry observers.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T00:00:29.755Z",
+      "bCommitSha": "6f10722d2f804e83173f0bd531798649c9554215"
+    },
     "eaa34aafbb816348214ffd586ea68d57b7d7f9b5a5a7e892984aac60d0dad2e3": {
       "decisionKey": "eaa34aafbb816348214ffd586ea68d57b7d7f9b5a5a7e892984aac60d0dad2e3",
       "status": "published",
@@ -42,13 +51,6 @@
       "status": "rejected",
       "reason": "候选仅为投资观点（声称Circle被低估），缺乏具体数据、事件或可核验的实质内容，属于价格喊单/市场评论，对加密行业受众无明确信息增量。",
       "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T22:00:28.801Z"
-    },
-    "5d76f7e6e4628ad97a130eff4ae1b222cd2c6b27ac5ccb71f5d2bfe1eac89b1e": {
-      "decisionKey": "5d76f7e6e4628ad97a130eff4ae1b222cd2c6b27ac5ccb71f5d2bfe1eac89b1e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-10T22:00:28.801Z"
     },
@@ -2488,18 +2490,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-10T22:00:28.801Z",
-    "https://cointelegraph.com/rss": "2026-08-10T22:00:28.801Z",
-    "https://decrypt.co/feed": "2026-08-10T20:00:43.206Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-10T22:00:28.801Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-10T22:00:28.801Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-10T22:00:28.801Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-10T22:00:28.801Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-10T22:00:28.801Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-10T22:00:28.801Z",
-    "https://solana.com/rss.xml": "2026-08-10T22:00:28.801Z",
-    "https://slowmist.medium.com/feed": "2026-08-10T22:00:28.801Z",
-    "https://www.theblock.co/rss.xml": "2026-08-10T22:00:28.801Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T00:00:29.755Z",
+    "https://cointelegraph.com/rss": "2026-08-11T00:00:29.755Z",
+    "https://decrypt.co/feed": "2026-08-11T00:00:29.755Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T00:00:29.755Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T00:00:29.755Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T00:00:29.755Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-11T00:00:29.755Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-11T00:00:29.755Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-11T00:00:29.755Z",
+    "https://solana.com/rss.xml": "2026-08-11T00:00:29.755Z",
+    "https://slowmist.medium.com/feed": "2026-08-11T00:00:29.755Z",
+    "https://www.theblock.co/rss.xml": "2026-08-11T00:00:29.755Z"
   },
-  "lastRunAt": "2026-08-10T20:00:43.206Z"
+  "lastRunAt": "2026-08-11T00:00:29.755Z"
 }
