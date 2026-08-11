@@ -1,12 +1,110 @@
 {
   "version": 1,
   "decisions": {
+    "e8e3e401b93a186c105177a208d374a5641608a5c367fafd9c45889ab831b62f": {
+      "decisionKey": "e8e3e401b93a186c105177a208d374a5641608a5c367fafd9c45889ab831b62f",
+      "status": "published",
+      "reason": "Decrypt is a credible crypto news outlet. The story covers a concrete event: Luke Dashjr's removal as BIP editor and the stalled BIP-110 fork, which has clear significance for Bitcoin protocol governance and industry audiences.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z",
+      "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
+    },
     "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688": {
       "decisionKey": "e2fa34910e598aaf471cdc5af19d2dfbe564ad987e1c873a6e9b430d65b7e688",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z"
+      "updatedAt": "2026-08-11T14:00:59.772Z"
+    },
+    "da0725728ea1453310ed2cd386d21091c1c6cb4be7cbd1785344a5b7c45ef1b0": {
+      "decisionKey": "da0725728ea1453310ed2cd386d21091c1c6cb4be7cbd1785344a5b7c45ef1b0",
+      "status": "rejected",
+      "reason": "候选仅为泛泛的趋势报道，缺少具体主体、事件或数据，未提及任何具体政策、协议升级或安全事件，对加密行业受众无明显信息增量。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z"
+    },
+    "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be": {
+      "decisionKey": "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z"
+    },
+    "879235a1ac8b368a0927f4f70503b571b99e220ffb7b90d2e8a8b5c1b9d65af3": {
+      "decisionKey": "879235a1ac8b368a0927f4f70503b571b99e220ffb7b90d2e8a8b5c1b9d65af3",
+      "status": "published",
+      "reason": "This article covers a major Bitcoin miner's reported $9.1 billion AI deal with Anthropic, reflecting a significant market structure shift where miners diversify into AI colocation. Bernstein's analysis provides specific data (80% upside, 84% EV from AI) that is valuable for crypto investors monitoring the convergence of mining and AI. The source is reputable and the content is timely.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z",
+      "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
+    },
+    "8689e66aaa290688e6ff3a858963b3865ef9fdbad839891f5da3c1dd33699f62": {
+      "decisionKey": "8689e66aaa290688e6ff3a858963b3865ef9fdbad839891f5da3c1dd33699f62",
+      "status": "rejected",
+      "reason": "The published date (2026-08-11) is in the future relative to the current date (2026-05-07), making it impossible for the source to be a real, accessible, and verifiable news item. This is a strong indicator of a test or placeholder submission and not a genuine production article.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z"
+    },
+    "81367e661863b452b4ab3c5dfa72703e079c75873815ae2dd5799595d617ee2a": {
+      "decisionKey": "81367e661863b452b4ab3c5dfa72703e079c75873815ae2dd5799595d617ee2a",
+      "status": "rejected",
+      "reason": "SharpLink 2026年第二季度因ETH下跌产生3.94亿美元净亏损，属于具体的公司财务事件，对加密行业投资者有信息增量，且来自可信来源Cointelegraph。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z"
+    },
+    "5e574a15c552a2d525ee7de115f086582500e9e117f05bfc8a8bebbcf8eea5a1": {
+      "decisionKey": "5e574a15c552a2d525ee7de115f086582500e9e117f05bfc8a8bebbcf8eea5a1",
+      "status": "rejected",
+      "reason": "TheBlock 报道的 Grvt 计划通过 Ondo Finance 配置 1 亿美元 USDY，涉及机构对链上美债产品的采用，对加密行业有明确信息增量。标题含具体主体、金额和合作对象，来源为权威媒体，符合发布门槛。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z"
+    },
+    "5137582071ef6aa80dcf570ac13ffefcb38ea9378aa9c7ad763b481aa99ae788": {
+      "decisionKey": "5137582071ef6aa80dcf570ac13ffefcb38ea9378aa9c7ad763b481aa99ae788",
+      "status": "published",
+      "reason": "This is a concrete, newsworthy item from Cointelegraph about eToro's acquisition of TradeZero and a reported 30% drop in Q2 crypto revenue. It provides specific entities, a defined event, and quantifiable data, offering clear information value for crypto industry professionals tracking market structure changes, consolidation, and trading platform performance.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z",
+      "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
+    },
+    "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d": {
+      "decisionKey": "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z"
+    },
+    "4587b6ff54ad2290fc6a50fe15a871740dd5d234110d86baa260979a63b7d3b2": {
+      "decisionKey": "4587b6ff54ad2290fc6a50fe15a871740dd5d234110d86baa260979a63b7d3b2",
+      "status": "published",
+      "reason": "俄罗斯央行提议允许比特币、以太坊和USDT在受监管交易所交易，是直接影响加密市场准入和监管格局的重要政策信号，且来源为公开权威媒体，信息具体可核验。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z",
+      "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
+    },
+    "2441ba4b20d64776aeb79389dca8594010cd5437ace89dd82651e319dd2584b5": {
+      "decisionKey": "2441ba4b20d64776aeb79389dca8594010cd5437ace89dd82651e319dd2584b5",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z"
+    },
+    "0a2433964f4887f42ec6d7c4e634b96ef2496c8f65fc13f1bb532511b8509dd3": {
+      "decisionKey": "0a2433964f4887f42ec6d7c4e634b96ef2496c8f65fc13f1bb532511b8509dd3",
+      "status": "published",
+      "reason": "传统支付巨头MoneyGram在Solana上推出全球加密到现金服务，属于重要行业整合与支付基础设施升级，对加密用户和生态有明确影响，来源为CoinDesk，可信且可核验。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-11T14:00:59.772Z",
+      "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
     },
     "de8b346095c0234ddc970ec884b79885ed223fc5a528dd7ccae918387f084cb7": {
       "decisionKey": "de8b346095c0234ddc970ec884b79885ed223fc5a528dd7ccae918387f084cb7",
@@ -51,13 +149,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T12:01:09.419Z",
       "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be": {
-      "decisionKey": "9aa53d48e0e5149dd8c56834f37b1caa68a582846f47d78552efae502033b6be",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z"
     },
     "97658a3386fa54741eb2251ff1e8866dcaaa03479e4c32bc9a1d18e3ca9a03be": {
       "decisionKey": "97658a3386fa54741eb2251ff1e8866dcaaa03479e4c32bc9a1d18e3ca9a03be",
@@ -170,13 +261,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T10:01:05.938Z",
       "bCommitSha": "4c9841c527061afbd34601336ee50394336ed2fb"
-    },
-    "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d": {
-      "decisionKey": "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T10:01:05.938Z"
     },
     "1bb5d37f0e073baabbe92085830226b49432ef9a0f41733aec6ebd6ea9c61c47": {
       "decisionKey": "1bb5d37f0e073baabbe92085830226b49432ef9a0f41733aec6ebd6ea9c61c47",
@@ -2797,17 +2881,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T12:01:09.419Z",
-    "https://cointelegraph.com/rss": "2026-08-11T12:01:09.419Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-11T14:00:59.772Z",
+    "https://cointelegraph.com/rss": "2026-08-11T14:00:59.772Z",
     "https://decrypt.co/feed": "2026-08-11T12:01:09.419Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T12:01:09.419Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T12:01:09.419Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T12:01:09.419Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-11T12:01:09.419Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-11T12:01:09.419Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-11T12:01:09.419Z",
-    "https://solana.com/rss.xml": "2026-08-11T12:01:09.419Z",
-    "https://slowmist.medium.com/feed": "2026-08-11T12:01:09.419Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-11T14:00:59.772Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-11T14:00:59.772Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-11T14:00:59.772Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-11T14:00:59.772Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-11T14:00:59.772Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-11T14:00:59.772Z",
+    "https://solana.com/rss.xml": "2026-08-11T14:00:59.772Z",
+    "https://slowmist.medium.com/feed": "2026-08-11T14:00:59.772Z",
     "https://www.theblock.co/rss.xml": "2026-08-11T02:00:28.636Z"
   },
   "lastRunAt": "2026-08-11T02:00:28.636Z"
