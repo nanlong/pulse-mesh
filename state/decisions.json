@@ -1,6 +1,100 @@
 {
   "version": 1,
   "decisions": {
+    "ece94e912633693d7b4c89d4e7795ddd025f6dcf33ea162b27abe74402658742": {
+      "decisionKey": "ece94e912633693d7b4c89d4e7795ddd025f6dcf33ea162b27abe74402658742",
+      "status": "published",
+      "reason": "纽约市议会宣布对预测市场的'掠夺性营销行为'展开调查，属于针对加密相关业务（如预测市场）的监管动向，对加密行业有直接影响和信息增量。来源为 Cointelegraph，事件、主体、时间明确，真实可核验。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z",
+      "bCommitSha": "cbf508d72170ff19fb50e19cf4939701a3c208af"
+    },
+    "e5e222bbe873cd4d3708bcf79de9d0934bbf201de85e3b007e7fa2d9c572064a": {
+      "decisionKey": "e5e222bbe873cd4d3708bcf79de9d0934bbf201de85e3b007e7fa2d9c572064a",
+      "status": "rejected",
+      "reason": "文章内容涉及AI生成图案躲避监控摄像头，属于隐私安全技术，未涉及加密货币、区块链协议、政策或市场结构，对加密行业受众缺乏明确影响和信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z"
+    },
+    "dc4630219c6f2d4cb0debf22eaed95405f0c4bb1c92f6554a662ef79b7539345": {
+      "decisionKey": "dc4630219c6f2d4cb0debf22eaed95405f0c4bb1c92f6554a662ef79b7539345",
+      "status": "rejected",
+      "reason": "该候选为AI模型性能比较新闻，与加密行业无明确关联或影响，不属于加密政策、协议升级、安全事件或市场结构变化等核心主题。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z"
+    },
+    "b09a22d544def36d2e931cba348afd638530a37f59b94141f14ee75969045666": {
+      "decisionKey": "b09a22d544def36d2e931cba348afd638530a37f59b94141f14ee75969045666",
+      "status": "rejected",
+      "reason": "The Block reports concrete financials for Hyperliquid's treasury Hyperion, showing tripled quarterly profits and increased HYPE holdings, providing verifiable information relevant to assessing the protocol's financial health.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z"
+    },
+    "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
+      "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z"
+    },
+    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
+      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z"
+    },
+    "6ac3cf1f6672b2259d118fad8f1fad6d870e8761c8f4d731699a135b8c5388ed": {
+      "decisionKey": "6ac3cf1f6672b2259d118fad8f1fad6d870e8761c8f4d731699a135b8c5388ed",
+      "status": "published",
+      "reason": "State-level regulatory action banning cryptocurrency ATMs is a concrete policy change with clear impact on the crypto industry and users, especially regarding scam mitigation and compliance landscape.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z",
+      "bCommitSha": "cbf508d72170ff19fb50e19cf4939701a3c208af"
+    },
+    "59c4a37183c615c62ffe4f68a63550d3bd4ecaacc217c13951d1352aa0d2c11a": {
+      "decisionKey": "59c4a37183c615c62ffe4f68a63550d3bd4ecaacc217c13951d1352aa0d2c11a",
+      "status": "rejected",
+      "reason": "The story is about an AI model security exploit, not directly related to the crypto industry. While it involves a security event, it lacks clear impact on crypto markets, protocols, or infrastructure, and the details are not sufficiently verifiable from the given content. It does not meet the criteria for important crypto-industry news.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z"
+    },
+    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
+      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z"
+    },
+    "2384d7935921ed9de0d83d7ae899be0e98faf7c354d4509ae4c69dd1b2e0237e": {
+      "decisionKey": "2384d7935921ed9de0d83d7ae899be0e98faf7c354d4509ae4c69dd1b2e0237e",
+      "status": "published",
+      "reason": "Goldman Sachs' $2.25B acquisition of NEOS adds a $30B ETF business including Bitcoin- and Ether-linked income funds, marking a major institutional move into crypto-linked products. This is a specific, verifiable financial event with clear significance for crypto market structure and institutional adoption.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z",
+      "bCommitSha": "cbf508d72170ff19fb50e19cf4939701a3c208af"
+    },
+    "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182": {
+      "decisionKey": "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z"
+    },
+    "10536e31feb85a8e7f3f5a335a9f4812eb33285ee9989ff17c47930c492e3d2e": {
+      "decisionKey": "10536e31feb85a8e7f3f5a335a9f4812eb33285ee9989ff17c47930c492e3d2e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T22:01:01.071Z"
+    },
     "f5045b2f11e4ca602f5fe8077357dbd136e46a27e8b119de896b89b0e2ecec75": {
       "decisionKey": "f5045b2f11e4ca602f5fe8077357dbd136e46a27e8b119de896b89b0e2ecec75",
       "status": "rejected",
@@ -35,20 +129,6 @@
       "updatedAt": "2026-08-12T20:01:04.242Z",
       "bCommitSha": "080841e00b6bf6f1008341f1c67f65623241c362"
     },
-    "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
-      "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T20:01:04.242Z"
-    },
-    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
-      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T20:01:04.242Z"
-    },
     "46a0d75b1104d12134868dbb7905c9ebaf38957879720b5730c9c8379ff1f886": {
       "decisionKey": "46a0d75b1104d12134868dbb7905c9ebaf38957879720b5730c9c8379ff1f886",
       "status": "published",
@@ -57,20 +137,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T20:01:04.242Z",
       "bCommitSha": "080841e00b6bf6f1008341f1c67f65623241c362"
-    },
-    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
-      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T20:01:04.242Z"
-    },
-    "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182": {
-      "decisionKey": "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T20:01:04.242Z"
     },
     "0634d44c75838c81cc0b164ac2972b56b715c6bf6c78c59addfeb648dc77125f": {
       "decisionKey": "0634d44c75838c81cc0b164ac2972b56b715c6bf6c78c59addfeb648dc77125f",
@@ -3838,17 +3904,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T20:01:04.242Z",
-    "https://cointelegraph.com/rss": "2026-08-12T20:01:04.242Z",
-    "https://decrypt.co/feed": "2026-08-12T20:01:04.242Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T20:01:04.242Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T20:01:04.242Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T20:01:04.242Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T20:01:04.242Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T20:01:04.242Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T20:01:04.242Z",
-    "https://solana.com/rss.xml": "2026-08-12T20:01:04.242Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T20:01:04.242Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T22:01:01.071Z",
+    "https://cointelegraph.com/rss": "2026-08-12T22:01:01.071Z",
+    "https://decrypt.co/feed": "2026-08-12T22:01:01.071Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T22:01:01.071Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T22:01:01.071Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T22:01:01.071Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-12T22:01:01.071Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-12T22:01:01.071Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-12T22:01:01.071Z",
+    "https://solana.com/rss.xml": "2026-08-12T22:01:01.071Z",
+    "https://slowmist.medium.com/feed": "2026-08-12T22:01:01.071Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
