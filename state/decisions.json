@@ -1,6 +1,134 @@
 {
   "version": 1,
   "decisions": {
+    "dfaef55c52394e47d966fad58dceef31285be48734af76dc4c9c7005bd933ed4": {
+      "decisionKey": "dfaef55c52394e47d966fad58dceef31285be48734af76dc4c9c7005bd933ed4",
+      "status": "published",
+      "reason": "CoinDesk 报道 Solana 主网险些停机并引述 Marinade Finance，事件具体、来源可核验，涉及主流公链稳定性，对加密生态有明确影响。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z",
+      "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
+    },
+    "bf918858c25376228f909ce9d9345f9645c574c49c76d449b6ac6d1098a690d6": {
+      "decisionKey": "bf918858c25376228f909ce9d9345f9645c574c49c76d449b6ac6d1098a690d6",
+      "status": "published",
+      "reason": "Standard Chartered-backed Anchorpoint's HKDAP stablecoin rollout is a concrete, verifiable development with specific entities, event, and date, directly relevant to crypto market structure and institutional stablecoin adoption.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z",
+      "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
+    },
+    "a60329bd43ade5c04687f53ea8b12df6a2d7667e3db0854e53fe7fb265319a64": {
+      "decisionKey": "a60329bd43ade5c04687f53ea8b12df6a2d7667e3db0854e53fe7fb265319a64",
+      "status": "rejected",
+      "reason": "The candidate is only a one-line newsletter teaser lacking specific details, data, or verifiable event information. It mentions CFTC and Kalshi but provides no concrete action, court case, or outcome, making it insufficient evidence for a meaningful publication.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z"
+    },
+    "9bb6532c042a48690c7fbc041f404f1e4d18201283a67e4831b936cc45ac7374": {
+      "decisionKey": "9bb6532c042a48690c7fbc041f404f1e4d18201283a67e4831b936cc45ac7374",
+      "status": "rejected",
+      "reason": "Opinion piece lacks specific event, data, or concrete policy change; only a general argument about payment system access, providing limited verifiable information for crypto industry decision-making.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z"
+    },
+    "9658c907f99b7aa3295b1388ca3ae2e3b1acc0dd6e6420000a4ddd4fccd2d17c": {
+      "decisionKey": "9658c907f99b7aa3295b1388ca3ae2e3b1acc0dd6e6420000a4ddd4fccd2d17c",
+      "status": "rejected",
+      "reason": "内容为'Report'报道性质，属于传闻，未经官方确认，且涉及传统金融和AI投资，对加密行业受众无明确直接影响，证据不足。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z"
+    },
+    "91594d55aba9f54f8d440f23ea07f9896a3e72e06c5d1df735bea72a89937681": {
+      "decisionKey": "91594d55aba9f54f8d440f23ea07f9896a3e72e06c5d1df735bea72a89937681",
+      "status": "published",
+      "reason": "真实新闻来源，报道Bitwise因加密市场低迷裁员14%，涉及具体公司事件和比例，对加密行业从业者和投资者有明确行业信号意义，且与Coinbase等裁员形成对照，具有信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z",
+      "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
+    },
+    "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb": {
+      "decisionKey": "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb",
+      "status": "published",
+      "reason": "Harmony confirms a security exploit involving unauthorized minting of 4 billion ONE tokens, a significant on-chain incident with clear impact for Harmony users and the broader crypto market.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z",
+      "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
+    },
+    "58b0672ed15dbcad9e8f38aaa3ad6dc5a83164099fbd8b43bfc37003bfd91384": {
+      "decisionKey": "58b0672ed15dbcad9e8f38aaa3ad6dc5a83164099fbd8b43bfc37003bfd91384",
+      "status": "published",
+      "reason": "斯洛文尼亚首次有发行商进入欧盟MiCA稳定币注册，并新增两个加密资产服务提供商，是明确的监管进展，对加密行业有信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z",
+      "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
+    },
+    "5256c7c8f93997fc24726c8d10895790cf347d30291662662ac8e89f84853f02": {
+      "decisionKey": "5256c7c8f93997fc24726c8d10895790cf347d30291662662ac8e89f84853f02",
+      "status": "published",
+      "reason": "The Block is a credible crypto news source; the article reports on specific market data (three-year low in perpetual trading activity) and an upcoming macro event (US CPI) with analysis from K33, providing actionable insight for crypto traders and market observers.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z",
+      "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
+    },
+    "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea": {
+      "decisionKey": "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z"
+    },
+    "3c2918dbf49d4760188451d50a16ce0225d2cbf84c7f9b774317a443d9e66da4": {
+      "decisionKey": "3c2918dbf49d4760188451d50a16ce0225d2cbf84c7f9b774317a443d9e66da4",
+      "status": "published",
+      "reason": "This is a timely, substantive retrospective on El Salvador's Bitcoin legal tender policy, a key event for crypto industry understanding of national adoption and its real-world impact. The source is a reputable crypto news outlet, and the piece offers analysis and data-backed reflection rather than price speculation or marketing.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z",
+      "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
+    },
+    "25a1d6794d06febe09f3693f69522bad5edeadc61cc046fa1cb70b12d182a9ab": {
+      "decisionKey": "25a1d6794d06febe09f3693f69522bad5edeadc61cc046fa1cb70b12d182a9ab",
+      "status": "published",
+      "reason": "Fidelity's SEC filing to add staking to its Ethereum ETF is a significant development for crypto investors, affecting ETF utility, staking yields, and regulatory precedent.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z",
+      "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
+    },
+    "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182": {
+      "decisionKey": "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z"
+    },
+    "16ec2c46857944f08a70c2a2b05c1b57f9dd36042ad05c71596393e2bbf83967": {
+      "decisionKey": "16ec2c46857944f08a70c2a2b05c1b57f9dd36042ad05c71596393e2bbf83967",
+      "status": "published",
+      "reason": "真实新闻来源，涉及渣打银行主导推出港币稳定币HKDAP，并有HashKey和OSL作为授权分销商，对加密行业稳定币市场和机构采用有明确影响，信息增量高。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z",
+      "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
+    },
+    "0a7cd5b20e2a0bd002551307a7c14a5fe9a85540c562191f1b3cc5b6c9697207": {
+      "decisionKey": "0a7cd5b20e2a0bd002551307a7c14a5fe9a85540c562191f1b3cc5b6c9697207",
+      "status": "published",
+      "reason": "CoinDesk reports real U.S. CPI data (3.4%) and its immediate market impact on bitcoin and Treasury yields, providing concrete, verifiable information relevant to crypto asset pricing and macro conditions.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T14:00:56.607Z",
+      "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
+    },
     "f19ee89d22d21e8dd7504c077c2cfd3592b7a285bf9b106a052fd1390f9d5cb5": {
       "decisionKey": "f19ee89d22d21e8dd7504c077c2cfd3592b7a285bf9b106a052fd1390f9d5cb5",
       "status": "published",
@@ -44,31 +172,10 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T12:00:51.310Z"
     },
-    "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb": {
-      "decisionKey": "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T12:00:51.310Z"
-    },
     "537057d4da62b9c6caf06f62da7aa6214b1208aea2ae50ed141c20866c3f037d": {
       "decisionKey": "537057d4da62b9c6caf06f62da7aa6214b1208aea2ae50ed141c20866c3f037d",
       "status": "rejected",
       "reason": "content-too-short",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T12:00:51.310Z"
-    },
-    "5256c7c8f93997fc24726c8d10895790cf347d30291662662ac8e89f84853f02": {
-      "decisionKey": "5256c7c8f93997fc24726c8d10895790cf347d30291662662ac8e89f84853f02",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T12:00:51.310Z"
-    },
-    "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea": {
-      "decisionKey": "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T12:00:51.310Z"
     },
@@ -3490,17 +3597,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T12:00:51.310Z",
-    "https://cointelegraph.com/rss": "2026-08-12T12:00:51.310Z",
-    "https://decrypt.co/feed": "2026-08-12T12:00:51.310Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T12:00:51.310Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T12:00:51.310Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T12:00:51.310Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T12:00:51.310Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T12:00:51.310Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T12:00:51.310Z",
-    "https://solana.com/rss.xml": "2026-08-12T12:00:51.310Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T12:00:51.310Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T14:00:56.607Z",
+    "https://cointelegraph.com/rss": "2026-08-12T14:00:56.607Z",
+    "https://decrypt.co/feed": "2026-08-12T14:00:56.607Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T14:00:56.607Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T14:00:56.607Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T14:00:56.607Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-12T14:00:56.607Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-12T14:00:56.607Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-12T14:00:56.607Z",
+    "https://solana.com/rss.xml": "2026-08-12T14:00:56.607Z",
+    "https://slowmist.medium.com/feed": "2026-08-12T14:00:56.607Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
