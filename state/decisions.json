@@ -1,6 +1,40 @@
 {
   "version": 1,
   "decisions": {
+    "e4237cf2a1dd272a3bd496c09c3dd00cea095fa5b7f81187e7a9ccf3c35a9671": {
+      "decisionKey": "e4237cf2a1dd272a3bd496c09c3dd00cea095fa5b7f81187e7a9ccf3c35a9671",
+      "status": "rejected",
+      "reason": "The item reports a concrete on-chain milestone for Robinhood Chain: 11.6 million daily transactions and rising TVL linked to USDe. This is a specific, verifiable metric about a notable crypto ecosystem chain, not a price call or marketing post.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T04:00:58.069Z"
+    },
+    "e03a15f7a4ee26bc1a8290cb8bcc973cd113c678f53be10398ca804f04a430a0": {
+      "decisionKey": "e03a15f7a4ee26bc1a8290cb8bcc973cd113c678f53be10398ca804f04a430a0",
+      "status": "published",
+      "reason": "The article reports on a concrete legislative development (the Clarity Act) involving a named official (Sen. John Thune) and a specific timeline (vote postponed to September), sourced from a reputable crypto news outlet (The Block). This is policy news with direct implications for the crypto industry, providing timely and relevant information.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T04:00:58.069Z",
+      "bCommitSha": "900af62c75ff3714a53482e7a18882fc09a0d420"
+    },
+    "87d054c5dda2504d3f4aa0190104cc629294f0a849aeb669b6f1b820a4770fb6": {
+      "decisionKey": "87d054c5dda2504d3f4aa0190104cc629294f0a849aeb669b6f1b820a4770fb6",
+      "status": "rejected",
+      "reason": "候选内容仅为标题，无正文或具体细节，无法核验事件真实性、时间、数据或影响。来源虽然为慢雾官方Medium，但内容不完整，属于证据不足。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T04:00:58.069Z"
+    },
+    "77d12ea505ed390e4c27abe5aef47898835f39db2fd9b7cb1bde815824daf820": {
+      "decisionKey": "77d12ea505ed390e4c27abe5aef47898835f39db2fd9b7cb1bde815824daf820",
+      "status": "published",
+      "reason": "Ravencoin网络遭遇共识漏洞，矿池可能触发三天重组，直接威胁交易安全并引发币价创记录新低，属于影响明确的协议安全事件，对加密行业受众有高信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T04:00:58.069Z",
+      "bCommitSha": "900af62c75ff3714a53482e7a18882fc09a0d420"
+    },
     "f297ff6bb92ca302de818c3c8d23e1f2e49ef60a9843a1a28b143f8b29bae690": {
       "decisionKey": "f297ff6bb92ca302de818c3c8d23e1f2e49ef60a9843a1a28b143f8b29bae690",
       "status": "published",
@@ -9,20 +43,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T02:01:02.204Z",
       "bCommitSha": "d6f8139042bf713d6028f7a879989a02b6c6b0a4"
-    },
-    "e4237cf2a1dd272a3bd496c09c3dd00cea095fa5b7f81187e7a9ccf3c35a9671": {
-      "decisionKey": "e4237cf2a1dd272a3bd496c09c3dd00cea095fa5b7f81187e7a9ccf3c35a9671",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T02:01:02.204Z"
-    },
-    "e03a15f7a4ee26bc1a8290cb8bcc973cd113c678f53be10398ca804f04a430a0": {
-      "decisionKey": "e03a15f7a4ee26bc1a8290cb8bcc973cd113c678f53be10398ca804f04a430a0",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T02:01:02.204Z"
     },
     "90a6311ff5d94cc54dcf9568f40ef8503ee8e29eeb93c291717a01409c2b0e07": {
       "decisionKey": "90a6311ff5d94cc54dcf9568f40ef8503ee8e29eeb93c291717a01409c2b0e07",
@@ -3241,18 +3261,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T02:01:02.204Z",
-    "https://cointelegraph.com/rss": "2026-08-12T00:01:00.931Z",
-    "https://decrypt.co/feed": "2026-08-12T02:01:02.204Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T02:01:02.204Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T02:01:02.204Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T02:01:02.204Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T02:01:02.204Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T02:01:02.204Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T02:01:02.204Z",
-    "https://solana.com/rss.xml": "2026-08-12T02:01:02.204Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T02:01:02.204Z",
-    "https://www.theblock.co/rss.xml": "2026-08-11T02:00:28.636Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T04:00:58.069Z",
+    "https://cointelegraph.com/rss": "2026-08-12T04:00:58.069Z",
+    "https://decrypt.co/feed": "2026-08-12T04:00:58.069Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T04:00:58.069Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T04:00:58.069Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T04:00:58.069Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-12T04:00:58.069Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-12T04:00:58.069Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-12T04:00:58.069Z",
+    "https://solana.com/rss.xml": "2026-08-12T04:00:58.069Z",
+    "https://slowmist.medium.com/feed": "2026-08-12T04:00:58.069Z",
+    "https://www.theblock.co/rss.xml": "2026-08-12T04:00:58.069Z"
   },
-  "lastRunAt": "2026-08-11T02:00:28.636Z"
+  "lastRunAt": "2026-08-12T04:00:58.069Z"
 }
