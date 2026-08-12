@@ -1,12 +1,152 @@
 {
   "version": 1,
   "decisions": {
+    "e152f010d9eea3bc045e00d90a8505c47bc120c052c5a3bad9ab63c912c73dc0": {
+      "decisionKey": "e152f010d9eea3bc045e00d90a8505c47bc120c052c5a3bad9ab63c912c73dc0",
+      "status": "published",
+      "reason": "该新闻来自Cointelegraph，报道了英国央行数字英镑实验室测试稳定币与数字英镑在跨境支付中的互操作性，属于央行数字货币和稳定币领域的重大进展，对加密行业有清晰的信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z",
+      "bCommitSha": "2c3edfdba2c341f3bcb6a2905cd830367e022bec"
+    },
     "d7b2d8234745941891b3ca3e5b4f61f3d6d2ce6eacbd998be6cddb891e787273": {
       "decisionKey": "d7b2d8234745941891b3ca3e5b4f61f3d6d2ce6eacbd998be6cddb891e787273",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "rejected",
+      "reason": "这是关于加密货币富翁前住所被错误闯入的轶事性犯罪报道，对加密行业无明确政策、协议、安全或市场结构影响，缺乏针对目标受众的信息增量。",
+      "score": 0.1,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T16:00:55.753Z"
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "ce7d839dbd951bd29b4f67a79cf494176b546515de71e026f46f97d0beb1f869": {
+      "decisionKey": "ce7d839dbd951bd29b4f67a79cf494176b546515de71e026f46f97d0beb1f869",
+      "status": "published",
+      "reason": "Kalshi, a regulated prediction market, integrating Solana-based DoubleZero data feed signals growing institutional adoption and infrastructure upgrades for Solana, which is relevant to crypto market structure.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z",
+      "bCommitSha": "2c3edfdba2c341f3bcb6a2905cd830367e022bec"
+    },
+    "be7c993f9a2c90130661d7013a374a96ecc35cd2ef641eed6e1f4b898cee46ed": {
+      "decisionKey": "be7c993f9a2c90130661d7013a374a96ecc35cd2ef641eed6e1f4b898cee46ed",
+      "status": "rejected",
+      "reason": "The Block is a credible crypto news source. The article reports a concrete development: SKALE launches Agent Pit, a paper-trading sandbox for training AI agents before they are deployed on Polymarket. This is a specific product launch with a clear subject, event, and purpose. It adds information for builders interested in AI-agent and prediction-market experimentation, and it highlights an ongoing trend at the intersection of crypto and AI. While it is a launch announcement, it is not purely promotional and offers a nuanced utility for a niche audience.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "a585f4b576141953bed5384f4fbdb0a6bc5a9252d2754b76a426678a284ebf72": {
+      "decisionKey": "a585f4b576141953bed5384f4fbdb0a6bc5a9252d2754b76a426678a284ebf72",
+      "status": "rejected",
+      "reason": "Candidate publication date (2026-08-12) is in the future relative to the current date, making it impossible to verify as a real, public, accessible news item. It is rejected as potentially fabricated, placeholder, or unverifiable content.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "8fd71dfb82e0e50eee1f304e93832f23c72be3152b6bdb48692057eb8e34f8c1": {
+      "decisionKey": "8fd71dfb82e0e50eee1f304e93832f23c72be3152b6bdb48692057eb8e34f8c1",
+      "status": "rejected",
+      "reason": "Content is extremely thin, lacks specific technical details (no CVE, no affected versions, no verifiable data), and does not establish a clear impact on the cryptocurrency industry. It reads more like a placeholder or breaking news teaser than a substantive, verifiable security report. The claim that AI was used to build a critical Zoom exploit in one day is not backed by concrete evidence, and the connection to crypto audiences is indirect at best.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
+      "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "84aa28c56d6ff3aced83df0b130c5bbfd2abe14cb4ce6bfc9286be6015236071": {
+      "decisionKey": "84aa28c56d6ff3aced83df0b130c5bbfd2abe14cb4ce6bfc9286be6015236071",
+      "status": "rejected",
+      "reason": "The candidate is an opinion piece centered on a past BIP failure and a director's commentary. It does not represent a significant policy change, protocol upgrade, security incident, or market structure shift. Its informational value for the crypto audience is limited and tangential.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "7ce4fbd0160f826a96e1909a4e10ad28441c5ab41a9daa5f51fe53a0bfa37e60": {
+      "decisionKey": "7ce4fbd0160f826a96e1909a4e10ad28441c5ab41a9daa5f51fe53a0bfa37e60",
+      "status": "rejected",
+      "reason": "Candidate has a future publication date (2026-08-12) that cannot be verified as a real, accessible article; it appears to be a placeholder or test entry, not a production source.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "72fac52b1731a7d68bea4e9ca4df58767660d088b39fc4c39860340bf213f8f7": {
+      "decisionKey": "72fac52b1731a7d68bea4e9ca4df58767660d088b39fc4c39860340bf213f8f7",
+      "status": "rejected",
+      "reason": "报道Kalshi预测市场相关法律纠纷的快速反转，涉及事件合约数据来源的监管争议，对关注预测市场合规的加密受众有信息增量。",
+      "score": 0.62,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "72ee99b63dc9844a4f80c500b31a86453fc11b5408f1a41a37688562209bcc8c": {
+      "decisionKey": "72ee99b63dc9844a4f80c500b31a86453fc11b5408f1a41a37688562209bcc8c",
+      "status": "rejected",
+      "reason": "The candidate is a routine executive hiring announcement for Polymarket. While the source is credible and the information is factual, it does not constitute a significant policy change, protocol upgrade, security incident, or market structure shift critical to the crypto audience. The impact and information increment for the industry are limited, making it low-priority news.",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "5f8aa0627033b6846b22214c38925c50a8c7abd130babfb38c5241e570dc6aee": {
+      "decisionKey": "5f8aa0627033b6846b22214c38925c50a8c7abd130babfb38c5241e570dc6aee",
+      "status": "rejected",
+      "reason": "Wintermute是加密市场重要做市商，其计划10亿美元拓展AI业务并调整收入结构，对加密行业参与者有参考意义，属于公司战略变化的实质信息。但内容简短且转引自Bloomberg，增量有限。",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "4913f65c6ac2bab38722dbecac56183459f95933b6c88d8a75d2c0c140ee58e7": {
+      "decisionKey": "4913f65c6ac2bab38722dbecac56183459f95933b6c88d8a75d2c0c140ee58e7",
+      "status": "rejected",
+      "reason": "Real news from Cointelegraph about Bitcoin price reaction to US CPI data and Fed rate pause odds, providing specific figures and market analysis relevant to crypto audiences.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "399eda3e35c1048d411e2a1e0eaebdf68a5c4222d48e37135391654905611c7f": {
+      "decisionKey": "399eda3e35c1048d411e2a1e0eaebdf68a5c4222d48e37135391654905611c7f",
+      "status": "published",
+      "reason": "RIA 从真实新闻源 decrypt.co 报道了美国 CPI 降至 3.4% 后比特币反应平淡这一具体事件，包含主体（比特币）、事件（通胀数据发布）、时间（2026-08-12）和数据（3.4%），对关注宏观政策与加密市场联动的受众有信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z",
+      "bCommitSha": "2c3edfdba2c341f3bcb6a2905cd830367e022bec"
+    },
+    "34d034278a87ccfff23e7a5687c5e1ea1aa50d0a4a6fefbd82c998f64f744d34": {
+      "decisionKey": "34d034278a87ccfff23e7a5687c5e1ea1aa50d0a4a6fefbd82c998f64f744d34",
+      "status": "rejected",
+      "reason": "该候选为解释性科普文章，缺乏具体主体、事件、时间或数据，不属于重要政策、协议升级、安全事件或市场结构变化，信息增量有限。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
+      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z"
+    },
+    "0c537d837242e1ad62641e2486b1eb217af233a1333bffc7150a36a0daef37d0": {
+      "decisionKey": "0c537d837242e1ad62641e2486b1eb217af233a1333bffc7150a36a0daef37d0",
+      "status": "published",
+      "reason": "Cointelegraph 报道 HashKey 开始分发香港监管的 HKDAP 稳定币，涉及具体主体、事件和监管背景，对加密行业有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z",
+      "bCommitSha": "2c3edfdba2c341f3bcb6a2905cd830367e022bec"
+    },
+    "08bd33f93e73947d93779071ecd1bcdf472e5491aeccd576b6af76df02447a44": {
+      "decisionKey": "08bd33f93e73947d93779071ecd1bcdf472e5491aeccd576b6af76df02447a44",
+      "status": "published",
+      "reason": "Fidelity, a major asset manager, filed to stake up to 100% of its Ethereum ETF holdings and distribute rewards to investors, subject to SEC approval. This is a concrete regulatory development with potential impact on the crypto market structure and ETF adoption.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T18:01:08.940Z",
+      "bCommitSha": "2c3edfdba2c341f3bcb6a2905cd830367e022bec"
     },
     "d433e3cc3bc22d2fdc9eaebc812933f8b4b88e17e927e5660f9e158b4c7d1303": {
       "decisionKey": "d433e3cc3bc22d2fdc9eaebc812933f8b4b88e17e927e5660f9e158b4c7d1303",
@@ -16,20 +156,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T16:00:55.753Z",
       "bCommitSha": "0dc9a3937cb879ec0423a1a612d926ffefd5ae79"
-    },
-    "be7c993f9a2c90130661d7013a374a96ecc35cd2ef641eed6e1f4b898cee46ed": {
-      "decisionKey": "be7c993f9a2c90130661d7013a374a96ecc35cd2ef641eed6e1f4b898cee46ed",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T16:00:55.753Z"
-    },
-    "84aa28c56d6ff3aced83df0b130c5bbfd2abe14cb4ce6bfc9286be6015236071": {
-      "decisionKey": "84aa28c56d6ff3aced83df0b130c5bbfd2abe14cb4ce6bfc9286be6015236071",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T16:00:55.753Z"
     },
     "8324799b60db168b83f57d91ac257decbab4fefc5941f0c5c4216158b0af4434": {
       "decisionKey": "8324799b60db168b83f57d91ac257decbab4fefc5941f0c5c4216158b0af4434",
@@ -49,39 +175,11 @@
       "updatedAt": "2026-08-12T16:00:55.753Z",
       "bCommitSha": "0dc9a3937cb879ec0423a1a612d926ffefd5ae79"
     },
-    "4913f65c6ac2bab38722dbecac56183459f95933b6c88d8a75d2c0c140ee58e7": {
-      "decisionKey": "4913f65c6ac2bab38722dbecac56183459f95933b6c88d8a75d2c0c140ee58e7",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T16:00:55.753Z"
-    },
     "461258d71fd233bad4dac71373f47bcc9fc51f9f02a4014d6941dd55ce705264": {
       "decisionKey": "461258d71fd233bad4dac71373f47bcc9fc51f9f02a4014d6941dd55ce705264",
       "status": "rejected",
       "reason": "重要宏观数据（CPI）发布后比特币价格出现明确反应，涉及美联储政策预期，对加密市场有直接影响且信息有新意。",
       "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T16:00:55.753Z"
-    },
-    "399eda3e35c1048d411e2a1e0eaebdf68a5c4222d48e37135391654905611c7f": {
-      "decisionKey": "399eda3e35c1048d411e2a1e0eaebdf68a5c4222d48e37135391654905611c7f",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T16:00:55.753Z"
-    },
-    "34d034278a87ccfff23e7a5687c5e1ea1aa50d0a4a6fefbd82c998f64f744d34": {
-      "decisionKey": "34d034278a87ccfff23e7a5687c5e1ea1aa50d0a4a6fefbd82c998f64f744d34",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T16:00:55.753Z"
-    },
-    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
-      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
-      "status": "failed",
-      "reason": "The operation timed out.",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T16:00:55.753Z"
     },
@@ -3682,17 +3780,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T16:00:55.753Z",
-    "https://cointelegraph.com/rss": "2026-08-12T14:00:56.607Z",
-    "https://decrypt.co/feed": "2026-08-12T14:00:56.607Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T16:00:55.753Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T16:00:55.753Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T16:00:55.753Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T16:00:55.753Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T16:00:55.753Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T16:00:55.753Z",
-    "https://solana.com/rss.xml": "2026-08-12T16:00:55.753Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T16:00:55.753Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T18:01:08.940Z",
+    "https://cointelegraph.com/rss": "2026-08-12T18:01:08.940Z",
+    "https://decrypt.co/feed": "2026-08-12T18:01:08.940Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T18:01:08.940Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T18:01:08.940Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T18:01:08.940Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-12T18:01:08.940Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-12T18:01:08.940Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-12T18:01:08.940Z",
+    "https://solana.com/rss.xml": "2026-08-12T18:01:08.940Z",
+    "https://slowmist.medium.com/feed": "2026-08-12T18:01:08.940Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
