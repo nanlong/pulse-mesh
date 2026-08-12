@@ -1,6 +1,105 @@
 {
   "version": 1,
   "decisions": {
+    "d7b2d8234745941891b3ca3e5b4f61f3d6d2ce6eacbd998be6cddb891e787273": {
+      "decisionKey": "d7b2d8234745941891b3ca3e5b4f61f3d6d2ce6eacbd998be6cddb891e787273",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z"
+    },
+    "d433e3cc3bc22d2fdc9eaebc812933f8b4b88e17e927e5660f9e158b4c7d1303": {
+      "decisionKey": "d433e3cc3bc22d2fdc9eaebc812933f8b4b88e17e927e5660f9e158b4c7d1303",
+      "status": "published",
+      "reason": "真实新闻来源 decryp.co 报道了 Solana 网络因路由错误导致约 29% 质押 SOL 离线，接近 33% 的终局性失效阈值，属于具体的协议稳定性与安全事件，对加密行业用户具有明确的信息增量和影响。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z",
+      "bCommitSha": "0dc9a3937cb879ec0423a1a612d926ffefd5ae79"
+    },
+    "be7c993f9a2c90130661d7013a374a96ecc35cd2ef641eed6e1f4b898cee46ed": {
+      "decisionKey": "be7c993f9a2c90130661d7013a374a96ecc35cd2ef641eed6e1f4b898cee46ed",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z"
+    },
+    "84aa28c56d6ff3aced83df0b130c5bbfd2abe14cb4ce6bfc9286be6015236071": {
+      "decisionKey": "84aa28c56d6ff3aced83df0b130c5bbfd2abe14cb4ce6bfc9286be6015236071",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z"
+    },
+    "8324799b60db168b83f57d91ac257decbab4fefc5941f0c5c4216158b0af4434": {
+      "decisionKey": "8324799b60db168b83f57d91ac257decbab4fefc5941f0c5c4216158b0af4434",
+      "status": "published",
+      "reason": "Announcement of USDCx, a privacy-focused stablecoin by Miden, is a notable development in the crypto space, relevant to stablecoin innovation, privacy, and compliance. It is from a credible source and provides specific information about product features.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z",
+      "bCommitSha": "0dc9a3937cb879ec0423a1a612d926ffefd5ae79"
+    },
+    "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea": {
+      "decisionKey": "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea",
+      "status": "published",
+      "reason": "ASIC's enforcement action against Yepbit is a concrete regulatory event affecting crypto users, with reported blocked withdrawals and false claims, making it significant for crypto industry stakeholders.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z",
+      "bCommitSha": "0dc9a3937cb879ec0423a1a612d926ffefd5ae79"
+    },
+    "4913f65c6ac2bab38722dbecac56183459f95933b6c88d8a75d2c0c140ee58e7": {
+      "decisionKey": "4913f65c6ac2bab38722dbecac56183459f95933b6c88d8a75d2c0c140ee58e7",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z"
+    },
+    "461258d71fd233bad4dac71373f47bcc9fc51f9f02a4014d6941dd55ce705264": {
+      "decisionKey": "461258d71fd233bad4dac71373f47bcc9fc51f9f02a4014d6941dd55ce705264",
+      "status": "rejected",
+      "reason": "重要宏观数据（CPI）发布后比特币价格出现明确反应，涉及美联储政策预期，对加密市场有直接影响且信息有新意。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z"
+    },
+    "399eda3e35c1048d411e2a1e0eaebdf68a5c4222d48e37135391654905611c7f": {
+      "decisionKey": "399eda3e35c1048d411e2a1e0eaebdf68a5c4222d48e37135391654905611c7f",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z"
+    },
+    "34d034278a87ccfff23e7a5687c5e1ea1aa50d0a4a6fefbd82c998f64f744d34": {
+      "decisionKey": "34d034278a87ccfff23e7a5687c5e1ea1aa50d0a4a6fefbd82c998f64f744d34",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z"
+    },
+    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
+      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z"
+    },
+    "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182": {
+      "decisionKey": "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z"
+    },
+    "0fb4d41d60486f6cb9facc230498e4831e002aa4ff0b1088d82e1ef638e6435a": {
+      "decisionKey": "0fb4d41d60486f6cb9facc230498e4831e002aa4ff0b1088d82e1ef638e6435a",
+      "status": "rejected",
+      "reason": "This is an opinion/commentary column, not a factual news report. It lacks specific data, events, or verifiable claims, and does not provide a clear, concrete impact on the crypto industry. The content is a general market commentary about stablecoins and tokenization, which does not meet the threshold for important, publishable information.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T16:00:55.753Z"
+    },
     "dfaef55c52394e47d966fad58dceef31285be48734af76dc4c9c7005bd933ed4": {
       "decisionKey": "dfaef55c52394e47d966fad58dceef31285be48734af76dc4c9c7005bd933ed4",
       "status": "published",
@@ -79,13 +178,6 @@
       "updatedAt": "2026-08-12T14:00:56.607Z",
       "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
     },
-    "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea": {
-      "decisionKey": "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T14:00:56.607Z"
-    },
     "3c2918dbf49d4760188451d50a16ce0225d2cbf84c7f9b774317a443d9e66da4": {
       "decisionKey": "3c2918dbf49d4760188451d50a16ce0225d2cbf84c7f9b774317a443d9e66da4",
       "status": "published",
@@ -103,13 +195,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T14:00:56.607Z",
       "bCommitSha": "7878dea2f8018063213fe1f423bab8f417c2d94d"
-    },
-    "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182": {
-      "decisionKey": "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T14:00:56.607Z"
     },
     "16ec2c46857944f08a70c2a2b05c1b57f9dd36042ad05c71596393e2bbf83967": {
       "decisionKey": "16ec2c46857944f08a70c2a2b05c1b57f9dd36042ad05c71596393e2bbf83967",
@@ -3597,17 +3682,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T14:00:56.607Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T16:00:55.753Z",
     "https://cointelegraph.com/rss": "2026-08-12T14:00:56.607Z",
     "https://decrypt.co/feed": "2026-08-12T14:00:56.607Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T14:00:56.607Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T14:00:56.607Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T14:00:56.607Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T14:00:56.607Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T14:00:56.607Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T14:00:56.607Z",
-    "https://solana.com/rss.xml": "2026-08-12T14:00:56.607Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T14:00:56.607Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T16:00:55.753Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T16:00:55.753Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T16:00:55.753Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-12T16:00:55.753Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-12T16:00:55.753Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-12T16:00:55.753Z",
+    "https://solana.com/rss.xml": "2026-08-12T16:00:55.753Z",
+    "https://slowmist.medium.com/feed": "2026-08-12T16:00:55.753Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
