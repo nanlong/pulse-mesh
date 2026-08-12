@@ -1,6 +1,95 @@
 {
   "version": 1,
   "decisions": {
+    "f19ee89d22d21e8dd7504c077c2cfd3592b7a285bf9b106a052fd1390f9d5cb5": {
+      "decisionKey": "f19ee89d22d21e8dd7504c077c2cfd3592b7a285bf9b106a052fd1390f9d5cb5",
+      "status": "published",
+      "reason": "Harmony ONE 遭攻击者铸造40亿代币，代币价格下跌37%，团队考虑回滚，属于重大安全事件，对加密行业有明确影响。",
+      "score": 1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z",
+      "bCommitSha": "5d57ee8a9d4bbf983f846d14772cac0caa476d14"
+    },
+    "ebb96ca133083b27f4b31bd41fce615d43afc74f8c5bcffce9934ac82a9df18f": {
+      "decisionKey": "ebb96ca133083b27f4b31bd41fce615d43afc74f8c5bcffce9934ac82a9df18f",
+      "status": "published",
+      "reason": "来源为Cointelegraph真实新闻，涉及Binance与RedotPay间4.73亿美元新加坡诉讼纠纷，含具体主体、金额和事件，对加密行业交易平台法律风险有信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z",
+      "bCommitSha": "5d57ee8a9d4bbf983f846d14772cac0caa476d14"
+    },
+    "e5393d0ad544d3acffc2f0c1d35538c867016dee84538aa51946b1c15c35ebc9": {
+      "decisionKey": "e5393d0ad544d3acffc2f0c1d35538c867016dee84538aa51946b1c15c35ebc9",
+      "status": "rejected",
+      "reason": "该候选来自CoinDesk真实新闻源，包含具体事件（Harmony漏洞、美国通胀数据）和具体数据（比特币价格），对加密行业受众有明确影响，属于重要的市场和安全事件报道，具有信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z"
+    },
+    "d922412d7549e037433ec86317a237ea51f13f5336f2227cb928ea80d442887f": {
+      "decisionKey": "d922412d7549e037433ec86317a237ea51f13f5336f2227cb928ea80d442887f",
+      "status": "published",
+      "reason": "俄罗斯对零售加密交易设置可核验的年度购买限额，直接影响市场准入，属重要监管政策变化。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z",
+      "bCommitSha": "5d57ee8a9d4bbf983f846d14772cac0caa476d14"
+    },
+    "a4b35ae72265e351e78c903bd1b3b1920dac4407b8a7d8bcd4bd8b3392192060": {
+      "decisionKey": "a4b35ae72265e351e78c903bd1b3b1920dac4407b8a7d8bcd4bd8b3392192060",
+      "status": "rejected",
+      "reason": "来源为Coindesk真实报道，事件具体涉及Kalshi预测市场的法律纠纷撤销，虽该细分市场未成功，但对加密预测市场行业有一定参考价值。",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z"
+    },
+    "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb": {
+      "decisionKey": "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z"
+    },
+    "537057d4da62b9c6caf06f62da7aa6214b1208aea2ae50ed141c20866c3f037d": {
+      "decisionKey": "537057d4da62b9c6caf06f62da7aa6214b1208aea2ae50ed141c20866c3f037d",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z"
+    },
+    "5256c7c8f93997fc24726c8d10895790cf347d30291662662ac8e89f84853f02": {
+      "decisionKey": "5256c7c8f93997fc24726c8d10895790cf347d30291662662ac8e89f84853f02",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z"
+    },
+    "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea": {
+      "decisionKey": "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z"
+    },
+    "1e4da520412d839a25251c1e3f9585290cbafb8ef89fa3fb6e75fdda7182279a": {
+      "decisionKey": "1e4da520412d839a25251c1e3f9585290cbafb8ef89fa3fb6e75fdda7182279a",
+      "status": "published",
+      "reason": "BOE's Digital Pound Lab testing stablecoin and digital currency use in cross-border trade finance is a significant central bank policy development directly affecting the crypto industry's stablecoin adoption and regulatory landscape.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z",
+      "bCommitSha": "5d57ee8a9d4bbf983f846d14772cac0caa476d14"
+    },
+    "0a1c3fd235245db98fedd269f740186af2b01b36304562fa3c8e13f0e037d993": {
+      "decisionKey": "0a1c3fd235245db98fedd269f740186af2b01b36304562fa3c8e13f0e037d993",
+      "status": "published",
+      "reason": "来自Cointelegraph的真实市场报道，披露比特币矿工手续费收入占比降至10年低点（低于0.7%）并转向AI的趋势，属于加密行业市场结构变化，对矿工和行业有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T12:00:51.310Z",
+      "bCommitSha": "5d57ee8a9d4bbf983f846d14772cac0caa476d14"
+    },
     "acf4ee63f3f52d3baaf38609792c3b86aee958f72de32e2b349e95460219002b": {
       "decisionKey": "acf4ee63f3f52d3baaf38609792c3b86aee958f72de32e2b349e95460219002b",
       "status": "published",
@@ -28,13 +117,6 @@
       "updatedAt": "2026-08-12T10:00:51.978Z",
       "bCommitSha": "834a6864c1c77b196514bd0b577eb75ae3b95980"
     },
-    "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb": {
-      "decisionKey": "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T10:00:51.978Z"
-    },
     "5c131c784ac675aca9a77e82cf05be4e9e3d5383ea35fb5a9cd8ff0755dbe13e": {
       "decisionKey": "5c131c784ac675aca9a77e82cf05be4e9e3d5383ea35fb5a9cd8ff0755dbe13e",
       "status": "published",
@@ -43,13 +125,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T10:00:51.978Z",
       "bCommitSha": "834a6864c1c77b196514bd0b577eb75ae3b95980"
-    },
-    "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea": {
-      "decisionKey": "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T10:00:51.978Z"
     },
     "0f910eda87d219c3634190b1cdadee48f8e9d6d4391bea7daea27ef6ab15090d": {
       "decisionKey": "0f910eda87d219c3634190b1cdadee48f8e9d6d4391bea7daea27ef6ab15090d",
@@ -3415,17 +3490,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T10:00:51.978Z",
-    "https://cointelegraph.com/rss": "2026-08-12T10:00:51.978Z",
-    "https://decrypt.co/feed": "2026-08-12T10:00:51.978Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T10:00:51.978Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T10:00:51.978Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T10:00:51.978Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T10:00:51.978Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T10:00:51.978Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T10:00:51.978Z",
-    "https://solana.com/rss.xml": "2026-08-12T10:00:51.978Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T10:00:51.978Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T12:00:51.310Z",
+    "https://cointelegraph.com/rss": "2026-08-12T12:00:51.310Z",
+    "https://decrypt.co/feed": "2026-08-12T12:00:51.310Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T12:00:51.310Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T12:00:51.310Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T12:00:51.310Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-12T12:00:51.310Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-12T12:00:51.310Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-12T12:00:51.310Z",
+    "https://solana.com/rss.xml": "2026-08-12T12:00:51.310Z",
+    "https://slowmist.medium.com/feed": "2026-08-12T12:00:51.310Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
