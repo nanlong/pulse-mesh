@@ -1,6 +1,47 @@
 {
   "version": 1,
   "decisions": {
+    "a0ee9837d9f0683fa831738d72f6fc845873589f68e0fc254c0cb9f3006266bd": {
+      "decisionKey": "a0ee9837d9f0683fa831738d72f6fc845873589f68e0fc254c0cb9f3006266bd",
+      "status": "published",
+      "reason": "Security incident with specific impact: suspected exploit inflating ONE supply by 2.8 billion tokens, Harmony considering rollback and working with exchanges. This is a significant protocol security event affecting market structure and user funds, directly relevant to crypto audiences.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T08:01:01.667Z",
+      "bCommitSha": "a296c4b16e9eaa725377b7061053257317324e8e"
+    },
+    "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb": {
+      "decisionKey": "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T08:01:01.667Z"
+    },
+    "76b7230ea0c850dfc140230367c90ad421f8d1a5696f7ac3046503c149b25fb4": {
+      "decisionKey": "76b7230ea0c850dfc140230367c90ad421f8d1a5696f7ac3046503c149b25fb4",
+      "status": "published",
+      "reason": "来源为权威加密媒体Cointelegraph，内容涉及针对朝鲜IT工作者的虚假加密创业公司事件，属于安全与市场结构相关的重要新闻，具有明确主体、事件和发布时间，对加密行业受众有信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T08:01:01.667Z",
+      "bCommitSha": "a296c4b16e9eaa725377b7061053257317324e8e"
+    },
+    "50187d4aba136d0c50aec2d0fc734e89bf01dcd04fc991a8ab147b79c895e98d": {
+      "decisionKey": "50187d4aba136d0c50aec2d0fc734e89bf01dcd04fc991a8ab147b79c895e98d",
+      "status": "rejected",
+      "reason": "FlightAware has dropped its lawsuit against Kalshi just one day after filing, involving claims over data and trademark use in flight-cancellation prediction markets. This is a notable legal development for the prediction market space, though the lack of detail limits its impact.",
+      "score": 0.5,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T08:01:01.667Z"
+    },
+    "2faecbdd0cf0bc265d93b4f454938844899c7e86b9b3e9e594f3b75f7bd18a32": {
+      "decisionKey": "2faecbdd0cf0bc265d93b4f454938844899c7e86b9b3e9e594f3b75f7bd18a32",
+      "status": "rejected",
+      "reason": "内容为日本上市公司Metaplanet内部钱包间的比特币转账，并非出售或重大事件，仅附带比特币价格播报，对加密行业受众缺乏明确的信息增量和结构影响，属于低价值新闻。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T08:01:01.667Z"
+    },
     "dbec07786c18dd41927c53bb99d60f0f8e877388c1dec2799b3e92288b3fc6c2": {
       "decisionKey": "dbec07786c18dd41927c53bb99d60f0f8e877388c1dec2799b3e92288b3fc6c2",
       "status": "published",
@@ -3322,17 +3363,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T06:01:10.326Z",
-    "https://cointelegraph.com/rss": "2026-08-12T06:01:10.326Z",
-    "https://decrypt.co/feed": "2026-08-12T06:01:10.326Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T06:01:10.326Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T06:01:10.326Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T06:01:10.326Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T06:01:10.326Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T06:01:10.326Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T06:01:10.326Z",
-    "https://solana.com/rss.xml": "2026-08-12T06:01:10.326Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T06:01:10.326Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T08:01:01.667Z",
+    "https://cointelegraph.com/rss": "2026-08-12T08:01:01.667Z",
+    "https://decrypt.co/feed": "2026-08-12T08:01:01.667Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T08:01:01.667Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T08:01:01.667Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T08:01:01.667Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-12T08:01:01.667Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-12T08:01:01.667Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-12T08:01:01.667Z",
+    "https://solana.com/rss.xml": "2026-08-12T08:01:01.667Z",
+    "https://slowmist.medium.com/feed": "2026-08-12T08:01:01.667Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
