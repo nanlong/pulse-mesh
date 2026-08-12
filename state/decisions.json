@@ -1,6 +1,85 @@
 {
   "version": 1,
   "decisions": {
+    "f5045b2f11e4ca602f5fe8077357dbd136e46a27e8b119de896b89b0e2ecec75": {
+      "decisionKey": "f5045b2f11e4ca602f5fe8077357dbd136e46a27e8b119de896b89b0e2ecec75",
+      "status": "rejected",
+      "reason": "The candidate is a brief teaser about an AI agent called SpaceXAI/Grok Bot with no concrete event, data, protocol, or policy impact on the crypto industry. It lacks verifiable specifics and is not clearly sourced as a full news article, so it fails the evidence and relevance requirements.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T20:01:04.242Z"
+    },
+    "d42ff4d7c761fa516382a4086ab5b1446fd6a0875a9b52702568226c161bce8b": {
+      "decisionKey": "d42ff4d7c761fa516382a4086ab5b1446fd6a0875a9b52702568226c161bce8b",
+      "status": "rejected",
+      "reason": "Candidate relies on an executive claim about a purported Coldcard exploit and Bitcoin migration without providing verifiable data or corroborating evidence; insufficiently substantiated and potentially misleading.",
+      "score": 0.35,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T20:01:04.242Z"
+    },
+    "bf1a7e6c34e9e437e96dd383fd3e9d4ff4484610d3b318894f4a3b46c249d6e4": {
+      "decisionKey": "bf1a7e6c34e9e437e96dd383fd3e9d4ff4484610d3b318894f4a3b46c249d6e4",
+      "status": "published",
+      "reason": "Kraken作为主流加密交易所推出S&P 500资金交易并计划扩展至大宗商品，属于交易所产品结构的重要扩展，对加密行业用户有多资产配置影响，信息来源为Cointelegraph，真实可核验。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T20:01:04.242Z",
+      "bCommitSha": "080841e00b6bf6f1008341f1c67f65623241c362"
+    },
+    "8757adcffcf7ac524b3e842818953c289b95eb933583750f982767c9f4cb1377": {
+      "decisionKey": "8757adcffcf7ac524b3e842818953c289b95eb933583750f982767c9f4cb1377",
+      "status": "published",
+      "reason": "Real news from Decrypt about Goldman Sachs acquiring NEOS, including a $1B Bitcoin covered-call ETF. This is a significant institutional adoption and market structure event for crypto investors, with concrete deal details.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T20:01:04.242Z",
+      "bCommitSha": "080841e00b6bf6f1008341f1c67f65623241c362"
+    },
+    "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
+      "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T20:01:04.242Z"
+    },
+    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
+      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T20:01:04.242Z"
+    },
+    "46a0d75b1104d12134868dbb7905c9ebaf38957879720b5730c9c8379ff1f886": {
+      "decisionKey": "46a0d75b1104d12134868dbb7905c9ebaf38957879720b5730c9c8379ff1f886",
+      "status": "published",
+      "reason": "Bitwise作为知名加密资产管理公司，其裁员14%的新闻反映行业收缩趋势，且涉及多家主流加密公司，对加密行业从业者和投资者有明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T20:01:04.242Z",
+      "bCommitSha": "080841e00b6bf6f1008341f1c67f65623241c362"
+    },
+    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
+      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T20:01:04.242Z"
+    },
+    "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182": {
+      "decisionKey": "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T20:01:04.242Z"
+    },
+    "0634d44c75838c81cc0b164ac2972b56b715c6bf6c78c59addfeb648dc77125f": {
+      "decisionKey": "0634d44c75838c81cc0b164ac2972b56b715c6bf6c78c59addfeb648dc77125f",
+      "status": "rejected",
+      "reason": "News about Truth Social's data licensing to prediction markets, relevant to crypto prediction market infrastructure.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T20:01:04.242Z"
+    },
     "e152f010d9eea3bc045e00d90a8505c47bc120c052c5a3bad9ab63c912c73dc0": {
       "decisionKey": "e152f010d9eea3bc045e00d90a8505c47bc120c052c5a3bad9ab63c912c73dc0",
       "status": "published",
@@ -48,13 +127,6 @@
       "status": "rejected",
       "reason": "Content is extremely thin, lacks specific technical details (no CVE, no affected versions, no verifiable data), and does not establish a clear impact on the cryptocurrency industry. It reads more like a placeholder or breaking news teaser than a substantive, verifiable security report. The claim that AI was used to build a critical Zoom exploit in one day is not backed by concrete evidence, and the connection to crypto audiences is indirect at best.",
       "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T18:01:08.940Z"
-    },
-    "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
-      "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T18:01:08.940Z"
     },
@@ -123,13 +195,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T18:01:08.940Z"
     },
-    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
-      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T18:01:08.940Z"
-    },
     "0c537d837242e1ad62641e2486b1eb217af233a1333bffc7150a36a0daef37d0": {
       "decisionKey": "0c537d837242e1ad62641e2486b1eb217af233a1333bffc7150a36a0daef37d0",
       "status": "published",
@@ -180,13 +245,6 @@
       "status": "rejected",
       "reason": "重要宏观数据（CPI）发布后比特币价格出现明确反应，涉及美联储政策预期，对加密市场有直接影响且信息有新意。",
       "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T16:00:55.753Z"
-    },
-    "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182": {
-      "decisionKey": "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T16:00:55.753Z"
     },
@@ -3780,17 +3838,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T18:01:08.940Z",
-    "https://cointelegraph.com/rss": "2026-08-12T18:01:08.940Z",
-    "https://decrypt.co/feed": "2026-08-12T18:01:08.940Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T18:01:08.940Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T18:01:08.940Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T18:01:08.940Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T18:01:08.940Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T18:01:08.940Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T18:01:08.940Z",
-    "https://solana.com/rss.xml": "2026-08-12T18:01:08.940Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T18:01:08.940Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T20:01:04.242Z",
+    "https://cointelegraph.com/rss": "2026-08-12T20:01:04.242Z",
+    "https://decrypt.co/feed": "2026-08-12T20:01:04.242Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T20:01:04.242Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T20:01:04.242Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T20:01:04.242Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-12T20:01:04.242Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-12T20:01:04.242Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-12T20:01:04.242Z",
+    "https://solana.com/rss.xml": "2026-08-12T20:01:04.242Z",
+    "https://slowmist.medium.com/feed": "2026-08-12T20:01:04.242Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
