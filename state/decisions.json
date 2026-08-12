@@ -1,6 +1,65 @@
 {
   "version": 1,
   "decisions": {
+    "acf4ee63f3f52d3baaf38609792c3b86aee958f72de32e2b349e95460219002b": {
+      "decisionKey": "acf4ee63f3f52d3baaf38609792c3b86aee958f72de32e2b349e95460219002b",
+      "status": "published",
+      "reason": "CoinDesk is a legitimate crypto news outlet. The piece highlights a concrete figure ($1.78B) of selling pressure from public miners, a specific market-structure dynamic relevant to Bitcoin traders and analysts. Provides actionable insight beyond price speculation.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T10:00:51.978Z",
+      "bCommitSha": "834a6864c1c77b196514bd0b577eb75ae3b95980"
+    },
+    "9d9e134b22475744edca9883d7c253f3dec991afc1a8d711eee0b3aabddf4cc1": {
+      "decisionKey": "9d9e134b22475744edca9883d7c253f3dec991afc1a8d711eee0b3aabddf4cc1",
+      "status": "published",
+      "reason": "The candidate reports a concrete industry initiative by the Bitcoin Policy Institute urging AI companies to provide early model access for Bitcoin developers' cybersecurity efforts. This is a genuine, verifiable news item from a reputable crypto outlet, with specific actors and a clear impact on crypto ecosystem security and AI collaboration.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T10:00:51.978Z",
+      "bCommitSha": "834a6864c1c77b196514bd0b577eb75ae3b95980"
+    },
+    "7eda5df2cf861a8ea9a88603cf95b0ed80edbb32dea4ff03ba03000f4af4b771": {
+      "decisionKey": "7eda5df2cf861a8ea9a88603cf95b0ed80edbb32dea4ff03ba03000f4af4b771",
+      "status": "published",
+      "reason": "CFTC invoking emergency powers to keep Kalshi trading amid a New York lawsuit is a significant regulatory development affecting prediction markets, which are closely watched by crypto industry participants. This has clear policy impact and provides concrete, actionable information.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T10:00:51.978Z",
+      "bCommitSha": "834a6864c1c77b196514bd0b577eb75ae3b95980"
+    },
+    "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb": {
+      "decisionKey": "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T10:00:51.978Z"
+    },
+    "5c131c784ac675aca9a77e82cf05be4e9e3d5383ea35fb5a9cd8ff0755dbe13e": {
+      "decisionKey": "5c131c784ac675aca9a77e82cf05be4e9e3d5383ea35fb5a9cd8ff0755dbe13e",
+      "status": "published",
+      "reason": "CoinDesk报道Fidelity为其近9亿美元以太坊ETF添加质押和季度支付，涉及具体主体、金额及收益分配细节，对加密投资者具有明确信息增量和市场影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T10:00:51.978Z",
+      "bCommitSha": "834a6864c1c77b196514bd0b577eb75ae3b95980"
+    },
+    "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea": {
+      "decisionKey": "4cf272d8768ac36c105c6ec20374e6b5bfbdd67d2f0d363eb85707f9623f59ea",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T10:00:51.978Z"
+    },
+    "0f910eda87d219c3634190b1cdadee48f8e9d6d4391bea7daea27ef6ab15090d": {
+      "decisionKey": "0f910eda87d219c3634190b1cdadee48f8e9d6d4391bea7daea27ef6ab15090d",
+      "status": "published",
+      "reason": "该候选来自Coindesk这一真实可核验的新闻来源，包含具体主体（CoreWeave）、事件（季度营收及股价上涨）、时间（2026年8月12日）和数据（25.8亿美元营收、涨幅16%），对加密行业有明确影响——显示AI基础设施需求正在吸引资金并影响加密矿企（IREN、CIFR），反映市场结构变化，具有信息增量。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T10:00:51.978Z",
+      "bCommitSha": "834a6864c1c77b196514bd0b577eb75ae3b95980"
+    },
     "a0ee9837d9f0683fa831738d72f6fc845873589f68e0fc254c0cb9f3006266bd": {
       "decisionKey": "a0ee9837d9f0683fa831738d72f6fc845873589f68e0fc254c0cb9f3006266bd",
       "status": "published",
@@ -9,13 +68,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T08:01:01.667Z",
       "bCommitSha": "a296c4b16e9eaa725377b7061053257317324e8e"
-    },
-    "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb": {
-      "decisionKey": "77b333c70efce6438380bbc6f035e9eab2e84c122cc78bc6f0ba47b2aa3da3fb",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T08:01:01.667Z"
     },
     "76b7230ea0c850dfc140230367c90ad421f8d1a5696f7ac3046503c149b25fb4": {
       "decisionKey": "76b7230ea0c850dfc140230367c90ad421f8d1a5696f7ac3046503c149b25fb4",
@@ -3363,17 +3415,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T08:01:01.667Z",
-    "https://cointelegraph.com/rss": "2026-08-12T08:01:01.667Z",
-    "https://decrypt.co/feed": "2026-08-12T08:01:01.667Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T08:01:01.667Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T08:01:01.667Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T08:01:01.667Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T08:01:01.667Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T08:01:01.667Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T08:01:01.667Z",
-    "https://solana.com/rss.xml": "2026-08-12T08:01:01.667Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T08:01:01.667Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T10:00:51.978Z",
+    "https://cointelegraph.com/rss": "2026-08-12T10:00:51.978Z",
+    "https://decrypt.co/feed": "2026-08-12T10:00:51.978Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T10:00:51.978Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T10:00:51.978Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T10:00:51.978Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-12T10:00:51.978Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-12T10:00:51.978Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-12T10:00:51.978Z",
+    "https://solana.com/rss.xml": "2026-08-12T10:00:51.978Z",
+    "https://slowmist.medium.com/feed": "2026-08-12T10:00:51.978Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
