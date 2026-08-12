@@ -1,6 +1,67 @@
 {
   "version": 1,
   "decisions": {
+    "dbec07786c18dd41927c53bb99d60f0f8e877388c1dec2799b3e92288b3fc6c2": {
+      "decisionKey": "dbec07786c18dd41927c53bb99d60f0f8e877388c1dec2799b3e92288b3fc6c2",
+      "status": "published",
+      "reason": "Coindesk reports a specific security incident involving Harmony's ONE token: an alleged attacker minted tokens equal to about a quarter of supply and ONE dropped 26%. Harmony is coordinating with exchanges to freeze funds and preparing a software fix. This is a verifiable, high-impact market and security event for crypto audiences.",
+      "score": 0.93,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T06:01:10.326Z",
+      "bCommitSha": "e15e2bbc7af60ea6bd1c4608602ba172f794f7f9"
+    },
+    "d65e1e1bbcc6e93a67e4648ce6e12f0d250ca34f931d6350681a706e1502289d": {
+      "decisionKey": "d65e1e1bbcc6e93a67e4648ce6e12f0d250ca34f931d6350681a706e1502289d",
+      "status": "published",
+      "reason": "CFTC动用紧急权力介入Kalshi与纽约州的管辖权争议，涉及联邦与州对事件合约的监管边界，是影响加密预测市场和衍生品监管的重要政策动态，具有明确信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T06:01:10.326Z",
+      "bCommitSha": "e15e2bbc7af60ea6bd1c4608602ba172f794f7f9"
+    },
+    "c8455e74963e19676feb4915a10629c265e0534a59e644ec435cca81104e27d7": {
+      "decisionKey": "c8455e74963e19676feb4915a10629c265e0534a59e644ec435cca81104e27d7",
+      "status": "rejected",
+      "reason": "候选仅为常规市场价格更新，涉及BTC/DOGE/BNB的短线波动，属于价格喊单类内容，缺乏对加密行业具有明确影响或信息增量的政策、协议、安全或结构变化，不符合重要发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T06:01:10.326Z"
+    },
+    "75a103ee22c43943477ab060582dad37d715379dd8b27fc4e0ef8f0e5081b6a7": {
+      "decisionKey": "75a103ee22c43943477ab060582dad37d715379dd8b27fc4e0ef8f0e5081b6a7",
+      "status": "published",
+      "reason": "报道了XRP桥接遭攻击被盗20万美元的具体安全事件，包含主体、金额、时间和处置措施，对加密行业用户有明确风险提示和信息增量。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T06:01:10.326Z",
+      "bCommitSha": "e15e2bbc7af60ea6bd1c4608602ba172f794f7f9"
+    },
+    "6771782a301a1e0a19d3f8a4d7825646a3898366cff48fb5edaca4c5f139a508": {
+      "decisionKey": "6771782a301a1e0a19d3f8a4d7825646a3898366cff48fb5edaca4c5f139a508",
+      "status": "published",
+      "reason": "Crypto.com's entry into tokenized stock derivatives is a concrete market-structure development for crypto exchanges expanding into equities, with a clear event, named platform, and cited sector growth. It carries direct relevance for crypto industry participants monitoring convergence between digital-asset rails and traditional securities.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T06:01:10.326Z",
+      "bCommitSha": "e15e2bbc7af60ea6bd1c4608602ba172f794f7f9"
+    },
+    "118cb47bba76f141d7eebce59a8929f7373ff2f431afdbce26e1e81482c77fdd": {
+      "decisionKey": "118cb47bba76f141d7eebce59a8929f7373ff2f431afdbce26e1e81482c77fdd",
+      "status": "published",
+      "reason": "这是一个来自 CoinDesk 的市场分析，聚焦于美国 CPI 数据公布前比特币和以太坊交易者的仓位调整行动。CPI 作为关键宏观数据，对加密资产价格有直接且重要的影响。候选包含具体主体（比特币和以太坊交易者）、事件（CPI 发布）和时间，来源有可核验的原文，对加密受众具有及时的信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T06:01:10.326Z",
+      "bCommitSha": "e15e2bbc7af60ea6bd1c4608602ba172f794f7f9"
+    },
+    "006ad1a55a7cc63cbfb56e90e6413687daafb3a2fe402f5384fbed59efc1611c": {
+      "decisionKey": "006ad1a55a7cc63cbfb56e90e6413687daafb3a2fe402f5384fbed59efc1611c",
+      "status": "rejected",
+      "reason": "Bitwise is a notable crypto asset manager, and its 14% staff cut reflects the ongoing market downturn, providing concrete and verifiable industry news with a clear subject, event, and timeframe.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-12T06:01:10.326Z"
+    },
     "e4237cf2a1dd272a3bd496c09c3dd00cea095fa5b7f81187e7a9ccf3c35a9671": {
       "decisionKey": "e4237cf2a1dd272a3bd496c09c3dd00cea095fa5b7f81187e7a9ccf3c35a9671",
       "status": "rejected",
@@ -3261,18 +3322,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T04:00:58.069Z",
-    "https://cointelegraph.com/rss": "2026-08-12T04:00:58.069Z",
-    "https://decrypt.co/feed": "2026-08-12T04:00:58.069Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T04:00:58.069Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T04:00:58.069Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T04:00:58.069Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T04:00:58.069Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T04:00:58.069Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T04:00:58.069Z",
-    "https://solana.com/rss.xml": "2026-08-12T04:00:58.069Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T04:00:58.069Z",
-    "https://www.theblock.co/rss.xml": "2026-08-12T04:00:58.069Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T06:01:10.326Z",
+    "https://cointelegraph.com/rss": "2026-08-12T06:01:10.326Z",
+    "https://decrypt.co/feed": "2026-08-12T06:01:10.326Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T06:01:10.326Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T06:01:10.326Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T06:01:10.326Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-12T06:01:10.326Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-12T06:01:10.326Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-12T06:01:10.326Z",
+    "https://solana.com/rss.xml": "2026-08-12T06:01:10.326Z",
+    "https://slowmist.medium.com/feed": "2026-08-12T06:01:10.326Z",
+    "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
-  "lastRunAt": "2026-08-12T04:00:58.069Z"
+  "lastRunAt": "2026-08-12T06:01:10.326Z"
 }
