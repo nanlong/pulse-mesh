@@ -1,6 +1,84 @@
 {
   "version": 1,
   "decisions": {
+    "d8b16919d20dd0e16f4dc97b4f7ddfcb0fe09d4779c64968a87a32a155dab8cb": {
+      "decisionKey": "d8b16919d20dd0e16f4dc97b4f7ddfcb0fe09d4779c64968a87a32a155dab8cb",
+      "status": "published",
+      "reason": "The candidate reports a concrete regulatory development: the SEC plans to introduce rules for tokenized stocks, potentially announced as soon as Friday. This is a significant policy matter with clear impact on the crypto industry, sourced from a reputable crypto news outlet.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T12:00:59.985Z",
+      "bCommitSha": "35ebaae6753a39e271256bdbb89f4f33c7f5e1ca"
+    },
+    "d33902498efd49f8d37b2194fb1f3141b18f090d70156ac0c44a723b5217f146": {
+      "decisionKey": "d33902498efd49f8d37b2194fb1f3141b18f090d70156ac0c44a723b5217f146",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T12:00:59.985Z"
+    },
+    "bf92d62acb073a939246b06d2a4d47a517d1d19e38d7088dac8119947cfc17c4": {
+      "decisionKey": "bf92d62acb073a939246b06d2a4d47a517d1d19e38d7088dac8119947cfc17c4",
+      "status": "published",
+      "reason": "MUFG, a major Japanese bank, is testing real-time blockchain settlement for Japanese government bonds on the Canton Network. This signals continued institutional adoption of blockchain for traditional financial infrastructure and could have significant implications for settlement processes, making it important for the crypto industry audience.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T12:00:59.985Z",
+      "bCommitSha": "35ebaae6753a39e271256bdbb89f4f33c7f5e1ca"
+    },
+    "87fb16498a2837cdf7bd9c4346f6b9c50735fc9bfe47bac74c817f1ff987adf0": {
+      "decisionKey": "87fb16498a2837cdf7bd9c4346f6b9c50735fc9bfe47bac74c817f1ff987adf0",
+      "status": "published",
+      "reason": "The SEC's decision to allow Franklin Templeton funds to invest in the onchain money fund is a concrete regulatory development with clear implications for crypto market structure and institutional adoption of tokenized assets. It is sourced from a reputable publication and provides specific, verifiable information about a named entity and regulator.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T12:00:59.985Z",
+      "bCommitSha": "35ebaae6753a39e271256bdbb89f4f33c7f5e1ca"
+    },
+    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
+      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T12:00:59.985Z"
+    },
+    "457491feda5248a5a2aed17ebf93ef691bb22a2e5bd51c3d2d5d313aa4c8ed18": {
+      "decisionKey": "457491feda5248a5a2aed17ebf93ef691bb22a2e5bd51c3d2d5d313aa4c8ed18",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T12:00:59.985Z"
+    },
+    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
+      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T12:00:59.985Z"
+    },
+    "29a52a88bc2258c62d15a28f470351e3c86e07a8406c102105a70643b8ef7e43": {
+      "decisionKey": "29a52a88bc2258c62d15a28f470351e3c86e07a8406c102105a70643b8ef7e43",
+      "status": "rejected",
+      "reason": "候选仅提供简短的市场行情总结，提及比特币价格持稳及Monero、Hyperliquid表现较好，属于低价值价格更新而非对加密行业有明确影响的重要政策、协议升级、安全事件或市场结构变化。内容缺乏具体数据、分析或增量信息，不满足发布标准。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T12:00:59.985Z"
+    },
+    "110fba1f78b4d40c885f6d9948570000c0751596aae13cf8a03b722d7f62dc2d": {
+      "decisionKey": "110fba1f78b4d40c885f6d9948570000c0751596aae13cf8a03b722d7f62dc2d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T12:00:59.985Z"
+    },
+    "1067b1aee2534269853953b2b01cb181ef2dc493da50de6f6b56d7c6708ea81c": {
+      "decisionKey": "1067b1aee2534269853953b2b01cb181ef2dc493da50de6f6b56d7c6708ea81c",
+      "status": "rejected",
+      "reason": "该候选内容涉及 Twitch 默认开启亚马逊 AI 训练设置，属于一般科技/隐私话题，与加密行业的政策、协议升级、安全事件或市场结构变化无关，且未提供对加密受众有明确影响的信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T12:00:59.985Z"
+    },
     "f3b5324151096750400e7ab34766d19d8e6f4c45c039b269576937e74656ba48": {
       "decisionKey": "f3b5324151096750400e7ab34766d19d8e6f4c45c039b269576937e74656ba48",
       "status": "rejected",
@@ -42,20 +120,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T10:00:57.306Z",
       "bCommitSha": "18e702b650c18fd3c40bdb957b3be6a20cbce729"
-    },
-    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
-      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T10:00:57.306Z"
-    },
-    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
-      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T10:00:57.306Z"
     },
     "38efc144b35feb00f958c179fcb2c90a63af651375c080c61111346492f40f2a": {
       "decisionKey": "38efc144b35feb00f958c179fcb2c90a63af651375c080c61111346492f40f2a",
@@ -4106,17 +4170,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T10:00:57.306Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T12:00:59.985Z",
     "https://cointelegraph.com/rss": "2026-08-13T10:00:57.306Z",
     "https://decrypt.co/feed": "2026-08-13T10:00:57.306Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T10:00:57.306Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T10:00:57.306Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T10:00:57.306Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-13T10:00:57.306Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-13T10:00:57.306Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-13T10:00:57.306Z",
-    "https://solana.com/rss.xml": "2026-08-13T10:00:57.306Z",
-    "https://slowmist.medium.com/feed": "2026-08-13T10:00:57.306Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T12:00:59.985Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T12:00:59.985Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T12:00:59.985Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-13T12:00:59.985Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-13T12:00:59.985Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-13T12:00:59.985Z",
+    "https://solana.com/rss.xml": "2026-08-13T12:00:59.985Z",
+    "https://slowmist.medium.com/feed": "2026-08-13T12:00:59.985Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
