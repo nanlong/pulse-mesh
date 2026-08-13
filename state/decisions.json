@@ -1,32 +1,74 @@
 {
   "version": 1,
   "decisions": {
+    "ffe03c06750c139a3e7e0fc7f8b1247e2fe78b1b316637d24851fb4c1cfb71da": {
+      "decisionKey": "ffe03c06750c139a3e7e0fc7f8b1247e2fe78b1b316637d24851fb4c1cfb71da",
+      "status": "rejected",
+      "reason": "来源为CoinDesk真实公开报道，包含具体数据（期货头寸、价格跌幅、多空比），反映加密市场结构变化和投机情绪，对行业受众有信息增量。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T06:00:59.882Z"
+    },
+    "a86e6b0cc2b5061aebcfcd9d3156bf6a0a8c9d9d5de1abf7553f645a1e225e97": {
+      "decisionKey": "a86e6b0cc2b5061aebcfcd9d3156bf6a0a8c9d9d5de1abf7553f645a1e225e97",
+      "status": "rejected",
+      "reason": "Metaplanet作为公开上市的比特币持有者，其出售传闻与官方否认直接涉及具体持仓数据（43,000 BTC），对加密市场情绪和投资者信心有明确影响，且来源为Coindesk，可核验。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T06:00:59.882Z"
+    },
     "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
       "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T04:00:58.311Z"
+      "updatedAt": "2026-08-13T06:00:59.882Z"
+    },
+    "82293b8554eb0a5de5804b3b865b1ee985b6939f15d887e46fa1d59e95ad9326": {
+      "decisionKey": "82293b8554eb0a5de5804b3b865b1ee985b6939f15d887e46fa1d59e95ad9326",
+      "status": "rejected",
+      "reason": "该候选为Metaplanet CEO澄清未出售比特币的公司动态，属于个别实体资金转移说明，不涉及加密行业重要政策、协议升级、安全事件或市场结构变化，对受众的明确影响和信息增量有限。",
+      "score": 0.4,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T06:00:59.882Z"
     },
     "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
       "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T04:00:58.311Z"
+      "updatedAt": "2026-08-13T06:00:59.882Z"
+    },
+    "3a330fe46f0aad879f3191247622c813bba888adca0d196192cba6e416c8d3ff": {
+      "decisionKey": "3a330fe46f0aad879f3191247622c813bba888adca0d196192cba6e416c8d3ff",
+      "status": "published",
+      "reason": "真实新闻来源，涉及Coinbase、Block、BitGo等知名加密公司联合致信AI实验室，反映加密行业在AI安全工具方面的诉求，对行业参与者有明确信息增量。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T06:00:59.882Z",
+      "bCommitSha": "ea1dd2951207500bce499e68f13d3a7d6fd61ad2"
+    },
+    "2d5a6915cbdfc7d6aac3a751c1675f394c99d9c0d0576d4c89d92573d9c6aa2c": {
+      "decisionKey": "2d5a6915cbdfc7d6aac3a751c1675f394c99d9c0d0576d4c89d92573d9c6aa2c",
+      "status": "published",
+      "reason": "This is a real news article from Cointelegraph quoting Bitwise CIO Matt Hougan on a concrete market structure trend: protocols linking revenue to token buybacks/valuations. It provides a specific timeline (12-24 months) and relevant impact for crypto investors and builders. No marketing or price shilling detected.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T06:00:59.882Z",
+      "bCommitSha": "ea1dd2951207500bce499e68f13d3a7d6fd61ad2"
+    },
+    "08a0b0f6c9463aa376bc82fd30c7a6a6c14a51eceb8cc9e8360ab81f74fbf988": {
+      "decisionKey": "08a0b0f6c9463aa376bc82fd30c7a6a6c14a51eceb8cc9e8360ab81f74fbf988",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T06:00:59.882Z"
     },
     "776ccd4053201d3e00662dc0937017aacb53d94ed92924e33987e30582ceea6e": {
       "decisionKey": "776ccd4053201d3e00662dc0937017aacb53d94ed92924e33987e30582ceea6e",
       "status": "rejected",
       "reason": "Routine market update with no major policy, protocol, security, or structural significance; price movement driven by in-line CPI is not a critical information increment for crypto industry professionals.",
       "score": 0.3,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T04:00:58.311Z"
-    },
-    "08a0b0f6c9463aa376bc82fd30c7a6a6c14a51eceb8cc9e8360ab81f74fbf988": {
-      "decisionKey": "08a0b0f6c9463aa376bc82fd30c7a6a6c14a51eceb8cc9e8360ab81f74fbf988",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T04:00:58.311Z"
     },
@@ -3969,17 +4011,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T04:00:58.311Z",
-    "https://cointelegraph.com/rss": "2026-08-13T04:00:58.311Z",
-    "https://decrypt.co/feed": "2026-08-13T04:00:58.311Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T04:00:58.311Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T04:00:58.311Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T04:00:58.311Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-13T04:00:58.311Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-13T04:00:58.311Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-13T04:00:58.311Z",
-    "https://solana.com/rss.xml": "2026-08-13T04:00:58.311Z",
-    "https://slowmist.medium.com/feed": "2026-08-13T04:00:58.311Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T06:00:59.882Z",
+    "https://cointelegraph.com/rss": "2026-08-13T06:00:59.882Z",
+    "https://decrypt.co/feed": "2026-08-13T06:00:59.882Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T06:00:59.882Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T06:00:59.882Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T06:00:59.882Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-13T06:00:59.882Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-13T06:00:59.882Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-13T06:00:59.882Z",
+    "https://solana.com/rss.xml": "2026-08-13T06:00:59.882Z",
+    "https://slowmist.medium.com/feed": "2026-08-13T06:00:59.882Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
