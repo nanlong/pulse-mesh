@@ -1,6 +1,105 @@
 {
   "version": 1,
   "decisions": {
+    "dcd6cbc0bd3aad9ec332713f0112b173c70172b09c4ab3c7b23280c9780ee49c": {
+      "decisionKey": "dcd6cbc0bd3aad9ec332713f0112b173c70172b09c4ab3c7b23280c9780ee49c",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z"
+    },
+    "c86e1d1f56c08d5cf4e8b2650e3f80b3cb72a26cbd207b2c5f5b21e5ec10f3b9": {
+      "decisionKey": "c86e1d1f56c08d5cf4e8b2650e3f80b3cb72a26cbd207b2c5f5b21e5ec10f3b9",
+      "status": "published",
+      "reason": "Real news from CoinDesk: South Korean court sentences Delio CEO to 15 years for a $50M crypto embezzlement affecting 1,100+ customers. This is a concrete legal/security event with clear implications for the crypto industry, particularly around exchange/CeFi accountability and regulatory enforcement.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z",
+      "bCommitSha": "c681b0cb86967156cdf56f729540f1b64bb4dc71"
+    },
+    "b3380d93728d7bf741b6d521b84f6cf036127f0e0afc873c9e879cea77daae3e": {
+      "decisionKey": "b3380d93728d7bf741b6d521b84f6cf036127f0e0afc873c9e879cea77daae3e",
+      "status": "rejected",
+      "reason": "Decrypt is a credible crypto publication; the item reports a concrete integration announcement about XRP holders using Flare's FXRP as collateral on Derive for options trading. This is a specific DeFi market-structure development with clear relevance and information value for crypto-industry audiences.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z"
+    },
+    "9eb8e4f8d8086efd0cf300fd601907586e5de225df8c009da9fbe9efa778394a": {
+      "decisionKey": "9eb8e4f8d8086efd0cf300fd601907586e5de225df8c009da9fbe9efa778394a",
+      "status": "published",
+      "reason": "This is a real security incident affecting Trezor, a major hardware wallet provider. The breach exposed customer data through a shipping partner, which has direct implications for crypto users (phishing risks, social engineering). The source is a credible crypto news outlet and the content is specific, verifiable, and timely.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z",
+      "bCommitSha": "c681b0cb86967156cdf56f729540f1b64bb4dc71"
+    },
+    "7bc0cd8b4bfea6a0884b269ca5ef74bc9304be995e6be846bddc50f97344a6ac": {
+      "decisionKey": "7bc0cd8b4bfea6a0884b269ca5ef74bc9304be995e6be846bddc50f97344a6ac",
+      "status": "rejected",
+      "reason": "Swissquote作为提供加密交易服务的上市银行，其削减全年指引并报告上半年加密收入暴跌，反映了加密市场交易活动的显著变化，对加密行业受众具有明确的信息增量。来源为CoinDesk，真实可核验，属于市场结构变化而非价格喊单。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z"
+    },
+    "58d18e5072210d59a9db8de55407246e93112d7e02de9b817b10321d20f5ed5a": {
+      "decisionKey": "58d18e5072210d59a9db8de55407246e93112d7e02de9b817b10321d20f5ed5a",
+      "status": "published",
+      "reason": "MUFG将日本国债回购交易上链的试点项目，涉及机构级RWA和区块链结算，对加密行业有明确的信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z",
+      "bCommitSha": "c681b0cb86967156cdf56f729540f1b64bb4dc71"
+    },
+    "457491feda5248a5a2aed17ebf93ef691bb22a2e5bd51c3d2d5d313aa4c8ed18": {
+      "decisionKey": "457491feda5248a5a2aed17ebf93ef691bb22a2e5bd51c3d2d5d313aa4c8ed18",
+      "status": "rejected",
+      "reason": "该内容来源为真实新闻媒体Cointelegraph，涉及知名加密人物Andre Cronje对DeFi行业演变的观点，提出了‘链上金融’的概念，对加密行业从业者有一定信息增量和讨论价值，但并非重大政策、协议升级或安全事件，故评分适中。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z"
+    },
+    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
+      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z"
+    },
+    "1f3af29f0366de629bdcc3f318edc03a9d6c9866541079b4e6be9361f6c9e7a8": {
+      "decisionKey": "1f3af29f0366de629bdcc3f318edc03a9d6c9866541079b4e6be9361f6c9e7a8",
+      "status": "rejected",
+      "reason": "Candidates lack substantive detail; single-sentence summary about one company's staking income does not constitute material industry-wide news or offer clear incremental value for crypto professionals.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z"
+    },
+    "110fba1f78b4d40c885f6d9948570000c0751596aae13cf8a03b722d7f62dc2d": {
+      "decisionKey": "110fba1f78b4d40c885f6d9948570000c0751596aae13cf8a03b722d7f62dc2d",
+      "status": "published",
+      "reason": "该候选来自真实可访问的加密媒体Decrypt，报道了加密借贷平台Delio CEO因4900万美元欺诈被判15年的具体案件，包含明确主体、金额和判决结果，对加密行业具有法律与监管层面的重要信息增量，符合发布标准。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z",
+      "bCommitSha": "c681b0cb86967156cdf56f729540f1b64bb4dc71"
+    },
+    "102e5127e14e5f707484837a24cca295a6796df773d1278a0113f39ea1ec3203": {
+      "decisionKey": "102e5127e14e5f707484837a24cca295a6796df773d1278a0113f39ea1ec3203",
+      "status": "rejected",
+      "reason": "该候选为单一加密交易所（Bullish）的季度财报，虽然包含具体财务数据，但属于常规公司业绩披露，非重大政策、协议升级、安全事件或市场结构变化，对加密行业整体影响有限。",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z"
+    },
+    "064fc855aaa69f62bea64de2b1099ac186694b1c4dc314cfda4fd52ad568c23e": {
+      "decisionKey": "064fc855aaa69f62bea64de2b1099ac186694b1c4dc314cfda4fd52ad568c23e",
+      "status": "published",
+      "reason": "CoinDesk 报道 Figure 公司季度收入达 2.26 亿美元，区块链贷款市场交易量达 43 亿美元，具体数据明确，属于代币化贷款领域的重要市场动态，对加密行业有信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T14:01:09.783Z",
+      "bCommitSha": "c681b0cb86967156cdf56f729540f1b64bb4dc71"
+    },
     "d8b16919d20dd0e16f4dc97b4f7ddfcb0fe09d4779c64968a87a32a155dab8cb": {
       "decisionKey": "d8b16919d20dd0e16f4dc97b4f7ddfcb0fe09d4779c64968a87a32a155dab8cb",
       "status": "published",
@@ -42,32 +141,11 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T12:00:59.985Z"
     },
-    "457491feda5248a5a2aed17ebf93ef691bb22a2e5bd51c3d2d5d313aa4c8ed18": {
-      "decisionKey": "457491feda5248a5a2aed17ebf93ef691bb22a2e5bd51c3d2d5d313aa4c8ed18",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T12:00:59.985Z"
-    },
-    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
-      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T12:00:59.985Z"
-    },
     "29a52a88bc2258c62d15a28f470351e3c86e07a8406c102105a70643b8ef7e43": {
       "decisionKey": "29a52a88bc2258c62d15a28f470351e3c86e07a8406c102105a70643b8ef7e43",
       "status": "rejected",
       "reason": "候选仅提供简短的市场行情总结，提及比特币价格持稳及Monero、Hyperliquid表现较好，属于低价值价格更新而非对加密行业有明确影响的重要政策、协议升级、安全事件或市场结构变化。内容缺乏具体数据、分析或增量信息，不满足发布标准。",
       "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T12:00:59.985Z"
-    },
-    "110fba1f78b4d40c885f6d9948570000c0751596aae13cf8a03b722d7f62dc2d": {
-      "decisionKey": "110fba1f78b4d40c885f6d9948570000c0751596aae13cf8a03b722d7f62dc2d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T12:00:59.985Z"
     },
@@ -4170,17 +4248,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T12:00:59.985Z",
-    "https://cointelegraph.com/rss": "2026-08-13T10:00:57.306Z",
-    "https://decrypt.co/feed": "2026-08-13T10:00:57.306Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T12:00:59.985Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T12:00:59.985Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T12:00:59.985Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-13T12:00:59.985Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-13T12:00:59.985Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-13T12:00:59.985Z",
-    "https://solana.com/rss.xml": "2026-08-13T12:00:59.985Z",
-    "https://slowmist.medium.com/feed": "2026-08-13T12:00:59.985Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T14:01:09.783Z",
+    "https://cointelegraph.com/rss": "2026-08-13T14:01:09.783Z",
+    "https://decrypt.co/feed": "2026-08-13T14:01:09.783Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T14:01:09.783Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T14:01:09.783Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T14:01:09.783Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-13T14:01:09.783Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-13T14:01:09.783Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-13T14:01:09.783Z",
+    "https://solana.com/rss.xml": "2026-08-13T14:01:09.783Z",
+    "https://slowmist.medium.com/feed": "2026-08-13T14:01:09.783Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
