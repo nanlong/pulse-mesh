@@ -1,6 +1,105 @@
 {
   "version": 1,
   "decisions": {
+    "dcc13bfb4a5736672b271cfd545d56e4a99be82d0f326050f68267780a9eaf9c": {
+      "decisionKey": "dcc13bfb4a5736672b271cfd545d56e4a99be82d0f326050f68267780a9eaf9c",
+      "status": "rejected",
+      "reason": "CFTC 即将召开创新咨询委员会会议，讨论加密资产、AI 和预测市场的监管，属于官方政策动向，对加密行业有直接影响，具备信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z"
+    },
+    "a851ba9fca537368859ec1708afac36fb7d25d743daf16dfbe2b2ea91df1b040": {
+      "decisionKey": "a851ba9fca537368859ec1708afac36fb7d25d743daf16dfbe2b2ea91df1b040",
+      "status": "published",
+      "reason": "Tether首次获得KPMG无保留审计意见，是稳定币行业透明度的重要里程碑，对加密市场信心和监管讨论有直接影响。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z",
+      "bCommitSha": "e823ab498457accc62ac6b4a12674986230fe2e4"
+    },
+    "a67ae4e16447635d104c13fa009ca63ae67a6a027f4f9719c4392febb217224d": {
+      "decisionKey": "a67ae4e16447635d104c13fa009ca63ae67a6a027f4f9719c4392febb217224d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z"
+    },
+    "9823fe88e07a66442f35bfd6de5c0b1fc2921975cdbc3447136ee069f4d173ac": {
+      "decisionKey": "9823fe88e07a66442f35bfd6de5c0b1fc2921975cdbc3447136ee069f4d173ac",
+      "status": "published",
+      "reason": "Tether完成四大会计师事务所审计，涉及1800亿美元USDT储备，是稳定币行业重大透明度事件，对加密市场结构和信任度有直接影响。",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z",
+      "bCommitSha": "e823ab498457accc62ac6b4a12674986230fe2e4"
+    },
+    "7e7e75cb531dc3244468b538541847b50cbe33544444e30eaaa6c5e838a82f33": {
+      "decisionKey": "7e7e75cb531dc3244468b538541847b50cbe33544444e30eaaa6c5e838a82f33",
+      "status": "published",
+      "reason": "该候选来自Cointelegraph，是真实公开的新闻来源，报道了韩国加密货币公司Delio首席执行官因欺诈被判15年监禁的具体事件，包含明确主体、事件和时间，对加密行业具有重要的监管和法律影响，属于重大行业新闻，适合发布。",
+      "score": 1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z",
+      "bCommitSha": "e823ab498457accc62ac6b4a12674986230fe2e4"
+    },
+    "6969d3c3dc8f2b39f88e6ceb01c930651e611a16b91d6e5f4f3b50e0c9c66162": {
+      "decisionKey": "6969d3c3dc8f2b39f88e6ceb01c930651e611a16b91d6e5f4f3b50e0c9c66162",
+      "status": "published",
+      "reason": "白宫签署备忘录允许私营公司对境外犯罪网络进行进攻性网络行动，属于重要网络安全政策变化，直接影响加密行业应对黑客和网络犯罪的环境，具有信息增量和行业相关性。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z",
+      "bCommitSha": "e823ab498457accc62ac6b4a12674986230fe2e4"
+    },
+    "3f700d7b97d7585e6e8c2f0918c8163e58e7499295b5820546658806df229ff2": {
+      "decisionKey": "3f700d7b97d7585e6e8c2f0918c8163e58e7499295b5820546658806df229ff2",
+      "status": "rejected",
+      "reason": "The article covers general AI model releases from Google and OpenAI with no direct connection to crypto industry policy, protocol upgrades, security events, or market structure. It is a product announcement with limited information increment for crypto audiences.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z"
+    },
+    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
+      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z"
+    },
+    "379880732ca9b92ba2ce1efed7a3c197bb77f1bebff167e247c908973138976c": {
+      "decisionKey": "379880732ca9b92ba2ce1efed7a3c197bb77f1bebff167e247c908973138976c",
+      "status": "published",
+      "reason": "The Block reports Citigroup CEO Jane Fraser's public stance on the Clarity Act and ongoing stablecoin reward issues, a concrete regulatory development involving a major financial institution. This provides original, verifiable information with direct implications for crypto policy and stablecoin markets, offering distinct informational value to industry participants.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z",
+      "bCommitSha": "e823ab498457accc62ac6b4a12674986230fe2e4"
+    },
+    "1f802052f66f87e76308068ef2700a6af631893e4c00f5b3828732d56f5f97bd": {
+      "decisionKey": "1f802052f66f87e76308068ef2700a6af631893e4c00f5b3828732d56f5f97bd",
+      "status": "published",
+      "reason": "Tether获得KPMG首次审计并签署无保留意见，是稳定币储备金透明度的重要里程碑，对加密市场有显著影响。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z",
+      "bCommitSha": "e823ab498457accc62ac6b4a12674986230fe2e4"
+    },
+    "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760": {
+      "decisionKey": "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760",
+      "status": "failed",
+      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"articles\",\n      0,\n      \"sourceUrls\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z"
+    },
+    "06ab37b171fb04e939581893ba834d9d8e296c84e88d367be40467f8b4cdbda7": {
+      "decisionKey": "06ab37b171fb04e939581893ba834d9d8e296c84e88d367be40467f8b4cdbda7",
+      "status": "rejected",
+      "reason": "候选内容过于简短，仅提及背景信息，缺乏具体事件细节、时间线和可核验数据，无法作为独立新闻发布。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T20:01:03.110Z"
+    },
     "f10e2f1d5b88c511a1c311d8d13b4873674fd5408ffc2b00a8a1c34f1145e22c": {
       "decisionKey": "f10e2f1d5b88c511a1c311d8d13b4873674fd5408ffc2b00a8a1c34f1145e22c",
       "status": "published",
@@ -124,20 +223,6 @@
       "updatedAt": "2026-08-13T18:01:02.884Z",
       "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
     },
-    "379880732ca9b92ba2ce1efed7a3c197bb77f1bebff167e247c908973138976c": {
-      "decisionKey": "379880732ca9b92ba2ce1efed7a3c197bb77f1bebff167e247c908973138976c",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T18:01:02.884Z"
-    },
-    "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760": {
-      "decisionKey": "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T18:01:02.884Z"
-    },
     "f05300578058687b1ea98194d1c964caf67c61570f1334d128ebee22707c9749": {
       "decisionKey": "f05300578058687b1ea98194d1c964caf67c61570f1334d128ebee22707c9749",
       "status": "rejected",
@@ -176,13 +261,6 @@
       "status": "rejected",
       "reason": "候选仅为CoinDesk新闻通讯的订阅推广介绍，无具体主体、事件、时间或数据，不构成实质性新闻内容，对加密行业受众无明确信息增量。",
       "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T16:01:03.792Z"
-    },
-    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
-      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T16:01:03.792Z"
     },
@@ -4429,17 +4507,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T18:01:02.884Z",
-    "https://cointelegraph.com/rss": "2026-08-13T18:01:02.884Z",
-    "https://decrypt.co/feed": "2026-08-13T18:01:02.884Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T18:01:02.884Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T18:01:02.884Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T18:01:02.884Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-13T18:01:02.884Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-13T18:01:02.884Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-13T18:01:02.884Z",
-    "https://solana.com/rss.xml": "2026-08-13T18:01:02.884Z",
-    "https://slowmist.medium.com/feed": "2026-08-13T18:01:02.884Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T20:01:03.110Z",
+    "https://cointelegraph.com/rss": "2026-08-13T20:01:03.110Z",
+    "https://decrypt.co/feed": "2026-08-13T20:01:03.110Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T20:01:03.110Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T20:01:03.110Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T20:01:03.110Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-13T20:01:03.110Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-13T20:01:03.110Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-13T20:01:03.110Z",
+    "https://solana.com/rss.xml": "2026-08-13T20:01:03.110Z",
+    "https://slowmist.medium.com/feed": "2026-08-13T20:01:03.110Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
