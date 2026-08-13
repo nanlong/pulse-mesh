@@ -1,6 +1,75 @@
 {
   "version": 1,
   "decisions": {
+    "a550c22b3bee79e9aa17d804ebae0efb3697b43cc1f14177363e4f9b3b3e485a": {
+      "decisionKey": "a550c22b3bee79e9aa17d804ebae0efb3697b43cc1f14177363e4f9b3b3e485a",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T00:01:22.720Z"
+    },
+    "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
+      "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T00:01:22.720Z"
+    },
+    "8395269148cfd3c6efb28d6c38ae1d4fe98862e163ef9e7a426d60547ba07eb6": {
+      "decisionKey": "8395269148cfd3c6efb28d6c38ae1d4fe98862e163ef9e7a426d60547ba07eb6",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T00:01:22.720Z"
+    },
+    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
+      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T00:01:22.720Z"
+    },
+    "3194b076cd13dd629c13e12f3b1324e798c5e0d76ca914df0f1a2b4bc3132898": {
+      "decisionKey": "3194b076cd13dd629c13e12f3b1324e798c5e0d76ca914df0f1a2b4bc3132898",
+      "status": "published",
+      "reason": "Securitize, a leading tokenization firm, reported an earnings miss with tokenization revenue falling short despite record tokenized assets and trading activity. This is a concrete, verifiable event from a reputable news source that signals potential market structure shifts in the tokenized asset sector, directly relevant to crypto industry stakeholders.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T00:01:22.720Z",
+      "bCommitSha": "a9669c89707c378723f76e4f17d7c767aa9c8d32"
+    },
+    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
+      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T00:01:22.720Z"
+    },
+    "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182": {
+      "decisionKey": "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182",
+      "status": "published",
+      "reason": "Kalshi becoming the first prediction market to stream full order books via DoubleZero is a concrete market structure development. It directly improves institutional access to Level 1 and Level 2 data, which enhances transparency and efficiency in prediction markets. Since DoubleZero is a crypto infrastructure project, this is relevant to crypto industry participants and signals real-world adoption of decentralized bandwidth solutions. The source is reputable and the information is specific and timely.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T00:01:22.720Z",
+      "bCommitSha": "a9669c89707c378723f76e4f17d7c767aa9c8d32"
+    },
+    "12062f110036c2da96284b677086f08e1b2c63b38d4195f14acb5ba73d77b095": {
+      "decisionKey": "12062f110036c2da96284b677086f08e1b2c63b38d4195f14acb5ba73d77b095",
+      "status": "published",
+      "reason": "Zerohash作为Morgan Stanley E*Trade的加密基础设施合作伙伴，其申请成为美国信托银行被拒，涉及加密行业合规与银行监管动态，对机构加密服务有明确影响，来源为CoinDesk且信息可核验。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T00:01:22.720Z",
+      "bCommitSha": "a9669c89707c378723f76e4f17d7c767aa9c8d32"
+    },
+    "10536e31feb85a8e7f3f5a335a9f4812eb33285ee9989ff17c47930c492e3d2e": {
+      "decisionKey": "10536e31feb85a8e7f3f5a335a9f4812eb33285ee9989ff17c47930c492e3d2e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T00:01:22.720Z"
+    },
     "ece94e912633693d7b4c89d4e7795ddd025f6dcf33ea162b27abe74402658742": {
       "decisionKey": "ece94e912633693d7b4c89d4e7795ddd025f6dcf33ea162b27abe74402658742",
       "status": "published",
@@ -34,20 +103,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T22:01:01.071Z"
     },
-    "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
-      "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T22:01:01.071Z"
-    },
-    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
-      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T22:01:01.071Z"
-    },
     "6ac3cf1f6672b2259d118fad8f1fad6d870e8761c8f4d731699a135b8c5388ed": {
       "decisionKey": "6ac3cf1f6672b2259d118fad8f1fad6d870e8761c8f4d731699a135b8c5388ed",
       "status": "published",
@@ -65,13 +120,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T22:01:01.071Z"
     },
-    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
-      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T22:01:01.071Z"
-    },
     "2384d7935921ed9de0d83d7ae899be0e98faf7c354d4509ae4c69dd1b2e0237e": {
       "decisionKey": "2384d7935921ed9de0d83d7ae899be0e98faf7c354d4509ae4c69dd1b2e0237e",
       "status": "published",
@@ -80,20 +128,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-12T22:01:01.071Z",
       "bCommitSha": "cbf508d72170ff19fb50e19cf4939701a3c208af"
-    },
-    "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182": {
-      "decisionKey": "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T22:01:01.071Z"
-    },
-    "10536e31feb85a8e7f3f5a335a9f4812eb33285ee9989ff17c47930c492e3d2e": {
-      "decisionKey": "10536e31feb85a8e7f3f5a335a9f4812eb33285ee9989ff17c47930c492e3d2e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-12T22:01:01.071Z"
     },
     "f5045b2f11e4ca602f5fe8077357dbd136e46a27e8b119de896b89b0e2ecec75": {
       "decisionKey": "f5045b2f11e4ca602f5fe8077357dbd136e46a27e8b119de896b89b0e2ecec75",
@@ -3906,15 +3940,15 @@
   "sourceCheckpoints": {
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T22:01:01.071Z",
     "https://cointelegraph.com/rss": "2026-08-12T22:01:01.071Z",
-    "https://decrypt.co/feed": "2026-08-12T22:01:01.071Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-12T22:01:01.071Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-12T22:01:01.071Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-12T22:01:01.071Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-12T22:01:01.071Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-12T22:01:01.071Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-12T22:01:01.071Z",
-    "https://solana.com/rss.xml": "2026-08-12T22:01:01.071Z",
-    "https://slowmist.medium.com/feed": "2026-08-12T22:01:01.071Z",
+    "https://decrypt.co/feed": "2026-08-13T00:01:22.720Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T00:01:22.720Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T00:01:22.720Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T00:01:22.720Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-13T00:01:22.720Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-13T00:01:22.720Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-13T00:01:22.720Z",
+    "https://solana.com/rss.xml": "2026-08-13T00:01:22.720Z",
+    "https://slowmist.medium.com/feed": "2026-08-13T00:01:22.720Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
