@@ -1,33 +1,63 @@
 {
   "version": 1,
   "decisions": {
+    "d323928bacc1a595b14629e19be630d3743e1205d6a0432f7d42a26a5c79dd20": {
+      "decisionKey": "d323928bacc1a595b14629e19be630d3743e1205d6a0432f7d42a26a5c79dd20",
+      "status": "rejected",
+      "reason": "该候选为Cointelegraph对ASX区块链项目失败后续的报道，涉及股东诉讼及交易所承认误导市场，属于区块链在传统金融基础设施应用中的重要治理与法律事件，对加密行业受众有参考价值，且来源真实、信息具体。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T02:00:58.589Z"
+    },
     "a550c22b3bee79e9aa17d804ebae0efb3697b43cc1f14177363e4f9b3b3e485a": {
       "decisionKey": "a550c22b3bee79e9aa17d804ebae0efb3697b43cc1f14177363e4f9b3b3e485a",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "published",
+      "reason": "该候选来自真实新闻媒体Cointelegraph，报道亚利桑那州针对加密货币ATM的消费者保护法律实施效果，包含具体主体（亚利桑那州法律、35名受害者、17.1万美元退款）、事件和时间，属于加密行业相关政策与市场结构变化，对行业受众有明确信息增量。",
+      "score": 0.75,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T00:01:22.720Z"
+      "updatedAt": "2026-08-13T02:00:58.589Z",
+      "bCommitSha": "6bdda4b3311f236b4fe1a87d027b9cd990e5b62b"
     },
     "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
       "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T00:01:22.720Z"
+      "updatedAt": "2026-08-13T02:00:58.589Z"
     },
     "8395269148cfd3c6efb28d6c38ae1d4fe98862e163ef9e7a426d60547ba07eb6": {
       "decisionKey": "8395269148cfd3c6efb28d6c38ae1d4fe98862e163ef9e7a426d60547ba07eb6",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "published",
+      "reason": "CFTC's warning about prediction markets' incentive filings is a concrete regulatory development affecting Kalshi, Polymarket, and the broader prediction-market industry, with implications for market integrity and compliance.",
+      "score": 0.75,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T00:01:22.720Z"
+      "updatedAt": "2026-08-13T02:00:58.589Z",
+      "bCommitSha": "6bdda4b3311f236b4fe1a87d027b9cd990e5b62b"
     },
     "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
       "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T00:01:22.720Z"
+      "updatedAt": "2026-08-13T02:00:58.589Z"
+    },
+    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
+      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
+      "status": "published",
+      "reason": "Regulatory probe by NYC Council into prediction market platforms is a concrete policy development with direct implications for crypto-based prediction markets, offering new information for industry stakeholders.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T02:00:58.589Z",
+      "bCommitSha": "6bdda4b3311f236b4fe1a87d027b9cd990e5b62b"
+    },
+    "10536e31feb85a8e7f3f5a335a9f4812eb33285ee9989ff17c47930c492e3d2e": {
+      "decisionKey": "10536e31feb85a8e7f3f5a335a9f4812eb33285ee9989ff17c47930c492e3d2e",
+      "status": "published",
+      "reason": "SEC向Franklin Templeton发出无异议函，允许其传统注册基金投资链上BENJI/FOBXX基金，体现监管对链上资产管理的认可，对RWA和链上基金赛道有明确政策指引意义。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T02:00:58.589Z",
+      "bCommitSha": "6bdda4b3311f236b4fe1a87d027b9cd990e5b62b"
     },
     "3194b076cd13dd629c13e12f3b1324e798c5e0d76ca914df0f1a2b4bc3132898": {
       "decisionKey": "3194b076cd13dd629c13e12f3b1324e798c5e0d76ca914df0f1a2b4bc3132898",
@@ -37,13 +67,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T00:01:22.720Z",
       "bCommitSha": "a9669c89707c378723f76e4f17d7c767aa9c8d32"
-    },
-    "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01": {
-      "decisionKey": "2972f4a813be87ec530973de39311f3f67d091de3badb25eba44fae6102e1a01",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T00:01:22.720Z"
     },
     "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182": {
       "decisionKey": "1cd1d424440a69e6382a91724c8a3aff1e0ae4a9937cc7959edce64bcb76b182",
@@ -62,13 +85,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T00:01:22.720Z",
       "bCommitSha": "a9669c89707c378723f76e4f17d7c767aa9c8d32"
-    },
-    "10536e31feb85a8e7f3f5a335a9f4812eb33285ee9989ff17c47930c492e3d2e": {
-      "decisionKey": "10536e31feb85a8e7f3f5a335a9f4812eb33285ee9989ff17c47930c492e3d2e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T00:01:22.720Z"
     },
     "ece94e912633693d7b4c89d4e7795ddd025f6dcf33ea162b27abe74402658742": {
       "decisionKey": "ece94e912633693d7b4c89d4e7795ddd025f6dcf33ea162b27abe74402658742",
@@ -3938,17 +3954,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-12T22:01:01.071Z",
-    "https://cointelegraph.com/rss": "2026-08-12T22:01:01.071Z",
-    "https://decrypt.co/feed": "2026-08-13T00:01:22.720Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T00:01:22.720Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T00:01:22.720Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T00:01:22.720Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-13T00:01:22.720Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-13T00:01:22.720Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-13T00:01:22.720Z",
-    "https://solana.com/rss.xml": "2026-08-13T00:01:22.720Z",
-    "https://slowmist.medium.com/feed": "2026-08-13T00:01:22.720Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T02:00:58.589Z",
+    "https://cointelegraph.com/rss": "2026-08-13T02:00:58.589Z",
+    "https://decrypt.co/feed": "2026-08-13T02:00:58.589Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T02:00:58.589Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T02:00:58.589Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T02:00:58.589Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-13T02:00:58.589Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-13T02:00:58.589Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-13T02:00:58.589Z",
+    "https://solana.com/rss.xml": "2026-08-13T02:00:58.589Z",
+    "https://slowmist.medium.com/feed": "2026-08-13T02:00:58.589Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
