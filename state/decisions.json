@@ -1,12 +1,112 @@
 {
   "version": 1,
   "decisions": {
+    "f10e2f1d5b88c511a1c311d8d13b4873674fd5408ffc2b00a8a1c34f1145e22c": {
+      "decisionKey": "f10e2f1d5b88c511a1c311d8d13b4873674fd5408ffc2b00a8a1c34f1145e22c",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z"
+    },
+    "f05300578058687b1ea98194d1c964caf67c61570f1334d128ebee22707c9749": {
+      "decisionKey": "f05300578058687b1ea98194d1c964caf67c61570f1334d128ebee22707c9749",
+      "status": "rejected",
+      "reason": "该候选为B2C2聘请Schroders前高管的企业人事新闻，未涉及加密行业重大政策、协议升级、安全事件或市场结构变化，信息增量有限，对目标受众的重要性不足。",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z"
+    },
     "dcd6cbc0bd3aad9ec332713f0112b173c70172b09c4ab3c7b23280c9780ee49c": {
       "decisionKey": "dcd6cbc0bd3aad9ec332713f0112b173c70172b09c4ab3c7b23280c9780ee49c",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T14:01:09.783Z"
+      "updatedAt": "2026-08-13T16:01:03.792Z"
+    },
+    "c343df0795f98ac4fd6f7b964ac168debd8a38826dbab77d18cb2ea9ffd98c56": {
+      "decisionKey": "c343df0795f98ac4fd6f7b964ac168debd8a38826dbab77d18cb2ea9ffd98c56",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z"
+    },
+    "b7bcc08643403d1c05f33a9cb61371d802063fdb6696a03d15791c37a8383d36": {
+      "decisionKey": "b7bcc08643403d1c05f33a9cb61371d802063fdb6696a03d15791c37a8383d36",
+      "status": "published",
+      "reason": "This candidate covers reported settlement talks between the UK FCA and HTX over illegal crypto promotions, a significant regulatory enforcement matter for crypto exchanges operating in the UK. It includes specific entities, a concrete issue, and a verifiable source (Decrypt). The content provides a specific detail from the regulator's claim, adding substance. While the outcome is based on a report rather than official confirmation, the topic is highly relevant to the crypto industry's regulatory landscape.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z",
+      "bCommitSha": "8f22eb12418eb54f0182485276c68ef570012148"
+    },
+    "b29260ed0cf726bd7ad961049746ee7db977591fdf752a5e282bf822339c6f83": {
+      "decisionKey": "b29260ed0cf726bd7ad961049746ee7db977591fdf752a5e282bf822339c6f83",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z"
+    },
+    "adeace138d619abbf827d4dfc2a275e5477e21de122a5e5e4086e29545a38334": {
+      "decisionKey": "adeace138d619abbf827d4dfc2a275e5477e21de122a5e5e4086e29545a38334",
+      "status": "published",
+      "reason": "Kalshi, a CFTC-regulated prediction market platform, is reportedly in talks for a $750M raise at a $40B valuation, nearly doubling its May valuation. This is significant market structure news for crypto/prediction market audiences, indicating major capital inflows and institutional interest.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z",
+      "bCommitSha": "8f22eb12418eb54f0182485276c68ef570012148"
+    },
+    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
+      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z"
+    },
+    "6a9872de30a3012a3bed9b792d60f5ccb48be3f3c614a4763046daeb33b56f6c": {
+      "decisionKey": "6a9872de30a3012a3bed9b792d60f5ccb48be3f3c614a4763046daeb33b56f6c",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z"
+    },
+    "55b16b3c393a4aed4a65d06194324a72b76b2eeecbb8f3658e15f67afc939f43": {
+      "decisionKey": "55b16b3c393a4aed4a65d06194324a72b76b2eeecbb8f3658e15f67afc939f43",
+      "status": "rejected",
+      "reason": "候选仅为CoinDesk新闻通讯的订阅推广介绍，无具体主体、事件、时间或数据，不构成实质性新闻内容，对加密行业受众无明确信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z"
+    },
+    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
+      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z"
+    },
+    "37ec559abe6c33442eb0177e1d2ba2939e0bc383c22e1fa57e4b5058187cdc8d": {
+      "decisionKey": "37ec559abe6c33442eb0177e1d2ba2939e0bc383c22e1fa57e4b5058187cdc8d",
+      "status": "rejected",
+      "reason": "该报道来自可信来源The Block，提供了比特币价格区间、通胀数据（PPI、CPI）及Glassnode关于市场流动性的具体分析，对加密行业受众具有信息增量，属于市场结构观察而非简单价格喊单。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z"
+    },
+    "1fb3224f8ed77b160b15e79eea945aa0da2ed1f8c7b6bb1fc33d111fe23a5e58": {
+      "decisionKey": "1fb3224f8ed77b160b15e79eea945aa0da2ed1f8c7b6bb1fc33d111fe23a5e58",
+      "status": "published",
+      "reason": "The Block is a credible crypto news source. The item reports a concrete product expansion by Ether.fi, adding tokenized stocks, metals, and Aave-powered portfolio loans. This is a substantive DeFi protocol update with clear relevance for crypto users and tokenization watchers.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z",
+      "bCommitSha": "8f22eb12418eb54f0182485276c68ef570012148"
+    },
+    "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760": {
+      "decisionKey": "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T16:01:03.792Z"
     },
     "c86e1d1f56c08d5cf4e8b2650e3f80b3cb72a26cbd207b2c5f5b21e5ec10f3b9": {
       "decisionKey": "c86e1d1f56c08d5cf4e8b2650e3f80b3cb72a26cbd207b2c5f5b21e5ec10f3b9",
@@ -56,13 +156,6 @@
       "status": "rejected",
       "reason": "该内容来源为真实新闻媒体Cointelegraph，涉及知名加密人物Andre Cronje对DeFi行业演变的观点，提出了‘链上金融’的概念，对加密行业从业者有一定信息增量和讨论价值，但并非重大政策、协议升级或安全事件，故评分适中。",
       "score": 0.65,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T14:01:09.783Z"
-    },
-    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
-      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T14:01:09.783Z"
     },
@@ -133,13 +226,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T12:00:59.985Z",
       "bCommitSha": "35ebaae6753a39e271256bdbb89f4f33c7f5e1ca"
-    },
-    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
-      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T12:00:59.985Z"
     },
     "29a52a88bc2258c62d15a28f470351e3c86e07a8406c102105a70643b8ef7e43": {
       "decisionKey": "29a52a88bc2258c62d15a28f470351e3c86e07a8406c102105a70643b8ef7e43",
@@ -4248,17 +4334,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T14:01:09.783Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T16:01:03.792Z",
     "https://cointelegraph.com/rss": "2026-08-13T14:01:09.783Z",
-    "https://decrypt.co/feed": "2026-08-13T14:01:09.783Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T14:01:09.783Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T14:01:09.783Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T14:01:09.783Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-13T14:01:09.783Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-13T14:01:09.783Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-13T14:01:09.783Z",
-    "https://solana.com/rss.xml": "2026-08-13T14:01:09.783Z",
-    "https://slowmist.medium.com/feed": "2026-08-13T14:01:09.783Z",
+    "https://decrypt.co/feed": "2026-08-13T16:01:03.792Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T16:01:03.792Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T16:01:03.792Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T16:01:03.792Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-13T16:01:03.792Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-13T16:01:03.792Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-13T16:01:03.792Z",
+    "https://solana.com/rss.xml": "2026-08-13T16:01:03.792Z",
+    "https://slowmist.medium.com/feed": "2026-08-13T16:01:03.792Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
