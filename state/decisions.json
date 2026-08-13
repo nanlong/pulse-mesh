@@ -1,6 +1,61 @@
 {
   "version": 1,
   "decisions": {
+    "ac9550c5a0da2abf99a188d54c0ec5679a202295712d3a4d0cefef19750fa958": {
+      "decisionKey": "ac9550c5a0da2abf99a188d54c0ec5679a202295712d3a4d0cefef19750fa958",
+      "status": "published",
+      "reason": "Copper US arm获得FINRA成员资格和SEC注册经纪自营商身份，提供托管、质押、融资和OTC服务，标志着加密行业监管和市场结构的重要进展，对机构投资者和行业有明确影响。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T08:01:05.704Z",
+      "bCommitSha": "52acbc2905eb6c2c64c042c55e265fb659fcac5c"
+    },
+    "9199d92c4a9560e574d719671779228aa73a20835319227eafbde37c3c241df3": {
+      "decisionKey": "9199d92c4a9560e574d719671779228aa73a20835319227eafbde37c3c241df3",
+      "status": "published",
+      "reason": "BitGo is a major crypto custodian, and its Q2 financial results, including an 80% revenue surge to $4.3B and a $19M loss due to unrealized digital asset losses, are material to industry understanding of custodian health and market structure. The source is a reputable crypto news outlet and the data is specific and verifiable.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T08:01:05.704Z",
+      "bCommitSha": "52acbc2905eb6c2c64c042c55e265fb659fcac5c"
+    },
+    "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
+      "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T08:01:05.704Z"
+    },
+    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
+      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T08:01:05.704Z"
+    },
+    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
+      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T08:01:05.704Z"
+    },
+    "328dc5a5b9480818203a225f397c117a1e2176216042713c80b0ef898146c355": {
+      "decisionKey": "328dc5a5b9480818203a225f397c117a1e2176216042713c80b0ef898146c355",
+      "status": "published",
+      "reason": "该候选来自公开可核验的新闻媒体 The Block，涉及 Blockchain Association 支持 Custodia 就美联储主账户访问权向最高法院上诉的具体监管与法律事件，包含明确主体、时间与影响，对加密行业政策环境具有直接信息增量。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T08:01:05.704Z",
+      "bCommitSha": "52acbc2905eb6c2c64c042c55e265fb659fcac5c"
+    },
+    "08a0b0f6c9463aa376bc82fd30c7a6a6c14a51eceb8cc9e8360ab81f74fbf988": {
+      "decisionKey": "08a0b0f6c9463aa376bc82fd30c7a6a6c14a51eceb8cc9e8360ab81f74fbf988",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T08:01:05.704Z"
+    },
     "ffe03c06750c139a3e7e0fc7f8b1247e2fe78b1b316637d24851fb4c1cfb71da": {
       "decisionKey": "ffe03c06750c139a3e7e0fc7f8b1247e2fe78b1b316637d24851fb4c1cfb71da",
       "status": "rejected",
@@ -17,25 +72,11 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T06:00:59.882Z"
     },
-    "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb": {
-      "decisionKey": "85ffd9f9c7e87a4386b2b0d689dd861c6e9799ed3d5542876b3ad4896b1295bb",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T06:00:59.882Z"
-    },
     "82293b8554eb0a5de5804b3b865b1ee985b6939f15d887e46fa1d59e95ad9326": {
       "decisionKey": "82293b8554eb0a5de5804b3b865b1ee985b6939f15d887e46fa1d59e95ad9326",
       "status": "rejected",
       "reason": "该候选为Metaplanet CEO澄清未出售比特币的公司动态，属于个别实体资金转移说明，不涉及加密行业重要政策、协议升级、安全事件或市场结构变化，对受众的明确影响和信息增量有限。",
       "score": 0.4,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T06:00:59.882Z"
-    },
-    "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab": {
-      "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T06:00:59.882Z"
     },
@@ -56,13 +97,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T06:00:59.882Z",
       "bCommitSha": "ea1dd2951207500bce499e68f13d3a7d6fd61ad2"
-    },
-    "08a0b0f6c9463aa376bc82fd30c7a6a6c14a51eceb8cc9e8360ab81f74fbf988": {
-      "decisionKey": "08a0b0f6c9463aa376bc82fd30c7a6a6c14a51eceb8cc9e8360ab81f74fbf988",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T06:00:59.882Z"
     },
     "776ccd4053201d3e00662dc0937017aacb53d94ed92924e33987e30582ceea6e": {
       "decisionKey": "776ccd4053201d3e00662dc0937017aacb53d94ed92924e33987e30582ceea6e",
@@ -4011,17 +4045,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T06:00:59.882Z",
-    "https://cointelegraph.com/rss": "2026-08-13T06:00:59.882Z",
-    "https://decrypt.co/feed": "2026-08-13T06:00:59.882Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T06:00:59.882Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T06:00:59.882Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T06:00:59.882Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-13T06:00:59.882Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-13T06:00:59.882Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-13T06:00:59.882Z",
-    "https://solana.com/rss.xml": "2026-08-13T06:00:59.882Z",
-    "https://slowmist.medium.com/feed": "2026-08-13T06:00:59.882Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T08:01:05.704Z",
+    "https://cointelegraph.com/rss": "2026-08-13T08:01:05.704Z",
+    "https://decrypt.co/feed": "2026-08-13T08:01:05.704Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T08:01:05.704Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T08:01:05.704Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T08:01:05.704Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-13T08:01:05.704Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-13T08:01:05.704Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-13T08:01:05.704Z",
+    "https://solana.com/rss.xml": "2026-08-13T08:01:05.704Z",
+    "https://slowmist.medium.com/feed": "2026-08-13T08:01:05.704Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
