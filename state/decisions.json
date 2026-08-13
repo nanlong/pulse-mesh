@@ -1,6 +1,89 @@
 {
   "version": 1,
   "decisions": {
+    "fee0f33a689b18d379df3572c8f445521172adbc95cfcf7d3cdc93d0fec72770": {
+      "decisionKey": "fee0f33a689b18d379df3572c8f445521172adbc95cfcf7d3cdc93d0fec72770",
+      "status": "published",
+      "reason": "Tether's first full financial audit with a clean KPMG opinion is a significant development for the crypto industry, providing verified reserve data and influencing stablecoin transparency and market confidence.",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T22:00:55.443Z",
+      "bCommitSha": "52630b9a431801bb35d64056a9cc34c3b062513c"
+    },
+    "ec387ae0fe2eb2670fb254aa82c5a8d1754d9ee66cc2ec6cf89a188b47996b95": {
+      "decisionKey": "ec387ae0fe2eb2670fb254aa82c5a8d1754d9ee66cc2ec6cf89a188b47996b95",
+      "status": "rejected",
+      "reason": "内容为6th Man Ventures联合创始人的个人观点陈述，缺乏具体主体、事件、时间或数据，属于市场意见和观点表达，对加密行业受众无明确信息增量，且接近价格喊单或营销性质。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T22:00:55.443Z"
+    },
+    "d26b61375c9c55be82869286d53c6770718de8b70aa923d43f91e2c92188ce9f": {
+      "decisionKey": "d26b61375c9c55be82869286d53c6770718de8b70aa923d43f91e2c92188ce9f",
+      "status": "rejected",
+      "reason": "The candidate describes a traditional affinity investment fraud case with no mention of cryptocurrency, blockchain, or digital assets. It does not provide information relevant to the crypto industry's policy, protocol, security, or market structure.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T22:00:55.443Z"
+    },
+    "c51065749a6bfa8109aa2ca141faa547351ca329d133cf0a7fc819b6079e5e72": {
+      "decisionKey": "c51065749a6bfa8109aa2ca141faa547351ca329d133cf0a7fc819b6079e5e72",
+      "status": "rejected",
+      "reason": "Gemini is a significant crypto exchange; its reported $108 million loss and share decline are newsworthy and relevant to the crypto industry's market structure and investor sentiment.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T22:00:55.443Z"
+    },
+    "a67ae4e16447635d104c13fa009ca63ae67a6a027f4f9719c4392febb217224d": {
+      "decisionKey": "a67ae4e16447635d104c13fa009ca63ae67a6a027f4f9719c4392febb217224d",
+      "status": "published",
+      "reason": "真实新闻来源，涉及巴尔的摩对Kalshi、Polymarket及主流交易平台的法律诉讼，属于影响加密行业预测市场和交易平台的重要监管事件，具有明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T22:00:55.443Z",
+      "bCommitSha": "52630b9a431801bb35d64056a9cc34c3b062513c"
+    },
+    "91588aeeaf8128a2a27dcbbc041bf6953779c1a6c9f4a409ec2e94aef5e4c0a6": {
+      "decisionKey": "91588aeeaf8128a2a27dcbbc041bf6953779c1a6c9f4a409ec2e94aef5e4c0a6",
+      "status": "published",
+      "reason": "巴尔的摩市对预测市场平台 Kalshi 等提起诉讼，涉及体育博彩和欺骗性贸易行为，并牵涉 Coinbase 等加密行业重要参与者，是影响预测市场及加密行业的具体监管事件，信息增量明确。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T22:00:55.443Z",
+      "bCommitSha": "52630b9a431801bb35d64056a9cc34c3b062513c"
+    },
+    "3f420428a7824e0f1696659ad129650aa955cc8698348efa33d36db582b74c3e": {
+      "decisionKey": "3f420428a7824e0f1696659ad129650aa955cc8698348efa33d36db582b74c3e",
+      "status": "rejected",
+      "reason": "主题为Anthropic为Claude输出添加水印，属于AI技术领域新闻，与加密行业的政策、协议升级、安全事件或市场结构变化无直接关联，对加密行业受众缺乏明确影响和信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T22:00:55.443Z"
+    },
+    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
+      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T22:00:55.443Z"
+    },
+    "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760": {
+      "decisionKey": "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760",
+      "status": "published",
+      "reason": "This is a credible news report from The Block about a confirmed data breach at Trezor's shipping provider, impacting nearly 14,000 hardware wallet customers. It is a significant security event for crypto users, with actionable implications for personal safety and asset protection, thus highly relevant to the crypto audience.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T22:00:55.443Z",
+      "bCommitSha": "52630b9a431801bb35d64056a9cc34c3b062513c"
+    },
+    "0e1004ed77330458dabe9fbc843ece726615b451448a6ab26b098a4c1ad1b3b9": {
+      "decisionKey": "0e1004ed77330458dabe9fbc843ece726615b451448a6ab26b098a4c1ad1b3b9",
+      "status": "rejected",
+      "reason": "The candidate discusses an AI red-team study about Claude models deploying malware, but it lacks direct relevance to the crypto industry. There is no clear impact on crypto policy, protocols, security, or market structure, and it does not provide information increment for crypto-focused readers.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T22:00:55.443Z"
+    },
     "dcc13bfb4a5736672b271cfd545d56e4a99be82d0f326050f68267780a9eaf9c": {
       "decisionKey": "dcc13bfb4a5736672b271cfd545d56e4a99be82d0f326050f68267780a9eaf9c",
       "status": "rejected",
@@ -17,13 +100,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T20:01:03.110Z",
       "bCommitSha": "e823ab498457accc62ac6b4a12674986230fe2e4"
-    },
-    "a67ae4e16447635d104c13fa009ca63ae67a6a027f4f9719c4392febb217224d": {
-      "decisionKey": "a67ae4e16447635d104c13fa009ca63ae67a6a027f4f9719c4392febb217224d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T20:01:03.110Z"
     },
     "9823fe88e07a66442f35bfd6de5c0b1fc2921975cdbc3447136ee069f4d173ac": {
       "decisionKey": "9823fe88e07a66442f35bfd6de5c0b1fc2921975cdbc3447136ee069f4d173ac",
@@ -60,13 +136,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T20:01:03.110Z"
     },
-    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
-      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T20:01:03.110Z"
-    },
     "379880732ca9b92ba2ce1efed7a3c197bb77f1bebff167e247c908973138976c": {
       "decisionKey": "379880732ca9b92ba2ce1efed7a3c197bb77f1bebff167e247c908973138976c",
       "status": "published",
@@ -84,13 +153,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T20:01:03.110Z",
       "bCommitSha": "e823ab498457accc62ac6b4a12674986230fe2e4"
-    },
-    "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760": {
-      "decisionKey": "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760",
-      "status": "failed",
-      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"articles\",\n      0,\n      \"sourceUrls\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T20:01:03.110Z"
     },
     "06ab37b171fb04e939581893ba834d9d8e296c84e88d367be40467f8b4cdbda7": {
       "decisionKey": "06ab37b171fb04e939581893ba834d9d8e296c84e88d367be40467f8b4cdbda7",
@@ -4507,17 +4569,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T20:01:03.110Z",
-    "https://cointelegraph.com/rss": "2026-08-13T20:01:03.110Z",
-    "https://decrypt.co/feed": "2026-08-13T20:01:03.110Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T20:01:03.110Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T20:01:03.110Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T20:01:03.110Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-13T20:01:03.110Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-13T20:01:03.110Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-13T20:01:03.110Z",
-    "https://solana.com/rss.xml": "2026-08-13T20:01:03.110Z",
-    "https://slowmist.medium.com/feed": "2026-08-13T20:01:03.110Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T22:00:55.443Z",
+    "https://cointelegraph.com/rss": "2026-08-13T22:00:55.443Z",
+    "https://decrypt.co/feed": "2026-08-13T22:00:55.443Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T22:00:55.443Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T22:00:55.443Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T22:00:55.443Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-13T22:00:55.443Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-13T22:00:55.443Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-13T22:00:55.443Z",
+    "https://solana.com/rss.xml": "2026-08-13T22:00:55.443Z",
+    "https://slowmist.medium.com/feed": "2026-08-13T22:00:55.443Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
