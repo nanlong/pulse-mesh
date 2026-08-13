@@ -3,30 +3,146 @@
   "decisions": {
     "f10e2f1d5b88c511a1c311d8d13b4873674fd5408ffc2b00a8a1c34f1145e22c": {
       "decisionKey": "f10e2f1d5b88c511a1c311d8d13b4873674fd5408ffc2b00a8a1c34f1145e22c",
-      "status": "failed",
-      "reason": "The operation timed out.",
+      "status": "published",
+      "reason": "The Block is a credible crypto news source, and the candidate reports concrete financial data (192% net income increase to $87 million, $4.3 billion loan volume) about an onchain lender, indicating growth in the onchain lending sector, which is relevant and informative for crypto audiences.",
+      "score": 0.8,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T16:01:03.792Z"
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "dcd6cbc0bd3aad9ec332713f0112b173c70172b09c4ab3c7b23280c9780ee49c": {
+      "decisionKey": "dcd6cbc0bd3aad9ec332713f0112b173c70172b09c4ab3c7b23280c9780ee49c",
+      "status": "rejected",
+      "reason": "真实新闻来源，报道知名加密交易所Bullish的季度财务业绩，包含具体亏损、销售额和收入数据，对关注交易所表现和加密市场结构的受众有明确信息增量。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z"
+    },
+    "d9bbddda1aa1e4d7314962bd708ab35c562ecccb9751107f56f31d6dd0c1fc2b": {
+      "decisionKey": "d9bbddda1aa1e4d7314962bd708ab35c562ecccb9751107f56f31d6dd0c1fc2b",
+      "status": "published",
+      "reason": "Trezor, a major crypto hardware wallet provider, disclosed a data breach affecting 14,000 users via its fulfilment partner, marking the first exposure of shipping addresses. This is a concrete security event with direct privacy implications for crypto industry stakeholders and customers.",
+      "score": 1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "c343df0795f98ac4fd6f7b964ac168debd8a38826dbab77d18cb2ea9ffd98c56": {
+      "decisionKey": "c343df0795f98ac4fd6f7b964ac168debd8a38826dbab77d18cb2ea9ffd98c56",
+      "status": "published",
+      "reason": "真实新闻来源，内容为加密交易所Bullish的具体季度财务数据（营收、EBITDA增长），对加密行业参与者了解交易所经营状况有信息增量，不属于价格喊单或低价值营销。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "b29260ed0cf726bd7ad961049746ee7db977591fdf752a5e282bf822339c6f83": {
+      "decisionKey": "b29260ed0cf726bd7ad961049746ee7db977591fdf752a5e282bf822339c6f83",
+      "status": "published",
+      "reason": "Trezor 用户数据泄露事件涉及具体主体、数据规模和风险提示，属于加密行业安全事件，对用户有直接威胁和知情价值，来源为知名加密媒体，信息可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "a5b0b9faf8192d2bd55f338ae0a6307a377519a343a437de4aedb69e29d99ec3": {
+      "decisionKey": "a5b0b9faf8192d2bd55f338ae0a6307a377519a343a437de4aedb69e29d99ec3",
+      "status": "published",
+      "reason": "该新闻来自权威加密媒体Cointelegraph，公开可核验；包含具体主体（上市比特币矿企）、量化数据（算力下降13.4%）及明确事件（AI基础设施收入增长驱动矿业结构变化），对加密行业挖矿生态与算力市场有直接影响，属于行业结构变化的重要信息。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "994b860e57bf0c3e068f4e33d43288c1b93b36ee316166c708d7118a6b7a7035": {
+      "decisionKey": "994b860e57bf0c3e068f4e33d43288c1b93b36ee316166c708d7118a6b7a7035",
+      "status": "published",
+      "reason": "该内容报道区块链协会支持Custodia在美国最高法院与美联储围绕主账户的诉讼，涉及加密银行获得联邦支付系统的准入问题，是直接影响加密行业政策与监管格局的重要法律事件，具有明确信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "96b769c1c487963d27c355299459361044ab4e31b8c696d7162869d6fac8e8e5": {
+      "decisionKey": "96b769c1c487963d27c355299459361044ab4e31b8c696d7162869d6fac8e8e5",
+      "status": "rejected",
+      "reason": "该候选为比特币价格预测的市场评论，属于价格喊单类内容，缺乏具体的政策、协议升级、安全事件或市场结构变化等硬信息，对加密行业受众的信息增量有限。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z"
+    },
+    "8f9476951c09d02990190b3617e9cc35dfaef1fa443cafda27b2548c0172def0": {
+      "decisionKey": "8f9476951c09d02990190b3617e9cc35dfaef1fa443cafda27b2548c0172def0",
+      "status": "published",
+      "reason": "夏威夷州自10月起禁止在加密货币ATM上进行现金存款，属于明确的政策监管变化，直接影响加密ATM运营商和使用者，对加密行业有信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "87de343a5ab3bb8b45e444b3a0a76df92eb661463f47a7c470774b21fe896ecc": {
+      "decisionKey": "87de343a5ab3bb8b45e444b3a0a76df92eb661463f47a7c470774b21fe896ecc",
+      "status": "published",
+      "reason": "This is a credible news report from Decrypt about the Blockchain Association urging the Supreme Court to hear Custodia's case, highlighting a significant policy issue that could affect crypto firms' access to the banking system. It involves specific actors, a concrete legal action, and clear implications for the crypto industry.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "6a9872de30a3012a3bed9b792d60f5ccb48be3f3c614a4763046daeb33b56f6c": {
+      "decisionKey": "6a9872de30a3012a3bed9b792d60f5ccb48be3f3c614a4763046daeb33b56f6c",
+      "status": "rejected",
+      "reason": "该候选属于日常比特币价格与宏观数据关联报道，内容仅描述价格在64K附近波动以及跟随美股涨跌，缺少对加密行业有重大影响的政策、协议、安全或市场结构变化信息，信息增量低，接近市场行情播报，不适合作为重要内容发布。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z"
+    },
+    "621b27076208d41f8f0da57269a89365ec9275e1b032388267292dbff0e5f4f8": {
+      "decisionKey": "621b27076208d41f8f0da57269a89365ec9275e1b032388267292dbff0e5f4f8",
+      "status": "published",
+      "reason": "来源可信，内容涉及上市公司Metaplanet的比特币持仓变动及新融资工具BitBonds，对加密市场情绪和比特币机构配置有明确信息增量。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "578637d8b6257c6f2d887c94d31ab44a2ea1999e2c6cd8774a1e95cc0389f21d": {
+      "decisionKey": "578637d8b6257c6f2d887c94d31ab44a2ea1999e2c6cd8774a1e95cc0389f21d",
+      "status": "published",
+      "reason": "Covers Robinhood Chain's TVL approaching $1B and Uniswap's role in driving liquidity, citing Standard Chartered. Includes specific entities, data point, and implications for UNI token burns, which is relevant to DeFi and blockchain infrastructure for crypto audiences.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "3905a4edabd4c28a981f4b1217924987e2a2474b7004edc387540e6d9392f95e": {
+      "decisionKey": "3905a4edabd4c28a981f4b1217924987e2a2474b7004edc387540e6d9392f95e",
+      "status": "published",
+      "reason": "该候选来自知名加密新闻媒体Decrypt，内容具体（超过40家比特币和加密公司要求AI实验室在发布前开放最强模型给安全研究人员），涉及加密行业安全与AI交叉议题，对行业有明确影响和信息增量。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z",
+      "bCommitSha": "b8f90199ba2867f33e6a4d6a12c5adf1f6dbbef5"
+    },
+    "379880732ca9b92ba2ce1efed7a3c197bb77f1bebff167e247c908973138976c": {
+      "decisionKey": "379880732ca9b92ba2ce1efed7a3c197bb77f1bebff167e247c908973138976c",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z"
+    },
+    "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760": {
+      "decisionKey": "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-13T18:01:02.884Z"
     },
     "f05300578058687b1ea98194d1c964caf67c61570f1334d128ebee22707c9749": {
       "decisionKey": "f05300578058687b1ea98194d1c964caf67c61570f1334d128ebee22707c9749",
       "status": "rejected",
       "reason": "该候选为B2C2聘请Schroders前高管的企业人事新闻，未涉及加密行业重大政策、协议升级、安全事件或市场结构变化，信息增量有限，对目标受众的重要性不足。",
       "score": 0.3,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T16:01:03.792Z"
-    },
-    "dcd6cbc0bd3aad9ec332713f0112b173c70172b09c4ab3c7b23280c9780ee49c": {
-      "decisionKey": "dcd6cbc0bd3aad9ec332713f0112b173c70172b09c4ab3c7b23280c9780ee49c",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T16:01:03.792Z"
-    },
-    "c343df0795f98ac4fd6f7b964ac168debd8a38826dbab77d18cb2ea9ffd98c56": {
-      "decisionKey": "c343df0795f98ac4fd6f7b964ac168debd8a38826dbab77d18cb2ea9ffd98c56",
-      "status": "failed",
-      "reason": "The operation timed out.",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T16:01:03.792Z"
     },
@@ -38,13 +154,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T16:01:03.792Z",
       "bCommitSha": "8f22eb12418eb54f0182485276c68ef570012148"
-    },
-    "b29260ed0cf726bd7ad961049746ee7db977591fdf752a5e282bf822339c6f83": {
-      "decisionKey": "b29260ed0cf726bd7ad961049746ee7db977591fdf752a5e282bf822339c6f83",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T16:01:03.792Z"
     },
     "adeace138d619abbf827d4dfc2a275e5477e21de122a5e5e4086e29545a38334": {
       "decisionKey": "adeace138d619abbf827d4dfc2a275e5477e21de122a5e5e4086e29545a38334",
@@ -59,13 +168,6 @@
       "decisionKey": "7cbf79b8e69ed739d277bdbec43a3b0fcf30e03218d9dfb6ca4f16e332f906ab",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T16:01:03.792Z"
-    },
-    "6a9872de30a3012a3bed9b792d60f5ccb48be3f3c614a4763046daeb33b56f6c": {
-      "decisionKey": "6a9872de30a3012a3bed9b792d60f5ccb48be3f3c614a4763046daeb33b56f6c",
-      "status": "failed",
-      "reason": "The operation timed out.",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T16:01:03.792Z"
     },
@@ -100,13 +202,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-13T16:01:03.792Z",
       "bCommitSha": "8f22eb12418eb54f0182485276c68ef570012148"
-    },
-    "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760": {
-      "decisionKey": "12ec8754e885045e4cbdd316b019a898e227ab4160ebd6712cfeccd1c8388760",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-13T16:01:03.792Z"
     },
     "c86e1d1f56c08d5cf4e8b2650e3f80b3cb72a26cbd207b2c5f5b21e5ec10f3b9": {
       "decisionKey": "c86e1d1f56c08d5cf4e8b2650e3f80b3cb72a26cbd207b2c5f5b21e5ec10f3b9",
@@ -4334,17 +4429,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T16:01:03.792Z",
-    "https://cointelegraph.com/rss": "2026-08-13T14:01:09.783Z",
-    "https://decrypt.co/feed": "2026-08-13T16:01:03.792Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T16:01:03.792Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T16:01:03.792Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T16:01:03.792Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-13T16:01:03.792Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-13T16:01:03.792Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-13T16:01:03.792Z",
-    "https://solana.com/rss.xml": "2026-08-13T16:01:03.792Z",
-    "https://slowmist.medium.com/feed": "2026-08-13T16:01:03.792Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-13T18:01:02.884Z",
+    "https://cointelegraph.com/rss": "2026-08-13T18:01:02.884Z",
+    "https://decrypt.co/feed": "2026-08-13T18:01:02.884Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-13T18:01:02.884Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-13T18:01:02.884Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-13T18:01:02.884Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-13T18:01:02.884Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-13T18:01:02.884Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-13T18:01:02.884Z",
+    "https://solana.com/rss.xml": "2026-08-13T18:01:02.884Z",
+    "https://slowmist.medium.com/feed": "2026-08-13T18:01:02.884Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
