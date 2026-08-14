@@ -3,10 +3,55 @@
   "decisions": {
     "ef0c6801edad5d1a0707b8d1689f20458d234a12ac859503eb784d16e4f221f1": {
       "decisionKey": "ef0c6801edad5d1a0707b8d1689f20458d234a12ac859503eb784d16e4f221f1",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
+      "status": "published",
+      "reason": "华盛顿法院命令Kalshi停止提供多数预测市场产品，这是直接影响预测市场行业（包括加密预测平台）的监管事件，来源为The Block，具有新闻价值。",
+      "score": 0.85,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T08:00:51.581Z"
+      "updatedAt": "2026-08-14T10:00:52.580Z",
+      "bCommitSha": "0b79ca8028878bb403d3d003c89d4ceba0b1ef4b"
+    },
+    "b70cbf23fe9f243c9b75cea5b6c9b5b86c5589b51b2a00b8ddf44b8dd82de6a5": {
+      "decisionKey": "b70cbf23fe9f243c9b75cea5b6c9b5b86c5589b51b2a00b8ddf44b8dd82de6a5",
+      "status": "published",
+      "reason": "真实新闻来源报道摩根大通因监管关切切断与Polymarket的银行业务关系，涉及传统金融与加密平台的监管格局变化，对加密行业政策动态有明确信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T10:00:52.580Z",
+      "bCommitSha": "0b79ca8028878bb403d3d003c89d4ceba0b1ef4b"
+    },
+    "91cf290d897d54520d2fd384a532683f4947bf8e44b086cb0739dc7b5bd709cc": {
+      "decisionKey": "91cf290d897d54520d2fd384a532683f4947bf8e44b086cb0739dc7b5bd709cc",
+      "status": "rejected",
+      "reason": "该候选来自Cointelegraph这一真实公开新闻源，引用欧洲央行调查数据，反映欧元区商家对加密货币支付的接受度极低，对加密支付采用前景具有明确信息增量，符合发布标准。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T10:00:52.580Z"
+    },
+    "67282a0b52109bce3872dd0545c122b90ee7271c67353aa2726a79d6dcc6cc9d": {
+      "decisionKey": "67282a0b52109bce3872dd0545c122b90ee7271c67353aa2726a79d6dcc6cc9d",
+      "status": "rejected",
+      "reason": "内容为比特币价格短暂波动与宏观市场关联的日常行情报道，属于价格喊单类低价值信息，缺乏对加密行业有明确影响的深度事件或数据增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T10:00:52.580Z"
+    },
+    "635edfb72fe1fe5ccabebdaf93c2134d186ff6bf97bf6cbc10ce9e19cf9df318": {
+      "decisionKey": "635edfb72fe1fe5ccabebdaf93c2134d186ff6bf97bf6cbc10ce9e19cf9df318",
+      "status": "published",
+      "reason": "该候选来自Cointelegraph这一真实公开新闻源，内容涉及SEC取消关键加密监管会议，包含具体主体（SEC）、事件（取消会议）和时间（2026-08-14），对加密行业监管政策有直接影响，属于重要政策动态，具备信息增量。",
+      "score": 1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T10:00:52.580Z",
+      "bCommitSha": "0b79ca8028878bb403d3d003c89d4ceba0b1ef4b"
+    },
+    "5fa05ace666f7b74e7db679aed5e65a3757c0f9d33da3bdae8afa2db117d80ba": {
+      "decisionKey": "5fa05ace666f7b74e7db679aed5e65a3757c0f9d33da3bdae8afa2db117d80ba",
+      "status": "published",
+      "reason": "该候选涉及Kalshi预测市场遭法院禁令，属于监管政策变化，对加密行业关注的预测市场有明确影响，来源真实且包含具体主体、事件和时间。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T10:00:52.580Z",
+      "bCommitSha": "0b79ca8028878bb403d3d003c89d4ceba0b1ef4b"
     },
     "b2012e7430a89f0b87e2c05b39792ffa9bdc53c2ef7ccdfd17627062453d3a9a": {
       "decisionKey": "b2012e7430a89f0b87e2c05b39792ffa9bdc53c2ef7ccdfd17627062453d3a9a",
@@ -4661,18 +4706,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T08:00:51.581Z",
-    "https://cointelegraph.com/rss": "2026-08-14T08:00:51.581Z",
-    "https://decrypt.co/feed": "2026-08-14T08:00:51.581Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T08:00:51.581Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T08:00:51.581Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T08:00:51.581Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-14T08:00:51.581Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-14T08:00:51.581Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-14T08:00:51.581Z",
-    "https://solana.com/rss.xml": "2026-08-14T08:00:51.581Z",
-    "https://slowmist.medium.com/feed": "2026-08-14T08:00:51.581Z",
-    "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T10:00:52.580Z",
+    "https://cointelegraph.com/rss": "2026-08-14T10:00:52.580Z",
+    "https://decrypt.co/feed": "2026-08-14T10:00:52.580Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T10:00:52.580Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T10:00:52.580Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T10:00:52.580Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-14T10:00:52.580Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-14T10:00:52.580Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-14T10:00:52.580Z",
+    "https://solana.com/rss.xml": "2026-08-14T10:00:52.580Z",
+    "https://slowmist.medium.com/feed": "2026-08-14T10:00:52.580Z",
+    "https://www.theblock.co/rss.xml": "2026-08-14T10:00:52.580Z"
   },
-  "lastRunAt": "2026-08-12T06:01:10.326Z"
+  "lastRunAt": "2026-08-14T10:00:52.580Z"
 }
