@@ -6,7 +6,100 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T18:00:57.519Z"
+      "updatedAt": "2026-08-14T20:00:55.325Z"
+    },
+    "de364cc011b549c3dbe0be5195a3e3331963e8632d02c1e8b68119c57826e181": {
+      "decisionKey": "de364cc011b549c3dbe0be5195a3e3331963e8632d02c1e8b68119c57826e181",
+      "status": "published",
+      "reason": "Cointelegraph is a credible crypto news outlet; the item covers a concrete $116M Bitcoin wallet exploit, ETF inflows, Strategy's Bitcoin accumulation, and miner AI deals, all with specific impact for crypto industry followers.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z",
+      "bCommitSha": "84c1617094200531e2d6a14a4f0f8bfeb65fea72"
+    },
+    "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537": {
+      "decisionKey": "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z"
+    },
+    "909c1da3c844d4df9603076da2719c01786c5232a2e5a3b88bf199ca28415f71": {
+      "decisionKey": "909c1da3c844d4df9603076da2719c01786c5232a2e5a3b88bf199ca28415f71",
+      "status": "rejected",
+      "reason": "Kraken母公司Payward的Q2财报显示收入增长且账户数大增，尽管交易量下降，反映了加密交易所收入结构的转变，对行业受众有信息增量。来源为Cointelegraph，真实可核验。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z"
+    },
+    "6fbe96e3605d890a92f1866d0685308d219a12de9ae328792cc94a1f138118c5": {
+      "decisionKey": "6fbe96e3605d890a92f1866d0685308d219a12de9ae328792cc94a1f138118c5",
+      "status": "rejected",
+      "reason": "该候选来自真实新闻媒体Cointelegraph，报道达特茅斯捐赠基金在加密ETF（Bitwise Solana、Grayscale Ethereum、BlackRock Bitcoin）中的持仓因价格下跌减少约200万美元，包含具体主体、基金名称和金额，对关注机构资金配置的加密受众具有信息增量，属于机构采用动向的客观报道，非价格喊单或营销。",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z"
+    },
+    "6970a2f6c8589f22f2c575099248d0cb4b532c768752b18a300e20475cfad0e4": {
+      "decisionKey": "6970a2f6c8589f22f2c575099248d0cb4b532c768752b18a300e20475cfad0e4",
+      "status": "rejected",
+      "reason": "SharpLink计划通过Lido质押2亿美元以太坊，涉及具体公司、金额和DeFi协议，对加密行业质押生态有明确影响，信息增量明确。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z"
+    },
+    "5f8a56db84e7c1a4f1135ca055aaf3fa378759cc409d2ae141f170c7e13ea81a": {
+      "decisionKey": "5f8a56db84e7c1a4f1135ca055aaf3fa378759cc409d2ae141f170c7e13ea81a",
+      "status": "rejected",
+      "reason": "TheBlock为真实新闻源，报道Mizuho下调BitGo目标价至11美元并评论Clarity Act延迟，包含具体主体、事件和客户增长数据，对加密托管行业及政策有信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z"
+    },
+    "43e5aac37d537c5552b55a794a2ffe335c5e24c2bdac852e5a549fe39415cd01": {
+      "decisionKey": "43e5aac37d537c5552b55a794a2ffe335c5e24c2bdac852e5a549fe39415cd01",
+      "status": "published",
+      "reason": "Binance, a leading exchange, is blocking transactions with HTX and 10 other exchanges due to EU Russia sanctions. This is a regulatory compliance action affecting multiple major crypto venues, with direct operational and legal implications for crypto users and businesses. It represents a significant market structure development and is sourced from a credible outlet.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z",
+      "bCommitSha": "84c1617094200531e2d6a14a4f0f8bfeb65fea72"
+    },
+    "3c615ec5511f106411abf2f36d67f6a11f0ae8afba29c08fced087f70a385903": {
+      "decisionKey": "3c615ec5511f106411abf2f36d67f6a11f0ae8afba29c08fced087f70a385903",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z"
+    },
+    "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b": {
+      "decisionKey": "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z"
+    },
+    "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d": {
+      "decisionKey": "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z"
+    },
+    "242534c839c9f2e35bc9aee75b58ad82cc65c4ba16b5dd8085a168cb7cdc8666": {
+      "decisionKey": "242534c839c9f2e35bc9aee75b58ad82cc65c4ba16b5dd8085a168cb7cdc8666",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z"
+    },
+    "02779b5a81db7379f78da55df1fb0ce4dca31959e43cbbfd1e333393131790ab": {
+      "decisionKey": "02779b5a81db7379f78da55df1fb0ce4dca31959e43cbbfd1e333393131790ab",
+      "status": "rejected",
+      "reason": "The candidate relies on anonymous/reportedly claims, lacks verifiable specifics, and does not directly impact the crypto industry. It is a rehash of unconfirmed AI-safety commentary, not actionable news for the configured audience.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T20:00:55.325Z"
     },
     "ebc023b4cd9c5c9fd798791fa8013426dc1b3841dfa4ac0452109753356bb2be": {
       "decisionKey": "ebc023b4cd9c5c9fd798791fa8013426dc1b3841dfa4ac0452109753356bb2be",
@@ -21,13 +114,6 @@
       "decisionKey": "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T18:00:57.519Z"
-    },
-    "de364cc011b549c3dbe0be5195a3e3331963e8632d02c1e8b68119c57826e181": {
-      "decisionKey": "de364cc011b549c3dbe0be5195a3e3331963e8632d02c1e8b68119c57826e181",
-      "status": "failed",
-      "reason": "The operation timed out.",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-14T18:00:57.519Z"
     },
@@ -57,13 +143,6 @@
       "updatedAt": "2026-08-14T18:00:57.519Z",
       "bCommitSha": "a168283ff9315bfb86a3ccab557ca24fa70913ff"
     },
-    "43e5aac37d537c5552b55a794a2ffe335c5e24c2bdac852e5a549fe39415cd01": {
-      "decisionKey": "43e5aac37d537c5552b55a794a2ffe335c5e24c2bdac852e5a549fe39415cd01",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T18:00:57.519Z"
-    },
     "40ecbc4e0bc74676c68de20b9bcb4d92534252d4e2e0d17e03d55f4b74f85921": {
       "decisionKey": "40ecbc4e0bc74676c68de20b9bcb4d92534252d4e2e0d17e03d55f4b74f85921",
       "status": "published",
@@ -72,20 +151,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-14T18:00:57.519Z",
       "bCommitSha": "a168283ff9315bfb86a3ccab557ca24fa70913ff"
-    },
-    "3c615ec5511f106411abf2f36d67f6a11f0ae8afba29c08fced087f70a385903": {
-      "decisionKey": "3c615ec5511f106411abf2f36d67f6a11f0ae8afba29c08fced087f70a385903",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T18:00:57.519Z"
-    },
-    "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d": {
-      "decisionKey": "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T18:00:57.519Z"
     },
     "29922fae62861f6f345a72aa9c1fe22cad1c0a29801c01bf52df00c01d74f12b": {
       "decisionKey": "29922fae62861f6f345a72aa9c1fe22cad1c0a29801c01bf52df00c01d74f12b",
@@ -4969,17 +5034,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T18:00:57.519Z",
-    "https://cointelegraph.com/rss": "2026-08-14T14:00:56.910Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T20:00:55.325Z",
+    "https://cointelegraph.com/rss": "2026-08-14T20:00:55.325Z",
     "https://decrypt.co/feed": "2026-08-14T14:00:56.910Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T18:00:57.519Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T18:00:57.519Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T18:00:57.519Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-14T18:00:57.519Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-14T18:00:57.519Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-14T18:00:57.519Z",
-    "https://solana.com/rss.xml": "2026-08-14T18:00:57.519Z",
-    "https://slowmist.medium.com/feed": "2026-08-14T18:00:57.519Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T20:00:55.325Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T20:00:55.325Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T20:00:55.325Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-14T20:00:55.325Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-14T20:00:55.325Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-14T20:00:55.325Z",
+    "https://solana.com/rss.xml": "2026-08-14T20:00:55.325Z",
+    "https://slowmist.medium.com/feed": "2026-08-14T20:00:55.325Z",
     "https://www.theblock.co/rss.xml": "2026-08-14T10:00:52.580Z"
   },
   "lastRunAt": "2026-08-14T10:00:52.580Z"
