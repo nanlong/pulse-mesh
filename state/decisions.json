@@ -6,20 +6,44 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T04:00:55.821Z"
+      "updatedAt": "2026-08-14T06:00:53.601Z"
+    },
+    "d8ed0f51d3b2f17ac2c3b8dd15490413b148723eb2d69641c36c244c96373f98": {
+      "decisionKey": "d8ed0f51d3b2f17ac2c3b8dd15490413b148723eb2d69641c36c244c96373f98",
+      "status": "rejected",
+      "reason": "摩根大通因监管担忧终止与Polymarket的银行关系，反映传统金融机构对加密预测市场的态度，对加密行业有明确影响，且源于公开报道。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T06:00:53.601Z"
+    },
+    "b2012e7430a89f0b87e2c05b39792ffa9bdc53c2ef7ccdfd17627062453d3a9a": {
+      "decisionKey": "b2012e7430a89f0b87e2c05b39792ffa9bdc53c2ef7ccdfd17627062453d3a9a",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T06:00:53.601Z"
+    },
+    "68203c89bb6597c8341b607faa9519a7c6e7f01dd220fcba3a6fa088e4f4e852": {
+      "decisionKey": "68203c89bb6597c8341b607faa9519a7c6e7f01dd220fcba3a6fa088e4f4e852",
+      "status": "published",
+      "reason": "真实新闻来源，报道Neutrl因未披露的储备问题暂停NUSD赎回，涉及稳定币储备风险，对加密行业用户有明确影响和信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T06:00:53.601Z",
+      "bCommitSha": "6f9249c9b2d86601e9d26574fd33f16f0bcf8649"
+    },
+    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
+      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T06:00:53.601Z"
     },
     "404acc664959ad624064afc432dd0efa59d1e1f350dd17d548f430a17a31ec2c": {
       "decisionKey": "404acc664959ad624064afc432dd0efa59d1e1f350dd17d548f430a17a31ec2c",
       "status": "rejected",
       "reason": "该候选为Figure公司季度业绩报道，虽包含具体数据，但属于公司财务动态，非加密行业重要政策、协议升级、安全事件或市场结构变化，且信息内容单薄，缺乏对加密行业受众的明确影响。",
       "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T04:00:55.821Z"
-    },
-    "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e": {
-      "decisionKey": "3b3545f14f636302dd9dd95b1966e9285adba438c784efe5f8510402207d2c3e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-14T04:00:55.821Z"
     },
@@ -4619,17 +4643,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T04:00:55.821Z",
-    "https://cointelegraph.com/rss": "2026-08-14T04:00:55.821Z",
-    "https://decrypt.co/feed": "2026-08-14T04:00:55.821Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T04:00:55.821Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T04:00:55.821Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T04:00:55.821Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-14T04:00:55.821Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-14T04:00:55.821Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-14T04:00:55.821Z",
-    "https://solana.com/rss.xml": "2026-08-14T04:00:55.821Z",
-    "https://slowmist.medium.com/feed": "2026-08-14T04:00:55.821Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T06:00:53.601Z",
+    "https://cointelegraph.com/rss": "2026-08-14T06:00:53.601Z",
+    "https://decrypt.co/feed": "2026-08-14T06:00:53.601Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T06:00:53.601Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T06:00:53.601Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T06:00:53.601Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-14T06:00:53.601Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-14T06:00:53.601Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-14T06:00:53.601Z",
+    "https://solana.com/rss.xml": "2026-08-14T06:00:53.601Z",
+    "https://slowmist.medium.com/feed": "2026-08-14T06:00:53.601Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
