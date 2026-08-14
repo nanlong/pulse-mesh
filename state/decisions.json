@@ -3,10 +3,106 @@
   "decisions": {
     "ef3894995de30a1b9ae666262052ab86422aa64b0ee0d1c0732450a98e900457": {
       "decisionKey": "ef3894995de30a1b9ae666262052ab86422aa64b0ee0d1c0732450a98e900457",
+      "status": "rejected",
+      "reason": "The Block is a credible crypto news source, and the item reports a specific, recent development: StablecoinX revealed a 20% stake in ENA supply and its shares rose 12%. This touches on ENA token supply concentration and treasury activity, which is material to crypto market participants monitoring governance, token distribution, and Ethena-related risks.",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z"
+    },
+    "db281c23b637b57d85bcf7e1ebe7e25cb79ac97785c973fd3ff95d4113c44f7a": {
+      "decisionKey": "db281c23b637b57d85bcf7e1ebe7e25cb79ac97785c973fd3ff95d4113c44f7a",
+      "status": "rejected",
+      "reason": "该候选为SEC对传统证券领域Pre-IPO欺诈的执法新闻，未涉及加密资产、协议或加密市场结构，对加密行业受众缺乏直接相关性和信息增量。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z"
+    },
+    "d55f95117c7907473598acbeb501e422917b91e600604deb493f53d4d0b4a3e3": {
+      "decisionKey": "d55f95117c7907473598acbeb501e422917b91e600604deb493f53d4d0b4a3e3",
+      "status": "rejected",
+      "reason": "Content is a brief claim without specific data or verifiable details; lacks clear impact or information increment for crypto audience.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z"
+    },
+    "d338996d549853b484a1a7556691afc5a193bb63aa6a72ae9d8d73857d89d1b4": {
+      "decisionKey": "d338996d549853b484a1a7556691afc5a193bb63aa6a72ae9d8d73857d89d1b4",
+      "status": "published",
+      "reason": "The candidate reports a concrete regulatory milestone from the OCC — preliminary conditional approval of a bank charter for World Liberty Trust Co. — directly affecting the crypto industry through banking access and policy precedent. It names a specific entity, regulator, action, and date, making it newsworthy and verifiable.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z",
+      "bCommitSha": "80dc9232fe7b595ee3c051b5438e0706fe138425"
+    },
+    "bc33439088c4edff1d3c8cdf5663abce681d8bfcedbe5a92155c5ee45fa4dc49": {
+      "decisionKey": "bc33439088c4edff1d3c8cdf5663abce681d8bfcedbe5a92155c5ee45fa4dc49",
+      "status": "published",
+      "reason": "The story reports a concrete data breach affecting 678,000 French taxpayers, with an explicit connection to potential scams and attacks on Bitcoin holders. It provides a specific, verifiable security event relevant to crypto users in France and beyond, adding to awareness of phishing risks.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z",
+      "bCommitSha": "80dc9232fe7b595ee3c051b5438e0706fe138425"
+    },
+    "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537": {
+      "decisionKey": "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T20:00:55.325Z"
+      "updatedAt": "2026-08-14T22:00:56.228Z"
+    },
+    "87ca4a32c81c787b2c8c77092b8cd647fffaa63b485c4005fc5e64d58bf63c83": {
+      "decisionKey": "87ca4a32c81c787b2c8c77092b8cd647fffaa63b485c4005fc5e64d58bf63c83",
+      "status": "published",
+      "reason": "爱尔兰计划针对加密非法使用制定行业标准，涉及反洗钱监管措施，对加密行业政策环境有直接影响，信息来自公开新闻源。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z",
+      "bCommitSha": "80dc9232fe7b595ee3c051b5438e0706fe138425"
+    },
+    "71c9d60387a3affa6f3e658bafc438df7247bd55b2c11f4afa67cc8c44b0d889": {
+      "decisionKey": "71c9d60387a3affa6f3e658bafc438df7247bd55b2c11f4afa67cc8c44b0d889",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z"
+    },
+    "44b5ba5a49c459bfa95487d30952c0bf0beda738d54d8cb2f3d958a6822273b3": {
+      "decisionKey": "44b5ba5a49c459bfa95487d30952c0bf0beda738d54d8cb2f3d958a6822273b3",
+      "status": "rejected",
+      "reason": "该候选报道中国AI实验室发布GLM-5.3模型，属于人工智能领域新闻，未涉及加密行业的政策、协议、安全或市场结构变化，对加密行业受众缺乏明确影响和信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z"
+    },
+    "3c615ec5511f106411abf2f36d67f6a11f0ae8afba29c08fced087f70a385903": {
+      "decisionKey": "3c615ec5511f106411abf2f36d67f6a11f0ae8afba29c08fced087f70a385903",
+      "status": "rejected",
+      "reason": "报道了Galaxy Research关于Coldcard比特币被盗损失的量化数据与趋势判断，涉及硬件钱包安全事件，对加密资产持有者具有明确安全警示和信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z"
+    },
+    "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b": {
+      "decisionKey": "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z"
+    },
+    "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d": {
+      "decisionKey": "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z"
+    },
+    "242534c839c9f2e35bc9aee75b58ad82cc65c4ba16b5dd8085a168cb7cdc8666": {
+      "decisionKey": "242534c839c9f2e35bc9aee75b58ad82cc65c4ba16b5dd8085a168cb7cdc8666",
+      "status": "rejected",
+      "reason": "内容仅有简短且无法核验的引述，缺少具体审计结果或数据，信息增量低，不满足明确影响和证据充分的发布标准。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T22:00:56.228Z"
     },
     "de364cc011b549c3dbe0be5195a3e3331963e8632d02c1e8b68119c57826e181": {
       "decisionKey": "de364cc011b549c3dbe0be5195a3e3331963e8632d02c1e8b68119c57826e181",
@@ -16,13 +112,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-14T20:00:55.325Z",
       "bCommitSha": "84c1617094200531e2d6a14a4f0f8bfeb65fea72"
-    },
-    "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537": {
-      "decisionKey": "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T20:00:55.325Z"
     },
     "909c1da3c844d4df9603076da2719c01786c5232a2e5a3b88bf199ca28415f71": {
       "decisionKey": "909c1da3c844d4df9603076da2719c01786c5232a2e5a3b88bf199ca28415f71",
@@ -64,34 +153,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-14T20:00:55.325Z",
       "bCommitSha": "84c1617094200531e2d6a14a4f0f8bfeb65fea72"
-    },
-    "3c615ec5511f106411abf2f36d67f6a11f0ae8afba29c08fced087f70a385903": {
-      "decisionKey": "3c615ec5511f106411abf2f36d67f6a11f0ae8afba29c08fced087f70a385903",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T20:00:55.325Z"
-    },
-    "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b": {
-      "decisionKey": "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T20:00:55.325Z"
-    },
-    "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d": {
-      "decisionKey": "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T20:00:55.325Z"
-    },
-    "242534c839c9f2e35bc9aee75b58ad82cc65c4ba16b5dd8085a168cb7cdc8666": {
-      "decisionKey": "242534c839c9f2e35bc9aee75b58ad82cc65c4ba16b5dd8085a168cb7cdc8666",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T20:00:55.325Z"
     },
     "02779b5a81db7379f78da55df1fb0ce4dca31959e43cbbfd1e333393131790ab": {
       "decisionKey": "02779b5a81db7379f78da55df1fb0ce4dca31959e43cbbfd1e333393131790ab",
@@ -5034,17 +5095,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T20:00:55.325Z",
-    "https://cointelegraph.com/rss": "2026-08-14T20:00:55.325Z",
-    "https://decrypt.co/feed": "2026-08-14T14:00:56.910Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T20:00:55.325Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T20:00:55.325Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T20:00:55.325Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-14T20:00:55.325Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-14T20:00:55.325Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-14T20:00:55.325Z",
-    "https://solana.com/rss.xml": "2026-08-14T20:00:55.325Z",
-    "https://slowmist.medium.com/feed": "2026-08-14T20:00:55.325Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T22:00:56.228Z",
+    "https://cointelegraph.com/rss": "2026-08-14T22:00:56.228Z",
+    "https://decrypt.co/feed": "2026-08-14T22:00:56.228Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T22:00:56.228Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T22:00:56.228Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T22:00:56.228Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-14T22:00:56.228Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-14T22:00:56.228Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-14T22:00:56.228Z",
+    "https://solana.com/rss.xml": "2026-08-14T22:00:56.228Z",
+    "https://slowmist.medium.com/feed": "2026-08-14T22:00:56.228Z",
     "https://www.theblock.co/rss.xml": "2026-08-14T10:00:52.580Z"
   },
   "lastRunAt": "2026-08-14T10:00:52.580Z"
