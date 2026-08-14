@@ -6,20 +6,38 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T06:00:53.601Z"
+      "updatedAt": "2026-08-14T08:00:51.581Z"
+    },
+    "b2012e7430a89f0b87e2c05b39792ffa9bdc53c2ef7ccdfd17627062453d3a9a": {
+      "decisionKey": "b2012e7430a89f0b87e2c05b39792ffa9bdc53c2ef7ccdfd17627062453d3a9a",
+      "status": "rejected",
+      "reason": "The candidate is a concrete news item from a credible crypto media outlet: Bitwise is considering tokenizing shares of its Solana staking ETF through a Superstate partnership. It names specific parties, a specific product, a mechanism, and a publication date. This is a structural development in crypto ETF infrastructure and tokenization, with clear relevance and information value for crypto industry watchers. The exploratory nature ('mulls') and brief detail limit a higher score, but it is not a rumor without attribution or a marketing/price call.",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T08:00:51.581Z"
+    },
+    "28c30cbea49ca2c85e198921caf65a56d8d96b831ef79168069f26e40ffb81f8": {
+      "decisionKey": "28c30cbea49ca2c85e198921caf65a56d8d96b831ef79168069f26e40ffb81f8",
+      "status": "rejected",
+      "reason": "候选内容缺乏具体事件、数据或可核验信息，仅泛泛描述价格下跌和监管氛围，属于低价值市场评论，不足以构成重要发布。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T08:00:51.581Z"
+    },
+    "146cc0a4690d004d9761dbc40dcb0fa6ba0f52e829f2c14ae44b9f8571723d45": {
+      "decisionKey": "146cc0a4690d004d9761dbc40dcb0fa6ba0f52e829f2c14ae44b9f8571723d45",
+      "status": "published",
+      "reason": "MSCI's proposal to exclude non-operating companies from indices directly targets major bitcoin holders like Strategy and Metaplanet, potentially affecting institutional access and capital flows into crypto-exposed equities. This is a concrete market-structure development for the crypto industry.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T08:00:51.581Z",
+      "bCommitSha": "b2114399de48898f9bc9d33aa3fc7dfbb70445e4"
     },
     "d8ed0f51d3b2f17ac2c3b8dd15490413b148723eb2d69641c36c244c96373f98": {
       "decisionKey": "d8ed0f51d3b2f17ac2c3b8dd15490413b148723eb2d69641c36c244c96373f98",
       "status": "rejected",
       "reason": "摩根大通因监管担忧终止与Polymarket的银行关系，反映传统金融机构对加密预测市场的态度，对加密行业有明确影响，且源于公开报道。",
       "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T06:00:53.601Z"
-    },
-    "b2012e7430a89f0b87e2c05b39792ffa9bdc53c2ef7ccdfd17627062453d3a9a": {
-      "decisionKey": "b2012e7430a89f0b87e2c05b39792ffa9bdc53c2ef7ccdfd17627062453d3a9a",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-14T06:00:53.601Z"
     },
@@ -4643,17 +4661,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T06:00:53.601Z",
-    "https://cointelegraph.com/rss": "2026-08-14T06:00:53.601Z",
-    "https://decrypt.co/feed": "2026-08-14T06:00:53.601Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T06:00:53.601Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T06:00:53.601Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T06:00:53.601Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-14T06:00:53.601Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-14T06:00:53.601Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-14T06:00:53.601Z",
-    "https://solana.com/rss.xml": "2026-08-14T06:00:53.601Z",
-    "https://slowmist.medium.com/feed": "2026-08-14T06:00:53.601Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T08:00:51.581Z",
+    "https://cointelegraph.com/rss": "2026-08-14T08:00:51.581Z",
+    "https://decrypt.co/feed": "2026-08-14T08:00:51.581Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T08:00:51.581Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T08:00:51.581Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T08:00:51.581Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-14T08:00:51.581Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-14T08:00:51.581Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-14T08:00:51.581Z",
+    "https://solana.com/rss.xml": "2026-08-14T08:00:51.581Z",
+    "https://slowmist.medium.com/feed": "2026-08-14T08:00:51.581Z",
     "https://www.theblock.co/rss.xml": "2026-08-12T06:01:10.326Z"
   },
   "lastRunAt": "2026-08-12T06:01:10.326Z"
