@@ -1,6 +1,79 @@
 {
   "version": 1,
   "decisions": {
+    "ff3320b914bde68e5a712d14d2ec1dc275e673db1644597342c98d1166e773ea": {
+      "decisionKey": "ff3320b914bde68e5a712d14d2ec1dc275e673db1644597342c98d1166e773ea",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T12:01:00.391Z"
+    },
+    "f6a1489ad84bd6523e003166e06f84bf0092faa52657b14d9cbd856f1d4c3fa9": {
+      "decisionKey": "f6a1489ad84bd6523e003166e06f84bf0092faa52657b14d9cbd856f1d4c3fa9",
+      "status": "rejected",
+      "reason": "内容过于简短，仅一句'似乎通过了'，缺乏具体审计机构、结果、数据等可核验细节；发布时间为未来日期，存在不可信或测试内容风险；不符合对加密行业受众有明确影响和信息增量的标准。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T12:01:00.391Z"
+    },
+    "e436f35e20512f0e3ab9c140c15ba541d3236fa52bebbcf3aed1d3594d14bf68": {
+      "decisionKey": "e436f35e20512f0e3ab9c140c15ba541d3236fa52bebbcf3aed1d3594d14bf68",
+      "status": "rejected",
+      "reason": "The candidate reports an unconfirmed IPO hold rumor with no details or data, and the content only states that the company declined to comment. Lacks substantive information for the crypto audience.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T12:01:00.391Z"
+    },
+    "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1": {
+      "decisionKey": "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T12:01:00.391Z"
+    },
+    "d7ceba16376cf7be388e1c15d5a479f3f2ebee7535f8ce511fd72869257a745e": {
+      "decisionKey": "d7ceba16376cf7be388e1c15d5a479f3f2ebee7535f8ce511fd72869257a745e",
+      "status": "published",
+      "reason": "CoinDesk是真实公开的新闻来源，报道比特币因美国通胀数据不及预期而下跌，且现货比特币ETF出现8月首次连续两日流出，包含具体主体（比特币、现货ETF）、事件（价格下跌、资金流出）和时间（2026年8月14日），对加密行业受众具有明确的市场影响和信息增量，值得发布。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T12:01:00.391Z",
+      "bCommitSha": "4a14c0749989daf6f755094fca649c3f8a32b4b7"
+    },
+    "c2faf0e98e45fd648e2a5d49ccc1853712263df46a0a916b9f181db390fbbe4a": {
+      "decisionKey": "c2faf0e98e45fd648e2a5d49ccc1853712263df46a0a916b9f181db390fbbe4a",
+      "status": "rejected",
+      "reason": "内容仅为一条简短市场动态，缺乏具体数据、分析细节或对加密行业的结构性影响，属于低信息增量的价格相关报道，且未提供可核验的具体事件或数据点。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T12:01:00.391Z"
+    },
+    "3afa92955708fae9dc9e793064d3d56f1c409e608d0e504e3259c7807a9051a7": {
+      "decisionKey": "3afa92955708fae9dc9e793064d3d56f1c409e608d0e504e3259c7807a9051a7",
+      "status": "published",
+      "reason": "SEC推迟加密规则会议，紧接参议院搁置Clarity法案之后，反映监管动态变化，对加密行业政策预期有明确影响。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T12:01:00.391Z",
+      "bCommitSha": "4a14c0749989daf6f755094fca649c3f8a32b4b7"
+    },
+    "34dd4cc990048ad5ecdcc17464d2bb8bfd62481db98ebf576e50e45c32188ef5": {
+      "decisionKey": "34dd4cc990048ad5ecdcc17464d2bb8bfd62481db98ebf576e50e45c32188ef5",
+      "status": "rejected",
+      "reason": "The article reports a concrete, named project (World Liberty Financial) delaying a token sale due to the Iran war disrupting regional travel. It is a specific business development with clear causality, sourced from a reputable outlet, and may interest crypto stakeholders tracking tokenization and geopolitical impacts on the industry, though the detail is limited.",
+      "score": 0.5,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T12:01:00.391Z"
+    },
+    "2b4b69e4aaad53a28ee796b2bb6bdf625e1421e96986be91feee42fede471fd8": {
+      "decisionKey": "2b4b69e4aaad53a28ee796b2bb6bdf625e1421e96986be91feee42fede471fd8",
+      "status": "published",
+      "reason": "Shinhan Asset Management, a major Korean financial firm, partnering with Plume on a tokenized fund pilot is a significant real-world asset (RWA) signal for crypto markets, providing concrete institutional adoption and potential market structure impact.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T12:01:00.391Z",
+      "bCommitSha": "4a14c0749989daf6f755094fca649c3f8a32b4b7"
+    },
     "ef0c6801edad5d1a0707b8d1689f20458d234a12ac859503eb784d16e4f221f1": {
       "decisionKey": "ef0c6801edad5d1a0707b8d1689f20458d234a12ac859503eb784d16e4f221f1",
       "status": "published",
@@ -4706,17 +4779,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T10:00:52.580Z",
-    "https://cointelegraph.com/rss": "2026-08-14T10:00:52.580Z",
-    "https://decrypt.co/feed": "2026-08-14T10:00:52.580Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T10:00:52.580Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T10:00:52.580Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T10:00:52.580Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-14T10:00:52.580Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-14T10:00:52.580Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-14T10:00:52.580Z",
-    "https://solana.com/rss.xml": "2026-08-14T10:00:52.580Z",
-    "https://slowmist.medium.com/feed": "2026-08-14T10:00:52.580Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T12:01:00.391Z",
+    "https://cointelegraph.com/rss": "2026-08-14T12:01:00.391Z",
+    "https://decrypt.co/feed": "2026-08-14T12:01:00.391Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T12:01:00.391Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T12:01:00.391Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T12:01:00.391Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-14T12:01:00.391Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-14T12:01:00.391Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-14T12:01:00.391Z",
+    "https://solana.com/rss.xml": "2026-08-14T12:01:00.391Z",
+    "https://slowmist.medium.com/feed": "2026-08-14T12:01:00.391Z",
     "https://www.theblock.co/rss.xml": "2026-08-14T10:00:52.580Z"
   },
   "lastRunAt": "2026-08-14T10:00:52.580Z"
