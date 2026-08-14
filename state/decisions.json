@@ -1,6 +1,81 @@
 {
   "version": 1,
   "decisions": {
+    "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1": {
+      "decisionKey": "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T14:00:56.910Z"
+    },
+    "d9fda3f8764fb5b4a9dcb5ddda014c48a808ddd38906129db2ab4c9f1227e961": {
+      "decisionKey": "d9fda3f8764fb5b4a9dcb5ddda014c48a808ddd38906129db2ab4c9f1227e961",
+      "status": "rejected",
+      "reason": "候选发布时间为2026-08-14，超出当前可用核验范围，且仅提供极简摘要，缺乏可访问、可核验的正文细节，不能确认其为真实、公开、可核验的生产来源。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T14:00:56.910Z"
+    },
+    "cc9b93f072b52204c1afe2c1fdd5ebe024c91ac928d7192174ccde782d09a6a3": {
+      "decisionKey": "cc9b93f072b52204c1afe2c1fdd5ebe024c91ac928d7192174ccde782d09a6a3",
+      "status": "published",
+      "reason": "Solana提出的费用改革涉及协议级代币经济变化，对Solana生态和SOL持有者有直接影响，属于重要的协议升级新闻，且来源为可信加密媒体。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T14:00:56.910Z",
+      "bCommitSha": "c25460cd412f1a131afe17d3b6ae6e7948700359"
+    },
+    "c663a91474f88371b8e0b7459124ee6b39a3ef83bef2016a2f95de9885fe7a3e": {
+      "decisionKey": "c663a91474f88371b8e0b7459124ee6b39a3ef83bef2016a2f95de9885fe7a3e",
+      "status": "rejected",
+      "reason": "Hyperscale Data出售685个比特币筹资，涉及上市公司比特币持仓变动，对市场流动性有一定影响，属于具体可核验的企业财务操作，非重复转载或营销内容，具有信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T14:00:56.910Z"
+    },
+    "78b0db7c34d533d49b42f695a44dc4b24c50b0401fcca26093fd5968f045faf3": {
+      "decisionKey": "78b0db7c34d533d49b42f695a44dc4b24c50b0401fcca26093fd5968f045faf3",
+      "status": "rejected",
+      "reason": "来源为Chainalysis官方博客，真实公开可核验，内容讨论机器学习在区块链情报中的具体作用，涉及行业分析工具和方法，对加密行业受众有信息增量，非营销或价格喊单。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T14:00:56.910Z"
+    },
+    "779c22aa71dc20e5213d167bb295fe3de5d9ba74f1d3b26d7159b76acce41245": {
+      "decisionKey": "779c22aa71dc20e5213d167bb295fe3de5d9ba74f1d3b26d7159b76acce41245",
+      "status": "published",
+      "reason": "Binance限制与HTX等11家加密货币平台的交易，且涉及欧盟对俄制裁，属于重要的政策合规和市场结构变化，对加密用户和行业有直接影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T14:00:56.910Z",
+      "bCommitSha": "c25460cd412f1a131afe17d3b6ae6e7948700359"
+    },
+    "68fa5befaaf4cb8ce2e671142295bb9b9bc8dd8ca4415b760f73a68225f6a817": {
+      "decisionKey": "68fa5befaaf4cb8ce2e671142295bb9b9bc8dd8ca4415b760f73a68225f6a817",
+      "status": "rejected",
+      "reason": "Kraken母公司披露Q2调整后收入及用户增长，属于加密交易所的重要财务与市场结构信息，对行业有明确参考价值，来源为The Block且内容可核验。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T14:00:56.910Z"
+    },
+    "38c034e7fe5dc02576877566aeaa8e498a41cc53c09c0d5bfc219a3c055d4d5c": {
+      "decisionKey": "38c034e7fe5dc02576877566aeaa8e498a41cc53c09c0d5bfc219a3c055d4d5c",
+      "status": "published",
+      "reason": "候选为真实新闻来源，报告了加密交易所Gemini的2026年Q2财务业绩，包含具体净亏损和收入增长数据，对关注交易所财务健康和行业市场结构的受众具有信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T14:00:56.910Z",
+      "bCommitSha": "c25460cd412f1a131afe17d3b6ae6e7948700359"
+    },
+    "151ed3f7095e8e2a33fd25156791a73ff02e9ebc9e7a57dbb895521924eb901b": {
+      "decisionKey": "151ed3f7095e8e2a33fd25156791a73ff02e9ebc9e7a57dbb895521924eb901b",
+      "status": "published",
+      "reason": "The Block reports concrete data from K33 on Norway's sovereign wealth fund reaching all-time high indirect bitcoin exposure, with Strategy accounting for 86% and a new $88 million stake in Bitmine. This is a verifiable, public news item about institutional adoption and corporate treasury trends, providing clear information value for crypto market structure analysis.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T14:00:56.910Z",
+      "bCommitSha": "c25460cd412f1a131afe17d3b6ae6e7948700359"
+    },
     "ff3320b914bde68e5a712d14d2ec1dc275e673db1644597342c98d1166e773ea": {
       "decisionKey": "ff3320b914bde68e5a712d14d2ec1dc275e673db1644597342c98d1166e773ea",
       "status": "rejected",
@@ -21,13 +96,6 @@
       "status": "rejected",
       "reason": "The candidate reports an unconfirmed IPO hold rumor with no details or data, and the content only states that the company declined to comment. Lacks substantive information for the crypto audience.",
       "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T12:01:00.391Z"
-    },
-    "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1": {
-      "decisionKey": "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-14T12:01:00.391Z"
     },
@@ -4779,17 +4847,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T12:01:00.391Z",
-    "https://cointelegraph.com/rss": "2026-08-14T12:01:00.391Z",
-    "https://decrypt.co/feed": "2026-08-14T12:01:00.391Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T12:01:00.391Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T12:01:00.391Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T12:01:00.391Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-14T12:01:00.391Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-14T12:01:00.391Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-14T12:01:00.391Z",
-    "https://solana.com/rss.xml": "2026-08-14T12:01:00.391Z",
-    "https://slowmist.medium.com/feed": "2026-08-14T12:01:00.391Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T14:00:56.910Z",
+    "https://cointelegraph.com/rss": "2026-08-14T14:00:56.910Z",
+    "https://decrypt.co/feed": "2026-08-14T14:00:56.910Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T14:00:56.910Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T14:00:56.910Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T14:00:56.910Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-14T14:00:56.910Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-14T14:00:56.910Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-14T14:00:56.910Z",
+    "https://solana.com/rss.xml": "2026-08-14T14:00:56.910Z",
+    "https://slowmist.medium.com/feed": "2026-08-14T14:00:56.910Z",
     "https://www.theblock.co/rss.xml": "2026-08-14T10:00:52.580Z"
   },
   "lastRunAt": "2026-08-14T10:00:52.580Z"
