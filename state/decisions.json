@@ -1,12 +1,77 @@
 {
   "version": 1,
   "decisions": {
+    "ef3894995de30a1b9ae666262052ab86422aa64b0ee0d1c0732450a98e900457": {
+      "decisionKey": "ef3894995de30a1b9ae666262052ab86422aa64b0ee0d1c0732450a98e900457",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T16:00:54.891Z"
+    },
+    "ebc023b4cd9c5c9fd798791fa8013426dc1b3841dfa4ac0452109753356bb2be": {
+      "decisionKey": "ebc023b4cd9c5c9fd798791fa8013426dc1b3841dfa4ac0452109753356bb2be",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T16:00:54.891Z"
+    },
     "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1": {
       "decisionKey": "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T14:00:56.910Z"
+      "updatedAt": "2026-08-14T16:00:54.891Z"
+    },
+    "df96953ad97e1f0f8e7f3f5b85fb3dd2353ed50dc9515238928aadab5fa73673": {
+      "decisionKey": "df96953ad97e1f0f8e7f3f5b85fb3dd2353ed50dc9515238928aadab5fa73673",
+      "status": "published",
+      "reason": "Morgan Stanley's reported increase in BlackRock Bitcoin ETF holdings is a concrete, verifiable data point from a real news source, indicating growing institutional adoption of crypto ETFs. This is directly relevant to crypto market structure and investor sentiment.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T16:00:54.891Z",
+      "bCommitSha": "441400e4382b55d72fa24e363f3753e12e5962fe"
+    },
+    "de364cc011b549c3dbe0be5195a3e3331963e8632d02c1e8b68119c57826e181": {
+      "decisionKey": "de364cc011b549c3dbe0be5195a3e3331963e8632d02c1e8b68119c57826e181",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T16:00:54.891Z"
+    },
+    "b433f7ae1f20bfeaee9870c4d20c8f3c25e23414ffdbc0de46adb3606f34fcdb": {
+      "decisionKey": "b433f7ae1f20bfeaee9870c4d20c8f3c25e23414ffdbc0de46adb3606f34fcdb",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T16:00:54.891Z"
+    },
+    "7158cac170f5d4f9f8fc64a734306c240858cb4317c170d7da84c890c5618fa5": {
+      "decisionKey": "7158cac170f5d4f9f8fc64a734306c240858cb4317c170d7da84c890c5618fa5",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T16:00:54.891Z"
+    },
+    "43e5aac37d537c5552b55a794a2ffe335c5e24c2bdac852e5a549fe39415cd01": {
+      "decisionKey": "43e5aac37d537c5552b55a794a2ffe335c5e24c2bdac852e5a549fe39415cd01",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T16:00:54.891Z"
+    },
+    "29922fae62861f6f345a72aa9c1fe22cad1c0a29801c01bf52df00c01d74f12b": {
+      "decisionKey": "29922fae62861f6f345a72aa9c1fe22cad1c0a29801c01bf52df00c01d74f12b",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T16:00:54.891Z"
+    },
+    "27b949c63ad747fb74bfd6ae558f257223adb262ba6ca75bdf272fe514503298": {
+      "decisionKey": "27b949c63ad747fb74bfd6ae558f257223adb262ba6ca75bdf272fe514503298",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-14T16:00:54.891Z"
     },
     "d9fda3f8764fb5b4a9dcb5ddda014c48a808ddd38906129db2ab4c9f1227e961": {
       "decisionKey": "d9fda3f8764fb5b4a9dcb5ddda014c48a808ddd38906129db2ab4c9f1227e961",
@@ -4850,14 +4915,14 @@
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T14:00:56.910Z",
     "https://cointelegraph.com/rss": "2026-08-14T14:00:56.910Z",
     "https://decrypt.co/feed": "2026-08-14T14:00:56.910Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T14:00:56.910Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T14:00:56.910Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T14:00:56.910Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-14T14:00:56.910Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-14T14:00:56.910Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-14T14:00:56.910Z",
-    "https://solana.com/rss.xml": "2026-08-14T14:00:56.910Z",
-    "https://slowmist.medium.com/feed": "2026-08-14T14:00:56.910Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T16:00:54.891Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T16:00:54.891Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T16:00:54.891Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-14T16:00:54.891Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-14T16:00:54.891Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-14T16:00:54.891Z",
+    "https://solana.com/rss.xml": "2026-08-14T16:00:54.891Z",
+    "https://slowmist.medium.com/feed": "2026-08-14T16:00:54.891Z",
     "https://www.theblock.co/rss.xml": "2026-08-14T10:00:52.580Z"
   },
   "lastRunAt": "2026-08-14T10:00:52.580Z"
