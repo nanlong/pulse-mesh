@@ -3,17 +3,20 @@
   "decisions": {
     "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537": {
       "decisionKey": "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
+      "status": "published",
+      "reason": "A credible regulatory development with a specific applicant, vehicle type, and market — Cboe seeking SEC approval for the first US 3x bitcoin and ether ETFs — carries clear informational value for crypto industry followers tracking US ETF market structure.",
+      "score": 0.82,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-15T06:00:56.190Z"
+      "updatedAt": "2026-08-15T08:00:55.041Z",
+      "bCommitSha": "745330f369d44a1e5941535d0712249bc4f1fc07"
     },
     "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b": {
       "decisionKey": "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
+      "status": "rejected",
+      "reason": "报道法国税务数据泄露影响约67.8万人，并指出法国针对加密货币持有者的暴力抢劫正在增加，对加密行业用户安全有直接影响和信息增量。",
+      "score": 0.72,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-15T06:00:56.190Z"
+      "updatedAt": "2026-08-15T08:00:55.041Z"
     },
     "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d": {
       "decisionKey": "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d",
@@ -5108,18 +5111,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T06:00:56.190Z",
-    "https://cointelegraph.com/rss": "2026-08-15T06:00:56.190Z",
-    "https://decrypt.co/feed": "2026-08-15T06:00:56.190Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T06:00:56.190Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T06:00:56.190Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T06:00:56.190Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-15T06:00:56.190Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-15T06:00:56.190Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-15T06:00:56.190Z",
-    "https://solana.com/rss.xml": "2026-08-15T06:00:56.190Z",
-    "https://slowmist.medium.com/feed": "2026-08-15T06:00:56.190Z",
-    "https://www.theblock.co/rss.xml": "2026-08-14T10:00:52.580Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T08:00:55.041Z",
+    "https://cointelegraph.com/rss": "2026-08-15T08:00:55.041Z",
+    "https://decrypt.co/feed": "2026-08-15T08:00:55.041Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T08:00:55.041Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T08:00:55.041Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T08:00:55.041Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-15T08:00:55.041Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-15T08:00:55.041Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-15T08:00:55.041Z",
+    "https://solana.com/rss.xml": "2026-08-15T08:00:55.041Z",
+    "https://slowmist.medium.com/feed": "2026-08-15T08:00:55.041Z",
+    "https://www.theblock.co/rss.xml": "2026-08-15T08:00:55.041Z"
   },
-  "lastRunAt": "2026-08-14T10:00:52.580Z"
+  "lastRunAt": "2026-08-15T08:00:55.041Z"
 }
