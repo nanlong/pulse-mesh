@@ -1,6 +1,52 @@
 {
   "version": 1,
   "decisions": {
+    "c81112efa8cbe045dfa85f76660196d5671a73240fc87f5ecc4f1da02dd09d6f": {
+      "decisionKey": "c81112efa8cbe045dfa85f76660196d5671a73240fc87f5ecc4f1da02dd09d6f",
+      "status": "published",
+      "reason": "该候选来自CoinDesk这一知名加密媒体，来源真实可信。内容涉及世界第二大比特币挖矿电力在首都关闭矿机的具体政策事件，包含主体（能源部）、事件（全年限制）、时间（2026年8月）和影响（电力短缺），对加密行业的挖矿格局和政策环境有明确影响与信息增量，属于重要的行业政策变化。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T16:00:56.751Z",
+      "bCommitSha": "a5181aafb19d287bed85a6f5a3ca1388668b2dd5"
+    },
+    "8e86293020f8212035ff611051b9b36c4d479592b2b9aa5b9110a7d8950220e9": {
+      "decisionKey": "8e86293020f8212035ff611051b9b36c4d479592b2b9aa5b9110a7d8950220e9",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T16:00:56.751Z"
+    },
+    "75f5627c57e1ceac69c01801df1473ad1a5c3df7f009e9c89fb35c0cca057d0b": {
+      "decisionKey": "75f5627c57e1ceac69c01801df1473ad1a5c3df7f009e9c89fb35c0cca057d0b",
+      "status": "rejected",
+      "reason": "Reports that Paul Tudor Jones' investment firm increased its stake in BlackRock's Bitcoin ETF after a period of selling, indicating a shift in institutional sentiment and market structure. Specific entity, time, and data are provided, and the source is a reputable crypto news outlet.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T16:00:56.751Z"
+    },
+    "72eb672f480c219ec9289f281f0163b71f4c5533a59337805a9be25660ac6482": {
+      "decisionKey": "72eb672f480c219ec9289f281f0163b71f4c5533a59337805a9be25660ac6482",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T16:00:56.751Z"
+    },
+    "6f5aa620080ab7d9910e617535b0132ae305c17a8e784e7ec26b66afb5c5278b": {
+      "decisionKey": "6f5aa620080ab7d9910e617535b0132ae305c17a8e784e7ec26b66afb5c5278b",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T16:00:56.751Z"
+    },
+    "192668122b1ef9fc9c8b6ee802518685360a8af9aaa72935b2f51dd61914661d": {
+      "decisionKey": "192668122b1ef9fc9c8b6ee802518685360a8af9aaa72935b2f51dd61914661d",
+      "status": "rejected",
+      "reason": "来源真实但内容为通用科技专利新闻，与加密行业无明确关联，缺少对加密受众的直接信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T16:00:56.751Z"
+    },
     "d2828a3f66bf0548bc6f2d921aab37099b8412ccb44939dd47a1ed414e274c2a": {
       "decisionKey": "d2828a3f66bf0548bc6f2d921aab37099b8412ccb44939dd47a1ed414e274c2a",
       "status": "rejected",
@@ -5181,16 +5227,16 @@
   },
   "sourceCheckpoints": {
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T14:00:55.168Z",
-    "https://cointelegraph.com/rss": "2026-08-15T14:00:55.168Z",
-    "https://decrypt.co/feed": "2026-08-15T14:00:55.168Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T14:00:55.168Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T14:00:55.168Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T14:00:55.168Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-15T14:00:55.168Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-15T14:00:55.168Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-15T14:00:55.168Z",
-    "https://solana.com/rss.xml": "2026-08-15T14:00:55.168Z",
-    "https://slowmist.medium.com/feed": "2026-08-15T14:00:55.168Z",
+    "https://cointelegraph.com/rss": "2026-08-15T16:00:56.751Z",
+    "https://decrypt.co/feed": "2026-08-15T16:00:56.751Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T16:00:56.751Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T16:00:56.751Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T16:00:56.751Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-15T16:00:56.751Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-15T16:00:56.751Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-15T16:00:56.751Z",
+    "https://solana.com/rss.xml": "2026-08-15T16:00:56.751Z",
+    "https://slowmist.medium.com/feed": "2026-08-15T16:00:56.751Z",
     "https://www.theblock.co/rss.xml": "2026-08-15T14:00:55.168Z"
   },
   "lastRunAt": "2026-08-15T14:00:55.168Z"
