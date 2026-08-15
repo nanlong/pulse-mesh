@@ -1,6 +1,49 @@
 {
   "version": 1,
   "decisions": {
+    "e5b7d8daaadb474e0537e99d4cfca103fa8b369ea6bb30ca545830f10bd8c911": {
+      "decisionKey": "e5b7d8daaadb474e0537e99d4cfca103fa8b369ea6bb30ca545830f10bd8c911",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T00:00:56.375Z"
+    },
+    "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1": {
+      "decisionKey": "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1",
+      "status": "rejected",
+      "reason": "MSCI提案可能将主要比特币持有公司Strategy和Metaplanet移出全球指数，涉及加密行业相关股票的市场结构变化，对投资者有明确影响。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T00:00:56.375Z"
+    },
+    "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537": {
+      "decisionKey": "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T00:00:56.375Z"
+    },
+    "71c9d60387a3affa6f3e658bafc438df7247bd55b2c11f4afa67cc8c44b0d889": {
+      "decisionKey": "71c9d60387a3affa6f3e658bafc438df7247bd55b2c11f4afa67cc8c44b0d889",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T00:00:56.375Z"
+    },
+    "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b": {
+      "decisionKey": "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T00:00:56.375Z"
+    },
+    "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d": {
+      "decisionKey": "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T00:00:56.375Z"
+    },
     "ef3894995de30a1b9ae666262052ab86422aa64b0ee0d1c0732450a98e900457": {
       "decisionKey": "ef3894995de30a1b9ae666262052ab86422aa64b0ee0d1c0732450a98e900457",
       "status": "rejected",
@@ -43,13 +86,6 @@
       "updatedAt": "2026-08-14T22:00:56.228Z",
       "bCommitSha": "80dc9232fe7b595ee3c051b5438e0706fe138425"
     },
-    "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537": {
-      "decisionKey": "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T22:00:56.228Z"
-    },
     "87ca4a32c81c787b2c8c77092b8cd647fffaa63b485c4005fc5e64d58bf63c83": {
       "decisionKey": "87ca4a32c81c787b2c8c77092b8cd647fffaa63b485c4005fc5e64d58bf63c83",
       "status": "published",
@@ -58,13 +94,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-14T22:00:56.228Z",
       "bCommitSha": "80dc9232fe7b595ee3c051b5438e0706fe138425"
-    },
-    "71c9d60387a3affa6f3e658bafc438df7247bd55b2c11f4afa67cc8c44b0d889": {
-      "decisionKey": "71c9d60387a3affa6f3e658bafc438df7247bd55b2c11f4afa67cc8c44b0d889",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T22:00:56.228Z"
     },
     "44b5ba5a49c459bfa95487d30952c0bf0beda738d54d8cb2f3d958a6822273b3": {
       "decisionKey": "44b5ba5a49c459bfa95487d30952c0bf0beda738d54d8cb2f3d958a6822273b3",
@@ -79,20 +108,6 @@
       "status": "rejected",
       "reason": "报道了Galaxy Research关于Coldcard比特币被盗损失的量化数据与趋势判断，涉及硬件钱包安全事件，对加密资产持有者具有明确安全警示和信息增量。",
       "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T22:00:56.228Z"
-    },
-    "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b": {
-      "decisionKey": "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T22:00:56.228Z"
-    },
-    "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d": {
-      "decisionKey": "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-14T22:00:56.228Z"
     },
@@ -170,13 +185,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-14T18:00:57.519Z",
       "bCommitSha": "a168283ff9315bfb86a3ccab557ca24fa70913ff"
-    },
-    "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1": {
-      "decisionKey": "e0528b2d3460b1436d2e7979e52a687e44b4cb2faa3d37330a8e98646ea7e6c1",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-14T18:00:57.519Z"
     },
     "b433f7ae1f20bfeaee9870c4d20c8f3c25e23414ffdbc0de46adb3606f34fcdb": {
       "decisionKey": "b433f7ae1f20bfeaee9870c4d20c8f3c25e23414ffdbc0de46adb3606f34fcdb",
@@ -5096,16 +5104,16 @@
   },
   "sourceCheckpoints": {
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-14T22:00:56.228Z",
-    "https://cointelegraph.com/rss": "2026-08-14T22:00:56.228Z",
-    "https://decrypt.co/feed": "2026-08-14T22:00:56.228Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-14T22:00:56.228Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-14T22:00:56.228Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-14T22:00:56.228Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-14T22:00:56.228Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-14T22:00:56.228Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-14T22:00:56.228Z",
-    "https://solana.com/rss.xml": "2026-08-14T22:00:56.228Z",
-    "https://slowmist.medium.com/feed": "2026-08-14T22:00:56.228Z",
+    "https://cointelegraph.com/rss": "2026-08-15T00:00:56.375Z",
+    "https://decrypt.co/feed": "2026-08-15T00:00:56.375Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T00:00:56.375Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T00:00:56.375Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T00:00:56.375Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-15T00:00:56.375Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-15T00:00:56.375Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-15T00:00:56.375Z",
+    "https://solana.com/rss.xml": "2026-08-15T00:00:56.375Z",
+    "https://slowmist.medium.com/feed": "2026-08-15T00:00:56.375Z",
     "https://www.theblock.co/rss.xml": "2026-08-14T10:00:52.580Z"
   },
   "lastRunAt": "2026-08-14T10:00:52.580Z"
