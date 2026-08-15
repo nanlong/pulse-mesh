@@ -1,6 +1,30 @@
 {
   "version": 1,
   "decisions": {
+    "8e86293020f8212035ff611051b9b36c4d479592b2b9aa5b9110a7d8950220e9": {
+      "decisionKey": "8e86293020f8212035ff611051b9b36c4d479592b2b9aa5b9110a7d8950220e9",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T20:00:56.723Z"
+    },
+    "31ae41877b57dcbc5fc56c521a1ff78e8448b0f44b9b28e71968f7bde5f41599": {
+      "decisionKey": "31ae41877b57dcbc5fc56c521a1ff78e8448b0f44b9b28e71968f7bde5f41599",
+      "status": "published",
+      "reason": "The candidate is a genuine Cointelegraph article reporting Bybit's addition of Unitree and Moonshot AI to its pre-IPO perpetuals lineup, with a specific fact (over 200 TradFi products). This signifies a notable expansion of a major crypto exchange into private market derivatives, directly relevant to crypto market structure and product innovation.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T20:00:56.723Z",
+      "bCommitSha": "91245f29009abbcf8e82d63d8ea239ffacdf4092"
+    },
+    "1c37a48b850893967a7304c034b2e6e6143c210d10593e0ef63020f48930a11c": {
+      "decisionKey": "1c37a48b850893967a7304c034b2e6e6143c210d10593e0ef63020f48930a11c",
+      "status": "rejected",
+      "reason": "This is a factual, verifiable report from a reputable crypto news source about institutional bitcoin ETF holdings. It provides specific data (Harvard's unchanged stake, Mubadala/ADIC retaining shares) and reflects market structure and institutional sentiment, which is relevant to crypto industry audiences. No price speculation, duplication, or low-value promotion.",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T20:00:56.723Z"
+    },
     "d81e0c92a0c9d706da59936a4a572cbc7ad4d9b46ae27b816432e69aa7bd7ce7": {
       "decisionKey": "d81e0c92a0c9d706da59936a4a572cbc7ad4d9b46ae27b816432e69aa7bd7ce7",
       "status": "published",
@@ -15,13 +39,6 @@
       "status": "rejected",
       "reason": "该候选是苹果与阿里巴巴在AI模型领域的合作新闻，虽然来源真实，但内容与加密行业的政策、协议升级、安全事件或市场结构变化无直接关联，对加密受众缺乏明确的信息增量。",
       "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-15T18:00:56.290Z"
-    },
-    "8e86293020f8212035ff611051b9b36c4d479592b2b9aa5b9110a7d8950220e9": {
-      "decisionKey": "8e86293020f8212035ff611051b9b36c4d479592b2b9aa5b9110a7d8950220e9",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-15T18:00:56.290Z"
     },
@@ -5246,17 +5263,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T18:00:56.290Z",
-    "https://cointelegraph.com/rss": "2026-08-15T18:00:56.290Z",
-    "https://decrypt.co/feed": "2026-08-15T18:00:56.290Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T18:00:56.290Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T18:00:56.290Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T18:00:56.290Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-15T18:00:56.290Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-15T18:00:56.290Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-15T18:00:56.290Z",
-    "https://solana.com/rss.xml": "2026-08-15T18:00:56.290Z",
-    "https://slowmist.medium.com/feed": "2026-08-15T18:00:56.290Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T20:00:56.723Z",
+    "https://cointelegraph.com/rss": "2026-08-15T20:00:56.723Z",
+    "https://decrypt.co/feed": "2026-08-15T20:00:56.723Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T20:00:56.723Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T20:00:56.723Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T20:00:56.723Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-15T20:00:56.723Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-15T20:00:56.723Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-15T20:00:56.723Z",
+    "https://solana.com/rss.xml": "2026-08-15T20:00:56.723Z",
+    "https://slowmist.medium.com/feed": "2026-08-15T20:00:56.723Z",
     "https://www.theblock.co/rss.xml": "2026-08-15T14:00:55.168Z"
   },
   "lastRunAt": "2026-08-15T14:00:55.168Z"
