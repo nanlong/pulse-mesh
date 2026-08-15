@@ -1,6 +1,23 @@
 {
   "version": 1,
   "decisions": {
+    "e8f0c04303e356d1eb9f41809ef911f11a038c946d9d4986645112cbb2bcf77a": {
+      "decisionKey": "e8f0c04303e356d1eb9f41809ef911f11a038c946d9d4986645112cbb2bcf77a",
+      "status": "published",
+      "reason": "Cointelegraph 报道 Kalshi 在华盛顿被要求停止广泛预测市场，涉及具体监管指令、时间节点（8月19日、9月2日）及实施措施（地理围栏），对加密及预测市场行业有直接影响和信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T12:00:56.251Z",
+      "bCommitSha": "453ab6712c364219becae023fdef700f49e9bcb1"
+    },
+    "7733afd69a197a06493f7f7453cf3d1663a822ba7a145ab414806497c677e644": {
+      "decisionKey": "7733afd69a197a06493f7f7453cf3d1663a822ba7a145ab414806497c677e644",
+      "status": "rejected",
+      "reason": "候选为行业评论观点，非重大政策、协议升级、安全事件或市场结构变化，对加密行业受众信息增量有限。",
+      "score": 0.4,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T12:00:56.251Z"
+    },
     "8b25a591a896997314454f69c99ee5adb045682255482f590657e6e8d3bc5b0a": {
       "decisionKey": "8b25a591a896997314454f69c99ee5adb045682255482f590657e6e8d3bc5b0a",
       "status": "published",
@@ -5120,18 +5137,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T10:00:54.967Z",
-    "https://cointelegraph.com/rss": "2026-08-15T10:00:54.967Z",
-    "https://decrypt.co/feed": "2026-08-15T10:00:54.967Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T10:00:54.967Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T10:00:54.967Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T10:00:54.967Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-15T10:00:54.967Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-15T10:00:54.967Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-15T10:00:54.967Z",
-    "https://solana.com/rss.xml": "2026-08-15T10:00:54.967Z",
-    "https://slowmist.medium.com/feed": "2026-08-15T10:00:54.967Z",
-    "https://www.theblock.co/rss.xml": "2026-08-15T10:00:54.967Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T12:00:56.251Z",
+    "https://cointelegraph.com/rss": "2026-08-15T12:00:56.251Z",
+    "https://decrypt.co/feed": "2026-08-15T12:00:56.251Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T12:00:56.251Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T12:00:56.251Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T12:00:56.251Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-15T12:00:56.251Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-15T12:00:56.251Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-15T12:00:56.251Z",
+    "https://solana.com/rss.xml": "2026-08-15T12:00:56.251Z",
+    "https://slowmist.medium.com/feed": "2026-08-15T12:00:56.251Z",
+    "https://www.theblock.co/rss.xml": "2026-08-15T12:00:56.251Z"
   },
-  "lastRunAt": "2026-08-15T10:00:54.967Z"
+  "lastRunAt": "2026-08-15T12:00:56.251Z"
 }
