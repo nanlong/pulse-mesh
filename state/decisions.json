@@ -1,6 +1,15 @@
 {
   "version": 1,
   "decisions": {
+    "8b25a591a896997314454f69c99ee5adb045682255482f590657e6e8d3bc5b0a": {
+      "decisionKey": "8b25a591a896997314454f69c99ee5adb045682255482f590657e6e8d3bc5b0a",
+      "status": "published",
+      "reason": "Galaxy 是知名加密金融服务公司，其将 CLARITY 法案通过概率下调至 10%，涉及具体主体、事件、数据和时间，对关注加密政策的受众有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T10:00:54.967Z",
+      "bCommitSha": "cbcc62eaeb0e25d06003faf3022436f56afa52d5"
+    },
     "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537": {
       "decisionKey": "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537",
       "status": "published",
@@ -5111,18 +5120,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T08:00:55.041Z",
-    "https://cointelegraph.com/rss": "2026-08-15T08:00:55.041Z",
-    "https://decrypt.co/feed": "2026-08-15T08:00:55.041Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T08:00:55.041Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T08:00:55.041Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T08:00:55.041Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-15T08:00:55.041Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-15T08:00:55.041Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-15T08:00:55.041Z",
-    "https://solana.com/rss.xml": "2026-08-15T08:00:55.041Z",
-    "https://slowmist.medium.com/feed": "2026-08-15T08:00:55.041Z",
-    "https://www.theblock.co/rss.xml": "2026-08-15T08:00:55.041Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T10:00:54.967Z",
+    "https://cointelegraph.com/rss": "2026-08-15T10:00:54.967Z",
+    "https://decrypt.co/feed": "2026-08-15T10:00:54.967Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T10:00:54.967Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T10:00:54.967Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T10:00:54.967Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-15T10:00:54.967Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-15T10:00:54.967Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-15T10:00:54.967Z",
+    "https://solana.com/rss.xml": "2026-08-15T10:00:54.967Z",
+    "https://slowmist.medium.com/feed": "2026-08-15T10:00:54.967Z",
+    "https://www.theblock.co/rss.xml": "2026-08-15T10:00:54.967Z"
   },
-  "lastRunAt": "2026-08-15T08:00:55.041Z"
+  "lastRunAt": "2026-08-15T10:00:54.967Z"
 }
