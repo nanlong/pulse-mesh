@@ -1,6 +1,49 @@
 {
   "version": 1,
   "decisions": {
+    "d2828a3f66bf0548bc6f2d921aab37099b8412ccb44939dd47a1ed414e274c2a": {
+      "decisionKey": "d2828a3f66bf0548bc6f2d921aab37099b8412ccb44939dd47a1ed414e274c2a",
+      "status": "rejected",
+      "reason": "该候选为Swan CEO的个人市场预测观点，属于价格预测和传闻类内容，缺乏可核验的数据或事实依据，且未涉及加密行业的重要政策、协议升级、安全事件或市场结构变化，对受众的信息增量有限。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T14:00:55.168Z"
+    },
+    "c742fa169c8a0974152d5a67c129381383dcba875bb721b53ac37d4bbb592d1d": {
+      "decisionKey": "c742fa169c8a0974152d5a67c129381383dcba875bb721b53ac37d4bbb592d1d",
+      "status": "rejected",
+      "reason": "该候选为个人观点评论，缺乏具体数据和证据支撑，且不属于重要政策、协议升级、安全事件或市场结构变化，对加密行业受众的信息增量有限。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T14:00:55.168Z"
+    },
+    "bc72995992f92a580a3e2d573a49d62fdf9d593433d46c9bd1646e2b9d6769db": {
+      "decisionKey": "bc72995992f92a580a3e2d573a49d62fdf9d593433d46c9bd1646e2b9d6769db",
+      "status": "published",
+      "reason": "The candidate is a news roundup from CoinDesk covering multiple concrete, verifiable events in the crypto industry: a legislative update (Clarity), a significant corporate action (Strategy selling), and a major institutional deal (Mastercard's $1.8 billion acquisition), plus a security incident. These topics carry clear importance and informational value for crypto-industry audiences, with identifiable actors, events, and a publication date.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T14:00:55.168Z",
+      "bCommitSha": "71e310f74853eb9bf35d3133c271560ef0d9749d"
+    },
+    "912ff6f2849117eba68c3f10f43b837e981c3e1dbfd7ecaa621508b3bcead5ef": {
+      "decisionKey": "912ff6f2849117eba68c3f10f43b837e981c3e1dbfd7ecaa621508b3bcead5ef",
+      "status": "published",
+      "reason": "The candidate reports a concrete, verifiable funding milestone ($11.2 billion in H1 2026) directed to regulated crypto firms by major institutions like BlackRock, Goldman, and Persian Gulf sovereigns. This signals a structural shift in capital flow and regulatory alignment, which is directly relevant to crypto industry participants and provides new information beyond routine market coverage.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T14:00:55.168Z",
+      "bCommitSha": "71e310f74853eb9bf35d3133c271560ef0d9749d"
+    },
+    "014a1362c27eec030db071b2d7516f9523230d838f3ba5b4dec55ea56bebe4a5": {
+      "decisionKey": "014a1362c27eec030db071b2d7516f9523230d838f3ba5b4dec55ea56bebe4a5",
+      "status": "published",
+      "reason": "特朗普关联实体获得条件银行执照并接管USD1稳定币发行，是监管与稳定币市场结构的重要变化，对加密行业有明确影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T14:00:55.168Z",
+      "bCommitSha": "71e310f74853eb9bf35d3133c271560ef0d9749d"
+    },
     "e8f0c04303e356d1eb9f41809ef911f11a038c946d9d4986645112cbb2bcf77a": {
       "decisionKey": "e8f0c04303e356d1eb9f41809ef911f11a038c946d9d4986645112cbb2bcf77a",
       "status": "published",
@@ -5137,18 +5180,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T12:00:56.251Z",
-    "https://cointelegraph.com/rss": "2026-08-15T12:00:56.251Z",
-    "https://decrypt.co/feed": "2026-08-15T12:00:56.251Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T12:00:56.251Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T12:00:56.251Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T12:00:56.251Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-15T12:00:56.251Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-15T12:00:56.251Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-15T12:00:56.251Z",
-    "https://solana.com/rss.xml": "2026-08-15T12:00:56.251Z",
-    "https://slowmist.medium.com/feed": "2026-08-15T12:00:56.251Z",
-    "https://www.theblock.co/rss.xml": "2026-08-15T12:00:56.251Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T14:00:55.168Z",
+    "https://cointelegraph.com/rss": "2026-08-15T14:00:55.168Z",
+    "https://decrypt.co/feed": "2026-08-15T14:00:55.168Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T14:00:55.168Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T14:00:55.168Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T14:00:55.168Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-15T14:00:55.168Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-15T14:00:55.168Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-15T14:00:55.168Z",
+    "https://solana.com/rss.xml": "2026-08-15T14:00:55.168Z",
+    "https://slowmist.medium.com/feed": "2026-08-15T14:00:55.168Z",
+    "https://www.theblock.co/rss.xml": "2026-08-15T14:00:55.168Z"
   },
-  "lastRunAt": "2026-08-15T12:00:56.251Z"
+  "lastRunAt": "2026-08-15T14:00:55.168Z"
 }
