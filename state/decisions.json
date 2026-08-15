@@ -1,6 +1,28 @@
 {
   "version": 1,
   "decisions": {
+    "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537": {
+      "decisionKey": "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T06:00:56.190Z"
+    },
+    "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b": {
+      "decisionKey": "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T06:00:56.190Z"
+    },
+    "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d": {
+      "decisionKey": "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d",
+      "status": "rejected",
+      "reason": "候选内容仅包含一个背景数据点（以色列链上交易量），缺乏关于以色列最大银行与Galaxy合作的具体细节、时间或官方确认，信息不完整且证据不足，无法构成具有明确影响力和信息增量的可发布新闻。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-15T06:00:56.190Z"
+    },
     "e5b7d8daaadb474e0537e99d4cfca103fa8b369ea6bb30ca545830f10bd8c911": {
       "decisionKey": "e5b7d8daaadb474e0537e99d4cfca103fa8b369ea6bb30ca545830f10bd8c911",
       "status": "published",
@@ -9,27 +31,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-15T04:00:56.687Z",
       "bCommitSha": "2a32d814c58dfda349fba1e919587bf488037281"
-    },
-    "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537": {
-      "decisionKey": "a48a7a1b5ea7a87300bca77456a377714a432ae7dc0b811f321c297b61e5c537",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-15T04:00:56.687Z"
-    },
-    "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b": {
-      "decisionKey": "3bb4ecf12574bee7161db964f8f67f1f55ff6e67a61e1617cb1b294f8cbcc22b",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-15T04:00:56.687Z"
-    },
-    "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d": {
-      "decisionKey": "32b7030c9a7c348abae33cfadb86c6f50a67147f245a27445f5c404f0c39b21d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-15T04:00:56.687Z"
     },
     "71c9d60387a3affa6f3e658bafc438df7247bd55b2c11f4afa67cc8c44b0d889": {
       "decisionKey": "71c9d60387a3affa6f3e658bafc438df7247bd55b2c11f4afa67cc8c44b0d889",
@@ -5107,17 +5108,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T04:00:56.687Z",
-    "https://cointelegraph.com/rss": "2026-08-15T04:00:56.687Z",
-    "https://decrypt.co/feed": "2026-08-15T04:00:56.687Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T04:00:56.687Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T04:00:56.687Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T04:00:56.687Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-15T04:00:56.687Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-15T04:00:56.687Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-15T04:00:56.687Z",
-    "https://solana.com/rss.xml": "2026-08-15T04:00:56.687Z",
-    "https://slowmist.medium.com/feed": "2026-08-15T04:00:56.687Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-15T06:00:56.190Z",
+    "https://cointelegraph.com/rss": "2026-08-15T06:00:56.190Z",
+    "https://decrypt.co/feed": "2026-08-15T06:00:56.190Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-15T06:00:56.190Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-15T06:00:56.190Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-15T06:00:56.190Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-15T06:00:56.190Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-15T06:00:56.190Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-15T06:00:56.190Z",
+    "https://solana.com/rss.xml": "2026-08-15T06:00:56.190Z",
+    "https://slowmist.medium.com/feed": "2026-08-15T06:00:56.190Z",
     "https://www.theblock.co/rss.xml": "2026-08-14T10:00:52.580Z"
   },
   "lastRunAt": "2026-08-14T10:00:52.580Z"
