@@ -1,18 +1,26 @@
 {
   "version": 1,
   "decisions": {
-    "df32868be2b64cab26e49108a233a2a6545d49782a0db4f2dce8a6bcf7135cab": {
-      "decisionKey": "df32868be2b64cab26e49108a233a2a6545d49782a0db4f2dce8a6bcf7135cab",
+    "6f2883effa52b3a8e01556cb2f149eac05c78b3efec058f6b5d6df706558cce7": {
+      "decisionKey": "6f2883effa52b3a8e01556cb2f149eac05c78b3efec058f6b5d6df706558cce7",
       "status": "rejected",
-      "reason": "Candidate is a generic market commentary lacking specific entities, data, events, or concrete examples. It does not provide clear information increment for the crypto industry audience and is insufficiently evidenced for publication.",
-      "score": 0.2,
+      "reason": "候选内容过于模糊且缺乏具体细节，仅提及‘SEC meeting’和‘Clarity Act’，但未提供具体主体、事件经过、时间节点或任何可核验的数据，证据不足，属于传闻或猜测性表述，对加密行业受众没有明确的信息增量。",
+      "score": 0,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-16T18:00:59.928Z"
+      "updatedAt": "2026-08-16T20:01:01.125Z"
     },
     "5611dbd59ff88080fbea0d8b16cffa901b50adb785d3a5c7d470ad71e69ac757": {
       "decisionKey": "5611dbd59ff88080fbea0d8b16cffa901b50adb785d3a5c7d470ad71e69ac757",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-16T20:01:01.125Z"
+    },
+    "df32868be2b64cab26e49108a233a2a6545d49782a0db4f2dce8a6bcf7135cab": {
+      "decisionKey": "df32868be2b64cab26e49108a233a2a6545d49782a0db4f2dce8a6bcf7135cab",
+      "status": "rejected",
+      "reason": "Candidate is a generic market commentary lacking specific entities, data, events, or concrete examples. It does not provide clear information increment for the crypto industry audience and is insufficiently evidenced for publication.",
+      "score": 0.2,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-16T18:00:59.928Z"
     },
@@ -5366,17 +5374,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-16T18:00:59.928Z",
-    "https://cointelegraph.com/rss": "2026-08-16T18:00:59.928Z",
-    "https://decrypt.co/feed": "2026-08-16T18:00:59.928Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-16T18:00:59.928Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-16T18:00:59.928Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-16T18:00:59.928Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-16T18:00:59.928Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-16T18:00:59.928Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-16T18:00:59.928Z",
-    "https://solana.com/rss.xml": "2026-08-16T18:00:59.928Z",
-    "https://slowmist.medium.com/feed": "2026-08-16T18:00:59.928Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-16T20:01:01.125Z",
+    "https://cointelegraph.com/rss": "2026-08-16T20:01:01.125Z",
+    "https://decrypt.co/feed": "2026-08-16T20:01:01.125Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-16T20:01:01.125Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-16T20:01:01.125Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-16T20:01:01.125Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-16T20:01:01.125Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-16T20:01:01.125Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-16T20:01:01.125Z",
+    "https://solana.com/rss.xml": "2026-08-16T20:01:01.125Z",
+    "https://slowmist.medium.com/feed": "2026-08-16T20:01:01.125Z",
     "https://www.theblock.co/rss.xml": "2026-08-16T16:01:01.202Z"
   },
   "lastRunAt": "2026-08-16T14:01:00.684Z"
