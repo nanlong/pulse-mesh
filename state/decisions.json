@@ -1,6 +1,46 @@
 {
   "version": 1,
   "decisions": {
+    "df32868be2b64cab26e49108a233a2a6545d49782a0db4f2dce8a6bcf7135cab": {
+      "decisionKey": "df32868be2b64cab26e49108a233a2a6545d49782a0db4f2dce8a6bcf7135cab",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-16T16:01:01.202Z"
+    },
+    "c7b4e315d741b800910d474a1b56092387b33cc947a34f6fb259832e854b6eb3": {
+      "decisionKey": "c7b4e315d741b800910d474a1b56092387b33cc947a34f6fb259832e854b6eb3",
+      "status": "published",
+      "reason": "SafePal 数据泄露影响近4万用户订单信息，属于加密钱包安全事件，对加密用户有明确风险警示价值，来源为 CoinDesk 公开报道。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-16T16:01:01.202Z",
+      "bCommitSha": "3ceeca62750eb11cffff56facbfc1a25def4a6f8"
+    },
+    "c70ae769b86c4303bffae5edf094e2d34639fecb0ce5ae8ff6e7fa28b362d012": {
+      "decisionKey": "c70ae769b86c4303bffae5edf094e2d34639fecb0ce5ae8ff6e7fa28b362d012",
+      "status": "rejected",
+      "reason": "该候选是加州关于AI聊天机器人用于心理健康治疗的监管法案，虽然来源真实且包含具体事件，但对加密行业受众没有明确影响或信息增量，不属于加密行业的政策、协议升级、安全事件或市场结构变化。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-16T16:01:01.202Z"
+    },
+    "b35f6a84555de0a993d1d1f2f48ccd0d0cca67598a4f1e8a09a9e9a61a656abb": {
+      "decisionKey": "b35f6a84555de0a993d1d1f2f48ccd0d0cca67598a4f1e8a09a9e9a61a656abb",
+      "status": "published",
+      "reason": "Critical macOS vulnerability exploited to install Monero miners is a relevant security event for crypto users, with clear impact and verified reporting from a reputable source.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-16T16:01:01.202Z",
+      "bCommitSha": "3ceeca62750eb11cffff56facbfc1a25def4a6f8"
+    },
+    "052cbb95d53526012d4e0ad62a7324d046fe9fbc9f722801728446545af4006b": {
+      "decisionKey": "052cbb95d53526012d4e0ad62a7324d046fe9fbc9f722801728446545af4006b",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-16T16:01:01.202Z"
+    },
     "3a4546d0ca5264814a68383a383ec803acea8c82ab77ce7cbe912a7bb26b6c60": {
       "decisionKey": "3a4546d0ca5264814a68383a383ec803acea8c82ab77ce7cbe912a7bb26b6c60",
       "status": "published",
@@ -5318,17 +5358,17 @@
   },
   "sourceCheckpoints": {
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-16T14:01:00.684Z",
-    "https://cointelegraph.com/rss": "2026-08-16T14:01:00.684Z",
+    "https://cointelegraph.com/rss": "2026-08-16T16:01:01.202Z",
     "https://decrypt.co/feed": "2026-08-16T14:01:00.684Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-16T14:01:00.684Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-16T14:01:00.684Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-16T14:01:00.684Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-16T14:01:00.684Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-16T14:01:00.684Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-16T14:01:00.684Z",
-    "https://solana.com/rss.xml": "2026-08-16T14:01:00.684Z",
-    "https://slowmist.medium.com/feed": "2026-08-16T14:01:00.684Z",
-    "https://www.theblock.co/rss.xml": "2026-08-16T14:01:00.684Z"
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-16T16:01:01.202Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-16T16:01:01.202Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-16T16:01:01.202Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-16T16:01:01.202Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-16T16:01:01.202Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-16T16:01:01.202Z",
+    "https://solana.com/rss.xml": "2026-08-16T16:01:01.202Z",
+    "https://slowmist.medium.com/feed": "2026-08-16T16:01:01.202Z",
+    "https://www.theblock.co/rss.xml": "2026-08-16T16:01:01.202Z"
   },
   "lastRunAt": "2026-08-16T14:01:00.684Z"
 }
