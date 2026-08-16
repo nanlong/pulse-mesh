@@ -1,6 +1,32 @@
 {
   "version": 1,
   "decisions": {
+    "3a4546d0ca5264814a68383a383ec803acea8c82ab77ce7cbe912a7bb26b6c60": {
+      "decisionKey": "3a4546d0ca5264814a68383a383ec803acea8c82ab77ce7cbe912a7bb26b6c60",
+      "status": "published",
+      "reason": "DefiLlama创始人披露苹果商店存在假冒钓鱼应用并导致移动端发布延迟，对DeFi用户资金安全有直接警示作用，属于重要安全事件，具有信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-16T14:01:00.684Z",
+      "bCommitSha": "0121bb1cca3d4596e9c6d4443681d7eced9aace4"
+    },
+    "34e82ce13c135106304046144f7b5b5a965659b3e5e23aa85de1a03208c482b5": {
+      "decisionKey": "34e82ce13c135106304046144f7b5b5a965659b3e5e23aa85de1a03208c482b5",
+      "status": "published",
+      "reason": "真实来源报道欧盟MiCA监管过渡期间出现的新型诈骗浪潮，涉及用户资金安全，对加密行业用户有明确风险提示和信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-16T14:01:00.684Z",
+      "bCommitSha": "0121bb1cca3d4596e9c6d4443681d7eced9aace4"
+    },
+    "0cf06ce864a825cf5d6e0772d2fc53551e02c5bf2466cab42c5c821df7639540": {
+      "decisionKey": "0cf06ce864a825cf5d6e0772d2fc53551e02c5bf2466cab42c5c821df7639540",
+      "status": "rejected",
+      "reason": "候选内容仅有一句概括性评论，缺乏具体主体、事件、时间或数据，未提供可核验的细节或对加密行业受众的明确信息增量，属于低价值观点片段，不符合发布标准。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-16T14:01:00.684Z"
+    },
     "8fa3fd14e4aef8f05bbc3767e307dea4654f4db9a36958a3e3945967b8d0046a": {
       "decisionKey": "8fa3fd14e4aef8f05bbc3767e307dea4654f4db9a36958a3e3945967b8d0046a",
       "status": "rejected",
@@ -5291,18 +5317,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-16T12:01:01.804Z",
-    "https://cointelegraph.com/rss": "2026-08-16T12:01:01.804Z",
-    "https://decrypt.co/feed": "2026-08-16T12:01:01.804Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-16T12:01:01.804Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-16T12:01:01.804Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-16T12:01:01.804Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-16T12:01:01.804Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-16T12:01:01.804Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-16T12:01:01.804Z",
-    "https://solana.com/rss.xml": "2026-08-16T12:01:01.804Z",
-    "https://slowmist.medium.com/feed": "2026-08-16T12:01:01.804Z",
-    "https://www.theblock.co/rss.xml": "2026-08-16T12:01:01.804Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-16T14:01:00.684Z",
+    "https://cointelegraph.com/rss": "2026-08-16T14:01:00.684Z",
+    "https://decrypt.co/feed": "2026-08-16T14:01:00.684Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-16T14:01:00.684Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-16T14:01:00.684Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-16T14:01:00.684Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-16T14:01:00.684Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-16T14:01:00.684Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-16T14:01:00.684Z",
+    "https://solana.com/rss.xml": "2026-08-16T14:01:00.684Z",
+    "https://slowmist.medium.com/feed": "2026-08-16T14:01:00.684Z",
+    "https://www.theblock.co/rss.xml": "2026-08-16T14:01:00.684Z"
   },
-  "lastRunAt": "2026-08-16T12:01:01.804Z"
+  "lastRunAt": "2026-08-16T14:01:00.684Z"
 }
