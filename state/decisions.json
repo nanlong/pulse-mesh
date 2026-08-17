@@ -1,6 +1,39 @@
 {
   "version": 1,
   "decisions": {
+    "c63b19e5844a3a94052c7fd02830df7b03c62e31ab7ee017545c9bfefd521a1c": {
+      "decisionKey": "c63b19e5844a3a94052c7fd02830df7b03c62e31ab7ee017545c9bfefd521a1c",
+      "status": "rejected",
+      "reason": "该候选为XRP价格波动及交易者押注的市场评论，属于价格喊单类内容，缺乏对加密行业有长期影响的政策、协议升级、安全事件或市场结构变化。虽来源可信，但信息增量有限，不应作为重要发布。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T06:00:59.844Z"
+    },
+    "5611dbd59ff88080fbea0d8b16cffa901b50adb785d3a5c7d470ad71e69ac757": {
+      "decisionKey": "5611dbd59ff88080fbea0d8b16cffa901b50adb785d3a5c7d470ad71e69ac757",
+      "status": "published",
+      "reason": "This is a genuine security incident involving a cryptocurrency wallet provider, impacting nearly 40,000 customers. The news is from a reputable source (The Block), includes specific entity (SafePal), event (data breach), scale (40,000 customers), and timing (phishing attempts since July, root cause found recently). Such security breaches are critical for crypto users to know about due to phishing and asset loss risks.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T06:00:59.844Z",
+      "bCommitSha": "e47045472c1c843011cac186de3b2146ac229106"
+    },
+    "1c897b6516f0b7a0531dbe4739790c5e1d1385ba886c0e2cc07db8a428f22d2e": {
+      "decisionKey": "1c897b6516f0b7a0531dbe4739790c5e1d1385ba886c0e2cc07db8a428f22d2e",
+      "status": "rejected",
+      "reason": "Content is a routine market price update with no policy, protocol, security, or market structure significance; lacks information增量 for crypto industry professionals beyond short-term price moves.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T06:00:59.844Z"
+    },
+    "08576738a8d341c42740557c9859afbb7a4c31a46de653c27c3ff1db3ed2ab1d": {
+      "decisionKey": "08576738a8d341c42740557c9859afbb7a4c31a46de653c27c3ff1db3ed2ab1d",
+      "status": "rejected",
+      "reason": "该候选来自CoinDesk，是真实且可核验的行业媒体；内容聚焦比特币期货市场未平仓合约与交易量的流动性错配，属于市场结构变化，对加密期货参与者和关注市场风险的受众有明确信息增量。虽未提供具体数据，但作为预警性分析仍具发布价值。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T06:00:59.844Z"
+    },
     "65634b3a28b3c4113a0887ec9b4056ac609c6742c869f0204bb6df1e6c548987": {
       "decisionKey": "65634b3a28b3c4113a0887ec9b4056ac609c6742c869f0204bb6df1e6c548987",
       "status": "published",
@@ -9,13 +42,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-17T04:00:59.422Z",
       "bCommitSha": "282a97ef5ce839d27a724b817a3d84b0170649f9"
-    },
-    "5611dbd59ff88080fbea0d8b16cffa901b50adb785d3a5c7d470ad71e69ac757": {
-      "decisionKey": "5611dbd59ff88080fbea0d8b16cffa901b50adb785d3a5c7d470ad71e69ac757",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T04:00:59.422Z"
     },
     "8c128979441f11d33f35268d6f1b2efde3533929aeec5b086e94e1dd7187b816": {
       "decisionKey": "8c128979441f11d33f35268d6f1b2efde3533929aeec5b086e94e1dd7187b816",
@@ -5407,18 +5433,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T04:00:59.422Z",
-    "https://cointelegraph.com/rss": "2026-08-17T04:00:59.422Z",
-    "https://decrypt.co/feed": "2026-08-17T04:00:59.422Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T04:00:59.422Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T04:00:59.422Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T04:00:59.422Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-17T04:00:59.422Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-17T04:00:59.422Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-17T04:00:59.422Z",
-    "https://solana.com/rss.xml": "2026-08-17T04:00:59.422Z",
-    "https://slowmist.medium.com/feed": "2026-08-17T04:00:59.422Z",
-    "https://www.theblock.co/rss.xml": "2026-08-16T16:01:01.202Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T06:00:59.844Z",
+    "https://cointelegraph.com/rss": "2026-08-17T06:00:59.844Z",
+    "https://decrypt.co/feed": "2026-08-17T06:00:59.844Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T06:00:59.844Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T06:00:59.844Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T06:00:59.844Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-17T06:00:59.844Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-17T06:00:59.844Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-17T06:00:59.844Z",
+    "https://solana.com/rss.xml": "2026-08-17T06:00:59.844Z",
+    "https://slowmist.medium.com/feed": "2026-08-17T06:00:59.844Z",
+    "https://www.theblock.co/rss.xml": "2026-08-17T06:00:59.844Z"
   },
-  "lastRunAt": "2026-08-16T14:01:00.684Z"
+  "lastRunAt": "2026-08-17T06:00:59.844Z"
 }
