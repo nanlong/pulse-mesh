@@ -1,18 +1,65 @@
 {
   "version": 1,
   "decisions": {
+    "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
+      "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T22:01:03.009Z"
+    },
+    "8a4f9d3c9859d315619f0bd434c7cd4d0bbbf1c233623afc3f44483f763d8ce3": {
+      "decisionKey": "8a4f9d3c9859d315619f0bd434c7cd4d0bbbf1c233623afc3f44483f763d8ce3",
+      "status": "rejected",
+      "reason": "该候选来自真实可核验的加密媒体 Decrypt，包含具体主体（Polymarket、Kalshi、Myriad）、事件（美联储9月利率决议预测）、数据（74%按兵不动概率）和时间（2026年9月），对加密行业受众具有宏观政策关联性和信息增量，非价格喊单或营销内容。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T22:01:03.009Z"
+    },
+    "6ac3f7617829951dd7395767376187fe707bb756ec0c989e9c7ef5754b204542": {
+      "decisionKey": "6ac3f7617829951dd7395767376187fe707bb756ec0c989e9c7ef5754b204542",
+      "status": "published",
+      "reason": "OCC有条件批准特朗普家族加密公司World Liberty Financial的信托章程，属于美国加密监管政策的重大进展，直接影响加密行业参与者，且来源为Cointelegraph公开新闻，信息可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T22:01:03.009Z",
+      "bCommitSha": "305f603729240a64567d15bfdf4cb1cb9877be62"
+    },
+    "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd": {
+      "decisionKey": "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T22:01:03.009Z"
+    },
+    "303e4e4ea00d091f131b15a2420ada91ca37664aac0d336ff736f5a3ff46f40f": {
+      "decisionKey": "303e4e4ea00d091f131b15a2420ada91ca37664aac0d336ff736f5a3ff46f40f",
+      "status": "published",
+      "reason": "美国财政部提议对稳定币销售制定新规，直接影响加密交易平台及美国用户，属于重要政策变化，对加密行业具有明确影响和信息增量。",
+      "score": 1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T22:01:03.009Z",
+      "bCommitSha": "305f603729240a64567d15bfdf4cb1cb9877be62"
+    },
+    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
+      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T22:01:03.009Z"
+    },
+    "02b8bc100c173d8593f1914d79d0083671d75cf488e1dd4e29106916262dd44f": {
+      "decisionKey": "02b8bc100c173d8593f1914d79d0083671d75cf488e1dd4e29106916262dd44f",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T22:01:03.009Z"
+    },
     "edcd11b0b69a2c3d98a92ebea42f054c87ef36a5bda72a933af685d9702630b4": {
       "decisionKey": "edcd11b0b69a2c3d98a92ebea42f054c87ef36a5bda72a933af685d9702630b4",
       "status": "rejected",
       "reason": "候选内容为Pump代币价格上涨和黄金交叉图表分析，属于价格喊单和技术面炒作，缺乏对加密行业的重要政策、协议升级、安全事件或市场结构变化等实质性信息，不符合发布标准。",
       "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T20:01:02.078Z"
-    },
-    "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
-      "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-17T20:01:02.078Z"
     },
@@ -50,25 +97,11 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-17T20:01:02.078Z"
     },
-    "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd": {
-      "decisionKey": "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T20:01:02.078Z"
-    },
     "095f6086a126022907d6f3f457dccbd07a90ca3e201b85f07a9bc4ea91ecd55f": {
       "decisionKey": "095f6086a126022907d6f3f457dccbd07a90ca3e201b85f07a9bc4ea91ecd55f",
       "status": "rejected",
       "reason": "该候选为XRP价格技术分析，属于价格讨论和图表信号，缺乏对加密行业有明确影响的政策、协议、安全或市场结构变化，且未提供具体可核验的数据或事件，不符合发布标准。",
       "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T20:01:02.078Z"
-    },
-    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
-      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-17T20:01:02.078Z"
     },
@@ -5850,17 +5883,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T20:01:02.078Z",
-    "https://cointelegraph.com/rss": "2026-08-17T20:01:02.078Z",
-    "https://decrypt.co/feed": "2026-08-17T20:01:02.078Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T18:00:59.014Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T20:01:02.078Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T20:01:02.078Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-17T20:01:02.078Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-17T20:01:02.078Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-17T20:01:02.078Z",
-    "https://solana.com/rss.xml": "2026-08-17T20:01:02.078Z",
-    "https://slowmist.medium.com/feed": "2026-08-17T20:01:02.078Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T22:01:03.009Z",
+    "https://cointelegraph.com/rss": "2026-08-17T22:01:03.009Z",
+    "https://decrypt.co/feed": "2026-08-17T22:01:03.009Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T22:01:03.009Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T22:01:03.009Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T22:01:03.009Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-17T22:01:03.009Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-17T22:01:03.009Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-17T22:01:03.009Z",
+    "https://solana.com/rss.xml": "2026-08-17T22:01:03.009Z",
+    "https://slowmist.medium.com/feed": "2026-08-17T22:01:03.009Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
