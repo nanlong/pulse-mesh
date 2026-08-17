@@ -1,12 +1,76 @@
 {
   "version": 1,
   "decisions": {
+    "edcd11b0b69a2c3d98a92ebea42f054c87ef36a5bda72a933af685d9702630b4": {
+      "decisionKey": "edcd11b0b69a2c3d98a92ebea42f054c87ef36a5bda72a933af685d9702630b4",
+      "status": "rejected",
+      "reason": "候选内容为Pump代币价格上涨和黄金交叉图表分析，属于价格喊单和技术面炒作，缺乏对加密行业的重要政策、协议升级、安全事件或市场结构变化等实质性信息，不符合发布标准。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T20:01:02.078Z"
+    },
     "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
       "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T18:00:59.014Z"
+      "updatedAt": "2026-08-17T20:01:02.078Z"
+    },
+    "db5f74664067eb7984f5c8fcf69afa1c8480288aa1d501c3ae1f34cf3092e097": {
+      "decisionKey": "db5f74664067eb7984f5c8fcf69afa1c8480288aa1d501c3ae1f34cf3092e097",
+      "status": "rejected",
+      "reason": "This is a routine corporate statement about capital allocation priorities. Although it involves a major Bitcoin holder, the remark that buybacks are not a priority while building a cash reserve offers no concrete changes in policy, protocol, security, or market structure. The content is thin and lacks clear incremental value for a general crypto audience.",
+      "score": 0.25,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T20:01:02.078Z"
+    },
+    "b6e09e6b82b3ab9b26469cad1ed5318560ca5f9248e55df283331923e8ca33ff": {
+      "decisionKey": "b6e09e6b82b3ab9b26469cad1ed5318560ca5f9248e55df283331923e8ca33ff",
+      "status": "published",
+      "reason": "以太坊开发者针对下一重大升级提出隐私相关变更，涉及隐私池自主支付交易费用，属于协议层面的实质更新，对加密行业有明确影响和信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T20:01:02.078Z",
+      "bCommitSha": "f6565af80184230eb0944714539f7d8120e9627e"
+    },
+    "a0a80f5977395e9b190f319452896758011747887aa60519d7434bf70ccdd4fc": {
+      "decisionKey": "a0a80f5977395e9b190f319452896758011747887aa60519d7434bf70ccdd4fc",
+      "status": "published",
+      "reason": "主流加密媒体 Cointelegraph 报道，Binance 英国分支自 2021 年起被禁止开展受监管活动，现计划依据新加密规则申请 FCA 牌照以重新进入英国市场，涉及具体主体、事件、时间与监管框架，对交易所合规格局和加密行业用户有明确影响与信息增量。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T20:01:02.078Z",
+      "bCommitSha": "f6565af80184230eb0944714539f7d8120e9627e"
+    },
+    "79a0d0d300646e1c6af604d99e3c9ba7c8371b94b634679094037d7f6182d8fc": {
+      "decisionKey": "79a0d0d300646e1c6af604d99e3c9ba7c8371b94b634679094037d7f6182d8fc",
+      "status": "rejected",
+      "reason": "发布内容时间戳为未来日期（2026-08-17），且缺乏具体事件细节、可核验数据或对加密行业的明确影响；来源ID疑似测试数据，存在低质量/测试内容嫌疑，不符合发布标准。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T20:01:02.078Z"
+    },
+    "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd": {
+      "decisionKey": "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T20:01:02.078Z"
+    },
+    "095f6086a126022907d6f3f457dccbd07a90ca3e201b85f07a9bc4ea91ecd55f": {
+      "decisionKey": "095f6086a126022907d6f3f457dccbd07a90ca3e201b85f07a9bc4ea91ecd55f",
+      "status": "rejected",
+      "reason": "该候选为XRP价格技术分析，属于价格讨论和图表信号，缺乏对加密行业有明确影响的政策、协议、安全或市场结构变化，且未提供具体可核验的数据或事件，不符合发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T20:01:02.078Z"
+    },
+    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
+      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T20:01:02.078Z"
     },
     "d7d21e90f7197e3d4be0c00f27ab68cdf9cc1439409cee3f08a11e49735b1275": {
       "decisionKey": "d7d21e90f7197e3d4be0c00f27ab68cdf9cc1439409cee3f08a11e49735b1275",
@@ -91,13 +155,6 @@
       "status": "rejected",
       "reason": "来源为 Cointelegraph 的实时市场新闻，报道比特币价格突破 64,000 美元的具体行情数据，并结合黄金、原油及地缘政治因素，对加密行业受众具有明确的市场信息增量。",
       "score": 0.72,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T18:00:59.014Z"
-    },
-    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
-      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-17T18:00:59.014Z"
     },
@@ -5793,17 +5850,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T18:00:59.014Z",
-    "https://cointelegraph.com/rss": "2026-08-17T18:00:59.014Z",
-    "https://decrypt.co/feed": "2026-08-17T18:00:59.014Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T20:01:02.078Z",
+    "https://cointelegraph.com/rss": "2026-08-17T20:01:02.078Z",
+    "https://decrypt.co/feed": "2026-08-17T20:01:02.078Z",
     "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T18:00:59.014Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T18:00:59.014Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T18:00:59.014Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-17T18:00:59.014Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-17T18:00:59.014Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-17T18:00:59.014Z",
-    "https://solana.com/rss.xml": "2026-08-17T18:00:59.014Z",
-    "https://slowmist.medium.com/feed": "2026-08-17T18:00:59.014Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T20:01:02.078Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T20:01:02.078Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-17T20:01:02.078Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-17T20:01:02.078Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-17T20:01:02.078Z",
+    "https://solana.com/rss.xml": "2026-08-17T20:01:02.078Z",
+    "https://slowmist.medium.com/feed": "2026-08-17T20:01:02.078Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
