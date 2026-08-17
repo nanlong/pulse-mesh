@@ -1,12 +1,113 @@
 {
   "version": 1,
   "decisions": {
+    "e98a94b5dea8df565603a1214f36c3371fe8734976a6903f1a8743bf6a8faaf6": {
+      "decisionKey": "e98a94b5dea8df565603a1214f36c3371fe8734976a6903f1a8743bf6a8faaf6",
+      "status": "published",
+      "reason": "该候选来自权威媒体 CoinDesk，报道以太坊即将进行的 Hegotá 升级包含 66 项提案及重大隐私修复，属于对加密行业有明确影响的协议升级新闻，信息具体且可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z",
+      "bCommitSha": "b3f4352f78c3a52d23cb6953436a9516882b552a"
+    },
     "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
       "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T12:00:59.030Z"
+      "updatedAt": "2026-08-17T14:01:01.537Z"
+    },
+    "ddbb08bc228bc328bdd8de251aeff7c642821931d615322ad331e9fd5d78fdd9": {
+      "decisionKey": "ddbb08bc228bc328bdd8de251aeff7c642821931d615322ad331e9fd5d78fdd9",
+      "status": "published",
+      "reason": "Real Decrypt news brief: Trump is meeting crypto and prediction-market CEOs this week, with relevant policy context on the Clarity Act delay and SEC rulemaking postponement. This carries clear regulatory and market-structure implications for crypto audiences.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z",
+      "bCommitSha": "b3f4352f78c3a52d23cb6953436a9516882b552a"
+    },
+    "baf0ebe21b4c2d9adebb34d5d63343a1ed92740a14fc653fa8394bceca91b27f": {
+      "decisionKey": "baf0ebe21b4c2d9adebb34d5d63343a1ed92740a14fc653fa8394bceca91b27f",
+      "status": "published",
+      "reason": "来源为Decrypt的新闻，具体提及荷兰网络机构、macOS屏幕共享漏洞、门罗币挖掘攻击，对加密行业安全有直接影响并包含新信息，符合发布标准。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z",
+      "bCommitSha": "b3f4352f78c3a52d23cb6953436a9516882b552a"
+    },
+    "bae7eb378337c134fadb656e3e576b8ce699fd519aa971982bd56c92bf284bea": {
+      "decisionKey": "bae7eb378337c134fadb656e3e576b8ce699fd519aa971982bd56c92bf284bea",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z"
+    },
+    "b2cecab9470d36b4618b441ab0ebd56b265818af28e9dd59a262625afc410fd0": {
+      "decisionKey": "b2cecab9470d36b4618b441ab0ebd56b265818af28e9dd59a262625afc410fd0",
+      "status": "rejected",
+      "reason": "该候选来自CoinDesk，来源真实可核验，涉及上市公司Strategy的融资与比特币持仓动态，对加密行业受众有一定关注度，但内容简短且未改变比特币持仓，影响相对有限。",
+      "score": 0.35,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z"
+    },
+    "960ebac722ea455dfa8c2b38aad0dde0667580291c7856514a0586da0c93d6c6": {
+      "decisionKey": "960ebac722ea455dfa8c2b38aad0dde0667580291c7856514a0586da0c93d6c6",
+      "status": "published",
+      "reason": "Harmony在ONE漏洞后计划回滚10.9万笔交易，涉及链上治理与安全事件应对，对加密行业有明确信息增量和影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z",
+      "bCommitSha": "b3f4352f78c3a52d23cb6953436a9516882b552a"
+    },
+    "7ecdfbe484eec66c4e34ab1423c9333873d55efac0bb9f3ddeda6218bfb6906f": {
+      "decisionKey": "7ecdfbe484eec66c4e34ab1423c9333873d55efac0bb9f3ddeda6218bfb6906f",
+      "status": "published",
+      "reason": "该候选来自Coindesk，是真实公开的新闻来源，报道了Coldcard硬件钱包代码漏洞导致1亿美元被盗的具体安全事件，包含明确的主题、时间和影响，对加密行业用户有重要警示意义，属于需要发布的安全事件类信息。",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z",
+      "bCommitSha": "b3f4352f78c3a52d23cb6953436a9516882b552a"
+    },
+    "57ddc366625dd9043b4bea2e3d49e92ff5a59f7d3e0d8a560b1487ec2882b109": {
+      "decisionKey": "57ddc366625dd9043b4bea2e3d49e92ff5a59f7d3e0d8a560b1487ec2882b109",
+      "status": "published",
+      "reason": "Strategy 作为最大的比特币持有上市公司，其融资动向和比特币持有策略直接影响加密市场信心与流动性预期，属于重要的市场结构变化，信息增量明确。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z",
+      "bCommitSha": "b3f4352f78c3a52d23cb6953436a9516882b552a"
+    },
+    "47e52518d3e0b91cea8d44f53c3e6a27e96d6009a7bbf497a5d6a152ae0d3049": {
+      "decisionKey": "47e52518d3e0b91cea8d44f53c3e6a27e96d6009a7bbf497a5d6a152ae0d3049",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z"
+    },
+    "45f96adc78f51833a4684ebb42d408d1f6daea10b400e9cc31add6a1a671e8f4": {
+      "decisionKey": "45f96adc78f51833a4684ebb42d408d1f6daea10b400e9cc31add6a1a671e8f4",
+      "status": "rejected",
+      "reason": "Candidate is a minor treasury update from a single entity; lacks significant impact on the broader crypto industry and does not meet the threshold for important policy, protocol upgrade, security event, or market structure change.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z"
+    },
+    "3fa10a7aa5c1bdcc8266829ee6386c1cfacc96c483ae759c4f1f221a7c3e140d": {
+      "decisionKey": "3fa10a7aa5c1bdcc8266829ee6386c1cfacc96c483ae759c4f1f221a7c3e140d",
+      "status": "published",
+      "reason": "报道网络安全公司Bitdefender发现盗版《奥德赛》拷贝携带Lumma Stealer恶意软件，可窃取加密钱包和会话，对加密用户构成直接安全威胁，来源可信，信息具体且具时效性。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z",
+      "bCommitSha": "b3f4352f78c3a52d23cb6953436a9516882b552a"
+    },
+    "2b924631210f7f9c70d0a1feb2f5601b18eda2a6b6431fe2a4f61d8274f75c4c": {
+      "decisionKey": "2b924631210f7f9c70d0a1feb2f5601b18eda2a6b6431fe2a4f61d8274f75c4c",
+      "status": "rejected",
+      "reason": "Company-specific treasury update without clear impact on broader crypto market or policy; lacks significant information increment for the audience.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T14:01:01.537Z"
     },
     "c9c2a5549e14715d3b6c1caa574997039112a0c5061a9d3dbd777a32c3064871": {
       "decisionKey": "c9c2a5549e14715d3b6c1caa574997039112a0c5061a9d3dbd777a32c3064871",
@@ -5561,17 +5662,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T12:00:59.030Z",
-    "https://cointelegraph.com/rss": "2026-08-17T12:00:59.030Z",
-    "https://decrypt.co/feed": "2026-08-17T12:00:59.030Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T12:00:59.030Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T12:00:59.030Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T12:00:59.030Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-17T12:00:59.030Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-17T12:00:59.030Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-17T12:00:59.030Z",
-    "https://solana.com/rss.xml": "2026-08-17T12:00:59.030Z",
-    "https://slowmist.medium.com/feed": "2026-08-17T12:00:59.030Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T14:01:01.537Z",
+    "https://cointelegraph.com/rss": "2026-08-17T14:01:01.537Z",
+    "https://decrypt.co/feed": "2026-08-17T14:01:01.537Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T14:01:01.537Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T14:01:01.537Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T14:01:01.537Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-17T14:01:01.537Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-17T14:01:01.537Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-17T14:01:01.537Z",
+    "https://solana.com/rss.xml": "2026-08-17T14:01:01.537Z",
+    "https://slowmist.medium.com/feed": "2026-08-17T14:01:01.537Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
