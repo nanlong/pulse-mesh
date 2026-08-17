@@ -3,17 +3,34 @@
   "decisions": {
     "8c128979441f11d33f35268d6f1b2efde3533929aeec5b086e94e1dd7187b816": {
       "decisionKey": "8c128979441f11d33f35268d6f1b2efde3533929aeec5b086e94e1dd7187b816",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
+      "status": "rejected",
+      "reason": "Prediction markets are a crypto-adjacent sector, and this lawsuit against state officials over sports contracts is a regulatory and legal development that affects the industry's operating environment. The source is a reputable crypto news outlet, and the content includes specific actors, timing, and a concrete event.",
+      "score": 0.7,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-16T22:01:00.130Z"
+      "updatedAt": "2026-08-17T00:01:01.718Z"
+    },
+    "69f9ca5f18620f5f2740f579adf4993b51bf82c733168fe3da4ab8465bc4a50a": {
+      "decisionKey": "69f9ca5f18620f5f2740f579adf4993b51bf82c733168fe3da4ab8465bc4a50a",
+      "status": "published",
+      "reason": "报道了涉及54,000名钱包用户数据泄露的安全事件，直接影响Trezor和SafePal用户，属于加密行业重大安全风险；同时提及CLARITY法案进展及白宫会议，属于重要政策动向，具有明确信息增量和行业影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T00:01:01.718Z",
+      "bCommitSha": "ef059722202f7e14ea0b6d460fd0c928b46b1013"
+    },
+    "69d89ebb0179293a06bd0212fe522c5759a79539b52afc847e407957796a5099": {
+      "decisionKey": "69d89ebb0179293a06bd0212fe522c5759a79539b52afc847e407957796a5099",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T00:01:01.718Z"
     },
     "5611dbd59ff88080fbea0d8b16cffa901b50adb785d3a5c7d470ad71e69ac757": {
       "decisionKey": "5611dbd59ff88080fbea0d8b16cffa901b50adb785d3a5c7d470ad71e69ac757",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-16T22:01:00.130Z"
+      "updatedAt": "2026-08-17T00:01:01.718Z"
     },
     "6f2883effa52b3a8e01556cb2f149eac05c78b3efec058f6b5d6df706558cce7": {
       "decisionKey": "6f2883effa52b3a8e01556cb2f149eac05c78b3efec058f6b5d6df706558cce7",
@@ -5381,17 +5398,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-16T22:01:00.130Z",
-    "https://cointelegraph.com/rss": "2026-08-16T22:01:00.130Z",
-    "https://decrypt.co/feed": "2026-08-16T22:01:00.130Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-16T22:01:00.130Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-16T22:01:00.130Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-16T22:01:00.130Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-16T22:01:00.130Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-16T22:01:00.130Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-16T22:01:00.130Z",
-    "https://solana.com/rss.xml": "2026-08-16T22:01:00.130Z",
-    "https://slowmist.medium.com/feed": "2026-08-16T22:01:00.130Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T00:01:01.718Z",
+    "https://cointelegraph.com/rss": "2026-08-17T00:01:01.718Z",
+    "https://decrypt.co/feed": "2026-08-17T00:01:01.718Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T00:01:01.718Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T00:01:01.718Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T00:01:01.718Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-17T00:01:01.718Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-17T00:01:01.718Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-17T00:01:01.718Z",
+    "https://solana.com/rss.xml": "2026-08-17T00:01:01.718Z",
+    "https://slowmist.medium.com/feed": "2026-08-17T00:01:01.718Z",
     "https://www.theblock.co/rss.xml": "2026-08-16T16:01:01.202Z"
   },
   "lastRunAt": "2026-08-16T14:01:00.684Z"
