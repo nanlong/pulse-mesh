@@ -1,6 +1,106 @@
 {
   "version": 1,
   "decisions": {
+    "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
+      "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z"
+    },
+    "d7d21e90f7197e3d4be0c00f27ab68cdf9cc1439409cee3f08a11e49735b1275": {
+      "decisionKey": "d7d21e90f7197e3d4be0c00f27ab68cdf9cc1439409cee3f08a11e49735b1275",
+      "status": "published",
+      "reason": "CFTC对AI计算期货的监管审查及CME的推出计划是重要的市场结构变化，涉及政策与新兴算力市场，对加密行业的AI相关项目和算力交易有直接影响，信息增量明确。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z",
+      "bCommitSha": "1f54f57f5c56fcd59d66092a9d9e0e009f616468"
+    },
+    "be5b186002d8540e347a612a7de6f4709a7d012860be5916f05425becb380b59": {
+      "decisionKey": "be5b186002d8540e347a612a7de6f4709a7d012860be5916f05425becb380b59",
+      "status": "rejected",
+      "reason": "Candidate appears to be fabricated or placeholder content: the publication date is in the future, and the referenced entity ('Tom Lee’s Ethereum treasury company Bitmine') is not a known verifiable subject. The source URL is not independently accessible and the content does not meet the requirement of a real, current, publicly verifiable news event.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z"
+    },
+    "bd56294d74ac9547755c3b3ad6ad6a1e369dda31e2fb500304a4f182776326fd": {
+      "decisionKey": "bd56294d74ac9547755c3b3ad6ad6a1e369dda31e2fb500304a4f182776326fd",
+      "status": "rejected",
+      "reason": "Routine monthly mining production update for three companies. Lacks significant impact on crypto industry structure; not a policy change, protocol upgrade, or security incident. Content focuses on stock performance rather than substantive data, offering limited information increment for the audience.",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z"
+    },
+    "bae7eb378337c134fadb656e3e576b8ce699fd519aa971982bd56c92bf284bea": {
+      "decisionKey": "bae7eb378337c134fadb656e3e576b8ce699fd519aa971982bd56c92bf284bea",
+      "status": "published",
+      "reason": "This is a real, newsworthy regulatory development: Austria's FMA has issued the first published penalty under MiCA, targeting crypto broker Bitpanda for white paper and marketing disclosure failures. It provides a concrete entity, event, amount, and regulatory context, offering clear informational value to crypto industry stakeholders monitoring MiCA enforcement.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z",
+      "bCommitSha": "1f54f57f5c56fcd59d66092a9d9e0e009f616468"
+    },
+    "807ad9be865b28730b961f0d55d3197241ac1ed8ae2c0037c79a606d635e8705": {
+      "decisionKey": "807ad9be865b28730b961f0d55d3197241ac1ed8ae2c0037c79a606d635e8705",
+      "status": "published",
+      "reason": "美国财政部就GENIUS Act稳定币规则公开征求意见，属于明确的联邦监管动态，对稳定币发行和加密合规有直接影响，来源为The Block并附有原文链接，信息可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z",
+      "bCommitSha": "1f54f57f5c56fcd59d66092a9d9e0e009f616468"
+    },
+    "5583c90d942163ae5641044c50fea000680c4cccb7e325186a1cdabf8ef6cddd": {
+      "decisionKey": "5583c90d942163ae5641044c50fea000680c4cccb7e325186a1cdabf8ef6cddd",
+      "status": "published",
+      "reason": "Official news from Cointelegraph about the US Treasury advancing rules for the GENIUS Act stablecoin bill, a concrete policy development with clear timeline impact for crypto industry participants. Provides new information on regulatory implementation deadlines.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z",
+      "bCommitSha": "1f54f57f5c56fcd59d66092a9d9e0e009f616468"
+    },
+    "47e52518d3e0b91cea8d44f53c3e6a27e96d6009a7bbf497a5d6a152ae0d3049": {
+      "decisionKey": "47e52518d3e0b91cea8d44f53c3e6a27e96d6009a7bbf497a5d6a152ae0d3049",
+      "status": "rejected",
+      "reason": "Strategy是比特币最大企业持有者，其持股变动及未买卖比特币的公告对市场有信息价值，来源为The Block且包含具体数据。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z"
+    },
+    "322ea1097093a90b45e6f668ada43bd1405b19f7b0f4c212b5d3b761fc9db1b1": {
+      "decisionKey": "322ea1097093a90b45e6f668ada43bd1405b19f7b0f4c212b5d3b761fc9db1b1",
+      "status": "published",
+      "reason": "This is a newsworthy report on SEC's crypto fundraising framework being halted due to Wall Street pushback, involving specific entities (SEC, SIFMA) and legislative context (Clarity Act). It has clear relevance to crypto industry stakeholders, covering regulatory and policy developments. Published by a recognized crypto news outlet with concrete details, though based on anonymous sources.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z",
+      "bCommitSha": "1f54f57f5c56fcd59d66092a9d9e0e009f616468"
+    },
+    "30e100bd14ae3cbe78429981f10315ba79a1bc80c13132270bca106a8170ff47": {
+      "decisionKey": "30e100bd14ae3cbe78429981f10315ba79a1bc80c13132270bca106a8170ff47",
+      "status": "published",
+      "reason": "Coindesk报道了BitMart创始人回应审计要求，用户报告资金被封锁和员工欠薪，涉及交易所资产安全和透明度问题，对加密行业用户有明确影响和信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z",
+      "bCommitSha": "1f54f57f5c56fcd59d66092a9d9e0e009f616468"
+    },
+    "1fd86361ac96406910cd2c12008e9ce2f8b3249637469998d1e3cf6c0cd16833": {
+      "decisionKey": "1fd86361ac96406910cd2c12008e9ce2f8b3249637469998d1e3cf6c0cd16833",
+      "status": "rejected",
+      "reason": "来源为 Cointelegraph 的实时市场新闻，报道比特币价格突破 64,000 美元的具体行情数据，并结合黄金、原油及地缘政治因素，对加密行业受众具有明确的市场信息增量。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z"
+    },
+    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
+      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T18:00:59.014Z"
+    },
     "f5b32af506fbb3d838d156e534fa743ae7aaa9e72532385b02c0dac5d1886222": {
       "decisionKey": "f5b32af506fbb3d838d156e534fa743ae7aaa9e72532385b02c0dac5d1886222",
       "status": "published",
@@ -9,20 +109,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-17T16:01:04.618Z",
       "bCommitSha": "d25d6cce1800954be5ae8027c7204a777c5f2944"
-    },
-    "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
-      "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T16:01:04.618Z"
-    },
-    "bae7eb378337c134fadb656e3e576b8ce699fd519aa971982bd56c92bf284bea": {
-      "decisionKey": "bae7eb378337c134fadb656e3e576b8ce699fd519aa971982bd56c92bf284bea",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T16:01:04.618Z"
     },
     "b483c96cb353391925af9e833c5cee67cf2bf64b453243f6ab8ee32e9e78fc3d": {
       "decisionKey": "b483c96cb353391925af9e833c5cee67cf2bf64b453243f6ab8ee32e9e78fc3d",
@@ -50,13 +136,6 @@
       "updatedAt": "2026-08-17T16:01:04.618Z",
       "bCommitSha": "d25d6cce1800954be5ae8027c7204a777c5f2944"
     },
-    "47e52518d3e0b91cea8d44f53c3e6a27e96d6009a7bbf497a5d6a152ae0d3049": {
-      "decisionKey": "47e52518d3e0b91cea8d44f53c3e6a27e96d6009a7bbf497a5d6a152ae0d3049",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T16:01:04.618Z"
-    },
     "2bc3cdb26167b54425bd6db1c941078da455fe8f889bdb3d310b59357dda58ef": {
       "decisionKey": "2bc3cdb26167b54425bd6db1c941078da455fe8f889bdb3d310b59357dda58ef",
       "status": "published",
@@ -71,13 +150,6 @@
       "status": "rejected",
       "reason": "该候选来源为 Decrypt 的真实新闻页面，但内容仅有一句摘要，缺乏对交易细节、时间线或对加密行业具体影响的实质信息，证据不足，无法判断其重要性和信息增量。",
       "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T16:01:04.618Z"
-    },
-    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
-      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-17T16:01:04.618Z"
     },
@@ -5721,17 +5793,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T16:01:04.618Z",
-    "https://cointelegraph.com/rss": "2026-08-17T16:01:04.618Z",
-    "https://decrypt.co/feed": "2026-08-17T16:01:04.618Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T16:01:04.618Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T16:01:04.618Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T16:01:04.618Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-17T16:01:04.618Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-17T16:01:04.618Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-17T16:01:04.618Z",
-    "https://solana.com/rss.xml": "2026-08-17T16:01:04.618Z",
-    "https://slowmist.medium.com/feed": "2026-08-17T16:01:04.618Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T18:00:59.014Z",
+    "https://cointelegraph.com/rss": "2026-08-17T18:00:59.014Z",
+    "https://decrypt.co/feed": "2026-08-17T18:00:59.014Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T18:00:59.014Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T18:00:59.014Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T18:00:59.014Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-17T18:00:59.014Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-17T18:00:59.014Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-17T18:00:59.014Z",
+    "https://solana.com/rss.xml": "2026-08-17T18:00:59.014Z",
+    "https://slowmist.medium.com/feed": "2026-08-17T18:00:59.014Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
