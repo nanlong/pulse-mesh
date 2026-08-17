@@ -1,6 +1,60 @@
 {
   "version": 1,
   "decisions": {
+    "aafba9b7d7e5d688626fff695b84ad34aa23304030465d2eec37dda98632d68c": {
+      "decisionKey": "aafba9b7d7e5d688626fff695b84ad34aa23304030465d2eec37dda98632d68c",
+      "status": "published",
+      "reason": "The candidate is a legitimate CoinDesk preview of the upcoming week, listing concrete crypto-relevant events: the Coinbase-Circle USDC collaboration, FOMC minutes, and oil price. These are specific, verifiable items likely to impact the crypto market and provide informational value to the audience.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T10:01:00.454Z",
+      "bCommitSha": "2d74a5b5593827186d9a5577bba16cb2c23f8b27"
+    },
+    "630b1815b84916a8e5fa090742e0afa6eb045227e33675f3f84bb4b74c425cc7": {
+      "decisionKey": "630b1815b84916a8e5fa090742e0afa6eb045227e33675f3f84bb4b74c425cc7",
+      "status": "published",
+      "reason": "SafePal比特币钱包数据泄露事件涉及近4万用户个人隐私信息，属于重大安全事件，对加密行业用户资产安全和隐私保护有明确警示作用，具有信息增量和新闻价值。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T10:01:00.454Z",
+      "bCommitSha": "2d74a5b5593827186d9a5577bba16cb2c23f8b27"
+    },
+    "374ea20ee99fb4093ef8d211869ba643fed0d3ff016036b45767c9489f578025": {
+      "decisionKey": "374ea20ee99fb4093ef8d211869ba643fed0d3ff016036b45767c9489f578025",
+      "status": "published",
+      "reason": "CoinDesk is a credible crypto news source. The item covers a specific market development (Bitcoin trading flat near $63,500) and a geopolitical event (lapsing US-Iran ceasefire affecting oil and risk sentiment), with references to ETF flow shifts. This is timely, verifiable information relevant to crypto industry participants tracking market conditions.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T10:01:00.454Z",
+      "bCommitSha": "2d74a5b5593827186d9a5577bba16cb2c23f8b27"
+    },
+    "350984603001d0b90b33a3cc666cc4869be5702544848c8fd73177f4a770ee1d": {
+      "decisionKey": "350984603001d0b90b33a3cc666cc4869be5702544848c8fd73177f4a770ee1d",
+      "status": "published",
+      "reason": "This is a credible CoinDesk report about Binance sharing user data with Russia, leading to a Ukrainian donor's arrest. It involves a major exchange's compliance practices, user privacy, and geopolitical implications, providing clear information value for crypto industry stakeholders.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T10:01:00.454Z",
+      "bCommitSha": "2d74a5b5593827186d9a5577bba16cb2c23f8b27"
+    },
+    "34b678fdb0b75f723c63603e47cb1b151c3672cae779d2ea7db5cd04ccb381e6": {
+      "decisionKey": "34b678fdb0b75f723c63603e47cb1b151c3672cae779d2ea7db5cd04ccb381e6",
+      "status": "published",
+      "reason": "来源为Coindesk，真实可核验；高盛对美联储9月加息概率的判断属于具体宏观政策预测，直接影响比特币等风险资产的市场预期，对加密行业受众有明确信息增量。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T10:01:00.454Z",
+      "bCommitSha": "2d74a5b5593827186d9a5577bba16cb2c23f8b27"
+    },
+    "01dedb06a256e15001bd7d9684bd8e7352005b2cc8346451d6dcdf03e5295c1a": {
+      "decisionKey": "01dedb06a256e15001bd7d9684bd8e7352005b2cc8346451d6dcdf03e5295c1a",
+      "status": "published",
+      "reason": "真实新闻，涉及奥地利首次公开MiCA处罚，针对知名加密平台Bitpanda，对加密行业监管合规有明确影响和信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T10:01:00.454Z",
+      "bCommitSha": "2d74a5b5593827186d9a5577bba16cb2c23f8b27"
+    },
     "c63b19e5844a3a94052c7fd02830df7b03c62e31ab7ee017545c9bfefd521a1c": {
       "decisionKey": "c63b19e5844a3a94052c7fd02830df7b03c62e31ab7ee017545c9bfefd521a1c",
       "status": "rejected",
@@ -5433,18 +5487,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T08:00:59.694Z",
-    "https://cointelegraph.com/rss": "2026-08-17T08:00:59.694Z",
-    "https://decrypt.co/feed": "2026-08-17T08:00:59.694Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T08:00:59.694Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T08:00:59.694Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T08:00:59.694Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-17T08:00:59.694Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-17T08:00:59.694Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-17T08:00:59.694Z",
-    "https://solana.com/rss.xml": "2026-08-17T08:00:59.694Z",
-    "https://slowmist.medium.com/feed": "2026-08-17T08:00:59.694Z",
-    "https://www.theblock.co/rss.xml": "2026-08-17T08:00:59.694Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T10:01:00.454Z",
+    "https://cointelegraph.com/rss": "2026-08-17T10:01:00.454Z",
+    "https://decrypt.co/feed": "2026-08-17T10:01:00.454Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T10:01:00.454Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T10:01:00.454Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T10:01:00.454Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-17T10:01:00.454Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-17T10:01:00.454Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-17T10:01:00.454Z",
+    "https://solana.com/rss.xml": "2026-08-17T10:01:00.454Z",
+    "https://slowmist.medium.com/feed": "2026-08-17T10:01:00.454Z",
+    "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
-  "lastRunAt": "2026-08-17T08:00:59.694Z"
+  "lastRunAt": "2026-08-17T10:01:00.454Z"
 }
