@@ -1,6 +1,86 @@
 {
   "version": 1,
   "decisions": {
+    "f5b32af506fbb3d838d156e534fa743ae7aaa9e72532385b02c0dac5d1886222": {
+      "decisionKey": "f5b32af506fbb3d838d156e534fa743ae7aaa9e72532385b02c0dac5d1886222",
+      "status": "published",
+      "reason": "The candidate reports a concrete U.S. Treasury proposal under the GENIUS Act, a significant stablecoin regulatory development from a credible news source (CoinDesk). It provides specific policy details and impacts crypto industry stakeholders.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T16:01:04.618Z",
+      "bCommitSha": "d25d6cce1800954be5ae8027c7204a777c5f2944"
+    },
+    "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
+      "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T16:01:04.618Z"
+    },
+    "bae7eb378337c134fadb656e3e576b8ce699fd519aa971982bd56c92bf284bea": {
+      "decisionKey": "bae7eb378337c134fadb656e3e576b8ce699fd519aa971982bd56c92bf284bea",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T16:01:04.618Z"
+    },
+    "b483c96cb353391925af9e833c5cee67cf2bf64b453243f6ab8ee32e9e78fc3d": {
+      "decisionKey": "b483c96cb353391925af9e833c5cee67cf2bf64b453243f6ab8ee32e9e78fc3d",
+      "status": "published",
+      "reason": "Compound作为DeFi借贷先驱，其5200万美元投入、领导层更换及转向机构市场的战略调整，对加密行业尤其是DeFi领域具有明确影响和信息增量，来源为CoinDesk真实新闻。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T16:01:04.618Z",
+      "bCommitSha": "d25d6cce1800954be5ae8027c7204a777c5f2944"
+    },
+    "879792fdc208f5b1fc796a9dc520722e4eaae539651e1482b1eb111fad087119": {
+      "decisionKey": "879792fdc208f5b1fc796a9dc520722e4eaae539651e1482b1eb111fad087119",
+      "status": "rejected",
+      "reason": "该候选为观点文章，缺乏具体事件、时间或可核验数据，无法确认Coldcard hack的细节和影响，属于低证据内容。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T16:01:04.618Z"
+    },
+    "73b10de5e9a3d1450a25a2d46fd98c4870dc663808a8dc2486d9f44823fe5e95": {
+      "decisionKey": "73b10de5e9a3d1450a25a2d46fd98c4870dc663808a8dc2486d9f44823fe5e95",
+      "status": "published",
+      "reason": "Decrypt is a credible crypto news source. The report provides a concrete event: Tom Lee's Bitmine purchased $19M more ETH, with its stash approaching 5% of total supply. This represents a notable market structure change with specific data, relevant to crypto audiences.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T16:01:04.618Z",
+      "bCommitSha": "d25d6cce1800954be5ae8027c7204a777c5f2944"
+    },
+    "47e52518d3e0b91cea8d44f53c3e6a27e96d6009a7bbf497a5d6a152ae0d3049": {
+      "decisionKey": "47e52518d3e0b91cea8d44f53c3e6a27e96d6009a7bbf497a5d6a152ae0d3049",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T16:01:04.618Z"
+    },
+    "2bc3cdb26167b54425bd6db1c941078da455fe8f889bdb3d310b59357dda58ef": {
+      "decisionKey": "2bc3cdb26167b54425bd6db1c941078da455fe8f889bdb3d310b59357dda58ef",
+      "status": "published",
+      "reason": "Bitmine持有以太坊供应量的4.8%是显著的市场结构变化，该购买行为延续多月并有具体数据，对ETH流通供应和市场情绪有实质影响。来源为CoinDesk可靠新闻，包含具体主体、时间与数据，符合发布标准。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T16:01:04.618Z",
+      "bCommitSha": "d25d6cce1800954be5ae8027c7204a777c5f2944"
+    },
+    "04c501d462522036cfa1adceefa020eb5280f384afe8497b53fc948755c14a5b": {
+      "decisionKey": "04c501d462522036cfa1adceefa020eb5280f384afe8497b53fc948755c14a5b",
+      "status": "rejected",
+      "reason": "该候选来源为 Decrypt 的真实新闻页面，但内容仅有一句摘要，缺乏对交易细节、时间线或对加密行业具体影响的实质信息，证据不足，无法判断其重要性和信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T16:01:04.618Z"
+    },
+    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
+      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T16:01:04.618Z"
+    },
     "e98a94b5dea8df565603a1214f36c3371fe8734976a6903f1a8743bf6a8faaf6": {
       "decisionKey": "e98a94b5dea8df565603a1214f36c3371fe8734976a6903f1a8743bf6a8faaf6",
       "status": "published",
@@ -9,13 +89,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-17T14:01:01.537Z",
       "bCommitSha": "b3f4352f78c3a52d23cb6953436a9516882b552a"
-    },
-    "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
-      "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T14:01:01.537Z"
     },
     "ddbb08bc228bc328bdd8de251aeff7c642821931d615322ad331e9fd5d78fdd9": {
       "decisionKey": "ddbb08bc228bc328bdd8de251aeff7c642821931d615322ad331e9fd5d78fdd9",
@@ -34,13 +107,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-17T14:01:01.537Z",
       "bCommitSha": "b3f4352f78c3a52d23cb6953436a9516882b552a"
-    },
-    "bae7eb378337c134fadb656e3e576b8ce699fd519aa971982bd56c92bf284bea": {
-      "decisionKey": "bae7eb378337c134fadb656e3e576b8ce699fd519aa971982bd56c92bf284bea",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T14:01:01.537Z"
     },
     "b2cecab9470d36b4618b441ab0ebd56b265818af28e9dd59a262625afc410fd0": {
       "decisionKey": "b2cecab9470d36b4618b441ab0ebd56b265818af28e9dd59a262625afc410fd0",
@@ -76,13 +142,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-17T14:01:01.537Z",
       "bCommitSha": "b3f4352f78c3a52d23cb6953436a9516882b552a"
-    },
-    "47e52518d3e0b91cea8d44f53c3e6a27e96d6009a7bbf497a5d6a152ae0d3049": {
-      "decisionKey": "47e52518d3e0b91cea8d44f53c3e6a27e96d6009a7bbf497a5d6a152ae0d3049",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-17T14:01:01.537Z"
     },
     "45f96adc78f51833a4684ebb42d408d1f6daea10b400e9cc31add6a1a671e8f4": {
       "decisionKey": "45f96adc78f51833a4684ebb42d408d1f6daea10b400e9cc31add6a1a671e8f4",
@@ -5662,17 +5721,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T14:01:01.537Z",
-    "https://cointelegraph.com/rss": "2026-08-17T14:01:01.537Z",
-    "https://decrypt.co/feed": "2026-08-17T14:01:01.537Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T14:01:01.537Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T14:01:01.537Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T14:01:01.537Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-17T14:01:01.537Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-17T14:01:01.537Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-17T14:01:01.537Z",
-    "https://solana.com/rss.xml": "2026-08-17T14:01:01.537Z",
-    "https://slowmist.medium.com/feed": "2026-08-17T14:01:01.537Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T16:01:04.618Z",
+    "https://cointelegraph.com/rss": "2026-08-17T16:01:04.618Z",
+    "https://decrypt.co/feed": "2026-08-17T16:01:04.618Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T16:01:04.618Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T16:01:04.618Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T16:01:04.618Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-17T16:01:04.618Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-17T16:01:04.618Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-17T16:01:04.618Z",
+    "https://solana.com/rss.xml": "2026-08-17T16:01:04.618Z",
+    "https://slowmist.medium.com/feed": "2026-08-17T16:01:04.618Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
