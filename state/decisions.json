@@ -1,6 +1,80 @@
 {
   "version": 1,
   "decisions": {
+    "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
+      "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T12:00:59.030Z"
+    },
+    "c9c2a5549e14715d3b6c1caa574997039112a0c5061a9d3dbd777a32c3064871": {
+      "decisionKey": "c9c2a5549e14715d3b6c1caa574997039112a0c5061a9d3dbd777a32c3064871",
+      "status": "rejected",
+      "reason": "知名宏观投资者Paul Tudor Jones旗下基金在Q2增持BlackRock比特币ETF，从期权转向直接现货敞口，包含具体持股变化数据，反映机构资金对加密资产的持续配置，对加密行业具有信息增量。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T12:00:59.030Z"
+    },
+    "c2f5a9937afe257dbe747960390c24519a4e6688f1ac5cdf10d8ec63ce6abd62": {
+      "decisionKey": "c2f5a9937afe257dbe747960390c24519a4e6688f1ac5cdf10d8ec63ce6abd62",
+      "status": "rejected",
+      "reason": "This is a Bitcoin price analysis piece focused on the 200-week moving average, which falls under price commentary and market speculation rather than an important policy, protocol upgrade, security incident, or market structure change. It lacks substantive impact for a general crypto-industry audience and may be considered low-value price chatter.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T12:00:59.030Z"
+    },
+    "a4f5433cf2a639fe507027236e36b0832a4588c0452d802e76d11889da28f835": {
+      "decisionKey": "a4f5433cf2a639fe507027236e36b0832a4588c0452d802e76d11889da28f835",
+      "status": "rejected",
+      "reason": "内容仅有一句概括性陈述，缺乏具体数据、事件或时间信息，对加密行业受众的信息增量不足，且来源虽真实但内容空洞，不满足发布标准。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T12:00:59.030Z"
+    },
+    "8e928c42cacad14ce128deab99ead19f71abdf64782df02e2e08e56814c4d5f5": {
+      "decisionKey": "8e928c42cacad14ce128deab99ead19f71abdf64782df02e2e08e56814c4d5f5",
+      "status": "published",
+      "reason": "This is the first published MiCA enforcement case against a major crypto exchange, Bitpanda, in Austria. It establishes a concrete regulatory precedent under MiCA, showing how non-compliance with whitepaper and marketing disclosure rules will be penalized. This is highly relevant to crypto industry participants operating in the EU, with clear information value.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T12:00:59.030Z",
+      "bCommitSha": "ae12e48c467d79401a0f75ebae21af8772438eff"
+    },
+    "72433216fcad9cbd4cbe6f500be0d4bc7a178f10920478e83eff1d196a233a07": {
+      "decisionKey": "72433216fcad9cbd4cbe6f500be0d4bc7a178f10920478e83eff1d196a233a07",
+      "status": "published",
+      "reason": "Bits of Gold, Israel's largest crypto broker, suffered a data breach affecting 200,000 customers, exposing personal and financial data. This is a significant security incident for the crypto industry, with direct implications for user safety and trust.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T12:00:59.030Z",
+      "bCommitSha": "ae12e48c467d79401a0f75ebae21af8772438eff"
+    },
+    "2e099647674611ad5a562673164edef95a0339b7bef13b81c1e588bae6309ce4": {
+      "decisionKey": "2e099647674611ad5a562673164edef95a0339b7bef13b81c1e588bae6309ce4",
+      "status": "published",
+      "reason": "This news reports a concrete legal action by Dutch prosecutors involving the sale of $2.5M in crypto from a bankrupt platform, affecting customer claims and relevant to crypto industry legal and market structure.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T12:00:59.030Z",
+      "bCommitSha": "ae12e48c467d79401a0f75ebae21af8772438eff"
+    },
+    "20d16c92192e025324283f70932198410495c25a00ef3217c44ebbf3bef79f5b": {
+      "decisionKey": "20d16c92192e025324283f70932198410495c25a00ef3217c44ebbf3bef79f5b",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T12:00:59.030Z"
+    },
+    "0f5c3fb9e22b21efa4b2689376be9abe676f2db0448f6d6995e83e2428474c06": {
+      "decisionKey": "0f5c3fb9e22b21efa4b2689376be9abe676f2db0448f6d6995e83e2428474c06",
+      "status": "published",
+      "reason": "Binance 向俄罗斯当局提供客户数据并被用于恐怖主义融资案件，涉及交易所合规、客户隐私与监管执法，对加密行业用户具有明确影响和信息增量。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-17T12:00:59.030Z",
+      "bCommitSha": "ae12e48c467d79401a0f75ebae21af8772438eff"
+    },
     "aafba9b7d7e5d688626fff695b84ad34aa23304030465d2eec37dda98632d68c": {
       "decisionKey": "aafba9b7d7e5d688626fff695b84ad34aa23304030465d2eec37dda98632d68c",
       "status": "published",
@@ -5487,17 +5561,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T10:01:00.454Z",
-    "https://cointelegraph.com/rss": "2026-08-17T10:01:00.454Z",
-    "https://decrypt.co/feed": "2026-08-17T10:01:00.454Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T10:01:00.454Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T10:01:00.454Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T10:01:00.454Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-17T10:01:00.454Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-17T10:01:00.454Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-17T10:01:00.454Z",
-    "https://solana.com/rss.xml": "2026-08-17T10:01:00.454Z",
-    "https://slowmist.medium.com/feed": "2026-08-17T10:01:00.454Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-17T12:00:59.030Z",
+    "https://cointelegraph.com/rss": "2026-08-17T12:00:59.030Z",
+    "https://decrypt.co/feed": "2026-08-17T12:00:59.030Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-17T12:00:59.030Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-17T12:00:59.030Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-17T12:00:59.030Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-17T12:00:59.030Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-17T12:00:59.030Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-17T12:00:59.030Z",
+    "https://solana.com/rss.xml": "2026-08-17T12:00:59.030Z",
+    "https://slowmist.medium.com/feed": "2026-08-17T12:00:59.030Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
