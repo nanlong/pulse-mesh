@@ -1,6 +1,104 @@
 {
   "version": 1,
   "decisions": {
+    "f8dd9e779326de3a47a2e734ff7aac2197eb79e21151660e37b0e7c02ab89ff2": {
+      "decisionKey": "f8dd9e779326de3a47a2e734ff7aac2197eb79e21151660e37b0e7c02ab89ff2",
+      "status": "rejected",
+      "reason": "The Block 是真实公开的新闻来源；内容涉及 Ripple 首席法律官对 Clarity Act 市场结构法案关键日期（9月15日）的明确表态，属具体政策事件，对加密行业有监管层面的信息增量。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z"
+    },
+    "e8b19038ed354206c22c46cf2bd8eb717de2b6a34bf147924e70f784f6c77e54": {
+      "decisionKey": "e8b19038ed354206c22c46cf2bd8eb717de2b6a34bf147924e70f784f6c77e54",
+      "status": "published",
+      "reason": "SEC proposing new crypto offering rules is a significant regulatory development directly affecting the crypto industry, with clear subject, event, and timing.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z",
+      "bCommitSha": "1f54b59f093922e45ee1927fc59f75802a1ef768"
+    },
+    "e4bdde86ab9fcdd9bbbbcafc75239000a0a540bdcf6bb1ac3c51a7de2cf742d5": {
+      "decisionKey": "e4bdde86ab9fcdd9bbbbcafc75239000a0a540bdcf6bb1ac3c51a7de2cf742d5",
+      "status": "published",
+      "reason": "该候选来自公开可核验的新闻源 The Block，包含具体数据（过去一个月长期持有者减持约35.6万枚比特币，持有占比降至60%以下）并引用VanEck的12项投降信号中8项触发，属于对加密市场结构变化有明确信息增量的分析报道，对加密货币行业受众关注比特币周期和链上持仓变化有参考价值。",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z",
+      "bCommitSha": "1f54b59f093922e45ee1927fc59f75802a1ef768"
+    },
+    "b4a42578afb5c64e0f9ffa98612ee2145a231a72c5645ec084e61c00bc8d82b2": {
+      "decisionKey": "b4a42578afb5c64e0f9ffa98612ee2145a231a72c5645ec084e61c00bc8d82b2",
+      "status": "published",
+      "reason": "报道涉及特朗普家族关联加密企业与中国AI模型公司的业务关联，且被美国政府视为安全风险，属于加密行业与国家安全政策交叉的重要事件，对行业有明确影响和信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z",
+      "bCommitSha": "1f54b59f093922e45ee1927fc59f75802a1ef768"
+    },
+    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
+      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z"
+    },
+    "92a10329c47d542095f3f84209230a2b66fb111b1b17772da65847a17e03e948": {
+      "decisionKey": "92a10329c47d542095f3f84209230a2b66fb111b1b17772da65847a17e03e948",
+      "status": "rejected",
+      "reason": "内容为市场对OpenAI发布新模型的猜测性押注，缺乏具体公告或可核验的事件与数据，且对加密行业受众无明确直接影响，属于传闻/低价值内容。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z"
+    },
+    "8a09390c082535c8b9310fc421a7cd04158f9da57488502a12c6083fae24e259": {
+      "decisionKey": "8a09390c082535c8b9310fc421a7cd04158f9da57488502a12c6083fae24e259",
+      "status": "published",
+      "reason": "Wyoming州政府以安全为由更换区块链基础设施，涉及LayerZero生态15亿美元迁移，属重要政策与基础设施安全事件，对加密行业影响明确。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z",
+      "bCommitSha": "1f54b59f093922e45ee1927fc59f75802a1ef768"
+    },
+    "838b61ba90f7bfd3804771fbf8d3169bac55f39a125e7daa8a6bce6203815376": {
+      "decisionKey": "838b61ba90f7bfd3804771fbf8d3169bac55f39a125e7daa8a6bce6203815376",
+      "status": "published",
+      "reason": "This is a verified news report from Cointelegraph about Cypherpunk launching a Zcash mining fleet controlling 18% of network hashrate, backed by a $33.3 million Winklevoss Capital investment. It represents a significant market structure change with potential implications for Zcash decentralization and investor sentiment, providing concrete data and specific actors.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z",
+      "bCommitSha": "1f54b59f093922e45ee1927fc59f75802a1ef768"
+    },
+    "67c51f60595a6b2ceb99bed422f940e5586a54dfd6aa125036b9405a1bde3eb8": {
+      "decisionKey": "67c51f60595a6b2ceb99bed422f940e5586a54dfd6aa125036b9405a1bde3eb8",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z"
+    },
+    "54bc3b3f478d0e44c749b3dce263b18ea54fd9583f16dcc4e0bda0969f3cf01c": {
+      "decisionKey": "54bc3b3f478d0e44c749b3dce263b18ea54fd9583f16dcc4e0bda0969f3cf01c",
+      "status": "published",
+      "reason": "SEC提出首个主要加密规则，对行业影响重大，来源可靠。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z",
+      "bCommitSha": "1f54b59f093922e45ee1927fc59f75802a1ef768"
+    },
+    "4bcf8f47fc92d86de0c3806d391441d38795dc73c5379e0c3e7acba4d7f9d08e": {
+      "decisionKey": "4bcf8f47fc92d86de0c3806d391441d38795dc73c5379e0c3e7acba4d7f9d08e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z"
+    },
+    "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc": {
+      "decisionKey": "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T20:00:50.319Z"
+    },
     "d901e8029e9e9fc7c89dac05bb3027c40d2df245c377f14f2cddb42f969ca882": {
       "decisionKey": "d901e8029e9e9fc7c89dac05bb3027c40d2df245c377f14f2cddb42f969ca882",
       "status": "published",
@@ -44,13 +142,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T18:00:50.858Z",
       "bCommitSha": "7df24a5c734f556ed34b567ac898ec02789f0db2"
-    },
-    "67c51f60595a6b2ceb99bed422f940e5586a54dfd6aa125036b9405a1bde3eb8": {
-      "decisionKey": "67c51f60595a6b2ceb99bed422f940e5586a54dfd6aa125036b9405a1bde3eb8",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T18:00:50.858Z"
     },
     "5140d5c4755f6b105c2016445d74e26f87fbc9d1cf1744bef22c4f880fac4632": {
       "decisionKey": "5140d5c4755f6b105c2016445d74e26f87fbc9d1cf1744bef22c4f880fac4632",
@@ -96,13 +187,6 @@
       "updatedAt": "2026-08-18T18:00:50.858Z",
       "bCommitSha": "7df24a5c734f556ed34b567ac898ec02789f0db2"
     },
-    "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc": {
-      "decisionKey": "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T18:00:50.858Z"
-    },
     "1d462c0a151d049580855a2b0dad93c94bd7dccb04a4239f7b33efb30c6c90ee": {
       "decisionKey": "1d462c0a151d049580855a2b0dad93c94bd7dccb04a4239f7b33efb30c6c90ee",
       "status": "rejected",
@@ -128,13 +212,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T16:00:53.076Z",
       "bCommitSha": "ad4e8f465968d5781254c85eff634ac0f6531e75"
-    },
-    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
-      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T16:00:53.076Z"
     },
     "80cde05de8205946947afb58df7f2073018275dd659b03d8cc3ffe8833d1511d": {
       "decisionKey": "80cde05de8205946947afb58df7f2073018275dd659b03d8cc3ffe8833d1511d",
@@ -6406,17 +6483,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T18:00:50.858Z",
-    "https://cointelegraph.com/rss": "2026-08-18T18:00:50.858Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T20:00:50.319Z",
+    "https://cointelegraph.com/rss": "2026-08-18T20:00:50.319Z",
     "https://decrypt.co/feed": "2026-08-18T18:00:50.858Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T18:00:50.858Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T18:00:50.858Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T18:00:50.858Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T18:00:50.858Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T18:00:50.858Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T18:00:50.858Z",
-    "https://solana.com/rss.xml": "2026-08-18T18:00:50.858Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T18:00:50.858Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T20:00:50.319Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T20:00:50.319Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T20:00:50.319Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T20:00:50.319Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T20:00:50.319Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T20:00:50.319Z",
+    "https://solana.com/rss.xml": "2026-08-18T20:00:50.319Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T20:00:50.319Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
