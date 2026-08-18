@@ -1,29 +1,98 @@
 {
   "version": 1,
   "decisions": {
-    "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
-      "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T08:01:11.624Z"
-    },
     "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408": {
       "decisionKey": "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T08:01:11.624Z"
+      "updatedAt": "2026-08-18T10:00:52.256Z"
+    },
+    "e1efc6d6333ec5a38032420a61ef875f076b499ee06151f339de5739fed553a4": {
+      "decisionKey": "e1efc6d6333ec5a38032420a61ef875f076b499ee06151f339de5739fed553a4",
+      "status": "published",
+      "reason": "该候选来自可信新闻源Cointelegraph，报道了BitBox硬件钱包的严重固件漏洞及修复版本，属于直接影响加密资产安全的关键事件，对用户有明确的信息增量和行动指导意义。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T10:00:52.256Z",
+      "bCommitSha": "a2512d3236aa1b189b60b3f38bcdf94e0f05d080"
+    },
+    "dba6c9062411ed1d5067edb124e704ae103de9c28f63543f4d8c00176d55d7b2": {
+      "decisionKey": "dba6c9062411ed1d5067edb124e704ae103de9c28f63543f4d8c00176d55d7b2",
+      "status": "published",
+      "reason": "Reports the first published MiCA penalty against a major European crypto exchange (Bitpanda) by Austria's FMA, marking a concrete regulatory enforcement precedent that directly impacts how EU crypto firms operate under MiCA. The source is a credible crypto news outlet (Decrypt), the event has specific entities, amount, and date, and the topic is highly relevant to crypto industry compliance and regulatory risk.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T10:00:52.256Z",
+      "bCommitSha": "a2512d3236aa1b189b60b3f38bcdf94e0f05d080"
     },
     "bd1ce90dc46d2bb1b7f5e88056d19a6bdb268394b2d1cfeec9f51df1f50000dc": {
       "decisionKey": "bd1ce90dc46d2bb1b7f5e88056d19a6bdb268394b2d1cfeec9f51df1f50000dc",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T08:01:11.624Z"
+      "updatedAt": "2026-08-18T10:00:52.256Z"
     },
     "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
       "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T10:00:52.256Z"
+    },
+    "9a0e2b719d41154709bef0b8994b20eee50c7297ff1f82fbf72d58f37eb53fb6": {
+      "decisionKey": "9a0e2b719d41154709bef0b8994b20eee50c7297ff1f82fbf72d58f37eb53fb6",
+      "status": "published",
+      "reason": "该候选来自Cointelegraph这一真实公开的加密新闻媒体，包含具体主体（新增8家银行）、事件（加入数字人民币网络）和量化数据（运营商总数达30家），对关注央行数字货币政策与市场结构的加密行业受众具有明确的信息增量和影响。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T10:00:52.256Z",
+      "bCommitSha": "a2512d3236aa1b189b60b3f38bcdf94e0f05d080"
+    },
+    "6b7b59d8be08137a739334c791994bb32ccdccf41343045a9e6b473e962abcc2": {
+      "decisionKey": "6b7b59d8be08137a739334c791994bb32ccdccf41343045a9e6b473e962abcc2",
+      "status": "published",
+      "reason": "Covers a concrete regulatory development: the Blockchain Association's support for the SEC's proposal to remove outdated NMS rules, with direct relevance to tokenization. Source is a reputable crypto news outlet, providing a real, accessible event with clear implications for industry participants.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T10:00:52.256Z",
+      "bCommitSha": "a2512d3236aa1b189b60b3f38bcdf94e0f05d080"
+    },
+    "46078f69cde0cd8a1ab57db290bedf5781d5ebd57f7437b8bcd4b7d2591f01a8": {
+      "decisionKey": "46078f69cde0cd8a1ab57db290bedf5781d5ebd57f7437b8bcd4b7d2591f01a8",
+      "status": "rejected",
+      "reason": "该候选仅为比特币价格波动的市场分析，属于价格点评类内容，缺乏对加密行业政策、协议升级、安全事件或市场结构变化的实质性影响，信息增量有限，不符合重要和值得发布的标准。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T10:00:52.256Z"
+    },
+    "444553ddc0573784659b4464663261c5ab753aa7bbb3fa9fbcea157193ed2930": {
+      "decisionKey": "444553ddc0573784659b4464663261c5ab753aa7bbb3fa9fbcea157193ed2930",
+      "status": "published",
+      "reason": "CoinDesk article covers real macro market developments (30-year Treasury yield at multi-year high, Brent crude above $91, US-Iran conflict escalation) that directly affect risk assets including Bitcoin. It provides specific, verifiable data points and is relevant to crypto investors monitoring market conditions. Published by a reputable crypto news outlet.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T10:00:52.256Z",
+      "bCommitSha": "a2512d3236aa1b189b60b3f38bcdf94e0f05d080"
+    },
+    "2150ef46efa96140aa68bf9769a4d22bac5760e4578212ccf15d96136e42fad6": {
+      "decisionKey": "2150ef46efa96140aa68bf9769a4d22bac5760e4578212ccf15d96136e42fad6",
+      "status": "published",
+      "reason": "South Korea's explicit move to block Polymarket is a concrete regulatory action against a major crypto prediction market, carrying direct implications for the industry and market access.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T10:00:52.256Z",
+      "bCommitSha": "a2512d3236aa1b189b60b3f38bcdf94e0f05d080"
+    },
+    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
+      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T10:00:52.256Z"
+    },
+    "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
+      "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
@@ -51,13 +120,6 @@
       "status": "rejected",
       "reason": "The candidate is a legitimate news report from a recognized crypto outlet covering specific investment actions by Ark Invest in Block Inc and Securitize. It contains concrete figures, a clear timestamp, and relates to crypto-adjacent equities and tokenization, which may be of moderate interest to crypto industry followers. However, it is not a major policy, protocol, or security event, and the amounts are relatively small, limiting its importance.",
       "score": 0.5,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T08:01:11.624Z"
-    },
-    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
-      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T08:01:11.624Z"
     },
@@ -6025,17 +6087,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T08:01:11.624Z",
-    "https://cointelegraph.com/rss": "2026-08-18T08:01:11.624Z",
-    "https://decrypt.co/feed": "2026-08-18T08:01:11.624Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T08:01:11.624Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T08:01:11.624Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T08:01:11.624Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T08:01:11.624Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T08:01:11.624Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T08:01:11.624Z",
-    "https://solana.com/rss.xml": "2026-08-18T08:01:11.624Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T08:01:11.624Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T10:00:52.256Z",
+    "https://cointelegraph.com/rss": "2026-08-18T10:00:52.256Z",
+    "https://decrypt.co/feed": "2026-08-18T10:00:52.256Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T10:00:52.256Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T10:00:52.256Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T10:00:52.256Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T10:00:52.256Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T10:00:52.256Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T10:00:52.256Z",
+    "https://solana.com/rss.xml": "2026-08-18T10:00:52.256Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T10:00:52.256Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
