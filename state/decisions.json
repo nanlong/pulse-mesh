@@ -1,24 +1,70 @@
 {
   "version": 1,
   "decisions": {
-    "e8907ca93d353221e905978f81c911457e0781134cdfe8149120421046848919": {
-      "decisionKey": "e8907ca93d353221e905978f81c911457e0781134cdfe8149120421046848919",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T06:01:05.291Z"
-    },
     "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
       "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T06:01:05.291Z"
+      "updatedAt": "2026-08-18T08:01:11.624Z"
     },
     "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408": {
       "decisionKey": "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408",
       "status": "failed",
-      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"risks\"\n    ],\n    \"message\": \"Invalid input: expected array, received string\"\n  }\n]",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T08:01:11.624Z"
+    },
+    "bd1ce90dc46d2bb1b7f5e88056d19a6bdb268394b2d1cfeec9f51df1f50000dc": {
+      "decisionKey": "bd1ce90dc46d2bb1b7f5e88056d19a6bdb268394b2d1cfeec9f51df1f50000dc",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T08:01:11.624Z"
+    },
+    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
+      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T08:01:11.624Z"
+    },
+    "8feb113d8e89583ccb878ff555f1e10db3d22818a8168e637121e8ce38132ea7": {
+      "decisionKey": "8feb113d8e89583ccb878ff555f1e10db3d22818a8168e637121e8ce38132ea7",
+      "status": "rejected",
+      "reason": "The article reports a concrete development: XRP fell below $1 for the first time since 2024, and a Korean regional bank (Jeonbuk Bank) is adopting Ripple's cross-border payment service. This combines a notable price level with an institutional adoption event, giving crypto audiences actionable information about Ripple's market position and payment network expansion.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T08:01:11.624Z"
+    },
+    "42a36a9122f62b49241eb15d4dfca3c43ee0e130e1597d4c5f8be632cbee210e": {
+      "decisionKey": "42a36a9122f62b49241eb15d4dfca3c43ee0e130e1597d4c5f8be632cbee210e",
+      "status": "published",
+      "reason": "Ripple partnering with a South Korean bank for cross-border payments is a concrete business development with relevance to crypto industry adoption and market structure. The source is a credible crypto news outlet and the information is specific and verifiable.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T08:01:11.624Z",
+      "bCommitSha": "9f26583eebff64e9c7162d37b21d295d2d57187c"
+    },
+    "26c6ada7e4cd6798f1e4eed5df65b4797b110f6f15a0c7e4de2fac7fadf1e365": {
+      "decisionKey": "26c6ada7e4cd6798f1e4eed5df65b4797b110f6f15a0c7e4de2fac7fadf1e365",
+      "status": "rejected",
+      "reason": "The candidate is a legitimate news report from a recognized crypto outlet covering specific investment actions by Ark Invest in Block Inc and Securitize. It contains concrete figures, a clear timestamp, and relates to crypto-adjacent equities and tokenization, which may be of moderate interest to crypto industry followers. However, it is not a major policy, protocol, or security event, and the amounts are relatively small, limiting its importance.",
+      "score": 0.5,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T08:01:11.624Z"
+    },
+    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
+      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T08:01:11.624Z"
+    },
+    "e8907ca93d353221e905978f81c911457e0781134cdfe8149120421046848919": {
+      "decisionKey": "e8907ca93d353221e905978f81c911457e0781134cdfe8149120421046848919",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T06:01:05.291Z"
     },
@@ -36,13 +82,6 @@
       "status": "rejected",
       "reason": "标题暗示具体比特币价格水平，但内容未给出具体数据，仅泛泛描述杠杆多头和流动性，缺乏可核验的具体主体、事件、时间或数据，属于低价值市场预测，对加密行业受众信息增量不足。",
       "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T06:01:05.291Z"
-    },
-    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
-      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T06:01:05.291Z"
     },
@@ -69,13 +108,6 @@
       "status": "rejected",
       "reason": "内容主要为比特币价格波动和代币短期涨幅，属于价格喊单与低价值营销范畴，缺乏对加密行业的实质性政策、协议或安全影响，且信息增量不足。",
       "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T06:01:05.291Z"
-    },
-    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
-      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T06:01:05.291Z"
     },
@@ -5993,17 +6025,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T04:01:01.314Z",
-    "https://cointelegraph.com/rss": "2026-08-18T06:01:05.291Z",
-    "https://decrypt.co/feed": "2026-08-18T06:01:05.291Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T06:01:05.291Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T06:01:05.291Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T06:01:05.291Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T06:01:05.291Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T06:01:05.291Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T06:01:05.291Z",
-    "https://solana.com/rss.xml": "2026-08-18T06:01:05.291Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T06:01:05.291Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T08:01:11.624Z",
+    "https://cointelegraph.com/rss": "2026-08-18T08:01:11.624Z",
+    "https://decrypt.co/feed": "2026-08-18T08:01:11.624Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T08:01:11.624Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T08:01:11.624Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T08:01:11.624Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T08:01:11.624Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T08:01:11.624Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T08:01:11.624Z",
+    "https://solana.com/rss.xml": "2026-08-18T08:01:11.624Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T08:01:11.624Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
