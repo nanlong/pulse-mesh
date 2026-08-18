@@ -1,6 +1,155 @@
 {
   "version": 1,
   "decisions": {
+    "fa172ac9c8c46566db14f0e89e098120b409ab0ea0b66cc7d53b670570a7ce1e": {
+      "decisionKey": "fa172ac9c8c46566db14f0e89e098120b409ab0ea0b66cc7d53b670570a7ce1e",
+      "status": "published",
+      "reason": "The candidate reports a proposed SEC rulemaking on crypto safe harbors and token issuance exemptions, a policy development with direct relevance to crypto industry participants. The source is a recognizable crypto news outlet, and the headline/content are internally consistent and specific enough to merit visibility.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "f84ad49c7791be7980afcc99cb6c54ec8637568c0661e720fa8eed4a056885fc": {
+      "decisionKey": "f84ad49c7791be7980afcc99cb6c54ec8637568c0661e720fa8eed4a056885fc",
+      "status": "published",
+      "reason": "The Block reports Ripple's CLO highlighting Sept. 15 as a key test for the Clarity Act, a market structure bill directly relevant to crypto regulation. The source is a real, verifiable news outlet, and the content provides a specific date, actor, and policy context, offering actionable information for the crypto industry.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "dc1a49eab37b46e25f4783faf8c1e6223a73f644634f569509a13f557387e73d": {
+      "decisionKey": "dc1a49eab37b46e25f4783faf8c1e6223a73f644634f569509a13f557387e73d",
+      "status": "published",
+      "reason": "Metaplanet, a prominent bitcoin treasury company, is acquiring a controlling stake in Super League with 2,100 BTC and cash to launch a U.S. bitcoin treasury firm. This is a concrete corporate event with clear financial details and market impact (Super League stock surged), relevant to crypto market structure and institutional adoption.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "d9290ef13d67e7268316aeea879cc8bb5c86c4343af94e571a45b06126dc1b6a": {
+      "decisionKey": "d9290ef13d67e7268316aeea879cc8bb5c86c4343af94e571a45b06126dc1b6a",
+      "status": "published",
+      "reason": "FASB proposing to treat certain stablecoins as cash equivalents is a significant accounting and regulatory development with direct implications for institutional adoption and financial reporting in the crypto industry. The source is a credible, publicly accessible news outlet, and the candidate specifies a concrete subject, event, and timeframe.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "ca4fda5ef8693ae0ce2a0cff1751bc15654feb06a8c9d6d80070db10aeb5d7cd": {
+      "decisionKey": "ca4fda5ef8693ae0ce2a0cff1751bc15654feb06a8c9d6d80070db10aeb5d7cd",
+      "status": "rejected",
+      "reason": "Candidate is about rare books being scanned and destroyed at an Amazon AI training facility. It has no direct relevance to the cryptocurrency, blockchain, or Web3 audience and provides no actionable market or industry insight for this group.",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z"
+    },
+    "b24a0f8c234c1b73d4d1c20d8ffb1cbb9c05023725515a68481c40daf69b58d4": {
+      "decisionKey": "b24a0f8c234c1b73d4d1c20d8ffb1cbb9c05023725515a68481c40daf69b58d4",
+      "status": "published",
+      "reason": "SEC提出新的加密资产发行规则，属于直接影响加密行业的重要监管动态，来源为The Block，内容具体且可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "a2788a44c82b7fa2477a5bb5a75b5f32d55342a04ac07c393e59ff145d2b8c4c": {
+      "decisionKey": "a2788a44c82b7fa2477a5bb5a75b5f32d55342a04ac07c393e59ff145d2b8c4c",
+      "status": "published",
+      "reason": "Major asset manager Neuberger's $230B fixed-income platform going onchain via Securitize marks a significant milestone in tokenized RWAs and institutional adoption, with direct impact on crypto market structure.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "8b0fde42bcea8cd33df64e0ec93a8983eee20b3d88fd724561379e0597c2e0f1": {
+      "decisionKey": "8b0fde42bcea8cd33df64e0ec93a8983eee20b3d88fd724561379e0597c2e0f1",
+      "status": "rejected",
+      "reason": "内容涉及社交媒体算法与政治倾向，与加密行业无关，缺乏对加密受众的信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z"
+    },
+    "88008c6296f9b4724deee672a9949497cb337d3890d5895ddf37476e239bd204": {
+      "decisionKey": "88008c6296f9b4724deee672a9949497cb337d3890d5895ddf37476e239bd204",
+      "status": "published",
+      "reason": "The Block is a credible crypto news outlet. The candidate covers a concrete regulatory development: the White House crypto adviser's public stance on the Clarity Act and stablecoin legislation ahead of a planned vote. This is directly relevant to the crypto industry's policy landscape, offering verifiable information with a named official, specific legislation, and a scheduled event.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "85400938f02d7a46e440cf25b50d4bc83e863d25ded1092018d7126e32214c35": {
+      "decisionKey": "85400938f02d7a46e440cf25b50d4bc83e863d25ded1092018d7126e32214c35",
+      "status": "published",
+      "reason": "The SEC proposing new exemptions for crypto fundraising and token sale registration is a major policy shift directly affecting how crypto projects raise capital and interact with securities law. This is high-impact regulatory news with clear implications for the crypto industry.",
+      "score": 0.93,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "4bcf8f47fc92d86de0c3806d391441d38795dc73c5379e0c3e7acba4d7f9d08e": {
+      "decisionKey": "4bcf8f47fc92d86de0c3806d391441d38795dc73c5379e0c3e7acba4d7f9d08e",
+      "status": "published",
+      "reason": "来源为知名加密媒体Decrypt，内容明确涉及硬件钱包厂商BitBox发现固件严重漏洞，属于影响用户资金安全的重要安全事件，对加密行业受众有明确信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "3d8710c808d18c77c554c59d9eedd3644b078a309d167735a9a77ee8b56a4b21": {
+      "decisionKey": "3d8710c808d18c77c554c59d9eedd3644b078a309d167735a9a77ee8b56a4b21",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z"
+    },
+    "2d4cf19fcf6cfbbc5699a0c3857456a37a8badc01f918c35fc7873e5198e6cd5": {
+      "decisionKey": "2d4cf19fcf6cfbbc5699a0c3857456a37a8badc01f918c35fc7873e5198e6cd5",
+      "status": "published",
+      "reason": "The announcement of FalconX and Interstice connecting Canton to Ethereum, Solana, and Robinhood Chain represents a notable infrastructure development for cross-chain institutional tokenized assets, with clear relevance to market structure and interoperability.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "2b90244b4f1b0ad020758ecd49ccf2a084d05cd75e2ad93f557ce350daeac12f": {
+      "decisionKey": "2b90244b4f1b0ad020758ecd49ccf2a084d05cd75e2ad93f557ce350daeac12f",
+      "status": "published",
+      "reason": "The candidate reports a concrete regulatory and law enforcement action involving a crypto-related alleged Ponzi scheme of $165 million, with a named individual and deportation event. This is verifiable news with direct relevance to crypto industry participants regarding fraud enforcement and investor protection.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "29c6891a18e108b4c97e10bde5eb63242ee9f57914bab1033eec5ce053bfdf1a": {
+      "decisionKey": "29c6891a18e108b4c97e10bde5eb63242ee9f57914bab1033eec5ce053bfdf1a",
+      "status": "published",
+      "reason": "Citi's plan to launch bitcoin custody under its Custody+ platform is a significant institutional adoption signal with clear impact on the crypto industry, sourced from a reputable news outlet.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "2713c20a87e397bba4259658605adf28ed3eabeb6e38b59feb87926b25b56bba": {
+      "decisionKey": "2713c20a87e397bba4259658605adf28ed3eabeb6e38b59feb87926b25b56bba",
+      "status": "published",
+      "reason": "The Block 报道了 Solana 政策研究所 CEO 对 Clarity Act 立法进展的公开评论，涉及具体法案、时间节点（中期选举前）和概率评估，属于监管政策动态，对加密行业有明确影响和信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
+    "1ac6b55472db0c9e02c1000c274827ce9b5d1c1e77fe0ae3835dbbaf2b2bcbdf": {
+      "decisionKey": "1ac6b55472db0c9e02c1000c274827ce9b5d1c1e77fe0ae3835dbbaf2b2bcbdf",
+      "status": "published",
+      "reason": "The Block is a credible crypto news source. The article reports on VanEck's analysis of Bitcoin's correction nearing an end, citing specific capitulation signals and on-chain data (356,000 BTC shed by long-term holders, supply share below 60%). This provides actionable market intelligence and data-driven analysis for crypto industry audiences, going beyond mere price speculation.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T22:00:49.524Z",
+      "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
+    },
     "f8dd9e779326de3a47a2e734ff7aac2197eb79e21151660e37b0e7c02ab89ff2": {
       "decisionKey": "f8dd9e779326de3a47a2e734ff7aac2197eb79e21151660e37b0e7c02ab89ff2",
       "status": "rejected",
@@ -84,13 +233,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T20:00:50.319Z",
       "bCommitSha": "1f54b59f093922e45ee1927fc59f75802a1ef768"
-    },
-    "4bcf8f47fc92d86de0c3806d391441d38795dc73c5379e0c3e7acba4d7f9d08e": {
-      "decisionKey": "4bcf8f47fc92d86de0c3806d391441d38795dc73c5379e0c3e7acba4d7f9d08e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T20:00:50.319Z"
     },
     "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc": {
       "decisionKey": "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc",
@@ -6483,17 +6625,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T20:00:50.319Z",
-    "https://cointelegraph.com/rss": "2026-08-18T20:00:50.319Z",
-    "https://decrypt.co/feed": "2026-08-18T18:00:50.858Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T20:00:50.319Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T20:00:50.319Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T20:00:50.319Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T20:00:50.319Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T20:00:50.319Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T20:00:50.319Z",
-    "https://solana.com/rss.xml": "2026-08-18T20:00:50.319Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T20:00:50.319Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T22:00:49.524Z",
+    "https://cointelegraph.com/rss": "2026-08-18T22:00:49.524Z",
+    "https://decrypt.co/feed": "2026-08-18T22:00:49.524Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T22:00:49.524Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T22:00:49.524Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T22:00:49.524Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T22:00:49.524Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T22:00:49.524Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T22:00:49.524Z",
+    "https://solana.com/rss.xml": "2026-08-18T22:00:49.524Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T22:00:49.524Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
