@@ -6,21 +6,38 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T02:01:04.122Z"
+      "updatedAt": "2026-08-18T04:01:01.314Z"
     },
     "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408": {
       "decisionKey": "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T02:01:04.122Z"
+      "updatedAt": "2026-08-18T04:01:01.314Z"
+    },
+    "d994a42ec9bfec7c271ccb4c24ab5b94d5eb3f2e3c51d98f3986810dfc1da80f": {
+      "decisionKey": "d994a42ec9bfec7c271ccb4c24ab5b94d5eb3f2e3c51d98f3986810dfc1da80f",
+      "status": "published",
+      "reason": "真实新闻源报道具体执法事件：涉嫌165M美元加密庞氏骗局主谋在斐济被驱逐后于美国面临指控，涉及具体金额、投资人数和资金损失，对加密行业具有警示意义和信息增量。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T04:01:01.314Z",
+      "bCommitSha": "536844e49f1ef228fa26bfb3e9c9e816ae9e99ec"
     },
     "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd": {
       "decisionKey": "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd",
+      "status": "rejected",
+      "reason": "该新闻来自 The Block，具体涉及上市比特币矿企 IREN 在微软 97 亿美元协议下交付首批 AI 云部署，并持续从比特币挖矿转向 AI 云业务，属于加密行业主要参与者业务结构变化，对关注加密市场结构的读者有信息增量；但核心事件偏向 AI 云业务，加密直接相关性有限。",
+      "score": 0.62,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T04:01:01.314Z"
+    },
+    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
+      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T02:01:04.122Z"
+      "updatedAt": "2026-08-18T04:01:01.314Z"
     },
     "3a35f79d34efdc55cf413cb788d31ce64625da029a80f6b23e4bbab26a59f949": {
       "decisionKey": "3a35f79d34efdc55cf413cb788d31ce64625da029a80f6b23e4bbab26a59f949",
@@ -30,13 +47,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T02:01:04.122Z",
       "bCommitSha": "ed41ec56b62ca24f0bd8c7f59d648ce281d00d80"
-    },
-    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
-      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T02:01:04.122Z"
     },
     "c7fc29fedc3d7bb51de77607aca1427ee9a2b16f019f47306bebb4c280ea5fd3": {
       "decisionKey": "c7fc29fedc3d7bb51de77607aca1427ee9a2b16f019f47306bebb4c280ea5fd3",
@@ -5926,17 +5936,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T02:01:04.122Z",
-    "https://cointelegraph.com/rss": "2026-08-18T02:01:04.122Z",
-    "https://decrypt.co/feed": "2026-08-18T02:01:04.122Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T02:01:04.122Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T02:01:04.122Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T02:01:04.122Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T02:01:04.122Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T02:01:04.122Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T02:01:04.122Z",
-    "https://solana.com/rss.xml": "2026-08-18T02:01:04.122Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T02:01:04.122Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T04:01:01.314Z",
+    "https://cointelegraph.com/rss": "2026-08-18T04:01:01.314Z",
+    "https://decrypt.co/feed": "2026-08-18T04:01:01.314Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T04:01:01.314Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T04:01:01.314Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T04:01:01.314Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T04:01:01.314Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T04:01:01.314Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T04:01:01.314Z",
+    "https://solana.com/rss.xml": "2026-08-18T04:01:01.314Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T04:01:01.314Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
