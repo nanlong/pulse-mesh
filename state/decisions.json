@@ -1,6 +1,98 @@
 {
   "version": 1,
   "decisions": {
+    "dfe43c25355baee8c5e35d0dd767bdb382cb05d572d671e747eb65dd54ff3070": {
+      "decisionKey": "dfe43c25355baee8c5e35d0dd767bdb382cb05d572d671e747eb65dd54ff3070",
+      "status": "published",
+      "reason": "以太坊下一次升级将改变向新地址发送ETH的gas成本，直接影响钱包软件和用户预期，属于协议升级带来的基础设施变化，对加密行业有明确的信息增量。",
+      "score": 0.93,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z",
+      "bCommitSha": "df636258ffa08375a24eac8f1434452646a0f23e"
+    },
+    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
+      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z"
+    },
+    "9b78dcc29ff335c10da64c6ee86e220049b02b58d4fd19779923c0edf7d5c0f0": {
+      "decisionKey": "9b78dcc29ff335c10da64c6ee86e220049b02b58d4fd19779923c0edf7d5c0f0",
+      "status": "rejected",
+      "reason": "内容为行业趋势评论，缺少具体事件、数据或可核验信息，仅引用个人观点，信息增量不足。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z"
+    },
+    "99a7e69cbf9298dd1f7fd7afaec47bbc63272002b68030a475ecb88cac6a10e1": {
+      "decisionKey": "99a7e69cbf9298dd1f7fd7afaec47bbc63272002b68030a475ecb88cac6a10e1",
+      "status": "published",
+      "reason": "The article reports a concrete development: MoonPay integrating Cash App Pay as a funding method for US crypto purchases. This is a real, verifiable news item from a reputable crypto outlet, with specific details about the service expansion. It directly impacts crypto on-ramp accessibility and market infrastructure, providing actionable information for industry participants.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z",
+      "bCommitSha": "df636258ffa08375a24eac8f1434452646a0f23e"
+    },
+    "8856db78ad3c8610cac6ee04d41e685439fe522b19375b65f9a512280de92388": {
+      "decisionKey": "8856db78ad3c8610cac6ee04d41e685439fe522b19375b65f9a512280de92388",
+      "status": "published",
+      "reason": "Cash App expanding crypto support beyond bitcoin and USDC via MoonPay is a significant market structure update for mainstream crypto adoption, with specific entities and assets (ether, solana, USDT) and clear industry impact.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z",
+      "bCommitSha": "df636258ffa08375a24eac8f1434452646a0f23e"
+    },
+    "8305acc9cf0211e50c35da461ff3b5b0131917324c9bfdbafeef66dbabb99358": {
+      "decisionKey": "8305acc9cf0211e50c35da461ff3b5b0131917324c9bfdbafeef66dbabb99358",
+      "status": "rejected",
+      "reason": "候选来自Decrypt，是真实公开媒体；包含PUMP技术指标、Ethereum隐私研究、Robinhood agentic trading等具体事件，对加密行业有信息增量，但属于简讯汇总，深度有限。",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z"
+    },
+    "80cde05de8205946947afb58df7f2073018275dd659b03d8cc3ffe8833d1511d": {
+      "decisionKey": "80cde05de8205946947afb58df7f2073018275dd659b03d8cc3ffe8833d1511d",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z"
+    },
+    "7826126e32dbcf7572f7e101083d0c2627eb7a58a0b40d03d5ebd404f7e79a3d": {
+      "decisionKey": "7826126e32dbcf7572f7e101083d0c2627eb7a58a0b40d03d5ebd404f7e79a3d",
+      "status": "published",
+      "reason": "传统大型银行花旗计划推出比特币托管服务，是加密资产进入主流金融基础设施的重要信号，对机构参与和市场结构有明确影响。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z",
+      "bCommitSha": "df636258ffa08375a24eac8f1434452646a0f23e"
+    },
+    "75a2ac8c2d6f8edcac41ec5acb21ccc91b5dcf9d0792ce27a73e5e5df9d2840b": {
+      "decisionKey": "75a2ac8c2d6f8edcac41ec5acb21ccc91b5dcf9d0792ce27a73e5e5df9d2840b",
+      "status": "published",
+      "reason": "丰田金融通过移动支付应用向散户开放代币化债券发行，是传统金融机构在实资产代币化领域的重要落地案例，对加密行业具有明确的信息增量和市场结构影响。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z",
+      "bCommitSha": "df636258ffa08375a24eac8f1434452646a0f23e"
+    },
+    "6fd35176a8826d591a7d21cbbb8dee6035a8feaad0d4be9f86571f4f92709ead": {
+      "decisionKey": "6fd35176a8826d591a7d21cbbb8dee6035a8feaad0d4be9f86571f4f92709ead",
+      "status": "rejected",
+      "reason": "The candidate's publishedAt date (2026-08-18) is in the future, making it impossible to verify as a real, accessible, and verifiable news source. This appears to be test or placeholder content, not a genuine production article.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z"
+    },
+    "41e4f5457988b92a179bb943d96c12ef4337a530230f6aa74c374ce1780c4aab": {
+      "decisionKey": "41e4f5457988b92a179bb943d96c12ef4337a530230f6aa74c374ce1780c4aab",
+      "status": "published",
+      "reason": "Visa is actively seeking a new stablecoin settlement partner following BVNK's acquisition by Mastercard. This is a significant market structure development involving major payment companies and stablecoin adoption, with clear implications for the crypto industry. The source is CoinDesk, a reputable news outlet, and the information is specific and verifiable.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T14:00:53.243Z",
+      "bCommitSha": "df636258ffa08375a24eac8f1434452646a0f23e"
+    },
     "f4656d3165f621c5c8275d7b4a6fc0600ae454901683181a2041d35bcda88836": {
       "decisionKey": "f4656d3165f621c5c8275d7b4a6fc0600ae454901683181a2041d35bcda88836",
       "status": "rejected",
@@ -43,13 +135,6 @@
       "updatedAt": "2026-08-18T12:00:49.473Z",
       "bCommitSha": "2bbaba8a2f1c4d92ae122719a26eff50fa689f75"
     },
-    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
-      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T12:00:49.473Z"
-    },
     "a258eb082e3ed546d7889119d6e8da148790181885c639600433d3dc68a82a30": {
       "decisionKey": "a258eb082e3ed546d7889119d6e8da148790181885c639600433d3dc68a82a30",
       "status": "rejected",
@@ -62,13 +147,6 @@
       "status": "rejected",
       "reason": "The publication date is in the future (2026-08-18), indicating this is not a verifiable real news item. The content is extremely thin with no concrete data or analysis, and the topic is merely a daily price performance observation, which does not constitute a significant policy, protocol, security, or market structure event for a crypto audience.",
       "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T12:00:49.473Z"
-    },
-    "6fd35176a8826d591a7d21cbbb8dee6035a8feaad0d4be9f86571f4f92709ead": {
-      "decisionKey": "6fd35176a8826d591a7d21cbbb8dee6035a8feaad0d4be9f86571f4f92709ead",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T12:00:49.473Z"
     },
@@ -6172,17 +6250,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T12:00:49.473Z",
-    "https://cointelegraph.com/rss": "2026-08-18T12:00:49.473Z",
-    "https://decrypt.co/feed": "2026-08-18T12:00:49.473Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T12:00:49.473Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T12:00:49.473Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T12:00:49.473Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T12:00:49.473Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T12:00:49.473Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T12:00:49.473Z",
-    "https://solana.com/rss.xml": "2026-08-18T12:00:49.473Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T12:00:49.473Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T14:00:53.243Z",
+    "https://cointelegraph.com/rss": "2026-08-18T14:00:53.243Z",
+    "https://decrypt.co/feed": "2026-08-18T14:00:53.243Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T14:00:53.243Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T14:00:53.243Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T14:00:53.243Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T14:00:53.243Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T14:00:53.243Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T14:00:53.243Z",
+    "https://solana.com/rss.xml": "2026-08-18T14:00:53.243Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T14:00:53.243Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
