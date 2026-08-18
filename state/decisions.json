@@ -6,27 +6,43 @@
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T00:00:58.992Z"
+      "updatedAt": "2026-08-18T02:01:04.122Z"
     },
     "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408": {
       "decisionKey": "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T00:00:58.992Z"
+      "updatedAt": "2026-08-18T02:01:04.122Z"
+    },
+    "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd": {
+      "decisionKey": "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T02:01:04.122Z"
+    },
+    "3a35f79d34efdc55cf413cb788d31ce64625da029a80f6b23e4bbab26a59f949": {
+      "decisionKey": "3a35f79d34efdc55cf413cb788d31ce64625da029a80f6b23e4bbab26a59f949",
+      "status": "published",
+      "reason": "Cointelegraph is a reputable cryptocurrency news outlet. The article covers specific recent developments: Binance bStocks becoming the second largest tokenized stock issuer shortly after launch, and BitMart's internal feud and closure. These are concrete events with identifiable entities and measurable data, providing clear information value for the crypto audience. The topic touches on exchange operations and tokenized securities, both important market structure areas.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T02:01:04.122Z",
+      "bCommitSha": "ed41ec56b62ca24f0bd8c7f59d648ce281d00d80"
+    },
+    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
+      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T02:01:04.122Z"
     },
     "c7fc29fedc3d7bb51de77607aca1427ee9a2b16f019f47306bebb4c280ea5fd3": {
       "decisionKey": "c7fc29fedc3d7bb51de77607aca1427ee9a2b16f019f47306bebb4c280ea5fd3",
       "status": "rejected",
       "reason": "CoinDesk reports Payward (Kraken parent) joining Anthropic's Project Glasswing to use AI cybersecurity model for vulnerability hunting and open-source sharing. It is a verifiable industry development with security relevance for crypto users, though light on technical detail.",
       "score": 0.62,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T00:00:58.992Z"
-    },
-    "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd": {
-      "decisionKey": "6323e53d0c8cd8c8c8158d0309b78f6cac7906c06b64eb1fc366c7148494fadd",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T00:00:58.992Z"
     },
@@ -46,13 +62,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T00:00:58.992Z",
       "bCommitSha": "89f5b9e9cdb957b1d939c429b4be3e16b2d1e714"
-    },
-    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
-      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T00:00:58.992Z"
     },
     "02b8bc100c173d8593f1914d79d0083671d75cf488e1dd4e29106916262dd44f": {
       "decisionKey": "02b8bc100c173d8593f1914d79d0083671d75cf488e1dd4e29106916262dd44f",
@@ -5917,17 +5926,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T00:00:58.992Z",
-    "https://cointelegraph.com/rss": "2026-08-18T00:00:58.992Z",
-    "https://decrypt.co/feed": "2026-08-18T00:00:58.992Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T00:00:58.992Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T00:00:58.992Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T00:00:58.992Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T00:00:58.992Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T00:00:58.992Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T00:00:58.992Z",
-    "https://solana.com/rss.xml": "2026-08-18T00:00:58.992Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T00:00:58.992Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T02:01:04.122Z",
+    "https://cointelegraph.com/rss": "2026-08-18T02:01:04.122Z",
+    "https://decrypt.co/feed": "2026-08-18T02:01:04.122Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T02:01:04.122Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T02:01:04.122Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T02:01:04.122Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T02:01:04.122Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T02:01:04.122Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T02:01:04.122Z",
+    "https://solana.com/rss.xml": "2026-08-18T02:01:04.122Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T02:01:04.122Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
