@@ -1,6 +1,108 @@
 {
   "version": 1,
   "decisions": {
+    "fca4eba04a5c0cf06864ef7dda73f2d3acee6b9531c4a75cbe79e96a6d941921": {
+      "decisionKey": "fca4eba04a5c0cf06864ef7dda73f2d3acee6b9531c4a75cbe79e96a6d941921",
+      "status": "published",
+      "reason": "CoinDesk article covers a significant macro-financial trend (rising global bond yields, record U.S. debt approaching $40 trillion) and directly analyzes its impact on Bitcoin's role as a hedge. This is substantive, non-promotional content with clear relevance to crypto market participants monitoring structural shifts in global debt markets.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z",
+      "bCommitSha": "ad4e8f465968d5781254c85eff634ac0f6531e75"
+    },
+    "d901e8029e9e9fc7c89dac05bb3027c40d2df245c377f14f2cddb42f969ca882": {
+      "decisionKey": "d901e8029e9e9fc7c89dac05bb3027c40d2df245c377f14f2cddb42f969ca882",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z"
+    },
+    "c814718e68f52a4354131f22e3d34d2b4134c699b1905ce287f6948157e27e8a": {
+      "decisionKey": "c814718e68f52a4354131f22e3d34d2b4134c699b1905ce287f6948157e27e8a",
+      "status": "published",
+      "reason": "The article reports on a notable trend of Bitcoin miners pivoting to AI/HPC contracts, which is a significant market structure change affecting crypto mining. It includes specific subjects and data on valuations and hashprice, providing real informational value for crypto industry professionals.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z",
+      "bCommitSha": "ad4e8f465968d5781254c85eff634ac0f6531e75"
+    },
+    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
+      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z"
+    },
+    "80cde05de8205946947afb58df7f2073018275dd659b03d8cc3ffe8833d1511d": {
+      "decisionKey": "80cde05de8205946947afb58df7f2073018275dd659b03d8cc3ffe8833d1511d",
+      "status": "published",
+      "reason": "真实来源The Block报道，明确主体（花旗银行）、事件（推出比特币托管）和时间（今年晚些时候），对加密行业机构采用有明确影响和增量信息。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z",
+      "bCommitSha": "ad4e8f465968d5781254c85eff634ac0f6531e75"
+    },
+    "701221f0b38831753d814229504ff1dd00b7b4dd4225ca8ea303f41722897655": {
+      "decisionKey": "701221f0b38831753d814229504ff1dd00b7b4dd4225ca8ea303f41722897655",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z"
+    },
+    "67c51f60595a6b2ceb99bed422f940e5586a54dfd6aa125036b9405a1bde3eb8": {
+      "decisionKey": "67c51f60595a6b2ceb99bed422f940e5586a54dfd6aa125036b9405a1bde3eb8",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z"
+    },
+    "5140d5c4755f6b105c2016445d74e26f87fbc9d1cf1744bef22c4f880fac4632": {
+      "decisionKey": "5140d5c4755f6b105c2016445d74e26f87fbc9d1cf1744bef22c4f880fac4632",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z"
+    },
+    "3feaa1404dbababe687eacafbe971f8bb2a7f91cb93b45dde1d2540eef97fa01": {
+      "decisionKey": "3feaa1404dbababe687eacafbe971f8bb2a7f91cb93b45dde1d2540eef97fa01",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z"
+    },
+    "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc": {
+      "decisionKey": "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z"
+    },
+    "153cc09481df8de1c2eb51560e2da3fd8ec282bf8605fc7180c703a5a81574d6": {
+      "decisionKey": "153cc09481df8de1c2eb51560e2da3fd8ec282bf8605fc7180c703a5a81574d6",
+      "status": "published",
+      "reason": "This is a credible news report from CoinDesk about HashKey using Hong Kong's first regulated stablecoin for real-world insurance and trade settlements, with a specific market size ($49 billion corridor). It provides clear information about regulatory progress and stablecoin adoption, which is directly relevant to the crypto industry.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z",
+      "bCommitSha": "ad4e8f465968d5781254c85eff634ac0f6531e75"
+    },
+    "100e4c9d6434509c5b4faef9361383bcca614bc0f4b02d093a6d2c4077ed434b": {
+      "decisionKey": "100e4c9d6434509c5b4faef9361383bcca614bc0f4b02d093a6d2c4077ed434b",
+      "status": "rejected",
+      "reason": "真实加密新闻源报道具体链上事件：一个休眠15年的比特币地址突然移动约53.8万美元，包含具体时间、数量和价格数据，对关注链上巨鲸动向的加密受众有信息增量，非营销或重复转载。",
+      "score": 0.62,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z"
+    },
+    "047188e5cac390d16618154390ff71f8d450de19f5999c17c134c7f7380c8693": {
+      "decisionKey": "047188e5cac390d16618154390ff71f8d450de19f5999c17c134c7f7380c8693",
+      "status": "published",
+      "reason": "This is a concrete, verifiable business development from Coindesk: Japan's Metaplanet is establishing a U.S. bitcoin treasury company funded with 2,100 BTC and $2.5M cash (~$134.6M total). It involves a specific entity, event, and data, with clear relevance to crypto industry audiences tracking corporate bitcoin adoption and treasury strategies.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T16:00:53.076Z",
+      "bCommitSha": "ad4e8f465968d5781254c85eff634ac0f6531e75"
+    },
     "dfe43c25355baee8c5e35d0dd767bdb382cb05d572d671e747eb65dd54ff3070": {
       "decisionKey": "dfe43c25355baee8c5e35d0dd767bdb382cb05d572d671e747eb65dd54ff3070",
       "status": "published",
@@ -9,13 +111,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T14:00:53.243Z",
       "bCommitSha": "df636258ffa08375a24eac8f1434452646a0f23e"
-    },
-    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
-      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T14:00:53.243Z"
     },
     "9b78dcc29ff335c10da64c6ee86e220049b02b58d4fd19779923c0edf7d5c0f0": {
       "decisionKey": "9b78dcc29ff335c10da64c6ee86e220049b02b58d4fd19779923c0edf7d5c0f0",
@@ -48,13 +143,6 @@
       "status": "rejected",
       "reason": "候选来自Decrypt，是真实公开媒体；包含PUMP技术指标、Ethereum隐私研究、Robinhood agentic trading等具体事件，对加密行业有信息增量，但属于简讯汇总，深度有限。",
       "score": 0.6,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T14:00:53.243Z"
-    },
-    "80cde05de8205946947afb58df7f2073018275dd659b03d8cc3ffe8833d1511d": {
-      "decisionKey": "80cde05de8205946947afb58df7f2073018275dd659b03d8cc3ffe8833d1511d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T14:00:53.243Z"
     },
@@ -6253,14 +6341,14 @@
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T14:00:53.243Z",
     "https://cointelegraph.com/rss": "2026-08-18T14:00:53.243Z",
     "https://decrypt.co/feed": "2026-08-18T14:00:53.243Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T14:00:53.243Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T14:00:53.243Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T14:00:53.243Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T14:00:53.243Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T14:00:53.243Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T14:00:53.243Z",
-    "https://solana.com/rss.xml": "2026-08-18T14:00:53.243Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T14:00:53.243Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T16:00:53.076Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T16:00:53.076Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T16:00:53.076Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T16:00:53.076Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T16:00:53.076Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T16:00:53.076Z",
+    "https://solana.com/rss.xml": "2026-08-18T16:00:53.076Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T16:00:53.076Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
