@@ -1,19 +1,83 @@
 {
   "version": 1,
   "decisions": {
+    "e8907ca93d353221e905978f81c911457e0781134cdfe8149120421046848919": {
+      "decisionKey": "e8907ca93d353221e905978f81c911457e0781134cdfe8149120421046848919",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T06:01:05.291Z"
+    },
     "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6": {
       "decisionKey": "e4918c36f7c8f63fa756134878e047157ff29e36f7581ca636449bb0fe736bd6",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T04:01:01.314Z"
+      "updatedAt": "2026-08-18T06:01:05.291Z"
     },
     "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408": {
       "decisionKey": "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408",
       "status": "failed",
+      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"risks\"\n    ],\n    \"message\": \"Invalid input: expected array, received string\"\n  }\n]",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T06:01:05.291Z"
+    },
+    "d6737b0fcb36a061d0a1fe7136d5f538b000db843cae5c7ccca4d0e9ed39832f": {
+      "decisionKey": "d6737b0fcb36a061d0a1fe7136d5f538b000db843cae5c7ccca4d0e9ed39832f",
+      "status": "published",
+      "reason": "This CoinDesk article reports a specific, verifiable event involving Monad's offer to early investors to cash out up to $60 million ahead of token unlocks, with almost all declining. It touches on tokenomics, investor sentiment, and market structure for an Ethereum rival, providing clear information impact for crypto industry observers.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T06:01:05.291Z",
+      "bCommitSha": "53f14689d1c9b4b28fa42d5471abb65d0bdadbed"
+    },
+    "cdd075dac6e9cfc20b0b74357358d0c38add5424b3ce52966f0d880aceecc807": {
+      "decisionKey": "cdd075dac6e9cfc20b0b74357358d0c38add5424b3ce52966f0d880aceecc807",
+      "status": "rejected",
+      "reason": "标题暗示具体比特币价格水平，但内容未给出具体数据，仅泛泛描述杠杆多头和流动性，缺乏可核验的具体主体、事件、时间或数据，属于低价值市场预测，对加密行业受众信息增量不足。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T06:01:05.291Z"
+    },
+    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
+      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
+      "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T04:01:01.314Z"
+      "updatedAt": "2026-08-18T06:01:05.291Z"
+    },
+    "771febc99085ffd7fb7339d9bcc79da832639629ed06017c20f9c9b97f933327": {
+      "decisionKey": "771febc99085ffd7fb7339d9bcc79da832639629ed06017c20f9c9b97f933327",
+      "status": "published",
+      "reason": "真实新闻来源，事件明确（韩国全北银行采用Ripple跨境支付），涉及金融机构采用加密技术，对加密行业有信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T06:01:05.291Z",
+      "bCommitSha": "53f14689d1c9b4b28fa42d5471abb65d0bdadbed"
+    },
+    "3af1381dfe6c34f0ff026df5220fdd9438922a191e46940b3b554f2bad195ae1": {
+      "decisionKey": "3af1381dfe6c34f0ff026df5220fdd9438922a191e46940b3b554f2bad195ae1",
+      "status": "published",
+      "reason": "该候选来自Cointelegraph，是真实公开的加密新闻来源，涉及以太坊基金会对Glamsterdam升级可能破坏部分工具的警告，主体、事件和影响明确，对以太坊生态开发者和用户有重要信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T06:01:05.291Z",
+      "bCommitSha": "53f14689d1c9b4b28fa42d5471abb65d0bdadbed"
+    },
+    "05ba04bfb26c9fa43ab8af41dbebeda053ba023e1828bdda47404b7c1b8baeed": {
+      "decisionKey": "05ba04bfb26c9fa43ab8af41dbebeda053ba023e1828bdda47404b7c1b8baeed",
+      "status": "rejected",
+      "reason": "内容主要为比特币价格波动和代币短期涨幅，属于价格喊单与低价值营销范畴，缺乏对加密行业的实质性政策、协议或安全影响，且信息增量不足。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T06:01:05.291Z"
+    },
+    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
+      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T06:01:05.291Z"
     },
     "d994a42ec9bfec7c271ccb4c24ab5b94d5eb3f2e3c51d98f3986810dfc1da80f": {
       "decisionKey": "d994a42ec9bfec7c271ccb4c24ab5b94d5eb3f2e3c51d98f3986810dfc1da80f",
@@ -29,13 +93,6 @@
       "status": "rejected",
       "reason": "该新闻来自 The Block，具体涉及上市比特币矿企 IREN 在微软 97 亿美元协议下交付首批 AI 云部署，并持续从比特币挖矿转向 AI 云业务，属于加密行业主要参与者业务结构变化，对关注加密市场结构的读者有信息增量；但核心事件偏向 AI 云业务，加密直接相关性有限。",
       "score": 0.62,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T04:01:01.314Z"
-    },
-    "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40": {
-      "decisionKey": "02c3f7278bfd26e7139cc5a594406a6d97656dbaf9d7095e9daf76d982960c40",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T04:01:01.314Z"
     },
@@ -5937,16 +5994,16 @@
   },
   "sourceCheckpoints": {
     "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T04:01:01.314Z",
-    "https://cointelegraph.com/rss": "2026-08-18T04:01:01.314Z",
-    "https://decrypt.co/feed": "2026-08-18T04:01:01.314Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T04:01:01.314Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T04:01:01.314Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T04:01:01.314Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T04:01:01.314Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T04:01:01.314Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T04:01:01.314Z",
-    "https://solana.com/rss.xml": "2026-08-18T04:01:01.314Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T04:01:01.314Z",
+    "https://cointelegraph.com/rss": "2026-08-18T06:01:05.291Z",
+    "https://decrypt.co/feed": "2026-08-18T06:01:05.291Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T06:01:05.291Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T06:01:05.291Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T06:01:05.291Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T06:01:05.291Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T06:01:05.291Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T06:01:05.291Z",
+    "https://solana.com/rss.xml": "2026-08-18T06:01:05.291Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T06:01:05.291Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
