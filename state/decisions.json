@@ -1,12 +1,111 @@
 {
   "version": 1,
   "decisions": {
+    "f4656d3165f621c5c8275d7b4a6fc0600ae454901683181a2041d35bcda88836": {
+      "decisionKey": "f4656d3165f621c5c8275d7b4a6fc0600ae454901683181a2041d35bcda88836",
+      "status": "rejected",
+      "reason": "来自The Block的报道，内容包含Curve创始人Michael Egorov对FATF监管压力的评论，涉及DeFi安全与去中心化，对加密行业具有参考价值。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z"
+    },
     "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408": {
       "decisionKey": "e2e2568697cc11dd8e8b842bf0198a20e32579cc4b5742f49c9300b4ab5da408",
+      "status": "published",
+      "reason": "This is a verifiable news report from The Block about a significant 45% surge in Robinhood Chain TVL during August, with stablecoin market cap reaching $640 million. It provides concrete data on chain activity and shifts in tokenized RWAs, directly relevant to crypto infrastructure and market structure developments.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z",
+      "bCommitSha": "2bbaba8a2f1c4d92ae122719a26eff50fa689f75"
+    },
+    "c253265d214e874953400338e3f0f860abc0772e5f731d77d094c5b6d4fce3dc": {
+      "decisionKey": "c253265d214e874953400338e3f0f860abc0772e5f731d77d094c5b6d4fce3dc",
+      "status": "rejected",
+      "reason": "来源为慢雾官方 Medium 公告，内容具体涉及 MistTrack Agent 加入 AgentOn 平台，为链上调查能力与 AI Agent 集成的新事件，对加密安全与 AI 工具生态具有信息增量。",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z"
+    },
+    "bd1ce90dc46d2bb1b7f5e88056d19a6bdb268394b2d1cfeec9f51df1f50000dc": {
+      "decisionKey": "bd1ce90dc46d2bb1b7f5e88056d19a6bdb268394b2d1cfeec9f51df1f50000dc",
+      "status": "rejected",
+      "reason": "Kraken作为头部加密交易所向欧洲经济区客户推出美股交易，属于交易所业务扩展和市场结构变化，对加密行业受众有明确的信息增量和影响。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z"
+    },
+    "b5cea3bc2ad53b7574d0c4af78bfaca2091b887765364ea09bbbb9a723e18d41": {
+      "decisionKey": "b5cea3bc2ad53b7574d0c4af78bfaca2091b887765364ea09bbbb9a723e18d41",
+      "status": "published",
+      "reason": "Chainalysis sues US government over $94.6M ICE contract awarded to rival TRM Labs, a significant legal and market structure event in blockchain forensics, directly impacting crypto compliance and surveillance industry dynamics.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z",
+      "bCommitSha": "2bbaba8a2f1c4d92ae122719a26eff50fa689f75"
+    },
+    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
+      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
       "status": "failed",
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T10:00:52.256Z"
+      "updatedAt": "2026-08-18T12:00:49.473Z"
+    },
+    "a258eb082e3ed546d7889119d6e8da148790181885c639600433d3dc68a82a30": {
+      "decisionKey": "a258eb082e3ed546d7889119d6e8da148790181885c639600433d3dc68a82a30",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z"
+    },
+    "7e929ab2cde2ba2e319fe1bc9caf58150d151a42726e381a3815912c0696734b": {
+      "decisionKey": "7e929ab2cde2ba2e319fe1bc9caf58150d151a42726e381a3815912c0696734b",
+      "status": "rejected",
+      "reason": "The publication date is in the future (2026-08-18), indicating this is not a verifiable real news item. The content is extremely thin with no concrete data or analysis, and the topic is merely a daily price performance observation, which does not constitute a significant policy, protocol, security, or market structure event for a crypto audience.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z"
+    },
+    "6fd35176a8826d591a7d21cbbb8dee6035a8feaad0d4be9f86571f4f92709ead": {
+      "decisionKey": "6fd35176a8826d591a7d21cbbb8dee6035a8feaad0d4be9f86571f4f92709ead",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z"
+    },
+    "6e199ebfa7a9d2bf29a2798b9831f89269c825beee5e03cbd78f7c5045342120": {
+      "decisionKey": "6e199ebfa7a9d2bf29a2798b9831f89269c825beee5e03cbd78f7c5045342120",
+      "status": "published",
+      "reason": "Reports South Korea restricting Polymarket, adding to 30+ jurisdictions, a concrete regulatory development affecting crypto-based prediction markets and platform access.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z",
+      "bCommitSha": "2bbaba8a2f1c4d92ae122719a26eff50fa689f75"
+    },
+    "458dd68e8cbfaf44aa40b3c5824a53f65430f82b7fb2b2f693ec2a31be6db0ff": {
+      "decisionKey": "458dd68e8cbfaf44aa40b3c5824a53f65430f82b7fb2b2f693ec2a31be6db0ff",
+      "status": "published",
+      "reason": "Real, verifiable news from The Block about a crypto Ponzi scheme promoter being deported to face charges. This is a concrete legal/enforcement event with specific amount ($165M) and subject, relevant to crypto industry as a security and regulatory matter.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z",
+      "bCommitSha": "2bbaba8a2f1c4d92ae122719a26eff50fa689f75"
+    },
+    "340175f510a322adc5ed33debb62af5f90754b65d3de0f08f9128798590cac3e": {
+      "decisionKey": "340175f510a322adc5ed33debb62af5f90754b65d3de0f08f9128798590cac3e",
+      "status": "rejected",
+      "reason": "This is routine price action coverage with no substantive policy, protocol, security, or market structure development. The cited market moves and scheduled events are short-term trading context rather than impactful information for crypto industry stakeholders.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z"
+    },
+    "2a20d6c09758790c41f193d013b2665f56014fe3af24c0744aefdf6c2ecf08d9": {
+      "decisionKey": "2a20d6c09758790c41f193d013b2665f56014fe3af24c0744aefdf6c2ecf08d9",
+      "status": "published",
+      "reason": "Kraken 向 EEA 客户推出美国上市股票交易，是加密交易所向传统金融资产扩展的重要市场结构变化，对加密行业用户有明确影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T12:00:49.473Z",
+      "bCommitSha": "2bbaba8a2f1c4d92ae122719a26eff50fa689f75"
     },
     "e1efc6d6333ec5a38032420a61ef875f076b499ee06151f339de5739fed553a4": {
       "decisionKey": "e1efc6d6333ec5a38032420a61ef875f076b499ee06151f339de5739fed553a4",
@@ -25,20 +124,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T10:00:52.256Z",
       "bCommitSha": "a2512d3236aa1b189b60b3f38bcdf94e0f05d080"
-    },
-    "bd1ce90dc46d2bb1b7f5e88056d19a6bdb268394b2d1cfeec9f51df1f50000dc": {
-      "decisionKey": "bd1ce90dc46d2bb1b7f5e88056d19a6bdb268394b2d1cfeec9f51df1f50000dc",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T10:00:52.256Z"
-    },
-    "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817": {
-      "decisionKey": "ac7e602779f00945350eac03ec2b91c219a7900e8fe8967b8b7153f403087817",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T10:00:52.256Z"
     },
     "9a0e2b719d41154709bef0b8994b20eee50c7297ff1f82fbf72d58f37eb53fb6": {
       "decisionKey": "9a0e2b719d41154709bef0b8994b20eee50c7297ff1f82fbf72d58f37eb53fb6",
@@ -6087,17 +6172,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T10:00:52.256Z",
-    "https://cointelegraph.com/rss": "2026-08-18T10:00:52.256Z",
-    "https://decrypt.co/feed": "2026-08-18T10:00:52.256Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T10:00:52.256Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T10:00:52.256Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T10:00:52.256Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T10:00:52.256Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T10:00:52.256Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T10:00:52.256Z",
-    "https://solana.com/rss.xml": "2026-08-18T10:00:52.256Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T10:00:52.256Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T12:00:49.473Z",
+    "https://cointelegraph.com/rss": "2026-08-18T12:00:49.473Z",
+    "https://decrypt.co/feed": "2026-08-18T12:00:49.473Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T12:00:49.473Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T12:00:49.473Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T12:00:49.473Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T12:00:49.473Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T12:00:49.473Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T12:00:49.473Z",
+    "https://solana.com/rss.xml": "2026-08-18T12:00:49.473Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T12:00:49.473Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
