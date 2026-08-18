@@ -1,6 +1,116 @@
 {
   "version": 1,
   "decisions": {
+    "d901e8029e9e9fc7c89dac05bb3027c40d2df245c377f14f2cddb42f969ca882": {
+      "decisionKey": "d901e8029e9e9fc7c89dac05bb3027c40d2df245c377f14f2cddb42f969ca882",
+      "status": "published",
+      "reason": "花旗银行作为全球主要银行宣布计划推出比特币托管服务，标志着传统金融机构进一步深入加密资产领域，对加密行业机构化采用具有明确的信息增量和市场影响。来源为Decrypt，属真实公开新闻，内容具体且可核验。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z",
+      "bCommitSha": "7df24a5c734f556ed34b567ac898ec02789f0db2"
+    },
+    "bfee2a124964ae3c9c42a4a9a33fd51a9364df8108659c92a2b9cf8162198b3c": {
+      "decisionKey": "bfee2a124964ae3c9c42a4a9a33fd51a9364df8108659c92a2b9cf8162198b3c",
+      "status": "published",
+      "reason": "Metaplanet's proposed Nasdaq deal to expand its Bitcoin treasury strategy is a concrete, verifiable corporate crypto adoption development with clear market-structure implications for the crypto industry.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z",
+      "bCommitSha": "7df24a5c734f556ed34b567ac898ec02789f0db2"
+    },
+    "99a13a16f63aeeed6f006e856feeb8b8baed99016862b9108cbb2ae23edaf385": {
+      "decisionKey": "99a13a16f63aeeed6f006e856feeb8b8baed99016862b9108cbb2ae23edaf385",
+      "status": "rejected",
+      "reason": "内容与加密行业无关，属于人工智能与航空业数据交易，对加密行业受众没有明确影响或信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z"
+    },
+    "701221f0b38831753d814229504ff1dd00b7b4dd4225ca8ea303f41722897655": {
+      "decisionKey": "701221f0b38831753d814229504ff1dd00b7b4dd4225ca8ea303f41722897655",
+      "status": "published",
+      "reason": "Covers a Trump-linked crypto venture distancing from a Hong Kong AI aggregator, raising questions about economic ties and stablecoin payment usage. Relevant for crypto industry watchers due to political exposure and policy implications.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z",
+      "bCommitSha": "7df24a5c734f556ed34b567ac898ec02789f0db2"
+    },
+    "6e7b40a497845978101862366dae8c655dd7fdf671a08598b97c2fc21e715480": {
+      "decisionKey": "6e7b40a497845978101862366dae8c655dd7fdf671a08598b97c2fc21e715480",
+      "status": "published",
+      "reason": "Neuberger, a major asset manager, launching a multi-chain tokenized fixed-income fund with Securitize is a significant institutional adoption event for crypto, with clear impact on tokenization trends and multi-chain interoperability.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z",
+      "bCommitSha": "7df24a5c734f556ed34b567ac898ec02789f0db2"
+    },
+    "67c51f60595a6b2ceb99bed422f940e5586a54dfd6aa125036b9405a1bde3eb8": {
+      "decisionKey": "67c51f60595a6b2ceb99bed422f940e5586a54dfd6aa125036b9405a1bde3eb8",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z"
+    },
+    "5140d5c4755f6b105c2016445d74e26f87fbc9d1cf1744bef22c4f880fac4632": {
+      "decisionKey": "5140d5c4755f6b105c2016445d74e26f87fbc9d1cf1744bef22c4f880fac4632",
+      "status": "rejected",
+      "reason": "This is a price-action news item focused on Bitcoin reaching $65K and broader market rebound. It lacks structural or actionable information for the crypto industry beyond speculative market movement, and is too close to price hype to warrant distribution.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z"
+    },
+    "4d2ac7be6b957af10c3c5f714f8bed2a20fe27b60c03775770c806fa8b4ba132": {
+      "decisionKey": "4d2ac7be6b957af10c3c5f714f8bed2a20fe27b60c03775770c806fa8b4ba132",
+      "status": "published",
+      "reason": "该候选来自可信新闻源Cointelegraph，报道Celsius前CEO Alex Mashinsky的法律动向，涉及加密行业重要人物的刑事案进展，对行业有信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z",
+      "bCommitSha": "7df24a5c734f556ed34b567ac898ec02789f0db2"
+    },
+    "3feaa1404dbababe687eacafbe971f8bb2a7f91cb93b45dde1d2540eef97fa01": {
+      "decisionKey": "3feaa1404dbababe687eacafbe971f8bb2a7f91cb93b45dde1d2540eef97fa01",
+      "status": "published",
+      "reason": "日本上市公司 Metaplanet 以 2100 BTC（约 1.32 亿美元）投资游戏媒体公司 Super League，并计划将其更名为 Superplanet 在美上市，属于企业级比特币金库的重要市场动向，对加密行业机构采用具有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z",
+      "bCommitSha": "7df24a5c734f556ed34b567ac898ec02789f0db2"
+    },
+    "3132e5b867b3efe62c28b395a985521e26238ea205725becc7cd6123804378bb": {
+      "decisionKey": "3132e5b867b3efe62c28b395a985521e26238ea205725becc7cd6123804378bb",
+      "status": "published",
+      "reason": "Kraken is a major crypto exchange; offering U.S. stocks to European customers on a regulated platform alongside tokenized assets represents a notable market-structure shift bridging traditional finance and crypto, with clear relevance and information value for the crypto audience.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z",
+      "bCommitSha": "7df24a5c734f556ed34b567ac898ec02789f0db2"
+    },
+    "2ccd1bf5fdd5a5365fabe3e10fb518e3c9f2535d68427ad70a27e488f28aa740": {
+      "decisionKey": "2ccd1bf5fdd5a5365fabe3e10fb518e3c9f2535d68427ad70a27e488f28aa740",
+      "status": "published",
+      "reason": "Kraken通过其母公司Payward在美国推出加密/法币借记卡，是合规加密支付基础设施的重要进展，对加密用户和行业有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z",
+      "bCommitSha": "7df24a5c734f556ed34b567ac898ec02789f0db2"
+    },
+    "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc": {
+      "decisionKey": "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z"
+    },
+    "1d462c0a151d049580855a2b0dad93c94bd7dccb04a4239f7b33efb30c6c90ee": {
+      "decisionKey": "1d462c0a151d049580855a2b0dad93c94bd7dccb04a4239f7b33efb30c6c90ee",
+      "status": "rejected",
+      "reason": "内容为市场情绪评论，缺乏具体数据、事件或可核验的增量信息，对加密行业决策价值有限。",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-18T18:00:50.858Z"
+    },
     "fca4eba04a5c0cf06864ef7dda73f2d3acee6b9531c4a75cbe79e96a6d941921": {
       "decisionKey": "fca4eba04a5c0cf06864ef7dda73f2d3acee6b9531c4a75cbe79e96a6d941921",
       "status": "published",
@@ -9,13 +119,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T16:00:53.076Z",
       "bCommitSha": "ad4e8f465968d5781254c85eff634ac0f6531e75"
-    },
-    "d901e8029e9e9fc7c89dac05bb3027c40d2df245c377f14f2cddb42f969ca882": {
-      "decisionKey": "d901e8029e9e9fc7c89dac05bb3027c40d2df245c377f14f2cddb42f969ca882",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T16:00:53.076Z"
     },
     "c814718e68f52a4354131f22e3d34d2b4134c699b1905ce287f6948157e27e8a": {
       "decisionKey": "c814718e68f52a4354131f22e3d34d2b4134c699b1905ce287f6948157e27e8a",
@@ -41,41 +144,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T16:00:53.076Z",
       "bCommitSha": "ad4e8f465968d5781254c85eff634ac0f6531e75"
-    },
-    "701221f0b38831753d814229504ff1dd00b7b4dd4225ca8ea303f41722897655": {
-      "decisionKey": "701221f0b38831753d814229504ff1dd00b7b4dd4225ca8ea303f41722897655",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T16:00:53.076Z"
-    },
-    "67c51f60595a6b2ceb99bed422f940e5586a54dfd6aa125036b9405a1bde3eb8": {
-      "decisionKey": "67c51f60595a6b2ceb99bed422f940e5586a54dfd6aa125036b9405a1bde3eb8",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T16:00:53.076Z"
-    },
-    "5140d5c4755f6b105c2016445d74e26f87fbc9d1cf1744bef22c4f880fac4632": {
-      "decisionKey": "5140d5c4755f6b105c2016445d74e26f87fbc9d1cf1744bef22c4f880fac4632",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T16:00:53.076Z"
-    },
-    "3feaa1404dbababe687eacafbe971f8bb2a7f91cb93b45dde1d2540eef97fa01": {
-      "decisionKey": "3feaa1404dbababe687eacafbe971f8bb2a7f91cb93b45dde1d2540eef97fa01",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T16:00:53.076Z"
-    },
-    "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc": {
-      "decisionKey": "2b6f8fa5520aa6bd5d66d43b6b9cb2627c5d0703bc42619668c0ba57d98020fc",
-      "status": "failed",
-      "reason": "The operation timed out.",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T16:00:53.076Z"
     },
     "153cc09481df8de1c2eb51560e2da3fd8ec282bf8605fc7180c703a5a81574d6": {
       "decisionKey": "153cc09481df8de1c2eb51560e2da3fd8ec282bf8605fc7180c703a5a81574d6",
@@ -6338,17 +6406,17 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T14:00:53.243Z",
-    "https://cointelegraph.com/rss": "2026-08-18T14:00:53.243Z",
-    "https://decrypt.co/feed": "2026-08-18T14:00:53.243Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T16:00:53.076Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T16:00:53.076Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T16:00:53.076Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T16:00:53.076Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T16:00:53.076Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T16:00:53.076Z",
-    "https://solana.com/rss.xml": "2026-08-18T16:00:53.076Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T16:00:53.076Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T18:00:50.858Z",
+    "https://cointelegraph.com/rss": "2026-08-18T18:00:50.858Z",
+    "https://decrypt.co/feed": "2026-08-18T18:00:50.858Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T18:00:50.858Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T18:00:50.858Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T18:00:50.858Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-18T18:00:50.858Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-18T18:00:50.858Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-18T18:00:50.858Z",
+    "https://solana.com/rss.xml": "2026-08-18T18:00:50.858Z",
+    "https://slowmist.medium.com/feed": "2026-08-18T18:00:50.858Z",
     "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
   },
   "lastRunAt": "2026-08-17T10:01:00.454Z"
