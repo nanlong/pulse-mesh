@@ -1,6 +1,84 @@
 {
   "version": 1,
   "decisions": {
+    "d80948aeb2093805266957e8081075d27006d6baa51e809ddaba09f24558f835": {
+      "decisionKey": "d80948aeb2093805266957e8081075d27006d6baa51e809ddaba09f24558f835",
+      "status": "published",
+      "reason": "Cointelegraph 报道了加密 PAC（Fairshake）在美国初选中的具体战绩，包括在佛罗里达一场 200 万美元竞选中失利，但整体取得初选胜利。这涉及美国国会选举中加密行业政治影响力的实际数据，对关注政策环境的加密受众有明确信息增量。",
+      "score": 0.86,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T20:00:51.186Z",
+      "bCommitSha": "243e0342885b34c5730b4ca1eccd45e561ccd9a9"
+    },
+    "ca894e5edad47ec8747ae8288a2fdd3f47ddabd80e81d8287325221faec8c9d7": {
+      "decisionKey": "ca894e5edad47ec8747ae8288a2fdd3f47ddabd80e81d8287325221faec8c9d7",
+      "status": "published",
+      "reason": "Reports a significant market rally with specific price levels and $2 billion in liquidations, driven by Treasury buybacks and an SEC crypto proposal—policy and market-structure developments of clear importance to the crypto industry. Source is a reputable crypto news outlet with verifiable details.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T20:00:51.186Z",
+      "bCommitSha": "243e0342885b34c5730b4ca1eccd45e561ccd9a9"
+    },
+    "87ed5ee20e37b478c2a70c26e43d5bb6dc70d9c245af28458597aac180404ff7": {
+      "decisionKey": "87ed5ee20e37b478c2a70c26e43d5bb6dc70d9c245af28458597aac180404ff7",
+      "status": "published",
+      "reason": "白宫加密货币会议涉及重大政策动向，特朗普呼吁通过Clarity Act，且监管机构计划将Hyperliquid纳入美国合规框架，对加密行业影响明确且信息增量高。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T20:00:51.186Z",
+      "bCommitSha": "243e0342885b34c5730b4ca1eccd45e561ccd9a9"
+    },
+    "829b9dc4266423d85841632bfe07087edd240e1bad70f6187450d5bdcfd7abc4": {
+      "decisionKey": "829b9dc4266423d85841632bfe07087edd240e1bad70f6187450d5bdcfd7abc4",
+      "status": "rejected",
+      "reason": "内容为加密货币股票短期价格波动，属于价格行情播报，缺乏对加密行业政策、协议升级、安全事件等结构性影响的分析，信息增量有限，判定为低价值市场行情内容，不符合公开发布标准。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T20:00:51.186Z"
+    },
+    "645e1380b99571f7d09f9af01ae3b3aa708bbeeeb2ef10deae968962c3fe99d6": {
+      "decisionKey": "645e1380b99571f7d09f9af01ae3b3aa708bbeeeb2ef10deae968962c3fe99d6",
+      "status": "rejected",
+      "reason": "The candidate covers a relevant security exploit, but its publication date is in the future relative to the current date, so it cannot be treated as a real, public, accessible and verifiable source yet.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T20:00:51.186Z"
+    },
+    "36ecc8d5596ac8e77cfc7bd17100a8700a71ee11485688f4d3e4a059c024d337": {
+      "decisionKey": "36ecc8d5596ac8e77cfc7bd17100a8700a71ee11485688f4d3e4a059c024d337",
+      "status": "published",
+      "reason": "This is a credible CoinDesk report on a concrete $2 million campaign setback for the crypto-backed PAC Fairshake in Florida primaries, including criticism over ad practices. It signals political risk and regulatory/policy friction directly relevant to crypto industry stakeholders.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T20:00:51.186Z",
+      "bCommitSha": "243e0342885b34c5730b4ca1eccd45e561ccd9a9"
+    },
+    "3103cbbcfec917ba88975108033058c96dd90cabace4f496628b9de5f558d2cc": {
+      "decisionKey": "3103cbbcfec917ba88975108033058c96dd90cabace4f496628b9de5f558d2cc",
+      "status": "rejected",
+      "reason": "该消息涉及Kalshi申请CFTC批准铜永续合约，虽属真实新闻，但内容简短，且与加密行业无直接关联，对加密受众的信息增量有限，不满足重要性和相关性要求。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T20:00:51.186Z"
+    },
+    "2fafa76f29339521a05c25be173643c8715f875ce833ca6be4d3ad2877eeb5c0": {
+      "decisionKey": "2fafa76f29339521a05c25be173643c8715f875ce833ca6be4d3ad2877eeb5c0",
+      "status": "published",
+      "reason": "Official policy news from CoinDesk: Trump urging Congress on the Clarity Act during a White House crypto event is a significant regulatory development with direct impact on the crypto industry. The source is a reputable news outlet, the event and actors are specific, and the topic affects market structure and legal clarity.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T20:00:51.186Z",
+      "bCommitSha": "243e0342885b34c5730b4ca1eccd45e561ccd9a9"
+    },
+    "1b2240271b7230d671155521e7601a94fbc04eaf61f847b9c9e9311dc89e35f6": {
+      "decisionKey": "1b2240271b7230d671155521e7601a94fbc04eaf61f847b9c9e9311dc89e35f6",
+      "status": "published",
+      "reason": "CoinDesk报道特朗普称CFTC正努力将Hyperliquid引入美国，涉及具体政策动态和代币价格反应，对加密行业受众有明确影响与信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T20:00:51.186Z",
+      "bCommitSha": "243e0342885b34c5730b4ca1eccd45e561ccd9a9"
+    },
     "ff5fec9a9e6097c0160e213424a9e7b6ec1528a5b4525c5ad8af9a7176a21914": {
       "decisionKey": "ff5fec9a9e6097c0160e213424a9e7b6ec1528a5b4525c5ad8af9a7176a21914",
       "status": "published",
@@ -7171,18 +7249,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T18:00:51.201Z",
-    "https://cointelegraph.com/rss": "2026-08-19T18:00:51.201Z",
-    "https://decrypt.co/feed": "2026-08-19T18:00:51.201Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T18:00:51.201Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T18:00:51.201Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T18:00:51.201Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-19T18:00:51.201Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-19T18:00:51.201Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-19T18:00:51.201Z",
-    "https://solana.com/rss.xml": "2026-08-19T18:00:51.201Z",
-    "https://slowmist.medium.com/feed": "2026-08-19T18:00:51.201Z",
-    "https://www.theblock.co/rss.xml": "2026-08-19T18:00:51.201Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T20:00:51.186Z",
+    "https://cointelegraph.com/rss": "2026-08-19T20:00:51.186Z",
+    "https://decrypt.co/feed": "2026-08-19T20:00:51.186Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T20:00:51.186Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T20:00:51.186Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T20:00:51.186Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-19T20:00:51.186Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-19T20:00:51.186Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-19T20:00:51.186Z",
+    "https://solana.com/rss.xml": "2026-08-19T20:00:51.186Z",
+    "https://slowmist.medium.com/feed": "2026-08-19T20:00:51.186Z",
+    "https://www.theblock.co/rss.xml": "2026-08-19T20:00:51.186Z"
   },
-  "lastRunAt": "2026-08-19T18:00:51.201Z"
+  "lastRunAt": "2026-08-19T20:00:51.186Z"
 }
