@@ -1,6 +1,49 @@
 {
   "version": 1,
   "decisions": {
+    "f8db2e288138fe66888701ed057f76bf2d9eb6e2c4ed917f67c49e0a574e1f31": {
+      "decisionKey": "f8db2e288138fe66888701ed057f76bf2d9eb6e2c4ed917f67c49e0a574e1f31",
+      "status": "rejected",
+      "reason": "The article is about AI industry news (OpenAI vs Anthropic) and does not relate to cryptocurrency policy, protocol upgrades, security events, or market structure changes relevant to crypto audiences.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T10:00:51.411Z"
+    },
+    "e0f184810b8fa2e9c2e502b2f902e4836ec7cfd843800c58002a99f2b1237af0": {
+      "decisionKey": "e0f184810b8fa2e9c2e502b2f902e4836ec7cfd843800c58002a99f2b1237af0",
+      "status": "published",
+      "reason": "报道了Winklevoss Capital支持的Cypherpunk Mining通过3333万美元股权交易推出据称全球最大的Zcash矿场，新增约18%全网算力，涉及隐私币基础设施与机构资本布局，对加密行业有明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T10:00:51.411Z",
+      "bCommitSha": "ddac119ff3a837280e4b086bab52d2740ab944b3"
+    },
+    "b726e061a213bc0347115fe665ca0125b8e49c0e63497ef1999e3741188172bf": {
+      "decisionKey": "b726e061a213bc0347115fe665ca0125b8e49c0e63497ef1999e3741188172bf",
+      "status": "rejected",
+      "reason": "内容仅为比特币价格及市场行情的简要动态描述，缺乏具体主体、事件或数据，属于价格喊单类低价值信息，未涉及政策、协议升级、安全事件或市场结构变化，对加密行业受众无明确信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T10:00:51.411Z"
+    },
+    "b681bc2d38a27dad520023d9c334216f63aed124c5d5ac4670d196cc2a32e25b": {
+      "decisionKey": "b681bc2d38a27dad520023d9c334216f63aed124c5d5ac4670d196cc2a32e25b",
+      "status": "published",
+      "reason": "Ripple's $275 million debt offering for its prime brokerage arm is a notable capital markets event from a major crypto firm, with concrete figures and institutional relevance for the crypto industry.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T10:00:51.411Z",
+      "bCommitSha": "ddac119ff3a837280e4b086bab52d2740ab944b3"
+    },
+    "6b1c077bc1672a2509cb9660c85f6b5fca69176327607c69a2b7b5ca2788c6c3": {
+      "decisionKey": "6b1c077bc1672a2509cb9660c85f6b5fca69176327607c69a2b7b5ca2788c6c3",
+      "status": "published",
+      "reason": "Arthur Hayes, a prominent crypto figure, assuming CEO role at Flop Labs and teasing a Q4 2026 airdrop from an AI inference protocol is a specific, citable news event with clear relevance to the crypto audience. Sourced from Cointelegraph, a reputable outlet, it provides concrete details about the subject, role, and timing, offering actionable information for market participants.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T10:00:51.411Z",
+      "bCommitSha": "ddac119ff3a837280e4b086bab52d2740ab944b3"
+    },
     "c8012f20546e0586c4d43848e9ef4fa4b271dcffea88f9d8af637db37e41b557": {
       "decisionKey": "c8012f20546e0586c4d43848e9ef4fa4b271dcffea88f9d8af637db37e41b557",
       "status": "published",
@@ -6762,18 +6805,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T08:00:53.664Z",
-    "https://cointelegraph.com/rss": "2026-08-19T08:00:53.664Z",
-    "https://decrypt.co/feed": "2026-08-19T08:00:53.664Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T08:00:53.664Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T08:00:53.664Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T08:00:53.664Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-19T08:00:53.664Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-19T08:00:53.664Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-19T08:00:53.664Z",
-    "https://solana.com/rss.xml": "2026-08-19T08:00:53.664Z",
-    "https://slowmist.medium.com/feed": "2026-08-19T08:00:53.664Z",
-    "https://www.theblock.co/rss.xml": "2026-08-19T08:00:53.664Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T10:00:51.411Z",
+    "https://cointelegraph.com/rss": "2026-08-19T10:00:51.411Z",
+    "https://decrypt.co/feed": "2026-08-19T10:00:51.411Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T10:00:51.411Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T10:00:51.411Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T10:00:51.411Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-19T10:00:51.411Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-19T10:00:51.411Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-19T10:00:51.411Z",
+    "https://solana.com/rss.xml": "2026-08-19T10:00:51.411Z",
+    "https://slowmist.medium.com/feed": "2026-08-19T10:00:51.411Z",
+    "https://www.theblock.co/rss.xml": "2026-08-19T10:00:51.411Z"
   },
-  "lastRunAt": "2026-08-19T08:00:53.664Z"
+  "lastRunAt": "2026-08-19T10:00:51.411Z"
 }
