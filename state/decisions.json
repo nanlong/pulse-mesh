@@ -1,6 +1,15 @@
 {
   "version": 1,
   "decisions": {
+    "c8012f20546e0586c4d43848e9ef4fa4b271dcffea88f9d8af637db37e41b557": {
+      "decisionKey": "c8012f20546e0586c4d43848e9ef4fa4b271dcffea88f9d8af637db37e41b557",
+      "status": "published",
+      "reason": "Reported exploit of Maya Protocol resulting in approximately $11 million loss is a significant security incident for the crypto community, with specific details on the vulnerability and impact.",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T08:00:53.664Z",
+      "bCommitSha": "8e9cdf85bc27d15839f996491a209ffc28b76553"
+    },
     "c1e1a3c3aaec95f2bec4f438cf146ee4285e0362f7c14ee1d582061dab987dfb": {
       "decisionKey": "c1e1a3c3aaec95f2bec4f438cf146ee4285e0362f7c14ee1d582061dab987dfb",
       "status": "published",
@@ -6753,18 +6762,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T06:00:51.545Z",
-    "https://cointelegraph.com/rss": "2026-08-19T06:00:51.545Z",
-    "https://decrypt.co/feed": "2026-08-19T06:00:51.545Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T06:00:51.545Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T06:00:51.545Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T06:00:51.545Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-19T06:00:51.545Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-19T06:00:51.545Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-19T06:00:51.545Z",
-    "https://solana.com/rss.xml": "2026-08-19T06:00:51.545Z",
-    "https://slowmist.medium.com/feed": "2026-08-19T06:00:51.545Z",
-    "https://www.theblock.co/rss.xml": "2026-08-19T06:00:51.545Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T08:00:53.664Z",
+    "https://cointelegraph.com/rss": "2026-08-19T08:00:53.664Z",
+    "https://decrypt.co/feed": "2026-08-19T08:00:53.664Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T08:00:53.664Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T08:00:53.664Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T08:00:53.664Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-19T08:00:53.664Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-19T08:00:53.664Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-19T08:00:53.664Z",
+    "https://solana.com/rss.xml": "2026-08-19T08:00:53.664Z",
+    "https://slowmist.medium.com/feed": "2026-08-19T08:00:53.664Z",
+    "https://www.theblock.co/rss.xml": "2026-08-19T08:00:53.664Z"
   },
-  "lastRunAt": "2026-08-19T06:00:51.545Z"
+  "lastRunAt": "2026-08-19T08:00:53.664Z"
 }
