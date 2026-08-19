@@ -1,6 +1,74 @@
 {
   "version": 1,
   "decisions": {
+    "e210e6d29576138fef331570c54d0f109d2e77e724a524fb226607f75927dc2b": {
+      "decisionKey": "e210e6d29576138fef331570c54d0f109d2e77e724a524fb226607f75927dc2b",
+      "status": "rejected",
+      "reason": "内容仅为前银行主席的个人观点警告，缺乏具体数据或事件细节，对加密行业受众的信息增量和直接影响力有限，证据不足。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T14:00:54.760Z"
+    },
+    "aef02fee8693d51c8f5cd94fe041490379982b857b6543119f453203e550c3d3": {
+      "decisionKey": "aef02fee8693d51c8f5cd94fe041490379982b857b6543119f453203e550c3d3",
+      "status": "published",
+      "reason": "Ethena 通过 FalconX 新增 10 亿美元设施以多样化 USDe 抵押品来源，涉及稳定币抵押策略和机构贷款市场，对加密行业有明确影响和信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T14:00:54.760Z",
+      "bCommitSha": "3c05d66614f305a00d0f452d6096449023257bb8"
+    },
+    "a55a3cb79ce4d6262141af8e81591899854e003b393ff225d6fcfe20ed2a86c6": {
+      "decisionKey": "a55a3cb79ce4d6262141af8e81591899854e003b393ff225d6fcfe20ed2a86c6",
+      "status": "published",
+      "reason": "该候选来自真实公开媒体，内容包含具体公司（Zhibao）、事件（私募融资）、金额（1.547亿美元）和比特币数量（2380枚），属于企业采用比特币储备的重要动向，对加密行业受众有明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T14:00:54.760Z",
+      "bCommitSha": "3c05d66614f305a00d0f452d6096449023257bb8"
+    },
+    "82da9aca17989d2dbd9071f9fe9373db1594bcc4ab51fd78d1ba04055f53b916": {
+      "decisionKey": "82da9aca17989d2dbd9071f9fe9373db1594bcc4ab51fd78d1ba04055f53b916",
+      "status": "rejected",
+      "reason": "Published date is in the future, indicating a test or placeholder. Content lacks direct relevance to crypto industry policy, protocol upgrades, security events, or market structure changes.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T14:00:54.760Z"
+    },
+    "801a2da925df99371ad126e58a37be210074373b2147f74d416d3d542fbf66df": {
+      "decisionKey": "801a2da925df99371ad126e58a37be210074373b2147f74d416d3d542fbf66df",
+      "status": "rejected",
+      "reason": "候选内容仅为观点文章摘要，缺乏具体事件、时间或数据，未提供对加密行业有明确影响的信息增量，属于低价值内容。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T14:00:54.760Z"
+    },
+    "7dcd6584b07c56420141aa8097b9a6fc531195ecd76a6ac8feef99db6f48a54f": {
+      "decisionKey": "7dcd6584b07c56420141aa8097b9a6fc531195ecd76a6ac8feef99db6f48a54f",
+      "status": "rejected",
+      "reason": "候选来源于权威加密媒体CoinDesk，内容具体涉及比特币投降信号（8/12）及VanEck对后市的判断，对加密投资者有信息增量，且非简单价格喊单。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T14:00:54.760Z"
+    },
+    "40600084fb0b0fd0df700e34f2fc53ea2e1afc19aa05b8cc4d985a22b51448bc": {
+      "decisionKey": "40600084fb0b0fd0df700e34f2fc53ea2e1afc19aa05b8cc4d985a22b51448bc",
+      "status": "published",
+      "reason": "SEC监管提案由专员Hester Peirce公开评价，涉及美国加密行业关键政策动向，对受众有明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T14:00:54.760Z",
+      "bCommitSha": "3c05d66614f305a00d0f452d6096449023257bb8"
+    },
+    "1c3c73acb13886f0d7dade995f7c224f894984ce7f60f6653658e644b0b9ef47": {
+      "decisionKey": "1c3c73acb13886f0d7dade995f7c224f894984ce7f60f6653658e644b0b9ef47",
+      "status": "published",
+      "reason": "The candidate reports a concrete, verifiable data point from a major centralized exchange about recovering $700 million using AI after a $1.46 billion hack, directly relevant to crypto security and exchange operations.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T14:00:54.760Z",
+      "bCommitSha": "3c05d66614f305a00d0f452d6096449023257bb8"
+    },
     "e48d13117602a4d27e7d2d06bba0d2dcd4355978f5ff60a47661da5c7e21450e": {
       "decisionKey": "e48d13117602a4d27e7d2d06bba0d2dcd4355978f5ff60a47661da5c7e21450e",
       "status": "rejected",
@@ -6897,18 +6965,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T12:00:53.251Z",
-    "https://cointelegraph.com/rss": "2026-08-19T12:00:53.251Z",
-    "https://decrypt.co/feed": "2026-08-19T12:00:53.251Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T12:00:53.251Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T12:00:53.251Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T12:00:53.251Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-19T12:00:53.251Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-19T12:00:53.251Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-19T12:00:53.251Z",
-    "https://solana.com/rss.xml": "2026-08-19T12:00:53.251Z",
-    "https://slowmist.medium.com/feed": "2026-08-19T12:00:53.251Z",
-    "https://www.theblock.co/rss.xml": "2026-08-19T12:00:53.251Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T14:00:54.760Z",
+    "https://cointelegraph.com/rss": "2026-08-19T14:00:54.760Z",
+    "https://decrypt.co/feed": "2026-08-19T14:00:54.760Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T14:00:54.760Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T14:00:54.760Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T14:00:54.760Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-19T14:00:54.760Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-19T14:00:54.760Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-19T14:00:54.760Z",
+    "https://solana.com/rss.xml": "2026-08-19T14:00:54.760Z",
+    "https://slowmist.medium.com/feed": "2026-08-19T14:00:54.760Z",
+    "https://www.theblock.co/rss.xml": "2026-08-19T14:00:54.760Z"
   },
-  "lastRunAt": "2026-08-19T12:00:53.251Z"
+  "lastRunAt": "2026-08-19T14:00:54.760Z"
 }
