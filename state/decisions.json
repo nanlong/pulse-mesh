@@ -1,6 +1,32 @@
 {
   "version": 1,
   "decisions": {
+    "e311fcf98e719c03d8d4ae0968876715344bf2704c1fcf9eb5b8130960b093fd": {
+      "decisionKey": "e311fcf98e719c03d8d4ae0968876715344bf2704c1fcf9eb5b8130960b093fd",
+      "status": "rejected",
+      "reason": "内容为特朗普对AI的宏观评论，未涉及加密行业的具体政策、协议、安全或市场结构变化，对加密受众缺乏明确影响和信息增量。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T22:00:52.804Z"
+    },
+    "4e17e14ea95e7c422e2694684aa1aae207425267bb5179b73a6592753d3620a4": {
+      "decisionKey": "4e17e14ea95e7c422e2694684aa1aae207425267bb5179b73a6592753d3620a4",
+      "status": "published",
+      "reason": "报道了特朗普关于CFTC推动Hyperliquid以合规方式进入美国的声明，涉及具体监管动态和协议（Hyperliquid），对加密行业政策与市场有明确影响，来源为The Block且内容可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T22:00:52.804Z",
+      "bCommitSha": "66cea1fc2895f3967febc49fd8b83819c3e84478"
+    },
+    "2156134437f731cdf99a7645b9fe79ab9d2a7bb8f06c3a1b4537a50dd29268af": {
+      "decisionKey": "2156134437f731cdf99a7645b9fe79ab9d2a7bb8f06c3a1b4537a50dd29268af",
+      "status": "published",
+      "reason": "该新闻涉及阿联酋央行注册稳定币USDU被知名钱包Bitcoin.com整合，属于合规稳定币在主要渠道的扩展，对加密行业用户有明确信息增量，且来源为权威媒体，内容具体。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T22:00:52.804Z",
+      "bCommitSha": "66cea1fc2895f3967febc49fd8b83819c3e84478"
+    },
     "d80948aeb2093805266957e8081075d27006d6baa51e809ddaba09f24558f835": {
       "decisionKey": "d80948aeb2093805266957e8081075d27006d6baa51e809ddaba09f24558f835",
       "status": "published",
@@ -7249,18 +7275,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T20:00:51.186Z",
-    "https://cointelegraph.com/rss": "2026-08-19T20:00:51.186Z",
-    "https://decrypt.co/feed": "2026-08-19T20:00:51.186Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T20:00:51.186Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T20:00:51.186Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T20:00:51.186Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-19T20:00:51.186Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-19T20:00:51.186Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-19T20:00:51.186Z",
-    "https://solana.com/rss.xml": "2026-08-19T20:00:51.186Z",
-    "https://slowmist.medium.com/feed": "2026-08-19T20:00:51.186Z",
-    "https://www.theblock.co/rss.xml": "2026-08-19T20:00:51.186Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T22:00:52.804Z",
+    "https://cointelegraph.com/rss": "2026-08-19T22:00:52.804Z",
+    "https://decrypt.co/feed": "2026-08-19T22:00:52.804Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T22:00:52.804Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T22:00:52.804Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T22:00:52.804Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-19T22:00:52.804Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-19T22:00:52.804Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-19T22:00:52.804Z",
+    "https://solana.com/rss.xml": "2026-08-19T22:00:52.804Z",
+    "https://slowmist.medium.com/feed": "2026-08-19T22:00:52.804Z",
+    "https://www.theblock.co/rss.xml": "2026-08-19T22:00:52.804Z"
   },
-  "lastRunAt": "2026-08-19T20:00:51.186Z"
+  "lastRunAt": "2026-08-19T22:00:52.804Z"
 }
