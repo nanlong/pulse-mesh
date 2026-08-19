@@ -1,6 +1,106 @@
 {
   "version": 1,
   "decisions": {
+    "ffeb64d8c5d66e4d7880426478905dada8a7e423fa67289685e04d7197e98660": {
+      "decisionKey": "ffeb64d8c5d66e4d7880426478905dada8a7e423fa67289685e04d7197e98660",
+      "status": "rejected",
+      "reason": "Content is too vague: it only states that SEC brings clarity to crypto and mentions a potential ICO boom, without specifying the proposed rules, dates, or concrete details. Insufficient evidence to assess impact or information increment for the crypto audience.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z"
+    },
+    "c45b617dd3f3c6d65a063e982189e275592e46ed38febb81b13e3a6a6f0e570f": {
+      "decisionKey": "c45b617dd3f3c6d65a063e982189e275592e46ed38febb81b13e3a6a6f0e570f",
+      "status": "failed",
+      "reason": "The operation timed out.",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z"
+    },
+    "aa0bd5a9c5598f7795fceaeb9b9ff5e2245da78ef6777533d53a3864a6e55f39": {
+      "decisionKey": "aa0bd5a9c5598f7795fceaeb9b9ff5e2245da78ef6777533d53a3864a6e55f39",
+      "status": "rejected",
+      "reason": "Reports a concrete macro policy change (US Treasury doubling debt buyback size) and its immediate market impact on Bitcoin, which is relevant to crypto industry audiences as a market structure signal. Contains specific entities, event, and timing.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z"
+    },
+    "949a0baa3c22816c1dd5a5baa84cea0f15150dd82f4174700bdc9c6b18b3dc89": {
+      "decisionKey": "949a0baa3c22816c1dd5a5baa84cea0f15150dd82f4174700bdc9c6b18b3dc89",
+      "status": "published",
+      "reason": "这是一条关于美国CFTC对FTX及Alameda前高管实施5年交易禁令的监管执法新闻，来源为可信的加密媒体Cointelegraph，内容包含具体主体、事件、时间和数据，对加密行业受众具有明确的信息增量和政策影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z",
+      "bCommitSha": "760710ff3dfcd1d3989d59d3a8492f14baf1d5a9"
+    },
+    "921d50a1ff4a082a5243f242aff6d352a5008f7f5e903dd1fe696dfdf167b745": {
+      "decisionKey": "921d50a1ff4a082a5243f242aff6d352a5008f7f5e903dd1fe696dfdf167b745",
+      "status": "published",
+      "reason": "CoinDesk is a reputable crypto news source; the article discusses the April DeFi drawdown with specific data and provides actionable questions for allocators, offering clear informational value for crypto industry professionals.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z",
+      "bCommitSha": "760710ff3dfcd1d3989d59d3a8492f14baf1d5a9"
+    },
+    "820a1b2b45ecff5697eba5fd3bc5694a2895bc656c69d40db064572c68309533": {
+      "decisionKey": "820a1b2b45ecff5697eba5fd3bc5694a2895bc656c69d40db064572c68309533",
+      "status": "rejected",
+      "reason": "内容过于简略，仅有一句概括性观点，缺乏具体数据、事件或细节支撑，对加密行业受众的信息增量不足。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z"
+    },
+    "723ea8042ae5db73135e4de5f731f750df91f29b82fc947b4d266a1ca62a70e0": {
+      "decisionKey": "723ea8042ae5db73135e4de5f731f750df91f29b82fc947b4d266a1ca62a70e0",
+      "status": "published",
+      "reason": "Injective 关联实体获得美国 SEC 过户代理人注册，属于明确的监管准入事件，对加密行业制度化和代币化证券基础设施具有信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z",
+      "bCommitSha": "760710ff3dfcd1d3989d59d3a8492f14baf1d5a9"
+    },
+    "6e753b5466a7f43dcd944cab58a8638c3c768b23a2fc236d0caf4e6f0b0f2498": {
+      "decisionKey": "6e753b5466a7f43dcd944cab58a8638c3c768b23a2fc236d0caf4e6f0b0f2498",
+      "status": "rejected",
+      "reason": "该候选为比特币价格技术分析及预测，属于价格喊单类内容，缺乏对加密行业的具体政策、协议升级、安全事件或市场结构变化等实质性信息增量，不符合发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z"
+    },
+    "5d0f218a78efe3c1de1f85df57df52aff8965322bf3864e9bf80236f5fc99479": {
+      "decisionKey": "5d0f218a78efe3c1de1f85df57df52aff8965322bf3864e9bf80236f5fc99479",
+      "status": "rejected",
+      "reason": "The candidate is a financial news item about Cantor providing institutional access to Kalshi prediction markets. It does not explicitly involve crypto, blockchain, or digital assets, and lacks a clear direct impact or information increment for a crypto industry audience. While prediction markets are adjacent, the content does not establish relevance to crypto-specific policies, protocols, security, or market structure.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z"
+    },
+    "5ab077d6648ac2fab66dff233929e054870c22a4510dab6c9ceab033e28a7c0f": {
+      "decisionKey": "5ab077d6648ac2fab66dff233929e054870c22a4510dab6c9ceab033e28a7c0f",
+      "status": "published",
+      "reason": "CoinDesk reports a significant regulatory development affecting major crypto companies, with a concrete procedural vote date and market reactions. This provides actionable information for crypto industry stakeholders.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z",
+      "bCommitSha": "760710ff3dfcd1d3989d59d3a8492f14baf1d5a9"
+    },
+    "30944e062b05e924b7f785cf1b9e4bfd489e583fe5c97aeb761f017114c9415c": {
+      "decisionKey": "30944e062b05e924b7f785cf1b9e4bfd489e583fe5c97aeb761f017114c9415c",
+      "status": "rejected",
+      "reason": "内容仅为标题，无实质细节，且发布时间为未来日期，疑似测试或占位符，不符合真实可核验新闻要求。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z"
+    },
+    "1c75aec3dd68ad3e60cd6c3237b66e775a95af9117111d86ff788e8f673e78e8": {
+      "decisionKey": "1c75aec3dd68ad3e60cd6c3237b66e775a95af9117111d86ff788e8f673e78e8",
+      "status": "published",
+      "reason": "Real, verifiable news from a reputable source about the first live cross-border banking transaction on Swift's 24/7 ledger, involving major banks. This marks a significant step in traditional financial infrastructure adapting to tokenized deposits and stablecoins, with clear implications for the crypto industry's integration with legacy banking.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T16:00:56.011Z",
+      "bCommitSha": "760710ff3dfcd1d3989d59d3a8492f14baf1d5a9"
+    },
     "e210e6d29576138fef331570c54d0f109d2e77e724a524fb226607f75927dc2b": {
       "decisionKey": "e210e6d29576138fef331570c54d0f109d2e77e724a524fb226607f75927dc2b",
       "status": "rejected",
@@ -6965,18 +7065,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T14:00:54.760Z",
-    "https://cointelegraph.com/rss": "2026-08-19T14:00:54.760Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T16:00:56.011Z",
+    "https://cointelegraph.com/rss": "2026-08-19T16:00:56.011Z",
     "https://decrypt.co/feed": "2026-08-19T14:00:54.760Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T14:00:54.760Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T14:00:54.760Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T14:00:54.760Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-19T14:00:54.760Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-19T14:00:54.760Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-19T14:00:54.760Z",
-    "https://solana.com/rss.xml": "2026-08-19T14:00:54.760Z",
-    "https://slowmist.medium.com/feed": "2026-08-19T14:00:54.760Z",
-    "https://www.theblock.co/rss.xml": "2026-08-19T14:00:54.760Z"
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T16:00:56.011Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T16:00:56.011Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T16:00:56.011Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-19T16:00:56.011Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-19T16:00:56.011Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-19T16:00:56.011Z",
+    "https://solana.com/rss.xml": "2026-08-19T16:00:56.011Z",
+    "https://slowmist.medium.com/feed": "2026-08-19T16:00:56.011Z",
+    "https://www.theblock.co/rss.xml": "2026-08-19T16:00:56.011Z"
   },
   "lastRunAt": "2026-08-19T14:00:54.760Z"
 }
