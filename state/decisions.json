@@ -1,6 +1,90 @@
 {
   "version": 1,
   "decisions": {
+    "fde09214bd2133eb020da4920d7bd51bfe220268c03c7aab0720ddac190ecde2": {
+      "decisionKey": "fde09214bd2133eb020da4920d7bd51bfe220268c03c7aab0720ddac190ecde2",
+      "status": "published",
+      "reason": "Kraken 作为头部加密交易所，向欧洲经济区客户推出美股交易，属于业务扩展和市场结构变化，对加密行业用户有实际影响和信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T00:00:49.724Z",
+      "bCommitSha": "d96645c6e58f4c492b7487e717894e565d9e1294"
+    },
+    "e1e3bf3bf0b5e66a3202aae45088cdbe598d9126f1d7013b45700d1cabfe8533": {
+      "decisionKey": "e1e3bf3bf0b5e66a3202aae45088cdbe598d9126f1d7013b45700d1cabfe8533",
+      "status": "rejected",
+      "reason": "该新闻仅述及宾州对AI数据中心的限制，未提及加密行业或区块链相关影响，缺乏对加密受众的明确信息增量，故不建议发布。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T00:00:49.724Z"
+    },
+    "dc0df86f88713e0d9d950e92db183e46585a80d7b5e80fd04ee5aecffca819c6": {
+      "decisionKey": "dc0df86f88713e0d9d950e92db183e46585a80d7b5e80fd04ee5aecffca819c6",
+      "status": "published",
+      "reason": "The Block reports a concrete, verifiable market event: Upbit and Bithumb, South Korea's largest crypto exchanges, saw H1 revenue declines of roughly 50% amid a broader market contraction and capital shift to domestic equities. This provides clear, datapoint-driven insight into crypto market structure and exchange health, relevant to industry participants.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T00:00:49.724Z",
+      "bCommitSha": "d96645c6e58f4c492b7487e717894e565d9e1294"
+    },
+    "ce34ec498f0effb32ff7ef7352ac0309090bec1ac56e86180089533db82887fe": {
+      "decisionKey": "ce34ec498f0effb32ff7ef7352ac0309090bec1ac56e86180089533db82887fe",
+      "status": "rejected",
+      "reason": "Ark Invest 对拥有加密支付业务的 Block 和代币化公司 Securitize 的股权投资，反映了机构资金动向，对加密行业受众有一定信息增量。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T00:00:49.724Z"
+    },
+    "c2e9f4e49e3ec43f10ed075a1cad976aadc0f0282a24e075c3258fc2cb8fa67f": {
+      "decisionKey": "c2e9f4e49e3ec43f10ed075a1cad976aadc0f0282a24e075c3258fc2cb8fa67f",
+      "status": "rejected",
+      "reason": "候选内容为Mozilla Firefox的可选AI窗口测试，属于浏览器功能变化，未涉及加密行业的重要政策、协议升级、安全事件或市场结构变化，对加密行业受众无明确影响。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T00:00:49.724Z"
+    },
+    "9b0e90f054fea482d7db819f6516f7c8125cf2665cfb7378dd03dbc20aa8f2db": {
+      "decisionKey": "9b0e90f054fea482d7db819f6516f7c8125cf2665cfb7378dd03dbc20aa8f2db",
+      "status": "published",
+      "reason": "Robinhood CEO明确呼吁美国为代币化股票扫清监管障碍，并指出海外市场已领先，属于加密行业相关政策与市场结构的重要信号，具有信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T00:00:49.724Z",
+      "bCommitSha": "d96645c6e58f4c492b7487e717894e565d9e1294"
+    },
+    "84d5f4faeb127699539aa8308aa1d67df081a0bb12def2736ac2b7952c4e1856": {
+      "decisionKey": "84d5f4faeb127699539aa8308aa1d67df081a0bb12def2736ac2b7952c4e1856",
+      "status": "rejected",
+      "reason": "候选来自正规媒体，但内容仅为Curve创始人个人观点，缺乏具体政策细节、数据或可核验事件，对加密行业受众的信息增量有限，属于低价值观点新闻。",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T00:00:49.724Z"
+    },
+    "68cc0b221b10d3aae62ca08ecf154121a75ac18831c55ceeafd8f203fb00791c": {
+      "decisionKey": "68cc0b221b10d3aae62ca08ecf154121a75ac18831c55ceeafd8f203fb00791c",
+      "status": "rejected",
+      "reason": "区块链协会就SEC废除过时NMS规则的提案表态，并关联代币化益处，属于监管政策动态，对加密资产市场结构有直接影响，信息具有可核验来源和具体主体。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T00:00:49.724Z"
+    },
+    "3d8710c808d18c77c554c59d9eedd3644b078a309d167735a9a77ee8b56a4b21": {
+      "decisionKey": "3d8710c808d18c77c554c59d9eedd3644b078a309d167735a9a77ee8b56a4b21",
+      "status": "rejected",
+      "reason": "The candidate reports the launch of a Zcash mining fleet backed by a $33 million Winklevoss deal, a concrete business development with direct relevance to the Zcash mining ecosystem and mining market structure. The source is a reputable crypto news outlet, and the event is dated and specific. While the disclosed details are limited, the involvement of major investors and the operational start of 4.2 GSol/s hashrate constitute an incremental industry update worth sharing.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T00:00:49.724Z"
+    },
+    "38edb48700326424e0f996492fdafa8868cdd45496349ffa2a4793a92c716f71": {
+      "decisionKey": "38edb48700326424e0f996492fdafa8868cdd45496349ffa2a4793a92c716f71",
+      "status": "published",
+      "reason": "Ripple's partnership with a South Korean bank is a concrete, verifiable development in cross-border payments and institutional adoption, directly relevant to the crypto industry.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T00:00:49.724Z",
+      "bCommitSha": "d96645c6e58f4c492b7487e717894e565d9e1294"
+    },
     "fa172ac9c8c46566db14f0e89e098120b409ab0ea0b66cc7d53b670570a7ce1e": {
       "decisionKey": "fa172ac9c8c46566db14f0e89e098120b409ab0ea0b66cc7d53b670570a7ce1e",
       "status": "published",
@@ -97,13 +181,6 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-18T22:00:49.524Z",
       "bCommitSha": "b62b1a28ae62ed13687dd24cce6fed267a55d2be"
-    },
-    "3d8710c808d18c77c554c59d9eedd3644b078a309d167735a9a77ee8b56a4b21": {
-      "decisionKey": "3d8710c808d18c77c554c59d9eedd3644b078a309d167735a9a77ee8b56a4b21",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-18T22:00:49.524Z"
     },
     "2d4cf19fcf6cfbbc5699a0c3857456a37a8badc01f918c35fc7873e5198e6cd5": {
       "decisionKey": "2d4cf19fcf6cfbbc5699a0c3857456a37a8badc01f918c35fc7873e5198e6cd5",
@@ -6625,18 +6702,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-18T22:00:49.524Z",
-    "https://cointelegraph.com/rss": "2026-08-18T22:00:49.524Z",
-    "https://decrypt.co/feed": "2026-08-18T22:00:49.524Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-18T22:00:49.524Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-18T22:00:49.524Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-18T22:00:49.524Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-18T22:00:49.524Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-18T22:00:49.524Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-18T22:00:49.524Z",
-    "https://solana.com/rss.xml": "2026-08-18T22:00:49.524Z",
-    "https://slowmist.medium.com/feed": "2026-08-18T22:00:49.524Z",
-    "https://www.theblock.co/rss.xml": "2026-08-17T10:01:00.454Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T00:00:49.724Z",
+    "https://cointelegraph.com/rss": "2026-08-19T00:00:49.724Z",
+    "https://decrypt.co/feed": "2026-08-19T00:00:49.724Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T00:00:49.724Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T00:00:49.724Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T00:00:49.724Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-19T00:00:49.724Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-19T00:00:49.724Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-19T00:00:49.724Z",
+    "https://solana.com/rss.xml": "2026-08-19T00:00:49.724Z",
+    "https://slowmist.medium.com/feed": "2026-08-19T00:00:49.724Z",
+    "https://www.theblock.co/rss.xml": "2026-08-19T00:00:49.724Z"
   },
-  "lastRunAt": "2026-08-17T10:01:00.454Z"
+  "lastRunAt": "2026-08-19T00:00:49.724Z"
 }
