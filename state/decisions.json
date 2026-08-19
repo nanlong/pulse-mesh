@@ -1,6 +1,22 @@
 {
   "version": 1,
   "decisions": {
+    "e66bfd532de21322591077cdab71e4d2e8f693eab0c5cd95a1319f5fde5fc2f7": {
+      "decisionKey": "e66bfd532de21322591077cdab71e4d2e8f693eab0c5cd95a1319f5fde5fc2f7",
+      "status": "rejected",
+      "reason": "Kalshi's CFTC filing for perpetual futures is a concrete regulatory development that could influence derivatives market structure and set precedents relevant to crypto and traditional finance.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T04:00:52.977Z"
+    },
+    "b18e418af4a20fe1fbed58d9e038de7ec5d14ce1290113592e8af45d2d6f68d9": {
+      "decisionKey": "b18e418af4a20fe1fbed58d9e038de7ec5d14ce1290113592e8af45d2d6f68d9",
+      "status": "rejected",
+      "reason": "来源为 SlowMist 官方 Medium 账号，属于可核验的安全研究来源，但候选内容仅包含标题和一行摘要，缺少具体攻击细节、时间、受影响范围等关键信息，无法确认该事件对加密行业的实际影响，证据不足，暂不予发布。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T04:00:52.977Z"
+    },
     "4b9b58cf67119690903b347af2c7a440431cf580eb3d10477e0ca01c712275a1": {
       "decisionKey": "4b9b58cf67119690903b347af2c7a440431cf580eb3d10477e0ca01c712275a1",
       "status": "published",
@@ -6711,18 +6727,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T02:00:51.628Z",
-    "https://cointelegraph.com/rss": "2026-08-19T02:00:51.628Z",
-    "https://decrypt.co/feed": "2026-08-19T02:00:51.628Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T02:00:51.628Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T02:00:51.628Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T02:00:51.628Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-19T02:00:51.628Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-19T02:00:51.628Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-19T02:00:51.628Z",
-    "https://solana.com/rss.xml": "2026-08-19T02:00:51.628Z",
-    "https://slowmist.medium.com/feed": "2026-08-19T02:00:51.628Z",
-    "https://www.theblock.co/rss.xml": "2026-08-19T02:00:51.628Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T04:00:52.977Z",
+    "https://cointelegraph.com/rss": "2026-08-19T04:00:52.977Z",
+    "https://decrypt.co/feed": "2026-08-19T04:00:52.977Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T04:00:52.977Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T04:00:52.977Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T04:00:52.977Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-19T04:00:52.977Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-19T04:00:52.977Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-19T04:00:52.977Z",
+    "https://solana.com/rss.xml": "2026-08-19T04:00:52.977Z",
+    "https://slowmist.medium.com/feed": "2026-08-19T04:00:52.977Z",
+    "https://www.theblock.co/rss.xml": "2026-08-19T04:00:52.977Z"
   },
-  "lastRunAt": "2026-08-19T02:00:51.628Z"
+  "lastRunAt": "2026-08-19T04:00:52.977Z"
 }
