@@ -1,18 +1,124 @@
 {
   "version": 1,
   "decisions": {
+    "ff5fec9a9e6097c0160e213424a9e7b6ec1528a5b4525c5ad8af9a7176a21914": {
+      "decisionKey": "ff5fec9a9e6097c0160e213424a9e7b6ec1528a5b4525c5ad8af9a7176a21914",
+      "status": "published",
+      "reason": "该候选来自知名加密媒体CoinDesk，包含具体事件（比特币涨至68,000美元、1.4亿美元空头清算）和数据，属于市场结构变化，对加密行业受众有明确影响，具备信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z",
+      "bCommitSha": "eb4181eb1b410c1cff760b838169c156afaacc0d"
+    },
+    "d22e7c32119e38c3e140b6841c1ab7f8b84a30a77a70f549f9a32a06c5556ac5": {
+      "decisionKey": "d22e7c32119e38c3e140b6841c1ab7f8b84a30a77a70f549f9a32a06c5556ac5",
+      "status": "rejected",
+      "reason": "Grayscale's Zcash ETF amendment involving a potential 200,000 ZEC contribution from DCG is a specific, verifiable filing update with implications for crypto ETF market structure and Zcash adoption. While nonbinding, it provides new information beyond routine rumor.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z"
+    },
+    "ccc60feb4aed6b28d9cd01405b8aaf90c443dbca4ec85e13826a0432bec3b3a5": {
+      "decisionKey": "ccc60feb4aed6b28d9cd01405b8aaf90c443dbca4ec85e13826a0432bec3b3a5",
+      "status": "published",
+      "reason": "该新闻来自可信的加密行业媒体Cointelegraph，涉及渣打银行和汇丰银行通过Swift区块链账本完成首次实时交易，连接各自代币化存款系统，是银行基础设施与区块链互操作性的重要进展，对加密行业具有明确的信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z",
+      "bCommitSha": "eb4181eb1b410c1cff760b838169c156afaacc0d"
+    },
+    "c45b617dd3f3c6d65a063e982189e275592e46ed38febb81b13e3a6a6f0e570f": {
+      "decisionKey": "c45b617dd3f3c6d65a063e982189e275592e46ed38febb81b13e3a6a6f0e570f",
+      "status": "published",
+      "reason": "Coinbase通过Hyperliquid在Base App中引入50倍加密永续合约，覆盖290多个市场，这是主流交易所与去中心化永续协议的重要集成，对加密交易生态有明确影响和增量信息。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z",
+      "bCommitSha": "eb4181eb1b410c1cff760b838169c156afaacc0d"
+    },
+    "abef933860955ad5eb8fceb204315ec52975f15c9ce05702dc33e6eb81d85498": {
+      "decisionKey": "abef933860955ad5eb8fceb204315ec52975f15c9ce05702dc33e6eb81d85498",
+      "status": "published",
+      "reason": "Coinbase's Base launching a $1 million startup accelerator focused on AI agents is a significant ecosystem development, with clear relevance to crypto industry participants interested in AI x crypto trends. The source is a reputable crypto news outlet, the content is specific (10 startups, focus areas) and timestamped, providing actionable information.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z",
+      "bCommitSha": "eb4181eb1b410c1cff760b838169c156afaacc0d"
+    },
+    "9d27d286a296ff56ef96a50181a54df93e6aeaadf34e90d1b9dd2dd7208d4fbb": {
+      "decisionKey": "9d27d286a296ff56ef96a50181a54df93e6aeaadf34e90d1b9dd2dd7208d4fbb",
+      "status": "rejected",
+      "reason": "CFTC 官方公告，针对计算衍生品合约上市征求意见，属于监管动向，可能影响加密行业相关衍生品市场，但内容较为简短，具体影响需进一步确认。",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z"
+    },
+    "60557e5f3ee766f6c816fe58c1ef6f14942776947a64697547231616ce2ee4bf": {
+      "decisionKey": "60557e5f3ee766f6c816fe58c1ef6f14942776947a64697547231616ce2ee4bf",
+      "status": "rejected",
+      "reason": "The candidate is a biotech stock price movement story (Moderna) with no connection to the crypto industry. It lacks any crypto-specific policy, protocol, security, or market structure relevance, and offers no information increment for a crypto-focused audience.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z"
+    },
+    "5aeb7b0cbed65cd5d2c61cedaa27edba3cac5f2fce5750efe0b4f4c5bd144262": {
+      "decisionKey": "5aeb7b0cbed65cd5d2c61cedaa27edba3cac5f2fce5750efe0b4f4c5bd144262",
+      "status": "rejected",
+      "reason": "Nethermind 从 LayerZero 验证者转向 Chainlink 节点运营，涉及跨链基础设施和预言机安全，对加密行业有明确的信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z"
+    },
+    "35baf8de6b9107fffaf7cd5c6c7879030de56387abce589d19ec1afbe59cdc72": {
+      "decisionKey": "35baf8de6b9107fffaf7cd5c6c7879030de56387abce589d19ec1afbe59cdc72",
+      "status": "published",
+      "reason": "真实来源报道FalconX与Ethena合作推出10亿美元机构信贷设施，将USDe支撑资产用于超额抵押贷款，扩大稳定币收益来源，属于加密市场结构变化，对行业有明确信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z",
+      "bCommitSha": "eb4181eb1b410c1cff760b838169c156afaacc0d"
+    },
+    "351897c673a5c6677824b7fc05bf3a830f6df330fde57c807337378c5044e2fb": {
+      "decisionKey": "351897c673a5c6677824b7fc05bf3a830f6df330fde57c807337378c5044e2fb",
+      "status": "published",
+      "reason": "该候选来自真实新闻来源decrypt.co，包含具体事件（白宫会议、美联储信号）、具体数据（1.14亿美元空头爆仓）和明确时间，对比特币价格走向和市场有显著影响，具有信息增量，不属于价格喊单、重复转载或低价值营销。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z",
+      "bCommitSha": "eb4181eb1b410c1cff760b838169c156afaacc0d"
+    },
+    "26f7230dfca1e1803e4a7ab66df8370f5a8326c6d89bab8a7f86cd4fda89696e": {
+      "decisionKey": "26f7230dfca1e1803e4a7ab66df8370f5a8326c6d89bab8a7f86cd4fda89696e",
+      "status": "published",
+      "reason": "OCC加速在11月前最终确定稳定币规则，直接关系到GENIUS法案的实施，是影响加密行业的重要政策进展，来源可靠且信息具体。",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z",
+      "bCommitSha": "eb4181eb1b410c1cff760b838169c156afaacc0d"
+    },
+    "06b85579c16a1e7865cb6b6a3ca979e5cb8814198d7108b8d580eb29566b584f": {
+      "decisionKey": "06b85579c16a1e7865cb6b6a3ca979e5cb8814198d7108b8d580eb29566b584f",
+      "status": "published",
+      "reason": "OCC head's commitment to finalize GENIUS Act stablecoin rules by November is a concrete regulatory milestone with a clear timeline and direct impact on the crypto industry, providing actionable information beyond speculation.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z",
+      "bCommitSha": "eb4181eb1b410c1cff760b838169c156afaacc0d"
+    },
+    "016032ea246223535f1fabaa314e3900e17278357039645e8a303099469ced46": {
+      "decisionKey": "016032ea246223535f1fabaa314e3900e17278357039645e8a303099469ced46",
+      "status": "published",
+      "reason": "Injective, a significant blockchain project, becoming an SEC-registered transfer agent is a notable regulatory development with direct implications for tokenized securities and RWA management, providing clear information value for crypto industry audiences.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T18:00:51.201Z",
+      "bCommitSha": "eb4181eb1b410c1cff760b838169c156afaacc0d"
+    },
     "ffeb64d8c5d66e4d7880426478905dada8a7e423fa67289685e04d7197e98660": {
       "decisionKey": "ffeb64d8c5d66e4d7880426478905dada8a7e423fa67289685e04d7197e98660",
       "status": "rejected",
       "reason": "Content is too vague: it only states that SEC brings clarity to crypto and mentions a potential ICO boom, without specifying the proposed rules, dates, or concrete details. Insufficient evidence to assess impact or information increment for the crypto audience.",
       "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-19T16:00:56.011Z"
-    },
-    "c45b617dd3f3c6d65a063e982189e275592e46ed38febb81b13e3a6a6f0e570f": {
-      "decisionKey": "c45b617dd3f3c6d65a063e982189e275592e46ed38febb81b13e3a6a6f0e570f",
-      "status": "failed",
-      "reason": "The operation timed out.",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-19T16:00:56.011Z"
     },
@@ -7065,18 +7171,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T16:00:56.011Z",
-    "https://cointelegraph.com/rss": "2026-08-19T16:00:56.011Z",
-    "https://decrypt.co/feed": "2026-08-19T14:00:54.760Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T16:00:56.011Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T16:00:56.011Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T16:00:56.011Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-19T16:00:56.011Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-19T16:00:56.011Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-19T16:00:56.011Z",
-    "https://solana.com/rss.xml": "2026-08-19T16:00:56.011Z",
-    "https://slowmist.medium.com/feed": "2026-08-19T16:00:56.011Z",
-    "https://www.theblock.co/rss.xml": "2026-08-19T16:00:56.011Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T18:00:51.201Z",
+    "https://cointelegraph.com/rss": "2026-08-19T18:00:51.201Z",
+    "https://decrypt.co/feed": "2026-08-19T18:00:51.201Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T18:00:51.201Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T18:00:51.201Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T18:00:51.201Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-19T18:00:51.201Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-19T18:00:51.201Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-19T18:00:51.201Z",
+    "https://solana.com/rss.xml": "2026-08-19T18:00:51.201Z",
+    "https://slowmist.medium.com/feed": "2026-08-19T18:00:51.201Z",
+    "https://www.theblock.co/rss.xml": "2026-08-19T18:00:51.201Z"
   },
-  "lastRunAt": "2026-08-19T14:00:54.760Z"
+  "lastRunAt": "2026-08-19T18:00:51.201Z"
 }
