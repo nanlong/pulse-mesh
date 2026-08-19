@@ -1,6 +1,98 @@
 {
   "version": 1,
   "decisions": {
+    "e48d13117602a4d27e7d2d06bba0d2dcd4355978f5ff60a47661da5c7e21450e": {
+      "decisionKey": "e48d13117602a4d27e7d2d06bba0d2dcd4355978f5ff60a47661da5c7e21450e",
+      "status": "rejected",
+      "reason": "该候选为个人对比特币价格的主观观点（$100,000）及对AI与区块链趋势的展望，属于价格喊单和传闻性内容，缺乏可核验的数据或重大事件信息，不符合发布标准。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z"
+    },
+    "e28d1fd6d887369ca7d0c69481618b869fae359d503e6859bfe7f7a5fe7af63d": {
+      "decisionKey": "e28d1fd6d887369ca7d0c69481618b869fae359d503e6859bfe7f7a5fe7af63d",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z"
+    },
+    "c797a5629c6546b648fc596f7f60dd0cc7c817dd0ab6855e0aa9afd66dafd491": {
+      "decisionKey": "c797a5629c6546b648fc596f7f60dd0cc7c817dd0ab6855e0aa9afd66dafd491",
+      "status": "published",
+      "reason": "来源为CoinDesk，内容涉及中国央行数字货币（数字人民币）银行运营商扩充，是具体且可核验的政策进展，对加密行业具有信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z",
+      "bCommitSha": "b4321d8301c21019ab074e8f937f374ad776dc98"
+    },
+    "b0bdba61f0961c0e70fdbd000dc91f46b2144ac80865de1c1f7dfae362576fe3": {
+      "decisionKey": "b0bdba61f0961c0e70fdbd000dc91f46b2144ac80865de1c1f7dfae362576fe3",
+      "status": "rejected",
+      "reason": "The candidate is a brief opinion snippet from an industry figure, lacking concrete data, event, or verifiable information. It resembles speculative market commentary rather than an actionable news item, and the vague forward-looking claim does not meet the threshold of clear impact or incremental information for the audience.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z"
+    },
+    "885af29e4b2715b19d5d049dd3dabcc7ebb39963693da53fd6bfbfaf387baa4e": {
+      "decisionKey": "885af29e4b2715b19d5d049dd3dabcc7ebb39963693da53fd6bfbfaf387baa4e",
+      "status": "published",
+      "reason": "该候选来自可信的加密新闻媒体 The Block，内容是 Rain CEO 关于稳定币支付通过 Visa 结算网络在三天内触达超 10 万家商户的声明，涉及稳定币支付基础设施与主流支付网络的融合，属于加密行业市场结构变化的重要信号，对行业受众有明确信息增量。",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z",
+      "bCommitSha": "b4321d8301c21019ab074e8f937f374ad776dc98"
+    },
+    "850d6f8a101b68b66721c43e4ef88405bab33a070cc739c0453f5e231d8acc35": {
+      "decisionKey": "850d6f8a101b68b66721c43e4ef88405bab33a070cc739c0453f5e231d8acc35",
+      "status": "published",
+      "reason": "报道了涉及1.65亿美元的加密庞氏骗局主谋被引渡的执法行动，具体且可核验，对加密社区具有风险警示价值。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z",
+      "bCommitSha": "b4321d8301c21019ab074e8f937f374ad776dc98"
+    },
+    "7465662bdc527129e9d6708dfcfa6a465c5b7f4ae10ddd06cd71152c31916ff7": {
+      "decisionKey": "7465662bdc527129e9d6708dfcfa6a465c5b7f4ae10ddd06cd71152c31916ff7",
+      "status": "rejected",
+      "reason": "BlackRock报告是真实、可核验的机构观点，直接涉及比特币市场泡沫判断，对加密行业投资者有明确信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z"
+    },
+    "696bbbfcbd7db9e0f0e09969edbf0a2ec58b005e04157bce5895923d2d3064ca": {
+      "decisionKey": "696bbbfcbd7db9e0f0e09969edbf0a2ec58b005e04157bce5895923d2d3064ca",
+      "status": "rejected",
+      "reason": "The candidate is a legitimate news article from CoinDesk, a real and verifiable source. It discusses Bitcoin's six-week trading range, multi-year low volatility, and the impact of global bond yields and Fed minutes on crypto markets. This provides specific market structure and macroeconomic information relevant to crypto industry audiences, with clear informational value beyond mere price speculation.",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z"
+    },
+    "3f45890193173105b1816a674ca51b5480bfdf9b1e499fe68d8d62576f8bbe56": {
+      "decisionKey": "3f45890193173105b1816a674ca51b5480bfdf9b1e499fe68d8d62576f8bbe56",
+      "status": "published",
+      "reason": "Nexo在澳大利亚推出受监管的加密抵押信贷，属于具体公司产品扩展事件，对加密用户获取流动性有实际影响，来源为Cointelegraph真实新闻，信息增量明确。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z",
+      "bCommitSha": "b4321d8301c21019ab074e8f937f374ad776dc98"
+    },
+    "1bf8a10ec4623b749157a6316f96a328e05cc800c7cdeefebf8919bfd1f081fe": {
+      "decisionKey": "1bf8a10ec4623b749157a6316f96a328e05cc800c7cdeefebf8919bfd1f081fe",
+      "status": "rejected",
+      "reason": "内容仅提及TikTok代码中存在P2P支付功能且尚未测试，属于早期传闻，缺乏具体时间、数据或对加密行业的明确影响，信息增量不足。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z"
+    },
+    "082a17bd00bb314359334cf69dbfef579122973b3281d7f621d1bf66f8dd7953": {
+      "decisionKey": "082a17bd00bb314359334cf69dbfef579122973b3281d7f621d1bf66f8dd7953",
+      "status": "published",
+      "reason": "Ripple, a major crypto company, raised $275M to expand into traditional finance including prime brokerage, which is significant market structure news for crypto industry institutions.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-19T12:00:53.251Z",
+      "bCommitSha": "b4321d8301c21019ab074e8f937f374ad776dc98"
+    },
     "f8db2e288138fe66888701ed057f76bf2d9eb6e2c4ed917f67c49e0a574e1f31": {
       "decisionKey": "f8db2e288138fe66888701ed057f76bf2d9eb6e2c4ed917f67c49e0a574e1f31",
       "status": "rejected",
@@ -6805,18 +6897,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T10:00:51.411Z",
-    "https://cointelegraph.com/rss": "2026-08-19T10:00:51.411Z",
-    "https://decrypt.co/feed": "2026-08-19T10:00:51.411Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T10:00:51.411Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T10:00:51.411Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T10:00:51.411Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-19T10:00:51.411Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-19T10:00:51.411Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-19T10:00:51.411Z",
-    "https://solana.com/rss.xml": "2026-08-19T10:00:51.411Z",
-    "https://slowmist.medium.com/feed": "2026-08-19T10:00:51.411Z",
-    "https://www.theblock.co/rss.xml": "2026-08-19T10:00:51.411Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T12:00:53.251Z",
+    "https://cointelegraph.com/rss": "2026-08-19T12:00:53.251Z",
+    "https://decrypt.co/feed": "2026-08-19T12:00:53.251Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T12:00:53.251Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T12:00:53.251Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T12:00:53.251Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-19T12:00:53.251Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-19T12:00:53.251Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-19T12:00:53.251Z",
+    "https://solana.com/rss.xml": "2026-08-19T12:00:53.251Z",
+    "https://slowmist.medium.com/feed": "2026-08-19T12:00:53.251Z",
+    "https://www.theblock.co/rss.xml": "2026-08-19T12:00:53.251Z"
   },
-  "lastRunAt": "2026-08-19T10:00:51.411Z"
+  "lastRunAt": "2026-08-19T12:00:53.251Z"
 }
