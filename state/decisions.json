@@ -1,6 +1,31 @@
 {
   "version": 1,
   "decisions": {
+    "d6734aa8538ded98a47de9dc9d1e3d175c335f1bc6075a49a8378ac8452b3a73": {
+      "decisionKey": "d6734aa8538ded98a47de9dc9d1e3d175c335f1bc6075a49a8378ac8452b3a73",
+      "status": "rejected",
+      "reason": "The candidate is a short price movement report on Bitcoin reaching $70,000, with no specific catalysts or analysis. It lacks substantive information for the crypto industry audience and aligns with price-focused news that the guidelines advise ignoring.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T00:00:51.716Z"
+    },
+    "c983930bf65e6c7c26a3f35fb410afe9e2804a0e7c55ccfb3bced457c7610a72": {
+      "decisionKey": "c983930bf65e6c7c26a3f35fb410afe9e2804a0e7c55ccfb3bced457c7610a72",
+      "status": "rejected",
+      "reason": "该候选是比特币短期价格波动的新闻报道，属于低价值市场行情播报，无重大政策、协议升级、安全事件或市场结构性变化，对加密行业受众缺乏实质性信息增量。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T00:00:51.716Z"
+    },
+    "7d8375c78978179bf6c586699d7ef2b48aa28e86130d5100c1d33ef8b2dd3b83": {
+      "decisionKey": "7d8375c78978179bf6c586699d7ef2b48aa28e86130d5100c1d33ef8b2dd3b83",
+      "status": "published",
+      "reason": "来源为可信媒体The Block，内容涉及美国参议员关于加密法案（Clarity Act）的最新表态，属于监管政策动态，对加密行业有明确影响和信息增量。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T00:00:51.716Z",
+      "bCommitSha": "52239dd5787042dde60db6607622f533ffc454e6"
+    },
     "e311fcf98e719c03d8d4ae0968876715344bf2704c1fcf9eb5b8130960b093fd": {
       "decisionKey": "e311fcf98e719c03d8d4ae0968876715344bf2704c1fcf9eb5b8130960b093fd",
       "status": "rejected",
@@ -7275,18 +7300,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-19T22:00:52.804Z",
-    "https://cointelegraph.com/rss": "2026-08-19T22:00:52.804Z",
-    "https://decrypt.co/feed": "2026-08-19T22:00:52.804Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-19T22:00:52.804Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-19T22:00:52.804Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-19T22:00:52.804Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-19T22:00:52.804Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-19T22:00:52.804Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-19T22:00:52.804Z",
-    "https://solana.com/rss.xml": "2026-08-19T22:00:52.804Z",
-    "https://slowmist.medium.com/feed": "2026-08-19T22:00:52.804Z",
-    "https://www.theblock.co/rss.xml": "2026-08-19T22:00:52.804Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T00:00:51.716Z",
+    "https://cointelegraph.com/rss": "2026-08-20T00:00:51.716Z",
+    "https://decrypt.co/feed": "2026-08-20T00:00:51.716Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T00:00:51.716Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T00:00:51.716Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T00:00:51.716Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-20T00:00:51.716Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-20T00:00:51.716Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-20T00:00:51.716Z",
+    "https://solana.com/rss.xml": "2026-08-20T00:00:51.716Z",
+    "https://slowmist.medium.com/feed": "2026-08-20T00:00:51.716Z",
+    "https://www.theblock.co/rss.xml": "2026-08-20T00:00:51.716Z"
   },
-  "lastRunAt": "2026-08-19T22:00:52.804Z"
+  "lastRunAt": "2026-08-20T00:00:51.716Z"
 }
