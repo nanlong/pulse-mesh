@@ -1,6 +1,104 @@
 {
   "version": 1,
   "decisions": {
+    "e529d484c39365b1dea1a5dbe7a9afaf29fe3560f05c9b9b7326a2081ca0ae03": {
+      "decisionKey": "e529d484c39365b1dea1a5dbe7a9afaf29fe3560f05c9b9b7326a2081ca0ae03",
+      "status": "published",
+      "reason": "Real news from The Block reporting a specific regulatory claim by Securitize about SEC delaying a crypto exemption due to political considerations around the Clarity Act. Relevant for crypto industry watchers tracking regulatory and political developments.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z",
+      "bCommitSha": "4d1e6d06e6d977878e59bf9ca43820f11ba8955b"
+    },
+    "d4c132219345687725faec4b670d17eec3fb1c1f8c27730e01425d1b188a13ea": {
+      "decisionKey": "d4c132219345687725faec4b670d17eec3fb1c1f8c27730e01425d1b188a13ea",
+      "status": "rejected",
+      "reason": "来源为 Coindesk，主题涉及美国 Clarity Act 监管预期、比特币市场表现及 AI 资金向加密资产轮动，包含 OKX Europe CEO 的具体观点，对加密行业受众有政策与市场信息价值；但内容以观点和预期为主，缺少具体数据或已确认的新事件，因此评分中等。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z"
+    },
+    "b970d40bcfe1682d8a606baaca60e1a6648e72baf968a644ef5b08527aee3bdb": {
+      "decisionKey": "b970d40bcfe1682d8a606baaca60e1a6648e72baf968a644ef5b08527aee3bdb",
+      "status": "published",
+      "reason": "Optimism治理决策将大规模OP代币从用户空投重新分配至基金会基金，直接影响代币持有者和生态分配，信息增量明确且来源可靠。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z",
+      "bCommitSha": "4d1e6d06e6d977878e59bf9ca43820f11ba8955b"
+    },
+    "ac23d644650813928abc8643c8cd8e3e36a5bd54149c63ced00efc62bd92733d": {
+      "decisionKey": "ac23d644650813928abc8643c8cd8e3e36a5bd54149c63ced00efc62bd92733d",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z"
+    },
+    "a1d43a51dd5e977e3f3c3e19e884570b0507ffade7f1024c1f837c1ae73572f8": {
+      "decisionKey": "a1d43a51dd5e977e3f3c3e19e884570b0507ffade7f1024c1f837c1ae73572f8",
+      "status": "published",
+      "reason": "Evernorth, an XRP-focused treasury firm, is exploring DeFi opportunities while XRP Ledger considers native lending. This indicates potential institutional participation in DeFi and could impact XRP Ledger adoption. The report is specific and from a credible source, offering relevant market structure insight for crypto audiences.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z",
+      "bCommitSha": "4d1e6d06e6d977878e59bf9ca43820f11ba8955b"
+    },
+    "9d25867fba7ea371d44dde37c8baf321cdd28503ba032ab6bcee8217c37ddf72": {
+      "decisionKey": "9d25867fba7ea371d44dde37c8baf321cdd28503ba032ab6bcee8217c37ddf72",
+      "status": "rejected",
+      "reason": "Content is primarily price-related and lacks specific, verifiable data. The title mentions $517M inflow but the body says $1B, creating inconsistency. No clear impact on policy, protocol, security, or market structure changes. Date appears in the future, raising credibility concerns.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z"
+    },
+    "69c20a26fdbb64477d6d868320387120ab1893efdf6c6ad63b2c92e34e88c03b": {
+      "decisionKey": "69c20a26fdbb64477d6d868320387120ab1893efdf6c6ad63b2c92e34e88c03b",
+      "status": "rejected",
+      "reason": "该候选内容聚焦于比特币价格突破和空头清算，属于价格波动和交易行为报道，未涉及重要政策、协议升级、安全事件或市场结构变化，对加密行业受众的信息增量有限，且存在价格喊单风险。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z"
+    },
+    "3534842411298b00eb55fe77c4f66c755d62f4cdc6afb4844e609b6567a1f263": {
+      "decisionKey": "3534842411298b00eb55fe77c4f66c755d62f4cdc6afb4844e609b6567a1f263",
+      "status": "rejected",
+      "reason": "The candidate is an opinion statement rather than a verifiable news event, and the publication date is in the future, indicating it may be a placeholder or test content. No concrete data, policy, protocol change, or market structure impact is provided.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z"
+    },
+    "34c605b3ad85c387bac94b7ecfe540085dab207824ac414e94caffcf0bd2f28e": {
+      "decisionKey": "34c605b3ad85c387bac94b7ecfe540085dab207824ac414e94caffcf0bd2f28e",
+      "status": "rejected",
+      "reason": "Real CoinDesk report with specific onchain data about XRP activity concentration and a notable price move; relevant to crypto market observers but not a major structural/protocol event.",
+      "score": 0.6,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z"
+    },
+    "19b9b3f75d5714673e539399390792f06ce6411f3350cad1a3ccf5bd534b2446": {
+      "decisionKey": "19b9b3f75d5714673e539399390792f06ce6411f3350cad1a3ccf5bd534b2446",
+      "status": "rejected",
+      "reason": "内容涉及警务监控技术，与加密行业的政策、协议、安全事件或市场结构无关，对加密受众缺乏明确影响和信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z"
+    },
+    "08f7bcbeceb9fe19ad3a381913ef42e698604819d4a22c1e30757edf07974fe4": {
+      "decisionKey": "08f7bcbeceb9fe19ad3a381913ef42e698604819d4a22c1e30757edf07974fe4",
+      "status": "rejected",
+      "reason": "Webull's Q2 revenue disclosure shows crypto trading accounted for only ~1% of total revenue, which is a minor financial detail with limited direct impact on the crypto industry. It does not represent a significant policy, protocol, security, or market structure development.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z"
+    },
+    "0195b3686b0b4af26383ad78961cce493aa029a53477e3df160001240fd2b5d0": {
+      "decisionKey": "0195b3686b0b4af26383ad78961cce493aa029a53477e3df160001240fd2b5d0",
+      "status": "rejected",
+      "reason": "The candidate is a single high-level quote from GSR's managing director about tokenized fixed income and institutional collateral, but it lacks specific data, events, or concrete analysis. It provides minimal information increment for crypto industry readers and resembles commentary or promotional soundbite rather than a substantive news item. The source is credible, but the content is too thin to meet the importance threshold.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T12:00:50.336Z"
+    },
     "fea08cc1232fb65ce2884d50cbe8a7bdcf7be65dbe2bbf86e9f7ba942a3a3867": {
       "decisionKey": "fea08cc1232fb65ce2884d50cbe8a7bdcf7be65dbe2bbf86e9f7ba942a3a3867",
       "status": "rejected",
@@ -7413,18 +7511,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T10:05:51.860Z",
-    "https://cointelegraph.com/rss": "2026-08-20T10:05:51.860Z",
-    "https://decrypt.co/feed": "2026-08-20T10:05:51.860Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T10:05:51.860Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T10:05:51.860Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T10:05:51.860Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-20T10:05:51.860Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-20T10:05:51.860Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-20T10:05:51.860Z",
-    "https://solana.com/rss.xml": "2026-08-20T10:05:51.860Z",
-    "https://slowmist.medium.com/feed": "2026-08-20T10:05:51.860Z",
-    "https://www.theblock.co/rss.xml": "2026-08-20T10:05:51.860Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T12:00:50.336Z",
+    "https://cointelegraph.com/rss": "2026-08-20T12:00:50.336Z",
+    "https://decrypt.co/feed": "2026-08-20T12:00:50.336Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T12:00:50.336Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T12:00:50.336Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T12:00:50.336Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-20T12:00:50.336Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-20T12:00:50.336Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-20T12:00:50.336Z",
+    "https://solana.com/rss.xml": "2026-08-20T12:00:50.336Z",
+    "https://slowmist.medium.com/feed": "2026-08-20T12:00:50.336Z",
+    "https://www.theblock.co/rss.xml": "2026-08-20T12:00:50.336Z"
   },
-  "lastRunAt": "2026-08-20T10:05:51.860Z"
+  "lastRunAt": "2026-08-20T12:00:50.336Z"
 }
