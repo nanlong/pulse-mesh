@@ -1,6 +1,49 @@
 {
   "version": 1,
   "decisions": {
+    "f33bf3af5bf34d21b30353b7859f8425e1d274a755c0d26b297d1576882e41e4": {
+      "decisionKey": "f33bf3af5bf34d21b30353b7859f8425e1d274a755c0d26b297d1576882e41e4",
+      "status": "published",
+      "reason": "Rapid7披露的加密钓鱼活动涉及88.5万电话号码，来源权威（Cointelegraph报道安全公司），对加密用户资产安全有直接影响，属于重要的安全事件，具有信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T14:00:53.301Z",
+      "bCommitSha": "f64f4d23e9a1adc8d54cfb0e9fd91e7ce846f43d"
+    },
+    "d1f29748c0bc6ee3e262a556d789d385b71e2c0e26c86077ed0a0d70b36465ba": {
+      "decisionKey": "d1f29748c0bc6ee3e262a556d789d385b71e2c0e26c86077ed0a0d70b36465ba",
+      "status": "published",
+      "reason": "该候选为Cointelegraph真实新闻报道，涉及欧盟MiCA监管对USDT的影响及全球需求变化，包含具体主体、事件、时间与市场数据，对加密行业受众具有明确的信息增量和政策影响，非营销或传闻。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T14:00:53.301Z",
+      "bCommitSha": "f64f4d23e9a1adc8d54cfb0e9fd91e7ce846f43d"
+    },
+    "9f5763e36457e2d96b20e4007e2352e1e9d428d365b01d4515fe7ac4041e1c79": {
+      "decisionKey": "9f5763e36457e2d96b20e4007e2352e1e9d428d365b01d4515fe7ac4041e1c79",
+      "status": "rejected",
+      "reason": "内容过于笼统，仅说明诈骗者冒充合规服务，缺乏具体事件、数据或可核验细节，信息增量不足，属于一般性警告而非重要新闻。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T14:00:53.301Z"
+    },
+    "9e5e116d1707063b804e0052c935a979d5b9801c993fb7f4cbd72a9ab4a8bfcf": {
+      "decisionKey": "9e5e116d1707063b804e0052c935a979d5b9801c993fb7f4cbd72a9ab4a8bfcf",
+      "status": "rejected",
+      "reason": "内容为Chainlink高管对AI代理和机器人驱动区块链交易的展望性评论，缺乏具体事件、数据或可核验的实质进展，属于观点/预测类内容，对加密行业受众的信息增量有限。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T14:00:53.301Z"
+    },
+    "07dfcacff0e3294bd09a8c50a1d03fae7d13804382b8b28b6f80513a3d8b29d4": {
+      "decisionKey": "07dfcacff0e3294bd09a8c50a1d03fae7d13804382b8b28b6f80513a3d8b29d4",
+      "status": "published",
+      "reason": "Bitdeer作为知名加密矿企签署4亿美元AI云算力协议，涉及马来西亚设施和350MW目标，属于矿业企业战略多元化的重要市场信号，对加密行业具有信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T14:00:53.301Z",
+      "bCommitSha": "f64f4d23e9a1adc8d54cfb0e9fd91e7ce846f43d"
+    },
     "e529d484c39365b1dea1a5dbe7a9afaf29fe3560f05c9b9b7326a2081ca0ae03": {
       "decisionKey": "e529d484c39365b1dea1a5dbe7a9afaf29fe3560f05c9b9b7326a2081ca0ae03",
       "status": "published",
@@ -7511,18 +7554,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T12:00:50.336Z",
-    "https://cointelegraph.com/rss": "2026-08-20T12:00:50.336Z",
-    "https://decrypt.co/feed": "2026-08-20T12:00:50.336Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T12:00:50.336Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T12:00:50.336Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T12:00:50.336Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-20T12:00:50.336Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-20T12:00:50.336Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-20T12:00:50.336Z",
-    "https://solana.com/rss.xml": "2026-08-20T12:00:50.336Z",
-    "https://slowmist.medium.com/feed": "2026-08-20T12:00:50.336Z",
-    "https://www.theblock.co/rss.xml": "2026-08-20T12:00:50.336Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T14:00:53.301Z",
+    "https://cointelegraph.com/rss": "2026-08-20T14:00:53.301Z",
+    "https://decrypt.co/feed": "2026-08-20T14:00:53.301Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T14:00:53.301Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T14:00:53.301Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T14:00:53.301Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-20T14:00:53.301Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-20T14:00:53.301Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-20T14:00:53.301Z",
+    "https://solana.com/rss.xml": "2026-08-20T14:00:53.301Z",
+    "https://slowmist.medium.com/feed": "2026-08-20T14:00:53.301Z",
+    "https://www.theblock.co/rss.xml": "2026-08-20T14:00:53.301Z"
   },
-  "lastRunAt": "2026-08-20T12:00:50.336Z"
+  "lastRunAt": "2026-08-20T14:00:53.301Z"
 }
