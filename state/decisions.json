@@ -1,6 +1,40 @@
 {
   "version": 1,
   "decisions": {
+    "d68f8d20eabaeea3f682bbeacd5095160b901e2f07877f2cf349c543daff9b46": {
+      "decisionKey": "d68f8d20eabaeea3f682bbeacd5095160b901e2f07877f2cf349c543daff9b46",
+      "status": "published",
+      "reason": "This is a credible, verifiable news report from CoinDesk about a record $2.74 billion short liquidation event as Bitcoin approaches $70,000. It provides specific data and a clear market-structure impact for crypto traders, making it newsworthy and informative.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T06:00:49.300Z",
+      "bCommitSha": "631ea13a12173b5117adff413066944a609cb3e3"
+    },
+    "68aa225012f6dabdecfd00b18037ba8fdf65bcd2f6b2feddf5a880a33aa17cfe": {
+      "decisionKey": "68aa225012f6dabdecfd00b18037ba8fdf65bcd2f6b2feddf5a880a33aa17cfe",
+      "status": "rejected",
+      "reason": "The candidate is a real news report from Cointelegraph about a specific legislative development (CLARITY Act) involving a named official (Gallego) and a concrete timeline (September vote). It concerns crypto regulation, which is of direct interest to the crypto industry. The information is newsworthy and provides a clear update on potential legislative impact.",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T06:00:49.300Z"
+    },
+    "0f2d58a8444f43289909978f88831d439a966e18451b5b9111268e9c8219c980": {
+      "decisionKey": "0f2d58a8444f43289909978f88831d439a966e18451b5b9111268e9c8219c980",
+      "status": "published",
+      "reason": "来源于CoinDesk真实公开新闻，具体描述交易者因以太坊价格飙升被强制平仓损失2400万美元的事件，包含具体主体、时间、金额，涉及加密市场杠杆清算的结构性影响，对加密行业受众有一定信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T06:00:49.300Z",
+      "bCommitSha": "631ea13a12173b5117adff413066944a609cb3e3"
+    },
+    "003984deafceb2744e9da933d0b2175d140c80fdd61d1be529b2334bf7c2035b": {
+      "decisionKey": "003984deafceb2744e9da933d0b2175d140c80fdd61d1be529b2334bf7c2035b",
+      "status": "rejected",
+      "reason": "该候选内容为加密货币市场价格波动的报道，属于价格喊单类信息，未涉及重要政策、协议升级、安全事件或市场结构变化，对目标受众缺乏明确的信息增量和持久价值，因此不予发布。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T06:00:49.300Z"
+    },
     "011c426d5e0fb0e1bb2613d0143c9a39e0ccff8d3e86e7d58875ba64370cd423": {
       "decisionKey": "011c426d5e0fb0e1bb2613d0143c9a39e0ccff8d3e86e7d58875ba64370cd423",
       "status": "published",
@@ -7309,18 +7343,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T04:00:50.628Z",
-    "https://cointelegraph.com/rss": "2026-08-20T04:00:50.628Z",
-    "https://decrypt.co/feed": "2026-08-20T04:00:50.628Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T04:00:50.628Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T04:00:50.628Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T04:00:50.628Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-20T04:00:50.628Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-20T04:00:50.628Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-20T04:00:50.628Z",
-    "https://solana.com/rss.xml": "2026-08-20T04:00:50.628Z",
-    "https://slowmist.medium.com/feed": "2026-08-20T04:00:50.628Z",
-    "https://www.theblock.co/rss.xml": "2026-08-20T04:00:50.628Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T06:00:49.300Z",
+    "https://cointelegraph.com/rss": "2026-08-20T06:00:49.300Z",
+    "https://decrypt.co/feed": "2026-08-20T06:00:49.300Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T06:00:49.300Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T06:00:49.300Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T06:00:49.300Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-20T06:00:49.300Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-20T06:00:49.300Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-20T06:00:49.300Z",
+    "https://solana.com/rss.xml": "2026-08-20T06:00:49.300Z",
+    "https://slowmist.medium.com/feed": "2026-08-20T06:00:49.300Z",
+    "https://www.theblock.co/rss.xml": "2026-08-20T06:00:49.300Z"
   },
-  "lastRunAt": "2026-08-20T04:00:50.628Z"
+  "lastRunAt": "2026-08-20T06:00:49.300Z"
 }
