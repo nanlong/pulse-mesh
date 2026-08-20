@@ -186,7 +186,7 @@ GitHub Actions 手动触发的非敏感输入
 
 Secret 只能来自 GitHub Secrets 或本地环境，不得进入默认配置、日志、artifact、A 的状态文件或 B。
 
-定时入口由最小 Cloudflare Worker 负责，Cron 固定在 `scheduler/wrangler.toml`，当前为每 2 小时一次。GitHub Actions 只接受对应的 `repository_dispatch` 和手动触发，避免两套定时器重复执行。目标仓库、事件类型和令牌仍由 Cloudflare 运行时绑定提供，不写入 Worker 代码。
+生产定时入口由 GitHub Actions 负责，使用 `Asia/Shanghai` 时区每天 20:00 运行。`scheduler/wrangler.toml` 将 Cloudflare Cron 设为空数组，GitHub workflow 也不再接收 `repository_dispatch`，避免旧 Worker 定时器造成重复执行。Worker 源码保留，目标仓库、事件类型和令牌仍由 Cloudflare 运行时绑定提供，不写入 Worker 代码。
 
 ## 5. Prompt 与多语言
 
@@ -399,7 +399,7 @@ A 内只维护一个受信任的 `editorial` Astro 模板。用户创建空 B �
 
 支持：
 
-- Cloudflare Cron 触发的 `repository_dispatch`；
+- GitHub Actions 使用 `Asia/Shanghai` 时区每天 20:00 定时触发；
 - `workflow_dispatch`；
 - concurrency group，保证同一目标仓库只有一个运行；
 - 一个业务 job；

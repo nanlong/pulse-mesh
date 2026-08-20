@@ -50,7 +50,7 @@ bun run action:local -- --mode=run --preview
 
 ## 工作流
 
-`.github/workflows/publish.yml` 是 A 的唯一业务 workflow，支持定时和手动触发。空 B 初始化可使用 `workflow_dispatch` 的 `bootstrap` 模式；普通运行按以下顺序工作：
+`.github/workflows/publish.yml` 是 A 的唯一业务 workflow，每天北京时间 20:00 定时运行，并支持手动触发。空 B 初始化可使用 `workflow_dispatch` 的 `bootstrap` 模式；普通运行按以下顺序工作：
 
 ```text
 采集 → 归一化 → 确定性去重 → 最近优先与运行上限 → 硬过滤 → AI Gate → 多语言生成 → 校验 → 推送 B

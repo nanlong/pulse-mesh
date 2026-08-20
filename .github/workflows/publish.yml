@@ -1,8 +1,9 @@
 name: Generate and publish
 
 on:
-  repository_dispatch:
-    types: [pulse-mesh-schedule]
+  schedule:
+    - cron: '0 20 * * *'
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:
     inputs:
       mode:
