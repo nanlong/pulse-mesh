@@ -1,6 +1,49 @@
 {
   "version": 1,
   "decisions": {
+    "fea08cc1232fb65ce2884d50cbe8a7bdcf7be65dbe2bbf86e9f7ba942a3a3867": {
+      "decisionKey": "fea08cc1232fb65ce2884d50cbe8a7bdcf7be65dbe2bbf86e9f7ba942a3a3867",
+      "status": "rejected",
+      "reason": "The candidate relies on an anonymous source and provides only vague, unverified details about X exploring stablecoin payments. It lacks concrete subjects, dates, or data, and does not meet the evidence bar for a significant market event. It is effectively a rumor with insufficient substantiation.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T10:05:51.860Z"
+    },
+    "f0b101a44e14d67f6257b381e70571866a5315a7fe80b7e5c44635744de4b99b": {
+      "decisionKey": "f0b101a44e14d67f6257b381e70571866a5315a7fe80b7e5c44635744de4b99b",
+      "status": "published",
+      "reason": "BitGo securing a virtual asset license in South Korea is a significant regulatory milestone and market structure event for the crypto industry, with clear institutional implications. The source is credible and the content is specific and verifiable.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T10:05:51.860Z",
+      "bCommitSha": "e666632834bd80e4e9cb93ceabf3db3ed4eaff30"
+    },
+    "a5f069743a14795bfa200e479705a3db71701164b1921c6d5f59c366c4d2e8df": {
+      "decisionKey": "a5f069743a14795bfa200e479705a3db71701164b1921c6d5f59c366c4d2e8df",
+      "status": "published",
+      "reason": "The candidate is from a reputable crypto news source (Decrypt), covers concrete regulatory developments on stablecoins by the OCC, includes specific official statements and deadlines. This is important policy news affecting the crypto industry.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T10:05:51.860Z",
+      "bCommitSha": "e666632834bd80e4e9cb93ceabf3db3ed4eaff30"
+    },
+    "8cba253e3a25044e8849c8305bf518f86e59360f22ad8d690882fc9967caa964": {
+      "decisionKey": "8cba253e3a25044e8849c8305bf518f86e59360f22ad8d690882fc9967caa964",
+      "status": "rejected",
+      "reason": "内容仅为比特币价格走势和个别股票上涨的概括性描述，缺乏具体数据、政策、协议或安全事件等对加密行业有明确影响的信息增量，属于价格行情类低价值内容。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T10:05:51.860Z"
+    },
+    "63b85e6604d8d211a34b4bb22437357b0bfff1af06a7df4f3993c1816609294f": {
+      "decisionKey": "63b85e6604d8d211a34b4bb22437357b0bfff1af06a7df4f3993c1816609294f",
+      "status": "published",
+      "reason": "GnosisDAO 批准 Gnosis Chain 过渡到 EEZ rollup，直接结算至以太坊，属于重要的协议架构升级，对 Gnosis 生态和以太坊 rollup 格局有明确影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T10:05:51.860Z",
+      "bCommitSha": "e666632834bd80e4e9cb93ceabf3db3ed4eaff30"
+    },
     "d8fdff65d30c8906362541811e2aae98caf7c970d280a3f5a2571efe616f1462": {
       "decisionKey": "d8fdff65d30c8906362541811e2aae98caf7c970d280a3f5a2571efe616f1462",
       "status": "published",
@@ -7370,18 +7413,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T08:00:53.545Z",
-    "https://cointelegraph.com/rss": "2026-08-20T08:00:53.545Z",
-    "https://decrypt.co/feed": "2026-08-20T08:00:53.545Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T08:00:53.545Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T08:00:53.545Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T08:00:53.545Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-20T08:00:53.545Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-20T08:00:53.545Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-20T08:00:53.545Z",
-    "https://solana.com/rss.xml": "2026-08-20T08:00:53.545Z",
-    "https://slowmist.medium.com/feed": "2026-08-20T08:00:53.545Z",
-    "https://www.theblock.co/rss.xml": "2026-08-20T08:00:53.545Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T10:05:51.860Z",
+    "https://cointelegraph.com/rss": "2026-08-20T10:05:51.860Z",
+    "https://decrypt.co/feed": "2026-08-20T10:05:51.860Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T10:05:51.860Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T10:05:51.860Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T10:05:51.860Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-20T10:05:51.860Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-20T10:05:51.860Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-20T10:05:51.860Z",
+    "https://solana.com/rss.xml": "2026-08-20T10:05:51.860Z",
+    "https://slowmist.medium.com/feed": "2026-08-20T10:05:51.860Z",
+    "https://www.theblock.co/rss.xml": "2026-08-20T10:05:51.860Z"
   },
-  "lastRunAt": "2026-08-20T08:00:53.545Z"
+  "lastRunAt": "2026-08-20T10:05:51.860Z"
 }
