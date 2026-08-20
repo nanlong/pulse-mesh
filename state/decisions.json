@@ -1,6 +1,33 @@
 {
   "version": 1,
   "decisions": {
+    "d8fdff65d30c8906362541811e2aae98caf7c970d280a3f5a2571efe616f1462": {
+      "decisionKey": "d8fdff65d30c8906362541811e2aae98caf7c970d280a3f5a2571efe616f1462",
+      "status": "published",
+      "reason": "The candidate reports a concrete, verifiable market data event: $517 million in spot bitcoin ETF inflows and $189 million in ether ETF inflows on a specific date, with a clear market impact signal for crypto investors. The source is a reputable news outlet (CoinDesk), and the content is based on real, accessible market data rather than speculation or marketing.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T08:00:53.545Z",
+      "bCommitSha": "c8da0e9e42a0ca15bd0def1a83e9a6c3fa1f5890"
+    },
+    "cc89b2ac5043f98da42005579359df6cea2a6d4d85850967283ece3066c1394d": {
+      "decisionKey": "cc89b2ac5043f98da42005579359df6cea2a6d4d85850967283ece3066c1394d",
+      "status": "published",
+      "reason": "明确报道现货比特币ETF单日净流入5.17亿美元（3.5个月来最大），并给出市场驱动因素，数据具体、来源真实，对加密市场投资者具有信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T08:00:53.545Z",
+      "bCommitSha": "c8da0e9e42a0ca15bd0def1a83e9a6c3fa1f5890"
+    },
+    "a7b5e7c2083283646dd126719a2fe37105b3b599fc40ff53a4eda808d1c110be": {
+      "decisionKey": "a7b5e7c2083283646dd126719a2fe37105b3b599fc40ff53a4eda808d1c110be",
+      "status": "published",
+      "reason": "BitGo Korea 获得 VASP 注册，是机构托管在韩国监管准入的实质进展，对加密行业有明确影响，信息具体且来自可信来源。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-20T08:00:53.545Z",
+      "bCommitSha": "c8da0e9e42a0ca15bd0def1a83e9a6c3fa1f5890"
+    },
     "d68f8d20eabaeea3f682bbeacd5095160b901e2f07877f2cf349c543daff9b46": {
       "decisionKey": "d68f8d20eabaeea3f682bbeacd5095160b901e2f07877f2cf349c543daff9b46",
       "status": "published",
@@ -7343,18 +7370,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T06:00:49.300Z",
-    "https://cointelegraph.com/rss": "2026-08-20T06:00:49.300Z",
-    "https://decrypt.co/feed": "2026-08-20T06:00:49.300Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T06:00:49.300Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T06:00:49.300Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T06:00:49.300Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-20T06:00:49.300Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-20T06:00:49.300Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-20T06:00:49.300Z",
-    "https://solana.com/rss.xml": "2026-08-20T06:00:49.300Z",
-    "https://slowmist.medium.com/feed": "2026-08-20T06:00:49.300Z",
-    "https://www.theblock.co/rss.xml": "2026-08-20T06:00:49.300Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T08:00:53.545Z",
+    "https://cointelegraph.com/rss": "2026-08-20T08:00:53.545Z",
+    "https://decrypt.co/feed": "2026-08-20T08:00:53.545Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T08:00:53.545Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T08:00:53.545Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T08:00:53.545Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-20T08:00:53.545Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-20T08:00:53.545Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-20T08:00:53.545Z",
+    "https://solana.com/rss.xml": "2026-08-20T08:00:53.545Z",
+    "https://slowmist.medium.com/feed": "2026-08-20T08:00:53.545Z",
+    "https://www.theblock.co/rss.xml": "2026-08-20T08:00:53.545Z"
   },
-  "lastRunAt": "2026-08-20T06:00:49.300Z"
+  "lastRunAt": "2026-08-20T08:00:53.545Z"
 }
