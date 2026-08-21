@@ -1,6 +1,173 @@
 {
   "version": 1,
   "decisions": {
+    "fe584582a1ac4da6ea394916d3fe72e372726571b39fb75309b97079d49c6c57": {
+      "decisionKey": "fe584582a1ac4da6ea394916d3fe72e372726571b39fb75309b97079d49c6c57",
+      "status": "rejected",
+      "reason": "该候选为比特币价格走势的技术分析报道，缺乏具体政策、协议升级或安全事件等对加密行业具有明确信息增量的内容，属于价格行情类信息，可能引发追涨情绪，不符合重要发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "fbb6b9b6bf4755235d5942a0ea6bb0e37ec7770c3da6073e952c5098027ef3a4": {
+      "decisionKey": "fbb6b9b6bf4755235d5942a0ea6bb0e37ec7770c3da6073e952c5098027ef3a4",
+      "status": "published",
+      "reason": "Cointelegraph新闻报道Strategy（MicroStrategy）的比特币财政部在BTC价格突破77,000美元后达到盈亏平衡点，同时比特币两天内上涨20%。该事件对加密行业具有明确影响，涉及机构持仓变化和市场重要价格动态，提供具体主体、事件和数据，非重复转载或营销内容。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z",
+      "bCommitSha": "f21dfa3b0b393c555fb5e5bb9ba2d0dd4ac5743a"
+    },
+    "ede1e6eed81395ec4a0ed989bfaf63f771d28d1a2322536974ef7ce63ddf7bcf": {
+      "decisionKey": "ede1e6eed81395ec4a0ed989bfaf63f771d28d1a2322536974ef7ce63ddf7bcf",
+      "status": "rejected",
+      "reason": "Reuters/Ipsos poll provides concrete data on public perception of Trump family crypto profits, a relevant governance/regulatory risk signal for crypto industry.",
+      "score": 0.68,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "e2876183de79ae94f89660ae64cdaa5bc1361c036b019ae1366e4ee0aeab850a": {
+      "decisionKey": "e2876183de79ae94f89660ae64cdaa5bc1361c036b019ae1366e4ee0aeab850a",
+      "status": "rejected",
+      "reason": "该候选内容为比特币价格走势的分析观点，缺乏具体主体、事件或可核验数据，属于市场评论和价格讨论，未涉及重要政策、协议升级、安全事件或明确市场结构变化，且对加密行业受众的信息增量有限，存在价格喊单和低价值营销的倾向。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "d1150c8cb3071dc5662ddca4a6b4684a71b428b21aa640685395fb062084726d": {
+      "decisionKey": "d1150c8cb3071dc5662ddca4a6b4684a71b428b21aa640685395fb062084726d",
+      "status": "published",
+      "reason": "The Block is a reputable crypto news source. The report covers a concrete data point (273% volume spike on Upbit) and a significant market trend (South Korean investor re-entry), which is of clear relevance to crypto market structure and adoption.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z",
+      "bCommitSha": "f21dfa3b0b393c555fb5e5bb9ba2d0dd4ac5743a"
+    },
+    "c4f7a0c7022feebcba54a5524f963ece9c8a36c0fe2d8aa48c160e835326b1b7": {
+      "decisionKey": "c4f7a0c7022feebcba54a5524f963ece9c8a36c0fe2d8aa48c160e835326b1b7",
+      "status": "rejected",
+      "reason": "内容为Ava Labs高管个人观点，缺乏具体事件、数据或可核验的实质信息，未涉及重要政策、协议升级、安全事件或市场结构变化，对加密行业受众信息增量有限。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "b3f79ba3d214e68ba71b12dced80c023f454f9f05b67405c267a764d5b0edfef": {
+      "decisionKey": "b3f79ba3d214e68ba71b12dced80c023f454f9f05b67405c267a764d5b0edfef",
+      "status": "rejected",
+      "reason": "内容为银行分析师的比特币价格预测，属于价格喊单而非由具体事件或数据支撑的新闻，对加密行业受众缺乏实质信息增量。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "b3bb47eab0a7a5744d0aba233a3ace6df9538ce6cc02e7436296b16d0a742302": {
+      "decisionKey": "b3bb47eab0a7a5744d0aba233a3ace6df9538ce6cc02e7436296b16d0a742302",
+      "status": "published",
+      "reason": "Coldcard 固件更新与 1.14 亿美元比特币被盗事件相关，属于针对加密硬件钱包的安全事件，对用户资产安全有直接影响，且来源为公开可核验的 CoinDesk 报道，具备明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z",
+      "bCommitSha": "f21dfa3b0b393c555fb5e5bb9ba2d0dd4ac5743a"
+    },
+    "8de3566232e02e47cfc58bdc529bd50b138461c576721e37752b7d6f7273e658": {
+      "decisionKey": "8de3566232e02e47cfc58bdc529bd50b138461c576721e37752b7d6f7273e658",
+      "status": "rejected",
+      "reason": "候选内容缺乏具体主体、事件、数据或时间细节，仅笼统提及财政部措施和比特币上涨，无法核验实质性信息，证据不足。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "785dc45a2e8c0235de48b58dec4f6b131f36c6044710fe6754bdd06e848e71dc": {
+      "decisionKey": "785dc45a2e8c0235de48b58dec4f6b131f36c6044710fe6754bdd06e848e71dc",
+      "status": "rejected",
+      "reason": "Bernstein research on Bitcoin's liquidity-driven momentum shift, citing ETF flow rebound and Strategy's holdings above average purchase price, offers actionable market structure insights for crypto investors.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "71e5702214bbbef38bca9329caaa6ac2ebd8e1ff36a6edd502befa7649b8de9f": {
+      "decisionKey": "71e5702214bbbef38bca9329caaa6ac2ebd8e1ff36a6edd502befa7649b8de9f",
+      "status": "rejected",
+      "reason": "The candidate is an opinion/commentary piece from an STS Digital CEO about crypto prices versus institutional adoption. It does not report a specific policy, protocol upgrade, security event, or verified market structure change. The content lacks concrete data and is primarily a subjective market outlook, offering limited information increment for the audience.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "60797aa4cfe13679784c53df2286c6e38b301bd826e19e3dd275643174ae8ec8": {
+      "decisionKey": "60797aa4cfe13679784c53df2286c6e38b301bd826e19e3dd275643174ae8ec8",
+      "status": "published",
+      "reason": "这是 CoinDesk 发表的观点文章，由伯克利法学院讲师撰写，针对 Clarity Act 提出其反加密的论点，为加密行业受众提供政策分析，包含明确主体和立场，具有信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z",
+      "bCommitSha": "f21dfa3b0b393c555fb5e5bb9ba2d0dd4ac5743a"
+    },
+    "5e23148f330e7a69fc7450794e0e3ce1ff78fe335b81e3f6edbefb1fdc7ded5c": {
+      "decisionKey": "5e23148f330e7a69fc7450794e0e3ce1ff78fe335b81e3f6edbefb1fdc7ded5c",
+      "status": "rejected",
+      "reason": "This is a promotional event appearance announcement from SlowMist, lacking substantive content on policy, protocol upgrades, security incidents, or market structure changes. It provides no clear information increment for the crypto industry audience.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "58c2430e6bc3718dd9214b6cf97116b2787feec9c3897fe3dab67a1f243167d6": {
+      "decisionKey": "58c2430e6bc3718dd9214b6cf97116b2787feec9c3897fe3dab67a1f243167d6",
+      "status": "rejected",
+      "reason": "该候选来自CoinDesk，为公开可核验的加密行业媒体；标题涉及Strategy（微策略）比特币持仓盈利及股价上涨，属于加密市场结构相关的重要公司动态，对加密投资者有信息增量。",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "4ab1b8f58704f30a316ece43de982a09a57690a7525c20812651560cd7652d80": {
+      "decisionKey": "4ab1b8f58704f30a316ece43de982a09a57690a7525c20812651560cd7652d80",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "14679345df591dd80de266dbcfb433522aa3de404fab8080d82b9e1663480904": {
+      "decisionKey": "14679345df591dd80de266dbcfb433522aa3de404fab8080d82b9e1663480904",
+      "status": "rejected",
+      "reason": "Coldcard firmware update addresses seed generation security, directly relevant to crypto hardware wallet users and broader industry security practices.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z"
+    },
+    "0f1cdd721694a0d3aebdedf18734839a83e7bfd527215bc0811e04f264a6cb7d": {
+      "decisionKey": "0f1cdd721694a0d3aebdedf18734839a83e7bfd527215bc0811e04f264a6cb7d",
+      "status": "published",
+      "reason": "Covers a reported 40% increase in AI adoption in crypto crime, citing TRM Labs, a real security research firm. This is concrete data on a meaningful security trend for the crypto industry, with clear impact on threat modeling and risk awareness.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z",
+      "bCommitSha": "f21dfa3b0b393c555fb5e5bb9ba2d0dd4ac5743a"
+    },
+    "07d2a8147b7587e88403f4cb8efcaaf1ec88ab95bb14959f09f0a180e5d61c1d": {
+      "decisionKey": "07d2a8147b7587e88403f4cb8efcaaf1ec88ab95bb14959f09f0a180e5d61c1d",
+      "status": "published",
+      "reason": "真实来源，具体事件（日本四年内首个加密批准），涉及政策监管和机构采用，对加密行业有明确信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z",
+      "bCommitSha": "f21dfa3b0b393c555fb5e5bb9ba2d0dd4ac5743a"
+    },
+    "02f25dfb430bcd12192a09a6ef6564ad468f9e72fd43e86a5c6914762e365fca": {
+      "decisionKey": "02f25dfb430bcd12192a09a6ef6564ad468f9e72fd43e86a5c6914762e365fca",
+      "status": "published",
+      "reason": "报道了比特币和以太坊ETF的重大资金流入，8月总额达20.7亿美元创2026年新高，反映机构需求增强，对加密市场结构有明确影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z",
+      "bCommitSha": "f21dfa3b0b393c555fb5e5bb9ba2d0dd4ac5743a"
+    },
+    "016635e637b9add7c322dcc41d7e7dca5f44b6d0929f94da53911a1ae669cacb": {
+      "decisionKey": "016635e637b9add7c322dcc41d7e7dca5f44b6d0929f94da53911a1ae669cacb",
+      "status": "published",
+      "reason": "Decrypt reports Binance launching Agent OS, integrating AI agents with exchange trading while keeping agents separated from user funds. This is a concrete product/ecosystem development with direct relevance to crypto traders and AI-agent infrastructure.",
+      "score": 0.88,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-21T12:24:20.223Z",
+      "bCommitSha": "f21dfa3b0b393c555fb5e5bb9ba2d0dd4ac5743a"
+    },
     "f33bf3af5bf34d21b30353b7859f8425e1d274a755c0d26b297d1576882e41e4": {
       "decisionKey": "f33bf3af5bf34d21b30353b7859f8425e1d274a755c0d26b297d1576882e41e4",
       "status": "published",
@@ -7554,18 +7721,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-20T14:00:53.301Z",
-    "https://cointelegraph.com/rss": "2026-08-20T14:00:53.301Z",
-    "https://decrypt.co/feed": "2026-08-20T14:00:53.301Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-20T14:00:53.301Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-20T14:00:53.301Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-20T14:00:53.301Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-20T14:00:53.301Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-20T14:00:53.301Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-20T14:00:53.301Z",
-    "https://solana.com/rss.xml": "2026-08-20T14:00:53.301Z",
-    "https://slowmist.medium.com/feed": "2026-08-20T14:00:53.301Z",
-    "https://www.theblock.co/rss.xml": "2026-08-20T14:00:53.301Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-21T12:24:20.223Z",
+    "https://cointelegraph.com/rss": "2026-08-21T12:24:20.223Z",
+    "https://decrypt.co/feed": "2026-08-21T12:24:20.223Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-21T12:24:20.223Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-21T12:24:20.223Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-21T12:24:20.223Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-21T12:24:20.223Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-21T12:24:20.223Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-21T12:24:20.223Z",
+    "https://solana.com/rss.xml": "2026-08-21T12:24:20.223Z",
+    "https://slowmist.medium.com/feed": "2026-08-21T12:24:20.223Z",
+    "https://www.theblock.co/rss.xml": "2026-08-21T12:24:20.223Z"
   },
-  "lastRunAt": "2026-08-20T14:00:53.301Z"
+  "lastRunAt": "2026-08-21T12:24:20.223Z"
 }
