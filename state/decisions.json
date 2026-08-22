@@ -1,6 +1,171 @@
 {
   "version": 1,
   "decisions": {
+    "f7211bbaedab669d481336af94510b113b1fb853ff2f27fc2d471764f78b50f8": {
+      "decisionKey": "f7211bbaedab669d481336af94510b113b1fb853ff2f27fc2d471764f78b50f8",
+      "status": "published",
+      "reason": "Covers concrete U.S. regulatory developments involving Trump, SEC, and CFTC around crypto legislation, with direct relevance to crypto policy and market structure.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "ea145474fc37aacf907ddcfadf697d82f295d8500b2a4b2b6a3b7b3fae47bdfc": {
+      "decisionKey": "ea145474fc37aacf907ddcfadf697d82f295d8500b2a4b2b6a3b7b3fae47bdfc",
+      "status": "rejected",
+      "reason": "来源为CFTC官方新闻稿，真实可访问，但内容仅提及创新咨询委员会在华盛顿召开首次会议，无具体议题、成果或对加密行业的明确影响，信息增量不足。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z"
+    },
+    "b26166092ef8b309879a603c7f8e2cde9756ad069d9ef12273162d7e0f1ed50b": {
+      "decisionKey": "b26166092ef8b309879a603c7f8e2cde9756ad069d9ef12273162d7e0f1ed50b",
+      "status": "published",
+      "reason": "该候选涉及硬件钱包制造商Coinkite在经历1.3亿美元比特币漏洞利用后发布固件更新，增加了新的安全措施并修复其他问题。这是针对加密行业用户的具体安全事件，具有明确影响和新闻价值，来源为真实公开的新闻页面。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "a1535c90a60215d41f63b5155605545878d1c3e1a064c8589ab31c1e790dc97a": {
+      "decisionKey": "a1535c90a60215d41f63b5155605545878d1c3e1a064c8589ab31c1e790dc97a",
+      "status": "published",
+      "reason": "Decrypt is a real crypto news outlet; the article covers institutional accumulation, macro tailwinds, regulatory shifts, and short liquidation data—concrete market-structure factors relevant to a crypto audience. It is not a price shill or duplicate.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "8a581a3898fc70e4e16c44832285b71de1d1bbc3ece5ebd9311424a34fcfd782": {
+      "decisionKey": "8a581a3898fc70e4e16c44832285b71de1d1bbc3ece5ebd9311424a34fcfd782",
+      "status": "rejected",
+      "reason": "该候选仅为比特币和黄金的价格行情描述，属于市场噪音，缺乏对加密行业的重要影响和增量信息，不符合政策、协议升级、安全事件或市场结构变化的发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z"
+    },
+    "8510bd9c931d1ecadd83b867b878717023490d879be9e63dc489c6c09c1fb1ea": {
+      "decisionKey": "8510bd9c931d1ecadd83b867b878717023490d879be9e63dc489c6c09c1fb1ea",
+      "status": "published",
+      "reason": "该候选来自CoinDesk，属于真实加密新闻源；内容涉及国债回购调整如何推动比特币数日内上涨25%至近8万美元，包含具体事件、时间节点和市场数据（长债收益率脱离19年高位、创纪录空头挤压），对加密受众理解宏观流动性变化有明确信息增量，不属于价格喊单或重复转载。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "75cabb92a2ae92fedc5cd9ec85c9569f024cca92a705abd5e90a64365c6e7562": {
+      "decisionKey": "75cabb92a2ae92fedc5cd9ec85c9569f024cca92a705abd5e90a64365c6e7562",
+      "status": "rejected",
+      "reason": "该候选仅为市场行情价格描述，缺乏具体政策、协议升级、安全事件或市场结构变化等对加密行业有明确影响的信息，属于价格喊单类内容，不符合发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z"
+    },
+    "72f37f7ebe4a2c2850eacb97d50a4d67939c947866329edff4579905557c3009": {
+      "decisionKey": "72f37f7ebe4a2c2850eacb97d50a4d67939c947866329edff4579905557c3009",
+      "status": "published",
+      "reason": "该候选来自可信加密新闻媒体 Cointelegraph，内容为加密法律新闻周报，包含具体监管执法事件（CFTC对前Alameda/FTX高管的交易禁令）及具体案件进展，对加密行业受众具有明确的信息增量与政策影响，符合发布标准。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "663b5c7a3764462754327a193e196e3f382eaee332652c42ffa15a69fda8d052": {
+      "decisionKey": "663b5c7a3764462754327a193e196e3f382eaee332652c42ffa15a69fda8d052",
+      "status": "published",
+      "reason": "真实新闻，报道加密行业组织针对伊利诺伊州加密税的诉讼，属于重要政策动态，对行业有明确影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "6405e165ab69f99fbe2f6fc18a7543815a75bcefecf3e83187faf75cd07f060e": {
+      "decisionKey": "6405e165ab69f99fbe2f6fc18a7543815a75bcefecf3e83187faf75cd07f060e",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z"
+    },
+    "609ecde34b42a108b5ad13313dfc95d01944f094f133786afc18d2ccaaf2c312": {
+      "decisionKey": "609ecde34b42a108b5ad13313dfc95d01944f094f133786afc18d2ccaaf2c312",
+      "status": "published",
+      "reason": "该候选来自权威加密媒体 CoinDesk，内容涉及美国加密立法（Clarity Act）的关键动态，由区块链协会 CEO 提出具体论点，包含明确主体、事件和时间节点（投票前四周），对加密行业政策走向有直接影响和信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "35bd8f92caeeb06fa56bcad7aeb2f3fa7ec099410910d341cc4a0db678eaf9e1": {
+      "decisionKey": "35bd8f92caeeb06fa56bcad7aeb2f3fa7ec099410910d341cc4a0db678eaf9e1",
+      "status": "rejected",
+      "reason": "该内容为Bitget CEO对年底比特币价格区间的个人预测及对美国政府购买比特币可能性的主观怀疑，属于市场观点和价格预期，缺乏具体的政策、协议升级、安全事件或市场结构变化等实质性信息增量，且预测性质易被解读为价格喊单，不符合发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z"
+    },
+    "2b66e2cd19a38c248fd91f5098a3116933aa19397214043f02b4203fe14ad8bd": {
+      "decisionKey": "2b66e2cd19a38c248fd91f5098a3116933aa19397214043f02b4203fe14ad8bd",
+      "status": "published",
+      "reason": "该候选来自真实公开的加密新闻媒体Decrypt，内容涉及知名比特币持仓公司Strategy的未实现盈亏转变，包含具体主体、数据和事件，对加密行业受众具有明确的信息增量，非营销或价格喊单。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "2a0f491837638f9d41249ca2c6679238d52739bb84e241c82ce1c043e9056dd1": {
+      "decisionKey": "2a0f491837638f9d41249ca2c6679238d52739bb84e241c82ce1c043e9056dd1",
+      "status": "published",
+      "reason": "候选来自真实公开的CoinDesk新闻，报道Zcash价格突破800美元并首次提及Grayscale现货ETF申请进展，涉及具体主体、事件和数据。对加密行业受众具有明确信息增量，属于市场结构变化和监管进展的重要信号，而非单纯价格喊单。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "1c50c4e57282ebe0c66b8538fc147f4d0313fdd1c9be40bf15525139384c6b3d": {
+      "decisionKey": "1c50c4e57282ebe0c66b8538fc147f4d0313fdd1c9be40bf15525139384c6b3d",
+      "status": "published",
+      "reason": "Cointelegraph是真实公开新闻来源，文章包含具体主体（Ray Dalio）、观点（建议买比特币和黄金）及数据（净资产150亿美元），对加密行业投资者具有情绪与策略参考价值，属于重要的市场观点报道，非价格喊单或传闻。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "1b6849639a4bcbaddde73900eb055b181eb200225cb9bf682b0078e759bcb142": {
+      "decisionKey": "1b6849639a4bcbaddde73900eb055b181eb200225cb9bf682b0078e759bcb142",
+      "status": "published",
+      "reason": "Grayscale's amended SEC filing for a Zcash ETF is a concrete regulatory development from a credible news source (The Block), representing a significant step toward the first US Zcash ETF. This has clear implications for crypto market structure and privacy coin adoption.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "1a47177deea9044223ee6f4c8b43341974f26f18882d1431564e3af36d16d46c": {
+      "decisionKey": "1a47177deea9044223ee6f4c8b43341974f26f18882d1431564e3af36d16d46c",
+      "status": "published",
+      "reason": "来自CoinDesk的加密行业周报，涵盖比特币/以太坊空头挤压行情及马斯克X平台拟用稳定币支付创作者，属于市场结构和稳定币采用的重要动态，对加密受众有明确信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "1197e4ab41f4ae274be8f7166a871983901995345b16ab753f3fc0223a5ead2c": {
+      "decisionKey": "1197e4ab41f4ae274be8f7166a871983901995345b16ab753f3fc0223a5ead2c",
+      "status": "published",
+      "reason": "Solana 激活首次区块时间削减，属于明确的协议升级，对网络性能和用户体验有实际影响，信息来源为 Decrypt 这一真实公开媒体，具备信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
+    "08f2967a55cbc379f4f5de767a11ce5b47234f40f1d34f0851803d18c7a67ebe": {
+      "decisionKey": "08f2967a55cbc379f4f5de767a11ce5b47234f40f1d34f0851803d18c7a67ebe",
+      "status": "published",
+      "reason": "A major security exploit ($3M) has forced BounceBit to sunset its blockchain and migrate to BNB Chain, a significant structural event affecting token holders, users, and the broader crypto ecosystem. This is a verified, high-impact news item with clear data points.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-22T12:17:38.157Z",
+      "bCommitSha": "cb5feda0bae5e8d8664b10d448b8e7a535aa299b"
+    },
     "fe584582a1ac4da6ea394916d3fe72e372726571b39fb75309b97079d49c6c57": {
       "decisionKey": "fe584582a1ac4da6ea394916d3fe72e372726571b39fb75309b97079d49c6c57",
       "status": "rejected",
@@ -7721,18 +7886,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-21T12:24:20.223Z",
-    "https://cointelegraph.com/rss": "2026-08-21T12:24:20.223Z",
-    "https://decrypt.co/feed": "2026-08-21T12:24:20.223Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-21T12:24:20.223Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-21T12:24:20.223Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-21T12:24:20.223Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-21T12:24:20.223Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-21T12:24:20.223Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-21T12:24:20.223Z",
-    "https://solana.com/rss.xml": "2026-08-21T12:24:20.223Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-22T12:17:38.157Z",
+    "https://cointelegraph.com/rss": "2026-08-22T12:17:38.157Z",
+    "https://decrypt.co/feed": "2026-08-22T12:17:38.157Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-22T12:17:38.157Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-22T12:17:38.157Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-22T12:17:38.157Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-22T12:17:38.157Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-22T12:17:38.157Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-22T12:17:38.157Z",
+    "https://solana.com/rss.xml": "2026-08-22T12:17:38.157Z",
     "https://slowmist.medium.com/feed": "2026-08-21T12:24:20.223Z",
-    "https://www.theblock.co/rss.xml": "2026-08-21T12:24:20.223Z"
+    "https://www.theblock.co/rss.xml": "2026-08-22T12:17:38.157Z"
   },
   "lastRunAt": "2026-08-21T12:24:20.223Z"
 }
