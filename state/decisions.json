@@ -1,6 +1,100 @@
 {
   "version": 1,
   "decisions": {
+    "d935be00424b5794e66a9c0620d4b2c3deb2be67ef312ec4acc607011840f1e7": {
+      "decisionKey": "d935be00424b5794e66a9c0620d4b2c3deb2be67ef312ec4acc607011840f1e7",
+      "status": "rejected",
+      "reason": "该候选仅为CEO对代币化股票风险的观点评论，缺乏具体事件、数据或可核验信息，不属于对加密行业有明确影响的重要政策、协议升级、安全事件或市场结构变化，信息增量有限。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z"
+    },
+    "a48200f26b5dcfa8a703c04b2acf3a0579064cd8b1a887792df2700993eaa0c2": {
+      "decisionKey": "a48200f26b5dcfa8a703c04b2acf3a0579064cd8b1a887792df2700993eaa0c2",
+      "status": "published",
+      "reason": "报道了AI工具对Bitcoin生态系统的安全威胁及开发者应对行动，属于加密行业安全与基建相关的重要信息增量，来源为公开新闻媒体Decrypt。",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z",
+      "bCommitSha": "732e226edcd25dafea667815663ac738ca2f1d20"
+    },
+    "8ae630bcbf631f87b6f4d2ef17d082c2eb44b04e138c853900162ce722117e0f": {
+      "decisionKey": "8ae630bcbf631f87b6f4d2ef17d082c2eb44b04e138c853900162ce722117e0f",
+      "status": "published",
+      "reason": "候选来源为Cointelegraph，属于真实公开的加密新闻媒体，内容涉及欧盟MiCA监管对DeFi借贷金库的审查，具有明确主体（Brussels、MiCA、DeFi vaults）、事件（监管审查）和影响（加密行业政策不确定性），对加密行业受众有重要信息增量，符合政策监管类发布标准。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z",
+      "bCommitSha": "732e226edcd25dafea667815663ac738ca2f1d20"
+    },
+    "7f32a190e742c60eaee33094001293b6633e2657c5b730d822b04b595fc922de": {
+      "decisionKey": "7f32a190e742c60eaee33094001293b6633e2657c5b730d822b04b595fc922de",
+      "status": "published",
+      "reason": "This is a verified report from The Block covering a concrete protocol change on Solana mainnet: slot time reduced to 350ms, with a stated path toward 200ms. This is a significant Layer 1 performance upgrade relevant to crypto infrastructure and users.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z",
+      "bCommitSha": "732e226edcd25dafea667815663ac738ca2f1d20"
+    },
+    "6ee873d1033bf86f021ceb3562ac22aacce27f264f7ac0efc6c37f325f4b5501": {
+      "decisionKey": "6ee873d1033bf86f021ceb3562ac22aacce27f264f7ac0efc6c37f325f4b5501",
+      "status": "published",
+      "reason": "该候选来自真实新闻媒体The Block，报道比特币和以太坊ETF单周流入26亿美元、交易量翻三倍至290亿美元，属于具体的市场结构数据和资金流向事件，对加密行业受众具有明确的信息增量和市场影响，且非价格喊单或重复转载。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z",
+      "bCommitSha": "732e226edcd25dafea667815663ac738ca2f1d20"
+    },
+    "6d56a5ded110b59064d1818f5e49be8926d54cf609935ab048a1829b9939619e": {
+      "decisionKey": "6d56a5ded110b59064d1818f5e49be8926d54cf609935ab048a1829b9939619e",
+      "status": "rejected",
+      "reason": "CoinDesk reports a real security incident affecting The Sandbox's bridging on Base and BNB Chain. The event is specific, verifiable, and relevant to crypto users, especially those holding or using SAND on those networks. Impact under 0.01% of supply limits severity, but the response (disabling bridges) is a notable protocol action worth informing the audience.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z"
+    },
+    "4f6de7d7a0f2e15698a102e0ea99f77566e890b91dc219242d96cc3dfcd9d9b7": {
+      "decisionKey": "4f6de7d7a0f2e15698a102e0ea99f77566e890b91dc219242d96cc3dfcd9d9b7",
+      "status": "published",
+      "reason": "Zcash's eight-year high with nearly $10B in futures volume and $1.76B open interest, alongside Grayscale's ETF push, marks a significant market event for the crypto ecosystem. The data is concrete and sourced from a reputable outlet, with clear implications for privacy coin adoption and ETF flows.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z",
+      "bCommitSha": "732e226edcd25dafea667815663ac738ca2f1d20"
+    },
+    "407a6c1725d043e1982e5d3cbded623ef5ce5b37c935fca955ec30dff1f07e58": {
+      "decisionKey": "407a6c1725d043e1982e5d3cbded623ef5ce5b37c935fca955ec30dff1f07e58",
+      "status": "rejected",
+      "reason": "The article covers concrete regulatory actions affecting Kalshi, a major prediction market platform, with state-level restrictions and CFTC rulemaking. Though not strictly crypto, prediction markets are closely tied to crypto-adjacent infrastructure and CFTC decisions may signal broader market structure shifts relevant to crypto traders.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z"
+    },
+    "35508a46c667ad4e9ed1df4db5370e7fcf50847193b85006b6eac6e7692215c7": {
+      "decisionKey": "35508a46c667ad4e9ed1df4db5370e7fcf50847193b85006b6eac6e7692215c7",
+      "status": "rejected",
+      "reason": "Content is about AI-written webpages per Pew Research, with no connection to crypto policy, protocols, security, or market structure. It lacks clear impact or incremental value for the crypto industry audience.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z"
+    },
+    "350e00af0c10ade850c412073810ba1abe567e4059ff5d4197e885eda8a8eb5a": {
+      "decisionKey": "350e00af0c10ade850c412073810ba1abe567e4059ff5d4197e885eda8a8eb5a",
+      "status": "published",
+      "reason": "信息来源为CoinDesk，真实可核验；内容涉及BitMart交易所关闭后的重启计划和债权人赔付方案，有具体时间节点（9月9日路线图），对加密行业用户具有明确信息增量。",
+      "score": 1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z",
+      "bCommitSha": "732e226edcd25dafea667815663ac738ca2f1d20"
+    },
+    "10a0a3c56e896d02a1756c5abe99096d81cc74319f77817ed749aab1e97eab9f": {
+      "decisionKey": "10a0a3c56e896d02a1756c5abe99096d81cc74319f77817ed749aab1e97eab9f",
+      "status": "rejected",
+      "reason": "候选为微软Entra ID漏洞修复的通用科技安全新闻，不涉及加密行业特定政策、协议、安全事件或市场结构变化；且发布时间晚于当前日期，无法作为可核验的公开信息。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-23T12:18:05.702Z"
+    },
     "f7211bbaedab669d481336af94510b113b1fb853ff2f27fc2d471764f78b50f8": {
       "decisionKey": "f7211bbaedab669d481336af94510b113b1fb853ff2f27fc2d471764f78b50f8",
       "status": "published",
@@ -7886,18 +7980,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-22T12:17:38.157Z",
-    "https://cointelegraph.com/rss": "2026-08-22T12:17:38.157Z",
-    "https://decrypt.co/feed": "2026-08-22T12:17:38.157Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-22T12:17:38.157Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-22T12:17:38.157Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-22T12:17:38.157Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-22T12:17:38.157Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-22T12:17:38.157Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-22T12:17:38.157Z",
-    "https://solana.com/rss.xml": "2026-08-22T12:17:38.157Z",
-    "https://slowmist.medium.com/feed": "2026-08-21T12:24:20.223Z",
-    "https://www.theblock.co/rss.xml": "2026-08-22T12:17:38.157Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-23T12:18:05.702Z",
+    "https://cointelegraph.com/rss": "2026-08-23T12:18:05.702Z",
+    "https://decrypt.co/feed": "2026-08-23T12:18:05.702Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-23T12:18:05.702Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-23T12:18:05.702Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-23T12:18:05.702Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-23T12:18:05.702Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-23T12:18:05.702Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-23T12:18:05.702Z",
+    "https://solana.com/rss.xml": "2026-08-23T12:18:05.702Z",
+    "https://slowmist.medium.com/feed": "2026-08-23T12:18:05.702Z",
+    "https://www.theblock.co/rss.xml": "2026-08-23T12:18:05.702Z"
   },
-  "lastRunAt": "2026-08-21T12:24:20.223Z"
+  "lastRunAt": "2026-08-23T12:18:05.702Z"
 }
