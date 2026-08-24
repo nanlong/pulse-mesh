@@ -1,6 +1,173 @@
 {
   "version": 1,
   "decisions": {
+    "fdc316022dab2e1eb27211d8225555dc6434216ea5af999e329e354c5fa7c4d5": {
+      "decisionKey": "fdc316022dab2e1eb27211d8225555dc6434216ea5af999e329e354c5fa7c4d5",
+      "status": "published",
+      "reason": "来源为CoinDesk，真实可核验；内容涉及美联储实验与比特币反弹吸引新买家的具体数据，对加密行业投资者行为有信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z",
+      "bCommitSha": "1a62917d61c711c61c25059e56f06bfbd877875d"
+    },
+    "f62079f20e38be75b3ec1c28f96c7ef9b3cd2214de6c22fcbdde6e801206540e": {
+      "decisionKey": "f62079f20e38be75b3ec1c28f96c7ef9b3cd2214de6c22fcbdde6e801206540e",
+      "status": "rejected",
+      "reason": "该候选为基于技术指标（黄金交叉）的市场走势分析，属于价格预测类内容，缺乏对加密行业的结构性影响或明确信息增量，且可能被视为价格喊单。不符合重要政策、协议升级、安全事件或市场结构变化的发布标准。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
+    "f61ac036a493280cd4e7e69b39a3b5df33d238e8100a8cd8b2bdc0e99e107bbf": {
+      "decisionKey": "f61ac036a493280cd4e7e69b39a3b5df33d238e8100a8cd8b2bdc0e99e107bbf",
+      "status": "failed",
+      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"articles\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  },\n  {\n    \"code\": \"unrecognized_keys\",\n    \"keys\": [\n      \"language\",\n      \"title\",\n      \"summary\",\n      \"body\",\n      \"sourceUrls\"\n    ],\n    \"path\": [],\n    \"message\": \"Unrecognized keys: \\\"language\\\", \\\"title\\\", \\\"summary\\\", \\\"body\\\", \\\"sourceUrls\\\"\"\n  }\n]",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
+    "f0e4d47ac5bcb64734dca989a7c829e2ce8dc4c3cdd4563081898cb958af3a05": {
+      "decisionKey": "f0e4d47ac5bcb64734dca989a7c829e2ce8dc4c3cdd4563081898cb958af3a05",
+      "status": "rejected",
+      "reason": "CoinDesk报道的Gemini与Apex合作，将使Gemini成为CFTC监管的加密事件合约独家交易场所，涉及预测市场与监管结构，对加密行业有明确影响和信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
+    "edbb35f23741a5cd3559742fa1c54cd8e2856a6b651bbc07f8eea0e42958cd03": {
+      "decisionKey": "edbb35f23741a5cd3559742fa1c54cd8e2856a6b651bbc07f8eea0e42958cd03",
+      "status": "rejected",
+      "reason": "该候选来自真实公开的加密新闻媒体 Cointelegraph，报道了德国在欧盟 MiCA 授权注册中的领先地位，包含具体主体（德国、法国、荷兰）、事件（最新欧盟注册更新新增6家银行）和具体数据（共79家），对加密行业受众有明确的政策影响和信息增量，不属于营销、价格喊单、传闻或重复转载。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
+    "e628c2d036b0b6a04ec08aef93ff84f4cf08522af0940dab4a3f0461f1eafb30": {
+      "decisionKey": "e628c2d036b0b6a04ec08aef93ff84f4cf08522af0940dab4a3f0461f1eafb30",
+      "status": "published",
+      "reason": "渣打银行成为首家分发港元稳定币的银行，这是传统金融机构进入稳定币市场的重要标志，对加密行业的市场结构有明确影响，来源可靠，信息增量大。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z",
+      "bCommitSha": "1a62917d61c711c61c25059e56f06bfbd877875d"
+    },
+    "b527cfb79ccc6c3a319b50f40929fbd65ff72b4ac4db70d9156cbb9557b8a766": {
+      "decisionKey": "b527cfb79ccc6c3a319b50f40929fbd65ff72b4ac4db70d9156cbb9557b8a766",
+      "status": "published",
+      "reason": "Cointelegraph 报道了由日本 SBI Group 领投的 Fasset 6800 万美元 C 轮融资，估值达 10 亿美元，并涉及在马来西亚设立数字银行及扩展稳定币支付。该事件包含具体主体、金额、估值和业务计划，对加密行业受众具有明确的信息增量，属于重要的机构投资和市场结构变化。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z",
+      "bCommitSha": "1a62917d61c711c61c25059e56f06bfbd877875d"
+    },
+    "a5d57d06007b693ab028d12b4a1ce420774246ed6a97192885ba3ff6ab9466ca": {
+      "decisionKey": "a5d57d06007b693ab028d12b4a1ce420774246ed6a97192885ba3ff6ab9466ca",
+      "status": "published",
+      "reason": "巴基斯坦正式启动加密许可制度并设定9月5日注册截止日期，直接影响在巴运营的加密企业合规安排，属于重要的政策监管变化，对加密行业受众有明确信息增量。来源为CoinDesk，真实可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z",
+      "bCommitSha": "1a62917d61c711c61c25059e56f06bfbd877875d"
+    },
+    "a51792d5152861f9ec0e22488990ea9332d2bf41f92a610269bff80e2c312a99": {
+      "decisionKey": "a51792d5152861f9ec0e22488990ea9332d2bf41f92a610269bff80e2c312a99",
+      "status": "published",
+      "reason": "The announcement from The Block reports a concrete partnership between Gemini and Apex to provide crypto prediction markets to brokerage clients. This is a significant market structure development that expands access to crypto event contracts, directly relevant to the crypto industry. The source is a reputable news outlet, and the information is specific and verifiable.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z",
+      "bCommitSha": "1a62917d61c711c61c25059e56f06bfbd877875d"
+    },
+    "9fb15ef56a7a9aeb78858260d6eed65f1ec9cfdb346e851b4c901f2c0d332141": {
+      "decisionKey": "9fb15ef56a7a9aeb78858260d6eed65f1ec9cfdb346e851b4c901f2c0d332141",
+      "status": "rejected",
+      "reason": "该候选仅为简短的价格更新，缺乏对加密行业重要政策、协议升级、安全事件或市场结构变化的深度信息，信息增量有限，不属于高价值内容。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
+    "8f2c3c216e7fbd7d24d39f670a3038a2f40e941ab899b3259a7a1b2d81ade782": {
+      "decisionKey": "8f2c3c216e7fbd7d24d39f670a3038a2f40e941ab899b3259a7a1b2d81ade782",
+      "status": "rejected",
+      "reason": "Fasset 完成 6800 万美元 C 轮融资并达到 10 亿美元估值，由 SBI Group 领投，是加密行业稳定币基础设施领域的重要商业进展，对行业投资者和从业者具有信息增量。来源为 The Block，真实可核验。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
+    "8bc2197e36f6a4a6fd9bc2ef61b6fe2432d542aad6f9dfdf864def8eb0e5deab": {
+      "decisionKey": "8bc2197e36f6a4a6fd9bc2ef61b6fe2432d542aad6f9dfdf864def8eb0e5deab",
+      "status": "published",
+      "reason": "Bernstein's analysis of Circle's growth sustainability without the Clarity Act provides specific data points (USDC supply rebound, stablecoin volume expansion) and a concrete upside target (59%), offering meaningful insight into stablecoin market dynamics and regulatory impacts for crypto industry professionals.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z",
+      "bCommitSha": "1a62917d61c711c61c25059e56f06bfbd877875d"
+    },
+    "7fe1c67ca17b6cc94384dd467f772e2c9fb5382c6f8a78bcdb9f02ddd2356968": {
+      "decisionKey": "7fe1c67ca17b6cc94384dd467f772e2c9fb5382c6f8a78bcdb9f02ddd2356968",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
+    "7cc2b462ee567e08c6943e6b6a9f0398e6715bc7cfbed85dd2a48eb220eb88fb": {
+      "decisionKey": "7cc2b462ee567e08c6943e6b6a9f0398e6715bc7cfbed85dd2a48eb220eb88fb",
+      "status": "rejected",
+      "reason": "Bitcoin closed above its 50-week EMA for the first time since late 2025, a notable technical market structure change. Reported by Cointelegraph, a credible source, with specific event, time, and context (Jackson Hole). This provides actionable information for crypto traders.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
+    "6137f022a8077b42f4870a66e887e5e13dc435ea6bf86ad356676a331303a8c2": {
+      "decisionKey": "6137f022a8077b42f4870a66e887e5e13dc435ea6bf86ad356676a331303a8c2",
+      "status": "published",
+      "reason": "巴基斯坦政府为加密企业设定明确的注册截止日期，属于影响加密行业运营的重要监管政策，具体主体、事件和时间明确，对加密企业有直接合规影响，具有信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z",
+      "bCommitSha": "1a62917d61c711c61c25059e56f06bfbd877875d"
+    },
+    "40889f16ce6f133776f323b2785518cec0826c7b59c5bb76074c7d3c95f93850": {
+      "decisionKey": "40889f16ce6f133776f323b2785518cec0826c7b59c5bb76074c7d3c95f93850",
+      "status": "rejected",
+      "reason": "Candidate provides only an introductory sentence without substantive details; lacks specific information and evidence for publication.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
+    "23a7888c0517bb5ed3d0768c4572260b3cf973f234c21e4a39df0e641b769248": {
+      "decisionKey": "23a7888c0517bb5ed3d0768c4572260b3cf973f234c21e4a39df0e641b769248",
+      "status": "rejected",
+      "reason": "Routine market consolidation report with no significant new policy, protocol, security, or structural impact on the crypto industry. The Treasury buyback announcement is already priced in from the prior week, and the article primarily summarizes price movements without offering distinctive analysis or actionable information for industry professionals.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
+    "083bcd59f4fd56ee0a84afcaa92907f40b4a23581024f258603c1f71e10d2053": {
+      "decisionKey": "083bcd59f4fd56ee0a84afcaa92907f40b4a23581024f258603c1f71e10d2053",
+      "status": "published",
+      "reason": "来源为真实公开的加密新闻媒体，内容涉及美联储主席杰克逊霍尔讲话及利率期货定价，属重要宏观政策事件，对加密市场有直接影响，且包含具体时间、人物和数据，信息增量明确。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z",
+      "bCommitSha": "1a62917d61c711c61c25059e56f06bfbd877875d"
+    },
+    "0241dea8555ad5ecdb2098fdfabfb85e575f14887503ba81008f405bd95b2e69": {
+      "decisionKey": "0241dea8555ad5ecdb2098fdfabfb85e575f14887503ba81008f405bd95b2e69",
+      "status": "published",
+      "reason": "该候选来自可信的加密新闻媒体，内容具体报告了美国现货比特币ETF周流入19.2亿美元，为2025年10月以来最强，属于市场结构变化的重要数据，对加密行业受众有明确信息增量，非价格喊单或低质内容。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z",
+      "bCommitSha": "1a62917d61c711c61c25059e56f06bfbd877875d"
+    },
+    "018c6841fd3aa7e80ea2151a3afee3891b1356728c2a51eac07a12e309387f21": {
+      "decisionKey": "018c6841fd3aa7e80ea2151a3afee3891b1356728c2a51eac07a12e309387f21",
+      "status": "rejected",
+      "reason": "该内容属于市场行情回顾性报道，仅提及比特币周度表现、国债回购和ETF流入等定性信息，缺乏具体可核验的数据或事件细节，对加密行业受众的信息增量有限，且带有一定情绪化表述，不符合重要政策、协议升级或市场结构变化等核心发布标准。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-24T12:24:58.967Z"
+    },
     "d935be00424b5794e66a9c0620d4b2c3deb2be67ef312ec4acc607011840f1e7": {
       "decisionKey": "d935be00424b5794e66a9c0620d4b2c3deb2be67ef312ec4acc607011840f1e7",
       "status": "rejected",
@@ -7980,18 +8147,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-23T12:18:05.702Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-24T12:24:58.967Z",
     "https://cointelegraph.com/rss": "2026-08-23T12:18:05.702Z",
-    "https://decrypt.co/feed": "2026-08-23T12:18:05.702Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-23T12:18:05.702Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-23T12:18:05.702Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-23T12:18:05.702Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-23T12:18:05.702Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-23T12:18:05.702Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-23T12:18:05.702Z",
-    "https://solana.com/rss.xml": "2026-08-23T12:18:05.702Z",
-    "https://slowmist.medium.com/feed": "2026-08-23T12:18:05.702Z",
-    "https://www.theblock.co/rss.xml": "2026-08-23T12:18:05.702Z"
+    "https://decrypt.co/feed": "2026-08-24T12:24:58.967Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-24T12:24:58.967Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-24T12:24:58.967Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-24T12:24:58.967Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-24T12:24:58.967Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-24T12:24:58.967Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-24T12:24:58.967Z",
+    "https://solana.com/rss.xml": "2026-08-24T12:24:58.967Z",
+    "https://slowmist.medium.com/feed": "2026-08-24T12:24:58.967Z",
+    "https://www.theblock.co/rss.xml": "2026-08-24T12:24:58.967Z"
   },
   "lastRunAt": "2026-08-23T12:18:05.702Z"
 }
