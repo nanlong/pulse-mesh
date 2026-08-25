@@ -1,6 +1,181 @@
 {
   "version": 1,
   "decisions": {
+    "ffe274164f4cf3eff399a4cd777dee76e795a65d869dad225f574ca0c638dc63": {
+      "decisionKey": "ffe274164f4cf3eff399a4cd777dee76e795a65d869dad225f574ca0c638dc63",
+      "status": "published",
+      "reason": "Franklin Templeton, a major traditional asset manager, is bringing its tokenized treasury fund to HashKey's Earn channel in Hong Kong, marking a notable expansion of onchain RWA products to an Asian exchange. This is a verifiable, specific event with clear significance for DeFi and institutional adoption.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "f52d1378c0e7e96948e7a87f1c6b94114f0ace37ed7071e0d2a1024adc3bbfb9": {
+      "decisionKey": "f52d1378c0e7e96948e7a87f1c6b94114f0ace37ed7071e0d2a1024adc3bbfb9",
+      "status": "published",
+      "reason": "The candidate reports a real, verifiable legal outcome involving a crypto Ponzi scheme that defrauded 400 investors of $24 million, which is a significant enforcement action and security event for the crypto industry.",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "e1da5374b763aa0f05eb541241b4f67de21c20c4e6fb36ad052b79a219af0f65": {
+      "decisionKey": "e1da5374b763aa0f05eb541241b4f67de21c20c4e6fb36ad052b79a219af0f65",
+      "status": "published",
+      "reason": "Reports concrete, verifiable data on Solana ETF inflows from a legitimate news outlet, indicating sustained investor demand and market structure change relevant to crypto industry participants.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "e1757357758a4253a4f4c7ae16d39e15810901d3ec9bc24e47e8d9d72b7f6911": {
+      "decisionKey": "e1757357758a4253a4f4c7ae16d39e15810901d3ec9bc24e47e8d9d72b7f6911",
+      "status": "published",
+      "reason": "Standard Chartered becoming the first bank distributor of an HKD stablecoin is a notable institutional adoption event and has clear implications for stablecoin integration into traditional banking, relevant to crypto industry audience.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "e02b5ecd872e084a4d4ae457a563832f984b1a7668a69934bd53618d66df22cf": {
+      "decisionKey": "e02b5ecd872e084a4d4ae457a563832f984b1a7668a69934bd53618d66df22cf",
+      "status": "rejected",
+      "reason": "候选内容仅有标题和一句摘要，未提供具体主体、时间、数据或可核验的事件细节，属于市场评论/价格分析，缺乏明确信息增量，不符合发布标准。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z"
+    },
+    "c65fd35b5491639d28a5c2759e97ac22be7535e3e5241f1e7f57cbec43159f9c": {
+      "decisionKey": "c65fd35b5491639d28a5c2759e97ac22be7535e3e5241f1e7f57cbec43159f9c",
+      "status": "published",
+      "reason": "真实可信的加密诈骗案新闻，涉及具体主体、金额和投资者数量，对加密行业用户有警示作用，属于重要的安全事件报道。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "c65aa7df1a679bbe0815e5364f7ea210fecdd85fbc90b86f55c9dc2041be52e0": {
+      "decisionKey": "c65aa7df1a679bbe0815e5364f7ea210fecdd85fbc90b86f55c9dc2041be52e0",
+      "status": "published",
+      "reason": "Grayscale推出Zcash ETF，为投资者提供ZEC敞口，同时关联近期隐私漏洞事件，对加密资产市场结构和Zcash生态有明确影响，属于重要行业新闻。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "bdc37932e3a4a1fe424aea9a586b151771ac3d1b5aaeca8b1f2ed7c59e5744e3": {
+      "decisionKey": "bdc37932e3a4a1fe424aea9a586b151771ac3d1b5aaeca8b1f2ed7c59e5744e3",
+      "status": "published",
+      "reason": "U.S. Treasury action targeting crypto use in Iran sanctions evasion is a significant policy development affecting crypto compliance, sanctions enforcement, and market structure.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "ae91dc53e9284b4a72cfc97323988e36c433fe29c1370675b7d0afe1159666c3": {
+      "decisionKey": "ae91dc53e9284b4a72cfc97323988e36c433fe29c1370675b7d0afe1159666c3",
+      "status": "published",
+      "reason": "该候选来自可信新闻媒体 Decrypt，内容为美国财政部宣布对伊朗加密行业实施制裁，属于直接影响加密行业的政策监管事件，包含明确主体（美国）、事件（制裁伊朗加密行业）、时间（2026-08-25）及具体行业领域，对加密行业受众具有信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "ae09c7df8af140a18334f9248b9e46903890a6b1ec91448fee073ba5d6255406": {
+      "decisionKey": "ae09c7df8af140a18334f9248b9e46903890a6b1ec91448fee073ba5d6255406",
+      "status": "published",
+      "reason": "这是一则关于印度计划用批发CBDC进行代币化债券试点的报道，涉及央行数字货币与真实资产代币化的结合，属于加密行业关注的政策与市场结构变化，来源可信且信息具体。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "a6f3ed7649316f0929f9dadfa19855bbbc568e3677ce11308402ccb795ff6972": {
+      "decisionKey": "a6f3ed7649316f0929f9dadfa19855bbbc568e3677ce11308402ccb795ff6972",
+      "status": "published",
+      "reason": "Coinbase在Base网络上推出代币化股票，是加密行业与传统金融融合的重要市场结构变化，对行业受众有明确信息增量和影响。来源为Decrypt，真实公开可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "647f7accaeae7fb26d91845ba333f06227346e839b9e8d48f94557d41aa7a323": {
+      "decisionKey": "647f7accaeae7fb26d91845ba333f06227346e839b9e8d48f94557d41aa7a323",
+      "status": "published",
+      "reason": "比特币突破80000美元并创7天25%涨幅，是重要的市场动态，对加密行业投资者具有明确影响和信息增量，来源为Coindesk可信新闻媒体。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "5f327ea88d1acc5dc6b01f24b130b562392fd9677ac1b14acfb4196d6b650cf3": {
+      "decisionKey": "5f327ea88d1acc5dc6b01f24b130b562392fd9677ac1b14acfb4196d6b650cf3",
+      "status": "published",
+      "reason": "真实新闻来源，涉及加密行业重大安全事件的具体损失数据（1,789 BTC）及未移动比例，对行业有明确信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "56d9c3ad3217ffce34fa1ddc57aa3c760eb3aa861f948f3da8ab963b5ed6f613": {
+      "decisionKey": "56d9c3ad3217ffce34fa1ddc57aa3c760eb3aa861f948f3da8ab963b5ed6f613",
+      "status": "rejected",
+      "reason": "发布时间为未来日期（2026-08-25），当前日期为2026-04-26，存在时间戳异常，导致内容无法被核验为真实事件；可能属于测试或烟雾内容。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z"
+    },
+    "3cf98ac02b867dc82afb8b90467d7b7094c34a0a919380b58f060b194fc1acdd": {
+      "decisionKey": "3cf98ac02b867dc82afb8b90467d7b7094c34a0a919380b58f060b194fc1acdd",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z"
+    },
+    "3017e00d062dca04d46ed8ea5f7b84a2f5fbb2cd9eba6a7abc1ac13ea3b454d1": {
+      "decisionKey": "3017e00d062dca04d46ed8ea5f7b84a2f5fbb2cd9eba6a7abc1ac13ea3b454d1",
+      "status": "rejected",
+      "reason": "该候选仅为比特币价格的技术分析，基于RSI背离进行价格趋势预测，属于市场分析类内容，不涉及重要政策、协议升级、安全事件或市场结构变化，且缺乏具体数据支撑，对加密行业受众的信息增量有限。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z"
+    },
+    "1d23dac797cf2afe6beddd1697dc433e0a535f46fe7bb5351d66aa00850890e5": {
+      "decisionKey": "1d23dac797cf2afe6beddd1697dc433e0a535f46fe7bb5351d66aa00850890e5",
+      "status": "published",
+      "reason": "This is a legitimate news report from Decrypt about a jury convicting a Las Vegas man for a $24M AI crypto mining Ponzi scheme. It names the individual, details the scheme (400 investors, fake supercomputer, false FDIC insurance), and has a clear publication date. It is a specific, verifiable legal event with direct relevance to crypto industry participants as a warning about fraudulent schemes.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "119ce2a3bf6878a940235b9ca91681b54eab672079ed26d7d21b53f4254f7af5": {
+      "decisionKey": "119ce2a3bf6878a940235b9ca91681b54eab672079ed26d7d21b53f4254f7af5",
+      "status": "published",
+      "reason": "Real news from CoinDesk about Franklin Templeton and HashKey launching a tokenized U.S. money fund in Asia. This is a concrete, verifiable product rollout by major financial institutions, relevant to the crypto industry's adoption of tokenized real-world assets. It provides information on a growing market segment and institutional participation, with no signs of test, marketing, or unsubstantiated claims.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "01db62c1961ca139c07a08fa1732a134d1b61753b2e688e4fec3d57714b23090": {
+      "decisionKey": "01db62c1961ca139c07a08fa1732a134d1b61753b2e688e4fec3d57714b23090",
+      "status": "published",
+      "reason": "泰国SEC就比特币和以太坊ETF规则草案公开征求意见，属于重要的政策监管进展，对加密行业投资者和托管机构有直接影响，具备信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
+    "00262f6174865e12918fb76e53ac7dcb374e5fdd6b5eaa2fcdf9654319a82be5": {
+      "decisionKey": "00262f6174865e12918fb76e53ac7dcb374e5fdd6b5eaa2fcdf9654319a82be5",
+      "status": "published",
+      "reason": "The article reports a concrete DeFi market event with quantified impact: a 3% token move caused $36 million in liquidations on Ethereum. This is a real, verifiable news item from CoinDesk, relevant to crypto users interested in market structure and DeFi risk dynamics.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-25T12:25:35.579Z",
+      "bCommitSha": "284a435cbdaf8f32d31489f2d2d8176402dddffe"
+    },
     "fdc316022dab2e1eb27211d8225555dc6434216ea5af999e329e354c5fa7c4d5": {
       "decisionKey": "fdc316022dab2e1eb27211d8225555dc6434216ea5af999e329e354c5fa7c4d5",
       "status": "published",
@@ -8147,18 +8322,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-24T12:24:58.967Z",
-    "https://cointelegraph.com/rss": "2026-08-23T12:18:05.702Z",
-    "https://decrypt.co/feed": "2026-08-24T12:24:58.967Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-24T12:24:58.967Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-24T12:24:58.967Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-24T12:24:58.967Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-24T12:24:58.967Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-24T12:24:58.967Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-24T12:24:58.967Z",
-    "https://solana.com/rss.xml": "2026-08-24T12:24:58.967Z",
-    "https://slowmist.medium.com/feed": "2026-08-24T12:24:58.967Z",
-    "https://www.theblock.co/rss.xml": "2026-08-24T12:24:58.967Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-25T12:25:35.579Z",
+    "https://cointelegraph.com/rss": "2026-08-25T12:25:35.579Z",
+    "https://decrypt.co/feed": "2026-08-25T12:25:35.579Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-25T12:25:35.579Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-25T12:25:35.579Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-25T12:25:35.579Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-25T12:25:35.579Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-25T12:25:35.579Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-25T12:25:35.579Z",
+    "https://solana.com/rss.xml": "2026-08-25T12:25:35.579Z",
+    "https://slowmist.medium.com/feed": "2026-08-25T12:25:35.579Z",
+    "https://www.theblock.co/rss.xml": "2026-08-25T12:25:35.579Z"
   },
-  "lastRunAt": "2026-08-23T12:18:05.702Z"
+  "lastRunAt": "2026-08-25T12:25:35.579Z"
 }
