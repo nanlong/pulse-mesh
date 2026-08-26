@@ -1,6 +1,178 @@
 {
   "version": 1,
   "decisions": {
+    "f923771d1c929cc5eaef717d09f29e9579543f1e2884a170b1cc1970bc407bde": {
+      "decisionKey": "f923771d1c929cc5eaef717d09f29e9579543f1e2884a170b1cc1970bc407bde",
+      "status": "published",
+      "reason": "High-relevance policy development: Japan's FSA, MOF, BOJ and financial institutions are studying blockchain infrastructure for securities/cash settlement, with a development plan due by early 2027. This signals institutional adoption and regulatory direction, directly impacting crypto industry participants.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "f588be87f6b60524b74be696a164725ae028080321668da6b0132965ea0c8344": {
+      "decisionKey": "f588be87f6b60524b74be696a164725ae028080321668da6b0132965ea0c8344",
+      "status": "rejected",
+      "reason": "Candidate is a price prediction from Bernstein, which constitutes a price call and lacks concrete policy, protocol, security, or market structure developments. It is explicitly excluded per policy.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z"
+    },
+    "f223bf5c5a43c1ba9fcbf0034ab2f37a05033ca4e5a599a35ab4aeaecce3d8a5": {
+      "decisionKey": "f223bf5c5a43c1ba9fcbf0034ab2f37a05033ca4e5a599a35ab4aeaecce3d8a5",
+      "status": "published",
+      "reason": "Large bitcoin options expiry is a market structure event with concrete size ($6.4B), timing (Friday), and context (recent price surge). It provides actionable information for crypto traders and analysts, sourced from a reputable news outlet.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "da2318eaf681efc674e84e192c213677c8e7245a353cbf87212981fec2c763f1": {
+      "decisionKey": "da2318eaf681efc674e84e192c213677c8e7245a353cbf87212981fec2c763f1",
+      "status": "published",
+      "reason": "LayerZero announced ATLAS as a new settlement engine, a concrete protocol update with market impact (ZRO up 10%).",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "d5a2526f76360ce0b7ee792b4651d48a366cd1d3e940e95c244e363c1fef5b99": {
+      "decisionKey": "d5a2526f76360ce0b7ee792b4651d48a366cd1d3e940e95c244e363c1fef5b99",
+      "status": "rejected",
+      "reason": "content-too-short",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z"
+    },
+    "c98c9f2a70c008eb242457fcf086c04e94f5a940a7a43d40951b0e9a75dff7e8": {
+      "decisionKey": "c98c9f2a70c008eb242457fcf086c04e94f5a940a7a43d40951b0e9a75dff7e8",
+      "status": "published",
+      "reason": "该候选来自权威加密媒体 Cointelegraph，报道 Taurus 将数字资产平台接入 Swift 区块链账本的具体进展，包含明确主体（Taurus、Swift）、事件（平台接入）和时间（预期数天/数周内），对加密行业机构基础设施与主流金融连接具有明确信息增量，不属于营销或价格喊单。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "a9b1f9c17a68dc980926a174e40e95c34265c3666ac6c2e4fdcd981e0cc9f8ec": {
+      "decisionKey": "a9b1f9c17a68dc980926a174e40e95c34265c3666ac6c2e4fdcd981e0cc9f8ec",
+      "status": "published",
+      "reason": "This is a credible news report from CoinDesk covering the ECB's official claims about the digital euro's privacy features. It provides specific policy details and addresses ongoing surveillance concerns, which is directly relevant to the crypto industry's interest in CBDC developments and regulatory shifts. The source is public and verifiable.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "8307ed4e26081f7bc7d1a999d042b5409db7f9c0b7d75c8901986fd2602bdcac": {
+      "decisionKey": "8307ed4e26081f7bc7d1a999d042b5409db7f9c0b7d75c8901986fd2602bdcac",
+      "status": "published",
+      "reason": "South Korea's Shinhan Bank partnering with Visa's stablecoin platform for card payments and future finance initiatives signals significant institutional adoption of stablecoins, a key market structure development for crypto.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "73323657c9d5b0b8f29af8bb4dbb460f6a8bc7a7fb6aceef5f99f1ccfbfeefcf": {
+      "decisionKey": "73323657c9d5b0b8f29af8bb4dbb460f6a8bc7a7fb6aceef5f99f1ccfbfeefcf",
+      "status": "rejected",
+      "reason": "内容为比特币价格走势分析，属于市场评论和价格讨论，缺乏具体政策、协议升级或安全事件等对加密行业受众有明确影响的信息增量，且发布时间异常。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z"
+    },
+    "6de743a8af5d65d81fdfdd3f204bc644e8d8f0f73364166d041f936f21d2666d": {
+      "decisionKey": "6de743a8af5d65d81fdfdd3f204bc644e8d8f0f73364166d041f936f21d2666d",
+      "status": "published",
+      "reason": "CoinDesk reports Japan's plan to begin development of blockchain-based tokenization for stocks and government bonds, a concrete regulatory/policy move with direct relevance to crypto industry adoption and market structure. The source is a reputable news outlet, and the event is specific and timely.",
+      "score": 0.87,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "6924786d09810dfdff750de27371d2838b96c631d3af62a619742578b6bf36f1": {
+      "decisionKey": "6924786d09810dfdff750de27371d2838b96c631d3af62a619742578b6bf36f1",
+      "status": "rejected",
+      "reason": "TheBlock is a credible crypto news source; the piece reports a concrete analyst viewpoint on Bitcoin's historic short squeeze and Treasury Secretary Bessent's actions as a macro catalyst, offering timely market-relevant information for crypto audiences.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z"
+    },
+    "64d73dd9eb74564bab89f182ee5be896c31a4e0af587e4597bc1207a2600b92c": {
+      "decisionKey": "64d73dd9eb74564bab89f182ee5be896c31a4e0af587e4597bc1207a2600b92c",
+      "status": "rejected",
+      "reason": "内容仅为市场实时更新摘要，缺乏具体数据或深度分析，且涉及价格走势和短期市场预期，对加密行业受众无明确信息增量，不属于重要政策、协议升级或安全事件。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z"
+    },
+    "50ce106423a790123d1716ef3b277f1344be2424b97b7d4808fdd8bc6e3c5932": {
+      "decisionKey": "50ce106423a790123d1716ef3b277f1344be2424b97b7d4808fdd8bc6e3c5932",
+      "status": "published",
+      "reason": "Revolut, a major fintech, is rolling out its EURR euro stablecoin to customers in Denmark, Poland, and Portugal. This is a concrete mainstream adoption milestone for euro stablecoins, with clear implications for the crypto industry in Europe.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "41164b208f2466ed5dd2204671137a92d72938f3405d5c3d7fdd45b748c41b17": {
+      "decisionKey": "41164b208f2466ed5dd2204671137a92d72938f3405d5c3d7fdd45b748c41b17",
+      "status": "published",
+      "reason": "Roman Storm's Tornado Cash retrial delay is a concrete legal development in a major crypto case, affecting privacy tools and developer liability. The source (Decrypt) is a known crypto news outlet, and the item includes specific subject, event, and timeline, providing timely information for crypto stakeholders.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "3c8b7cedf15af14a63e0f035bb71450e6b5b5fc2269f04a2e82ea4a4c71bfb04": {
+      "decisionKey": "3c8b7cedf15af14a63e0f035bb71450e6b5b5fc2269f04a2e82ea4a4c71bfb04",
+      "status": "published",
+      "reason": "Revolut, a major fintech company, is launching its first euro-pegged stablecoin EURR in Denmark, Poland, and Portugal. This marks a significant market structure change in the crypto industry, as it involves a large traditional financial player entering the stablecoin market, which could impact European crypto adoption and competition.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "3836af5f14dae9a706f01c14bca084455c27a403b4ae3b5894e05b1ddfe1fca2": {
+      "decisionKey": "3836af5f14dae9a706f01c14bca084455c27a403b4ae3b5894e05b1ddfe1fca2",
+      "status": "rejected",
+      "reason": "Routine market price update with no clear impact on policy, protocol, security, or market structure; information increment is limited for the target audience.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z"
+    },
+    "2b1d8c8ee99739a606d402cee4b18d11e52a7aceb609b2bb9912a8acaf96ac78": {
+      "decisionKey": "2b1d8c8ee99739a606d402cee4b18d11e52a7aceb609b2bb9912a8acaf96ac78",
+      "status": "published",
+      "reason": "Revolut 作为大型金融科技公司推出欧元稳定币，是欧洲加密支付与稳定币市场的重要结构变化，对加密行业用户有明确影响与信息增量。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "26f2b8b6eb0d6b4a63255edc99621ce87a0ebdfba5c2481092c7d4a3b236f738": {
+      "decisionKey": "26f2b8b6eb0d6b4a63255edc99621ce87a0ebdfba5c2481092c7d4a3b236f738",
+      "status": "rejected",
+      "reason": "Kalshi is a prediction-market platform relevant to crypto-adjacent trading; this is a real, verifiable fundraising update with concrete figures ($1.5B offering, $1.12B sold, 71 investors) from a credible news source, offering informational value to industry observers.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z"
+    },
+    "2469ee18c38b793cfc73ca6a983e99ed3085bc909af630659560c53fe95b6ed3": {
+      "decisionKey": "2469ee18c38b793cfc73ca6a983e99ed3085bc909af630659560c53fe95b6ed3",
+      "status": "published",
+      "reason": "达拉斯联储对代币化存款的警告涉及银行体系与加密资产交互的关键政策议题，包含具体金额（7000亿美元）和明确影响（银行放贷能力），对加密行业受众有信息增量。来源为CoinDesk，属真实公开新闻。",
+      "score": 1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
+    "241374db167f27ca913f81543d55403248dac1ad730ddaff87645b39178a13e4": {
+      "decisionKey": "241374db167f27ca913f81543d55403248dac1ad730ddaff87645b39178a13e4",
+      "status": "published",
+      "reason": "Strategy（前MicroStrategy）作为最大比特币企业持有者，其净杠杆削减至接近零及现金匹配可转换债务的财务策略变化，对加密市场风险偏好和行业信号具有明确影响，来源为CoinDesk，真实可核验。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-26T12:28:43.901Z",
+      "bCommitSha": "e746f47064684a79c6670f58191929846be135b2"
+    },
     "ffe274164f4cf3eff399a4cd777dee76e795a65d869dad225f574ca0c638dc63": {
       "decisionKey": "ffe274164f4cf3eff399a4cd777dee76e795a65d869dad225f574ca0c638dc63",
       "status": "published",
@@ -8322,18 +8494,18 @@
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-25T12:25:35.579Z",
-    "https://cointelegraph.com/rss": "2026-08-25T12:25:35.579Z",
-    "https://decrypt.co/feed": "2026-08-25T12:25:35.579Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-25T12:25:35.579Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-25T12:25:35.579Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-25T12:25:35.579Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-25T12:25:35.579Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-25T12:25:35.579Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-25T12:25:35.579Z",
-    "https://solana.com/rss.xml": "2026-08-25T12:25:35.579Z",
-    "https://slowmist.medium.com/feed": "2026-08-25T12:25:35.579Z",
-    "https://www.theblock.co/rss.xml": "2026-08-25T12:25:35.579Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-26T12:28:43.901Z",
+    "https://cointelegraph.com/rss": "2026-08-26T12:28:43.901Z",
+    "https://decrypt.co/feed": "2026-08-26T12:28:43.901Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-26T12:28:43.901Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-26T12:28:43.901Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-26T12:28:43.901Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-26T12:28:43.901Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-26T12:28:43.901Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-26T12:28:43.901Z",
+    "https://solana.com/rss.xml": "2026-08-26T12:28:43.901Z",
+    "https://slowmist.medium.com/feed": "2026-08-26T12:28:43.901Z",
+    "https://www.theblock.co/rss.xml": "2026-08-26T12:28:43.901Z"
   },
-  "lastRunAt": "2026-08-25T12:25:35.579Z"
+  "lastRunAt": "2026-08-26T12:28:43.901Z"
 }
