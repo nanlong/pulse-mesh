@@ -1,6 +1,169 @@
 {
   "version": 1,
   "decisions": {
+    "f6615505624a257eeb2b1ee723256a3864d030b470526459ae86b9e612379da8": {
+      "decisionKey": "f6615505624a257eeb2b1ee723256a3864d030b470526459ae86b9e612379da8",
+      "status": "published",
+      "reason": "真实媒体Coindesk报道，涉及加密货币交易所CEO行贿及监管障碍，对加密行业合规与声誉有明确影响，属于重要政策/法律事件。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "e7c4093238f8e511948bb663dffb1791f3b66b71debfe6d73903cb7b4f1e4dd7": {
+      "decisionKey": "e7c4093238f8e511948bb663dffb1791f3b66b71debfe6d73903cb7b4f1e4dd7",
+      "status": "published",
+      "reason": "该候选来源于Cointelegraph，是真实、公开、可核验的新闻报道。内容包含具体主体（Virtu、Tradeweb、马绍尔群岛）、事件（链上回购交易）和时间（2026年8月27日），并明确指出去中心化金融在传统证券回购市场的实际应用，对加密行业具有明确的信息增量和结构影响，属于重要的机构级链上金融实践，符合发布标准。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "c24d6100770665e445b8aca2a53d97067c5a31c6e7698cca9e51a03feb914faa": {
+      "decisionKey": "c24d6100770665e445b8aca2a53d97067c5a31c6e7698cca9e51a03feb914faa",
+      "status": "rejected",
+      "reason": "The content is a speculative opinion piece from Binance founder CZ about Bitcoin potentially overtaking gold, lacking concrete events, data, or verifiable developments. It is essentially a price prediction and market commentary, which does not meet the threshold for important industry news, protocol updates, security events, or market structure changes. The source is real but the content is low-value and speculative.",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z"
+    },
+    "b40747a7c1c32a0c99484948d636d51303c2fc6c206e937ea5c47dc092a50a9b": {
+      "decisionKey": "b40747a7c1c32a0c99484948d636d51303c2fc6c206e937ea5c47dc092a50a9b",
+      "status": "published",
+      "reason": "Ethena Foundation提出的费用切换和代币回购提案直接影响ENA代币经济模型和投资者解锁结构，对DeFi生态参与者有明确信息增量，来源为可信新闻媒体。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "a49c33b6a4868c463e1c05dd3bce1da29a1a96a289632f90951ea419484a8871": {
+      "decisionKey": "a49c33b6a4868c463e1c05dd3bce1da29a1a96a289632f90951ea419484a8871",
+      "status": "published",
+      "reason": "Mirae Asset 披露的 1090 亿美元数字资产计划包含具体主体、数据与业务方向，对加密行业机构采用和代币化趋势具有明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "a246e6bd330fdf74b279161b0f0d823f112473e985046ebe8f16096a72fc977a": {
+      "decisionKey": "a246e6bd330fdf74b279161b0f0d823f112473e985046ebe8f16096a72fc977a",
+      "status": "published",
+      "reason": "Charles Schwab, a major financial services firm, expanding its crypto trading platform to include Solana, Avalanche, and Chainlink is a significant market structure development. It signals growing institutional adoption and provides concrete, verifiable information about specific assets and a named company. This is high-value news for crypto industry stakeholders.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "9ed7afd002fc52c70088c75aeb6ce0e7e6b6b7fc618d42717f40c2d3dd069fe8": {
+      "decisionKey": "9ed7afd002fc52c70088c75aeb6ce0e7e6b6b7fc618d42717f40c2d3dd069fe8",
+      "status": "published",
+      "reason": "真实新闻源报道美联储杰克逊霍尔研讨会首次聚焦支付与金融基础设施，涉及比特币价格关键位，对加密行业政策与市场结构有明确影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "9353a0f1be5ea459f894f7feca58e802daf8d4138e8047bc1d48e031a127d70e": {
+      "decisionKey": "9353a0f1be5ea459f894f7feca58e802daf8d4138e8047bc1d48e031a127d70e",
+      "status": "rejected",
+      "reason": "The candidate is based on a reported acquisition (unconfirmed rumor) and lacks concrete verifiable data or clear direct impact on the crypto industry. The content is extremely brief and speculative, focusing on Nvidia and Hugging Face without mention of crypto-specific implications. The future-dated publication also raises questions about authenticity.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z"
+    },
+    "8fdc738020a8af6d84175824d999621d2db3efd8cc0ffd5acc875b88abb0aaa0": {
+      "decisionKey": "8fdc738020a8af6d84175824d999621d2db3efd8cc0ffd5acc875b88abb0aaa0",
+      "status": "published",
+      "reason": "Decrypt reports on a vulnerability demonstration by OneKey against Ledger's Ethereum app, clarifying that it was patched before exploitation. This is relevant, factual, and provides important security information for crypto users.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "8566cdfa32acf03f17e55c067527987c74ce5adcd24a5fb075228d6baa3169b5": {
+      "decisionKey": "8566cdfa32acf03f17e55c067527987c74ce5adcd24a5fb075228d6baa3169b5",
+      "status": "published",
+      "reason": "This is a real, verifiable news report from CoinDesk about a new Connecticut lawsuit against Kalshi, adding to an ongoing legal battle over prediction markets. It involves a specific regulator action and potential Supreme Court implications, making it highly relevant to crypto industry participants interested in regulatory and market structure developments.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "730cc58a0b5f61be4b71813940aef14c8e784e8b983075f1e1d0b3e54983476a": {
+      "decisionKey": "730cc58a0b5f61be4b71813940aef14c8e784e8b983075f1e1d0b3e54983476a",
+      "status": "published",
+      "reason": "Ethena 的治理投票拟通过回购和调整 VC 解锁来降低抛压并将协议收入反哺 ENA，涉及代币经济与市场结构变化，对 DeFi 和代币持有者具有明确影响，来源为 CoinDesk，真实可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "583524ba84f156562e3d3cf0b69ac7a9624852377f7655791a4c269280e83448": {
+      "decisionKey": "583524ba84f156562e3d3cf0b69ac7a9624852377f7655791a4c269280e83448",
+      "status": "published",
+      "reason": "Real news from Cointelegraph citing a Public Citizen report that quantifies investor losses from Trump-linked crypto ventures. Provides a specific figure ($4.7B) and a named organization, affecting crypto industry perceptions of political and regulatory risk.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "55abe9399cc797cdd4e4057f77a4c0e1c0db35bffd89f329cf26f686e286b2af": {
+      "decisionKey": "55abe9399cc797cdd4e4057f77a4c0e1c0db35bffd89f329cf26f686e286b2af",
+      "status": "published",
+      "reason": "该候选来自真实加密新闻媒体 Decrypt，内容具体（64亿美元、Deribit周五结算），涉及比特币期权到期这一市场结构事件，对加密交易者具有明确影响和信息增量，不属于价格喊单或营销。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "4c557e34fba1a20bd6c136630773205a9104e3c3814872bcfe529dbb38504d50": {
+      "decisionKey": "4c557e34fba1a20bd6c136630773205a9104e3c3814872bcfe529dbb38504d50",
+      "status": "rejected",
+      "reason": "Candidate discusses a memecoin creator cashing out, tied to game leak news. It lacks clear impact on crypto industry policy, protocol upgrades, security incidents, or market structure changes, and veers toward entertainment/low-value marketing content.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z"
+    },
+    "383ffe54acfe7376b42bfaf1a0236e57435d3307016df7da64f0cc81c32f782a": {
+      "decisionKey": "383ffe54acfe7376b42bfaf1a0236e57435d3307016df7da64f0cc81c32f782a",
+      "status": "failed",
+      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"risks\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z"
+    },
+    "204b0447ca2d6a3ce2a7d9e200cfb540a910ae77b059b44a784a7721386b5fbe": {
+      "decisionKey": "204b0447ca2d6a3ce2a7d9e200cfb540a910ae77b059b44a784a7721386b5fbe",
+      "status": "rejected",
+      "reason": "Grayscale's public commentary on Zcash's potential to challenge Bitcoin's network effects is a notable market structure narrative from a major asset manager, with concrete data (19x price increase, sub-1% market cap share) and direct relevance to privacy coin investors.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z"
+    },
+    "167e4af7f77d697f68f2f05887d54a4e8e95b4908220045e59c09c73e2b76053": {
+      "decisionKey": "167e4af7f77d697f68f2f05887d54a4e8e95b4908220045e59c09c73e2b76053",
+      "status": "rejected",
+      "reason": "该候选是OpenAI新功能的一般科技新闻，虽然涉及安全特性，但未明确关联加密行业政策、协议、安全事件或市场结构变化，对加密受众缺乏明确影响和信息增量。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z"
+    },
+    "13f6eb239a3f9cf9aceeba4ef7110c10bd2a40800786034b5eecba7180a6a060": {
+      "decisionKey": "13f6eb239a3f9cf9aceeba4ef7110c10bd2a40800786034b5eecba7180a6a060",
+      "status": "published",
+      "reason": "The Block reports a concrete legal event involving the Polish Olympic Committee president and crypto exchange Zondacrypto, with clear regulatory implications for the crypto industry.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z",
+      "bCommitSha": "189be32d0c6464fd8d2d16fd7c7733879034c451"
+    },
+    "12594d357c5c1badee3e65780f388760d747dbc84e73e422f982c9b74144f680": {
+      "decisionKey": "12594d357c5c1badee3e65780f388760d747dbc84e73e422f982c9b74144f680",
+      "status": "rejected",
+      "reason": "该候选本质上是比特币价格对英伟达财报反应的市场评论，属于价格喊单和短期市场情绪内容，缺乏对加密行业有长期影响的具体政策、协议升级、安全事件或市场结构变化。标题中的价格目标‘eyes $81K’进一步表明其投机性质，不符合发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-27T21:24:59.724Z"
+    },
     "f923771d1c929cc5eaef717d09f29e9579543f1e2884a170b1cc1970bc407bde": {
       "decisionKey": "f923771d1c929cc5eaef717d09f29e9579543f1e2884a170b1cc1970bc407bde",
       "status": "published",
@@ -8372,140 +8535,21 @@
       "score": 0.72,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T16:21:36.924Z"
-    },
-    "518be51c9bfe8b7ba31c0596c29b86aeb3b5e67bfb2e4ac43238335de8521a6d": {
-      "decisionKey": "518be51c9bfe8b7ba31c0596c29b86aeb3b5e67bfb2e4ac43238335de8521a6d",
-      "status": "published",
-      "reason": "Circle's partnership with Visa, Mastercard, and BlackRock as validators for the Arc launch is a significant institutional adoption signal for stablecoin infrastructure, with concrete timeline and testnet data, directly impacting crypto market structure.",
-      "score": 0.92,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:21:36.924Z",
-      "bCommitSha": "aa96f61191065dfef7c80bd2bc0c8d6d95be49c5"
-    },
-    "48c91bfad5ea3c35558ee29b4aeeed8cbeb5a3c7b96fe99aa10a168f32d6f66e": {
-      "decisionKey": "48c91bfad5ea3c35558ee29b4aeeed8cbeb5a3c7b96fe99aa10a168f32d6f66e",
-      "status": "rejected",
-      "reason": "Galaxy Digital is a prominent crypto financial services firm, and its Q2 loss and expected revenue from AI data centers are relevant to crypto industry participants monitoring institutional adoption and diversification. However, the news is a routine earnings update rather than a major policy, protocol, or security event, and the available content is limited to a single forward-looking statement, reducing its overall importance.",
-      "score": 0.55,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:21:36.924Z"
-    },
-    "41da6d34a2d72e3847c40b893f1132fc7e54ee5f18dbe66394e029f2371eda71": {
-      "decisionKey": "41da6d34a2d72e3847c40b893f1132fc7e54ee5f18dbe66394e029f2371eda71",
-      "status": "rejected",
-      "reason": "Routine vendor announcement about adding token support for an existing blockchain; no significant policy, protocol upgrade, security event, or market structure impact for the crypto industry.",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:21:36.924Z"
-    },
-    "41447ba6d1f868a6adc1603ac98aae6f653c5bb3d6e6ceacfe52f19eaf1127c2": {
-      "decisionKey": "41447ba6d1f868a6adc1603ac98aae6f653c5bb3d6e6ceacfe52f19eaf1127c2",
-      "status": "published",
-      "reason": "This is a legitimate news report from Cointelegraph about Mastercard and Borderless testing shared identity checks for stablecoin transfers via Mastercard's Crypto Credential framework. It involves a major payment processor, a concrete initiative, and has direct implications for stablecoin compliance and cross-border payments, which is of clear interest to the crypto industry.",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:21:36.924Z",
-      "bCommitSha": "aa96f61191065dfef7c80bd2bc0c8d6d95be49c5"
-    },
-    "409cde947d1adeaf3681ca16095114a32c9810a84f724c2eeedd3354d4428215": {
-      "decisionKey": "409cde947d1adeaf3681ca16095114a32c9810a84f724c2eeedd3354d4428215",
-      "status": "published",
-      "reason": "真实新闻来源报道具体项目事件：Eliza AI代币创始人宣布代币死亡及基金会关闭，原因是集体诉讼和解耗尽资金。这对加密行业受众具有明确信息增量，展示了AI代币项目的法律风险和市场失败案例，值得关注。",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:21:36.924Z",
-      "bCommitSha": "aa96f61191065dfef7c80bd2bc0c8d6d95be49c5"
-    },
-    "e3298432a29a66d06bdd61331cf8ca876c5a9661a23025de86d7dc44609883e4": {
-      "decisionKey": "e3298432a29a66d06bdd61331cf8ca876c5a9661a23025de86d7dc44609883e4",
-      "status": "rejected",
-      "reason": "候选为市场行情报道，主要关注黄金和美股，对比特币仅提及价格未突破，属于价格行情类低价值内容，对加密行业受众缺乏明确影响和信息增量，不符合重要政策、协议升级、安全事件或市场结构变化标准。",
-      "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T15:45:02.718Z"
-    },
-    "cfa145c80b20582ffb218b56a804fe1dc95a218ea6585b0b3929d7ef562ffa85": {
-      "decisionKey": "cfa145c80b20582ffb218b56a804fe1dc95a218ea6585b0b3929d7ef562ffa85",
-      "status": "rejected",
-      "reason": "该候选为投资策略分析文章，讨论比特币在投资组合中的配置，不涉及重要政策、协议升级、安全事件或市场结构变化，对加密行业受众的信息增量有限，属于常见市场观点内容。",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T15:45:02.718Z"
-    },
-    "9fcb0a9eed9914757685e18fd86cae7ac99c06f865b140990ad8af1c42b48697": {
-      "decisionKey": "9fcb0a9eed9914757685e18fd86cae7ac99c06f865b140990ad8af1c42b48697",
-      "status": "rejected",
-      "reason": "该候选来自可信的CoinDesk新闻源，报道了Strategy公司STRC股票反弹30%的新闻，并包含具体数据：40亿美元现金储备和9.75亿美元回购计划。这些财务动态与比特币市场相关，对加密行业受众有信息增量，属于市场结构变化范畴，值得发布。",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T14:46:22.462Z"
-    },
-    "f6a824816a288983156fb2385cfffbdafcb700621eba7d731fd04f71fcf96533": {
-      "decisionKey": "f6a824816a288983156fb2385cfffbdafcb700621eba7d731fd04f71fcf96533",
-      "status": "published",
-      "reason": "This is a real, accessible Cointelegraph article about a concrete Coldcard entropy flaw and its implications for major hardware wallets, which matters directly to crypto users' asset security and provides actionable information.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T14:39:40.162Z",
-      "bCommitSha": "09f9af80c9ae07779b6fc3db1eb9ceb218d2eeb2"
-    },
-    "84d9b452ca514c71bdffcc66cec7dcb49f4791dd0bf135ff7e7bd38ccc8363b7": {
-      "decisionKey": "84d9b452ca514c71bdffcc66cec7dcb49f4791dd0bf135ff7e7bd38ccc8363b7",
-      "status": "rejected",
-      "reason": "候选仅为Cointelegraph的每日综述通用页面，无具体主体、事件、时间或数据，属于低价值聚合内容，缺乏对加密行业受众的明确信息增量。",
-      "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T14:39:40.162Z"
-    },
-    "59d35094351dc6a4db61a6add5cc1703f2f8f52ad156b604cbb99a22ee015a58": {
-      "decisionKey": "59d35094351dc6a4db61a6add5cc1703f2f8f52ad156b604cbb99a22ee015a58",
-      "status": "published",
-      "reason": "Real news from Cointelegraph citing CryptoQuant data on whale accumulation during market weakness. Provides specific entities (Bitcoin, Ethereum, XRP), event (whale accumulation), and data source (CryptoQuant). Relevant to crypto market structure and investor sentiment, offering informative value beyond price speculation.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T14:39:40.162Z",
-      "bCommitSha": "09f9af80c9ae07779b6fc3db1eb9ceb218d2eeb2"
-    },
-    "54ea594f4f970e00ebb37640476b7a9b7fb205508fbec2b5812ec655ab96313e": {
-      "decisionKey": "54ea594f4f970e00ebb37640476b7a9b7fb205508fbec2b5812ec655ab96313e",
-      "status": "published",
-      "reason": "This is a verifiable news report from Cointelegraph about Galaxy Digital's Q2 2026 financial results, including specific figures ($85M net loss, $8.7B revenue). It reflects market conditions and provides actionable insight for crypto industry participants tracking institutional performance and market health.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T14:39:40.162Z",
-      "bCommitSha": "09f9af80c9ae07779b6fc3db1eb9ceb218d2eeb2"
-    },
-    "521e5d0284bde908a6c960bb6602b72df2f4b5a7115bd13e9197b43a1619e0cd": {
-      "decisionKey": "521e5d0284bde908a6c960bb6602b72df2f4b5a7115bd13e9197b43a1619e0cd",
-      "status": "rejected",
-      "reason": "The candidate is a very brief funding announcement with minimal information. The investment amount is vague ('single-digit millions') and described as 'understood', indicating speculation. There are no details on ZIGChain, the deal's terms, or its impact on the crypto industry. Lacks substantive information and clear significance for the audience.",
-      "score": 0.15,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T14:39:40.162Z"
-    },
-    "375ceaa9410979b614cc82b31301ca056e6c72149c1b5f43b67bc424899ba479": {
-      "decisionKey": "375ceaa9410979b614cc82b31301ca056e6c72149c1b5f43b67bc424899ba479",
-      "status": "published",
-      "reason": "Reported by CoinDesk, a credible crypto news outlet, on a real security incident involving Coldcard hardware wallets. The article details a five-year-old firmware flaw and its impact on the industry, specifically accelerating adoption of collaborative multisig security. This is a concrete security event with actionable implications for self-custody users and the broader crypto ecosystem.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T13:31:46.436Z",
-      "bCommitSha": "2dae2413ad5fae2dcba68e5cceec534c005f094a"
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-26T12:28:43.901Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-27T21:24:59.724Z",
     "https://cointelegraph.com/rss": "2026-08-26T12:28:43.901Z",
-    "https://decrypt.co/feed": "2026-08-26T12:28:43.901Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-26T12:28:43.901Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-26T12:28:43.901Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-26T12:28:43.901Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-26T12:28:43.901Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-26T12:28:43.901Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-26T12:28:43.901Z",
-    "https://solana.com/rss.xml": "2026-08-26T12:28:43.901Z",
-    "https://slowmist.medium.com/feed": "2026-08-26T12:28:43.901Z",
-    "https://www.theblock.co/rss.xml": "2026-08-26T12:28:43.901Z"
+    "https://decrypt.co/feed": "2026-08-27T21:24:59.724Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-27T21:24:59.724Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-27T21:24:59.724Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-27T21:24:59.724Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-27T21:24:59.724Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-27T21:24:59.724Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-27T21:24:59.724Z",
+    "https://solana.com/rss.xml": "2026-08-27T21:24:59.724Z",
+    "https://slowmist.medium.com/feed": "2026-08-27T21:24:59.724Z",
+    "https://www.theblock.co/rss.xml": "2026-08-27T21:24:59.724Z"
   },
   "lastRunAt": "2026-08-26T12:28:43.901Z"
 }
