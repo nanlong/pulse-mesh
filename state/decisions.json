@@ -1,6 +1,176 @@
 {
   "version": 1,
   "decisions": {
+    "f4f292a7c481e7e53a0c73713c6d8cfb550f124e32d205a1d165afea0af49628": {
+      "decisionKey": "f4f292a7c481e7e53a0c73713c6d8cfb550f124e32d205a1d165afea0af49628",
+      "status": "rejected",
+      "reason": "候选是泛泛的入门介绍，没有具体事件、时间或数据，对加密行业受众缺乏明确信息增量，且发布时间异常。",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z"
+    },
+    "eee47790523d93a4f1848c55ed18e3ef356fc0aa96e5d8e96bbd0822dbd3bb57": {
+      "decisionKey": "eee47790523d93a4f1848c55ed18e3ef356fc0aa96e5d8e96bbd0822dbd3bb57",
+      "status": "published",
+      "reason": "该候选报道Circle的USDC成为切尔西足球俱乐部球衣赞助商，是稳定币在主流体育领域的重大采用事件，且关联英国FCA对俱乐部的警告，对加密行业具有明确影响和信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "eea64d922f84d28e4a315029e38fdda68c2f1308745f9debe79785bd3bf4be3a": {
+      "decisionKey": "eea64d922f84d28e4a315029e38fdda68c2f1308745f9debe79785bd3bf4be3a",
+      "status": "published",
+      "reason": "CoinDesk报道美国上诉法院裁决确认州对预测市场的权力，对Kalshi等事件合约平台构成法律打击，并显示联邦法院分歧或需最高法院介入。该裁决直接影响加密预测市场行业，属于重要政策/法律变化，具有明确行业影响和信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "e99bfa9b687a5d6be25e7813d6c998b1d9091c1440a177e7a7ab45a2f69da631": {
+      "decisionKey": "e99bfa9b687a5d6be25e7813d6c998b1d9091c1440a177e7a7ab45a2f69da631",
+      "status": "rejected",
+      "reason": "该候选属于市场行情评论和情绪描述，缺乏具体主体、事件、时间或数据支撑，且未涉及加密行业的重要政策、协议升级、安全事件或市场结构变化，属于价格喊单和低价值市场噪音内容。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z"
+    },
+    "e7853d409c400c7f134cb15facc23c8d6f7adfcdf549abc93a245c3a76236e40": {
+      "decisionKey": "e7853d409c400c7f134cb15facc23c8d6f7adfcdf549abc93a245c3a76236e40",
+      "status": "rejected",
+      "reason": "SEC提案主要涉及欧盟债务证券的定义，与加密行业无关，未提及数字资产、加密市场或相关监管。对加密受众无明确影响和信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z"
+    },
+    "d0791d22289acbee47bc734945842964650a9552db70ebe97e7e290e73feb2d0": {
+      "decisionKey": "d0791d22289acbee47bc734945842964650a9552db70ebe97e7e290e73feb2d0",
+      "status": "published",
+      "reason": "Solana's governance vote on reducing SOL emission is a significant protocol and tokenomic change, with concrete outcome details from a reputable crypto news source.",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "9eba0106219435dbe5c70671b8b9dc4bffd1056c8da60f88d8cfe0703ba62a3a": {
+      "decisionKey": "9eba0106219435dbe5c70671b8b9dc4bffd1056c8da60f88d8cfe0703ba62a3a",
+      "status": "published",
+      "reason": "来源为Decrypt，是公开可核验的加密/科技媒体；候选包含明确主体（美联储主席Warsh）、明确事件（Jackson Hole演讲）和明确时间（2026-08-28）；内容聚焦AI对经济与货币政策的影响，对加密行业受众具有宏观市场影响和信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "87e09d0df61d949eb2d597952bbccf00eeb4308c82589ee34e2ecde9d67254fa": {
+      "decisionKey": "87e09d0df61d949eb2d597952bbccf00eeb4308c82589ee34e2ecde9d67254fa",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z"
+    },
+    "84d9b452ca514c71bdffcc66cec7dcb49f4791dd0bf135ff7e7bd38ccc8363b7": {
+      "decisionKey": "84d9b452ca514c71bdffcc66cec7dcb49f4791dd0bf135ff7e7bd38ccc8363b7",
+      "status": "rejected",
+      "reason": "该候选仅为Cointelegraph的日常聚合栏目介绍，无具体主体、事件、时间或数据，属于模板化内容，对加密行业受众无明确信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z"
+    },
+    "6f0a4efec52c578ba7e1bafb7ca4233cc3afbbdb11cd38a1c75822e9ea142b64": {
+      "decisionKey": "6f0a4efec52c578ba7e1bafb7ca4233cc3afbbdb11cd38a1c75822e9ea142b64",
+      "status": "published",
+      "reason": "Solana validators approved a governance proposal that doubles the annual disinflation rate from 15% to 30%, directly affecting future SOL issuance and tokenomics. This is a concrete, verifiable protocol governance event with clear relevance to crypto industry participants.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "6b3865751e4a27ed9938b23598062f79abe73c23a0d43fd1c40e7da64f679ada": {
+      "decisionKey": "6b3865751e4a27ed9938b23598062f79abe73c23a0d43fd1c40e7da64f679ada",
+      "status": "published",
+      "reason": "Cointelegraph 报道 Bullish 向 USD.AI 提供 1 亿美元稳定币融资用于 GPU 抵押贷款，涉及加密交易所、稳定币和 AI 基础设施，对机构级加密金融和新兴资产类别有明确信息增量，属于市场结构变化。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "59d3bca77364f77a18f0be3bb475828863bcfdb1314459eba164bb4a188bd42c": {
+      "decisionKey": "59d3bca77364f77a18f0be3bb475828863bcfdb1314459eba164bb4a188bd42c",
+      "status": "published",
+      "reason": "Charles Schwab's expansion of crypto trading to Solana, Avalanche, and Chainlink is a significant market structure development, reflecting broader institutional adoption and increased accessibility for mainstream investors. The news is specific, verifiable, and directly relevant to the crypto audience.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "53f7839ed936f8d39ac93efdfecc89576ac21d7ff3fd3714d22785eda8c52b73": {
+      "decisionKey": "53f7839ed936f8d39ac93efdfecc89576ac21d7ff3fd3714d22785eda8c52b73",
+      "status": "published",
+      "reason": "The Block 报道 Bitwise Solana Staking ETF 成为首个 AUM 达 10 亿美元的 Solana ETF，反映机构对 Solana ETF 的采用增长，对加密行业具有明确信息增量。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "4782a65ec8f65ad80124ff237134216379a007a6e0604af08e2bdd22965aceab": {
+      "decisionKey": "4782a65ec8f65ad80124ff237134216379a007a6e0604af08e2bdd22965aceab",
+      "status": "published",
+      "reason": "The Ninth Circuit ruling on Kalshi's Nevada sports betting fight directly impacts prediction markets, which are closely tied to the crypto industry. The case challenges CFTC's exclusive jurisdiction, a key regulatory issue for crypto-based trading platforms. The source is credible and the event is specific, timely, and provides meaningful information for the audience.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "43a87922ddb37fc58c01304658cb34dc47f8af81d5d80eeb96ce79f333a6a6e7": {
+      "decisionKey": "43a87922ddb37fc58c01304658cb34dc47f8af81d5d80eeb96ce79f333a6a6e7",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z"
+    },
+    "38351278c4a86aac5188fdd7932a7e1f46721da744f38bae971c264e90f256b3": {
+      "decisionKey": "38351278c4a86aac5188fdd7932a7e1f46721da744f38bae971c264e90f256b3",
+      "status": "rejected",
+      "reason": "Candidates about Meta's robot testing for data centers are unrelated to the crypto industry and have no clear impact or information increment for crypto audiences.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z"
+    },
+    "34af23bbe1f4806f3d90b0d4f3db43a38ad31053abc1f0cff3a3d2c720f03bf5": {
+      "decisionKey": "34af23bbe1f4806f3d90b0d4f3db43a38ad31053abc1f0cff3a3d2c720f03bf5",
+      "status": "published",
+      "reason": "报道了比特币矿商IREN因AI转型成本上升导致股价下跌，且AI云收入首次超过比特币挖矿收入，涉及矿商业务结构和市场反应，对加密行业投资者具有明确信息增量。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "2bc56ba2fcf7dcb70fe79883182a7d420e1b9b328ca3679d85650184acf60410": {
+      "decisionKey": "2bc56ba2fcf7dcb70fe79883182a7d420e1b9b328ca3679d85650184acf60410",
+      "status": "published",
+      "reason": "Solana 网络首次全网投票通过反通胀翻倍提案，涉及协议治理和通胀参数的重大变更，对验证者、持币者及 Solana 生态有直接影响，属于重要的协议升级新闻。来源为 CoinDesk，真实可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
+    "167698185ba9f4d35e80b7de92557f5d4eeeb5688c16690a0085b65f309c7930": {
+      "decisionKey": "167698185ba9f4d35e80b7de92557f5d4eeeb5688c16690a0085b65f309c7930",
+      "status": "rejected",
+      "reason": "候选内容聚焦美国城市对AI数据中心的限制和水资源风险，未提及加密行业、数字资产或相关基础设施的直接影响，缺乏对加密受众的明确信息增量。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z"
+    },
+    "0993b6b5519a45c2cdcc9aeb2f098a91c474aa00adb2dcec44fbc93b05495db3": {
+      "decisionKey": "0993b6b5519a45c2cdcc9aeb2f098a91c474aa00adb2dcec44fbc93b05495db3",
+      "status": "published",
+      "reason": "来源为 Cointelegraph 真实新闻页面，内容涉及比特币价格跌破 80,000 美元关键位及美联储高级官员对通胀的鹰派表态，对加密市场具有宏观政策影响和信息增量，属于重要政策与市场动态，值得发布。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-28T21:35:02.747Z",
+      "bCommitSha": "cea4a0d6843b0f7be1cac25c10cf67e350357429"
+    },
     "f6615505624a257eeb2b1ee723256a3864d030b470526459ae86b9e612379da8": {
       "decisionKey": "f6615505624a257eeb2b1ee723256a3864d030b470526459ae86b9e612379da8",
       "status": "published",
@@ -8374,182 +8544,21 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-05T20:00:58.866Z",
       "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
-    },
-    "386c466d7d8044ba54f2ec9c3e143fcafe492cf2e5c5e013aa0570c4b608eb3d": {
-      "decisionKey": "386c466d7d8044ba54f2ec9c3e143fcafe492cf2e5c5e013aa0570c4b608eb3d",
-      "status": "rejected",
-      "reason": "该候选为比特币和Zcash的价格走势分析与预测，属于价格喊单和技术分析类内容，不包含具体政策、协议升级、安全事件或市场结构变化等对加密行业有明确影响的信息增量。",
-      "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T20:00:58.866Z"
-    },
-    "1dfabdd1cba2b0b7e8a71426f4af92c180a8b66557a362b7d0eedcc690f752ce": {
-      "decisionKey": "1dfabdd1cba2b0b7e8a71426f4af92c180a8b66557a362b7d0eedcc690f752ce",
-      "status": "rejected",
-      "reason": "Marex invests in Digital Prime to expand institutional crypto lending, a concrete move by a traditional financial firm into crypto infrastructure. Relevant to institutional adoption and lending market.",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T20:00:58.866Z"
-    },
-    "18f77c58e75bd258a889575d3ee90399d4718c6462ac24ead43501734e4fd7c7": {
-      "decisionKey": "18f77c58e75bd258a889575d3ee90399d4718c6462ac24ead43501734e4fd7c7",
-      "status": "published",
-      "reason": "SEC宣布在执法部门设立新的财务报告和会计部门，针对会计和财务报告欺诈。这属于重要监管结构变化，对需遵守证券法的加密企业有潜在影响，提供明确信息增量。",
-      "score": 0.75,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T20:00:58.866Z",
-      "bCommitSha": "a89a874ec0186292e46a28007e69dac85aa2cfc5"
-    },
-    "f28984f9a16c0d360814493d9e0fbdd5be42295f8bde00238aa6b11b84560e6b": {
-      "decisionKey": "f28984f9a16c0d360814493d9e0fbdd5be42295f8bde00238aa6b11b84560e6b",
-      "status": "rejected",
-      "reason": "该候选主要报道比特币价格和ETF资金流入，属于市场行情和价格预测类内容，缺乏对加密行业受众具有明确影响的具体政策、协议升级或安全事件信息，信息增量有限，按审核标准应忽略价格喊单类内容。",
-      "score": 0.3,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "d03cf90df373b7b361cb5302196181367d18cae9906a67b546705b813643f104": {
-      "decisionKey": "d03cf90df373b7b361cb5302196181367d18cae9906a67b546705b813643f104",
-      "status": "rejected",
-      "reason": "Real news report from The Block about a former LAPD officer sentenced for a bitcoin robbery, providing concrete details and highlighting security risks relevant to crypto users.",
-      "score": 0.6,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "87de9e199ee5698107ffa2a677274c1881720ee8a6d1dea971cb71e65aec70b9": {
-      "decisionKey": "87de9e199ee5698107ffa2a677274c1881720ee8a6d1dea971cb71e65aec70b9",
-      "status": "rejected",
-      "reason": "The candidate reports a single Michigan primary loss of a crypto-backed incumbent. While it touches on crypto PAC influence, it lacks direct policy, protocol, or security impact, and the provided content is too thin to justify publication for the crypto industry audience.",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "86512fe861f1fcf70e9e7788d3261d26dd3997508c0e849833f6d2c3b9e904ea": {
-      "decisionKey": "86512fe861f1fcf70e9e7788d3261d26dd3997508c0e849833f6d2c3b9e904ea",
-      "status": "rejected",
-      "reason": "The article reports specific financial data from TeraWulf, a publicly listed Bitcoin mining company, showing that high-performance computing (HPC) leasing now accounts for a majority of its revenue. This signals a structural shift in the mining industry's business model, which is relevant to crypto market participants monitoring miner diversification and its potential impact on Bitcoin network dynamics. The source is a reputable crypto news outlet.",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "4bb9ff6f60724bddc42e71ee649c7a004f79c0b9e15fd2ea02e016e8d9269194": {
-      "decisionKey": "4bb9ff6f60724bddc42e71ee649c7a004f79c0b9e15fd2ea02e016e8d9269194",
-      "status": "rejected",
-      "reason": "Visa expanding stablecoin capabilities through Visa Direct is a notable development for crypto payments, and the source is a reputable crypto news outlet. However, the content is very brief and lacks specific details about the collaboration, reducing its information value.",
-      "score": 0.6,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z"
-    },
-    "4858286259011c84b0fb3e038715375beec787d7ae2e5c9d16dbdbacb156df22": {
-      "decisionKey": "4858286259011c84b0fb3e038715375beec787d7ae2e5c9d16dbdbacb156df22",
-      "status": "published",
-      "reason": "该候选来自权威新闻媒体The Block，报道了美国参议员与部落博彩监管机构联合推动在Clarity Act中加入预测市场条款，涉及具体政策行动，对加密行业（尤其是预测市场）有明确的监管影响和信息增量。",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T18:00:52.340Z",
-      "bCommitSha": "c5ee0e421a012bd859a6d224ee16ffc4c33cb224"
-    },
-    "ed85d9b845cba47da43f898b6294f5133941555b492c2c623e16ac91707d8136": {
-      "decisionKey": "ed85d9b845cba47da43f898b6294f5133941555b492c2c623e16ac91707d8136",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
-    "a7c0b9939df0567bf3301cf40cbc15eb6d2f69cdba3a32472fc1e37acdc7349b": {
-      "decisionKey": "a7c0b9939df0567bf3301cf40cbc15eb6d2f69cdba3a32472fc1e37acdc7349b",
-      "status": "rejected",
-      "reason": "The article reports a specific statement from Bitwise CIO Matt Hougan about the Clarity bill's passage timeline and its potential impact on the crypto industry, providing timely and relevant information for crypto stakeholders following regulatory developments.",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
-    "93fbf262b8917d2965cbaa0eb68a687b1346161bc354c4e9e46ab8159bb86d08": {
-      "decisionKey": "93fbf262b8917d2965cbaa0eb68a687b1346161bc354c4e9e46ab8159bb86d08",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
-    "4f06692fda9eaabc418a5d38759c2ea1f7633cb9054488c44de601c3cf2d8b1d": {
-      "decisionKey": "4f06692fda9eaabc418a5d38759c2ea1f7633cb9054488c44de601c3cf2d8b1d",
-      "status": "published",
-      "reason": "Cloudflare, a major internet infrastructure company, is rolling out stablecoin wallets for AI agents to pay for APIs and content. This signals real-world crypto adoption and is directly relevant to the crypto industry. The Block is a credible source, and the report contains specific details about the rollout phase.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z",
-      "bCommitSha": "c95834815d6e6e43c2d04452630ed31e8807d12e"
-    },
-    "4551d1621d31dde6a8cfb0ee41c3f596786b53d0568617c3a5b7555141a5fcee": {
-      "decisionKey": "4551d1621d31dde6a8cfb0ee41c3f596786b53d0568617c3a5b7555141a5fcee",
-      "status": "rejected",
-      "reason": "BlackRock's spot Ethereum ETF reverse share split is a specific market structure change affecting ETHA holders, with clear event details and a credible source. It is relevant to crypto industry investors monitoring ETF mechanics.",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
-    "10b496db869f61fde36c599660f76f3eda1dc31a7c77c66f5f290019472dc47e": {
-      "decisionKey": "10b496db869f61fde36c599660f76f3eda1dc31a7c77c66f5f290019472dc47e",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:31:12.675Z"
-    },
-    "c8f1f6b921e9d81b294be6208bc31e681f517e16ec2ff5fb06da01c34f27e8df": {
-      "decisionKey": "c8f1f6b921e9d81b294be6208bc31e681f517e16ec2ff5fb06da01c34f27e8df",
-      "status": "rejected",
-      "reason": "Candidate has a future publication date (2026-08-05) and incomplete content that does not provide a verifiable, concrete event with clear impact on the crypto industry. The snippet about Trump Accounts investing in index funds is insufficient and likely a placeholder or test content.",
-      "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:21:36.924Z"
-    },
-    "bde8fce2d17e22c894f10b72522a36d88f94b2e40f815e4a86ce174350e9f9a8": {
-      "decisionKey": "bde8fce2d17e22c894f10b72522a36d88f94b2e40f815e4a86ce174350e9f9a8",
-      "status": "rejected",
-      "reason": "Opinion piece lacking specific data, events, or verifiable facts; does not address concrete policy, protocol, security, or market structure changes relevant to the audience.",
-      "score": 0.15,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:21:36.924Z"
-    },
-    "b4b62e4661ebbf411065dffb0b8da6cc5e4db48e4552ec39a41ab95e2aca3f4b": {
-      "decisionKey": "b4b62e4661ebbf411065dffb0b8da6cc5e4db48e4552ec39a41ab95e2aca3f4b",
-      "status": "published",
-      "reason": "该候选报道了Coldcard硬件钱包漏洞事件对加密市场结构的潜在影响，涉及安全事件和受监管比特币产品的需求变化，来源为CoinDesk，内容具体且对加密行业有明确信息增量。",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:21:36.924Z",
-      "bCommitSha": "aa96f61191065dfef7c80bd2bc0c8d6d95be49c5"
-    },
-    "aa4f9701abc70dcbd4a5e2742b20e03804e0418263c4adc26ebf2d0e6fe0da64": {
-      "decisionKey": "aa4f9701abc70dcbd4a5e2742b20e03804e0418263c4adc26ebf2d0e6fe0da64",
-      "status": "rejected",
-      "reason": "The appointment of a CFO is company-internal news with limited direct impact on the broader crypto industry. It does not constitute an important policy, protocol upgrade, security incident, or market structure change. While the source is valid, the candidate lacks clear informational value for the audience.",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:21:36.924Z"
-    },
-    "548feffef6694cabf7d8bc0ff0797fe7353f7b83be1756b29874cad6a946654a": {
-      "decisionKey": "548feffef6694cabf7d8bc0ff0797fe7353f7b83be1756b29874cad6a946654a",
-      "status": "rejected",
-      "reason": "The Block is a credible crypto news outlet. The story reports that Payward (Kraken's parent) is changing its position on tokenized equities by introducing proxy voting rights for eligible xStocks holders. This is a concrete policy shift affecting investor rights in a crypto-native security product, with clear relevance and incremental information for the crypto audience.",
-      "score": 0.72,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-05T16:21:36.924Z"
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-27T21:24:59.724Z",
-    "https://cointelegraph.com/rss": "2026-08-26T12:28:43.901Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-28T21:35:02.747Z",
+    "https://cointelegraph.com/rss": "2026-08-28T21:35:02.747Z",
     "https://decrypt.co/feed": "2026-08-27T21:24:59.724Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-27T21:24:59.724Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-27T21:24:59.724Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-27T21:24:59.724Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-27T21:24:59.724Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-27T21:24:59.724Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-27T21:24:59.724Z",
-    "https://solana.com/rss.xml": "2026-08-27T21:24:59.724Z",
-    "https://slowmist.medium.com/feed": "2026-08-27T21:24:59.724Z",
-    "https://www.theblock.co/rss.xml": "2026-08-27T21:24:59.724Z"
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-28T21:35:02.747Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-28T21:35:02.747Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-28T21:35:02.747Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-28T21:35:02.747Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-28T21:35:02.747Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-28T21:35:02.747Z",
+    "https://solana.com/rss.xml": "2026-08-28T21:35:02.747Z",
+    "https://slowmist.medium.com/feed": "2026-08-28T21:35:02.747Z",
+    "https://www.theblock.co/rss.xml": "2026-08-28T21:35:02.747Z"
   },
   "lastRunAt": "2026-08-26T12:28:43.901Z"
 }
