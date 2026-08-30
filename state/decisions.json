@@ -1,6 +1,118 @@
 {
   "version": 1,
   "decisions": {
+    "fdf46c2b572aa91732c8938f021a88ba59dc09fb4255193b7db22bddb7317f07": {
+      "decisionKey": "fdf46c2b572aa91732c8938f021a88ba59dc09fb4255193b7db22bddb7317f07",
+      "status": "rejected",
+      "reason": "候选仅有泛泛描述，未提供具体做市商、交易数据、策略细节或可核验事件，信息增量不足，且偏市场评论而非实质性新闻。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z"
+    },
+    "fbf2daa5e11aa850d61dcc1d1b2b13cf811b230bf7def7b1218d58e80fc38862": {
+      "decisionKey": "fbf2daa5e11aa850d61dcc1d1b2b13cf811b230bf7def7b1218d58e80fc38862",
+      "status": "published",
+      "reason": "Sber, Russia's largest bank, plans to accept USDT and Ether alongside Bitcoin as loan collateral amid new regulated crypto trading rules. This is a concrete institutional adoption and regulatory development with clear relevance to crypto markets and policy.",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z",
+      "bCommitSha": "0150a0ba1a34e2145a9a58ca4f4fd6893754d8f2"
+    },
+    "f520f7278185f6232d94ef65d278ba045bc385ac7532eb7c844bcb2ca877948e": {
+      "decisionKey": "f520f7278185f6232d94ef65d278ba045bc385ac7532eb7c844bcb2ca877948e",
+      "status": "published",
+      "reason": "Polygon disclosed security flaws that were fixed in recent hard forks, directly impacting crypto infrastructure security and providing clear, verifiable information from a reputable source.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z",
+      "bCommitSha": "0150a0ba1a34e2145a9a58ca4f4fd6893754d8f2"
+    },
+    "e2b6130ab810312b0166b54c4ad9affba844daeb7f94052fab1e8d63f2c6ccb7": {
+      "decisionKey": "e2b6130ab810312b0166b54c4ad9affba844daeb7f94052fab1e8d63f2c6ccb7",
+      "status": "published",
+      "reason": "TheBlock reports a concrete, verifiable security incident in the Cosmos ecosystem: a $5.7 million hack affecting six chains, with specific details about Cosmos Labs wrongly clearing a bug and MANTRA Chain losing $3.6 million. This is a real, dated, and material security event with clear relevance to crypto users and developers.",
+      "score": 0.93,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z",
+      "bCommitSha": "0150a0ba1a34e2145a9a58ca4f4fd6893754d8f2"
+    },
+    "d3028a071dfceb22d3563e98fe8fa17b653b9c9d768646f6867bca570bb19feb": {
+      "decisionKey": "d3028a071dfceb22d3563e98fe8fa17b653b9c9d768646f6867bca570bb19feb",
+      "status": "rejected",
+      "reason": "内容为价格反弹和人物购买暗示，属于价格喊单与传闻，缺乏可核验的具体事件、数据或对加密行业的结构性影响，不符合发布标准。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z"
+    },
+    "cc1bbd83bd2c97b6b8e86f217cee2078ccebe4484adc05c57772b4a67b879124": {
+      "decisionKey": "cc1bbd83bd2c97b6b8e86f217cee2078ccebe4484adc05c57772b4a67b879124",
+      "status": "published",
+      "reason": "该候选来自Cointelegraph这一真实可核验的新闻源，提供了具体主体（代币化股票）、事件（链上转移量激增）、时间（30天）及数据（增长415%至295亿美元），对加密行业资产代币化趋势具有明确的信息增量，值得发布。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z",
+      "bCommitSha": "0150a0ba1a34e2145a9a58ca4f4fd6893754d8f2"
+    },
+    "bb7c48e7c821c74cb8d55ac7af26025bfc22d0272caa4c9a4f6b38041bd16744": {
+      "decisionKey": "bb7c48e7c821c74cb8d55ac7af26025bfc22d0272caa4c9a4f6b38041bd16744",
+      "status": "published",
+      "reason": "真实新闻来源，报道了具体安全事件导致代币暴跌，对加密行业有信息增量",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z",
+      "bCommitSha": "0150a0ba1a34e2145a9a58ca4f4fd6893754d8f2"
+    },
+    "b5b417d6480b5e07aaff7563b3b80e7379a8e444c5c167a613e19aceb8f32b4a": {
+      "decisionKey": "b5b417d6480b5e07aaff7563b3b80e7379a8e444c5c167a613e19aceb8f32b4a",
+      "status": "published",
+      "reason": "该候选来自Cointelegraph，是真实公开的新闻页面，报道了Stellar链上代币化真实世界资产（RWA）市场增长至近40亿美元、增长超过四倍的具体数据。该事件涉及具体主体（Stellar）、具体时间（2026年）、具体数据（近40亿美元、四倍增长），对关注加密行业RWA和链上资产发展的受众具有明确信息增量和参考价值，不属于价格喊单或营销内容。",
+      "score": 0.82,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z",
+      "bCommitSha": "0150a0ba1a34e2145a9a58ca4f4fd6893754d8f2"
+    },
+    "7fb7f8e9745d6e050f0dd2690da7ba729cd43144cefedbc1364dbeb75d1e5421": {
+      "decisionKey": "7fb7f8e9745d6e050f0dd2690da7ba729cd43144cefedbc1364dbeb75d1e5421",
+      "status": "rejected",
+      "reason": "报道伯尼·桑德斯针对Flock AI监控的立法计划，涉及公民自由与隐私，但未提及加密货币、区块链或数字资产，对加密行业受众缺乏明确信息增量，属于泛政治/科技新闻。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z"
+    },
+    "5558b5942d7cc7e704a9181e60e63e8f93beb010ed2da4f6b0371c970c39b483": {
+      "decisionKey": "5558b5942d7cc7e704a9181e60e63e8f93beb010ed2da4f6b0371c970c39b483",
+      "status": "rejected",
+      "reason": "Cointelegraph is a credible crypto news source; the story covers an explicit denial of an unauthorized token launch tied to a Trump-linked brand, which warns of potential scam and token supply concentration issues, providing actionable information for crypto users.",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z"
+    },
+    "47d4fe562d7fb53b5459ac89edee7ef1c65111b17e8d11485196ab59d8352bc9": {
+      "decisionKey": "47d4fe562d7fb53b5459ac89edee7ef1c65111b17e8d11485196ab59d8352bc9",
+      "status": "rejected",
+      "reason": "候选内容缺乏具体主体、事件、时间或数据，仅泛泛讨论金融历史和货币转移安全，未提及加密行业或提供可核验的信息增量，不符合发布条件。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z"
+    },
+    "3bdaa9b1ef47282843adbeafe907e43ae69fe26b9f44e600815878f8f9ed09c2": {
+      "decisionKey": "3bdaa9b1ef47282843adbeafe907e43ae69fe26b9f44e600815878f8f9ed09c2",
+      "status": "published",
+      "reason": "该报道来自可信的加密行业媒体，涉及AI模型攻击真实公司的安全事件，对加密行业的网络安全防护具有明确警示意义，且包含具体主体、事件和数据，属于行业相关的重要安全动态。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z",
+      "bCommitSha": "0150a0ba1a34e2145a9a58ca4f4fd6893754d8f2"
+    },
+    "063ac003a3c122f38a391824e0b78db8483977fbe07e567f920ea553574dcd83": {
+      "decisionKey": "063ac003a3c122f38a391824e0b78db8483977fbe07e567f920ea553574dcd83",
+      "status": "published",
+      "reason": "Security incident affecting a Layer 1 blockchain: mainnet halted after attacker obtained 400 million FOGO tokens (10% of circulating supply). This is a significant protocol/security event with direct market impact for crypto industry stakeholders.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-30T15:41:08.156Z",
+      "bCommitSha": "0150a0ba1a34e2145a9a58ca4f4fd6893754d8f2"
+    },
     "f7189e55caab77d8f430c75c683d76d7241ea58a2f32c77e748dcbb65ce9928b": {
       "decisionKey": "f7189e55caab77d8f430c75c683d76d7241ea58a2f32c77e748dcbb65ce9928b",
       "status": "rejected",
@@ -8444,126 +8556,21 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T06:01:21.006Z",
       "bCommitSha": "8d07cb6828e271fbf2ba08576201808c1257ffd5"
-    },
-    "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7": {
-      "decisionKey": "5d58e29e96cdc9516a69d7aed226ad8db7413eb21e07b74fcc3465e9bde64de7",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z"
-    },
-    "4876305efb6a8370bc20eb1d315b4519de6da8cf5bbd608aaa702b604df78d33": {
-      "decisionKey": "4876305efb6a8370bc20eb1d315b4519de6da8cf5bbd608aaa702b604df78d33",
-      "status": "rejected",
-      "reason": "The candidate is a CoinDesk market analysis piece citing CryptoQuant data on XRP whale accumulation and ether's price below realized value, offering specific data points and valuation comparisons. It provides actionable insight into market structure and investor behavior, which is relevant to crypto industry stakeholders despite not being a major policy or protocol event.",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z"
-    },
-    "3c5bb2b38a348cf786f5febc7a566dcabd8f9144af5de94ee5ece1159bcbf4f9": {
-      "decisionKey": "3c5bb2b38a348cf786f5febc7a566dcabd8f9144af5de94ee5ece1159bcbf4f9",
-      "status": "rejected",
-      "reason": "This is a brief market update centered on Bitcoin's price and a traditional-market SpaceX unlock. It lacks substantive crypto-specific policy, protocol, security, or market-structure developments, and provides minimal information increment beyond price commentary.",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z"
-    },
-    "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915": {
-      "decisionKey": "f9ba6a8148ac2964616fefef77ed95972f4ee59489a308f22a35e2d2a92b1915",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T04:01:12.768Z"
-    },
-    "d06fbf27a20110c709ac696c36c04968a88fc5ced92280bf3eb9c1961dd39236": {
-      "decisionKey": "d06fbf27a20110c709ac696c36c04968a88fc5ced92280bf3eb9c1961dd39236",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T04:01:12.768Z"
-    },
-    "cd2f0c1853fb6e1b46d1148e9a37a647417a19aff41db2ebd1005edff6d131a8": {
-      "decisionKey": "cd2f0c1853fb6e1b46d1148e9a37a647417a19aff41db2ebd1005edff6d131a8",
-      "status": "rejected",
-      "reason": "This is a credible, specific news report from The Block about Ark Invest purchasing $17 million in Circle shares, a major stablecoin issuer. The event provides actionable insight into institutional interest in the crypto sector and is directly relevant to crypto industry stakeholders. The article includes concrete figures and is verifiable.",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T04:01:12.768Z"
-    },
-    "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936": {
-      "decisionKey": "9f7774ff10b7739e63cd5cc0a1719db15ae00508171be136bedb69b790b49936",
-      "status": "published",
-      "reason": "The Block is a credible crypto news source; the article covers a specific legislative effort (Clarity Act) in the U.S. Senate with a clear timeline and direct impact on the crypto industry.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T04:01:12.768Z",
-      "bCommitSha": "763a07aaa965077e843cecb1a370ff2a79eadc8c"
-    },
-    "2353950c98850bff5b6d5b9dcc1b4a7ba749ad4651fc4b3b0cafed32c171e3dc": {
-      "decisionKey": "2353950c98850bff5b6d5b9dcc1b4a7ba749ad4651fc4b3b0cafed32c171e3dc",
-      "status": "published",
-      "reason": "CoinDesk报道的关于Digital Asset Market Clarity Act在参议院推进情况的最新分析，涉及具体法案、时间节点和可能结果，对加密行业政策走向有明确影响和信息增量，来源真实可核验。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T04:01:12.768Z",
-      "bCommitSha": "763a07aaa965077e843cecb1a370ff2a79eadc8c"
-    },
-    "c369333b9a2db70688917e5b9ae8eaf4f82fc525f409b27bf7be2dcf8f400d0a": {
-      "decisionKey": "c369333b9a2db70688917e5b9ae8eaf4f82fc525f409b27bf7be2dcf8f400d0a",
-      "status": "rejected",
-      "reason": "Mysten Labs（Sui 生态核心团队）联合创始人兼技术负责人 Sam Blackshear 加入 Anthropic 从事 AI 安全，属于加密行业关键人物的职业变动，对 Sui 项目及生态有潜在影响，且来源为权威加密媒体，具有信息增量。",
-      "score": 0.6,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z"
-    },
-    "c03e0aa8277e41bb0cefad8106cc5cca0a1e48a9bb298e630cb7e1d630b2135f": {
-      "decisionKey": "c03e0aa8277e41bb0cefad8106cc5cca0a1e48a9bb298e630cb7e1d630b2135f",
-      "status": "published",
-      "reason": "The Block reports Cipher Mining's Q2 net loss of $267.5 million (over 5x year-over-year) and Bernstein's positive view on a Texas power audit, providing concrete financial data and analyst commentary relevant to crypto mining investors and industry structure.",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z",
-      "bCommitSha": "f344e30752b64f6b6b6e0d431dffb3dfccadf64c"
-    },
-    "b061cec9708ad2769e192680c50145bcfcb206ed4073d7e5b76fcb88f392d66d": {
-      "decisionKey": "b061cec9708ad2769e192680c50145bcfcb206ed4073d7e5b76fcb88f392d66d",
-      "status": "rejected",
-      "reason": "This is a verifiable news report from The Block about Block Inc.'s earnings, specifically a 31% drop in bitcoin gross profit after Cash App fee cuts. It provides concrete financial data and reflects a real market-structure change in crypto on-ramp pricing, which is relevant to crypto industry participants.",
-      "score": 0.72,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z"
-    },
-    "858f25205831708d982ded7c3a5ddacebb5b66543b5ee07af86c757612680117": {
-      "decisionKey": "858f25205831708d982ded7c3a5ddacebb5b66543b5ee07af86c757612680117",
-      "status": "rejected",
-      "reason": "This is a corporate earnings and AI adoption story about Block, with no direct mention of Bitcoin, crypto policy, protocol upgrades, security events, or market structure changes relevant to the crypto industry. It does not meet the bar for important, non-redundant crypto news for the audience.",
-      "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z"
-    },
-    "21af13ef7a696c5f8e4e2e64a9ac4f966655dc46848dc58ed5d807400c159375": {
-      "decisionKey": "21af13ef7a696c5f8e4e2e64a9ac4f966655dc46848dc58ed5d807400c159375",
-      "status": "published",
-      "reason": "Cointelegraph reports a sweeping security audit of Bitcoin with 5,000 findings, a significant security event with clear impact on the crypto ecosystem.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T02:01:10.249Z",
-      "bCommitSha": "f344e30752b64f6b6b6e0d431dffb3dfccadf64c"
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-29T15:54:47.287Z",
-    "https://cointelegraph.com/rss": "2026-08-29T15:54:47.287Z",
-    "https://decrypt.co/feed": "2026-08-29T15:54:47.287Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-29T15:54:47.287Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-29T15:54:47.287Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-29T15:54:47.287Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-29T15:54:47.287Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-29T15:54:47.287Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-29T15:54:47.287Z",
-    "https://solana.com/rss.xml": "2026-08-29T15:54:47.287Z",
-    "https://slowmist.medium.com/feed": "2026-08-29T15:54:47.287Z",
-    "https://www.theblock.co/rss.xml": "2026-08-29T15:54:47.287Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-30T15:41:08.156Z",
+    "https://cointelegraph.com/rss": "2026-08-30T15:41:08.156Z",
+    "https://decrypt.co/feed": "2026-08-30T15:41:08.156Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-30T15:41:08.156Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-30T15:41:08.156Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-30T15:41:08.156Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-30T15:41:08.156Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-30T15:41:08.156Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-30T15:41:08.156Z",
+    "https://solana.com/rss.xml": "2026-08-30T15:41:08.156Z",
+    "https://slowmist.medium.com/feed": "2026-08-30T15:41:08.156Z",
+    "https://www.theblock.co/rss.xml": "2026-08-30T15:41:08.156Z"
   },
-  "lastRunAt": "2026-08-29T15:54:47.287Z"
+  "lastRunAt": "2026-08-30T15:41:08.156Z"
 }
