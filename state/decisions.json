@@ -1,6 +1,176 @@
 {
   "version": 1,
   "decisions": {
+    "f7cbe7afb5c2472f29bfe4e934b61832d1e1aa10ddce03af14fb03007e3997b5": {
+      "decisionKey": "f7cbe7afb5c2472f29bfe4e934b61832d1e1aa10ddce03af14fb03007e3997b5",
+      "status": "failed",
+      "reason": "[\n  {\n    \"expected\": \"array\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"articles\",\n      0,\n      \"sourceUrls\"\n    ],\n    \"message\": \"Invalid input: expected array, received undefined\"\n  }\n]",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z"
+    },
+    "cfdedfedb1d7f8bbd6025eb060819bed278713425f80de6fa6529fed8255488a": {
+      "decisionKey": "cfdedfedb1d7f8bbd6025eb060819bed278713425f80de6fa6529fed8255488a",
+      "status": "published",
+      "reason": "Strive's purchase of 1,800 BTC for $143M is a concrete, verifiable institutional Bitcoin treasury event that increases its holdings to 23,156 BTC and makes it the fifth-largest publicly traded corporate holder. This is material for crypto market observers tracking corporate adoption and Bitcoin demand.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "cf0b858fbcb72fa5e89b200cbbe5bcac7917c63cdb5c1111be9c617b8026731c": {
+      "decisionKey": "cf0b858fbcb72fa5e89b200cbbe5bcac7917c63cdb5c1111be9c617b8026731c",
+      "status": "published",
+      "reason": "The Block reports a significant corporate treasury acquisition of 53,501 ETH by Bitmine, expanding its holdings to 5.9 million ETH. This is a credible, specific event with concrete data that signals growing institutional involvement in crypto assets.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "c4f1b56b2fe55d6ab670422a17f8ac9b3c813f9280a848047d0491fd26d4c4a3": {
+      "decisionKey": "c4f1b56b2fe55d6ab670422a17f8ac9b3c813f9280a848047d0491fd26d4c4a3",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z"
+    },
+    "c324c1d3c1966aa214c630016010f4ad74f9e7d632b6ebac92599db0bbeaa317": {
+      "decisionKey": "c324c1d3c1966aa214c630016010f4ad74f9e7d632b6ebac92599db0bbeaa317",
+      "status": "rejected",
+      "reason": "Webull通过Coinbase合作在加拿大推出加密交易，这是具体的企业扩张事件，涉及主要经纪商和加密基础设施提供商，对加拿大加密市场具有明确影响，提供新交易渠道，属于市场结构变化。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z"
+    },
+    "a26b8a938c303eef60f5a9bb326813fa66e852ad0c8e9f0d754a45ef4f93d298": {
+      "decisionKey": "a26b8a938c303eef60f5a9bb326813fa66e852ad0c8e9f0d754a45ef4f93d298",
+      "status": "published",
+      "reason": "Hyperliquid 与 Kraken 母公司谈判通过受监管的 Bitnomial 向美国用户提供永续合约，这是其首次进入美国市场，涉及 DeFi 平台与传统合规交易所合作，对加密行业市场结构和监管格局有明确影响，新闻来源真实，内容具体。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "71c94bb6f82a03c59e0ae21c208bee8ed626c59e82221567469006888a799562": {
+      "decisionKey": "71c94bb6f82a03c59e0ae21c208bee8ed626c59e82221567469006888a799562",
+      "status": "published",
+      "reason": "This is a legitimate news item from The Block about OpenSea adding Solana NFT trading, a notable platform expansion that affects the NFT and Solana ecosystem. It provides specific information about a major marketplace integration, which is relevant to crypto industry participants. No signs of marketing or low-quality content.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "6ee7a1abd29a07ad1ddb6450db0f5ddcfae61bcd203a208271cedbf8a6508b3b": {
+      "decisionKey": "6ee7a1abd29a07ad1ddb6450db0f5ddcfae61bcd203a208271cedbf8a6508b3b",
+      "status": "rejected",
+      "reason": "内容为比特币地址销毁20 BTC的孤立事件，缺乏具体原因和可核验细节，属于传闻性质，对加密行业无显著影响或信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z"
+    },
+    "6e6b35b7f51fac3eb56e8a2fd2255d2713c1dd6247744927069d2f74afcfdb8a": {
+      "decisionKey": "6e6b35b7f51fac3eb56e8a2fd2255d2713c1dd6247744927069d2f74afcfdb8a",
+      "status": "rejected",
+      "reason": "候选内容过于简短，仅一句概括性描述，缺乏具体数据、事件时间或可核验的事实细节；且发布未来日期，疑似测试或占位内容，证据不足，不符合生产发布标准。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z"
+    },
+    "6252ec418259f9880cb92d626de3790af9c8e687747dbcbce35963543998b37d": {
+      "decisionKey": "6252ec418259f9880cb92d626de3790af9c8e687747dbcbce35963543998b37d",
+      "status": "published",
+      "reason": "Reports a concrete event: Strive acquired 1,800 BTC, becoming the fifth-largest public bitcoin treasury, with a specific analyst BTC forecast. This is a verifiable, market-relevant development for crypto industry observers, distinct from price hype or marketing.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "48d6c5d72ed5b7bef02f1f0f9b166d479a922a97ea5cbca5809ae4178c238a11": {
+      "decisionKey": "48d6c5d72ed5b7bef02f1f0f9b166d479a922a97ea5cbca5809ae4178c238a11",
+      "status": "published",
+      "reason": "ICE（NYSE母公司）入股tZERO并推进代币化证券市场，是传统金融基础设施与加密资产结合的重要信号，对加密行业有明确影响和信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "3b258a2df91936382d8523ec4ce1c971ba8111840a04c1e381ed1ff465b05419": {
+      "decisionKey": "3b258a2df91936382d8523ec4ce1c971ba8111840a04c1e381ed1ff465b05419",
+      "status": "rejected",
+      "reason": "The article covers a first-time permanent ban of a public figure from a prediction market platform, but the event is an isolated operational decision with limited impact on the broader crypto industry. It does not represent a major policy change, protocol upgrade, security incident, or meaningful market structure development.",
+      "score": 0.35,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z"
+    },
+    "39cfa3bfce0d6d4bd2ce10d6ebb224710bcccdcf459fadbddf40cb9ad9ef48b0": {
+      "decisionKey": "39cfa3bfce0d6d4bd2ce10d6ebb224710bcccdcf459fadbddf40cb9ad9ef48b0",
+      "status": "rejected",
+      "reason": "候选为韩国政府向公民提供免费AI访问及无限AI代币的新闻，属于AI基础设施与公共政策报道，未涉及加密行业相关政策、协议升级、安全事件或市场结构变化，对加密受众缺乏明确影响和信息增量，因此不予发布。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z"
+    },
+    "2874ad88c62e597a65180530a41950b475fd4151ee6b1f8085ee4bf1fd5c0481": {
+      "decisionKey": "2874ad88c62e597a65180530a41950b475fd4151ee6b1f8085ee4bf1fd5c0481",
+      "status": "published",
+      "reason": "来源为加密行业权威媒体The Block，内容涉及Hyperliquid通过与Kraken母公司Payward合作进入美国市场，并向CFTC提交结构概要，属于重要市场准入和监管动向，对加密衍生品交易格局有明确影响和信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "1b73b9cde622249dea4f21a732fef1e936ab5cf6872caabae6de5fff89efed1e": {
+      "decisionKey": "1b73b9cde622249dea4f21a732fef1e936ab5cf6872caabae6de5fff89efed1e",
+      "status": "published",
+      "reason": "报道了Tom Lee旗下Bitmine以1.31亿美元购买ETH，为6月以来最大单次购买，持仓达590万ETH（占总供应量4.9%），对以太坊市场供需和投资者情绪有明确影响，来源为Decrypt真实新闻，信息具体可核验。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "0a71d34af5c691a88791576e183034d56326d2ecaaeea8a1a1e6380ba22fffed": {
+      "decisionKey": "0a71d34af5c691a88791576e183034d56326d2ecaaeea8a1a1e6380ba22fffed",
+      "status": "rejected",
+      "reason": "This is a verifiable news item from CoinDesk about Kalshi issuing its first lifetime ban to George Santos for manipulation, reflecting self-regulatory actions in the prediction market industry. It is relevant to crypto audiences because prediction markets overlap with crypto-based platforms, and this event highlights compliance and governance trends that could affect the broader market structure.",
+      "score": 0.68,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z"
+    },
+    "07288ffc389a9ed5930c8ac1d9b8f477fc5aef21cc065b77c954460f3e3c7c2b": {
+      "decisionKey": "07288ffc389a9ed5930c8ac1d9b8f477fc5aef21cc065b77c954460f3e3c7c2b",
+      "status": "published",
+      "reason": "Bitmine's accumulation of ETH, now controlling 4.9% of Ethereum supply with specific figures (53.5K ETH, 65 weeks, $5.1B paper losses), is a concrete market structure development with clear impact and informational value for the crypto audience.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "06b8bdb85787eb057a88a48d4a6320c4bae30597aa258829a0b51afe456799ce": {
+      "decisionKey": "06b8bdb85787eb057a88a48d4a6320c4bae30597aa258829a0b51afe456799ce",
+      "status": "published",
+      "reason": "该候选来自知名加密新闻媒体 Cointelegraph，内容涉及俄罗斯加密货币合法化后受监管交易所可能产生 460 亿美元交易量的预测，包含具体国家、机构、事件和数据，对加密行业政策与市场结构有明确影响，具有信息增量和传播价值。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "068d2621b5ccc8a4a832dedd7406c328a9624b02aa99b6cd8aa732e11cac2bcc": {
+      "decisionKey": "068d2621b5ccc8a4a832dedd7406c328a9624b02aa99b6cd8aa732e11cac2bcc",
+      "status": "published",
+      "reason": "该报道涉及索尼在诉讼中主张数字游戏不能被拥有，直接触及数字所有权这一加密行业核心议题，对数字资产法律讨论和 Web3 游戏用户具有明确信息增量与参考价值。",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
+    "02241350bc6ca25fad39272d262c3361a892c24ca741fb138984e3126a081eea": {
+      "decisionKey": "02241350bc6ca25fad39272d262c3361a892c24ca741fb138984e3126a081eea",
+      "status": "published",
+      "reason": "真实新闻，来源为知名媒体The Block；涉及NYSE母公司ICE与tZERO合作建设代币化证券基础设施，并伴随投资，属于传统金融巨头布局加密资产领域的重要市场结构变化，对加密行业有明确信息增量。",
+      "score": 0.92,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-08-31T18:24:00.942Z",
+      "bCommitSha": "67754d66732f94713e0b85ba096828eb92790406"
+    },
     "fdf46c2b572aa91732c8938f021a88ba59dc09fb4255193b7db22bddb7317f07": {
       "decisionKey": "fdf46c2b572aa91732c8938f021a88ba59dc09fb4255193b7db22bddb7317f07",
       "status": "rejected",
@@ -8388,189 +8558,21 @@
       "score": 0.7,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
-    "80ddb901929fa270fe008a7dfb78c79e1c8464ed87c5e978622d4b7f5b9c3b1a": {
-      "decisionKey": "80ddb901929fa270fe008a7dfb78c79e1c8464ed87c5e978622d4b7f5b9c3b1a",
-      "status": "rejected",
-      "reason": "内容基于Sandisk和Western Digital股价下跌10%，仅推测资本可能从AI轮动至加密货币，缺乏具体数据或明确影响；属于市场评论和推测，证据不足，对加密行业无实质性信息增量。",
-      "score": 0.15,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
-    "672c570d9e3385238f58313a7a9237b078d6665c5798c386bc4c20319d7766e0": {
-      "decisionKey": "672c570d9e3385238f58313a7a9237b078d6665c5798c386bc4c20319d7766e0",
-      "status": "published",
-      "reason": "报道了Coldcard硬件钱包漏洞相关黑客转移大额资金至混币器的安全事件，包含具体主体、金额和影响，对加密行业用户具有明确的安全警示价值。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z",
-      "bCommitSha": "83d9e1dfed1b9e4407342acd2ed367f56c0eaa3f"
-    },
-    "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79": {
-      "decisionKey": "1dad90ce56517f0579e2d35d34163eb4887ed8fde441f24effe87edc5541ca79",
-      "status": "rejected",
-      "reason": "The Block is a reputable crypto news outlet, and the report provides a concrete funding event for stablecoin issuer JPYC, which is relevant to the crypto industry's stablecoin landscape and ecosystem development.",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
-    "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f": {
-      "decisionKey": "e839d451ef23797aa41b1582fd765a2dd6dfe683db3fc49b11ac88a8b388699f",
-      "status": "rejected",
-      "reason": "This article reports on concrete fraud charges against an NFT founder, which is a security and legal event relevant to the crypto industry. The source is reputable and the content is specific, dated, and actionable for industry sentiment and risk awareness.",
-      "score": 0.72,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z"
-    },
-    "9eccac800166ef4db304927db21cfcd5b87385690dd7050ee846c753f67668e8": {
-      "decisionKey": "9eccac800166ef4db304927db21cfcd5b87385690dd7050ee846c753f67668e8",
-      "status": "published",
-      "reason": "该候选来自公开可验证的新闻媒体Decrypt，内容涉及比特币生态的AI安全审计，具体数据（4,962项发现、720项高危/严重）对加密行业有明确影响和信息增量，属于重要的安全事件报道。",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z",
-      "bCommitSha": "accbb3da37157b04e02347be7f5361714c3fbad9"
-    },
-    "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750": {
-      "decisionKey": "8612909445d730e778860fae7c3acc754e4b4e00e2dfb5fa4641dc77b6996750",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z"
-    },
-    "84de1209cc8f2c1e4ca77a3306f1dd76be69bd32ef31f1d0db4c7087f924378a": {
-      "decisionKey": "84de1209cc8f2c1e4ca77a3306f1dd76be69bd32ef31f1d0db4c7087f924378a",
-      "status": "published",
-      "reason": "Russian President Vladimir Putin signed a crypto law establishing market rules for exchanges, custodians and investors, with core provisions effective September 2026. This is a concrete regulatory development from a credible news source, directly affecting crypto market structure and compliance requirements for industry participants.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z",
-      "bCommitSha": "accbb3da37157b04e02347be7f5361714c3fbad9"
-    },
-    "54c785be298b60e50d27b47985856bf82f8f68f6c66d19cd2d57f7a79d64abe0": {
-      "decisionKey": "54c785be298b60e50d27b47985856bf82f8f68f6c66d19cd2d57f7a79d64abe0",
-      "status": "published",
-      "reason": "JPYC作为日元稳定币发行方，其B轮融资达3800万美元，属于加密行业稳定币领域的重大资本事件，对行业有明确信息增量。",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z",
-      "bCommitSha": "accbb3da37157b04e02347be7f5361714c3fbad9"
-    },
-    "4a01978aa59ef21e591a668816c5264b4b068d36970d72de2fa890dd2bb1259d": {
-      "decisionKey": "4a01978aa59ef21e591a668816c5264b4b068d36970d72de2fa890dd2bb1259d",
-      "status": "rejected",
-      "reason": "真实新闻来源，涉及NFT初创公司创始人因滥用1000万美元融资资金被起诉，属于加密行业安全与合规事件，对行业有明确信息增量。",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z"
-    },
-    "2db2258267da41f564b7550a41a627ca67e0aa0c39b7ef1205b047187c075196": {
-      "decisionKey": "2db2258267da41f564b7550a41a627ca67e0aa0c39b7ef1205b047187c075196",
-      "status": "published",
-      "reason": "候选来自Cointelegraph，引用CoinShares研究，提供具体数据（RWA存款达74亿美元）和趋势分析，对加密行业有明确信息增量，涉及资产代币化和DeFi市场结构变化，内容可核验且非营销或噪音。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T10:01:13.315Z",
-      "bCommitSha": "accbb3da37157b04e02347be7f5361714c3fbad9"
-    },
-    "e988ab23228b55e1547c027e8571df5b5352fcd12ada00e9a89c80a2ff69b264": {
-      "decisionKey": "e988ab23228b55e1547c027e8571df5b5352fcd12ada00e9a89c80a2ff69b264",
-      "status": "published",
-      "reason": "该候选来自可靠媒体CoinDesk，报告比特币开发者发现85个关键漏洞，内容包含具体主体、事件和时间，对加密行业有重大安全影响，属于重要技术安全新闻，具有明确信息增量。",
-      "score": 0.92,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z",
-      "bCommitSha": "e7be6c11aae2cab421dc265d4dc20d8b9e30e961"
-    },
-    "cf53e226769592e3d8655ec2938633d14ff820d63890ef63835a8d2099c2e337": {
-      "decisionKey": "cf53e226769592e3d8655ec2938633d14ff820d63890ef63835a8d2099c2e337",
-      "status": "published",
-      "reason": "欧盟监管机构针对MiCA牌照调整期间出现的冒充诈骗发出警告，涉及具体监管背景和安全风险，对加密行业用户有直接警示价值。",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z",
-      "bCommitSha": "e7be6c11aae2cab421dc265d4dc20d8b9e30e961"
-    },
-    "bfc082482286b77d15c3c0f190b545069c40f3aa46520100edc4e1509decfecc": {
-      "decisionKey": "bfc082482286b77d15c3c0f190b545069c40f3aa46520100edc4e1509decfecc",
-      "status": "published",
-      "reason": "比特币ETF连续三日净流入6.26亿美元，反映机构资金动向和市场需求，对加密行业投资者具有明确信息价值。来源为Cointelegraph，内容真实可核验。",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z",
-      "bCommitSha": "e7be6c11aae2cab421dc265d4dc20d8b9e30e961"
-    },
-    "9db0d1dcf860ac5c5bd19ea7613c488eb71794c0e68c6aa843aed94a744897e4": {
-      "decisionKey": "9db0d1dcf860ac5c5bd19ea7613c488eb71794c0e68c6aa843aed94a744897e4",
-      "status": "rejected",
-      "reason": "内容仅为模糊的引言，未提供具体数据、事件或可核实的分析，缺乏对加密行业受众的明确信息增量。",
-      "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z"
-    },
-    "5882a3ddcb1928cd02fb756e5340a11be1339ffc5752d0e3fb4909a70417a1fc": {
-      "decisionKey": "5882a3ddcb1928cd02fb756e5340a11be1339ffc5752d0e3fb4909a70417a1fc",
-      "status": "rejected",
-      "reason": "Macro price commentary with speculative geopolitical remarks and no concrete policy, protocol, security, or market structure event. Lacks actionable information for crypto industry decision-making.",
-      "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z"
-    },
-    "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637": {
-      "decisionKey": "4ab256e9634529b7cc9b6b4c4953711dabf65e0b77a220825d22e71d04da4637",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T08:01:18.536Z"
-    },
-    "d964f1d2355d0719255297909738358d2fc607667cf56e250a94affcf86ab167": {
-      "decisionKey": "d964f1d2355d0719255297909738358d2fc607667cf56e250a94affcf86ab167",
-      "status": "published",
-      "reason": "Cointelegraph报道了ElizaOS代币创历史新低、创始人宣布代币‘死亡’并因诉讼转移财库的事件，涉及具体项目、价格数据和法律后果，对加密行业投资者有明确的信息增量与风险提示。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z",
-      "bCommitSha": "8d07cb6828e271fbf2ba08576201808c1257ffd5"
-    },
-    "be9ff2869797ea00fe5f165016d6cbd7a52a226fdd24f5e0aec841e5bab6caea": {
-      "decisionKey": "be9ff2869797ea00fe5f165016d6cbd7a52a226fdd24f5e0aec841e5bab6caea",
-      "status": "rejected",
-      "reason": "内容为Meta AI模型测试事故，不涉及加密行业政策、协议、安全或市场结构，对加密受众无明确影响或信息增量。",
-      "score": 0.05,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z"
-    },
-    "761741bb5f38f211947c3f99410db281ca47f8be6111bd35611b8547d7ce9c1f": {
-      "decisionKey": "761741bb5f38f211947c3f99410db281ca47f8be6111bd35611b8547d7ce9c1f",
-      "status": "rejected",
-      "reason": "来自Coindesk的可靠新闻，报道Robinhood Chain TVL达到7.74亿美元及memecoin CASHCAT的涨幅，提供链上数据和市场表现，对加密行业受众有信息增量。",
-      "score": 0.6,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z"
-    },
-    "64f0dcfdfe709ee02ccbffaeecd9e872da19fd3a0eab71244bc2415e28935e78": {
-      "decisionKey": "64f0dcfdfe709ee02ccbffaeecd9e872da19fd3a0eab71244bc2415e28935e78",
-      "status": "published",
-      "reason": "该候选来自真实可访问的加密新闻媒体Cointelegraph，报道美联储理事Lisa Cook关于通胀持续可能加息的表态，属于影响加密市场的宏观政策信号，具有明确主体、事件和时效性，对加密行业用户有信息增量。",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T06:01:21.006Z",
-      "bCommitSha": "8d07cb6828e271fbf2ba08576201808c1257ffd5"
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-30T15:41:08.156Z",
-    "https://cointelegraph.com/rss": "2026-08-30T15:41:08.156Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-31T18:24:00.942Z",
+    "https://cointelegraph.com/rss": "2026-08-31T18:24:00.942Z",
     "https://decrypt.co/feed": "2026-08-30T15:41:08.156Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-30T15:41:08.156Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-30T15:41:08.156Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-30T15:41:08.156Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-30T15:41:08.156Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-30T15:41:08.156Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-30T15:41:08.156Z",
-    "https://solana.com/rss.xml": "2026-08-30T15:41:08.156Z",
-    "https://slowmist.medium.com/feed": "2026-08-30T15:41:08.156Z",
-    "https://www.theblock.co/rss.xml": "2026-08-30T15:41:08.156Z"
+    "https://www.sec.gov/news/pressreleases.rss": "2026-08-31T18:24:00.942Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-31T18:24:00.942Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-31T18:24:00.942Z",
+    "https://blog.ethereum.org/feed.xml": "2026-08-31T18:24:00.942Z",
+    "https://bitcoinops.org/feed.xml": "2026-08-31T18:24:00.942Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-08-31T18:24:00.942Z",
+    "https://solana.com/rss.xml": "2026-08-31T18:24:00.942Z",
+    "https://slowmist.medium.com/feed": "2026-08-31T18:24:00.942Z",
+    "https://www.theblock.co/rss.xml": "2026-08-31T18:24:00.942Z"
   },
   "lastRunAt": "2026-08-30T15:41:08.156Z"
 }
