@@ -1,6 +1,176 @@
 {
   "version": 1,
   "decisions": {
+    "efd13b7fb683d37f4f2ae2adfff32af9629a8c4da051405ac411d1b7a44114b8": {
+      "decisionKey": "efd13b7fb683d37f4f2ae2adfff32af9629a8c4da051405ac411d1b7a44114b8",
+      "status": "rejected",
+      "reason": "Cointelegraph 是真实公开的行业媒体，报道稳定币平台 Kast 在融资8000万美元后正式推出商业平台，包含具体主体、事件和融资数据，对加密行业稳定币应用场景具有信息增量。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z"
+    },
+    "daa1487b4af25f38a20cf63c6ffa2fef0bd79dfe01db855b46cf1dbe1a97c89a": {
+      "decisionKey": "daa1487b4af25f38a20cf63c6ffa2fef0bd79dfe01db855b46cf1dbe1a97c89a",
+      "status": "published",
+      "reason": "UK crime agency freezes Premier League account tied to a $140M crypto sponsorship deal, highlighting regulatory scrutiny and compliance risks for crypto-industry partnerships. Significant for institutional adoption and legal clarity.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z",
+      "bCommitSha": "04f324733ff8be68f2b611b03943fd26449351b6"
+    },
+    "d453cd026473442136fe5e486ad4e1fe8fb8c32cd50a6702081ca6c0f28c1116": {
+      "decisionKey": "d453cd026473442136fe5e486ad4e1fe8fb8c32cd50a6702081ca6c0f28c1116",
+      "status": "published",
+      "reason": "Major global banks and asset managers collaborating on a stablecoin venture is a significant institutional adoption and market structure development for the crypto industry, with clear impact and new information.",
+      "score": 0.95,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z",
+      "bCommitSha": "04f324733ff8be68f2b611b03943fd26449351b6"
+    },
+    "c2275e52f16db880ecfe6ff7bd5b8d61857aeb8dc6dd2debcc3720712c0fb1d3": {
+      "decisionKey": "c2275e52f16db880ecfe6ff7bd5b8d61857aeb8dc6dd2debcc3720712c0fb1d3",
+      "status": "published",
+      "reason": "Real reporting from a reputable crypto news source with specific data on Bitcoin-gold correlation and market sentiment, offering incremental insight for crypto market participants interested in macro trends.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z",
+      "bCommitSha": "04f324733ff8be68f2b611b03943fd26449351b6"
+    },
+    "b7e075a60fac9f1d974cc051194873689e496f95bcb6a6cf712328717cca9a7f": {
+      "decisionKey": "b7e075a60fac9f1d974cc051194873689e496f95bcb6a6cf712328717cca9a7f",
+      "status": "rejected",
+      "reason": "The candidate is celebrity entertainment news about Gal Gadot defending AI use in a Bitcoin-themed film. It lacks substantial impact on crypto industry policy, protocol upgrades, security events, or market structure. The content is informational but not critical for a crypto-focused audience, and it does not provide actionable data or unique insights.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z"
+    },
+    "a473a63bc58ba46e0b200c7a3da30a6dd893502a8fd5f89eba106c72448c235a": {
+      "decisionKey": "a473a63bc58ba46e0b200c7a3da30a6dd893502a8fd5f89eba106c72448c235a",
+      "status": "rejected",
+      "reason": "候选来源看似为CoinDesk新闻报道，但标题与内容提及'2026年9月'，属于未发生的未来时间，且具体服务细节（6%利率、5%返现）无法在当下核验，疑似测试或演示数据，不符合真实、可公开核验的来源要求。内容未提供具体协议升级、安全事件或可验证的市场结构变化，对加密行业受众缺乏明确信息增量。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z"
+    },
+    "a352363cc892759f0a51db5093ca751d60cf6a32adf3223941bdef9cf15b92c7": {
+      "decisionKey": "a352363cc892759f0a51db5093ca751d60cf6a32adf3223941bdef9cf15b92c7",
+      "status": "rejected",
+      "reason": "候选内容仅为一句话泛泛陈述，缺乏具体数据、事件细节或可核验的信息增量，属于证据不足的低价值内容，不符合重要发布标准。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z"
+    },
+    "a2c4b67fac8071e1003efc0038a6b9636712e87cecfd3e98a892f0fb76841ddd": {
+      "decisionKey": "a2c4b67fac8071e1003efc0038a6b9636712e87cecfd3e98a892f0fb76841ddd",
+      "status": "published",
+      "reason": "MicroStrategy's purchase of Bitcoin is a significant institutional investment event, directly relevant to crypto market sentiment and adoption. The source is a credible crypto news outlet, and the content is timely and actionable for industry stakeholders.",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z",
+      "bCommitSha": "04f324733ff8be68f2b611b03943fd26449351b6"
+    },
+    "9b68eb8fcfc65937f580e8aba30f3c5941a78853f11efaeee1d5a9031ac80897": {
+      "decisionKey": "9b68eb8fcfc65937f580e8aba30f3c5941a78853f11efaeee1d5a9031ac80897",
+      "status": "published",
+      "reason": "真实新闻来源，具体主体、事件、金额和平台明确，涉及制裁实体资金流动和交易所合规，对加密行业有重要影响。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z",
+      "bCommitSha": "04f324733ff8be68f2b611b03943fd26449351b6"
+    },
+    "8b974c09593bcc03055b37795b194bf161b46f328ecf9a8e7a957a079a36b6c5": {
+      "decisionKey": "8b974c09593bcc03055b37795b194bf161b46f328ecf9a8e7a957a079a36b6c5",
+      "status": "published",
+      "reason": "Silhouette launching RFQ trading for xStocks on Hyperliquid is a concrete product development in the tokenized equities space, a growing sector for crypto. It involves a known platform (Hyperliquid) and provides specific details about market maker competition and onchain settlement. This is relevant to crypto industry structure and warrants coverage.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z",
+      "bCommitSha": "04f324733ff8be68f2b611b03943fd26449351b6"
+    },
+    "8131d21a396da0e589980d0a112d12569a91accb5698c40fb3f8b445429378e2": {
+      "decisionKey": "8131d21a396da0e589980d0a112d12569a91accb5698c40fb3f8b445429378e2",
+      "status": "rejected",
+      "reason": "This is a brief market update noting Bitcoin's flat performance amid bond market volatility. While it includes specific data (JGB at 30-year high, Bitcoin near $78k), it lacks direct relevance to key crypto industry events such as policy changes, protocol upgrades, security incidents, or market structure shifts. It is essentially price/commodity commentary that may be low-information for the audience.",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z"
+    },
+    "611c0d52df9d20bb3e140d2e003acfc1da5f8d2c81b574da2ed326ecc7e3b09c": {
+      "decisionKey": "611c0d52df9d20bb3e140d2e003acfc1da5f8d2c81b574da2ed326ecc7e3b09c",
+      "status": "rejected",
+      "reason": "Candidate is an opinion/magazine piece reflecting on Bitcoin's rally and personal meaning, lacking concrete entities, events, timestamps, or data. It provides no actionable information or clear incremental value for crypto industry audiences, and is not a verifiable news or research report.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z"
+    },
+    "5f0567b122adca5bb2c7477436a8abd906472b8d89d3442dfb535efcf684d5a4": {
+      "decisionKey": "5f0567b122adca5bb2c7477436a8abd906472b8d89d3442dfb535efcf684d5a4",
+      "status": "published",
+      "reason": "Hut 8 是美股上市的主要比特币矿企，其德州站点获得价值 196 亿美元的长期 AI 数据中心租约，标志矿企向 AI 算力转型的重大市场结构变化，对加密矿业板块和数字资产行业投资逻辑有明确影响。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z",
+      "bCommitSha": "04f324733ff8be68f2b611b03943fd26449351b6"
+    },
+    "514759087da0848fed9b466bbfa92d43d2247f5a46c625db3d1b639a6d55f96b": {
+      "decisionKey": "514759087da0848fed9b466bbfa92d43d2247f5a46c625db3d1b639a6d55f96b",
+      "status": "rejected",
+      "reason": "Reports real partnership news involving Ripple and Coincheck for digital asset custody in Asia, citing a reputable crypto news outlet. Content is specific, recent, and relevant to market infrastructure for institutional participants.",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z"
+    },
+    "49b07fe77854c7d0decf74d4326d243baff55def5342c64c52cb5749c09ad8be": {
+      "decisionKey": "49b07fe77854c7d0decf74d4326d243baff55def5342c64c52cb5749c09ad8be",
+      "status": "rejected",
+      "reason": "内容核心是Robinhood Chain收入创纪录和ARB代币价格上涨，属于市场行情和价格驱动报道，缺乏对加密行业重要的政策、协议升级、安全事件或结构变化的信息增量，且有价格喊单倾向。",
+      "score": 0.25,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z"
+    },
+    "4513fa0b3a7129f14b50c730dc0efc4b7654de8e8bb7a23d6e3e560d76bc10b8": {
+      "decisionKey": "4513fa0b3a7129f14b50c730dc0efc4b7654de8e8bb7a23d6e3e560d76bc10b8",
+      "status": "rejected",
+      "reason": "候选发布时间为2026-09-01，在当前日期之后，尚不可公开访问和核验；且内容仅说明多人收到非请求的密码重置邮件，未提供具体证据、影响范围或确认的破坏情况，属于证据不足的未确认消息，不应发布。",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z"
+    },
+    "42ea00d5bfb89afc958e2a3d4fce89eb93e7bdb3044259f2bf05c5e1ac65d053": {
+      "decisionKey": "42ea00d5bfb89afc958e2a3d4fce89eb93e7bdb3044259f2bf05c5e1ac65d053",
+      "status": "published",
+      "reason": "Candidate reports a concrete law-enforcement action involving cryptocurrency payments linked to a designated terror group, with specific actors (four arrests in South Korea), an event, and a law-enforcement first. This is relevant to crypto industry audiences as a security and regulatory signal.",
+      "score": 0.75,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z",
+      "bCommitSha": "04f324733ff8be68f2b611b03943fd26449351b6"
+    },
+    "3e91f363380d3c2e736ffc95f43c9736c6b932f6c1d1d22c24409e1453e2f2a9": {
+      "decisionKey": "3e91f363380d3c2e736ffc95f43c9736c6b932f6c1d1d22c24409e1453e2f2a9",
+      "status": "published",
+      "reason": "该候选报道了针对加密钱包的恶意软件安全事件，具体涉及RevStealer盗取50多种钱包数据，对加密用户资产安全有直接影响，属于重要的安全警告类信息，来源可信且时效明确。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z",
+      "bCommitSha": "04f324733ff8be68f2b611b03943fd26449351b6"
+    },
+    "214f8a3b6375041540274011b17055e7927ed9944d1bd3f5b312467cd800dc49": {
+      "decisionKey": "214f8a3b6375041540274011b17055e7927ed9944d1bd3f5b312467cd800dc49",
+      "status": "rejected",
+      "reason": "Firelight, a DeFi hack-loss recovery protocol, raised $8 million and expanded beyond XRP to include bitcoin and XLM. This is a legitimate funding and product development announcement from CoinDesk, providing specific details (amount, supported assets, use case) and relevant information for DeFi and fintech audiences.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z"
+    },
+    "11a7f63e85135261559833e9d84bc66a41e1abd70ecf8127e588eb654af91bc3": {
+      "decisionKey": "11a7f63e85135261559833e9d84bc66a41e1abd70ecf8127e588eb654af91bc3",
+      "status": "published",
+      "reason": "SEC official press release proposing modernization of transfer agent rules is a concrete regulatory development affecting securities settlement, relevant to tokenized securities and digital asset market infrastructure.",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-01T15:44:03.178Z",
+      "bCommitSha": "04f324733ff8be68f2b611b03943fd26449351b6"
+    },
     "f7cbe7afb5c2472f29bfe4e934b61832d1e1aa10ddce03af14fb03007e3997b5": {
       "decisionKey": "f7cbe7afb5c2472f29bfe4e934b61832d1e1aa10ddce03af14fb03007e3997b5",
       "status": "failed",
@@ -8391,188 +8561,21 @@
       "reason": "AI output contains an unknown source URL",
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-06T16:07:04.104Z"
-    },
-    "eaccbf074b79c7224e694532d1b1e2d489fbfe8cb0bfcd3c8ae1704846288f97": {
-      "decisionKey": "eaccbf074b79c7224e694532d1b1e2d489fbfe8cb0bfcd3c8ae1704846288f97",
-      "status": "rejected",
-      "reason": "Candidate lacks verifiable specifics: no concrete data, named parties beyond Uniswap, or dated events. The content is a vague promotional-style summary with no accessible source details, making it insufficient for publication.",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T16:07:04.104Z"
-    },
-    "76fdb1eda85b23ef0484b1c8e52efa8a45841eca1ee281bf6bb6e0b63b913532": {
-      "decisionKey": "76fdb1eda85b23ef0484b1c8e52efa8a45841eca1ee281bf6bb6e0b63b913532",
-      "status": "rejected",
-      "reason": "This is a promotional newsletter blurb, not substantive news. It lacks specific entities, events, data, or analysis, and offers no distinct information for the crypto industry audience beyond a subscription call to action.",
-      "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T16:07:04.104Z"
-    },
-    "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d": {
-      "decisionKey": "6f24bebd6d69103a16c052d6abc0182fda6a3013bd9ba35db048e1f04cc4fe1d",
-      "status": "published",
-      "reason": "Coinbase, a major crypto exchange, launches 24/5 US stock trading for UK users, advancing its 'Everything Exchange' strategy. This is a concrete market structure development bridging traditional and onchain finance, with clear relevance to crypto industry stakeholders.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T16:07:04.104Z",
-      "bCommitSha": "79cada64d2c077b719204b6a0990f6db2f399c6c"
-    },
-    "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675": {
-      "decisionKey": "41564806cc40c9261de081ca6e5da3f25864f91683e51e7eabac43ee68e8f675",
-      "status": "published",
-      "reason": "The candidate is a specific, verifiable report from The Block citing Chainalysis data on violent crypto thefts exceeding $30 million in 2026, with France identified as a major hotspot. It provides concrete figures, a named source, and a clear timeframe, offering meaningful information for crypto industry professionals about physical security risks and geographic trends.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T16:07:04.104Z",
-      "bCommitSha": "79cada64d2c077b719204b6a0990f6db2f399c6c"
-    },
-    "37ac8d2a455a94f02dc28d4463601c09bc940b79d9d74dcb5c4fc275624f5667": {
-      "decisionKey": "37ac8d2a455a94f02dc28d4463601c09bc940b79d9d74dcb5c4fc275624f5667",
-      "status": "rejected",
-      "reason": "The candidate is a brief, self-promotional partnership announcement from Chainalysis with no substantive details on the integration's impact or scope. It lacks concrete data, specific use cases, or significance for crypto industry, and reads as a marketing teaser. Insufficient evidence to determine clear value or information increment.",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T16:07:04.104Z"
-    },
-    "e2b5ad7f55825c8fc76c2e9e2a993fa5fd2bb6ea8d6979a10549f5a459dbc9af": {
-      "decisionKey": "e2b5ad7f55825c8fc76c2e9e2a993fa5fd2bb6ea8d6979a10549f5a459dbc9af",
-      "status": "rejected",
-      "reason": "Bernstein's reaffirmation of TeraWulf's Outperform rating, with Q2 HPC revenue reaching $32M (71% of total), signals a notable shift in Bitcoin mining revenue diversification into high-performance computing. This is a concrete, data-backed development relevant to crypto industry market structure.",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z"
-    },
-    "a6ae0a9f87a04ad8b935cf205f63c910eb8e11d30508b9b95ab9661899bfa191": {
-      "decisionKey": "a6ae0a9f87a04ad8b935cf205f63c910eb8e11d30508b9b95ab9661899bfa191",
-      "status": "rejected",
-      "reason": "This is a light-hearted listicle about quirky tokenized items. It lacks substantive impact on crypto markets, policy, or infrastructure, and provides minimal actionable information for industry professionals.",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z"
-    },
-    "a31f0ff57291933b99eb7ad70c1b887838ff2b3ae05dd2c00d50c3af6f1dda57": {
-      "decisionKey": "a31f0ff57291933b99eb7ad70c1b887838ff2b3ae05dd2c00d50c3af6f1dda57",
-      "status": "published",
-      "reason": "该候选来自真实可访问的新闻媒体Decrypt，具体报道了法国监管机构警告诈骗者冒充欧盟监管人员、利用MiCA截止期诱骗用户转移资产的骗局。内容包含具体主体（法国监管机构、诈骗者）、事件（冒充诈骗）和时间（2026年8月），对加密行业用户具有明确的安全警示价值，属于重要政策落地后的市场结构变化与安全事件，非价格喊单或营销。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z",
-      "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
-    },
-    "7e88438f1e8bcb813951ceb7208015506d5ddcfb3aa9c48012f6916423b66631": {
-      "decisionKey": "7e88438f1e8bcb813951ceb7208015506d5ddcfb3aa9c48012f6916423b66631",
-      "status": "rejected",
-      "reason": "Zeus Wallet, a Bitcoin Lightning Network self-custodial wallet, was taken offline due to a cyberattack. The founder confirms no customer funds at risk and no Lightning vulnerability found. This is a concrete security incident affecting a crypto wallet, providing timely information for users.",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z"
-    },
-    "441a21ae4f20ebcf718d6329d82e9555e1a19597715e635bb6db985448f10b98": {
-      "decisionKey": "441a21ae4f20ebcf718d6329d82e9555e1a19597715e635bb6db985448f10b98",
-      "status": "published",
-      "reason": "Blockchain.com获得开曼群岛托管牌照，属于具体合规监管动态，对加密交易所的合规布局和行业影响有明确信息增量。",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z",
-      "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
-    },
-    "31550618ffab8e920bba02708e04a56642ea748f4ee3b38800635760baf678fb": {
-      "decisionKey": "31550618ffab8e920bba02708e04a56642ea748f4ee3b38800635760baf678fb",
-      "status": "published",
-      "reason": "Circle 推出稳定币专用 L1 区块链 Arc，属于重要基础设施动向，对加密行业有明确影响。来源为 Decrypt 的正式文章，信息真实可核验。",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z",
-      "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
-    },
-    "211ca61ea234600ab78647d225372b36aa1569cf09486770bda1357f7abf43fc": {
-      "decisionKey": "211ca61ea234600ab78647d225372b36aa1569cf09486770bda1357f7abf43fc",
-      "status": "published",
-      "reason": "该候选来自权威媒体Coindesk，报道了JPMorgan对Hyperliquid ETF资金流入停滞的分析，包含具体主体、时间窗口及竞争背景，对加密行业关注ETF市场动态的受众具有信息增量，且非营销、价格喊单或重复内容。",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z",
-      "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
-    },
-    "1b95716fc11ff3d2159159357bdb1d8e503ddc1267ebd5a1e6f21cdf9dbe5425": {
-      "decisionKey": "1b95716fc11ff3d2159159357bdb1d8e503ddc1267ebd5a1e6f21cdf9dbe5425",
-      "status": "published",
-      "reason": "来源为Cointelegraph新闻，信息真实可核验；包含具体主体Hyperliquid、事件RWA合约占比增长、时间Q2及具体数据，对加密行业受众有明确影响和市场结构变化参考价值。",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z",
-      "bCommitSha": "71839d4cbed03fb98a7adf278abfa70ec4ea3d2a"
-    },
-    "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b": {
-      "decisionKey": "159c84857f679151b97355ab341ede12ccd04382df482e31f5d2cf5021ee190b",
-      "status": "rejected",
-      "reason": "候选内容仅提供一句话摘要，缺乏具体主体、事件细节和可核验信息，且为FT报道的转载，属于证据不足和重复转载内容。",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T14:01:10.479Z"
-    },
-    "ed53471e3dff619e746d95d726723cc81c7f1e6039dcd5dd476ffca176aead7a": {
-      "decisionKey": "ed53471e3dff619e746d95d726723cc81c7f1e6039dcd5dd476ffca176aead7a",
-      "status": "rejected",
-      "reason": "内容为对冲基金投资传闻，且投资对象未公开，属于未证实信息；与加密行业无明确关联，对加密受众缺乏信息增量。",
-      "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
-    "ebfc6f358f31f017f80211323ade2ad3523d0e4dba54171f304f96ead3dc9b8a": {
-      "decisionKey": "ebfc6f358f31f017f80211323ade2ad3523d0e4dba54171f304f96ead3dc9b8a",
-      "status": "rejected",
-      "reason": "content-too-short",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
-    "e593e5bdcc48e3940c3b539ae3edefcf4a83f0ab86dcd5d5e157d43ca0fd163d": {
-      "decisionKey": "e593e5bdcc48e3940c3b539ae3edefcf4a83f0ab86dcd5d5e157d43ca0fd163d",
-      "status": "rejected",
-      "reason": "发布日期为未来时间（2026-08-06），且内容仅提及融资总额，缺乏具体数据、事件细节或对加密行业的明确影响，证据不足，可能为测试或演示内容。",
-      "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
-    "a3dca545f6b2f89ac3095faf0de4fe72eab9d40cdd6755daea838a2ea7759238": {
-      "decisionKey": "a3dca545f6b2f89ac3095faf0de4fe72eab9d40cdd6755daea838a2ea7759238",
-      "status": "published",
-      "reason": "Cointelegraph, a credible crypto news source, reports that analyst doubts are emerging over the Bitcoin corporate treasury model and that institutional BTC investment vehicles have cut holdings by 10%. This signals a potential shift in institutional sentiment and market structure, providing clear relevance and information value for crypto industry followers.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z",
-      "bCommitSha": "83d9e1dfed1b9e4407342acd2ed367f56c0eaa3f"
-    },
-    "a1d2bba068d17bed54408862659793ada2ba8a2677e66151129da02b3bbfb850": {
-      "decisionKey": "a1d2bba068d17bed54408862659793ada2ba8a2677e66151129da02b3bbfb850",
-      "status": "rejected",
-      "reason": "The candidate is a genuine news report from CoinDesk, a reputable and verifiable source. It identifies specific subjects (bitcoin, ether, altcoins), an event (market movement toward largest tokens as safe haven), and a publication date. This signals a market structure change relevant to crypto industry audiences, offering actionable information about investor sentiment and asset performance. Although brief, it is not a price pump, rumor, or low-value marketing, and it provides a clear, factual observation.",
-      "score": 0.65,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
-    },
-    "89e118d151c294f18c4de2ededaf99dcf9141d0bf8a86433242ffba7db791ea4": {
-      "decisionKey": "89e118d151c294f18c4de2ededaf99dcf9141d0bf8a86433242ffba7db791ea4",
-      "status": "rejected",
-      "reason": "涉及加密行业重要政策（Clarity法案）的评论文章，由区块链协会代表撰写，对行业有明确影响和讨论价值，但属观点性质，信息增量有限。",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-06T12:01:12.464Z"
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-08-31T18:24:00.942Z",
-    "https://cointelegraph.com/rss": "2026-08-31T18:24:00.942Z",
-    "https://decrypt.co/feed": "2026-08-30T15:41:08.156Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-08-31T18:24:00.942Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-08-31T18:24:00.942Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-08-31T18:24:00.942Z",
-    "https://blog.ethereum.org/feed.xml": "2026-08-31T18:24:00.942Z",
-    "https://bitcoinops.org/feed.xml": "2026-08-31T18:24:00.942Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-08-31T18:24:00.942Z",
-    "https://solana.com/rss.xml": "2026-08-31T18:24:00.942Z",
-    "https://slowmist.medium.com/feed": "2026-08-31T18:24:00.942Z",
-    "https://www.theblock.co/rss.xml": "2026-08-31T18:24:00.942Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-01T15:44:03.178Z",
+    "https://cointelegraph.com/rss": "2026-09-01T15:44:03.178Z",
+    "https://decrypt.co/feed": "2026-09-01T15:44:03.178Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-09-01T15:44:03.178Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-01T15:44:03.178Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-01T15:44:03.178Z",
+    "https://blog.ethereum.org/feed.xml": "2026-09-01T15:44:03.178Z",
+    "https://bitcoinops.org/feed.xml": "2026-09-01T15:44:03.178Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-09-01T15:44:03.178Z",
+    "https://solana.com/rss.xml": "2026-09-01T15:44:03.178Z",
+    "https://slowmist.medium.com/feed": "2026-09-01T15:44:03.178Z",
+    "https://www.theblock.co/rss.xml": "2026-09-01T15:44:03.178Z"
   },
-  "lastRunAt": "2026-08-30T15:41:08.156Z"
+  "lastRunAt": "2026-09-01T15:44:03.178Z"
 }
