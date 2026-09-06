@@ -1,6 +1,89 @@
 {
   "version": 1,
   "decisions": {
+    "dee148be19bb20a10f53325f544c60053047e3425d033c5744b3182a87b04d51": {
+      "decisionKey": "dee148be19bb20a10f53325f544c60053047e3425d033c5744b3182a87b04d51",
+      "status": "rejected",
+      "reason": "该内容为链上大额转账观察，属于低价值市场噪音，无明确政策、协议升级、安全事件或市场结构影响；且来源为转载报道，缺乏可核验的官方源链接，证据不足。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-06T14:34:47.896Z"
+    },
+    "c04aac9fbceb86cb0e9a4700f6ffa6dfb89118da1c7661448f93dc7f8e5ce785": {
+      "decisionKey": "c04aac9fbceb86cb0e9a4700f6ffa6dfb89118da1c7661448f93dc7f8e5ce785",
+      "status": "rejected",
+      "reason": "候选内容仅是单一、笼统的定义式简介，缺少具体事件、时间、数据或可验证细节，未提供对加密行业受众的实质信息增量，属于一般性教育资源而非重要新闻。",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-06T14:34:47.896Z"
+    },
+    "7d4d073cae5b0b9a55cc18738455badeabd056a37e8c0dd135966e42de3445cc": {
+      "decisionKey": "7d4d073cae5b0b9a55cc18738455badeabd056a37e8c0dd135966e42de3445cc",
+      "status": "published",
+      "reason": "CoinDesk来源报道了Better Mortgage与Coinbase合作推出比特币支持的抵押贷款，并具体说明了抵押品会被复用且借款人在主按揭偿清前无法取回加密货币。这代表传统金融采用比特币抵押贷款的新产品结构和条款，对加密借贷及抵押品管理有明确影响与信息增量。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-06T14:34:47.896Z",
+      "bCommitSha": "c9cbdbfd2c55e608b1bd365303bc9c843f7ea81b"
+    },
+    "7ae24da94bacca9db3ba0b20f258b6ffeb18952d586a55ddd0aed1f6df067f59": {
+      "decisionKey": "7ae24da94bacca9db3ba0b20f258b6ffeb18952d586a55ddd0aed1f6df067f59",
+      "status": "published",
+      "reason": "该候选来自可信加密媒体Cointelegraph，内容具体且有明确数据：Tether支持的Orionx因审计发现700万美元客户资产被转移至外部钱包而永久关闭。此事件涉及交易所倒闭和客户资金安全，属于加密行业市场结构与安全事件，对行业参与者有明确影响和信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-06T14:34:47.896Z",
+      "bCommitSha": "c9cbdbfd2c55e608b1bd365303bc9c843f7ea81b"
+    },
+    "64a139b78a702f1282dc5a5c0a9d490a70910ae559189e9b5223362099dbe9f4": {
+      "decisionKey": "64a139b78a702f1282dc5a5c0a9d490a70910ae559189e9b5223362099dbe9f4",
+      "status": "rejected",
+      "reason": "The content is general market commentary on bitcoin investment strategy, lacking specific events, policy changes, protocol upgrades, security incidents, or market structure changes. It does not provide actionable new information or urgent relevance for the crypto industry audience.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-06T14:34:47.896Z"
+    },
+    "647928e5444f7488f368d0d4b5876bb3207c6290cf3d4bc700060220c90a44c3": {
+      "decisionKey": "647928e5444f7488f368d0d4b5876bb3207c6290cf3d4bc700060220c90a44c3",
+      "status": "rejected",
+      "reason": "General browser security update news not directly related to crypto industry; lacks explicit relevance or impact on crypto users, markets, or protocols.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-06T14:34:47.896Z"
+    },
+    "50b26d4d265d13f343ba9c44f5401523053b5608d5c1f6da1a2815f73d1357ab": {
+      "decisionKey": "50b26d4d265d13f343ba9c44f5401523053b5608d5c1f6da1a2815f73d1357ab",
+      "status": "published",
+      "reason": "CoinDesk报道韩国央行研究，指出美元稳定币购买压力与本地货币贬值相关，涉及稳定币市场结构影响，对加密行业有明确信息增量。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-06T14:34:47.896Z",
+      "bCommitSha": "c9cbdbfd2c55e608b1bd365303bc9c843f7ea81b"
+    },
+    "29c8bc89b4ae545b93602b1a6571a5aa90bb5252febf3038f8ada9dba3b3298c": {
+      "decisionKey": "29c8bc89b4ae545b93602b1a6571a5aa90bb5252febf3038f8ada9dba3b3298c",
+      "status": "rejected",
+      "reason": "The candidate reports an unverified claim by Pencil Finance about funding student loans, explicitly noting that no borrower costs, defaults, or investor returns were disclosed. The description lacks specific, verifiable data on amounts, terms, timeline, or impact on the crypto market. It appears promotional and insufficiently evidenced for significant industry relevance.",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-06T14:34:47.896Z"
+    },
+    "24cf7b33b6d526ad307711b162b0b48c42097af180ba0c248c81f6eb5b2d1de3": {
+      "decisionKey": "24cf7b33b6d526ad307711b162b0b48c42097af180ba0c248c81f6eb5b2d1de3",
+      "status": "rejected",
+      "reason": "The article reports new data on institutional holdings in a Hyperliquid ETF from credible sources (Bloomberg/The Block), indicating adoption and market structure developments. It contains specific firms and amounts, providing factual information relevant to crypto markets. However, it is not a major policy change or protocol event, so it carries moderate significance.",
+      "score": 0.65,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-06T14:34:47.896Z"
+    },
+    "1b65caaf454c661e6c6bc32ba3aa5c5fb6c2827dbbc270e1dd80e9828bdee041": {
+      "decisionKey": "1b65caaf454c661e6c6bc32ba3aa5c5fb6c2827dbbc270e1dd80e9828bdee041",
+      "status": "rejected",
+      "reason": "该内容是关于多个老式比特币钱包转移资金至Coinbase的报道，虽然包含具体主体、金额和时间，但属于常规的链上资金流动消息，对加密行业的影响有限，不涉及重要政策、协议升级、安全事件或真正的市场结构变化，且标题有夸大成分，价值较低。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-06T14:34:47.896Z"
+    },
     "fd073aef9513f414031f3e50edb5c67111a6265b2d9093c346fd83e1a36d02ac": {
       "decisionKey": "fd073aef9513f414031f3e50edb5c67111a6265b2d9093c346fd83e1a36d02ac",
       "status": "published",
@@ -8454,108 +8537,21 @@
       "score": 0.65,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-07T22:00:24.781Z"
-    },
-    "462f33ea5dfef8976ffd6d5543b5a2a114806d6b1884a08e43bd385bf5c231eb": {
-      "decisionKey": "462f33ea5dfef8976ffd6d5543b5a2a114806d6b1884a08e43bd385bf5c231eb",
-      "status": "published",
-      "reason": "真实新闻来源，涉及特朗普媒体公司与Crypto.com终止协议，直接影响CRO及预测市场相关预期，对加密行业有明确信息增量。",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T22:00:24.781Z",
-      "bCommitSha": "69a3aece590f179bc37a67db62a8497eeba563df"
-    },
-    "43de3b90c66c6fd641a6b6ccdd4b46a24573634ea77458bde73d3049dc4ce583": {
-      "decisionKey": "43de3b90c66c6fd641a6b6ccdd4b46a24573634ea77458bde73d3049dc4ce583",
-      "status": "rejected",
-      "reason": "候选内容仅为标题，缺少具体事件、时间或数据，无法核验实质信息，对加密行业无明确影响，证据不足。",
-      "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T22:00:24.781Z"
-    },
-    "e3dd1582c3241abe240a2fda11133718400607f4eec12358cbc50e910b9b798a": {
-      "decisionKey": "e3dd1582c3241abe240a2fda11133718400607f4eec12358cbc50e910b9b798a",
-      "status": "rejected",
-      "reason": "CFTC对预测市场使用美式投注赔率发出警告，属于监管动态，对加密预测市场平台有直接影响，来源可信，但内容简短缺乏细节，信息增量有限。",
-      "score": 0.65,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T20:00:34.199Z"
-    },
-    "db83d004b1c1dd2bef13e8f07b5e813a94ca5af04debb61cc1143d6a543df8c3": {
-      "decisionKey": "db83d004b1c1dd2bef13e8f07b5e813a94ca5af04debb61cc1143d6a543df8c3",
-      "status": "published",
-      "reason": "报道了EIP-8363提案对以太坊质押机制的潜在影响，涉及以太坊货币政策与竞争格局，对加密行业具有明确信息增量和讨论价值。",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T20:00:34.199Z",
-      "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
-    },
-    "6e1c0558371198911f686bfb4d5ac58a0ef119d284699897f584155afd37994e": {
-      "decisionKey": "6e1c0558371198911f686bfb4d5ac58a0ef119d284699897f584155afd37994e",
-      "status": "published",
-      "reason": "This is a credible report from The Block on major Bitcoin miners MARA and CleanSpark posting significant revenue declines and net losses, while pivoting to AI infrastructure. It reflects market structure changes among key crypto industry participants, providing specific financial data and strategic shifts relevant to the crypto audience.",
-      "score": 0.88,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T20:00:34.199Z",
-      "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
-    },
-    "5271341a120450c9eb0fd01e2718b0d8dedde6f97ca4ff2a6d19ed5a4bc95935": {
-      "decisionKey": "5271341a120450c9eb0fd01e2718b0d8dedde6f97ca4ff2a6d19ed5a4bc95935",
-      "status": "published",
-      "reason": "The candidate reports a concrete U.S. Treasury action sanctioning two Iranian crypto exchanges, with a specific amount traced to IRGC-linked wallets. This is a real, publicly accessible news item from The Block that provides actionable information about regulatory enforcement affecting crypto exchanges, which is relevant to the crypto industry audience.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T20:00:34.199Z",
-      "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
-    },
-    "46fb984b82817d918320f49a7156d613deacd5a665632beecce871d462991f4e": {
-      "decisionKey": "46fb984b82817d918320f49a7156d613deacd5a665632beecce871d462991f4e",
-      "status": "rejected",
-      "reason": "Candidate covers a leaked Flock surveillance pitch involving Uber drivers' license-plate data. It has no direct connection to cryptocurrency policy, protocol upgrades, security events, or market structure, and offers no clear information增量 for a crypto-industry audience.",
-      "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T20:00:34.199Z"
-    },
-    "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5": {
-      "decisionKey": "45d668658084ca1d39cc9d578f2ba5f4912f8daf2b9c511b4ef774e87a068cf5",
-      "status": "published",
-      "reason": "A federal judge denied Coinbase's bid to block Michigan's enforcement of sports event contracts, a notable regulatory issue affecting prediction markets and crypto exchange operations.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T20:00:34.199Z",
-      "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
-    },
-    "2da1e7cdfe3e66368da6013e7a91c707dc302369fdb33637864890e6af8450bc": {
-      "decisionKey": "2da1e7cdfe3e66368da6013e7a91c707dc302369fdb33637864890e6af8450bc",
-      "status": "published",
-      "reason": "美国财政部OFAC对两家伊朗加密交易所实施制裁，属于重要政策行动，直接影响加密行业合规环境，信息来源可靠且具有时效性。",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T20:00:34.199Z",
-      "bCommitSha": "75ffab4da42d092ca7825cedc63b38787d3e3d9b"
-    },
-    "fc1d123441b43b5067ecad5812890bf49e260c2050977397ef54ffaf1ab31729": {
-      "decisionKey": "fc1d123441b43b5067ecad5812890bf49e260c2050977397ef54ffaf1ab31729",
-      "status": "published",
-      "reason": "来源Decrypt为真实公开媒体，文章涉及美国参议院对Clarity Act的推进情况，属于影响加密市场的关键政策动态，且聚焦XRP的具体反应，对加密行业受众有明确信息增量。",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-07T18:00:33.750Z",
-      "bCommitSha": "4b4b2e6514bbfff83130bc6f4ffd847f9ea5af80"
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-05T14:11:19.670Z",
-    "https://cointelegraph.com/rss": "2026-09-05T14:11:19.670Z",
-    "https://decrypt.co/feed": "2026-09-04T15:23:35.162Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-09-05T14:11:19.670Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-05T14:11:19.670Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-05T14:11:19.670Z",
-    "https://blog.ethereum.org/feed.xml": "2026-09-05T14:11:19.670Z",
-    "https://bitcoinops.org/feed.xml": "2026-09-05T14:11:19.670Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-09-05T14:11:19.670Z",
-    "https://solana.com/rss.xml": "2026-09-05T14:11:19.670Z",
-    "https://slowmist.medium.com/feed": "2026-09-05T14:11:19.670Z",
-    "https://www.theblock.co/rss.xml": "2026-09-05T14:11:19.670Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-06T14:34:47.896Z",
+    "https://cointelegraph.com/rss": "2026-09-06T14:34:47.896Z",
+    "https://decrypt.co/feed": "2026-09-06T14:34:47.896Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-09-06T14:34:47.896Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-06T14:34:47.896Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-06T14:34:47.896Z",
+    "https://blog.ethereum.org/feed.xml": "2026-09-06T14:34:47.896Z",
+    "https://bitcoinops.org/feed.xml": "2026-09-06T14:34:47.896Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-09-06T14:34:47.896Z",
+    "https://solana.com/rss.xml": "2026-09-06T14:34:47.896Z",
+    "https://slowmist.medium.com/feed": "2026-09-06T14:34:47.896Z",
+    "https://www.theblock.co/rss.xml": "2026-09-06T14:34:47.896Z"
   },
-  "lastRunAt": "2026-09-01T15:44:03.178Z"
+  "lastRunAt": "2026-09-06T14:34:47.896Z"
 }
