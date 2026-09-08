@@ -1,6 +1,164 @@
 {
   "version": 1,
   "decisions": {
+    "e9e61ba4ac275aa9da0cbb46f343bb34e7343669622329aecd58390345b07d75": {
+      "decisionKey": "e9e61ba4ac275aa9da0cbb46f343bb34e7343669622329aecd58390345b07d75",
+      "status": "rejected",
+      "reason": "真实来源且包含具体实体（Strive、SATA）、事件（新增1375枚比特币）和时间信息；内容涉及机构通过结构化产品持续配置比特币并接近10亿美元里程碑，对加密市场资金流和机构采用议题有明确信息增量，但整体属于中等重要性的公司产品进展报道，并非顶级系统性事件。",
+      "score": 0.62,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "dacff3921014d3f636ad25af4a5b3fdded7034c7b26d7e583f6f00fb89ef86a2": {
+      "decisionKey": "dacff3921014d3f636ad25af4a5b3fdded7034c7b26d7e583f6f00fb89ef86a2",
+      "status": "published",
+      "reason": "Circle拟以4亿美元收购跨境支付公司Tazapay，该交易涉及稳定币支付基础设施的“最后一公里”整合，对加密支付生态具有明确的市场结构影响，属于真实、可核验的行业重要并购新闻。",
+      "score": 0.85,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z",
+      "bCommitSha": "311ff9fd6c3770f9edb57ad5a316582bd299ec95"
+    },
+    "bd61c94d1f3b216d084483e3fa6b32a077f0e57589653768e6abbf340d48a30a": {
+      "decisionKey": "bd61c94d1f3b216d084483e3fa6b32a077f0e57589653768e6abbf340d48a30a",
+      "status": "rejected",
+      "reason": "Cointelegraph is a legitimate, publicly accessible news source. The item reports a specific corporate treasury development: Strategy paused new Bitcoin purchases and repurchased $176M of its preferred stock while expanding the securities repurchase program to $2B. This is a concrete, verifiable market-structure signal about a major Bitcoin holder, with likely implications for Bitcoin treasury narratives and capital allocation in the crypto market.",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "a607e40ef6ba98546269200f0c1f013768deaf9fb46771605f56afac511f817a": {
+      "decisionKey": "a607e40ef6ba98546269200f0c1f013768deaf9fb46771605f56afac511f817a",
+      "status": "published",
+      "reason": "Visa将VisaNet数据与链上借贷结合，用于稳定币卡的资金周转，反映了传统金融机构深入参与加密支付，且包含具体增长数据，对加密行业具有重要信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z",
+      "bCommitSha": "311ff9fd6c3770f9edb57ad5a316582bd299ec95"
+    },
+    "a1be7a8b14bdd307a085929d07a1442e46a5b1b2547de705c02fd29c86b6596d": {
+      "decisionKey": "a1be7a8b14bdd307a085929d07a1442e46a5b1b2547de705c02fd29c86b6596d",
+      "status": "published",
+      "reason": "报道了加密相关公司Bitmine大规模购入ETH并接近完成供应量5%的财务目标，涉及具体公司、事件和量化进展，对市场结构与投资情绪有实质影响，信息增量明确。来源为公开新闻媒体，具备可核验性。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z",
+      "bCommitSha": "311ff9fd6c3770f9edb57ad5a316582bd299ec95"
+    },
+    "89163eb6cf53551583ca817156477849b15706e0d5e387335f4dbece8c9ee609": {
+      "decisionKey": "89163eb6cf53551583ca817156477849b15706e0d5e387335f4dbece8c9ee609",
+      "status": "failed",
+      "reason": "AI output contains an unknown source URL",
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "83b3c60409144a42d0fa5d974e13efe7a04f82a7c7b4410e334ea53159f592ed": {
+      "decisionKey": "83b3c60409144a42d0fa5d974e13efe7a04f82a7c7b4410e334ea53159f592ed",
+      "status": "rejected",
+      "reason": "Real, verifiable Decrypt news item about Strategy, the largest public Bitcoin treasury company, shifting $176.3 million to its preferred stock and doubling buyback authorization. This is concrete, timestamped capital-allocation data relevant to crypto market watchers because it signals how a major BTC holder is deploying capital.",
+      "score": 0.66,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "7f228bf4c7705ff5d1481eb81beb7241caabb6ce36cc46345d0e85f17b3fb612": {
+      "decisionKey": "7f228bf4c7705ff5d1481eb81beb7241caabb6ce36cc46345d0e85f17b3fb612",
+      "status": "published",
+      "reason": "Bitmine's purchase of 28,086 ETH brings its treasury to 4.9% of Ethereum's total supply, a significant market structure event with implications for centralized holdings and transparency. This is a credible, verifiable news item from a reputable source with specific data points.",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z",
+      "bCommitSha": "311ff9fd6c3770f9edb57ad5a316582bd299ec95"
+    },
+    "6ea339de9782d802c4f79e5bc427fb7a50173b6ced1076a4ebda4456ca96504c": {
+      "decisionKey": "6ea339de9782d802c4f79e5bc427fb7a50173b6ced1076a4ebda4456ca96504c",
+      "status": "rejected",
+      "reason": "该内容为墨西哥本地刑事案件，虽涉及比特币钱包，但对加密行业受众缺乏明确政策、市场或技术影响，属于一般犯罪新闻。",
+      "score": 0.4,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "62596d2dfce3c1d6091c4899d3f8fce8e5d8a37f93193f0661ea4634dc36396f": {
+      "decisionKey": "62596d2dfce3c1d6091c4899d3f8fce8e5d8a37f93193f0661ea4634dc36396f",
+      "status": "rejected",
+      "reason": "该候选内容本质上是比特币价格走势的预测和观点，属于价格喊单或市场评论，缺乏具体的政策、协议升级、安全事件或市场结构变化等实质性信息，对加密行业受众的信息增量有限。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "520c480f8d4cd223e54c67bdeb25ae5dcb71b7a816afac3dd74d8e7e90963580": {
+      "decisionKey": "520c480f8d4cd223e54c67bdeb25ae5dcb71b7a816afac3dd74d8e7e90963580",
+      "status": "rejected",
+      "reason": "内容仅为Strategy回购1760万美元STRC股票且未买卖比特币，不涉及加密行业的重大政策、协议升级、安全事件或市场结构变化，对加密受众影响有限且信息增量不足。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "516c2f2467a84ae6ce77cda50d44312aed709b633fd1d049cb643ada0934d76e": {
+      "decisionKey": "516c2f2467a84ae6ce77cda50d44312aed709b633fd1d049cb643ada0934d76e",
+      "status": "published",
+      "reason": "Coindesk报道以太坊基金会将量子抗性列为最高优先事项并设定2029年截止日期，属于协议安全升级领域的重要政策/技术决策，对加密行业用户有明确信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z",
+      "bCommitSha": "311ff9fd6c3770f9edb57ad5a316582bd299ec95"
+    },
+    "4bae5691b959e1a8f69f5fd56c0a1d4aed0f7848bec4137b310350402a5490cf": {
+      "decisionKey": "4bae5691b959e1a8f69f5fd56c0a1d4aed0f7848bec4137b310350402a5490cf",
+      "status": "rejected",
+      "reason": "The candidate is an editorial/opinion piece from Cointelegraph Magazine discussing Bitcoin volatility in retirement portfolios. It lacks specific, time-sensitive events, data points, or verifiable factual claims that would constitute a critical policy, protocol, security, or market structure development for the crypto industry. The content is general analysis and not high-impact news, providing limited increment for an audience seeking important industry updates.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "494f3e57549d5135699bc331db32476e34f1c45afbcb833795d486911eef73d8": {
+      "decisionKey": "494f3e57549d5135699bc331db32476e34f1c45afbcb833795d486911eef73d8",
+      "status": "rejected",
+      "reason": "The candidate focuses on a single company's ETH purchase and a price prediction by Tom DeMark, which is speculative and low-value for the crypto industry audience. It does not represent a major policy, protocol upgrade, security event, or significant market structure change.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "3bd495cabf4866a069dae8de1cecba7a42561ab1f339c81634890fef5abf23d8": {
+      "decisionKey": "3bd495cabf4866a069dae8de1cecba7a42561ab1f339c81634890fef5abf23d8",
+      "status": "published",
+      "reason": "Matter Labs开源Prividium权限引擎，且德国联邦银行测试该平台，属于具体的企业区块链与央行合作进展，对加密行业具有信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z",
+      "bCommitSha": "311ff9fd6c3770f9edb57ad5a316582bd299ec95"
+    },
+    "2ef7ade7bba5a1cd7ca8cfa4fa920f39e503ac744edeaf0bbf9b42a06541c191": {
+      "decisionKey": "2ef7ade7bba5a1cd7ca8cfa4fa920f39e503ac744edeaf0bbf9b42a06541c191",
+      "status": "rejected",
+      "reason": "The candidate has a publication date in the future (2026-09-08), indicating it is likely synthetic test or demonstration content. Additionally, the claim of holding 4.9% of Ethereum's supply by an entity called 'Bitmine' is extraordinary but not backed by verifiable details, and the source URL is a preview/draft URL (?p=377672). Thus it cannot be treated as a real, publishable news item.",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "2671c3601b798696c4d46beabd174a050ca626c58d8e54d52fd294341e46f4d8": {
+      "decisionKey": "2671c3601b798696c4d46beabd174a050ca626c58d8e54d52fd294341e46f4d8",
+      "status": "rejected",
+      "reason": "Candidate is a vague editorial teaser from a Morning Minute newsletter, lacking specific events, data, or verifiable details. It only poses rhetorical questions about onchain activity and offers no concrete information or clear impact for crypto industry audiences.",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "17bb702cf5e13ab887ead183a8746086cebf9f52cbd9f15cb1722851a0888f31": {
+      "decisionKey": "17bb702cf5e13ab887ead183a8746086cebf9f52cbd9f15cb1722851a0888f31",
+      "status": "rejected",
+      "reason": "该候选内容与加密行业受众无明确关联，未涉及加密政策、协议升级、安全事件或市场结构变化。文章内容是关于美国警方对Meta智能眼镜监控风险的担忧，属于泛隐私/执法设备话题，不能为加密受众提供明确信息增量。",
+      "score": 0,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z"
+    },
+    "0ff3ccf43f0f525b17e78b7e1ed239b68c619d912327bf6778043aa3fe7c1420": {
+      "decisionKey": "0ff3ccf43f0f525b17e78b7e1ed239b68c619d912327bf6778043aa3fe7c1420",
+      "status": "published",
+      "reason": "来源为CoinDesk（真实新闻媒体），包含具体主体（Strive SATA、Strategy STRC）、时间（2026-09-08）、数据（市值接近10亿美元、13%年化股息）等可核验信息。内容涉及加密相关金融产品表现和市场资金结构变化，对受众多资产配置与ETF比较有信息增量，非营销或价格喊单。",
+      "score": 0.8,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-08T15:37:44.110Z",
+      "bCommitSha": "311ff9fd6c3770f9edb57ad5a316582bd299ec95"
+    },
     "eec617b3ce2c96366aad359a4dcef0d4017c9885a9b08e736a1a60256af838ca": {
       "decisionKey": "eec617b3ce2c96366aad359a4dcef0d4017c9885a9b08e736a1a60256af838ca",
       "status": "published",
@@ -8358,189 +8516,21 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-09T20:00:58.910Z",
       "bCommitSha": "d2671dd1228229c55b0eb20cfcd75c36bc310e93"
-    },
-    "5d315c001c70de65703ec0195e7f0c4ee98fdc112c54ae8b7d85ab7baa260274": {
-      "decisionKey": "5d315c001c70de65703ec0195e7f0c4ee98fdc112c54ae8b7d85ab7baa260274",
-      "status": "rejected",
-      "reason": "This is a specific and verifiable news event about a Bitcoin fork that failed to gain mining support, with concrete metrics (2.53% support, two blocks, delayed difficulty adjustment). It impacts the Bitcoin ecosystem and market structure, offering clear informational value to crypto audiences.",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T20:00:58.910Z"
-    },
-    "303a2605f95fe2f4d98377ca517de997102a944a74d6c741b60ac780d31de67b": {
-      "decisionKey": "303a2605f95fe2f4d98377ca517de997102a944a74d6c741b60ac780d31de67b",
-      "status": "published",
-      "reason": "The candidate reports on a concrete policy development: delay of a Senate procedural vote on the Clarity Act, which directly affects the crypto industry. The source is Coindesk, a reputable crypto news outlet, and the content provides an analytical perspective on a regulatory issue. This is relevant and provides informational value beyond price speculation or marketing.",
-      "score": 0.75,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T20:00:58.910Z",
-      "bCommitSha": "d2671dd1228229c55b0eb20cfcd75c36bc310e93"
-    },
-    "f7476eff9602f5df9f0764daac812d8c101be15fa7764fbaa2bb0c23645c1628": {
-      "decisionKey": "f7476eff9602f5df9f0764daac812d8c101be15fa7764fbaa2bb0c23645c1628",
-      "status": "published",
-      "reason": "CoinDesk reports concrete weekly net inflows of $853.54M into spot Bitcoin ETFs, the highest since mid-April, with BlackRock's IBIT dominating. This is a real, verifiable market-structure development with clear relevance to crypto investors and institutions.",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T18:00:51.677Z",
-      "bCommitSha": "1816144ded6b4c6b7fb3363b997ba2e7f3a86d72"
-    },
-    "df58d1903fb1278cce7a2b40e9dfb63e9aa6387e9ea2362fe28bb0bffca2a963": {
-      "decisionKey": "df58d1903fb1278cce7a2b40e9dfb63e9aa6387e9ea2362fe28bb0bffca2a963",
-      "status": "published",
-      "reason": "CoinDesk的报道涉及Hyperliquid的RWA永续合约增长对其代币HYPE收入支撑的影响，包含具体数据（收入连续四季度下降、未平仓合约创历史新高）和机制（费用共享计划），对加密行业DeFi和代币经济有明确信息增量。",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T18:00:51.677Z",
-      "bCommitSha": "1816144ded6b4c6b7fb3363b997ba2e7f3a86d72"
-    },
-    "17078b1aab4e46ed305a76ea9abdf9ac6cd12fa5f03971de59b88f4c16495e90": {
-      "decisionKey": "17078b1aab4e46ed305a76ea9abdf9ac6cd12fa5f03971de59b88f4c16495e90",
-      "status": "published",
-      "reason": "The Block reports a concrete regulatory change in Brazil: a 24-hour waiting period for transfers to self-custody wallets, effective Jan. 1, 2027, covering fiat-backed stablecoins. This is a specific, verifiable policy event with clear impact on crypto users and exchanges in Brazil, providing new information for the crypto audience.",
-      "score": 0.92,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T18:00:51.677Z",
-      "bCommitSha": "1816144ded6b4c6b7fb3363b997ba2e7f3a86d72"
-    },
-    "4d7e4897ac2bc69203621a83b521b50e188b9c9cf6782107f0e31073723dbcbe": {
-      "decisionKey": "4d7e4897ac2bc69203621a83b521b50e188b9c9cf6782107f0e31073723dbcbe",
-      "status": "published",
-      "reason": "The article is from a credible crypto news source (CoinDesk) and reports a specific industry development: over 100 crypto projects folding in 2026, framed as a dot-com style shakeout. This is relevant to crypto industry participants as it signals market structure changes and consolidation, with clear implications for project viability and investor attention.",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T14:00:17.440Z",
-      "bCommitSha": "dc98342ba0ddc6176248ebf1763b992f1427fd6c"
-    },
-    "122fd36d0328e1f835cfc933b548c401ad92b6c000274b2e066b48766299a8d2": {
-      "decisionKey": "122fd36d0328e1f835cfc933b548c401ad92b6c000274b2e066b48766299a8d2",
-      "status": "rejected",
-      "reason": "Cointelegraph是真实新闻来源。该报道涉及比特币BIP-110分支的进展，属于协议升级相关事件，对加密行业受众有信息增量。",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T12:00:17.897Z"
-    },
-    "4910bcfd0df7f3b708b681c7651f202a12f90641df27243eaaea7bc48db7ff7c": {
-      "decisionKey": "4910bcfd0df7f3b708b681c7651f202a12f90641df27243eaaea7bc48db7ff7c",
-      "status": "published",
-      "reason": "Brazil's introduction of a 24-hour hold on crypto transfers above $10,000 to overseas providers or self-custody wallets, effective Jan 1, 2027, is a significant regulatory update affecting crypto users and businesses, with clear data and policy details.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T10:00:26.566Z",
-      "bCommitSha": "7d32644dfa8cff7b6fc4f4cfd8b0e3acc58cf9e3"
-    },
-    "d1c0c407701140b559e0771474706af3b99c42913dabf26053c3c24a82c82db6": {
-      "decisionKey": "d1c0c407701140b559e0771474706af3b99c42913dabf26053c3c24a82c82db6",
-      "status": "published",
-      "reason": "A real CoinDesk report about a Bitcoin fork (BIP-110) that mined two blocks then stopped, highlighting a technical event with implications for network consensus and user awareness.",
-      "score": 0.75,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T06:00:18.078Z",
-      "bCommitSha": "9a1ccdfe6abd95d2b9101c70a3a7988c4432ddf1"
-    },
-    "74ce31596d75ab7c14f627c24e8170a3ca7d90f657f2d3a52d235c74918ac0e1": {
-      "decisionKey": "74ce31596d75ab7c14f627c24e8170a3ca7d90f657f2d3a52d235c74918ac0e1",
-      "status": "published",
-      "reason": "The candidate reports a concrete security incident affecting BTCPay Server's Lightning integration, with confirmed reports from Foundation and Citadel21 of drained nodes. This is directly relevant to crypto infrastructure and users, providing actionable information about a vulnerability and response (restricting remote access). The source is a reputable crypto news outlet and the content is specific and verifiable.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T06:00:18.078Z",
-      "bCommitSha": "9a1ccdfe6abd95d2b9101c70a3a7988c4432ddf1"
-    },
-    "fa104faa2ef6851da359b034a7cb9ae5ad572985f31d704c8f2b56086801c4eb": {
-      "decisionKey": "fa104faa2ef6851da359b034a7cb9ae5ad572985f31d704c8f2b56086801c4eb",
-      "status": "published",
-      "reason": "Reports a real Bitcoin protocol governance event (BIP-110) with a network split and debate over block space usage, directly relevant to crypto industry and providing new information from a credible news source.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-09T02:00:19.512Z",
-      "bCommitSha": "a41e7225ef505238c4930baf8f8e8c4380a44eec"
-    },
-    "fb4e52b9aaf18012fef100caecfe425c3e0793ee529b40fe696763ca8995a117": {
-      "decisionKey": "fb4e52b9aaf18012fef100caecfe425c3e0793ee529b40fe696763ca8995a117",
-      "status": "rejected",
-      "reason": "The candidate has a future publication date (2026-08-08) relative to the current date, and the content is minimal with no verifiable details. This appears to be placeholder or test content, not a genuine, accessible news article. Insufficient evidence for a real event.",
-      "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T22:00:22.275Z"
-    },
-    "be46025177ea4337274b21799258e662cff665ac675cd88e0943ed9fd6d9884a": {
-      "decisionKey": "be46025177ea4337274b21799258e662cff665ac675cd88e0943ed9fd6d9884a",
-      "status": "published",
-      "reason": "BIP-110 reaching mandatory signaling with miner support below 3% and a possible hard-fork fallback is a material Bitcoin protocol event, relevant to crypto industry governance and network stability.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T22:00:22.275Z",
-      "bCommitSha": "65f2d09a3e034440d86ac28684a217adb5ba0211"
-    },
-    "f92e76a0d6b879b4dfdc836f121c96f96037099158f5988583ae7e04c8b1b67d": {
-      "decisionKey": "f92e76a0d6b879b4dfdc836f121c96f96037099158f5988583ae7e04c8b1b67d",
-      "status": "published",
-      "reason": "该候选来自CoinDesk这一公开可核验的新闻源，报道了俄罗斯硬件钱包销量翻倍且新加密监管规则临近这一具体事件，包含明确主体（Wildberries、M.Video）、时间（2026-08-08）和数据（价格下降13%、均价7900卢布），对加密行业受众理解俄罗斯市场动态和监管趋势有信息增量，不属于测试、营销或价格喊单内容。",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T20:00:21.602Z",
-      "bCommitSha": "dd7e290cf7adc074c3547d0a09b6afbdbd739e44"
-    },
-    "c08eabf2f09d8b963daedc71451ba0ef80be92fd3e5c11fa718533a5c27b762d": {
-      "decisionKey": "c08eabf2f09d8b963daedc71451ba0ef80be92fd3e5c11fa718533a5c27b762d",
-      "status": "published",
-      "reason": "This is a legitimate news report from Cointelegraph, a real and accessible crypto news outlet, covering a significant US Senate procedural move on the CLARITY Act, a key crypto market structure bill. The event is specific (cloture filed, September vote), timely, and directly relevant to the crypto industry's regulatory landscape. It provides new information on the bill's progress, which is important for stakeholders.",
-      "score": 0.95,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T18:00:20.578Z",
-      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
-    },
-    "c01a1d1bd66d74f2fc2c83ab2625bf3b347fae05d322b07f5a1d0d61dbe3230b": {
-      "decisionKey": "c01a1d1bd66d74f2fc2c83ab2625bf3b347fae05d322b07f5a1d0d61dbe3230b",
-      "status": "published",
-      "reason": "该候选来自可信的加密媒体Decrypt，报道了比特币红队利用AI在核心项目中扫描出漏洞并计划开源自动化审计平台，属于与比特币协议及开源生态相关的具体安全事件，对关注加密基础设施安全的受众具有信息增量。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T18:00:20.578Z",
-      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
-    },
-    "80d4d8d115764f131c3714cfaed9a6be767cdad84daab3ba42cbeeb29bb506b5": {
-      "decisionKey": "80d4d8d115764f131c3714cfaed9a6be767cdad84daab3ba42cbeeb29bb506b5",
-      "status": "published",
-      "reason": "Real news from The Block reporting $1.1B combined Bitcoin and ether ETF inflows for the week, a concrete market-structure data point relevant to crypto investors; it also references a security incident (Coldcard wallet exploit) that adds informational weight.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T18:00:20.578Z",
-      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
-    },
-    "68001a28bccde309f01f97ecf94df8a477121f3090c981149096774b6d53b36b": {
-      "decisionKey": "68001a28bccde309f01f97ecf94df8a477121f3090c981149096774b6d53b36b",
-      "status": "published",
-      "reason": "美国参议院多数党领袖推进Clarity Act法案动议，并确定九月投票，属于直接影响加密行业的重要政策进展，具备明确主体、事件和时间，信息增量高。",
-      "score": 0.95,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T18:00:20.578Z",
-      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
-    },
-    "295d72b8ffbcee623c2849392abd8c42ea8b5dff8e30a4766b7c99ae2dc7af0f": {
-      "decisionKey": "295d72b8ffbcee623c2849392abd8c42ea8b5dff8e30a4766b7c99ae2dc7af0f",
-      "status": "published",
-      "reason": "The Clarity Act is a major crypto regulatory bill, and Senate Majority Leader filing cloture sets a concrete floor vote date, providing a significant legislative update with clear impact on the crypto industry.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-08T18:00:20.578Z",
-      "bCommitSha": "fa83b6db5b75af3cfb2ee5f22683fbab0b80cfd7"
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-06T14:34:47.896Z",
-    "https://cointelegraph.com/rss": "2026-09-07T16:49:27.925Z",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-08T15:37:44.110Z",
+    "https://cointelegraph.com/rss": "2026-09-08T15:37:44.110Z",
     "https://decrypt.co/feed": "2026-09-06T14:34:47.896Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-09-07T16:49:27.925Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-07T16:49:27.925Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-07T16:49:27.925Z",
-    "https://blog.ethereum.org/feed.xml": "2026-09-07T16:49:27.925Z",
-    "https://bitcoinops.org/feed.xml": "2026-09-07T16:49:27.925Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-09-07T16:49:27.925Z",
-    "https://solana.com/rss.xml": "2026-09-07T16:49:27.925Z",
-    "https://slowmist.medium.com/feed": "2026-09-07T16:49:27.925Z",
-    "https://www.theblock.co/rss.xml": "2026-09-07T16:49:27.925Z"
+    "https://www.sec.gov/news/pressreleases.rss": "2026-09-08T15:37:44.110Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-08T15:37:44.110Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-08T15:37:44.110Z",
+    "https://blog.ethereum.org/feed.xml": "2026-09-08T15:37:44.110Z",
+    "https://bitcoinops.org/feed.xml": "2026-09-08T15:37:44.110Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-09-08T15:37:44.110Z",
+    "https://solana.com/rss.xml": "2026-09-08T15:37:44.110Z",
+    "https://slowmist.medium.com/feed": "2026-09-08T15:37:44.110Z",
+    "https://www.theblock.co/rss.xml": "2026-09-08T15:37:44.110Z"
   },
   "lastRunAt": "2026-09-06T14:34:47.896Z"
 }
