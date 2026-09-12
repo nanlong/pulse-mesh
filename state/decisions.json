@@ -1,6 +1,158 @@
 {
   "version": 1,
   "decisions": {
+    "ffdb3a6297c1040286e398af905d4b4d61b87c0f24ece07fecc40cec83c8da12": {
+      "decisionKey": "ffdb3a6297c1040286e398af905d4b4d61b87c0f24ece07fecc40cec83c8da12",
+      "status": "rejected",
+      "reason": "候选发布时间为2026-09-11，晚于当前日期，无法核验为已公开可访问的新闻页面；内容仅一句高管表态，证据和细节不足，难以形成可靠的信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "fdccfbcfd93aef2ea96dbf8a37bf94bd3522f212b836b701e952695367797807": {
+      "decisionKey": "fdccfbcfd93aef2ea96dbf8a37bf94bd3522f212b836b701e952695367797807",
+      "status": "rejected",
+      "reason": "候选发布时间为2026-09-11，晚于当前日期，不能视为已公开可核验的新闻；内容仅为前Alameda CEO加入慈善机构的人事动态，对加密行业政策、协议、安全或市场结构无明确影响，信息增量不足。",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "f5563eba7624d6db94000ebb51d6ef2fa6f9ee864785e4e59a8414ec398d33fb": {
+      "decisionKey": "f5563eba7624d6db94000ebb51d6ef2fa6f9ee864785e4e59a8414ec398d33fb",
+      "status": "rejected",
+      "reason": "候选来自真实媒体域名且涉及宏观与加密市场，但内容仅为比特币、以太坊价格波动及单一分析师对通胀分项的简短评论，缺少具体通胀数据、美联储政策变化或结构性市场影响；信息增量低，偏价格行情/评论，且发布时间为未来日期，核验存疑。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "e71272f434d3fe35f55d735e35183ea8f83e650f7c287d6051e527fc8d913ffb": {
+      "decisionKey": "e71272f434d3fe35f55d735e35183ea8f83e650f7c287d6051e527fc8d913ffb",
+      "status": "rejected",
+      "reason": "The candidate is a product comparison review of AI image-generation models from OpenAI and Google. It contains no crypto-specific policy, protocol upgrade, security event, market structure change, or material impact for a crypto industry audience. The published date is also in the future relative to the current date, further weakening its suitability as a timely, verifiable production news item.",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "db6f0ba4025d42fbd37d2e39f5d2e08beecdcba8895c0fbd36e9d91e489dd594": {
+      "decisionKey": "db6f0ba4025d42fbd37d2e39f5d2e08beecdcba8895c0fbd36e9d91e489dd594",
+      "status": "rejected",
+      "reason": "Candidate describes a specific security and privacy incident involving Revolut and Bitcoin activity, which would be relevant if verified. However, the provided publishedAt is 2026-09-12, which is in the future relative to the current date (2026-05-09), so the source cannot be treated as an already public, accessible, and verifiable news page. Reject as unverifiable and not publishable.",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "d3c11dc3e6bcda187de6e51fa154be0cfa81a10cec3d4c1be665f5a5564b222f": {
+      "decisionKey": "d3c11dc3e6bcda187de6e51fa154be0cfa81a10cec3d4c1be665f5a5564b222f",
+      "status": "rejected",
+      "reason": "发布日期为未来时间，无法核验为已正式公开可访问的新闻；内容仅简短转述机构托管支持，缺少可独立核验的公告或具体数据，信息增量不足。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "d0ba75c450cf1138a9b53e794fe95434d1721cf8ad962358feeedbf62cf525bc": {
+      "decisionKey": "d0ba75c450cf1138a9b53e794fe95434d1721cf8ad962358feeedbf62cf525bc",
+      "status": "rejected",
+      "reason": "该候选仅描述比特币短时反弹和美股反应，核心是价格波动与CPI宏观数据摘要，缺少具体政策、协议升级、安全事件或市场结构变化的实质信息；且发布时间为2026-09-11，晚于当前日期，无法作为可核验的即时生产新闻。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "c408a6590431256d3a3e979e38c174ea84620a251b36369023920c2bf18ae955": {
+      "decisionKey": "c408a6590431256d3a3e979e38c174ea84620a251b36369023920c2bf18ae955",
+      "status": "rejected",
+      "reason": "A minor corporate operational item about Bitcoin Suisse moving back-office jobs abroad; it lacks broad crypto policy, protocol, security, or market-structure significance and provides limited information increment for the configured audience.",
+      "score": 0.25,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "a492cc9482a74c9304a1105b2fd5857a568256e52ab61f65c35c8fe497b5d2be": {
+      "decisionKey": "a492cc9482a74c9304a1105b2fd5857a568256e52ab61f65c35c8fe497b5d2be",
+      "status": "rejected",
+      "reason": "候选为 OpenAI 就 AI 监管放缓向美国国会寻求法律澄清的新闻，主体与事件虽具体，但内容仅一句话摘要，信息增量有限，且与加密行业政策、协议升级、安全事件或市场结构无明确关联，对加密受众缺乏直接影响力，属于低相关度转载型报道。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "9d3f7e1029b3767993e4cba2f273f54f468c99b18675388f5db3ddaae8e9840d": {
+      "decisionKey": "9d3f7e1029b3767993e4cba2f273f54f468c99b18675388f5db3ddaae8e9840d",
+      "status": "rejected",
+      "reason": "候选内容主要是 Standard Chartered 对 SKY 代币的价格预测和覆盖评级，属于价格喊单/分析师观点，而非加密行业重要政策、协议升级、安全事件或市场结构变化，信息增量有限。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "94300d7ef1ffa879213e3e69afd73a1e26863d1dd6819a0c5b832744c5be82aa": {
+      "decisionKey": "94300d7ef1ffa879213e3e69afd73a1e26863d1dd6819a0c5b832744c5be82aa",
+      "status": "rejected",
+      "reason": "Reputable source (CoinDesk) reports SBF seeking Supreme Court review, a significant legal development for the crypto industry. However, the provided content lacks specifics on the legal argument or timeline, reducing information increment.",
+      "score": 0.5,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "8a5fb8d4110b3e4c024e8c9efd350bd3a40d28259d86b722e3173d28c3bb8fcb": {
+      "decisionKey": "8a5fb8d4110b3e4c024e8c9efd350bd3a40d28259d86b722e3173d28c3bb8fcb",
+      "status": "rejected",
+      "reason": "候选仅含标题，无具体规则条款、生效时间或影响范围；发布日期晚于当前日期，无法视为已公开可核验的正式公告；对加密行业受众的明确影响和信息增量不足。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "87aa7d67f640100e30133394f072f5f8a358fe41395e960eaf66fa4992a79ce7": {
+      "decisionKey": "87aa7d67f640100e30133394f072f5f8a358fe41395e960eaf66fa4992a79ce7",
+      "status": "rejected",
+      "reason": "来源域名虽为公开新闻站点，但发布时间为未来（2026-09-11），相对当前日期不可核验；内容为律所网络攻击和暗网泄露，未体现对加密行业政策、协议、安全事件或市场结构的明确影响，缺乏加密行业信息增量。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "86c06024b45115caa1eab7eb98e9c821cae81b8a314c9f33f33ed2aab5449b51": {
+      "decisionKey": "86c06024b45115caa1eab7eb98e9c821cae81b8a314c9f33f33ed2aab5449b51",
+      "status": "rejected",
+      "reason": "CoinDesk 观点专栏，作者为质押服务商 GlobalStake 人士，主张将 staked ether 视为去中心化经济基准。属观点/思想领导力内容，无具体事件、政策、协议升级、安全事件或市场结构变化，也没有可核验的数据或时间线，信息增量与对加密行业受众的决策价值不足，接近营销性论述，不符合公开发布标准。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "6b21a774a71e401a719a703250bf40336bacd1772bc9050892e1a2b2ec25786e": {
+      "decisionKey": "6b21a774a71e401a719a703250bf40336bacd1772bc9050892e1a2b2ec25786e",
+      "status": "rejected",
+      "reason": "候选来源为 Decrypt，标题包含具体主体 Robinhood、事件和数据 61%，对加密交易市场结构有一定信息价值；但 publishedAt 为 2026-09-11，晚于当前日期，无法确认该页面已公开发布并可核验，且正文仅为简短导语，缺少底层数据来源和影响细节，证据不足，不宜直接发布。",
+      "score": 0.3,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "5aad1c73825d98368d817b3627aae91037dbc39138b7dfbe3e1099e09258ed7d": {
+      "decisionKey": "5aad1c73825d98368d817b3627aae91037dbc39138b7dfbe3e1099e09258ed7d",
+      "status": "rejected",
+      "reason": "候选虽来自 CoinDesk，但内容仅为联储加息预期与市场反应的空泛预告，未给出具体政策决定、数据或加密行业直接影响；且 canonical URL 的 slug 与候选标题明显不一致，发布时间为未来时间，证据不足，不宜公开发布。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "5828e0ebcd27bf155e76b916ef561530963a7b4f9f1d64828e81e108d7014c8a": {
+      "decisionKey": "5828e0ebcd27bf155e76b916ef561530963a7b4f9f1d64828e81e108d7014c8a",
+      "status": "rejected",
+      "reason": "该候选仅为 Ran Neuner 对 Hyperliquid 监管风险的个人评论，缺乏具体监管事件、公告、数据或可核验事实，信息增量有限；同时发布时间晚于当前日期，来源可核验性存疑。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "3e827036100ed4c6ef30f5c69ce3dd59cd7f61294a283ac306ee04519473fedf": {
+      "decisionKey": "3e827036100ed4c6ef30f5c69ce3dd59cd7f61294a283ac306ee04519473fedf",
+      "status": "rejected",
+      "reason": "该候选是比特币技术图表与利率押注的短期市场评论，标题聚焦“金叉消失”，内容摘要未给出具体政策决定、协议升级、安全事件或市场结构变化，缺乏可核验的具体数据与行业信息增量；且发布时间为未来日期，证据不足，属于低价值价格/技术分析。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
+    "094bd8df5feacd38ef8bc60bdf9a0344a27edda34c292f1675a7d742c67efbe3": {
+      "decisionKey": "094bd8df5feacd38ef8bc60bdf9a0344a27edda34c292f1675a7d742c67efbe3",
+      "status": "rejected",
+      "reason": "候选发布日期为2026-09-11，晚于当前日期2026-05-07，无法确认为已公开、可访问、可核验的正式新闻页面。尽管内容涉及Bitwise关闭Dogecoin ETF的具体事件、日期与影响，但未来日期使该来源当前不可验证，存在占位或未发布内容风险。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-12T14:36:19.618Z"
+    },
     "e5022f737514ba789b234b7f0c97eb89d24e626b57e5d4b4e8e5594a2a3aec4a": {
       "decisionKey": "e5022f737514ba789b234b7f0c97eb89d24e626b57e5d4b4e8e5594a2a3aec4a",
       "status": "rejected",
@@ -8327,187 +8479,21 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T08:00:35.544Z",
       "bCommitSha": "9df9f34c9bc72aad3006bbaa1fbc06d8bf94380b"
-    },
-    "30a9b9e7ad32e587b42251c4aed4129cf1bd866fa4b608d96b50fd092dcd43e1": {
-      "decisionKey": "30a9b9e7ad32e587b42251c4aed4129cf1bd866fa4b608d96b50fd092dcd43e1",
-      "status": "published",
-      "reason": "该候选来自CoinDesk，是真实公开的加密新闻，报道了BTCPay服务器因LND凭证被盗导致闪电网络钱包资金被抽干的具体安全事件，并提及项目方提供高达3 BTC（约19万美元）的赏金。该事件涉及比特币支付基础设施的安全漏洞，对加密行业用户、商户和节点运营者有明确影响，具有信息增量和警示意义。",
-      "score": 1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T08:00:35.544Z",
-      "bCommitSha": "9df9f34c9bc72aad3006bbaa1fbc06d8bf94380b"
-    },
-    "c1d0f53696156d3d3388da3d38cfef4fe494b2bc78f305e32933f288eb570235": {
-      "decisionKey": "c1d0f53696156d3d3388da3d38cfef4fe494b2bc78f305e32933f288eb570235",
-      "status": "rejected",
-      "reason": "Content is a short-term price movement update and trader sentiment piece, focusing on Bitcoin failing to hold $65,000 and expectations for $70,000. It lacks substantive policy, protocol, security, or market structure changes relevant to the crypto industry, and falls under price speculation or low-value market commentary.",
-      "score": 0.15,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T06:00:28.342Z"
-    },
-    "8e927d93a7f280e04d3ba02d93464ea45f9db3d8fad1a426098ac00f72212272": {
-      "decisionKey": "8e927d93a7f280e04d3ba02d93464ea45f9db3d8fad1a426098ac00f72212272",
-      "status": "published",
-      "reason": "来自Cointelegraph的真实新闻报道，明确涉及美国白宫和参议院推进CLARITY法案（加密监管清晰度法案），有具体主体、事件和时间，对加密行业政策环境有重要影响。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T06:00:28.342Z",
-      "bCommitSha": "bc4b32a127c83e9c525175e7d6090c12765b935b"
-    },
-    "61fe44204964863bcd1a722f3e0a3f86d7f2835be7500db4d44ca3a6254c570b": {
-      "decisionKey": "61fe44204964863bcd1a722f3e0a3f86d7f2835be7500db4d44ca3a6254c570b",
-      "status": "published",
-      "reason": "U.S. SEC is set to vote on initiating its first major crypto-specific rulemaking, a significant policy development directly affecting digital asset offerings and the broader crypto industry.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T06:00:28.342Z",
-      "bCommitSha": "bc4b32a127c83e9c525175e7d6090c12765b935b"
-    },
-    "40bcf5981264bbfa5dc966d561e073d9f4a40e7fa3bc745034523f34d0b68765": {
-      "decisionKey": "40bcf5981264bbfa5dc966d561e073d9f4a40e7fa3bc745034523f34d0b68765",
-      "status": "published",
-      "reason": "CoinDesk 报道了比特币 BIP-110 分叉链与主链的区块差距，涉及具体分叉事件和网络状态数据，对加密行业关注者具有明确的信息增量。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T06:00:28.342Z",
-      "bCommitSha": "bc4b32a127c83e9c525175e7d6090c12765b935b"
-    },
-    "1c48361488a2f55dde581ddac2803e98d44137c0484cf7c09d34e3066b9f9254": {
-      "decisionKey": "1c48361488a2f55dde581ddac2803e98d44137c0484cf7c09d34e3066b9f9254",
-      "status": "published",
-      "reason": "Cointelegraph报道的关于比特币核心开发者Luke Dashjr被移除BIP编辑职位的新闻，涉及比特币治理流程和开发者内部争议，对加密行业有明确影响和信息增量。",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T06:00:28.342Z",
-      "bCommitSha": "bc4b32a127c83e9c525175e7d6090c12765b935b"
-    },
-    "e496de505f52b15f2983384e004ae1e67ed4c671502a5cee6b2a5cf04bd9a713": {
-      "decisionKey": "e496de505f52b15f2983384e004ae1e67ed4c671502a5cee6b2a5cf04bd9a713",
-      "status": "published",
-      "reason": "Thailand's zero crypto tax is a significant regulatory development for crypto businesses and investors, and the Bitcoin Red Team's forced reliance on Chinese AI highlights operational security impacts. Both are concrete, verifiable news items from a reputable source.",
-      "score": 0.75,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T04:00:35.581Z",
-      "bCommitSha": "8fbbdd39d82f22fac6dc66fd14e6944c58e24a93"
-    },
-    "45acc1cc1afc69e5ee9db139a74af2da759d054f89a4e7f32dc0bca6ce3560af": {
-      "decisionKey": "45acc1cc1afc69e5ee9db139a74af2da759d054f89a4e7f32dc0bca6ce3560af",
-      "status": "rejected",
-      "reason": "真实新闻来源，具体主体（Trump Media）、事件（调整加密资金库策略）及数据（Q2亏损2.38亿美元）明确，涉及上市公司对加密资产管理的态度转变，对加密行业受众具有信息增量，反映机构资金库策略趋势。",
-      "score": 0.72,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T04:00:35.581Z"
-    },
-    "399e55f22cca0400e8d7586aba9e8f06286b9066922caebb8cc0de7441139ead": {
-      "decisionKey": "399e55f22cca0400e8d7586aba9e8f06286b9066922caebb8cc0de7441139ead",
-      "status": "rejected",
-      "reason": "CoinDesk is a credible crypto news source. The report cites specific on-chain data (elite wallets with >10,000 BTC reaching a six-month high of 90) and contextual events (Coldcard fallout, Clarity Act delays), offering verifiable market structure insights for crypto industry professionals.",
-      "score": 0.65,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T04:00:35.581Z"
-    },
-    "5d76f7e6e4628ad97a130eff4ae1b222cd2c6b27ac5ccb71f5d2bfe1eac89b1e": {
-      "decisionKey": "5d76f7e6e4628ad97a130eff4ae1b222cd2c6b27ac5ccb71f5d2bfe1eac89b1e",
-      "status": "published",
-      "reason": "Ethereum's updated roadmap, as reported by a credible crypto outlet, covers quantum resistance, privacy, and AI verification—key technical directions with significant implications for the ecosystem. The candidate cites a specific principal, event, and timeframe, and offers clear information value for crypto industry observers.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T00:00:29.755Z",
-      "bCommitSha": "6f10722d2f804e83173f0bd531798649c9554215"
-    },
-    "eaa34aafbb816348214ffd586ea68d57b7d7f9b5a5a7e892984aac60d0dad2e3": {
-      "decisionKey": "eaa34aafbb816348214ffd586ea68d57b7d7f9b5a5a7e892984aac60d0dad2e3",
-      "status": "published",
-      "reason": "The candidate is a legitimate news report from CoinDesk, a reputable crypto-focused media outlet. It contains specific, verifiable data about Trump Media's Bitcoin and Cronos holdings, including a concrete loss figure ($361 million) and a specific time frame (end of June). This is material information about a publicly traded company's crypto exposure, which is relevant to crypto industry observers tracking corporate adoption and market structure.",
-      "score": 0.75,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T22:00:28.801Z",
-      "bCommitSha": "a3fb62b6d3adf297f174ba7962431395bdfa51db"
-    },
-    "d726e435efc3ad94ed2c64594e1cd408e824acff63ab84b02bc6fc8b5b79feea": {
-      "decisionKey": "d726e435efc3ad94ed2c64594e1cd408e824acff63ab84b02bc6fc8b5b79feea",
-      "status": "published",
-      "reason": "This is a real security incident involving BTCPay Server, a prominent Bitcoin payment processor. The news includes specific details: a critical exploit, a recovery bounty of up to 3 BTC, and credited reporters. This has clear implications for crypto industry users, especially those using BTCPay Server, and represents an important security event.",
-      "score": 0.92,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T22:00:28.801Z",
-      "bCommitSha": "a3fb62b6d3adf297f174ba7962431395bdfa51db"
-    },
-    "c1cc83ead7e2f3132344967ce9c8f2b7bb1465f82a3e6b9eee464125dc7b3ce8": {
-      "decisionKey": "c1cc83ead7e2f3132344967ce9c8f2b7bb1465f82a3e6b9eee464125dc7b3ce8",
-      "status": "published",
-      "reason": "该候选来自CoinDesk，是真实、公开、可核验的新闻来源。内容涉及Strategy（原MicroStrategy）在持有大量比特币的同时增持47.5亿美元现金的策略调整，反映了传统投资者对比特币储备的接受度问题。这一事件涉及加密行业重要公司的市场策略变化，对行业投资者有明确的信息增量，值得发布。",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T22:00:28.801Z",
-      "bCommitSha": "a3fb62b6d3adf297f174ba7962431395bdfa51db"
-    },
-    "6e7fb9ed5494557dbf2d928afe7cae83caf09bb8ce8cd25f98f3ddbf79239a76": {
-      "decisionKey": "6e7fb9ed5494557dbf2d928afe7cae83caf09bb8ce8cd25f98f3ddbf79239a76",
-      "status": "published",
-      "reason": "Regulatory action by AUSTRAC against a Bitcoin ATM operator in Australia is a concrete policy/security event with specific details (96 ATMs, effective date) that affects crypto infrastructure and industry participants. It is newsworthy, sourced from a legitimate crypto news outlet, and not a placeholder or marketing content.",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T22:00:28.801Z",
-      "bCommitSha": "a3fb62b6d3adf297f174ba7962431395bdfa51db"
-    },
-    "60d5f9e90c3a398a8ecd3346bb8e87b3a9885aaf141d2ed5c9ca1ad2c0f77fff": {
-      "decisionKey": "60d5f9e90c3a398a8ecd3346bb8e87b3a9885aaf141d2ed5c9ca1ad2c0f77fff",
-      "status": "rejected",
-      "reason": "候选仅为投资观点（声称Circle被低估），缺乏具体数据、事件或可核验的实质内容，属于价格喊单/市场评论，对加密行业受众无明确信息增量。",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T22:00:28.801Z"
-    },
-    "1548793020dc0e291530b2ae9547559a93f359ccb5720e695667f74ac4c4052e": {
-      "decisionKey": "1548793020dc0e291530b2ae9547559a93f359ccb5720e695667f74ac4c4052e",
-      "status": "rejected",
-      "reason": "Cointelegraph报道了美国法官暂停CFTC对一名美军士兵在Polymarket上预测市场交易的民事案件，涉及具体金额和司法程序。该事件反映监管机构对预测市场的执法动态，对加密行业（尤其是预测市场参与者）具有法律与监管影响，提供信息增量。",
-      "score": 0.65,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T22:00:28.801Z"
-    },
-    "f2c1d98caf083c1aac7363a5fa06529c36bba42b06581243e1913a26d5b0f307": {
-      "decisionKey": "f2c1d98caf083c1aac7363a5fa06529c36bba42b06581243e1913a26d5b0f307",
-      "status": "published",
-      "reason": "来源为The Block，真实公开新闻页面；内容包含BlackRock对比特币情绪及与股市脱钩的具体观点，机构观点对市场结构有明确影响，对加密行业受众有信息增量。",
-      "score": 0.75,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T20:00:43.206Z",
-      "bCommitSha": "8966977a36413eb283c43512793ce226ce81229e"
-    },
-    "a2a8faebcbd70966a214d3e33133f3804daaa0930dfab124b16fc365991dd8cb": {
-      "decisionKey": "a2a8faebcbd70966a214d3e33133f3804daaa0930dfab124b16fc365991dd8cb",
-      "status": "published",
-      "reason": "该候选来自真实公开的媒体Decrypt，报道了华尔街银行将数据中心公众反对视为信用风险的趋势，涉及金融市场对AI基础设施态度变化，对依赖数据中心的加密行业具有潜在影响，且包含具体事件和时间。",
-      "score": 0.75,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T20:00:43.206Z",
-      "bCommitSha": "8966977a36413eb283c43512793ce226ce81229e"
-    },
-    "6f1ac270a3a5ac9324cd7cacad4755da108eec93bdfdd8f334bd6673dd22d108": {
-      "decisionKey": "6f1ac270a3a5ac9324cd7cacad4755da108eec93bdfdd8f334bd6673dd22d108",
-      "status": "published",
-      "reason": "该候选报道了一个具体的安全漏洞事件：Atlassian AI助手因PDF中的隐藏文本而存在数据泄露风险。来源为真实新闻网站Decrypt，内容包含明确的主体、事件和时间，属于安全事件类新闻。虽然不直接针对加密货币，但加密行业公司广泛使用Jira和Confluence等工具，因此对加密行业受众具有潜在影响和信息增量。",
-      "score": 0.75,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-10T20:00:43.206Z",
-      "bCommitSha": "8966977a36413eb283c43512793ce226ce81229e"
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-11T15:28:58.770Z",
-    "https://cointelegraph.com/rss": "2026-09-11T15:28:58.770Z",
-    "https://decrypt.co/feed": "2026-09-11T15:28:58.770Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-09-11T15:28:58.770Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-11T15:28:58.770Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-11T15:28:58.770Z",
-    "https://blog.ethereum.org/feed.xml": "2026-09-11T15:28:58.770Z",
-    "https://bitcoinops.org/feed.xml": "2026-09-11T15:28:58.770Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-09-11T15:28:58.770Z",
-    "https://solana.com/rss.xml": "2026-09-11T15:28:58.770Z",
-    "https://slowmist.medium.com/feed": "2026-09-11T15:28:58.770Z",
-    "https://www.theblock.co/rss.xml": "2026-09-11T15:28:58.770Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-12T14:36:19.618Z",
+    "https://cointelegraph.com/rss": "2026-09-12T14:36:19.618Z",
+    "https://decrypt.co/feed": "2026-09-12T14:36:19.618Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-09-12T14:36:19.618Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-12T14:36:19.618Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-12T14:36:19.618Z",
+    "https://blog.ethereum.org/feed.xml": "2026-09-12T14:36:19.618Z",
+    "https://bitcoinops.org/feed.xml": "2026-09-12T14:36:19.618Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-09-12T14:36:19.618Z",
+    "https://solana.com/rss.xml": "2026-09-12T14:36:19.618Z",
+    "https://slowmist.medium.com/feed": "2026-09-12T14:36:19.618Z",
+    "https://www.theblock.co/rss.xml": "2026-09-12T14:36:19.618Z"
   },
-  "lastRunAt": "2026-09-11T15:28:58.770Z"
+  "lastRunAt": "2026-09-12T14:36:19.618Z"
 }
