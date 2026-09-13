@@ -1,6 +1,158 @@
 {
   "version": 1,
   "decisions": {
+    "fd9c45bcd04ed5e43e21a21002f0f35c87b58232b6f699889f43e947ced34100": {
+      "decisionKey": "fd9c45bcd04ed5e43e21a21002f0f35c87b58232b6f699889f43e947ced34100",
+      "status": "rejected",
+      "reason": "The candidate is dated 2026-09-13, after the current date 2026-05-09, so it is not yet a public, accessible, or verifiable news item. Although it concerns a relevant stablecoin expansion/M&A topic, the future timestamp makes it unsuitable for publication now.",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "f631bdaaa5bd21f7c0076c575c1ecd98bb7d86c2334a4474cab77a3c7ae03e69": {
+      "decisionKey": "f631bdaaa5bd21f7c0076c575c1ecd98bb7d86c2334a4474cab77a3c7ae03e69",
+      "status": "rejected",
+      "reason": "候选来源为 CoinDesk，但内容主题是 AI 安全与前沿 AI 发展放缓，未涉及加密行业政策、协议升级、安全事件或市场结构变化；且发布时间为未来日期，内容仅为简短概括，缺乏对加密受众的明确信息增量和可核验细节。",
+      "score": 0.08,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "e6f7fc46e337698dfdddbf77d7783eebb8c4e53e9698a83548a271d1e4914d85": {
+      "decisionKey": "e6f7fc46e337698dfdddbf77d7783eebb8c4e53e9698a83548a271d1e4914d85",
+      "status": "rejected",
+      "reason": "候选内容聚焦AI开发安全与OpenAI/Anthropic高管表态，未涉及加密行业的政策、协议升级、安全事件或市场结构变化，对加密受众缺乏明确影响和信息增量；且发布时间为2026-09-13，晚于当前日期，存在时效性异常。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "e5c89d402a0e14461686de01c333f8113d603b1200419f09c9377f4677969509": {
+      "decisionKey": "e5c89d402a0e14461686de01c333f8113d603b1200419f09c9377f4677969509",
+      "status": "rejected",
+      "reason": "来源为 CoinDesk 真实新闻域名，但候选发布时间为 2026-09-12，晚于当前日期 2026-05-09，无法作为已公开可核验的新闻；内容仅为企业裁员与外包安排，未涉及加密行业重要政策、协议升级、安全事件或市场结构变化，且“up to half”缺少确切人数和细节，信息增量有限。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "e51d831ed6e70cbf4a9b5ffaa2720fa8c9467e0c7345439eb9869878c01ed5cf": {
+      "decisionKey": "e51d831ed6e70cbf4a9b5ffaa2720fa8c9467e0c7345439eb9869878c01ed5cf",
+      "status": "rejected",
+      "reason": "候选来自 Decrypt，包含具体人物、金额和事件，但 publishedAt 为 2026-09-12，晚于当前日期 2026-05-09，无法视为已公开发布且不可核验；内容仅描述政治捐款，未直接说明对加密政策或市场结构的明确影响，信息增量不足。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "d158bcd4345d6817a06a47bec62f87f6d8e1e426169f7adf76510b41caead09a": {
+      "decisionKey": "d158bcd4345d6817a06a47bec62f87f6d8e1e426169f7adf76510b41caead09a",
+      "status": "rejected",
+      "reason": "候选内容为OpenAI模型用户抱怨，不属于加密行业政策、协议升级、安全事件或市场结构变化，与目标受众无明确直接关联，且信息以主观反馈为主，缺乏可核验的具体事件或数据。",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "b1c354aa961d0021550a58a7c500317931deae7bf1d7a9dc7bc05a2676f9fb27": {
+      "decisionKey": "b1c354aa961d0021550a58a7c500317931deae7bf1d7a9dc7bc05a2676f9fb27",
+      "status": "rejected",
+      "reason": "拒绝：候选发布时间为2026-09-12，晚于当前日期2026-05-09，现阶段不可访问/不可核验；正文仅含ZachXBT的推测，缺少Revolut官方确认或具体事件细节，证据不足且可能属于传闻。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "af284a7a94fde0cdf4a2731c0a353b6877681f16d7e3bf4b6745d40068ca1a95": {
+      "decisionKey": "af284a7a94fde0cdf4a2731c0a353b6877681f16d7e3bf4b6745d40068ca1a95",
+      "status": "rejected",
+      "reason": "Rejected: the candidate has a publication timestamp of 2026-09-12, which is in the future relative to the current date (2026-05-09), so it cannot be verified as an already published, accessible source. The content is only a one-sentence snippet and lacks sufficient independently verifiable detail for production publication. Although the topic touches UK crypto political-donation regulation, the verifiability issue is disqualifying.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "a0cb93136265c1add0519f15133a1d328f60cca1cf5ec929fdc26cef0d51d293": {
+      "decisionKey": "a0cb93136265c1add0519f15133a1d328f60cca1cf5ec929fdc26cef0d51d293",
+      "status": "rejected",
+      "reason": "该候选虽有明确主体、事件和时间，来源为 CoinDesk，但与加密行业无直接或明确影响，不构成面向加密受众的增量信息，属于科技公司IPO动态而非加密政策、协议升级、安全事件或市场结构变化。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "86d59aafcd2e982c91d7a1a4f70bda2c04a83779c7865792614a56d7e044431d": {
+      "decisionKey": "86d59aafcd2e982c91d7a1a4f70bda2c04a83779c7865792614a56d7e044431d",
+      "status": "rejected",
+      "reason": "The candidate has a future publishedAt date (2026-09-13) relative to the current date, so it is not a verifiable already-published news item. The content is also extremely thin and macro-forecast oriented, with no explicit crypto impact or actionable detail for a crypto audience.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "81cf678a278a252667487f19c6790ac258fee16151494166476c1b3813a0a34f": {
+      "decisionKey": "81cf678a278a252667487f19c6790ac258fee16151494166476c1b3813a0a34f",
+      "status": "rejected",
+      "reason": "Cointelegraph 是真实公开的加密/金融科技新闻来源；候选包含具体主体 Revolut、具体安全事件（客户数据经假冒政府域名泄露）及数据类型（护照、自拍、交易历史），对使用 Revolut 加密/金融服务的受众有明确安全与信任影响。",
+      "score": 0.7,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "7b66334fddf1b8684d42f340c3caf7bc84d19828353b0d1be0ad209c87166074": {
+      "decisionKey": "7b66334fddf1b8684d42f340c3caf7bc84d19828353b0d1be0ad209c87166074",
+      "status": "rejected",
+      "reason": "候选内容为CryptoQuant对比特币阻力位和牛市确认的技术性价格评论，缺少具体政策、协议升级、安全事件或市场结构变化等可核验重大事件；对加密行业受众的信息增量有限，且属于价格预测/市场评论，不宜作为生产内容发布。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "766bc48908d9b4d5861fd80a0517ef386a182e22c1d64710430ff66af1bd2864": {
+      "decisionKey": "766bc48908d9b4d5861fd80a0517ef386a182e22c1d64710430ff66af1bd2864",
+      "status": "rejected",
+      "reason": "候选发布于未来日期（2026-09-13），当前无法作为已公开可核验来源；内容仅称投票可能发生、可能推迟或以其他形式出现，缺乏具体法案编号、投票程序、关键主体或数据，属于推测性低信息增量内容。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "5558b658a5a3a0fbc0e5fc0452009fd9f08e66d7ffa46920347f85269d759e1a": {
+      "decisionKey": "5558b658a5a3a0fbc0e5fc0452009fd9f08e66d7ffa46920347f85269d759e1a",
+      "status": "rejected",
+      "reason": "候选主题涉及加密相关数据泄露与安全事件，潜在地影响行业受众；但 publishedAt 为 2026-09-12，晚于当前可核验时间，无法确认该页面已作为真实、公开、可访问的新闻发布，因此不满足发布条件。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "4980f1cb48c02e8edf261331ee0237bc767e413b21004ca4ab4c3a091a63637a": {
+      "decisionKey": "4980f1cb48c02e8edf261331ee0237bc767e413b21004ca4ab4c3a091a63637a",
+      "status": "rejected",
+      "reason": "内容仅笼统称朝鲜利用第三国 IT 人员协助渗透美国公司，未提供具体公司、事件细节、数据或可核验报告链接，也没有明确指向加密行业、协议、市场结构或数字资产安全影响。发布时间为 2026-09-12，晚于当前日期，时效性与可核验性不足。因此不适合作为加密行业生产发布内容。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "244c7c85f64aea962329dcc248f434c63d79112609cb3beabd4d4ff06410c7e5": {
+      "decisionKey": "244c7c85f64aea962329dcc248f434c63d79112609cb3beabd4d4ff06410c7e5",
+      "status": "rejected",
+      "reason": "Future-dated publication (2026-09-12) relative to the current date 2026-05-09, so it is not currently public or verifiable. The snippet also lacks named donors and direct crypto policy or protocol details beyond a donation total.",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "1bbee62dfb638a845af8c24a74d3341dac6fd3902dd1cca9e0290bd7c308d98e": {
+      "decisionKey": "1bbee62dfb638a845af8c24a74d3341dac6fd3902dd1cca9e0290bd7c308d98e",
+      "status": "rejected",
+      "reason": "This is a market-commentary/portfolio-allocation piece attributed to Bitcoin Suisse, not a concrete policy, protocol, security, or market-structure event. It lacks specific data or verifiable new developments and has limited information increment for a crypto industry audience.",
+      "score": 0.25,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "14cf2cfd4f03c7ed1a4872cd3100924b54e5d98f1e7f7d50efe97e7267d622b8": {
+      "decisionKey": "14cf2cfd4f03c7ed1a4872cd3100924b54e5d98f1e7f7d50efe97e7267d622b8",
+      "status": "rejected",
+      "reason": "Decrypt 报道了一项针对 x402 协议结算数据的研究，包含具体金额、结算笔数和核心结论，能纠正市场对 AI 代理链上支付活动的认知，对加密支付与 AI 代理叙事有信息增量。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
+    "12b54fbcb9035f0889d4f28b77e4e7a1d5cee36fdbc90e22fd014d51c623704f": {
+      "decisionKey": "12b54fbcb9035f0889d4f28b77e4e7a1d5cee36fdbc90e22fd014d51c623704f",
+      "status": "rejected",
+      "reason": "该候选为高管对 RLUSD 企业资金管理机会的展望，属于营销/评论性内容，缺乏已发生的具体事件或可核验公告；且发布时间 2026-09-12 晚于当前日期，不能作为已发布生产内容采纳。",
+      "score": 0.12,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-13T15:16:00.843Z"
+    },
     "ffdb3a6297c1040286e398af905d4b4d61b87c0f24ece07fecc40cec83c8da12": {
       "decisionKey": "ffdb3a6297c1040286e398af905d4b4d61b87c0f24ece07fecc40cec83c8da12",
       "status": "rejected",
@@ -8315,185 +8467,21 @@
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T12:01:09.419Z",
       "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "97658a3386fa54741eb2251ff1e8866dcaaa03479e4c32bc9a1d18e3ca9a03be": {
-      "decisionKey": "97658a3386fa54741eb2251ff1e8866dcaaa03479e4c32bc9a1d18e3ca9a03be",
-      "status": "rejected",
-      "reason": "该候选来自Coindesk，是真实公开来源，但内容仅为泛泛的描述，缺乏具体数据、事件细节和对加密行业受众的实际信息增量，属于低价值的市场评论，不符合发布标准。",
-      "score": 0.3,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z"
-    },
-    "86ba58ef47aecf2aada1d99cc4ed6a8dfcd47cfd571b88c1f62c015d3264a8c0": {
-      "decisionKey": "86ba58ef47aecf2aada1d99cc4ed6a8dfcd47cfd571b88c1f62c015d3264a8c0",
-      "status": "published",
-      "reason": "英国议会小组正式质询银行对加密企业的服务政策，是影响加密行业银行渠道的监管进展。",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "6d5a93c355163bb4ee6926d2928963c34d9958abf885ef68d1a0735f4bc500ea": {
-      "decisionKey": "6d5a93c355163bb4ee6926d2928963c34d9958abf885ef68d1a0735f4bc500ea",
-      "status": "published",
-      "reason": "Coinbase 正式面向英国专业投资者开放最高 50 倍杠杆的衍生品交易，涵盖加密、商品、股票和外汇，属于主要交易平台合规扩张的重要市场结构变化，对加密衍生品行业有明确影响。",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "67305087729ef96ae6ec7ef0f72661dd2309e7cd2a82562635c4acae563a66b5": {
-      "decisionKey": "67305087729ef96ae6ec7ef0f72661dd2309e7cd2a82562635c4acae563a66b5",
-      "status": "published",
-      "reason": "真实新闻，来源可靠，涉及澳大利亚监管机构对加密ATM运营商的执法行动，具有明确主体、事件和数据（96台ATM下线），对加密行业有监管影响和信息增量。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "41c66747c6fe2cd50b6c79db567ea9cdc7e7cc43afd470b6ad41cec788efb188": {
-      "decisionKey": "41c66747c6fe2cd50b6c79db567ea9cdc7e7cc43afd470b6ad41cec788efb188",
-      "status": "published",
-      "reason": "来源为Cointelegraph（真实公开新闻媒体），内容涉及Coldcard硬件钱包黑客事件及调查中的链上追踪，属于加密行业安全事件，对受众有明确信息增量。",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "40f70719b7dd4a1554eee973bf6515801a572adfd8f927388cc9f303064088b1": {
-      "decisionKey": "40f70719b7dd4a1554eee973bf6515801a572adfd8f927388cc9f303064088b1",
-      "status": "published",
-      "reason": "The candidate reports a concrete market development—public companies using bitcoin as collateral for loans—which indicates institutional adoption and a shift in crypto market structure. The source is Coindesk, a credible and verifiable outlet, and the event is specific and timely.",
-      "score": 0.78,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "374bb417f689a53d6642eb9a119eba85fa82c06347c4d0673f267d9364aa8516": {
-      "decisionKey": "374bb417f689a53d6642eb9a119eba85fa82c06347c4d0673f267d9364aa8516",
-      "status": "rejected",
-      "reason": "Coindesk is a credible, verifiable crypto news source. The item contains concrete market data (Bitcoin below $65,000, XRP near $1, oil at $89) and a specific macro/geopolitical catalyst (Strait of Hormuz, CPI report). It is likely useful to a crypto-industry audience, though it is price/market-focused rather than a policy, protocol, or security development.",
-      "score": 0.55,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z"
-    },
-    "3270f683918e9ed5d5f622c3332f47b3f4dd2995aa11f2246e55c01b785521b2": {
-      "decisionKey": "3270f683918e9ed5d5f622c3332f47b3f4dd2995aa11f2246e55c01b785521b2",
-      "status": "rejected",
-      "reason": "content-too-short",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z"
-    },
-    "2dd8c8ab7d291292b8ecc361183b3f1ee93ca96ac43d27cf987999bbc01ca12d": {
-      "decisionKey": "2dd8c8ab7d291292b8ecc361183b3f1ee93ca96ac43d27cf987999bbc01ca12d",
-      "status": "published",
-      "reason": "Coinbase获得阿布扎比监管批准提供代币化证券，是主要交易所进入中东代币化市场的重大举措，对加密资产合规化和机构采用具有明确影响。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "251d3f3236dfc471fafb2269af264d25d2f0e08ad0f60d9d0cc9d886194ce49b": {
-      "decisionKey": "251d3f3236dfc471fafb2269af264d25d2f0e08ad0f60d9d0cc9d886194ce49b",
-      "status": "rejected",
-      "reason": "来源为Cointelegraph这一真实公开的加密新闻媒体，文章引用CryptoQuant数据，包含具体主体（Bitcoin、USDT）、事件（4B美元市值下降）和时间周期（60天），对加密市场结构有明确分析价值，有助于理解BTC卖压与稳定币流动性的关系，非单纯价格喊单或重复转载。",
-      "score": 0.72,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z"
-    },
-    "165a7114e8fde684b612754d06e34c4c6395682263bbe5578ebb1f14b0f8c70f": {
-      "decisionKey": "165a7114e8fde684b612754d06e34c4c6395682263bbe5578ebb1f14b0f8c70f",
-      "status": "published",
-      "reason": "FlightAware对Kalshi提起的诉讼涉及预测市场的数据使用和商标权，直接影响加密/预测市场行业的法律与监管环境，对Kalshi的运营及同类平台的合规风险具有明确信息增量。来源为CoinDesk，真实可核验。",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "f0b85c3a565edfa26fcb3bf28aaed33b7d1b679df9e660c60e72d8778aed1d6c": {
-      "decisionKey": "f0b85c3a565edfa26fcb3bf28aaed33b7d1b679df9e660c60e72d8778aed1d6c",
-      "status": "published",
-      "reason": "CoinDesk reports a substantive $9.1 billion Anthropic agreement with bitcoin miner Riot Platforms, detailing a 20-year shift toward AI infrastructure revenue—a concrete, verifiable event with direct implications for crypto mining sector strategy and market pricing.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T10:01:05.938Z",
-      "bCommitSha": "4c9841c527061afbd34601336ee50394336ed2fb"
-    },
-    "b3d49bd802670f95e8f6080cdb81b6385551183354888b330928cfe1ee97d2d6": {
-      "decisionKey": "b3d49bd802670f95e8f6080cdb81b6385551183354888b330928cfe1ee97d2d6",
-      "status": "published",
-      "reason": "The Block reports that Broadridge's DLT-based repo platform processed $8 trillion in July volume, a concrete indicator of institutional blockchain adoption for traditional finance. This is newsworthy for crypto audiences focused on institutional use of digital asset infrastructure and distributed ledger technology.",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T10:01:05.938Z",
-      "bCommitSha": "4c9841c527061afbd34601336ee50394336ed2fb"
-    },
-    "1bb5d37f0e073baabbe92085830226b49432ef9a0f41733aec6ebd6ea9c61c47": {
-      "decisionKey": "1bb5d37f0e073baabbe92085830226b49432ef9a0f41733aec6ebd6ea9c61c47",
-      "status": "published",
-      "reason": "UK lawmakers formally pressing bank CEOs on crypto account refusals is a verifiable policy/regulatory development affecting crypto businesses' access to banking, with clear industry impact and information value.",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T10:01:05.938Z",
-      "bCommitSha": "4c9841c527061afbd34601336ee50394336ed2fb"
-    },
-    "0f52a88f59e34f52fd7af26c5d01510d34e619520bde41d8fc60f5bee93d28eb": {
-      "decisionKey": "0f52a88f59e34f52fd7af26c5d01510d34e619520bde41d8fc60f5bee93d28eb",
-      "status": "rejected",
-      "reason": "Content is too brief and lacks sufficient detail to establish clear industry impact; future-dated publication suggests possible test/placeholder content.",
-      "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T10:01:05.938Z"
-    },
-    "acdfba82ee7f15cc8f729ab79e7bf005dccc00f525e19d8dc5aa643c1c534d1f": {
-      "decisionKey": "acdfba82ee7f15cc8f729ab79e7bf005dccc00f525e19d8dc5aa643c1c534d1f",
-      "status": "rejected",
-      "reason": "Zama's ZAMA token listing on Revolut for EEA users is a concrete market-structure event: a privacy-focused protocol gaining distribution to a 70-million-user fintech platform, which has clear relevance and information value for crypto industry watchers. Source is The Block, a reputable crypto news outlet, with a specific date and verifiable details.",
-      "score": 0.72,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T08:00:35.544Z"
-    },
-    "80551a38c4886799cdd43c49e766a8dbbf934ca3be9fb14a11648c242ea756e6": {
-      "decisionKey": "80551a38c4886799cdd43c49e766a8dbbf934ca3be9fb14a11648c242ea756e6",
-      "status": "published",
-      "reason": "CoinDesk 报道 ADI Chain 与 Shipfinex 合作将商业船舶代币化，涉及 6800 亿美元船舶金融市场，属于 RWA 代币化的重要进展，对加密行业有明确信息增量。",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T08:00:35.544Z",
-      "bCommitSha": "9df9f34c9bc72aad3006bbaa1fbc06d8bf94380b"
-    },
-    "6e1cf3f542ad30c582c7a36e6a688c1669e670d23210143aafb62133a930ddda": {
-      "decisionKey": "6e1cf3f542ad30c582c7a36e6a688c1669e670d23210143aafb62133a930ddda",
-      "status": "published",
-      "reason": "Coinbase, a major crypto exchange, expanding derivatives offerings to UK professional investors after obtaining a MiFID license is a significant regulatory and market structure development for the crypto industry, providing clear information value.",
-      "score": 0.85,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T08:00:35.544Z",
-      "bCommitSha": "9df9f34c9bc72aad3006bbaa1fbc06d8bf94380b"
-    },
-    "6372a8e943235c3253c5baa9dc89c51da486a4ae7656806573fdcd04ac1984c2": {
-      "decisionKey": "6372a8e943235c3253c5baa9dc89c51da486a4ae7656806573fdcd04ac1984c2",
-      "status": "published",
-      "reason": "韩国取消加密货币转账的旅行规则门槛，要求所有注册服务商之间的转账共享信息，属于重要政策变化，对加密行业有明确影响。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T08:00:35.544Z",
-      "bCommitSha": "9df9f34c9bc72aad3006bbaa1fbc06d8bf94380b"
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-12T14:36:19.618Z",
-    "https://cointelegraph.com/rss": "2026-09-12T14:36:19.618Z",
-    "https://decrypt.co/feed": "2026-09-12T14:36:19.618Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-09-12T14:36:19.618Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-12T14:36:19.618Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-12T14:36:19.618Z",
-    "https://blog.ethereum.org/feed.xml": "2026-09-12T14:36:19.618Z",
-    "https://bitcoinops.org/feed.xml": "2026-09-12T14:36:19.618Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-09-12T14:36:19.618Z",
-    "https://solana.com/rss.xml": "2026-09-12T14:36:19.618Z",
-    "https://slowmist.medium.com/feed": "2026-09-12T14:36:19.618Z",
-    "https://www.theblock.co/rss.xml": "2026-09-12T14:36:19.618Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-13T15:16:00.843Z",
+    "https://cointelegraph.com/rss": "2026-09-13T15:16:00.843Z",
+    "https://decrypt.co/feed": "2026-09-13T15:16:00.843Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-09-13T15:16:00.843Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-13T15:16:00.843Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-13T15:16:00.843Z",
+    "https://blog.ethereum.org/feed.xml": "2026-09-13T15:16:00.843Z",
+    "https://bitcoinops.org/feed.xml": "2026-09-13T15:16:00.843Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-09-13T15:16:00.843Z",
+    "https://solana.com/rss.xml": "2026-09-13T15:16:00.843Z",
+    "https://slowmist.medium.com/feed": "2026-09-13T15:16:00.843Z",
+    "https://www.theblock.co/rss.xml": "2026-09-13T15:16:00.843Z"
   },
-  "lastRunAt": "2026-09-12T14:36:19.618Z"
+  "lastRunAt": "2026-09-13T15:16:00.843Z"
 }
