@@ -1,6 +1,160 @@
 {
   "version": 1,
   "decisions": {
+    "f03556b286f580361ff82b0af216e2c0fdc1a02e2bb4c5f4468c979973657eb5": {
+      "decisionKey": "f03556b286f580361ff82b0af216e2c0fdc1a02e2bb4c5f4468c979973657eb5",
+      "status": "rejected",
+      "reason": "候选发布日期为2026-09-14，晚于当前日期2026-05-09，无法作为已公开、可访问、可核验的新闻页面；且正文仅一句摘要，缺乏具体投票时间、法案细节或数据，证据不足，不宜发布。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "eab0cf3cb78f870cdbfc931131813055c7769b5d93af6103e85eda99e45b78a8": {
+      "decisionKey": "eab0cf3cb78f870cdbfc931131813055c7769b5d93af6103e85eda99e45b78a8",
+      "status": "rejected",
+      "reason": "候选发布时间为 2026-09-14，晚于当前日期 2026-05-09，属于未来日期内容，无法确认为已公开发布且可核验的新闻，因此不予发布。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "e2ee42e28b5d5b0277b639bf1d588f0f16310cdb9567d44aa8067033d19c0eef": {
+      "decisionKey": "e2ee42e28b5d5b0277b639bf1d588f0f16310cdb9567d44aa8067033d19c0eef",
+      "status": "rejected",
+      "reason": "候选主要是关于HYPE价格可能受影响的评论/预测，缺少可核验的具体事件、公告、链上数据或监管/协议升级事实；其核心是价格猜测与观点，信息增量低，不符合公开发布标准。且发布时间为2026-09-14，晚于当前日期，无法确认已发布与可访问。",
+      "score": 0.12,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "ddc4af2cb155d03b47a2d61e9f9e00130549b56f429ace49c43694f62ab47f69": {
+      "decisionKey": "ddc4af2cb155d03b47a2d61e9f9e00130549b56f429ace49c43694f62ab47f69",
+      "status": "rejected",
+      "reason": "候选发布时间为2026-09-14，晚于当前日期，无法核验为已公开发布的真实新闻；仅有简短融资摘要，缺乏可核验的公告链接或独立佐证，属于证据不足。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "b8d4e06e86863606a064ed18380c71582106f1da575bc1872ee5e94ba7a0f5a7": {
+      "decisionKey": "b8d4e06e86863606a064ed18380c71582106f1da575bc1872ee5e94ba7a0f5a7",
+      "status": "rejected",
+      "reason": "该候选是AI行业趋势评论，不涉及加密行业政策、协议升级、安全事件或市场结构变化；内容为泛泛提问，缺少具体主体、事件、时间或数据，对加密受众无明确信息增量。",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "98528524f66774b93a7c7db1e5f46c7ffe7f653cb61eb68ca1b49718d2320a26": {
+      "decisionKey": "98528524f66774b93a7c7db1e5f46c7ffe7f653cb61eb68ca1b49718d2320a26",
+      "status": "published",
+      "reason": "CoinDesk reports a concrete funding event: Kaiko extended its Series B to $110 million with participation from S&P Global and BNP Paribas, expanding continuous crypto market data services. This has clear information value for crypto market structure and institutional adoption, with named participants, amount, and date.",
+      "score": 0.78,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z",
+      "bCommitSha": "96fd1087545f8992eeb1fd8406c94be50d74fb58"
+    },
+    "8ebf07a0a9c5631255303cb667b96d4decb9e5675078cb819909ca3619f3f62d": {
+      "decisionKey": "8ebf07a0a9c5631255303cb667b96d4decb9e5675078cb819909ca3619f3f62d",
+      "status": "rejected",
+      "reason": "This is a conference/event announcement about Consensus Hong Kong focusing on institutional adoption and AI. It lacks concrete policy, protocol upgrade, security incident, or market structure change with actionable information增量 for a crypto industry audience, and reads as promotional/event marketing rather than a substantive news development.",
+      "score": 0.05,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "7efc0fe4ec72304f199be14e391f78dc6682fc10ccf8ab465b62311c3902c647": {
+      "decisionKey": "7efc0fe4ec72304f199be14e391f78dc6682fc10ccf8ab465b62311c3902c647",
+      "status": "rejected",
+      "reason": "Future-dated Decrypt newsletter teaser with no verifiable details, concrete data, or substantive policy update; insufficient information增量 for publication.",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "7e3061af80838fde5dd9425e3ccee6efb515ae5996dc6b0c877d87c028f2bba4": {
+      "decisionKey": "7e3061af80838fde5dd9425e3ccee6efb515ae5996dc6b0c877d87c028f2bba4",
+      "status": "rejected",
+      "reason": "候选来源为 Cointelegraph，属公开媒体，但发布时间 2026-09-14 晚于当前日期 2026-05-09，无法作为已发布且可核验的生产新闻；正文仅两句摘要，缺少可核验细节与独立数据支撑，证据不足。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "74b274f6431136732c77468e278d5587dda6659cb91128675fd585b19e87e463": {
+      "decisionKey": "74b274f6431136732c77468e278d5587dda6659cb91128675fd585b19e87e463",
+      "status": "rejected",
+      "reason": "来源为 SEC 官网真实新闻稿，主体、事件时间与发布机构明确，但内容仅涉及 Inline XBRL 申报豁免这一证券披露格式的行政性调整，未提及任何加密资产、区块链项目、交易平台或市场结构，对加密行业受众缺乏明确的直接影响与信息增量，属于低相关性的监管程序性公告。",
+      "score": 0.12,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "716fea0f7517f4a9a71a13d3a7951b1f2d9ec33b69eb3204577020ed9d6ba9f6": {
+      "decisionKey": "716fea0f7517f4a9a71a13d3a7951b1f2d9ec33b69eb3204577020ed9d6ba9f6",
+      "status": "rejected",
+      "reason": "候选发布日期为2026-09-14，晚于当前日期2026-05-09，疑似未来日期或测试/占位内容，无法核验为真实公开新闻；且信息仅为公司增持BTC，未达到必须发布的行业重要事件门槛。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "657a706df462eabad4bb47b31ef5996a7ec1c60caeff5e4c9ba93542110250cf": {
+      "decisionKey": "657a706df462eabad4bb47b31ef5996a7ec1c60caeff5e4c9ba93542110250cf",
+      "status": "rejected",
+      "reason": "该候选为CoinDesk观点/倡导评论，并非新闻、公告或研究页面；仅泛泛提及参议院9月15日机会，未给出具体法案、投票、条款或可核验政策动作，信息增量不足。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "5ade77eab9438763660aa40106a88d070a53025f14f2be2c42a70c5b6b7be0f1": {
+      "decisionKey": "5ade77eab9438763660aa40106a88d070a53025f14f2be2c42a70c5b6b7be0f1",
+      "status": "rejected",
+      "reason": "Candidate is a future-dated Decrypt item (publishedAt 2026-09-14) relative to the current date (2026-05-09), so it is not currently public, accessible, or verifiable as an already published news page. Although it concerns a potentially important crypto policy event, the future date and lack of verifiable current source make it unsuitable for publication.",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "4fe9cf557b8f1d4d4b9a30da58f3fa737e631e7cea7390585111a84c82a8f9a8": {
+      "decisionKey": "4fe9cf557b8f1d4d4b9a30da58f3fa737e631e7cea7390585111a84c82a8f9a8",
+      "status": "rejected",
+      "reason": "来源Decrypt虽为真实新闻站，但候选发布时间为2026-09-14，晚于当前日期，无法确认该页面已公开可访问和可核验，属于未来/未发布内容，不满足生产发布条件。",
+      "score": 0.15,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "4b199f9b81a34e2dbb8dd091aa4bc620e028dafd6b18a67bea6f3f8f02581179": {
+      "decisionKey": "4b199f9b81a34e2dbb8dd091aa4bc620e028dafd6b18a67bea6f3f8f02581179",
+      "status": "published",
+      "reason": "该候选来自公开可访问的 CoinDesk 政策新闻页面，包含具体主体（17位州检察长）、具体事件（敦促参议院拒绝 Clarity Act）及发布时间，并涉及加密监管立法与州级执法权限，对加密行业受众具有明确的政策信息增量。",
+      "score": 0.9,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z",
+      "bCommitSha": "96fd1087545f8992eeb1fd8406c94be50d74fb58"
+    },
+    "361dddde3ea3b66fc9cc06a4155ad550817737d26de2666b3384c05eab9febd0": {
+      "decisionKey": "361dddde3ea3b66fc9cc06a4155ad550817737d26de2666b3384c05eab9febd0",
+      "status": "rejected",
+      "reason": "候选虽涉及 MetaMask 钱包安全更新且来源为 Decrypt，但发布时间为未来时间戳，无法确认页面已公开可访问；内容仅一句话概括，缺乏可核验的官方细节和证据，不满足生产发布条件。",
+      "score": 0.25,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "223bbaaf2c7995bc55a67a1a520cec7f2358d0afbe3b6f5e725df27deee1e372": {
+      "decisionKey": "223bbaaf2c7995bc55a67a1a520cec7f2358d0afbe3b6f5e725df27deee1e372",
+      "status": "rejected",
+      "reason": "候选含具体主体与数据（Strategy 回购 1.39 亿美元 STRC、BTC 持仓 845,050 枚），对加密行业有潜在信息增量；但发布时间为 2026-09-14，晚于当前日期 2026-05-09，作为新闻或公告无法核验其已公开发布，存在未来时间戳或占位/测试数据风险，因此不应发布。",
+      "score": 0.2,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "11f207c4c20d19bf9432abc999f08162520c62ec88342b80a7266232d2903b82": {
+      "decisionKey": "11f207c4c20d19bf9432abc999f08162520c62ec88342b80a7266232d2903b82",
+      "status": "rejected",
+      "reason": "候选来自 CoinDesk 公开新闻页面，主题为美国加密市场结构立法（Clarity Act）进展，包含具体主体 Kalshi、Polymarket 和美国参议院投票预期，对加密行业政策与市场结构受众有明确信息增量。",
+      "score": 0.72,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
+    "104f10902bf90fffd3d5b53c57469a9d2032065f87f020c1fee93d556e8e7bf3": {
+      "decisionKey": "104f10902bf90fffd3d5b53c57469a9d2032065f87f020c1fee93d556e8e7bf3",
+      "status": "rejected",
+      "reason": "候选的发布时间为 2026-09-14，晚于当前日期 2026-05-09，无法视为已公开、可访问、可核验的生产新闻页面；候选内容仅有简短摘要，不足以独立确认该政策条款和特朗普同意的细节。",
+      "score": 0.1,
+      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
+      "updatedAt": "2026-09-14T17:12:56.167Z"
+    },
     "fd9c45bcd04ed5e43e21a21002f0f35c87b58232b6f699889f43e947ced34100": {
       "decisionKey": "fd9c45bcd04ed5e43e21a21002f0f35c87b58232b6f699889f43e947ced34100",
       "status": "rejected",
@@ -8306,182 +8460,21 @@
       "score": 0.7,
       "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
       "updatedAt": "2026-08-11T16:01:02.783Z"
-    },
-    "a694258eb98b7eaf1d585abba74dcb2e8febd12445afddb4d7c382c1c9192fde": {
-      "decisionKey": "a694258eb98b7eaf1d585abba74dcb2e8febd12445afddb4d7c382c1c9192fde",
-      "status": "rejected",
-      "reason": "该候选内容为 Benchmark 对 Bitdeer 股票的价格目标预测，属于价格喊单范畴，且信息增量有限，对加密行业受众影响不明确，不符合发布标准。",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T16:01:02.783Z"
-    },
-    "7f6319cfd9a33cf7ba7e672e79ea1672cd8405638361c408c8bb39aa5ffc097c": {
-      "decisionKey": "7f6319cfd9a33cf7ba7e672e79ea1672cd8405638361c408c8bb39aa5ffc097c",
-      "status": "rejected",
-      "reason": "Routine price update lacking substantive analysis or new information; no direct policy, protocol, security, or market structure significance.",
-      "score": 0.1,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T16:01:02.783Z"
-    },
-    "2441ba4b20d64776aeb79389dca8594010cd5437ace89dd82651e319dd2584b5": {
-      "decisionKey": "2441ba4b20d64776aeb79389dca8594010cd5437ace89dd82651e319dd2584b5",
-      "status": "published",
-      "reason": "The candidate reports on a RUSI analysis of North Korea using criminal networks to launder stolen crypto, a concrete security and policy issue with direct relevance to crypto exchanges and AML compliance. The source is a legitimate crypto news outlet and the content provides a specific, verifiable claim rather than speculation or price talk.",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T16:01:02.783Z",
-      "bCommitSha": "79004eade743272381996b4c82fe3b1529b48b83"
-    },
-    "14895e9365982fed6ef890412bf2dc8f8f56c079dc7ae66fc4ccdb543bbb2068": {
-      "decisionKey": "14895e9365982fed6ef890412bf2dc8f8f56c079dc7ae66fc4ccdb543bbb2068",
-      "status": "rejected",
-      "reason": "The news is about eToro acquiring TradeZero, an equities-focused trading platform, with Q2 growth driven by equities. It lacks direct relevance or impact on the crypto industry's policy, protocols, security, or market structure. The content is brief and does not provide clear information increment for crypto stakeholders.",
-      "score": 0.15,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T16:01:02.783Z"
-    },
-    "e8e3e401b93a186c105177a208d374a5641608a5c367fafd9c45889ab831b62f": {
-      "decisionKey": "e8e3e401b93a186c105177a208d374a5641608a5c367fafd9c45889ab831b62f",
-      "status": "published",
-      "reason": "Decrypt is a credible crypto news outlet. The story covers a concrete event: Luke Dashjr's removal as BIP editor and the stalled BIP-110 fork, which has clear significance for Bitcoin protocol governance and industry audiences.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z",
-      "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
-    },
-    "da0725728ea1453310ed2cd386d21091c1c6cb4be7cbd1785344a5b7c45ef1b0": {
-      "decisionKey": "da0725728ea1453310ed2cd386d21091c1c6cb4be7cbd1785344a5b7c45ef1b0",
-      "status": "rejected",
-      "reason": "候选仅为泛泛的趋势报道，缺少具体主体、事件或数据，未提及任何具体政策、协议升级或安全事件，对加密行业受众无明显信息增量。",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z"
-    },
-    "879235a1ac8b368a0927f4f70503b571b99e220ffb7b90d2e8a8b5c1b9d65af3": {
-      "decisionKey": "879235a1ac8b368a0927f4f70503b571b99e220ffb7b90d2e8a8b5c1b9d65af3",
-      "status": "published",
-      "reason": "This article covers a major Bitcoin miner's reported $9.1 billion AI deal with Anthropic, reflecting a significant market structure shift where miners diversify into AI colocation. Bernstein's analysis provides specific data (80% upside, 84% EV from AI) that is valuable for crypto investors monitoring the convergence of mining and AI. The source is reputable and the content is timely.",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z",
-      "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
-    },
-    "8689e66aaa290688e6ff3a858963b3865ef9fdbad839891f5da3c1dd33699f62": {
-      "decisionKey": "8689e66aaa290688e6ff3a858963b3865ef9fdbad839891f5da3c1dd33699f62",
-      "status": "rejected",
-      "reason": "The published date (2026-08-11) is in the future relative to the current date (2026-05-07), making it impossible for the source to be a real, accessible, and verifiable news item. This is a strong indicator of a test or placeholder submission and not a genuine production article.",
-      "score": 0,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z"
-    },
-    "81367e661863b452b4ab3c5dfa72703e079c75873815ae2dd5799595d617ee2a": {
-      "decisionKey": "81367e661863b452b4ab3c5dfa72703e079c75873815ae2dd5799595d617ee2a",
-      "status": "rejected",
-      "reason": "SharpLink 2026年第二季度因ETH下跌产生3.94亿美元净亏损，属于具体的公司财务事件，对加密行业投资者有信息增量，且来自可信来源Cointelegraph。",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z"
-    },
-    "5e574a15c552a2d525ee7de115f086582500e9e117f05bfc8a8bebbcf8eea5a1": {
-      "decisionKey": "5e574a15c552a2d525ee7de115f086582500e9e117f05bfc8a8bebbcf8eea5a1",
-      "status": "rejected",
-      "reason": "TheBlock 报道的 Grvt 计划通过 Ondo Finance 配置 1 亿美元 USDY，涉及机构对链上美债产品的采用，对加密行业有明确信息增量。标题含具体主体、金额和合作对象，来源为权威媒体，符合发布门槛。",
-      "score": 0.7,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z"
-    },
-    "5137582071ef6aa80dcf570ac13ffefcb38ea9378aa9c7ad763b481aa99ae788": {
-      "decisionKey": "5137582071ef6aa80dcf570ac13ffefcb38ea9378aa9c7ad763b481aa99ae788",
-      "status": "published",
-      "reason": "This is a concrete, newsworthy item from Cointelegraph about eToro's acquisition of TradeZero and a reported 30% drop in Q2 crypto revenue. It provides specific entities, a defined event, and quantifiable data, offering clear information value for crypto industry professionals tracking market structure changes, consolidation, and trading platform performance.",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z",
-      "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
-    },
-    "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d": {
-      "decisionKey": "462832419fcd9b0ed52f04fde544976db25212e798b243c14d7ef4915e142e2d",
-      "status": "failed",
-      "reason": "AI output contains an unknown source URL",
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z"
-    },
-    "4587b6ff54ad2290fc6a50fe15a871740dd5d234110d86baa260979a63b7d3b2": {
-      "decisionKey": "4587b6ff54ad2290fc6a50fe15a871740dd5d234110d86baa260979a63b7d3b2",
-      "status": "published",
-      "reason": "俄罗斯央行提议允许比特币、以太坊和USDT在受监管交易所交易，是直接影响加密市场准入和监管格局的重要政策信号，且来源为公开权威媒体，信息具体可核验。",
-      "score": 0.92,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z",
-      "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
-    },
-    "0a2433964f4887f42ec6d7c4e634b96ef2496c8f65fc13f1bb532511b8509dd3": {
-      "decisionKey": "0a2433964f4887f42ec6d7c4e634b96ef2496c8f65fc13f1bb532511b8509dd3",
-      "status": "published",
-      "reason": "传统支付巨头MoneyGram在Solana上推出全球加密到现金服务，属于重要行业整合与支付基础设施升级，对加密用户和生态有明确影响，来源为CoinDesk，可信且可核验。",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T14:00:59.772Z",
-      "bCommitSha": "26f251b80c2cc84f770b777cdba7971ffae08319"
-    },
-    "de8b346095c0234ddc970ec884b79885ed223fc5a528dd7ccae918387f084cb7": {
-      "decisionKey": "de8b346095c0234ddc970ec884b79885ed223fc5a528dd7ccae918387f084cb7",
-      "status": "published",
-      "reason": "The candidate is a genuine news report from The Block, a credible crypto media outlet, covering UK lawmakers pressing banks on crypto access ahead of the new FCA regime. It includes a specific subject, event, and timing, directly addressing a significant regulatory and banking access barrier for crypto firms. This provides clear informational value for crypto industry audiences.",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "d4bab5da04b602c1e44a2a2e65c3140f1b537aee2a96a9af5d3f3530b2f17a6b": {
-      "decisionKey": "d4bab5da04b602c1e44a2a2e65c3140f1b537aee2a96a9af5d3f3530b2f17a6b",
-      "status": "rejected",
-      "reason": "The candidate is a brief market commentary from a live blog, focusing on bitcoin's price movement and an analyst's opinion about corporate interest shifting to AI. It lacks concrete events, data, or clear impact on the crypto industry, and is effectively price-related speculation.",
-      "score": 0.2,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z"
-    },
-    "bd02b46653824cd7930c80e20f8fc00cb3e73a803026d866663cfcac125a2421": {
-      "decisionKey": "bd02b46653824cd7930c80e20f8fc00cb3e73a803026d866663cfcac125a2421",
-      "status": "published",
-      "reason": "Nvidia's $500 billion AI infrastructure push and MOUs with major Wall Street firms to treat AI compute as a bankable asset class is a significant market structure development. It directly affects crypto compute competition, GPU costs, and decentralized compute networks, providing actionable insight for crypto industry participants.",
-      "score": 0.8,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "a97082c44598bcb0a85d28a98da160429038441ac00605c585f36e45d186ffcf": {
-      "decisionKey": "a97082c44598bcb0a85d28a98da160429038441ac00605c585f36e45d186ffcf",
-      "status": "published",
-      "reason": "比特币核心协议维护者变动及BIP-110分叉争议，对加密行业治理与协议演进有直接影响，来源为CoinDesk真实新闻。",
-      "score": 0.82,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
-    },
-    "a41fec43de79c84f54fc11fbd54caf8c37f5761a3f4a016b536a1ec6efc09a6e": {
-      "decisionKey": "a41fec43de79c84f54fc11fbd54caf8c37f5761a3f4a016b536a1ec6efc09a6e",
-      "status": "published",
-      "reason": "该候选报道了Ravencoin因关键区块缺陷可能回滚四天交易，涉及具体主体、事件和时间，属于加密网络的安全与共识异常事件，对持有和使用Ravencoin的用户有直接影响，具有信息增量，来源为CoinDesk，真实可核验。",
-      "score": 0.9,
-      "configHash": "7e78cf352b5163bc189895f03df885c5ce84d797dc2cbe6558066aad1784f14c",
-      "updatedAt": "2026-08-11T12:01:09.419Z",
-      "bCommitSha": "0acfcd44bf3bbd29fef89021ff84b8504cc27216"
     }
   },
   "sourceCheckpoints": {
-    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-13T15:16:00.843Z",
-    "https://cointelegraph.com/rss": "2026-09-13T15:16:00.843Z",
-    "https://decrypt.co/feed": "2026-09-13T15:16:00.843Z",
-    "https://www.sec.gov/news/pressreleases.rss": "2026-09-13T15:16:00.843Z",
-    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-13T15:16:00.843Z",
-    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-13T15:16:00.843Z",
-    "https://blog.ethereum.org/feed.xml": "2026-09-13T15:16:00.843Z",
-    "https://bitcoinops.org/feed.xml": "2026-09-13T15:16:00.843Z",
-    "https://www.chainalysis.com/blog/feed/": "2026-09-13T15:16:00.843Z",
-    "https://solana.com/rss.xml": "2026-09-13T15:16:00.843Z",
-    "https://slowmist.medium.com/feed": "2026-09-13T15:16:00.843Z",
-    "https://www.theblock.co/rss.xml": "2026-09-13T15:16:00.843Z"
+    "https://www.coindesk.com/arc/outboundfeeds/rss/": "2026-09-14T17:12:56.167Z",
+    "https://cointelegraph.com/rss": "2026-09-14T17:12:56.167Z",
+    "https://decrypt.co/feed": "2026-09-14T17:12:56.167Z",
+    "https://www.sec.gov/news/pressreleases.rss": "2026-09-14T17:12:56.167Z",
+    "https://www.cftc.gov/RSS/RSSGP/rssgp.xml": "2026-09-14T17:12:56.167Z",
+    "https://www.cftc.gov/RSS/RSSENF/rssenf.xml": "2026-09-14T17:12:56.167Z",
+    "https://blog.ethereum.org/feed.xml": "2026-09-14T17:12:56.167Z",
+    "https://bitcoinops.org/feed.xml": "2026-09-14T17:12:56.167Z",
+    "https://www.chainalysis.com/blog/feed/": "2026-09-14T17:12:56.167Z",
+    "https://solana.com/rss.xml": "2026-09-14T17:12:56.167Z",
+    "https://slowmist.medium.com/feed": "2026-09-14T17:12:56.167Z",
+    "https://www.theblock.co/rss.xml": "2026-09-14T17:12:56.167Z"
   },
-  "lastRunAt": "2026-09-13T15:16:00.843Z"
+  "lastRunAt": "2026-09-14T17:12:56.167Z"
 }
